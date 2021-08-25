@@ -1,6 +1,8 @@
 **/.DS_Store
 .vscode/
-data/
 output/
 **/__pycache__/
 **/__MACOSX/
+
+data/*
+!data/gpt3
