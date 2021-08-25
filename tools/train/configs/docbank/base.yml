@@ -1,0 +1,6 @@
+DATASET:
+  NAME: "docbank-v4"
+  BASE_PATH: "../datasets/docbank/grouped-v4"
+TRAIN:
+  BATCH_SIZE_PER_DEVICE: 50
+  NUM_TRAIN_EPOCHS: 2

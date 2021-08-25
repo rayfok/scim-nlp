@@ -1,0 +1,6 @@
+DATASET:
+  NAME: "publaynet"
+  BASE_PATH: "../datasets/publaynet/converted/grouped-v1"
+TRAIN:
+  BATCH_SIZE_PER_DEVICE: 50
+  NUM_TRAIN_EPOCHS: 2
