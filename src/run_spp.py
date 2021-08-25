@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import argparse
 
 # SPP_URL = "http://pdf-layout-detection-service-dev.us-west-2.elasticbeanstalk.com/detect/"
 SPP_URL = "http://127.0.0.1:8080/detect"
@@ -41,6 +42,19 @@ def parse_folder_of_pdfs(input_dir, output_dir):
 
 
 if __name__ == "__main__":
-    INPUT_DIR = "data/spp-pdf"
-    OUTPUT_DIR = "data/spp-parsed"
-    parse_folder_of_pdfs(INPUT_DIR, OUTPUT_DIR)
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--input_dir",
+        type=str,
+        help="Path to folder containing PDFs to run through spp",
+        required=True,
+    )
+    parser.add_argument(
+        "--output_dir",
+        type=str,
+        help="Path to folder where spp should place PDF parse output",
+        default="data/spp-parsed",
+    )
+    args = parser.parse_args()
+
+    parse_folder_of_pdfs(args.input_dir, args.output_dir)

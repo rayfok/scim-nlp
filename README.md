@@ -4,8 +4,23 @@
 - Download IUI pdfs
 
     ```bash
-    gdown https://drive.google.com/uc?id=1oMm8QkW1OGBwiEAiFu3r9rhdNxdwXJ_C
-    unzip iui_19-21.zip
-    mv iui_19-21 data/
-    rm iui_19-21.zip
+    ./data_scripts/fetch_iui_data.sh
+    ```
+
+- Download scisummnet papers
+
+    ```bash
+    ./data_scripts/fetch_scisumm_data.sh
+    ```
+
+### Run scienceparseplus to detect PDF tokens and their bounding boxes
+
+1. Follow the instructions in the README.md of the scienceparseplus module. Specfically, make sure you:
+    - download the model weights
+    - create the docker image
+    - start the service in a docker container.
+2. Process your PDFs with scienceparseplus
+
+    ```bash
+    python src/run_spp.py --input_dir=<PATH TO PDFS>
     ```

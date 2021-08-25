@@ -2,3 +2,5 @@
 .vscode/
 data/
 output/
+**/__pycache__/
+**/__MACOSX/
