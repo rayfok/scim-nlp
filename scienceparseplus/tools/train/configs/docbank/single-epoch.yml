@@ -1,0 +1,3 @@
+_BASE_: "./base.yml"
+TRAIN:
+  NUM_TRAIN_EPOCHS: 1

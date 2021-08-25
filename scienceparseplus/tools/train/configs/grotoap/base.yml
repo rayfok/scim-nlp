@@ -1,0 +1,6 @@
+DATASET:
+  NAME: "grotoap"
+  BASE_PATH: "../datasets/grotoap2/grouped"
+TRAIN:
+  BATCH_SIZE_PER_DEVICE: 50
+  NUM_TRAIN_EPOCHS: 6
