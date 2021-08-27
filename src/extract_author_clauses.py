@@ -1,6 +1,7 @@
-import json
+import argparse
+from typing import List
+import jsonlines
 import os
-
 import spacy
 from spacy.symbols import VERB
 
@@ -26,7 +27,7 @@ def get_noun_chunk_after(noun_chunks, i):
             return nc
 
 
-def extract_author_clauses(json_file_path: str, dataset):
+def extract_author_sentences(json_file_path: str, dataset: str):
     print(json_file_path)
 
     if dataset == "s2orc":
@@ -36,59 +37,112 @@ def extract_author_clauses(json_file_path: str, dataset):
     elif dataset == "spp-cermine":
         paper = SPPPaper(json_file_path, "cermine")
     sents = paper.sentences
-    clauses = []
+    sentences = []
     for sent in sents:
         sent_split = sent.lower().split()
         if any(pron in sent_split for pron in ["we", "our"]):
-            doc = nlp(sent)
-            # for token in doc:
-            #     print(token.text, token.pos_, token.tag_, token.dep_)
-            clause = []
-            pron_found = False
-            verb_found = False
-            noun_chunk_found = False
-            clause_completed = False
-            sconj_found = False
-            for token in doc:
-                if token.lemma_ == "we":
-                    pron_found = True
-                    clause_completed = False
-                if pron_found and not clause_completed:
-                    if token.pos == VERB:
-                        clause.append(token.text)
-                        verb_found = True
-                    elif token.lemma_ == "that":
-                        clause.append(token.text)
-                        sconj_found = True
-                    elif verb_found:
-                        if not noun_chunk_found:
-                            clause.append(token.text)
-                            if get_noun_chunk_after(doc.noun_chunks, token.i):
-                                noun_chunk_found = True
-                        else:
-                            if not get_noun_chunk_after(doc.noun_chunks, token.i):
-                                if sconj_found:
-                                    clause.append(token.text)
-                                    noun_chunk_found = False
-                                    sconj_found = False
-                                else:
-                                    clause_completed = True
-                                    clauses.append(" ".join(clause))
-                                    clause = []
-                            else:
-                                clause.append(token.text)
-                    else:
-                        clause.append(token.text)
+            sentences.append(sent)
+    return sentences
 
+
+def extract_author_clauses(json_file_path: str, dataset: str):
+    sentences = extract_author_sentences(json_file_path, dataset)
+    clauses = [condense_author_clause(s) for s in sentences]
+    clauses = [c for c in clauses if c is not None]
     return clauses
 
 
-def run_example():
-    json_file_path = "data/spp/hsu_smell-pittsburgh.json"
-    clauses = extract_author_clauses(json_file_path, "spp")
+def condense_author_clause(sent: str):
+    doc = nlp(sent)
+    # for token in doc:
+    #     print(token.text, token.pos_, token.tag_, token.dep_)
+    clause_tokens = []
+    pron_found = False
+    verb_found = False
+    noun_chunk_found = False
+    clause_completed = False
+    sconj_found = False
+    for token in doc:
+        if token.lemma_ == "we":
+            pron_found = True
+            clause_completed = False
+        if pron_found and not clause_completed:
+            if token.pos == VERB:
+                clause_tokens.append(token.text)
+                verb_found = True
+            elif token.lemma_ == "that":
+                clause_tokens.append(token.text)
+                sconj_found = True
+            elif verb_found:
+                if not noun_chunk_found:
+                    clause_tokens.append(token.text)
+                    if get_noun_chunk_after(doc.noun_chunks, token.i):
+                        noun_chunk_found = True
+                else:
+                    if not get_noun_chunk_after(doc.noun_chunks, token.i):
+                        if sconj_found:
+                            clause_tokens.append(token.text)
+                            noun_chunk_found = False
+                            sconj_found = False
+                        else:
+                            final_clause = " ".join(clause_tokens)
+                            return final_clause
+                    else:
+                        clause_tokens.append(token.text)
+            else:
+                clause_tokens.append(token.text)
+
+
+def export_sentences_in_ssc_format(paper_id: str, sentences: List[str], output_path: str):
+    """
+    The sequential-sentence-classification module is used to classify sentences
+    within one of five rhetorical classes. The module requires sentences in a specific
+    JSONL format, which we create here.
+    """
+    with jsonlines.open(output_path, "w") as out:
+        out.write(
+            {
+                "paper_id": paper_id,
+                "sentences": sentences,
+                "labels": ["" for i in range(len(sentences))],
+                "confs": [-1 for i in range(len(sentences))],
+            }
+        )
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--input_file",
+        type=str,
+        help="Path to input json file",
+        required=True,
+    )
+    parser.add_argument(
+        "--dataset",
+        type=str,
+        help="Dataset which contains the specified input file",
+        choices=["s2orc", "spp", "spp-cermine"],
+        required=True,
+    )
+    parser.add_argument(
+        "--export_in_ssc_format",
+        "-e",
+        action="store_true",
+        help="Export author clauses in JSONL format for input to ssc module",
+    )
+    args = parser.parse_args()
+    sentences = extract_author_sentences(args.input_file, args.dataset)
+    if args.export_in_ssc_format:
+        filename = os.path.splitext(os.path.basename(args.input_file))[0]
+        output_path = f"data/seq-sent-class/{filename}.jsonl"
+        export_sentences_in_ssc_format(
+            paper_id=filename, sentences=sentences, output_path=output_path
+        )
+    clauses = extract_author_clauses(args.input_file, args.dataset)
     for c in clauses:
         print(c, "\n")
 
 
 if __name__ == "__main__":
-    run_example()
+    main()

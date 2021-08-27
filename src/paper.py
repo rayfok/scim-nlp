@@ -1,5 +1,6 @@
 import json
 import os
+import xml.etree.ElementTree as ET
 
 import pysbd
 
@@ -10,12 +11,12 @@ class S2OrcPaper:
     def __init__(self, json_file_path: str):
         with open(json_file_path, "r") as f:
             data = json.load(f)
-        self.id = data["paper_id"]
-        self.authors = data["authors"]
-        self.title = data["title"]
-        self.mag_field_of_study = data["mag_field_of_study"]
+        self.id = data["metadata"]["paper_id"]
+        self.authors = data["metadata"]["authors"]
+        self.title = data["metadata"]["title"]
+        self.mag_field_of_study = data["metadata"]["mag_field_of_study"]
         self.body = data["pdf_parse"]["body_text"]
-        self.abstract = data["abstract"]
+        self.abstract = data["metadata"]["abstract"]
         self.sentences = [s.sent for s in SEGMENTER.segment(self._get_full_text())]
 
     def _get_full_text(self):
@@ -83,3 +84,33 @@ class SPPPaper:
                             title_chunks.append(toekn["text"])
             title = " ".join(title_chunks)
         return title
+
+
+class SciSummPaper:
+    def __init__(self, xml_file_path: str):
+        self.xml_file_path = xml_file_path
+        self.id = os.path.splitext(os.path.basename(xml_file_path))[0]
+        self.tree = ET.parse(xml_file_path)
+        root = self.tree.getroot()
+
+        self.body = {}
+        for child in root:
+            if child.tag == "S":
+                self.title = child.text
+            elif child.tag == "ABSTRACT":
+                self.abstract = [sent.text for sent in child]
+            elif child.tag == "SECTION":
+                self.body[child.attrib["title"]] = [sent.text for sent in child]
+
+    def convert_to_json(self, json_output_dir):
+        data = {}
+        data["id"] = self.id
+        data["title"] = self.title
+        data["body"] = self.body
+        json_output_path = f"{json_output_dir}/{self.id}.json"
+        with open(json_output_path, "w") as out:
+            json.dump(data, out, indent=2)
+
+    def get_full_text(self):
+        sentences = [sentence for section in self.body.values() for sentence in section]
+        return sentences

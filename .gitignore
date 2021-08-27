@@ -3,6 +3,9 @@
 output/
 **/__pycache__/
 **/__MACOSX/
+*.tar.gz
 
 data/*
 !data/gpt3
+
+sequential_sentence_classification/src
