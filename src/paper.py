@@ -1,6 +1,8 @@
 import json
 import os
 import xml.etree.ElementTree as ET
+from collections import defaultdict
+import itertools
 
 import pysbd
 
@@ -17,10 +19,22 @@ class S2OrcPaper:
         self.mag_field_of_study = data["metadata"]["mag_field_of_study"]
         self.body = data["pdf_parse"]["body_text"]
         self.abstract = data["metadata"]["abstract"]
-        self.sentences = [s.sent for s in SEGMENTER.segment(self._get_full_text())]
+        self.sent_sect_map, self.sect_sent_map = self._make_sent_sect_map()
+        self.sentences = list(itertools.chain.from_iterable(self.sect_sent_map.values()))
 
-    def _get_full_text(self):
-        return " ".join([chunk["text"] for chunk in self.body])
+    def _make_sent_sect_map(self):
+        sent_sect_map = {}
+        sect_sent_map = defaultdict(list)
+        for chunk in self.body:
+            section = chunk["section"]
+            chunk_sents = [s.sent for s in SEGMENTER.segment(chunk["text"])]
+            for sent in chunk_sents:
+                sent_sect_map[sent] = section
+            sect_sent_map[section].extend(chunk_sents)
+        return sent_sect_map, sect_sent_map
+
+    def get_section_for_sentence(self, sentence):
+        return self.sent_sect_map[sentence]
 
 
 class SPPPaper:

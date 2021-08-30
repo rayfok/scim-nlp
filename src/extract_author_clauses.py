@@ -7,7 +7,7 @@ from spacy.symbols import VERB
 
 from paper import S2OrcPaper, SPPPaper
 
-nlp = spacy.load("en_core_web_trf")
+nlp = spacy.load("en_core_web_md")
 
 
 def token_to_noun_chunk(doc):
