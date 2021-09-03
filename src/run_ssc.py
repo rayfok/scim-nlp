@@ -8,11 +8,14 @@ sys.path.append(".")
 import numpy as np
 from allennlp.models.archival import load_archive
 from allennlp.predictors.predictor import Predictor
-from sequential_sentence_classification import dataset_reader, model, predictor
+from sequential_sentence_classification.sequential_sentence_classification import (
+    dataset_reader, model, predictor)
 from tqdm import tqdm
 
+from utils import SSC_OUTPUT_DIR
 
-def main(model_path: str, test_jsonl_file: str, output_json_file: str):
+
+def run_ssc(model_path: str, test_jsonl_file: str, output_json_file: str):
     text_field_embedder = {
         "token_embedders": {
             "bert": {
@@ -29,10 +32,14 @@ def main(model_path: str, test_jsonl_file: str, output_json_file: str):
         "model": {"text_field_embedder": text_field_embedder},
         "dataset_reader": {
             "token_indexers": token_indexers,
+            "use_sep": False,
+            "predict": True,
         },
     }
 
-    model_archive = load_archive(model_path, overrides=json.dumps(overrides), cuda_device=0)
+    model_archive = load_archive(
+        model_path, overrides=json.dumps(overrides), cuda_device=0
+    )
     predictor = Predictor.from_archive(model_archive, "SeqClassificationPredictor")
     dataset_reader = predictor._dataset_reader
     model = predictor._model
@@ -47,6 +54,10 @@ def main(model_path: str, test_jsonl_file: str, output_json_file: str):
     result = {}
     with open(output_json_file, "w") as out_f:
         for json_dict in tqdm(test_jsons, desc="Predicting..."):
+            sentences = json_dict["sentences"]
+            if not sentences:
+                continue
+
             instances = dataset_reader.read_one_example(json_dict)
             if not isinstance(instances, list):
                 instances = [instances]
@@ -54,12 +65,6 @@ def main(model_path: str, test_jsonl_file: str, output_json_file: str):
             # with open(f"scripts/sentences/{json_dict['abstract_id']}.json", "r") as f:
             #     id_to_sent = json.load(f)
             # sent_to_id = {s: id for id, s in id_to_sent.items()}
-
-            sentences = json_dict["sentences"]
-
-            # if an instance has no detected sentences, skip it
-            if not sentences:
-                continue
 
             scores_list = []
             for instance in instances:
@@ -74,7 +79,9 @@ def main(model_path: str, test_jsonl_file: str, output_json_file: str):
                 print(json_dict.get("abstract_id", "") or json_dict.get("paper_id", ""))
                 continue
             sentences_with_scores = list(zip(sentences, scores_list))
-            sentences_with_scores = sorted(sentences_with_scores, key=lambda x: x[1], reverse=True)
+            sentences_with_scores = sorted(
+                sentences_with_scores, key=lambda x: x[1], reverse=True
+            )
 
             preds = []
             for sentence, scores in sentences_with_scores:
@@ -82,11 +89,7 @@ def main(model_path: str, test_jsonl_file: str, output_json_file: str):
                 pred_label = idx_to_label_map[pred_idx].split("_")[0].capitalize()
                 pred_prob = scores[pred_idx]
                 preds.append(
-                    {
-                        "sentence": sentence,
-                        "label": pred_label,
-                        "prob": pred_prob,
-                    }
+                    {"sentence": sentence, "label": pred_label, "prob": pred_prob,}
                 )
             if "abstract_id" in json_dict:
                 result[json_dict["abstract_id"]] = preds
@@ -108,13 +111,16 @@ if __name__ == "__main__":
         required=True,
     )
     parser.add_argument(
-        "--output_file",
-        "-o",
-        help="Name of file to output json predictions.",
-        required=True,
+        "--output_file", "-o", help="Name of file to output json predictions.",
     )
     args = parser.parse_args()
 
-    os.makedirs("output", exist_ok=True)
-    output_json_file = os.path.join("output", args.output_file)
-    main(args.path_to_model, args.test_jsonl_file, output_json_file)
+    os.makedirs(SSC_OUTPUT_DIR, exist_ok=True)
+    if args.output_file:
+        output_filename = args.output_file
+    else:
+        output_filename = (
+            os.path.splitext(os.path.basename(args.test_jsonl_file))[0] + ".json"
+        )
+    output_json_file = os.path.join(SSC_OUTPUT_DIR, output_filename)
+    run_ssc(args.path_to_model, args.test_jsonl_file, output_json_file)

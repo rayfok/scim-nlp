@@ -1,9 +1,14 @@
-from paper import S2OrcPaper, SPPPaper
+import json
+import os
+import re
+from collections import defaultdict
+from dataclasses import dataclass
 
 import spacy
 from spacy.symbols import VERB
-import os
-import re
+
+from paper import RhetoricUnit, S2OrcPaper, SPPPaper
+from utils import make_ssc_input
 
 nlp = spacy.load("en_core_web_md")
 
@@ -69,6 +74,7 @@ class LexicalSet:
             ],
             "than": ["compare"],
             "however": ["other hand", "although", "though", "but"],
+            "extend": ["extension", "extends"],
             "contribution": ["contribute"],
         }
 
@@ -84,6 +90,8 @@ class AZClassifier:
         self.json_file_path = json_file_path
         self.dataset = dataset
 
+        self.id = os.path.splitext(os.path.basename(json_file_path))[0]
+
         if dataset == "s2orc":
             self.paper = S2OrcPaper(json_file_path)
         elif dataset == "spp":
@@ -91,7 +99,6 @@ class AZClassifier:
         elif dataset == "spp-cermine":
             self.paper = SPPPaper(json_file_path, "cermine")
 
-        self.sentences = self.paper.sentences
         self.lexical_set = LexicalSet()
 
     def _sentence_contains_root_or_aliases(self, sentence, roots):
@@ -106,33 +113,74 @@ class AZClassifier:
                     found.append(token)
         return found
 
-    def detect_novelty(self):
-        for i, sentence in enumerate(self.sentences):
-            # doc = nlp(sentence.lower())
-            # for token in doc:
-            #     print(token.text, token.pos_, token.tag_, token.dep_)
-            diff_found = self._sentence_contains_root_or_aliases(
-                sentence, ["inconsistent", "than", "however"]
-            )
-            we_found = self._sentence_contains_root_or_aliases(sentence, "we")
-            if len(diff_found) > 0 and len(we_found) > 0:
-                print(sentence, "\n")
+    def _has_section(self, aliases):
+        for section in self.paper.sections:
+            for a in aliases:
+                if a in section.lower():
+                    return True
+        return False
+
+    def _is_in_introduction(self, sentence):
+        section_found = self.paper.get_section_for_sentence(sentence)
+        section_found = section_found.lower()
+        return "introduction" in section_found
+
+    def _is_in_conclusion(self, sentence):
+        section_found = self.paper.get_section_for_sentence(sentence)
+        section_found = section_found.lower()
+        return "conclusion" in section_found
+
+    def _is_in_discussion(self, sentence):
+        section_found = self.paper.get_section_for_sentence(sentence)
+        section_found = section_found.lower()
+        return "discussion" in section_found
+
+    def _is_in_related_work(self, sentence):
+        section_found = self.paper.get_section_for_sentence(sentence)
+        section_found = section_found.lower()
+        aliases = ["related work", "background"]
+        return any(a in section_found for a in aliases)
+
+    def _is_in_future_work(self, sentence):
+        section_found = self.paper.get_section_for_sentence(sentence)
+        section_found = section_found.lower()
+        aliases = ["future work"]
+        return any(a in section_found for a in aliases)
 
     def detect_contribution(self):
-        for sentence in self.sentences:
-            cont_found = self._sentence_contains_root_or_aliases(
-                sentence, ["contribution"]
+        print("=== Contribution ===")
+        detected = []
+        for sent_bbox_obj in self.paper.sentences_bbox:
+            sentence = sent_bbox_obj.text
+            bboxes = sent_bbox_obj.bboxes
+            found = self._sentence_contains_root_or_aliases(sentence, ["contribution"])
+
+            if not found:
+                continue
+
+            section = self.paper.get_section_for_sentence(sentence)
+            is_author_statement = (
+                len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
             )
-            we_found = self._sentence_contains_root_or_aliases(sentence, "we")
-            if len(cont_found) > 0 and len(we_found) > 0:
-                section_found = self.paper.get_section_for_sentence(sentence)
-                if "introduction" in section_found.lower():
-                    print(
-                        f"tokens: {cont_found}\nsection: {self.paper.get_section_for_sentence(sentence)}\n{sentence}\n"
-                    )
+            is_in_expected_section = self._is_in_introduction(sentence)
+            rhetoric_unit = RhetoricUnit(
+                text=sentence,
+                label="Contribution",
+                bboxes=bboxes,
+                section=section,
+                prob=None,
+                is_author_statement=is_author_statement,
+                is_in_expected_section=is_in_expected_section,
+            )
+            detected.append(rhetoric_unit)
+        return detected
 
     def detect_objective(self):
-        for sentence in self.sentences:
+        print("=== Objective ===")
+        detected = []
+        for sent_bbox_obj in self.paper.sentences_bbox:
+            sentence = sent_bbox_obj.text
+            bboxes = sent_bbox_obj.bboxes
             aim_noun_found = self._sentence_contains_root_or_aliases(
                 sentence, ["aim", "question"]
             )
@@ -147,27 +195,165 @@ class AZClassifier:
             doc = nlp(sentence.lower())
             keep_aim_tokens = []
             for token in doc:
-                if token.text in aim_verb_found and token.pos_ == VERB:
+                if token.pos_ != VERB:
+                    continue
+                if token.text in aim_verb_found:
                     keep_aim_tokens.append(token)
-
             aim_found = aim_noun_found + keep_aim_tokens
-            we_found = self._sentence_contains_root_or_aliases(sentence, "we")
-            if aim_found and we_found:
-                section_found = self.paper.get_section_for_sentence(sentence)
-                if (
-                    "introduction" in section_found.lower()
-                    or "conclusion" in section_found.lower()
-                ):
-                    print(
-                        f"tokens: {aim_found}\nsection: {self.paper.get_section_for_sentence(sentence)}\n{sentence}\n"
-                    )
+
+            if not aim_found:
+                continue
+
+            section = self.paper.get_section_for_sentence(sentence)
+            is_author_statement = (
+                len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
+            )
+            is_in_expected_section = self._is_in_introduction(
+                sentence
+            ) or self._is_in_conclusion(sentence)
+            rhetoric_unit = RhetoricUnit(
+                text=sentence,
+                label="Objective",
+                bboxes=bboxes,
+                section=section,
+                prob=None,
+                is_author_statement=is_author_statement,
+                is_in_expected_section=is_in_expected_section,
+            )
+            detected.append(rhetoric_unit)
+        return detected
+
+    def detect_novelty(self):
+        print("=== Novelty ===")
+        detected = []
+        for sent_bbox_obj in self.paper.sentences_bbox:
+            sentence = sent_bbox_obj.text
+            bboxes = sent_bbox_obj.bboxes
+            found = self._sentence_contains_root_or_aliases(
+                sentence, ["inconsistent", "however", "extend"]
+            )
+
+            if not found:
+                continue
+
+            section = self.paper.get_section_for_sentence(sentence)
+            is_author_statement = (
+                len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
+            )
+            is_in_expected_section = self._is_in_related_work(
+                sentence
+            ) or self._is_in_introduction(sentence)
+            rhetoric_unit = RhetoricUnit(
+                text=sentence,
+                label="Novelty",
+                bboxes=bboxes,
+                section=section,
+                prob=None,
+                is_author_statement=is_author_statement,
+                is_in_expected_section=is_in_expected_section,
+            )
+            detected.append(rhetoric_unit)
+        return detected
+
+    def detect_conclusion(self):
+        print("=== Conclusion ===")
+        detected = []
+        for sent_bbox_obj in self.paper.sentences_bbox:
+            sentence = sent_bbox_obj.text
+            bboxes = sent_bbox_obj.bboxes
+            con_found = self._sentence_contains_root_or_aliases(sentence, ["conclude"])
+            con_likely_found = self._sentence_contains_root_or_aliases(
+                sentence, ["suggest", "thus", "likely", "because"]
+            )
+
+            if not con_found and not con_likely_found:
+                continue
+
+            section = self.paper.get_section_for_sentence(sentence)
+            is_author_statement = (
+                len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
+            )
+            is_in_expected_section = self._is_in_conclusion(
+                sentence
+            ) or self._is_in_discussion(sentence)
+            if con_found:
+                prob = 1
+            elif con_likely_found:
+                prob = 0.5
+            rhetoric_unit = RhetoricUnit(
+                text=sentence,
+                label="Conclusion",
+                bboxes=bboxes,
+                section=section,
+                prob=prob,
+                is_author_statement=is_author_statement,
+                is_in_expected_section=is_in_expected_section,
+            )
+            detected.append(rhetoric_unit)
+        return detected
+
+    def detect_future_work(self):
+        print("=== Future Work ===")
+        detected = []
+        for sent_bbox_obj in self.paper.sentences_bbox:
+            sentence = sent_bbox_obj.text
+            bboxes = sent_bbox_obj.bboxes
+            found = self._sentence_contains_root_or_aliases(
+                sentence, ["will", "need", "future"]
+            )
+
+            if not found:
+                continue
+
+            section = self.paper.get_section_for_sentence(sentence)
+            is_author_statement = (
+                len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
+            )
+            is_in_expected_section = (
+                self._is_in_conclusion(sentence)
+                or self._is_in_discussion(sentence)
+                or self._is_in_future_work(sentence)
+            )
+
+            rhetoric_unit = RhetoricUnit(
+                text=sentence,
+                label="Future Work",
+                bboxes=bboxes,
+                section=section,
+                prob=None,
+                is_author_statement=is_author_statement,
+                is_in_expected_section=is_in_expected_section,
+            )
+            detected.append(rhetoric_unit)
+        return detected
 
 
 if __name__ == "__main__":
-    azc = AZClassifier("data/s2orc_acl_20200705v1/210987719.json", "s2orc")
-    for paper in os.scandir("data/s2orc_acl_20200705v1/"):
-        azc = AZClassifier(paper.path, "s2orc")
-        print(azc.json_file_path)
-        # azc.detect_contribution()
-        # azc.detect_novelty()
-        azc.detect_objective()
+    # Run on s2orc_acl_20200705v1 data
+    ssc_output_file = "data/ssc-input/s2orc_acl_2016"
+    DATA_DIR = "data/s2orc_acl_20200705v1"
+    by_year = defaultdict(list)
+    for file_e in os.scandir(DATA_DIR):
+        if not os.path.isfile(file_e.path):
+            continue
+        with open(file_e.path, "r") as f:
+            paper = json.load(f)
+            metadata = paper["metadata"]
+        if "year" not in metadata:
+            continue
+        if "arxiv_id" not in metadata:
+            continue
+        year = metadata["year"]
+        arxiv_id = metadata["arxiv_id"]
+        if year and arxiv_id:
+            by_year[year].append((file_e.path, arxiv_id))
+    for paper in by_year[2016]:
+        paper_path, arxiv_id = paper
+        print(paper_path)
+        detected = []
+        azc = AZClassifier(paper_path, "s2orc")
+        detected += azc.detect_contribution()
+        detected += azc.detect_novelty()
+        detected += azc.detect_objective()
+        detected += azc.detect_conclusion()
+        detected += azc.detect_future_work()

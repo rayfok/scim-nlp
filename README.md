@@ -33,12 +33,9 @@
     gdown https://drive.google.com/uc?id=1bx9hl6AhQdQ6hId4-N4ENM-jt7cwpqi6
     ```
 
-2. Altnertively, follow the README.md in the `sequential_sentence_classification` module to re-train the model.
+2. Alternatively, follow the README.md in the `sequential_sentence_classification` module to re-train the model.
 3. Run the classifier
 
     ```bash
-    python src/run_ssc.py \
-        --path_to_model sequential_sentence_classification/model.tar.gz \
-        --test_jsonl_file=<path to input JSONL file> \
-        --output_file=<path to output JSON file>
+    python src/run_ssc.py --path_to_model=sequential_sentence_classification/model.tar.gz --test_jsonl_file=<path to input JSONL file> --output_file=<path to output JSON file>
     ```

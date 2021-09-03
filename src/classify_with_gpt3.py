@@ -24,7 +24,7 @@ def main():
     # upload_labeled_data(training_file="data/gpt3/contribution_train.jsonl")
     # return
 
-    p = SPPPaper("data/spp-parsed/weisz_perfection-not-required.json")
+    p = SPPPaper("data/spp-output/weisz_perfection-not-required.json")
 
     # Select sentences from the introduction only
     intro_sentences = p.sentences[:24]

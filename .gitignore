@@ -4,6 +4,7 @@ output/
 **/__pycache__/
 **/__MACOSX/
 *.tar.gz
+private/
 
 data/*
 !data/gpt3

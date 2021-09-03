@@ -1,11 +1,12 @@
 import argparse
-from typing import List
-import jsonlines
 import os
+from typing import List
+
 import spacy
 from spacy.symbols import VERB
 
 from paper import S2OrcPaper, SPPPaper
+from utils import make_ssc_input
 
 nlp = spacy.load("en_core_web_md")
 
@@ -28,8 +29,6 @@ def get_noun_chunk_after(noun_chunks, i):
 
 
 def extract_author_sentences(json_file_path: str, dataset: str):
-    print(json_file_path)
-
     if dataset == "s2orc":
         paper = S2OrcPaper(json_file_path)
     elif dataset == "spp":
@@ -41,6 +40,9 @@ def extract_author_sentences(json_file_path: str, dataset: str):
     for sent in sents:
         sent_split = sent.lower().split()
         if any(pron in sent_split for pron in ["we", "our"]):
+            sentences.append(sent)
+            continue
+        if any(p in sent.lower() for p in ["this paper"]):
             sentences.append(sent)
     return sentences
 
@@ -93,30 +95,10 @@ def condense_author_clause(sent: str):
                 clause_tokens.append(token.text)
 
 
-def export_sentences_in_ssc_format(paper_id: str, sentences: List[str], output_path: str):
-    """
-    The sequential-sentence-classification module is used to classify sentences
-    within one of five rhetorical classes. The module requires sentences in a specific
-    JSONL format, which we create here.
-    """
-    with jsonlines.open(output_path, "w") as out:
-        out.write(
-            {
-                "paper_id": paper_id,
-                "sentences": sentences,
-                "labels": ["" for i in range(len(sentences))],
-                "confs": [-1 for i in range(len(sentences))],
-            }
-        )
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--input_file",
-        type=str,
-        help="Path to input json file",
-        required=True,
+        "--input_file", type=str, help="Path to input json file", required=True,
     )
     parser.add_argument(
         "--dataset",
@@ -135,10 +117,7 @@ def main():
     sentences = extract_author_sentences(args.input_file, args.dataset)
     if args.export_in_ssc_format:
         filename = os.path.splitext(os.path.basename(args.input_file))[0]
-        output_path = f"data/seq-sent-class/{filename}.jsonl"
-        export_sentences_in_ssc_format(
-            paper_id=filename, sentences=sentences, output_path=output_path
-        )
+        make_ssc_input(id=filename, sentences=sentences)
     clauses = extract_author_clauses(args.input_file, args.dataset)
     for c in clauses:
         print(c, "\n")

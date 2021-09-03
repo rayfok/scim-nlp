@@ -6,7 +6,7 @@ import jsonlines
 from paper import SciSummPaper
 
 INPUT_DIR = "data/scisummnet/top1000_complete"
-OUTPUT_DIR = "data/seq-sent-class"
+OUTPUT_DIR = "data/ssc-input"
 OUTPUT_FILE = "scisummnet.jsonl"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -23,9 +23,7 @@ for paper in os.scandir(INPUT_DIR):
         processed.append(
             {
                 "paper_id": p.id,
-                "sentences": sentences,
-                "labels": ["" for i in range(len(sentences))],
-                "confs": [-1 for i in range(len(sentences))],
+                "sentences": sentences
             }
         )
 with jsonlines.open(f"{OUTPUT_DIR}/{OUTPUT_FILE}", "w") as out:
