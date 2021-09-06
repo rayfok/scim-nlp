@@ -8,8 +8,6 @@ from spacy.symbols import VERB
 from paper import S2OrcPaper, SPPPaper
 from utils import make_ssc_input
 
-nlp = spacy.load("en_core_web_md")
-
 
 def token_to_noun_chunk(doc):
     noun_chunks = [nc for nc in doc.noun_chunks]
@@ -55,6 +53,7 @@ def extract_author_clauses(json_file_path: str, dataset: str):
 
 
 def condense_author_clause(sent: str):
+    nlp = spacy.load("en_core_web_md")
     doc = nlp(sent)
     # for token in doc:
     #     print(token.text, token.pos_, token.tag_, token.dep_)

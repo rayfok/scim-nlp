@@ -1,6 +1,7 @@
 import difflib
 import json
 import os
+import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from typing import Dict, List
@@ -74,6 +75,7 @@ class SPPPaper:
         self.blocks = self._get_blocks()
         self.sentences = self._get_sentences()
         self.sentences_bbox = self._get_sentences_with_bbox()
+        self.sent_bbox_map = self._make_sent_bbox_map()
 
         self.sent_sect_map = self._make_sent_sect_map()
         self.sections = list(set(self.sent_sect_map.values()))
@@ -95,41 +97,17 @@ class SPPPaper:
             sent.text = self._clean_sentence(sent)
         return sents_bbox
 
+    def _make_sent_bbox_map(self):
+        sent_bbox_map = {}
+        for sent_bbox in self.sentences_bbox:
+            sent_bbox_map[sent_bbox.text] = sent_bbox.bboxes
+        return sent_bbox_map
+
     def _clean_sentence(self, sentence):
         sentence_text = sentence.text.encode("ascii", "ignore")
         sentence_text = sentence_text.decode()
         sentence_text = sentence_text.replace("- ", "")
         return sentence_text
-
-    # def _get_sentences(self):
-    #     if self.engine == "cermine":
-    #         body_blocks = []
-    #         for page in self.data:
-    #             for b in page["layout"]["blocks"]:
-    #                 if b["type"] == "GEN_BODY":
-    #                     body_blocks.append(b["text"])
-    #         body_text = " ".join(body_blocks)
-    #         body_text = body_text.replace("- ", "")
-    #         sentences = [s.sent for s in SEGMENTER.segment(body_text)]
-    #         return sentences
-    #     elif self.engine == "detect":
-    #         full_chunks = []
-    #         for page in self.data:
-    #             page_chunks = []
-    #             for bundle in page["layout"]["bundles"]:
-    #                 if bundle["type"] != "paragraph":
-    #                     continue
-    #                 bundle_chunks = []
-    #                 for token in bundle["tokens"]:
-    #                     bundle_chunks.append(token["text"])
-    #                 bundle_text = " ".join(bundle_chunks)
-    #                 page_chunks.append(bundle_text)
-    #             page_text = " ".join(page_chunks)
-    #             full_chunks.append(page_text)
-    #         full_text = " ".join(full_chunks)
-    #         full_text = full_text.replace("- ", "")
-    #         sentences = [s.sent.strip() for s in SEGMENTER.segment(full_text)]
-    #         return sentences
 
     def _get_title(self):
         if self.engine == "cermine":
@@ -149,10 +127,43 @@ class SPPPaper:
             title = " ".join(title_chunks)
         return title
 
+    def _normalize_section_headers(self, section_data):
+        top_level_sections = {}
+        for section in section_data["sections"]:
+            header = section.get("header", None)
+            if header:
+                section_number_list = re.findall(r"[-+]?\d*\.\d+|\d+", header)
+                if (
+                    len(section_number_list) == 1
+                ):  # Make sure there's only one section number per header
+                    section_number = section_number_list[0]
+                    if (
+                        "." not in section_number
+                    ):  # no decimal point means top level section
+                        top_level_sections[section_number] = header
+        # For all non top level section headers, append top level section header
+        for section in section_data["sections"]:
+            header = section.get("header", None)
+            if header:
+                section_number_list = re.findall(r"[-+]?\d*\.\d+|\d+", header)
+                if len(section_number_list) == 1:
+                    section_number = section_number_list[0]
+                    if "." in section_number:
+                        top_level_section_number = section_number.split(".")[0]
+                        top_level_section_header = top_level_sections.get(
+                            top_level_section_number, None
+                        )
+                        if top_level_section_header:
+                            section[
+                                "header"
+                            ] = f"{top_level_section_header} {section['header']}"
+
     def _make_sent_sect_map(self):
         SECTIONS_DIR = "data/sections"
         with open(f"{SECTIONS_DIR}/{self.id}.json", "r") as f:
             section_data = json.load(f)
+        self._normalize_section_headers(section_data)
+
         sent_to_sect = {}
         for section in section_data["sections"]:
             header = section.get("header", None)

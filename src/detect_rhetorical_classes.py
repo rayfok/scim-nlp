@@ -2,13 +2,11 @@ import json
 import os
 import re
 from collections import defaultdict
-from dataclasses import dataclass
 
 import spacy
 from spacy.symbols import VERB
 
 from paper import RhetoricUnit, S2OrcPaper, SPPPaper
-from utils import make_ssc_input
 
 nlp = spacy.load("en_core_web_md")
 
@@ -138,7 +136,7 @@ class AZClassifier:
     def _is_in_related_work(self, sentence):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
-        aliases = ["related work", "background"]
+        aliases = ["related work", "background", "relatedwork"]
         return any(a in section_found for a in aliases)
 
     def _is_in_future_work(self, sentence):
@@ -146,6 +144,41 @@ class AZClassifier:
         section_found = section_found.lower()
         aliases = ["future work"]
         return any(a in section_found for a in aliases)
+
+    def _is_in_result(self, sentence):
+        section_found = self.paper.get_section_for_sentence(sentence)
+        section_found = section_found.lower()
+        aliases = ["result"]
+        return any(a in section_found for a in aliases)
+
+    def _is_in_expected_section(self, sentence, label):
+        if label == "contribution":
+            return self._is_in_introduction(sentence)
+        elif label == "objective":
+            return self._is_in_introduction(sentence) or self._is_in_conclusion(
+                sentence
+            )
+        elif label == "novelty":
+            return self._is_in_related_work(sentence) or self._is_in_introduction(
+                sentence
+            )
+        elif label == "result":
+            return (
+                self._is_in_introduction(sentence)
+                or self._is_in_result(sentence)
+                or self._is_in_conclusion(sentence)
+            )
+        elif label == "conclusion":
+            return self._is_in_conclusion(sentence) or self._is_in_discussion(sentence)
+        elif label == "future work":
+            return (
+                self._is_in_introduction(sentence)
+                or self._is_in_conclusion(sentence)
+                or self._is_in_discussion(sentence)
+                or self._is_in_future_work(sentence)
+            )
+        else:
+            return False
 
     def detect_contribution(self):
         print("=== Contribution ===")
@@ -162,7 +195,9 @@ class AZClassifier:
             is_author_statement = (
                 len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
             )
-            is_in_expected_section = self._is_in_introduction(sentence)
+            is_in_expected_section = self._is_in_expected_section(
+                sentence, "contribution"
+            )
             rhetoric_unit = RhetoricUnit(
                 text=sentence,
                 label="Contribution",
@@ -208,9 +243,7 @@ class AZClassifier:
             is_author_statement = (
                 len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
             )
-            is_in_expected_section = self._is_in_introduction(
-                sentence
-            ) or self._is_in_conclusion(sentence)
+            is_in_expected_section = self._is_in_expected_section(sentence, "objective")
             rhetoric_unit = RhetoricUnit(
                 text=sentence,
                 label="Objective",
@@ -240,9 +273,35 @@ class AZClassifier:
             is_author_statement = (
                 len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
             )
-            is_in_expected_section = self._is_in_related_work(
-                sentence
-            ) or self._is_in_introduction(sentence)
+            is_in_expected_section = self._is_in_expected_section(sentence, "novelty")
+            rhetoric_unit = RhetoricUnit(
+                text=sentence,
+                label="Novelty",
+                bboxes=bboxes,
+                section=section,
+                prob=None,
+                is_author_statement=is_author_statement,
+                is_in_expected_section=is_in_expected_section,
+            )
+            detected.append(rhetoric_unit)
+        return detected
+
+    def detect_result(self):
+        print("=== Result ===")
+        detected = []
+        for sent_bbox_obj in self.paper.sentences_bbox:
+            sentence = sent_bbox_obj.text
+            bboxes = sent_bbox_obj.bboxes
+            found = self._sentence_contains_root_or_aliases(sentence, ["observe"])
+
+            if not found:
+                continue
+
+            section = self.paper.get_section_for_sentence(sentence)
+            is_author_statement = (
+                len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
+            )
+            is_in_expected_section = self._is_in_expected_section(sentence, "result")
             rhetoric_unit = RhetoricUnit(
                 text=sentence,
                 label="Novelty",
@@ -273,9 +332,9 @@ class AZClassifier:
             is_author_statement = (
                 len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
             )
-            is_in_expected_section = self._is_in_conclusion(
-                sentence
-            ) or self._is_in_discussion(sentence)
+            is_in_expected_section = self._is_in_expected_section(
+                sentence, "conclusion"
+            )
             if con_found:
                 prob = 1
             elif con_likely_found:
@@ -309,12 +368,9 @@ class AZClassifier:
             is_author_statement = (
                 len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
             )
-            is_in_expected_section = (
-                self._is_in_conclusion(sentence)
-                or self._is_in_discussion(sentence)
-                or self._is_in_future_work(sentence)
+            is_in_expected_section = self._is_in_expected_section(
+                sentence, "future work"
             )
-
             rhetoric_unit = RhetoricUnit(
                 text=sentence,
                 label="Future Work",
@@ -326,6 +382,28 @@ class AZClassifier:
             )
             detected.append(rhetoric_unit)
         return detected
+
+    def make_ssc_rhetoric_unit(self, sentence, label, prob=None):
+        is_author_statement = (
+            len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
+        )
+        ssc_rhetoric_unit_label_map = {
+            "Method": "method",
+            "Objective": "objective",
+            "Result": "result",
+        }
+        is_in_expected_section = self._is_in_expected_section(
+            sentence, ssc_rhetoric_unit_label_map[label]
+        )
+        return RhetoricUnit(
+            text=sentence,
+            label=label,
+            bboxes=self.paper.sent_bbox_map[sentence],
+            section=self.paper.sent_sect_map[sentence],
+            prob=prob,
+            is_author_statement=is_author_statement,
+            is_in_expected_section=is_in_expected_section,
+        )
 
 
 if __name__ == "__main__":
