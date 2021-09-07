@@ -17,8 +17,8 @@ class LexicalSet:
             "we": ["our", "present study", "this paper", "this work"],
             "previous": ["previously", "recent", "recently"],
             "thus": ["therefore"],
-            "aim": ["objective", "goal", "purpose"],
-            "question": ["hypothesis"],
+            "aim": ["objective", "goal", "purpose", "objectives", "goals", "purposes"],
+            "question": ["questions", "hypothesis", "hypotheses"],
             "investigate": [
                 "explore",
                 "study",
@@ -73,7 +73,7 @@ class LexicalSet:
             "than": ["compare"],
             "however": ["other hand", "although", "though", "but"],
             "extend": ["extension", "extends"],
-            "contribution": ["contribute"],
+            "contribution": ["contributions", "contribute", "contributes"],
         }
 
     def get_roots(self):
@@ -304,7 +304,7 @@ class AZClassifier:
             is_in_expected_section = self._is_in_expected_section(sentence, "result")
             rhetoric_unit = RhetoricUnit(
                 text=sentence,
-                label="Novelty",
+                label="Result",
                 bboxes=bboxes,
                 section=section,
                 prob=None,
