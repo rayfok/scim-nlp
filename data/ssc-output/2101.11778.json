@@ -1,0 +1,2154 @@
+{
+  "2101.11778": [
+    {
+      "sentence": "The two most popular mobile operating systems, Android and iOS, both come pre-installed with tools for the user to track and limit their time in mobile apps.",
+      "label": "Background",
+      "prob": 0.9783356785774231
+    },
+    {
+      "sentence": "However, relevant recommendations sometimes undermined control by being too engaging , i.e., recommending videos that users watch, but that are unplanned and later regretted.",
+      "label": "Background",
+      "prob": 0.9766297340393066
+    },
+    {
+      "sentence": "However, this sets up an arms race in which the designers of digital wellbeing tools are always in a defensive position.",
+      "label": "Background",
+      "prob": 0.9731510877609253
+    },
+    {
+      "sentence": "User sense of agency needs to be integrated into larger design frameworks as one important consideration among many for social media apps.",
+      "label": "Background",
+      "prob": 0.9707247018814087
+    },
+    {
+      "sentence": "In the attention economy, social media apps employ a variety of design mechanismssuch as eye-catching notification icons, tempting clickbait, and never-ending autoplayto maximize their share of the users time.",
+      "label": "Background",
+      "prob": 0.9701430797576904
+    },
+    {
+      "sentence": "However, it is not yet established that these mechanisms are the ones that lead users to feel a loss of control.",
+      "label": "Background",
+      "prob": 0.9699007868766785
+    },
+    {
+      "sentence": "Fourth, users are not the only stakeholders on YouTube, and it would be a mistake to optimize for their sense of agency alone.",
+      "label": "Background",
+      "prob": 0.9672063589096069
+    },
+    {
+      "sentence": "In the domain of impulse buying [81], an e-commerce site (or third-party extension) might foreground shopping list tools to support intentional buying.",
+      "label": "Background",
+      "prob": 0.9664860367774963
+    },
+    {
+      "sentence": "However, they led to a reduced sense of agency via two very different routes: irrelevance and relevance.",
+      "label": "Background",
+      "prob": 0.9647185802459717
+    },
+    {
+      "sentence": "However, a weakness of this approach is that reducing screentime is often a poor proxy for what users actually want.",
+      "label": "Background",
+      "prob": 0.9633391499519348
+    },
+    {
+      "sentence": "Playlists, search, subscriptions, play controls, and watch history & stats primarily made respondents feel more in control.",
+      "label": "Background",
+      "prob": 0.9628433585166931
+    },
+    {
+      "sentence": "These types of actions might be called microplanning, making lightweight plans that guide behavior for a short time, usually just a single session of use.",
+      "label": "Background",
+      "prob": 0.9623366594314575
+    },
+    {
+      "sentence": "However, due to rapid advances in artificial intelligence and recommender systems like YouTube specifically (e.g., [28]), one might expect recommendations in social media apps to become more and more relevant in the coming years.",
+      "label": "Background",
+      "prob": 0.9613105058670044
+    },
+    {
+      "sentence": "However, they must paradoxically mark it as Not interested in order to tell the interface to stop showing videos of this kind because they conflict with their longerterm goals.",
+      "label": "Background",
+      "prob": 0.9612871408462524
+    },
+    {
+      "sentence": "Reducing screentime in certain apps is a common measure of success in digital wellbeing tools.",
+      "label": "Background",
+      "prob": 0.9609748721122742
+    },
+    {
+      "sentence": "Low sense of agency over technology use is associated with negative life impacts such as a loss of social opportunities, productivity, and sleep [20] that often motivate digital wellbeing efforts to begin with.",
+      "label": "Background",
+      "prob": 0.9608883261680603
+    },
+    {
+      "sentence": "Conversely, if YouTube has high confidence that the user is visiting for instrumental use, it could present a search-only interface and hide all recommendations.",
+      "label": "Background",
+      "prob": 0.9600054025650024
+    },
+    {
+      "sentence": "Instead, a nuanced guide to dark patterns might present examples of the problem, followed by counterexamples where such a pattern is appropriate.",
+      "label": "Background",
+      "prob": 0.9597811102867126
+    },
+    {
+      "sentence": "ban on these mechanisms is likely to reduce sense of agency in a substantial number of situations where the user just wants to explore.",
+      "label": "Background",
+      "prob": 0.9594232439994812
+    },
+    {
+      "sentence": "There is therefore a concern that designs to increase sense of agency may be disconnected from actual ability to influence the world.",
+      "label": "Background",
+      "prob": 0.9586707949638367
+    },
+    {
+      "sentence": "Second, time and attention are not the only factors that influence sense of agency.",
+      "label": "Background",
+      "prob": 0.9551190137863159
+    },
+    {
+      "sentence": "Behavior change researchers have long known that plans can help bridge the gap between intentions and behavior.",
+      "label": "Background",
+      "prob": 0.9540300965309143
+    },
+    {
+      "sentence": "When individual participants reviewed the different versions of their own sketches and our mockups, they were often conflicted about how much control they preferred.",
+      "label": "Background",
+      "prob": 0.9536511301994324
+    },
+    {
+      "sentence": "At one end are external mechanisms that monitor or police apps, such as screentime statistics and lockout timers.",
+      "label": "Background",
+      "prob": 0.9526588320732117
+    },
+    {
+      "sentence": "Google, creators, advertisers, and even society itself all have a stake in what happens on YouTube.",
+      "label": "Background",
+      "prob": 0.9498230218887329
+    },
+    {
+      "sentence": "Within YouTube, there are two digital wellbeing features that do move beyond time spent controls and offer more granular control.",
+      "label": "Background",
+      "prob": 0.949150025844574
+    },
+    {
+      "sentence": "Conversely, in sketches to undermine control, it was common to remove video metadata.",
+      "label": "Background",
+      "prob": 0.9470258355140686
+    },
+    {
+      "sentence": "Third, and perhaps most importantly, sense of agency matters in its own right.",
+      "label": "Background",
+      "prob": 0.9461628794670105
+    },
+    {
+      "sentence": "in its recommendations to the user [76], but this should be preceded by a more fundamental question of whether or not to show recommendations in the first place.",
+      "label": "Background",
+      "prob": 0.9444685578346252
+    },
+    {
+      "sentence": "In contrast, by helping participants plan ahead for even just a short while, existing mechanisms like playlists and watch stats made participants feel more in control.",
+      "label": "Background",
+      "prob": 0.9428412914276123
+    },
+    {
+      "sentence": "YouTube is an important case for better understanding the design mechanisms of attention capture.",
+      "label": "Background",
+      "prob": 0.9397148489952087
+    },
+    {
+      "sentence": "Sometimes participants held intentions with a moderate level of specificity, in which case participants wanted to retain some control but also delegate some to YouTube.",
+      "label": "Background",
+      "prob": 0.9383164048194885
+    },
+    {
+      "sentence": "However, given that people routinely report using technology in ways that are a waste of their time and that they later regret [4, 49, 59, 68], there is a need for research to examine which design patterns prompt such attentional harms for the user.",
+      "label": "Background",
+      "prob": 0.93802410364151
+    },
+    {
+      "sentence": "For instance, radicalizing political videos can make viewers feel as if they have uncovered powerful conspiracies that were previously hidden from them [94]; to support sense of agency in this use case would be dangerous.",
+      "label": "Background",
+      "prob": 0.9360080361366272
+    },
+    {
+      "sentence": "For example, users disliked ads, but also expected them and indicated their reluctant consent.",
+      "label": "Background",
+      "prob": 0.9347018599510193
+    },
+    {
+      "sentence": "Internal mechanisms fundamentally change the experience within a problematic app, or rebuild it into a new experience entirely.",
+      "label": "Background",
+      "prob": 0.9335927367210388
+    },
+    {
+      "sentence": "Whereas an external mechanism might block the Facebook app after time is up, a more internal could reconfigure the newsfeed to show only content from close personal friends.",
+      "label": "Background",
+      "prob": 0.9291284084320068
+    },
+    {
+      "sentence": "Design practitioners have raised concerns about dark patterns, interfaces that are designed to manipulate a user into behavior that goes against their best interests [43, 67].",
+      "label": "Background",
+      "prob": 0.9287813305854797
+    },
+    {
+      "sentence": "In contrast to external mechanisms, the space of internal mechanisms is relatively underexplored (see [45, 66] for notable exceptions), but holds particular promise for increasing user agency in two ways.",
+      "label": "Background",
+      "prob": 0.9279791116714478
+    },
+    {
+      "sentence": "When they had a non-specific intention such as relaxing, they preferred design mechanisms that turned control over to YouTube.",
+      "label": "Background",
+      "prob": 0.9265329837799072
+    },
+    {
+      "sentence": "Although HCI design guidelines advise supporting user sense of agency [83, 103], we should not assume that a greater sense of agency is always desirable.Specifically,",
+      "label": "Background",
+      "prob": 0.9236124753952026
+    },
+    {
+      "sentence": "It is also frequently reported as a source of distraction [2], suggesting that it is a good site for the investigation of attention capture dark patterns.",
+      "label": "Background",
+      "prob": 0.9231452345848083
+    },
+    {
+      "sentence": "Whereas both of the studies in this work elicit user preferences (what users say), the dominant paradigm of recommender systems today, including YouTube, is behaviorism: recommendations largely neglect explicit preferences and instead rely on behavior traces (what users do) [37].",
+      "label": "Background",
+      "prob": 0.9213814735412598
+    },
+    {
+      "sentence": "Third, the accuracy of YouTube algorithms has mixed consequences for control.",
+      "label": "Background",
+      "prob": 0.9144452810287476
+    },
+    {
+      "sentence": "A redesign of internal mechanisms may be able to remove problematic aspects from an app, while still retaining its benefits.",
+      "label": "Background",
+      "prob": 0.9125530123710632
+    },
+    {
+      "sentence": "While the notification digest and the autoplay toggle clearly do more than just track and limit time, it is not immediately clear by what measure of success they might be evaluated.",
+      "label": "Background",
+      "prob": 0.9104766249656677
+    },
+    {
+      "sentence": "A hallmark of an external mechanism is that it functions identically across multiple apps, as in a timer that locks the user out of social media, gaming, and video apps.",
+      "label": "Background",
+      "prob": 0.9101946949958801
+    },
+    {
+      "sentence": "Recent work has found that classifiers can be trained to predict these types of media use with high confidence, e.g., for Pinterest [25] and smartphone use [51].",
+      "label": "Background",
+      "prob": 0.9089069962501526
+    },
+    {
+      "sentence": "However, such changes might lead to adverse effects as there were also times when participants preferred low-control features.",
+      "label": "Background",
+      "prob": 0.9080764055252075
+    },
+    {
+      "sentence": "While this creates a murky gray middle, it also better describes the effects of the design mechanisms that we identified in our studies.",
+      "label": "Background",
+      "prob": 0.9076387882232666
+    },
+    {
+      "sentence": "Designing for an  internal locus of control  is one of Shneiderman and Plaisants Eight Golden Rules of Interface Design, arising from the observation that users want  the sense that they are in charge of an interface and that the interface responds to their actions  [103].",
+      "label": "Background",
+      "prob": 0.9070789217948914
+    },
+    {
+      "sentence": "At present, design researchers have innovated many tools on the external side of the spectrum, that monitor and police multiple apps in the same way [27, 56, 57, 79, 86].",
+      "label": "Background",
+      "prob": 0.9057176113128662
+    },
+    {
+      "sentence": "Notifications sometimes supported planning and sometimes not.",
+      "label": "Background",
+      "prob": 0.9049115777015686
+    },
+    {
+      "sentence": "These designs made it easier for users to know what to expect from a video by surfacing metadata like view count, user ratings, and descriptions.",
+      "label": "Background",
+      "prob": 0.9044625759124756
+    },
+    {
+      "sentence": "Given their mixed experiences with recommendations, participants expressed frustration with the customization settings at their disposal (or lack thereof).",
+      "label": "Background",
+      "prob": 0.9040656089782715
+    },
+    {
+      "sentence": "And loss of control is a key component of many measures of problematic technology use [24].",
+      "label": "Background",
+      "prob": 0.9032101631164551
+    },
+    {
+      "sentence": "Likewise, industry designers have built tools that apply the same time lockout mechanism to",
+      "label": "Background",
+      "prob": 0.9006494283676147
+    },
+    {
+      "sentence": "For designers, the language of dark patterns is an important way to contribute to a broader critical discussion of design practices in the the technology industry [43].",
+      "label": "Background",
+      "prob": 0.8987985253334045
+    },
+    {
+      "sentence": "Second, internal mechanisms shift the focus from fighting distractions to aligning interests.",
+      "label": "Background",
+      "prob": 0.8973618149757385
+    },
+    {
+      "sentence": "In Study 2, this may have primed participants to focus on sense of agency over other factors when evaluating which version of the mockup they preferred.",
+      "label": "Background",
+      "prob": 0.8942698240280151
+    },
+    {
+      "sentence": "Each screen represented a minimal version of a video app without recommendations, rather than a direct copy of the current YouTube interface.",
+      "label": "Background",
+      "prob": 0.8929443955421448
+    },
+    {
+      "sentence": "At the regulatory level, a recent review of dark patterns by Naraynan et al. notes that if the design community does not self-regulate by setting standards for itself, it may be regulated by more onerous standards set by others [82].",
+      "label": "Background",
+      "prob": 0.8922778367996216
+    },
+    {
+      "sentence": "For example, they queued videos in advance to limit what they watched during a single session or glanced at their Time watched statistics to know whether to watch another video or add it to their Watch Later playlist.",
+      "label": "Background",
+      "prob": 0.8865532875061035
+    },
+    {
+      "sentence": "For example, policymakers may wish to exert control over extremist content.",
+      "label": "Background",
+      "prob": 0.8849315643310547
+    },
+    {
+      "sentence": "At the other end of the spectrum, internal mechanisms contribute to the redesign or rebuild of an experience.",
+      "label": "Background",
+      "prob": 0.8843163251876831
+    },
+    {
+      "sentence": "Sense of agency matters for digital wellbeing in at least three ways.",
+      "label": "Background",
+      "prob": 0.8839982748031616
+    },
+    {
+      "sentence": "Moreover, a lack of sense of agency itself can be understood as a driver of the dissatisfaction that people often feel with their social media use [72].",
+      "label": "Background",
+      "prob": 0.8800415396690369
+    },
+    {
+      "sentence": "External mechanisms often respond to the temptations of problematic apps with microboundaries [29] or restraints on interactions [89].",
+      "label": "Background",
+      "prob": 0.8797324895858765
+    },
+    {
+      "sentence": "External mechanisms, such as locking the user out of a device, often require sacrifices that users are reluctant to accept [56, 115].",
+      "label": "Background",
+      "prob": 0.8791628479957581
+    },
+    {
+      "sentence": "Finally, if it has low confidence in its prediction, it could present a middle-ground interface that shows limited recommendations, or it might err on the side of caution and lead with a search-first interface in case the user has an intention to express.",
+      "label": "Background",
+      "prob": 0.8791307210922241
+    },
+    {
+      "sentence": "We further limited coding to responses that specified a mechanism within the interface of the YouTube mobile app, i.e., something the apps designers could directly change.",
+      "label": "Background",
+      "prob": 0.8788388967514038
+    },
+    {
+      "sentence": "It also means exploring how recommendations can support user aspirations rather than just reinforce current behaviors, which requires better measures of long-term preferences.",
+      "label": "Background",
+      "prob": 0.877954363822937
+    },
+    {
+      "sentence": "However, external mechanisms do not significantly change the experience within individual apps.",
+      "label": "Background",
+      "prob": 0.8751304745674133
+    },
+    {
+      "sentence": "In response, digital wellbeing researchers have innovated what we term external mechanisms that help users manage or monitor their app use, such as lockout timers [56] and productivity dashboards [58].",
+      "label": "Background",
+      "prob": 0.8738661408424377
+    },
+    {
+      "sentence": "For instance, although the recommendations in the current version of YouTube seemed to reduce sense of agency in most of the Study 1 responses, a different implementation of recommendations might produce different effects.",
+      "label": "Background",
+      "prob": 0.873214840888977
+    },
+    {
+      "sentence": "Both our own findings on autoplay and previous work suggest that such a high level of automation would reduce sense of agency [11], but it may still be the interface that the user prefers in this situation.",
+      "label": "Background",
+      "prob": 0.8722409605979919
+    },
+    {
+      "sentence": "creators may wish to control how much time users spend on their channel.",
+      "label": "Background",
+      "prob": 0.8717921376228333
+    },
+    {
+      "sentence": "Participants in both of our studies reported mixed experiences with many design mechanisms, including autoplay and recommendations.",
+      "label": "Background",
+      "prob": 0.8707897663116455
+    },
+    {
+      "sentence": "Non-consent was often felt as a result of (perceived) deception.",
+      "label": "Background",
+      "prob": 0.8703545928001404
+    },
+    {
+      "sentence": "The  endless  quantity of recommendations also made it hard to stop watching.",
+      "label": "Background",
+      "prob": 0.8674341440200806
+    },
+    {
+      "sentence": "Second, recommendations were sometimes too relevant, which presents a more vexing problem from a digital wellbeing perspective.",
+      "label": "Background",
+      "prob": 0.8673611879348755
+    },
+    {
+      "sentence": "In addition to the previously stated limitations of our participant sampling and focus on design mechanisms as a unit of analysis, our work also has at least four conceptual limitations that could be explored in future work.",
+      "label": "Background",
+      "prob": 0.8672640323638916
+    },
+    {
+      "sentence": "A microplan might incorporate just the where part, and be supported by a video playlist that is tied to a specific location, e.g., song tutorials for my guitar studio .",
+      "label": "Background",
+      "prob": 0.8664902448654175
+    },
+    {
+      "sentence": "Watch Later, a default playlist on YouTube, also let participants control when and where to watch.",
+      "label": "Background",
+      "prob": 0.8625659942626953
+    },
+    {
+      "sentence": "Recommendations were of special concern and participants expressed frustration at their inability to customize their location, quantity, and content.",
+      "label": "Background",
+      "prob": 0.8622660040855408
+    },
+    {
+      "sentence": "First, recommendations were sometimes irrelevant, showing videos that participants were simply not interested in.",
+      "label": "Background",
+      "prob": 0.8599258661270142
+    },
+    {
+      "sentence": "In our analysis and writeup, we noted cases where responses for an individual code were split with regards to a theme, e.g., notifications sometimes supported and sometimes undermined planning ahead.",
+      "label": "Background",
+      "prob": 0.8592331409454346
+    },
+    {
+      "sentence": "Second, a low sense of control over technology use predicts greater negative life effects, e.g., internet use leading to missed social activities [20] and smartphone use leading to the loss of a career opportunity or significant relationship [54].",
+      "label": "Background",
+      "prob": 0.8576414585113525
+    },
+    {
+      "sentence": "By contrast, sense of agency was diminished by mechanisms that prompted and pressured participants with suggestions that were hard to decline.",
+      "label": "Background",
+      "prob": 0.8550254702568054
+    },
+    {
+      "sentence": "Sense of agency can be broken down into feelings of agency , that is, the in-the-moment perception of control, and judgments of agency , that is, the post hoc,",
+      "label": "Background",
+      "prob": 0.8548681139945984
+    },
+    {
+      "sentence": "In this pursuit, designers and tech industry insiders warn that many of these mechanisms exploit psychological vulnerabilities and harm the interests of the user [18, 63].",
+      "label": "Background",
+      "prob": 0.8544687032699585
+    },
+    {
+      "sentence": "3.4.4 The accuracy of algorithms has mixed consequences for control.",
+      "label": "Background",
+      "prob": 0.8525545597076416
+    },
+    {
+      "sentence": "Or it can be done at a mechanism-level, e.g., YouTube currently offers an on/off toggle for autoplay, but does not provide any way to toggle recommendations,",
+      "label": "Background",
+      "prob": 0.8517598509788513
+    },
+    {
+      "sentence": "Advertisers may wish to control how much time users spend on ads.",
+      "label": "Background",
+      "prob": 0.850892961025238
+    },
+    {
+      "sentence": "While these mechanisms apply universally to many different apps, they do not change the internal mechanisms within an app, such as autoplay, that might lead it to be problematic in the first",
+      "label": "Background",
+      "prob": 0.8492839932441711
+    },
+    {
+      "sentence": "The vast majority of participants seemed either unaware of YouTubes existing customization settings for recommendations or found them inadequate.",
+      "label": "Background",
+      "prob": 0.8492562174797058
+    },
+    {
+      "sentence": "YouTubes settings also allow participants to delete videos from their watch historywhich stops them from being used in personalized recommendationsbut only one participant mentioned this feature.",
+      "label": "Background",
+      "prob": 0.8479480743408203
+    },
+    {
+      "sentence": "Looking at the mechanisms inside of specific apps may encourage designers to not just block existing mechanisms but to innovate better ones, such as Flowstates seven seconds rule for writing.",
+      "label": "Background",
+      "prob": 0.8473088145256042
+    },
+    {
+      "sentence": "By contrast, when participants had only a non-specific intention (e.g., to unwind or explore), they wanted YouTube to lead the way.",
+      "label": "Background",
+      "prob": 0.8388422727584839
+    },
+    {
+      "sentence": "Recommendations, ads, and autoplay primarily made respondents feel less in control.",
+      "label": "Background",
+      "prob": 0.8366644978523254
+    },
+    {
+      "sentence": "This can be done at the app-level, e.g., switching between an Explore Mode and a Focus Mode.",
+      "label": "Background",
+      "prob": 0.8354052901268005
+    },
+    {
+      "sentence": "On this view, the current version of the YouTube app appears to offer good support for ritualized use, but poor support for instrumental use, as participants often felt that their specific intentions were hijacked by its autoplay and endless recommendations.",
+      "label": "Background",
+      "prob": 0.8338415026664734
+    },
+    {
+      "sentence": "First, designers can craft more targeted interventions with internal mechanisms than with external ones.",
+      "label": "Background",
+      "prob": 0.8335064649581909
+    },
+    {
+      "sentence": "Triggers are also a key component of effective plans [39], so in this case the playlist might be the primary recommendation in the app anytime the user is within 50 meters of the studio.",
+      "label": "Background",
+      "prob": 0.8331618309020996
+    },
+    {
+      "sentence": "A strength of addressing digital wellbeing via such screentime tools is that time spent is easy to track and easy to understand.",
+      "label": "Background",
+      "prob": 0.8330825567245483
+    },
+    {
+      "sentence": "However, it does suggest that recommender systems could first start with the global problem of when to show recommendations, before moving on to the local problem of which items to recommend.",
+      "label": "Background",
+      "prob": 0.8327373266220093
+    },
+    {
+      "sentence": "all apps, such as the screentime tools that come pre-installed on Android and iOS.",
+      "label": "Background",
+      "prob": 0.8290017247200012
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Background",
+      "prob": 0.8263400197029114
+    },
+    {
+      "sentence": "The design of YouTube must balance the interests of many different stakeholders.",
+      "label": "Background",
+      "prob": 0.8231885433197021
+    },
+    {
+      "sentence": "For example, in spite of the incentives of the attention economy, Apple is now working to make privacy a selling point [44], e.g., by preventing developers from tracking users across multiple apps without their active consent [5].",
+      "label": "Background",
+      "prob": 0.8226632475852966
+    },
+    {
+      "sentence": "First, some input modalities seem to support a greater sense of agency than others (e.g., keyboard input versus voice commands) [65].",
+      "label": "Background",
+      "prob": 0.8224875330924988
+    },
+    {
+      "sentence": "Participants disliked when the app openly acted against their interests, but expressed stronger sentiments when they felt that the app also misled them about it.",
+      "label": "Background",
+      "prob": 0.8214545845985413
+    },
+    {
+      "sentence": "They are obviously in my home feed; they are in the explore menu; and they are under and beside and within other videos.",
+      "label": "Background",
+      "prob": 0.8185576796531677
+    },
+    {
+      "sentence": "Participants were compensated $6.00 for answering all questions, an amount that exceeds the U.S. minimum wage ($7.25 per hour).",
+      "label": "Background",
+      "prob": 0.8185392022132874
+    },
+    {
+      "sentence": "Participants lacked the ability to customize the location, quantity, and content of recommendations.",
+      "label": "Background",
+      "prob": 0.8175997138023376
+    },
+    {
+      "sentence": "Second, participants envisioned and wanted mechanisms for active and informed choices to increase control.",
+      "label": "Background",
+      "prob": 0.8129432797431946
+    },
+    {
+      "sentence": "In sketches of designs to undermine control, participants covered every corner of the home screen with video recommendations that scrolled infinitely (P11) and in every direction (P5).",
+      "label": "Background",
+      "prob": 0.8117932677268982
+    },
+    {
+      "sentence": "For example, a screentime tool in this mold might ask the user to review and reflect upon their past usage data and develop a plan for their use over the next month.",
+      "label": "Background",
+      "prob": 0.8116612434387207
+    },
+    {
+      "sentence": "In these cases, recommendations appealed to a users impulse or short-term desire to watch more videos, but conflicted with their long-term goals, creating a self-control dilemma for the user [36, 70].",
+      "label": "Background",
+      "prob": 0.8101103901863098
+    },
+    {
+      "sentence": "After merging similar codes, our codebook consisted of 21 design mechanisms, such as autoplay, playlists, and multiple device sync.",
+      "label": "Background",
+      "prob": 0.8084250688552856
+    },
+    {
+      "sentence": "An in-situ study of how people respond to redesigns intended to influence sense of agency would yield results on (what users do), which might need to be reconciled with the present results on (what users say).",
+      "label": "Background",
+      "prob": 0.8064937591552734
+    },
+    {
+      "sentence": "More specific to technology use, it is also central to user (dis)satisfaction with smartphones [31, 46] and Facebook use [24, 72].",
+      "label": "Background",
+      "prob": 0.8026324510574341
+    },
+    {
+      "sentence": "Of the 112 responses without substance, 55 came from less in control and 57 from more.",
+      "label": "Background",
+      "prob": 0.8006373047828674
+    },
+    {
+      "sentence": "The U.S. Senate is currently considering how to regulate social media, with one bill that would make it illegal to  manipulate a user interface with the purpose or substantial effect of obscuring, subverting, or impairing user autonomy  [75] and another that would ban autoplay and infinite scroll [23].",
+      "label": "Background",
+      "prob": 0.8001666069030762
+    },
+    {
+      "sentence": "The other three mockups we testedactivity-goal setting, time-goal setting, and a timerare more external mechanisms that might apply equally well to other apps.",
+      "label": "Background",
+      "prob": 0.7998201251029968
+    },
+    {
+      "sentence": "We expect that our findings on how design mechanisms influence sense of agency on YouTube are most likely to generalize to other social media and media apps where users",
+      "label": "Background",
+      "prob": 0.7983703017234802
+    },
+    {
+      "sentence": "To be clear, this does not mean that Google or others should try to create an algorithm for life that recommends between watching another video, writing a term paper, and going to sleep.",
+      "label": "Background",
+      "prob": 0.798277735710144
+    },
+    {
+      "sentence": "features affecting control, design mechanisms for control, setting clear expectations for the user, and triggers to stop, each of which had further subcodes.",
+      "label": "Background",
+      "prob": 0.784938633441925
+    },
+    {
+      "sentence": "These lessons might be revisited in the domain of digital wellbeing, as how an interface modulates sense of agency may vary with context [64].",
+      "label": "Background",
+      "prob": 0.7805707454681396
+    },
+    {
+      "sentence": "Designers and researchers should continue to explore how to personalize recommendations to satisfy these broader user needs, or provide customization options that put users in control at least to the extent they want.",
+      "label": "Background",
+      "prob": 0.7805625796318054
+    },
+    {
+      "sentence": "We caution that the message of attention capture dark patterns should not be never X, but rather be careful when X.",
+      "label": "Background",
+      "prob": 0.7788089513778687
+    },
+    {
+      "sentence": "Participants also wanted to customize the content of recommendations, e.g.,  I do not want my entire screen to recommend cat videos.  Today, the dominant paradigm of recommender systems, including YouTube, is behaviorism: recommendations rely on behavior traces (what users do) and largely neglect explicit preferences (what users say).",
+      "label": "Background",
+      "prob": 0.7777170538902283
+    },
+    {
+      "sentence": "The mechanisms 1 of digital wellbeing interventions can be placed along a spectrum (see Figure 1 ).",
+      "label": "Background",
+      "prob": 0.775520920753479
+    },
+    {
+      "sentence": "For participants in our study, sense of agency was clearly a neglected facet of user experience, as YouTubes recommendations led them to actions (i.e., watching more videos) they did not feel in control of.",
+      "label": "Background",
+      "prob": 0.7704219222068787
+    },
+    {
+      "sentence": "Often these intentions were topical, as in when P11 wanted to be able to use the app in an  active way  to search and browse videos about programming, but not in a  passive way  to follow just any recommendation.",
+      "label": "Background",
+      "prob": 0.768970787525177
+    },
+    {
+      "sentence": "Other participant samples may use the YouTube mobile app differently, e.g., users in emerging countries for whom a smartphone is often their only device for watching videos [105].",
+      "label": "Background",
+      "prob": 0.7659928202629089
+    },
+    {
+      "sentence": "In Study 2, participants suggested ways that the YouTube mobile app might be redesigned to increase sense of agency (e.g., by reducing the number of recommendations it displays).",
+      "label": "Background",
+      "prob": 0.7646721005439758
+    },
+    {
+      "sentence": "In this way, recommender systems reinforce the sometimes problematic behavior of the current self rather than helping people realize their aspirational self that reflects long-term goals [37, 69].",
+      "label": "Background",
+      "prob": 0.7626110315322876
+    },
+    {
+      "sentence": "In this way, recommender systems reinforce the sometimes problematic behavior of the current self rather than helping people realize their aspirational self that reflects long-term goals [37, 69].",
+      "label": "Background",
+      "prob": 0.7626110315322876
+    },
+    {
+      "sentence": "For example, participants reported that they sometimes saw too many interesting recommendations (e.g., for documentaries or for church videos late at night), which made them feel a loss of control.",
+      "label": "Background",
+      "prob": 0.7623277902603149
+    },
+    {
+      "sentence": "work has investigated different ways that interfaces can support sense of agency.",
+      "label": "Background",
+      "prob": 0.7620605230331421
+    },
+    {
+      "sentence": "For example, many people continue to press placebo buttons like the close door button in their apartments elevator, even when doing so has no effect [90].",
+      "label": "Background",
+      "prob": 0.7614270448684692
+    },
+    {
+      "sentence": "Appendix I contains annotated screenshots that show the exact implementation of these nine mechanisms in the YouTube mobile app as they appeared when participants provided their feedback.",
+      "label": "Background",
+      "prob": 0.7585057020187378
+    },
+    {
+      "sentence": "For example, if YouTube expects that the user is visiting for ritualistic use, it could remain as is, or even go further to take control as in its Leanback mode for  effortless viewing  that autoplays a neverending stream of high-definition recommendations [42].",
+      "label": "Background",
+      "prob": 0.7581583261489868
+    },
+    {
+      "sentence": "However, in the attention economy, what might motivate key stakeholders to support such designs?",
+      "label": "Background",
+      "prob": 0.7571238279342651
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than the author(s) must be honored.",
+      "label": "Background",
+      "prob": 0.7569791674613953
+    },
+    {
+      "sentence": "(a) explicitly state preferences for topics they would like to see or not see;",
+      "label": "Background",
+      "prob": 0.7559795379638672
+    },
+    {
+      "sentence": "When they had a specific intention or goal for their YouTube visit (e.g., to cook a",
+      "label": "Background",
+      "prob": 0.7541029453277588
+    },
+    {
+      "sentence": "Designers may wish to control how much time users spend in the app.",
+      "label": "Background",
+      "prob": 0.7517916560173035
+    },
+    {
+      "sentence": "Autoplay and recommendations frequently led to",
+      "label": "Background",
+      "prob": 0.7514328360557556
+    },
+    {
+      "sentence": "(c) edit their viewing history to influence future recommendations (e.g., delete all cat videos); or",
+      "label": "Background",
+      "prob": 0.751055121421814
+    },
+    {
+      "sentence": "The Notifications digest lets a user bundle push notifications together into a single notification each day, which may reduce the triggers that lead to non-conscious, habitual use [69].",
+      "label": "Background",
+      "prob": 0.7482417821884155
+    },
+    {
+      "sentence": "2 Figure 2 provides a glanceable view of how many times each of these nine mechanisms was mentioned as leading to more or less control.",
+      "label": "Background",
+      "prob": 0.7479003667831421
+    },
+    {
+      "sentence": "Human-centered computing  Empirical studies in HCI .",
+      "label": "Background",
+      "prob": 0.7462529540061951
+    },
+    {
+      "sentence": "which were the mechanism most frequently mentioned as leading to a loss of control in Study 1.",
+      "label": "Background",
+      "prob": 0.741312563419342
+    },
+    {
+      "sentence": "The present bias effect [85] predicts that actual behavior will favor the choice that offers immediate rewards at the expense of long-term goals.",
+      "label": "Background",
+      "prob": 0.7395410537719727
+    },
+    {
+      "sentence": "First, participants wanted design mechanisms that provided more control when they had an intention in mind as opposed to when they just wanted to explore.",
+      "label": "Background",
+      "prob": 0.7385417222976685
+    },
+    {
+      "sentence": "Participants spent a median of 101 minutes per day (interquartile range: 57-156) on YouTube across all devices in the week prior to the survey.",
+      "label": "Background",
+      "prob": 0.7365455031394958
+    },
+    {
+      "sentence": "Microboundary has helped center an important concept from behavioral economics, commitment devices that restrict future choices to reflect long-term goals [17, 97], in the research and development of digital wellbeing tools, e.g., [56, 57, 70, 92].",
+      "label": "Background",
+      "prob": 0.7341766953468323
+    },
+    {
+      "sentence": "For digital wellbeing designers, we highlight a need for recommender systems that better reflect user aspirations rather than just reinforce their current behavior.",
+      "label": "Background",
+      "prob": 0.7333041429519653
+    },
+    {
+      "sentence": "To summarize, we encourage designers of recommender systems to think beyond just optimizing for the item that is most likely to be clicked, watched, or liked.",
+      "label": "Background",
+      "prob": 0.7326534390449524
+    },
+    {
+      "sentence": "In contrast to irrelevant recommendations, relevant ones supported control with their personalization (e.g.,  It has some very good algorithms that know what I like, when I want it  ) or with suggestions that reached just beyond the users comfort zone (e.g.,  I can expand my tastes based on my own preference  ).",
+      "label": "Background",
+      "prob": 0.7324103116989136
+    },
+    {
+      "sentence": "Participants in our study also planned, but they did so in a more ad hoc manner.",
+      "label": "Background",
+      "prob": 0.7315133810043335
+    },
+    {
+      "sentence": "Designers might address this by making it easier for users to",
+      "label": "Background",
+      "prob": 0.730732798576355
+    },
+    {
+      "sentence": "(a) report feeling out of control at times (e.g., Facebook [72]); and",
+      "label": "Background",
+      "prob": 0.7303657531738281
+    },
+    {
+      "sentence": "The writeup for each theme draws upon examples from our coding of the design mechanisms.",
+      "label": "Background",
+      "prob": 0.7298221588134766
+    },
+    {
+      "sentence": "First, supporting user control is a common principle in HCI design guidelines [30, 83, 103].",
+      "label": "Background",
+      "prob": 0.7295641899108887
+    },
+    {
+      "sentence": "Across all existing mechanisms, participants felt less in control when the app took actions of its own without their consent (e.g., autoplaying a new video recommendation).",
+      "label": "Background",
+      "prob": 0.729442298412323
+    },
+    {
+      "sentence": "467 responses referenced a specific design mechanism (246 for less in control, 221 for more in control).",
+      "label": "Background",
+      "prob": 0.7274706363677979
+    },
+    {
+      "sentence": "First, users experience actions in the app along a spectrum of consent .",
+      "label": "Background",
+      "prob": 0.7252165675163269
+    },
+    {
+      "sentence": "on sense of agency (based on the results of Study 1), novelty relative to existing digital wellbeing tools, and feasibility of implementation.",
+      "label": "Background",
+      "prob": 0.7244243621826172
+    },
+    {
+      "sentence": "This suggests a potential self-serving bias [40] wherein in-control behavior is attributed to ones own willpower whereas out-of-control behavior is attributed to external factors.",
+      "label": "Background",
+      "prob": 0.7205095887184143
+    },
+    {
+      "sentence": "Up next recommendations that appear below the current video (and autoplay after it finishes) were specifically mentioned seven times.",
+      "label": "Background",
+      "prob": 0.7198195457458496
+    },
+    {
+      "sentence": "We neglected to ask whether participants were using the paid YouTube premium service, which removes ads and can play videos offline and in the",
+      "label": "Background",
+      "prob": 0.719424307346344
+    },
+    {
+      "sentence": "Feeling in control of ones actions is integral to autonomy, one of the three basic human needs outlined in self-determination theory [96].",
+      "label": "Background",
+      "prob": 0.7187715768814087
+    },
+    {
+      "sentence": "However, we decided to focus this paper on the unique potential of internal mechanisms.",
+      "label": "Background",
+      "prob": 0.7166462540626526
+    },
+    {
+      "sentence": "One approach is a customizable interface that lets the user switch between low and high levels of control.",
+      "label": "Background",
+      "prob": 0.7140503525733948
+    },
+    {
+      "sentence": "Instead, user intentions are often highly specific, such as wanting to reduce the time spent on targeted features of an app (e.g., on the Facebook newsfeed, but not in Facebook groups) or in certain contexts (e.g., when with family, but not when commuting on the bus) [49, 68, 71].",
+      "label": "Background",
+      "prob": 0.712769091129303
+    },
+    {
+      "sentence": "When they had such a specific intention in mind, they wanted greater control than YouTube currently gives them.",
+      "label": "Background",
+      "prob": 0.7104545831680298
+    },
+    {
+      "sentence": "For social media, a common suggestion in popular self-help guides is to take back control by turning off notifications [1, 55].",
+      "label": "Background",
+      "prob": 0.7103700041770935
+    },
+    {
+      "sentence": "Interestingly, more in control included 28 responses that we coded as willpower, e.g.,  I make my own decisions,  with only 1 such response for less.",
+      "label": "Background",
+      "prob": 0.7067939639091492
+    },
+    {
+      "sentence": "For example, this literature finds that plans are more likely to succeed if they specify where, when, and how a behavior will be enacted [41].",
+      "label": "Background",
+      "prob": 0.7044815421104431
+    },
+    {
+      "sentence": "specific and non-specific intentions (e.g., Pinterest [24]).",
+      "label": "Background",
+      "prob": 0.7009971141815186
+    },
+    {
+      "sentence": "sketches also supported more informed choices.",
+      "label": "Background",
+      "prob": 0.6980299949645996
+    },
+    {
+      "sentence": "At the company level, it could help inspire products that are mindful of the users sense of agency.",
+      "label": "Background",
+      "prob": 0.6944514513015747
+    },
+    {
+      "sentence": "Playlists helped participants plan how much to watch (e.g.,  I can create playlists or queue videos in advance to limit what I watch to a specific list instead of endlessly searching around for what I want ).",
+      "label": "Background",
+      "prob": 0.6920679807662964
+    },
+    {
+      "sentence": "A guitar teacher described how Watch Later empowered them to save videos on-the-go and watch them later in their music studio.",
+      "label": "Background",
+      "prob": 0.6889485120773315
+    },
+    {
+      "sentence": "Ideas were reviewed as a group and favorites could be claimed by one author who further refined it.",
+      "label": "Background",
+      "prob": 0.6865418553352356
+    },
+    {
+      "sentence": "People self-report that their desire to consume media frequently conflicts with their plans or goals and that they fail to resist about three-quarters of the time [33].",
+      "label": "Background",
+      "prob": 0.6859649419784546
+    },
+    {
+      "sentence": "More often though, participants seemed to like the content, but felt that it was too much (e.g.,  At times there is no escape when I become interested in documentary after documentary ) or not the right time (e.g.,  Some of the church videos are addicting and I keep watching them at night  ).",
+      "label": "Background",
+      "prob": 0.6838951706886292
+    },
+    {
+      "sentence": "More choice alone did not lead to more control.",
+      "label": "Background",
+      "prob": 0.6777631640434265
+    },
+    {
+      "sentence": "Scales of problematic technology use generally measure both",
+      "label": "Background",
+      "prob": 0.6758739948272705
+    },
+    {
+      "sentence": "To address these cases, participants sketched both changes to internal mechanisms that were specific to YouTube (e.g., limits on the number of recommended videos) and also more external mechanisms that might apply across a variety of social media apps (e.g., time reminders).",
+      "label": "Background",
+      "prob": 0.6746885776519775
+    },
+    {
+      "sentence": "Similarly, we hope that the concept of microplans encourages the use of behavior planning knowledge in the design of digital wellbeing tools.",
+      "label": "Background",
+      "prob": 0.6734960675239563
+    },
+    {
+      "sentence": "Developing such a lingua franca of attention capture design patterns could be integrated into design education [43], influence designer thinking, and reputations, as is done by the name-andshame campaign of the darkpatterns.org website [16].",
+      "label": "Background",
+      "prob": 0.6726607084274292
+    },
+    {
+      "sentence": "First, both of our studies asked participants to share their preferences, however present bias [85] predicts that actual behavior will favor the choice that offers immediate rewards at the expense of long-term goals.",
+      "label": "Background",
+      "prob": 0.6723407506942749
+    },
+    {
+      "sentence": "Next, they showed and talked us through the mechanisms that made them feel most and least in control of how they spend their time on YouTube.",
+      "label": "Background",
+      "prob": 0.6628863215446472
+    },
+    {
+      "sentence": "We note that although our research focuses at the level of design mechanisms, the details of these designs matter.",
+      "label": "Background",
+      "prob": 0.6628566384315491
+    },
+    {
+      "sentence": "Participants described the end of a playlist as a  good place to stop  , in contrast to browsing recommendations, which they described as endless.",
+      "label": "Background",
+      "prob": 0.6598007082939148
+    },
+    {
+      "sentence": "pattern is  playing by appointment,  wherein a player must return to play on a schedule defined by the game, or else lose their precious resources [121].",
+      "label": "Background",
+      "prob": 0.6562197804450989
+    },
+    {
+      "sentence": "of use, to increase user sense of agency.",
+      "label": "Background",
+      "prob": 0.6532366871833801
+    },
+    {
+      "sentence": "Similarly, for recommender systems, our findings suggest that sometimes the implication is not to recommend.",
+      "label": "Background",
+      "prob": 0.6528261303901672
+    },
+    {
+      "sentence": "(a) lack of control and",
+      "label": "Background",
+      "prob": 0.650364339351654
+    },
+    {
+      "sentence": "We thank Xuecong Xu, Ming Yao Zheng, Kevin Kuo, Tejus Krishnan, Laura Meng, Linda Lai, and Stefania Druga for helping to conceptualize this study and design the mockups.",
+      "label": "Background",
+      "prob": 0.6462937593460083
+    },
+    {
+      "sentence": "To support control, Study 2 participants envisioned more active choices, where the user felt like they were the one to initiate the action.",
+      "label": "Background",
+      "prob": 0.6403059363365173
+    },
+    {
+      "sentence": "In Study 1, participants reported that, in the current app, recommendations, ads, and autoplay mostly led them to feel less in control, whereas playlists, search, subscriptions, play controls, and watch history & stats mostly made them feel more in control.",
+      "label": "Background",
+      "prob": 0.6389027237892151
+    },
+    {
+      "sentence": "Having recommendations on almost every screen led to a loss of control:  It seems like there are video recommendations everywhere.",
+      "label": "Background",
+      "prob": 0.6368052959442139
+    },
+    {
+      "sentence": "recipe), they wanted design mechanisms that provided greater control.",
+      "label": "Background",
+      "prob": 0.6364302635192871
+    },
+    {
+      "sentence": "insiders, like the ex-President of Facebook, warn that social media apps are especially likely to innovate and employ design patterns that \"consume as much of your time and conscious attention as possible\" [88].",
+      "label": "Background",
+      "prob": 0.6352835893630981
+    },
+    {
+      "sentence": "This approach may be particularly suitable for power users, as prior research indicates that power users prefer interfaces that are customizable (user-tailored) by a toggle, whereas non-power users prefer ones that are personalized (system-tailored) for them [112].",
+      "label": "Background",
+      "prob": 0.6345530152320862
+    },
+    {
+      "sentence": "To obtain a general sample of users of the YouTube mobile app, we recruited from Amazon Mechanical Turk workers in the United States.",
+      "label": "Background",
+      "prob": 0.6282172203063965
+    },
+    {
+      "sentence": "Prior work has addressed how a system can display the level of confidence it has",
+      "label": "Background",
+      "prob": 0.6268166303634644
+    },
+    {
+      "sentence": "A minority of responses described recommendation settings that do support sense of agency.",
+      "label": "Background",
+      "prob": 0.6250542402267456
+    },
+    {
+      "sentence": "An alternative is for designers to reenvision the internal mechanisms that lead to compulsive use in the first place [115].",
+      "label": "Background",
+      "prob": 0.6233053207397461
+    },
+    {
+      "sentence": "Participants described search as a paragon of user-led choice, and many foregrounded the search option in their sketches to increase control and hid it in ones to decrease control (see Figure 3",
+      "label": "Background",
+      "prob": 0.6228833198547363
+    },
+    {
+      "sentence": "Sometimes, these intentions were temporal, such as when working or studying, participants preferred a version of YouTube that helps them watch a moderate number of videos without making them  fall down a rabbit hole of similar related stuff  (P13).",
+      "label": "Background",
+      "prob": 0.6207533478736877
+    },
+    {
+      "sentence": "In total, each participant was required to submit 6 responses for things that influenced their sense of agency on YouTube (3 for most in control, 3 for least in",
+      "label": "Background",
+      "prob": 0.6202698945999146
+    },
+    {
+      "sentence": "We also propose mechanisms that support microplanning, making lightweight plans to guide a single session",
+      "label": "Background",
+      "prob": 0.6201804280281067
+    },
+    {
+      "sentence": "We first discuss our findings mostly with respect to our test case of YouTube, before considering implications for digital wellbeing more broadly.",
+      "label": "Background",
+      "prob": 0.6199343204498291
+    },
+    {
+      "sentence": "Whereas a common approach to digital wellbeing is designing to reduce screentime, this work takes an alternative approach of designing to increase sense of agency.",
+      "label": "Background",
+      "prob": 0.6198250651359558
+    },
+    {
+      "sentence": "In particular, Youtubes algorithmic recommendations merit special consideration as they drive more than 70% of watchtime [108].",
+      "label": "Background",
+      "prob": 0.6194354295730591
+    },
+    {
+      "sentence": "How might a single app support sense of agency for both ritualized and instrumental use?",
+      "label": "Background",
+      "prob": 0.6192681193351746
+    },
+    {
+      "sentence": "Recommendations were mentioned by participants as undermining sense of agency far more times than any other design mechanism in the YouTube mobile app, suggesting that recommender systems [93] should be of central concern to digital wellbeing designers.",
+      "label": "Background",
+      "prob": 0.6175117492675781
+    },
+    {
+      "sentence": "One step is for the design community to develop a common language of attention capture dark patterns that recognizes designs that lead to attentional harms.",
+      "label": "Background",
+      "prob": 0.616427481174469
+    },
+    {
+      "sentence": "Sense of agency is a construct that refers to an individuals experience of being the initiator of their actions in the world [113].",
+      "label": "Background",
+      "prob": 0.6145985126495361
+    },
+    {
+      "sentence": "For example, some users report that notifications actually reduce their checking habits, since they know they will be alerted when their desired content is ready [87].",
+      "label": "Background",
+      "prob": 0.6145525574684143
+    },
+    {
+      "sentence": "For participants, specific intentions varied from watching a video of a favorite dance, to the latest basketball highlight, to a tutorial on solving a Rubiks Cube.",
+      "label": "Background",
+      "prob": 0.6117157340049744
+    },
+    {
+      "sentence": "s coining of the term microboundary to describe  a small obstacle prior to an interaction that prevents us rushing from one context to another , which serves as a micro version of a commitment device that prevents the user from  acting hastily and regretting it later  [29].",
+      "label": "Background",
+      "prob": 0.6106608510017395
+    },
+    {
+      "sentence": "Together, our two studies identify design mechanisms that influence sense of agency in the YouTube mobile app and how they might be changed to increase it.",
+      "label": "Background",
+      "prob": 0.6071280241012573
+    },
+    {
+      "sentence": "(b) explicitly rate recommendations (e.g., show me more like this one);",
+      "label": "Background",
+      "prob": 0.6024565696716309
+    },
+    {
+      "sentence": "This included responses such as,  Recommended videos Being shown recommended videos is like a moth to a light for me,  which was coded as recommendations.",
+      "label": "Background",
+      "prob": 0.6009312868118286
+    },
+    {
+      "sentence": "In HCI research, sometimes the implication of a user needs assessment is not to design technology, as a new technology might not be appropriate in the context of the larger situation [9].",
+      "label": "Background",
+      "prob": 0.6008634567260742
+    },
+    {
+      "sentence": "In our first pass, two researchers individually reviewed all responses and met to develop initial codes.",
+      "label": "Background",
+      "prob": 0.6002115607261658
+    },
+    {
+      "sentence": "Further research is required to determine whether our results apply to other populations.",
+      "label": "Background",
+      "prob": 0.5926320552825928
+    },
+    {
+      "sentence": "A total of 120 participants met the inclusion criteria and completed the survey (see demographics in Table 1 ).",
+      "label": "Background",
+      "prob": 0.5916940569877625
+    },
+    {
+      "sentence": "participants preferred higher-control mechanisms when they had a specific intention in mind and lower-control ones when they had a non-specific intention.",
+      "label": "Background",
+      "prob": 0.5891507267951965
+    },
+    {
+      "sentence": "The Study 1 theme Spectrum of consent addressed whether the user had agreed to an action taken by the app (e.g., autoplaying the next video).",
+      "label": "Background",
+      "prob": 0.5876278877258301
+    },
+    {
+      "sentence": "We did not tell participants which one was the low, medium, or highcontrol version.",
+      "label": "Background",
+      "prob": 0.5866145491600037
+    },
+    {
+      "sentence": "Five participants proposed novel metadata, such as an activity time filter that would sort how-to videos by the time it takes to perform the activity they teach, e.g., cook a recipe (P12).",
+      "label": "Background",
+      "prob": 0.5860326886177063
+    },
+    {
+      "sentence": "To further familiarize ourselves with the data, three of the authors read the transcripts and again reviewed the sketches.",
+      "label": "Background",
+      "prob": 0.5855770707130432
+    },
+    {
+      "sentence": "Since one mechanism (recommendations) came up more often than all others, we developed three subcodes for how recommendations affected participant experiences on YouTube.",
+      "label": "Background",
+      "prob": 0.5839736461639404
+    },
+    {
+      "sentence": "Sessions included an initial think-aloud demonstration of their current YouTube use, followed by sketching and evaluation codesign activities.",
+      "label": "Background",
+      "prob": 0.5827675461769104
+    },
+    {
+      "sentence": "YouTube has over two billion monthly users worldwide [120] and is extremely popular in the U.S., where about three-quarters of adults report using YouTube on their smartphone, with 32% using it several times a day, 19% about once per day, and 49% less often [91].",
+      "label": "Background",
+      "prob": 0.5806125998497009
+    },
+    {
+      "sentence": "For reference, this amount of time is slightly lower than the average of signed-in YouTube users (60 minutes) [74] and considerably lower than the median of participants in Study 1 (101 minutes).",
+      "label": "Background",
+      "prob": 0.5753045082092285
+    },
+    {
+      "sentence": "RQ1 , one question table asked about things that made participants feel most in control of how they spend their time on YouTube (See Table 2 ).",
+      "label": "Background",
+      "prob": 0.5736932754516602
+    },
+    {
+      "sentence": "This is true of our mockups too: in our search redesign we showed a task-oriented example query (  How to cook a turkey  ) , whereas a leisure-oriented example query (e.g.,  Funny cat videos ) could have led to different results.",
+      "label": "Background",
+      "prob": 0.5725083947181702
+    },
+    {
+      "sentence": "background; however, Google reports that only 1% of YouTubes monthly visitors subscribe to this service [109].",
+      "label": "Background",
+      "prob": 0.5689018964767456
+    },
+    {
+      "sentence": "By asking participants in both studies to reflect on  ...in control of how you spend your time on YouTube  we discouraged participants from considering other factors such as privacy [112].",
+      "label": "Background",
+      "prob": 0.5689000487327576
+    },
+    {
+      "sentence": "13 YouTube users (7 women, 6 men) participated in our sessions.",
+      "label": "Background",
+      "prob": 0.5674808621406555
+    },
+    {
+      "sentence": "(b) negative life impacts, suggesting that the problem is a combination of these two factors [21, 24].",
+      "label": "Background",
+      "prob": 0.5657026171684265
+    },
+    {
+      "sentence": "We chose this minimal version to encourage participants to generate new ideas, rather than to evaluate the existing interface (which we did in Study 1).",
+      "label": "Background",
+      "prob": 0.5646073818206787
+    },
+    {
+      "sentence": "Our findings call for rethinking what relevance means for recommendations in the context of digital wellbeing.",
+      "label": "Background",
+      "prob": 0.5606945157051086
+    },
+    {
+      "sentence": "this work, we take the mobile app for YouTube, the most widely used social media service in the United States [91], as a test case to understand and redesign how internal mechanisms influence sense of agency.",
+      "label": "Background",
+      "prob": 0.5598508715629578
+    },
+    {
+      "sentence": "a billion recommendations on the home screen.",
+      "label": "Background",
+      "prob": 0.5576167702674866
+    },
+    {
+      "sentence": "This paper presents an examination how such internal mechanisms can be redesigned to support sense of agency.",
+      "label": "Background",
+      "prob": 0.5548219084739685
+    },
+    {
+      "sentence": "Finally, we propose language that the design community might adopt to recognize design patterns that impose attentional harms upon the user.",
+      "label": "Background",
+      "prob": 0.5539171695709229
+    },
+    {
+      "sentence": "After excluding these responses, we continued with coding the 467 responses that referenced a specific design",
+      "label": "Background",
+      "prob": 0.5525103807449341
+    },
+    {
+      "sentence": "Nine mechanisms were described as influencing sense of agency 15 or more times and are the focus of our analysis.",
+      "label": "Background",
+      "prob": 0.550878643989563
+    },
+    {
+      "sentence": "Third, self-reported agency can be quite different from the facts of agency [30, 80].",
+      "label": "Background",
+      "prob": 0.5472040772438049
+    },
+    {
+      "sentence": "This is similar to the average for all YouTube users: in 2017, YouTube shared that signed-in users spend an average of more than 60 minutes per day in the mobile app [74].",
+      "label": "Background",
+      "prob": 0.5430880784988403
+    },
+    {
+      "sentence": "Second, mechanisms for",
+      "label": "Background",
+      "prob": 0.53912752866745
+    },
+    {
+      "sentence": "In a modified version of a think-aloud-protocol [53], the participant opened YouTube on their smartphone and talked us through a typical engagement cycle (how they start and stop use) [115].",
+      "label": "Background",
+      "prob": 0.5382620692253113
+    },
+    {
+      "sentence": "Each  thing  was analyzed as a single response, combining answers to the Thing Question and the Explain Question",
+      "label": "Background",
+      "prob": 0.5350144505500793
+    },
+    {
+      "sentence": "The design mechanisms we identified in the YouTube mobile app informed three higher-level themes.",
+      "label": "Background",
+      "prob": 0.5313566327095032
+    },
+    {
+      "sentence": "In terms of wording, we chose to ask about feeling \"in control,\" as this is how sense of agency has been measured in previous studies of sense of agency in HCI (e.g., [78]) and on a self-report scale [114].",
+      "label": "Background",
+      "prob": 0.5264448523521423
+    },
+    {
+      "sentence": "Eligible participants continued on to background questions about their demographics and YouTube use.",
+      "label": "Background",
+      "prob": 0.5248714685440063
+    },
+    {
+      "sentence": "However, after our initial sessions proved insightful for our team of design researchers, we sent a follow-up survey to participants that asked about demographics and YouTube use.",
+      "label": "Background",
+      "prob": 0.5210395455360413
+    },
+    {
+      "sentence": "We find that participants generally prefer mechanisms like autoplay and recommendations to be redesigned for a greater sense of agency than the YouTube mobile app currently provides.",
+      "label": "Background",
+      "prob": 0.5194623470306396
+    },
+    {
+      "sentence": "One promising alternative to the screentime paradigm is to design for sense of agency , the focus of this paper.",
+      "label": "Background",
+      "prob": 0.5177291631698608
+    },
+    {
+      "sentence": "In the present paper, we focus on the latter, judgments of agency.",
+      "label": "Background",
+      "prob": 0.5128626823425293
+    },
+    {
+      "sentence": "This finding broadly aligns with two types of viewing that have been identified in uses and gratifications research on television use [95]: (1) ritualized use, openended use to gratify diversionary needs; and (2) instrumental use, goal-directed use to gratify informational needs.",
+      "label": "Background",
+      "prob": 0.509252667427063
+    },
+    {
+      "sentence": "The current YouTube app offers limited support for these first three features (e.g., users can select from among topics for recommendations on the home page of the app), but participants in our study seemed mostly either unaware of these customization settings or found them to be inadequate.",
+      "label": "Background",
+      "prob": 0.507668137550354
+    },
+    {
+      "sentence": "But it misses a more global optimization problem: Out of many possible actions, which one does the user most want to take?",
+      "label": "Background",
+      "prob": 0.5075214505195618
+    },
+    {
+      "sentence": "We oversampled men, Asians, and young people relative to the 2019 estimates of the United States Census Bureau [116].",
+      "label": "Background",
+      "prob": 0.5054610371589661
+    },
+    {
+      "sentence": "We excluded responses from an additional 7 participants who started but did not complete the survey.",
+      "label": "Background",
+      "prob": 0.505027711391449
+    },
+    {
+      "sentence": "For social games, one such a proposed",
+      "label": "Background",
+      "prob": 0.5022257566452026
+    },
+    {
+      "sentence": "We might term these attention capture dark patterns, designs that manipulate the user into spending time and attention in an app against their best interests.Techindustry",
+      "label": "Background",
+      "prob": 0.49609798192977905
+    },
+    {
+      "sentence": "We mapped codes (design mechanisms) to potential themes, generating three higher-level themes that structured our final writeup.",
+      "label": "Background",
+      "prob": 0.4845242500305176
+    },
+    {
+      "sentence": "We held weekly meetings to discuss these data and discuss initial ideas.",
+      "label": "Background",
+      "prob": 0.4843904674053192
+    },
+    {
+      "sentence": "Our final set of codes included: user freedom of choice, situational",
+      "label": "Background",
+      "prob": 0.48271507024765015
+    },
+    {
+      "sentence": "A second approach then is an interface that is personalized for the user based on a prediction model.",
+      "label": "Background",
+      "prob": 0.48040449619293213
+    },
+    {
+      "sentence": "Within the YouTube app itself, there are also features to manage time spent: Time watched statistics, which shows how much time a user has spent on YouTube in each of the last 7 days, and the Take a break reminder, which periodically prompts the user to take a rest.",
+      "label": "Background",
+      "prob": 0.4803064465522766
+    },
+    {
+      "sentence": "It excluded responses about situational factors that are largely outside of the control of the designer such as,  I make my own decisions I am a conscious person who can make decisions on what I do.  This eliminated 141 more responses (59 from less in control and 82 from more in control).",
+      "label": "Background",
+      "prob": 0.4789043366909027
+    },
+    {
+      "sentence": "For instance, three participants appreciated how the settings menu (:  ) allows them to mark Not interested on specific videos, e.g.,  When Im tempted but know a video is not educational I can hide it.  In this case, the user is in fact interested in the sense that the video recommendation arouses their curiosity and attention.",
+      "label": "Background",
+      "prob": 0.4777895212173462
+    },
+    {
+      "sentence": "When participants envisioned and evaluated changes in Study 2, they wanted more opportunities to make active choices, rather than respond to a set of choices proposed by the app.",
+      "label": "Background",
+      "prob": 0.47689127922058105
+    },
+    {
+      "sentence": "This includes considering when to show recommendations in the first place.",
+      "label": "Background",
+      "prob": 0.4712565541267395
+    },
+    {
+      "sentence": "this, as in  I often spend more time than I meant to because there is a good related video that seems worth watching so ya know, Just one more which becomes a couple hours.  The Watch Later playlist again served as a safety valve in  just one more  situations:  Watch Later means I dont feel pressured into watching a recommended video from autoplay right when I see it.",
+      "label": "Background",
+      "prob": 0.47020986676216125
+    },
+    {
+      "sentence": "Study 1 examines how existing mechanisms in the YouTube mobile app support or undermine sense of agency ( RQ1 ).",
+      "label": "Background",
+      "prob": 0.46635183691978455
+    },
+    {
+      "sentence": "Brignulls original types of dark patterns focus on financial and privacy harms to the user [16].",
+      "label": "Other",
+      "prob": 0.48453813791275024
+    },
+    {
+      "sentence": "In our fourth pass, we each coded half of the remaining responses, discussed the final counts, and selected",
+      "label": "Background",
+      "prob": 0.460307240486145
+    },
+    {
+      "sentence": "1) sketching participant-generated changes; and",
+      "label": "Background",
+      "prob": 0.45954012870788574
+    },
+    {
+      "sentence": "Prior research on recommender systems has argued that being accurate is not enough, as a fixation on accuracy can lead designers to ignore important facets of user experience like serendipity [77, p.1].",
+      "label": "Other",
+      "prob": 0.4580145478248596
+    },
+    {
+      "sentence": "For example, Focus Mode in Microsoft Word redesigns the writing process by hiding all formatting options [6].",
+      "label": "Other",
+      "prob": 0.48476046323776245
+    },
+    {
+      "sentence": "For example, a decision not to show recommendations might be informed by the time of day (e.g., 2am is too late), screentime preferences (e.g., when the user has already exceeded their goal of 30-minutes per day on entertainment apps), or explicit user preferences (e.g., only show three recommendations unless I clickto-show-more).",
+      "label": "Background",
+      "prob": 0.44795194268226624
+    },
+    {
+      "sentence": "In two studies, we identify mechanisms within the YouTube mobile app that participants report influence their sense of agency and how they want to change them.",
+      "label": "Background",
+      "prob": 0.446187824010849
+    },
+    {
+      "sentence": "This generated a total of 33 different sketches.",
+      "label": "Background",
+      "prob": 0.4353806674480438
+    },
+    {
+      "sentence": "In this case, YouTubes algorithm is arguably too good at a local optimization problem: Out of millions of videos, which one is the user most likely to watch?",
+      "label": "Other",
+      "prob": 0.44194266200065613
+    },
+    {
+      "sentence": "The median length of a session was 73 minutes (range: 57-105 minutes).",
+      "label": "Background",
+      "prob": 0.4342874586582184
+    },
+    {
+      "sentence": "Study 1 identified existing mechanisms in the YouTube mobile app that influence user sense of agency ( RQ1 ).",
+      "label": "Background",
+      "prob": 0.4336881637573242
+    },
+    {
+      "sentence": "Upon multiplying these two responses together for each participant, we found that participants spent an average of 70 minutes per day in the YouTube mobile app.",
+      "label": "Background",
+      "prob": 0.43287643790245056
+    },
+    {
+      "sentence": "The participant was then asked to rank the three versions in order from the one they would least prefer to use to the one they would most prefer, and explain why.",
+      "label": "Background",
+      "prob": 0.43280017375946045
+    },
+    {
+      "sentence": "It is no accident then that social media use is often associated with a loss of sense of agency [10].",
+      "label": "Other",
+      "prob": 0.5066564083099365
+    },
+    {
+      "sentence": "Autoplay toggle lets a user decide to stop the next video from playing automatically; this may preserve the natural stopping point that comes at the end of the video, a mechanism that has been shown to help users set more deliberate boundaries around use [48].",
+      "label": "Background",
+      "prob": 0.42875272035598755
+    },
+    {
+      "sentence": "Table 3 shows the same data with a description and example response for each mechanism.",
+      "label": "Background",
+      "prob": 0.42626672983169556
+    },
+    {
+      "sentence": "Of this time, participants estimated they spent a median of 50% (interquartile range: 30-75%) in the mobile app.",
+      "label": "Result",
+      "prob": 0.43511390686035156
+    },
+    {
+      "sentence": "Notifications were divided with about half of responses in each direction.",
+      "label": "Background",
+      "prob": 0.4200137257575989
+    },
+    {
+      "sentence": "In summary, recommendations were the most frequently mentioned mechanism, accounting for 27% of all responses.",
+      "label": "Result",
+      "prob": 0.5021457076072693
+    },
+    {
+      "sentence": "Second, a systems feedback should match a users predicted feedback [64].",
+      "label": "Other",
+      "prob": 0.42584896087646484
+    },
+    {
+      "sentence": "We generated two themes about how participants expected changes to the design mechanisms of YouTube would affect their sense of agency.",
+      "label": "Background",
+      "prob": 0.41624727845191956
+    },
+    {
+      "sentence": "(d) select an algorithmic personae to curate their recommendations (e.g., The Diplomat, who brings news videos from the other side) [45, p.72].",
+      "label": "Other",
+      "prob": 0.4875994920730591
+    },
+    {
+      "sentence": "several representative quotes for each code.",
+      "label": "Background",
+      "prob": 0.41009411215782166
+    },
+    {
+      "sentence": "At this stage, we eliminated 112 responses without any substantive content, e.g., I cant think of anything else.",
+      "label": "Other",
+      "prob": 0.5472793579101562
+    },
+    {
+      "sentence": "All of these stakeholders merit consideration, however, in this work we focus specifically on users and how design influences the control they feel over the time they spend in the mobile app.",
+      "label": "Objective",
+      "prob": 0.5353694558143616
+    },
+    {
+      "sentence": "A still more active choice was when the user was the one to generate the set of choices in the first place, as in P7s sketch:  There arent",
+      "label": "Other",
+      "prob": 0.418801873922348
+    },
+    {
+      "sentence": "In this work, plans are usually crafted in advance through careful deliberation and guide behavior for some time into the future [3].",
+      "label": "Other",
+      "prob": 0.5271434187889099
+    },
+    {
+      "sentence": "Participants sense of agency depended on whether it felt like they had agreed to the actions of the app.",
+      "label": "Background",
+      "prob": 0.3959018588066101
+    },
+    {
+      "sentence": "(i.e., one row in Table 2 ).",
+      "label": "Other",
+      "prob": 0.5010006427764893
+    },
+    {
+      "sentence": "The first author then wrote up a draft of the coding results and reviewed together with the other authors.",
+      "label": "Background",
+      "prob": 0.3899100422859192
+    },
+    {
+      "sentence": "Toelicitparticipant-generated ideas, we asked participants to sketch over paper mockups of three key screens: home, search, and video player (see Figure 3 ).",
+      "label": "Background",
+      "prob": 0.3856738209724426
+    },
+    {
+      "sentence": "In our third pass, we each independently coded the same 50 randomly selected responses.",
+      "label": "Background",
+      "prob": 0.3836939036846161
+    },
+    {
+      "sentence": "P13 described,  If they didnt have [recommended videos], it would be a lot harder to follow these different rabbit holes. I imagine that I would have to intentionally seek out another video, so I wouldnt feel sucked in as much.  Recommendations prompted a passive form of choice, in which users reacted to the apps infinite scroll of suggestions, rather than making active choices on their own terms.",
+      "label": "Background",
+      "prob": 0.3831721246242523
+    },
+    {
+      "sentence": "We used the informal term  things  because, in piloting the survey, we found that testers were unsure about whether certain things (e.g., recommendations and ads) counted as  mechanisms  of the app and we did not want to provide examples that would bias responses.",
+      "label": "Result",
+      "prob": 0.46277615427970886
+    },
+    {
+      "sentence": "This preference was stronger when they had a specific intention in mind (e.g., to watch a certain video or topic), whereas when their intention was more general (e.g., to pass the time) they favored turning control over to YouTube.",
+      "label": "Result",
+      "prob": 0.4714469909667969
+    },
+    {
+      "sentence": "We wanted participants to evaluate a variety of potential changes to each mechanism, so we created three versions of each mockup: low, medium, and high-control.",
+      "label": "Background",
+      "prob": 0.37786874175071716
+    },
+    {
+      "sentence": "For comparison, the YouTube press page states that mobile accounts for over 70% of watchtime [120].",
+      "label": "Other",
+      "prob": 0.48742806911468506
+    },
+    {
+      "sentence": "In another example, Hiniker et al. adapted an evidence-based Plan-Do-Review sequence [38] for an app that asked children to plan out their video-watching, finding that it helped them transition to their next activity with ease [50].",
+      "label": "Background",
+      "prob": 0.36899301409721375
+    },
+    {
+      "sentence": "mechanism.Inoursecond pass, we applied the initial codes to 120 randomly selected responses and met to discuss.",
+      "label": "Background",
+      "prob": 0.36852845549583435
+    },
+    {
+      "sentence": "After reviewing this first pass of coding together, we refined and consolidated codes and generated initial themes.",
+      "label": "Method",
+      "prob": 0.4014149010181427
+    },
+    {
+      "sentence": "We include descriptions of the most relevant details of each of these design mechanisms in the body of the paper, screenshots of their current implementation in the YouTube mobile app in Appendix I , and images of all of our mockups in Appendix II .",
+      "label": "Background",
+      "prob": 0.3650828003883362
+    },
+    {
+      "sentence": "It depended upon the situation.",
+      "label": "Other",
+      "prob": 0.42592087388038635
+    },
+    {
+      "sentence": "You go straight to what you want to watch, you watch it, and then youre done.",
+      "label": "Other",
+      "prob": 0.4817901849746704
+    },
+    {
+      "sentence": "(b) use the app for both",
+      "label": "Background",
+      "prob": 0.3616501986980438
+    },
+    {
+      "sentence": "The survey took a median of 21 minutes to complete (interquartile range: 15-29).",
+      "label": "Result",
+      "prob": 0.4691774249076843
+    },
+    {
+      "sentence": "Participants reported using YouTube a median of 52 minutes per day (range: 27-70), again based on checking their time watched statistics in the YouTube mobile app.",
+      "label": "Result",
+      "prob": 0.49264487624168396
+    },
+    {
+      "sentence": "place.Onepromising approach is to redesign these mechanisms for a greater sense of agency, i.e., an individuals experience of being the initiator of their actions in the world [113].",
+      "label": "Other",
+      "prob": 0.5583325624465942
+    },
+    {
+      "sentence": "Participants were compensated with a $30 voucher.",
+      "label": "Result",
+      "prob": 0.35652443766593933
+    },
+    {
+      "sentence": "The other responses that we removed were about characteristics of mobile phones (e.g., The app is easy to access and tempt me on my phone... ) and usability issues (e.g., it crashes on me every other day or so and it consumes a lot of battery life ) that are not specific to the interface of the YouTube mobile app.",
+      "label": "Result",
+      "prob": 0.43055301904678345
+    },
+    {
+      "sentence": "We conducted 13 study sessions with individual YouTube users that included two co-design activities:",
+      "label": "Background",
+      "prob": 0.3465982675552368
+    },
+    {
+      "sentence": "explicit attribution of an action to the self or other [113].",
+      "label": "Other",
+      "prob": 0.5667992830276489
+    },
+    {
+      "sentence": "We next independently coded the data using a web app for collaborative coding [104] to generate our set of initial codes.",
+      "label": "Method",
+      "prob": 0.4524438679218292
+    },
+    {
+      "sentence": "A second question table asked about things that made them feel less in control .",
+      "label": "Background",
+      "prob": 0.33423829078674316
+    },
+    {
+      "sentence": "However, they seemed more upset when the app was unpredictable or violated expectations, as in:  I understand the reason for the ads, but I dont get why some are 5 seconds and you can skip them while others are 60 seconds and you cant.  Other cases where participants felt manipulated included when a  small accidental click  triggered an ad, when video creators were  not upfront  about the products they promoted, and when",
+      "label": "Result",
+      "prob": 0.3759462833404541
+    },
+    {
+      "sentence": "4.5.1 Specific intentions call for more control.",
+      "label": "Other",
+      "prob": 0.49951493740081787
+    },
+    {
+      "sentence": "We used codebook thematic analysis to analyze the data [13, 15], wherein we generated themes that are more interpretive than just a summary of all of the data, but less interpretive than in reflexive thematic analysis where the researchers subject position plays a central role in the analysis [14].",
+      "label": "Background",
+      "prob": 0.32315489649772644
+    },
+    {
+      "sentence": "Its just a search bar.",
+      "label": "Other",
+      "prob": 0.4985194206237793
+    },
+    {
+      "sentence": "We presented, discussed, and then scored these sketches according to three criteria: expected impact",
+      "label": "Background",
+      "prob": 0.32265663146972656
+    },
+    {
+      "sentence": "Going a step further, the standalone app Flowstate not only offers a minimal interface, but also deletes all text on the page if the user stops writing for longer than seven seconds [111].",
+      "label": "Other",
+      "prob": 0.5761359930038452
+    },
+    {
+      "sentence": "planning ahead help them feel more in control.",
+      "label": "Other",
+      "prob": 0.36209291219711304
+    },
+    {
+      "sentence": "We decided to start by investigating users experiences in the current app before proceeding to design and evaluate potential changes in Study 2 ( RQ2 ).",
+      "label": "Background",
+      "prob": 0.308823823928833
+    },
+    {
+      "sentence": "3 Expected effect on sense of agency was weighted twice in our scoring.Wecreated",
+      "label": "Other",
+      "prob": 0.5043398141860962
+    },
+    {
+      "sentence": "Another suggested expert ratings as an indicator of quality (P5).",
+      "label": "Other",
+      "prob": 0.3371986150741577
+    },
+    {
+      "sentence": "For each theme, we extracted vivid exhibits [7], which we used to write analytical memos.",
+      "label": "Method",
+      "prob": 0.4290080964565277
+    },
+    {
+      "sentence": "For each mockup, the three different versions were placed in front of the participant in a random order, they reviewed for about one minute, and then asked any questions they had.",
+      "label": "Method",
+      "prob": 0.4428141713142395
+    },
+    {
+      "sentence": "In preparation for the evaluation co-design activity, five of the authors (KL, HZ, JVL, JC, KF), all advanced-degree students in a technology design program, created mockups of changes to mechanisms in the YouTube mobile app that we expected to impact sense of agency.",
+      "label": "Result",
+      "prob": 0.4304281771183014
+    },
+    {
+      "sentence": "mockups for the seven sketches with the highest average scores.",
+      "label": "Result",
+      "prob": 0.5793025493621826
+    },
+    {
+      "sentence": "Third, a study of flight navigation systems found that increasing the level of automation reduced sense of agency [11].",
+      "label": "Other",
+      "prob": 0.5818306803703308
+    },
+    {
+      "sentence": "After each co-design session, the researcher leading the session completed a debriefing form with their top three takeaways and shared participant sketches with the rest of the research team.",
+      "label": "Method",
+      "prob": 0.3603094518184662
+    },
+    {
+      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan  2021 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.688805341720581
+    },
+    {
+      "sentence": "To receive feedback on our changes from YouTube users, we asked participants to evaluate our mockups of the redesigned mechanisms in the YouTube mobile app (see Table 5 ).",
+      "label": "Method",
+      "prob": 0.307721346616745
+    },
+    {
+      "sentence": "Participants were invited to  Help us understand how people spend their time on the YouTube mobile app.  They were required to meet four inclusion criteria:",
+      "label": "Other",
+      "prob": 0.34256383776664734
+    },
+    {
+      "sentence": "This work was funded in part by National Science Foundation award #1849955.",
+      "label": "Other",
+      "prob": 0.6665617823600769
+    },
+    {
+      "sentence": "Our findings address what and when to design to increase sense of agency.",
+      "label": "Result",
+      "prob": 0.4089970588684082
+    },
+    {
+      "sentence": "The order of these two question tables was randomized.",
+      "label": "Result",
+      "prob": 0.3959140479564667
+    },
+    {
+      "sentence": "We started by iteratively coding the 720 responses (6 per participant).",
+      "label": "Method",
+      "prob": 0.31114882230758667
+    },
+    {
+      "sentence": "We conducted a coding reliability thematic analysis [12, 15], in which we first established reliable codes for design mechanisms and then used them to generate themes that captured shared meanings.",
+      "label": "Method",
+      "prob": 0.49479180574417114
+    },
+    {
+      "sentence": "The median age was 29 (range: 18-36).",
+      "label": "Result",
+      "prob": 0.5061463117599487
+    },
+    {
+      "sentence": "For example, the recommendations mechanism in the YouTube app was redesigned to change the number of recommendations shown on the homepage, with the low-control version showing unlimited recommendations, the medium-control version showing only three recommendations with a button to show more, and the high-control version not showing any recommendations (see images in Table 4 ).",
+      "label": "Method",
+      "prob": 0.3553575575351715
+    },
+    {
+      "sentence": "2) evaluating researcher-generated changes that were based on the results of Study 1.",
+      "label": "Result",
+      "prob": 0.4419001340866089
+    },
+    {
+      "sentence": "Both studies were approved by the University of Washingtons Institutional Review Board.",
+      "label": "Other",
+      "prob": 0.6314072608947754
+    },
+    {
+      "sentence": "After finishing data collection, all codesign sessions were transcribed.",
+      "label": "Result",
+      "prob": 0.4664511978626251
+    },
+    {
+      "sentence": "Participants felt more in control when they planned their consumption in advance.",
+      "label": "Result",
+      "prob": 0.6555031538009644
+    },
+    {
+      "sentence": "Consistent with a research-through-design approach [122], the aim of these activities was not to converge upon a single solution but rather to generate knowledge, i.e., what to design for a sense of agency.",
+      "label": "Objective",
+      "prob": 0.7246158123016357
+    },
+    {
+      "sentence": "P13 shared,  If youre not giving me recommendations, and if youre making me search, then Im not in control. Or, Im in control, but the problem is Im spending more time. Theres no point.",
+      "label": "Other",
+      "prob": 0.6024895906448364
+    },
+    {
+      "sentence": "Interrater reliability was assessed using Cohens kappa, with  = 0.73 indicating substantial agreement [61].",
+      "label": "Result",
+      "prob": 0.4403088688850403
+    },
+    {
+      "sentence": "autoplay  automatically  turned on.",
+      "label": "Other",
+      "prob": 0.4866790771484375
+    },
+    {
+      "sentence": "To focus on RQ2, our results and analysis here address only the four mockups (see Table 5 ) that directly change one of the existing internal mechanisms in YouTube that we identified in Study 1.",
+      "label": "Result",
+      "prob": 0.5846940875053406
+    },
+    {
+      "sentence": "To generate a wide range of possible changes, we started with a design brainstorm that generated 67 different ideas, e.g., creating a How-to mode for viewing only educational content, reducing video playback speed to 50% after a daily time limit is exceeded, or making Watch Later the default action for recommendations.",
+      "label": "Method",
+      "prob": 0.4630967676639557
+    },
+    {
+      "sentence": "We investigate two research questions in two studies that build upon each other:",
+      "label": "Result",
+      "prob": 0.45692601799964905
+    },
+    {
+      "sentence": "Participants gave their active consent through actions such as tapping on a play control:  Im watching a video thats taken too long of my time, so I can just pause it and come back to it. I feel control there.  Participants could also issue ongoing consent for the app, e.g., by subscribing to a creator:  My subscriptions show me what I asked to see and I can choose what and when I wish to watch",
+      "label": "Result",
+      "prob": 0.2995036840438843
+    },
+    {
+      "sentence": "4.5.2 Active and informed choices.",
+      "label": "Other",
+      "prob": 0.6730580925941467
+    },
+    {
+      "sentence": "University of Oxford ulrik.lyngs@cs.ox.ac.uk",
+      "label": "Other",
+      "prob": 0.7631464600563049
+    },
+    {
+      "sentence": "Himanshu Zade University of Washington himanz@uw.edu",
+      "label": "Other",
+      "prob": 0.7510396242141724
+    },
+    {
+      "sentence": "An outright",
+      "label": "Other",
+      "prob": 0.6756104230880737
+    },
+    {
+      "sentence": "In Study 2, we sought to understand how changes to these design mechanisms might influence sense of agency ( RQ2 ).",
+      "label": "Objective",
+      "prob": 0.7283482551574707
+    },
+    {
+      "sentence": "Ulrik lyngs",
+      "label": "Other",
+      "prob": 0.7375755310058594
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.7607738375663757
+    },
+    {
+      "sentence": "The initial questions asked about our four inclusion criteria.",
+      "label": "Result",
+      "prob": 0.4988812208175659
+    },
+    {
+      "sentence": "Participants answered questions in an online survey.",
+      "label": "Result",
+      "prob": 0.6442297101020813
+    },
+    {
+      "sentence": "4.2.2 Demographics and YouTube use.",
+      "label": "Other",
+      "prob": 0.6603831052780151
+    },
+    {
+      "sentence": "ACM ISBN 978-1-4503-8096-6/21/05..",
+      "label": "Other",
+      "prob": 0.7817044258117676
+    },
+    {
+      "sentence": "For relevant recommendations, participants control responses were divided nearly 50-50.",
+      "label": "Result",
+      "prob": 0.690142035484314
+    },
+    {
+      "sentence": "J. Vera Liao University of Washington ljzj@uw.edu",
+      "label": "Other",
+      "prob": 0.7818687558174133
+    },
+    {
+      "sentence": "Sean A. Munson",
+      "label": "Other",
+      "prob": 0.7723941802978516
+    },
+    {
+      "sentence": "Irrelevant recommendations, i.e., those that were repetitive or unrelated to personal interests, universally undermined sense of agency:  Seeing recommended videos that have nothing to do with my viewing history leads to unwanted scrolling and possibly unwanted content.  Similarly, irrelevant search results undermined control because they forced participants to keep scrolling for what they wanted, e.g.,  I use specific search terms, but I still have to scan past a lot of vaguely or even unrelated stuff to find what I want.",
+      "label": "Result",
+      "prob": 0.38160571455955505
+    },
+    {
+      "sentence": "It often takes me",
+      "label": "Other",
+      "prob": 0.743049144744873
+    },
+    {
+      "sentence": "To copy otherwise, or republish,topostonserversortoredistributetolists,requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org.",
+      "label": "Other",
+      "prob": 0.7741380333900452
+    },
+    {
+      "sentence": "4.3.1 Think-aloud Demonstrations with YouTube App.",
+      "label": "Other",
+      "prob": 0.7451229691505432
+    },
+    {
+      "sentence": "As they sketched, participants were asked to explain their thinking [99].",
+      "label": "Other",
+      "prob": 0.7244422435760498
+    },
+    {
+      "sentence": "We applied our codes to all transcripts and sketches and reviewed the results to create our final themes.",
+      "label": "Method",
+      "prob": 0.5247874855995178
+    },
+    {
+      "sentence": "University of Washington",
+      "label": "Other",
+      "prob": 0.7768213748931885
+    },
+    {
+      "sentence": "4.3.2 Co-design Activity1: Sketching.",
+      "label": "Other",
+      "prob": 0.7622485756874084
+    },
+    {
+      "sentence": "University of Washington kai1@uw.edu",
+      "label": "Other",
+      "prob": 0.8207523822784424
+    },
+    {
+      "sentence": "We recruited YouTube users in Seattle via email lists and social media channels to  Help us understand how people spend their time in the YouTube mobile app.  We did not initially set inclusion criteria for participation (beyond adult YouTube users) as we viewed our co-design activities as exploratory.",
+      "label": "Result",
+      "prob": 0.5940836668014526
+    },
+    {
+      "sentence": "4.3.3 Co-design Activity 2: Evaluation.",
+      "label": "Other",
+      "prob": 0.4188263416290283
+    },
+    {
+      "sentence": "This was captured in participants use of terms like the  wormhole  (two mentions) and  rabbit hole  (five mentions), as in  The way that videos get promoted to my home page and have appealing thumbnails I end up clicking on them and wonder how I got to this place and why I am watching this video. I ended up going down the rabbit hole and watching the video and then others like it and so on.  Some of these recommendations were described as  clickbait  (six mentions) that misled with content that did not meet expectations and sometimes also violated participants consent (e.g., by showing  inappropriate content ).",
+      "label": "Result",
+      "prob": 0.5259757041931152
+    },
+    {
+      "sentence": "As a step in this direction, P1 described a home screen that presented,  Six categories we think youre most interested in, and then youre at least making the active choice, I want to watch some interviews right now.  In this design, the apps algorithm would recommend a set of personalized topics, but the user would be the one to choose between them.",
+      "label": "Result",
+      "prob": 0.34966424107551575
+    },
+    {
+      "sentence": "down the rabbit hole.",
+      "label": "Other",
+      "prob": 0.698968768119812
+    },
+    {
+      "sentence": "James Choi University of Washington jchoi408@uw.edu",
+      "label": "Other",
+      "prob": 0.845955491065979
+    },
+    {
+      "sentence": ".$15.00 https://doi.org/10.1145/3411764.3445467",
+      "label": "Other",
+      "prob": 0.8475503325462341
+    },
+    {
+      "sentence": "P12 likened this to the experience at Costco, a supermarket chain that deliberately shows no signs in its stores [84]:  If you want to go find cookies, they wont actually show you where the cookies are so you literally have to go through every single aisle. You have to go find it.",
+      "label": "Other",
+      "prob": 0.6569051742553711
+    },
+    {
+      "sentence": "Our naming takes inspiration from Cox et al.",
+      "label": "Other",
+      "prob": 0.7860774993896484
+    },
+    {
+      "sentence": "The complete survey wording, along with all of the other appendices for this study can be found at: https://osf.io/w3hmdToinvestigate",
+      "label": "Other",
+      "prob": 0.8451230525970459
+    },
+    {
+      "sentence": "Finally, participants also wanted to control what content is recommended, particularly when recommended content did not match their aspirations:  There are cases in a particular day where I just want to watch cat videos. But I do not want my entire screen to recommend cat videos.  Participants wanted to customize the content of recommendations more directly than just by generating a watch history:  The only thing you can do to control the algorithm is to watch videos. But you get no say how itll recommend new ones.",
+      "label": "Result",
+      "prob": 0.46785107254981995
+    },
+    {
+      "sentence": "Watch history & stats also supported planning by providing an awareness that participants could use to adjust their behavior:  I can look at my watch history and see how many videos I have watched today. That puts it into perspective if I should spend time doing something else if I am spending too much time on YouTube.  Several participants described using this awareness in conjunction with the Watch Later playlist:  I am able to put a video in my Watch Later playlist if I think I have spent too much time on YouTube for the day.",
+      "label": "Result",
+      "prob": 0.45269203186035156
+    },
+    {
+      "sentence": "Publication rights licensed to ACM.",
+      "label": "Other",
+      "prob": 0.8686001300811768
+    },
+    {
+      "sentence": "At Netflix, we are competing for our customers time, so our competitors include Snapchat, YouTube, sleep, etc.  Reed Hastings, Netflix CEO [118, p.50]",
+      "label": "Other",
+      "prob": 0.8541264533996582
+    },
+    {
+      "sentence": "Kaiyue Fan",
+      "label": "Other",
+      "prob": 0.84255051612854
+    },
+    {
+      "sentence": "3.4.2 The spectrum of consent.",
+      "label": "Other",
+      "prob": 0.8476454615592957
+    },
+    {
+      "sentence": "For example, they put participants on the spot:  Based on my viewing history, the app will push me new content and I may not have the fortitude to not click to view.  However, notifications also helped participants plan when to check the app by reducing their fear of missing out:  With notifications I will know exactly when a new video goes up that I may be interested in watching. This way I am not randomly checking for uploads and spending extra time searching and browsing.  This may explain why notifications were split between more in control and less in control responses (47% vs. 53% ).",
+      "label": "Other",
+      "prob": 0.5248486399650574
+    },
+    {
+      "sentence": "3.1.3 YouTube use.",
+      "label": "Other",
+      "prob": 0.8447795510292053
+    },
+    {
+      "sentence": "Our redesigns of the recommendations mechanism showed either unlimited, limited, or no video recommendations, to which P2 responded  If I came here for a specific reason, like my goal is to learn how-to do something, then I prefer this one without recommendations. However, if I just want to watch something that gets my mind off things, I prefer the one where I can choose to show more recommendations.  At times when participants just wanted to be entertained, designing for greater control could actually get in the way.",
+      "label": "Other",
+      "prob": 0.4950867295265198
+    },
+    {
+      "sentence": "The two contributions of this work are:",
+      "label": "Other",
+      "prob": 0.814514696598053
+    },
+    {
+      "sentence": "3.4.1 Design Mechanisms.",
+      "label": "Other",
+      "prob": 0.860461950302124
+    },
+    {
+      "sentence": "P4 removed recommendations from their sketch, explaining:  If I have a specific goal, I know what I want, I dont need recommendations to guide my search, I just want to be in control of my search.  P2 evaluated our redesign of the search mechanism that emphasized results with higher entertainment value by saying,  Im probably going to click on it because its cute and Im just going to waste so much time. So its going to make me feel totally out of control of what I actually wanted to come here for.  In these cases, participants wanted stronger control mechanisms so that the app would not hijack their specific intention.",
+      "label": "Result",
+      "prob": 0.6952900886535645
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.8979548215866089
+    },
+    {
+      "sentence": "Participants were handed a pen and a copy of one mockup (e.g., the home screen) and were asked,  What would you change on this page to feel more in control of how you spend your time on YouTube?  They then received a second copy of the same mockup and were asked to sketch changes that would make them feel  less in control.  Each participant created a total of six sketches (two versions of three different screens).",
+      "label": "Result",
+      "prob": 0.6038904786109924
+    },
+    {
+      "sentence": "3.4.3 Planning ahead.",
+      "label": "Other",
+      "prob": 0.9073042869567871
+    },
+    {
+      "sentence": "3.1.2 Demographics.",
+      "label": "Other",
+      "prob": 0.9229022860527039
+    },
+    {
+      "sentence": "3.1.1 Recruitment.",
+      "label": "Other",
+      "prob": 0.9267507791519165
+    },
+    {
+      "sentence": "4.2.1 Recruitment.",
+      "label": "Other",
+      "prob": 0.9230495691299438
+    }
+  ]
+}

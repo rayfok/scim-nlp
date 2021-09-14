@@ -8,5 +8,9 @@ private/
 
 data/*
 !data/gpt3
+!data/sections
+!data/spp-output
+!data/ssc-input
+!data/ssc-output
 
 sequential_sentence_classification/src

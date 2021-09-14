@@ -1,0 +1,1914 @@
+{
+  "2102.00593": [
+    {
+      "sentence": "However, in high stakes or time critical environments, this process places time and mental burden on users.",
+      "label": "Background",
+      "prob": 0.9844984412193298
+    },
+    {
+      "sentence": "Clinicians also frequently brought up the difficulty they experienced in connecting patients with psychopharmacology when their treatment needs exceeded their care providers comfort level.",
+      "label": "Background",
+      "prob": 0.9824221730232239
+    },
+    {
+      "sentence": "Clinical DSTs have long attracted researchers due to their ability to perform tasks that exceed human capabilities, such as extracting information and patterns from large amounts of data.",
+      "label": "Background",
+      "prob": 0.9809034466743469
+    },
+    {
+      "sentence": "Despitemanyyearsofenthusiasmtowardsthesetechnologies[41, 47], the vast majority of these tools fail once they are deployed in real-world health systems.",
+      "label": "Background",
+      "prob": 0.9778214693069458
+    },
+    {
+      "sentence": "Current informational resources about medications are considered to be either too simple or too complex for patients.",
+      "label": "Background",
+      "prob": 0.9761427640914917
+    },
+    {
+      "sentence": "However, they also noted that new technology introduced into the clinic would require substantial validation through randomized controlled trials, supporting their trust in new tools.",
+      "label": "Background",
+      "prob": 0.9745988249778748
+    },
+    {
+      "sentence": "Past studies have identified a number of problems with implementing existing models into real-world workflows.",
+      "label": "Background",
+      "prob": 0.9740486145019531
+    },
+    {
+      "sentence": "In the case of MDD, and primary care settings more generally, time constraints will consistently need to be considered in the design of any novel health tools.",
+      "label": "Background",
+      "prob": 0.9738830924034119
+    },
+    {
+      "sentence": "The application of machine learning in healthcare brings numerous practical, ethical, and legal issues.",
+      "label": "Background",
+      "prob": 0.9717195630073547
+    },
+    {
+      "sentence": "Limited knowledge beyond SSRIs can lead to challenges when caring for patients who are not seeing improvements from these treatments.",
+      "label": "Background",
+      "prob": 0.9713220000267029
+    },
+    {
+      "sentence": "Antidepressant medications are a common form of treatment for MDD, but selecting an effective treatment for a patient is a complex task.",
+      "label": "Background",
+      "prob": 0.9708985090255737
+    },
+    {
+      "sentence": "Importantly, as new machine learning models continue to advance, so may the opportunities for model output to contrast with clincians expectations or existing care standards.",
+      "label": "Background",
+      "prob": 0.9700998663902283
+    },
+    {
+      "sentence": "In medicine, the integration of AI tools could lead to a substantial paradigm shift in which human-AI collaboration becomes integrated in medical decision-making.",
+      "label": "Background",
+      "prob": 0.9699602127075195
+    },
+    {
+      "sentence": "Often, these processes involve additional healthcare providers.",
+      "label": "Background",
+      "prob": 0.9693168997764587
+    },
+    {
+      "sentence": "If ineffective, the provider may try secondand then third-line treatment, which often have more severe side effects or drug interactions.",
+      "label": "Background",
+      "prob": 0.968227744102478
+    },
+    {
+      "sentence": "This will require machine learning models to robustly reason with existing mental models of the users.",
+      "label": "Background",
+      "prob": 0.9679198265075684
+    },
+    {
+      "sentence": "These factors include patients preferences, clinical processes that often include multiple healthcare providers, the constraints of the healthcare system, and existing domain knowledge.",
+      "label": "Background",
+      "prob": 0.966012716293335
+    },
+    {
+      "sentence": "Consequently, clinicians feedback challenged the idea that AI-driven innovations in healthcare will be single user systems.",
+      "label": "Background",
+      "prob": 0.9658989310264587
+    },
+    {
+      "sentence": "Rather, these healthcare decisions affect many other aspects of care.",
+      "label": "Background",
+      "prob": 0.9656625390052795
+    },
+    {
+      "sentence": "Thus, decisions in healthcare, such as treatment selection, are not siloed tasks.",
+      "label": "Background",
+      "prob": 0.9622762799263
+    },
+    {
+      "sentence": "However, such information is not available within an electronic medical record, and therefore not accounted for within current ML models.",
+      "label": "Background",
+      "prob": 0.9618493914604187
+    },
+    {
+      "sentence": "Designing for fast-paced, time-constrained work environments has important design implications, particularly in the context of current explainable AI research.",
+      "label": "Background",
+      "prob": 0.9602135419845581
+    },
+    {
+      "sentence": "Notably, DSTs are typically not abandoned due to poor performance, but rather due to failures in accounting for the complexity of the healthcare sociotechnical system [51].",
+      "label": "Background",
+      "prob": 0.9586732983589172
+    },
+    {
+      "sentence": "One area of healthcare that researchers have expected to benefit from the implementation of DSTs, but has yet to adopt such technological support, is major depressive disorder (MDD).",
+      "label": "Background",
+      "prob": 0.9544845819473267
+    },
+    {
+      "sentence": "DSTs will likely be able to communicate healthcare options quickly to patients, and may provide tailored educational materials that are continuously available to patients.",
+      "label": "Background",
+      "prob": 0.9538434743881226
+    },
+    {
+      "sentence": "While ML models for antidepressant treatment selection exist, these systems are rarely integrated into clinical practice due to low user acceptance and a failure to account for user expectations in the system design [19, 33].",
+      "label": "Background",
+      "prob": 0.9529387354850769
+    },
+    {
+      "sentence": "While we have seen many recent advances related to the use of HCI methods for designing AI tools, we have seen few studies that discuss what it will take to make these tools work within complex sociotechnical systems.",
+      "label": "Background",
+      "prob": 0.9518798589706421
+    },
+    {
+      "sentence": "In the past few years, we have seen an upswing in CHI research that uses co-design methods to consider the real-world challenges, beyond accuracy, that must be considered in the design and development of these tools.",
+      "label": "Background",
+      "prob": 0.9517186284065247
+    },
+    {
+      "sentence": "Rather than providing all evidence in support of a recommendation, such explanations could visualize how and why a machine learning model output is diverging from existing guidelines or expert knowledge.",
+      "label": "Background",
+      "prob": 0.950900673866272
+    },
+    {
+      "sentence": "Though clinicians wanted to engage patients in treatment conversations, several noted the lack of available information designed for patients.",
+      "label": "Background",
+      "prob": 0.94920414686203
+    },
+    {
+      "sentence": "We do not yet have established best practices for dealing with contrasting information, but helping clinicians identify the best way to proceed is critical.",
+      "label": "Background",
+      "prob": 0.9487310647964478
+    },
+    {
+      "sentence": "Finding an effective antidepressant medication for someone diagnosed with MDD is an important but difficult task.",
+      "label": "Background",
+      "prob": 0.9483151435852051
+    },
+    {
+      "sentence": "However, without the time to review an AI prediction or recommendation in detail, greater responsibility needs to be placed up front to determine when the system is likely to err, and when the tool should perhaps not be shown altogether.",
+      "label": "Background",
+      "prob": 0.9479886889457703
+    },
+    {
+      "sentence": "Engaging clinicians or other target users of AI tools in design fiction methods [44] may be another useful step in the AI design process.",
+      "label": "Background",
+      "prob": 0.9458021521568298
+    },
+    {
+      "sentence": "Specifically, treatments that were listed as either favorable or neutral included medications that clinicians would not typically prescribe to patients.",
+      "label": "Background",
+      "prob": 0.9384183287620544
+    },
+    {
+      "sentence": "Most commonly, participants spoke about their limited familiarity with antidepressant treatments, particularly outside of the selective serotonin reuptake inhibitor (SSRI) class, which are the most commonly prescribed antidepressants.",
+      "label": "Background",
+      "prob": 0.9353974461555481
+    },
+    {
+      "sentence": "While explaining black box models is a consistent theme in AI work, we need best practices for adapting the design of DSTs for timeconstrained environments.",
+      "label": "Background",
+      "prob": 0.9338864684104919
+    },
+    {
+      "sentence": "Both mental health specialists and PCPs (including physicians and nurse practitioners) are authorized to write prescriptions.",
+      "label": "Background",
+      "prob": 0.9330624938011169
+    },
+    {
+      "sentence": "Limited guidelines as well as heterogeneity in patients symptoms and in patients tolerability of antidepressants often results in using trial and error to identify an effective treatment [65].",
+      "label": "Background",
+      "prob": 0.9311591386795044
+    },
+    {
+      "sentence": "Also, PCPs currently use a publicly available table that includes information about antidepressant treatments.",
+      "label": "Background",
+      "prob": 0.9296766519546509
+    },
+    {
+      "sentence": "In recent years, we have seen increased interest in embedding AI tools in a variety of contexts, such as the justice system [2, 62], the U.S. child welfare system [54], and medicine [22, 59, 68].",
+      "label": "Background",
+      "prob": 0.9295342564582825
+    },
+    {
+      "sentence": "A number of questions must be answered before implementing these models, particularly regarding clinician expectations and system integration.",
+      "label": "Background",
+      "prob": 0.9276644587516785
+    },
+    {
+      "sentence": "Participants frequently commented that DST predictions should be paired with recommendations for appropriate next steps in the clinical workflow, often involving other healthcare providers.",
+      "label": "Background",
+      "prob": 0.9274259209632874
+    },
+    {
+      "sentence": "Clinicians also suggested additional conditions that should be included, such as pregnancy and suicidality, as these will influence their treatment decision.",
+      "label": "Background",
+      "prob": 0.9231035113334656
+    },
+    {
+      "sentence": "Advances in artificial intelligence (AI) and machine learning (ML) offer opportunities to uncover complex data patterns.",
+      "label": "Background",
+      "prob": 0.9201063513755798
+    },
+    {
+      "sentence": "Major depressive disorder (MDD) is a brain disorder characterized by depressed mood, loss of interest in daily activities, as well as change in associated symptoms such as sleep, energy, eating, concentration, and thoughts of death or suicide.",
+      "label": "Background",
+      "prob": 0.9195123314857483
+    },
+    {
+      "sentence": "Several papers have discussed the relationship between poor DST integration and low user acceptance.",
+      "label": "Background",
+      "prob": 0.9165183305740356
+    },
+    {
+      "sentence": "While the promise of AI in medicine is alluring, the use of these systems in healthcare has been discussed for decades, and yet few of these tools have resulted in successful implementation and use in clinical practice [41].",
+      "label": "Background",
+      "prob": 0.9144474864006042
+    },
+    {
+      "sentence": "The emphasis on patient preferences in the treatment selection process motivated the need for interactive tools in which clinicians and patients could change the input variables.",
+      "label": "Background",
+      "prob": 0.9138168096542358
+    },
+    {
+      "sentence": "Through conversations with clinicians we have found that successful DST implementation will also require a broader context awareness.",
+      "label": "Background",
+      "prob": 0.9106526374816895
+    },
+    {
+      "sentence": "Clinicians were critical in identifying the connections between DST output and existing healthcare processes.",
+      "label": "Background",
+      "prob": 0.9075651168823242
+    },
+    {
+      "sentence": "While clinicians saw value in tailoring care for patients with high dropout risk, some clinicians were wary of stability scores.",
+      "label": "Background",
+      "prob": 0.9072626829147339
+    },
+    {
+      "sentence": "Such technological support may address both the time constraints in primary care settings and the cognitive constraints of the patient, who can experience information overload in clinical encounters [34].",
+      "label": "Background",
+      "prob": 0.9062889814376831
+    },
+    {
+      "sentence": "As a reminder side effects to expect, side effects that are less common.",
+      "label": "Background",
+      "prob": 0.9031529426574707
+    },
+    {
+      "sentence": "The majority of mental health care is initiated in primary care settings, yet the extent of training primary care providers (PCP) receive in managing MDD can vary widely [63, 69], and contemporary treatment guidelines provide little support in choosing among them [31].",
+      "label": "Background",
+      "prob": 0.8999010920524597
+    },
+    {
+      "sentence": "Based on these challenges, we talked with participants about how they currently make treatment decisions and their vision of data-driven support tools.",
+      "label": "Background",
+      "prob": 0.8970192074775696
+    },
+    {
+      "sentence": "Clinicians did express interest in how the model was validated and the results of any randomized trials or other validation studies of the technology.",
+      "label": "Background",
+      "prob": 0.8967052698135376
+    },
+    {
+      "sentence": "In these cases, clinicians requested information about causal factors that would allow them to intervene appropriately.",
+      "label": "Background",
+      "prob": 0.8964195251464844
+    },
+    {
+      "sentence": "As in these examples, clinicians raised important concerns about DST recommendations.",
+      "label": "Background",
+      "prob": 0.8918620347976685
+    },
+    {
+      "sentence": "All participants stressed that they have limited time with each patient and must focus on understanding all of the factors that will influence their treatment decision, including the patients medical history, symptoms, and treatment preferences.",
+      "label": "Background",
+      "prob": 0.8905964493751526
+    },
+    {
+      "sentence": "Treatments for MDD supported by randomized, controlled trials include antidepressant medications, cognitive-behavioral therapy, and somatic therapies such as transcranial magnetic stimulation and electroconvulsive therapy [18].",
+      "label": "Background",
+      "prob": 0.889319658279419
+    },
+    {
+      "sentence": "We found that intelligent decision support tools will need to seamlessly integrate into clinicians time constrained workflows, which typically involve short appointments with patients to understand their symptoms and make treatment decisions.",
+      "label": "Background",
+      "prob": 0.8865898251533508
+    },
+    {
+      "sentence": "This is notably distinct from the feature-importance explanations we produced in study 1, which included correlated features produced by the model.",
+      "label": "Background",
+      "prob": 0.8842450380325317
+    },
+    {
+      "sentence": "Engaging patients also means providing ways to integrate patient treatment preferences into the interactive system design.",
+      "label": "Background",
+      "prob": 0.8830958008766174
+    },
+    {
+      "sentence": "This became clear as clinicians considered the potential effects of stability and dropout predictions.",
+      "label": "Background",
+      "prob": 0.8766434192657471
+    },
+    {
+      "sentence": "We do not expect that the sociotechnical factors discussed here represent the full set of sociotechnical considerations that need to be included in AI design.",
+      "label": "Background",
+      "prob": 0.8752678036689758
+    },
+    {
+      "sentence": "However, primary care appointments last an average of only 20 minutes in the United States, and internationally primary care appointments can be as short as a few minutes [28].",
+      "label": "Background",
+      "prob": 0.8738048672676086
+    },
+    {
+      "sentence": "For example, multiple clinicians discussed the benefit of connecting treatment recommendations with their prescription systems:",
+      "label": "Background",
+      "prob": 0.8737741708755493
+    },
+    {
+      "sentence": "The trial and error involved in identifying effective treatment for a given individual has prompted calls for more integration of evidence-based medicine in the treatment of mental health disorders [40, 48, 58].",
+      "label": "Background",
+      "prob": 0.8729084134101868
+    },
+    {
+      "sentence": "For MDD, this meant connecting patients with behavior therapy, pharmacology, and nurses who could follow up with them and track their progress.",
+      "label": "Background",
+      "prob": 0.8683744072914124
+    },
+    {
+      "sentence": "Through conversations on their expectations for AI support, clinicians revealed a number of critical aspects of the sociotechnical healthcare system that need to be considered in the design of novel decision support tools.",
+      "label": "Background",
+      "prob": 0.8670040965080261
+    },
+    {
+      "sentence": "We expect that designing multi-user systems that engage patients and their healthcare providers may have several benefits.",
+      "label": "Background",
+      "prob": 0.8645617961883545
+    },
+    {
+      "sentence": "Participants discussed the need for guidance when prescribing secondor third-line treatments, as there are fewer clinical standards.",
+      "label": "Background",
+      "prob": 0.8641229867935181
+    },
+    {
+      "sentence": "We do not expect that this is the optimal visualization and much work is needed in the area of data visualization to represent both the distributions of ML predictions, as well as the uncertainty within the model.",
+      "label": "Background",
+      "prob": 0.8623824715614319
+    },
+    {
+      "sentence": "While these treatment guidelines provide a useful resource, the heterogeneity in patients symptoms and tolerability of antidepressants means that identifying an effective treatment for an individual remains a process of trial and error [65].",
+      "label": "Background",
+      "prob": 0.8616146445274353
+    },
+    {
+      "sentence": "In the context of healthcare decisions, allowing clinicians and patients to voice skepticism and highlight surprising DST outputs may allow the underlying models to adapt as medical guidelines continue to evolve.",
+      "label": "Background",
+      "prob": 0.8613055348396301
+    },
+    {
+      "sentence": "Rather than asking clinicians to search for a specific treatment, we used a matrix design that allows clinicians to compare antidepressants side by side.",
+      "label": "Background",
+      "prob": 0.8599706888198853
+    },
+    {
+      "sentence": "Studies have connected increased patient activation to improved healthcare experiences and health outcomes [23].",
+      "label": "Background",
+      "prob": 0.8578678965568542
+    },
+    {
+      "sentence": "Researchers have found that poor workflow integration, low context awareness, and a failure to incorporate clinicians expectations have led to low user acceptance of DSTs [33, 41, 51, 60].",
+      "label": "Background",
+      "prob": 0.857774555683136
+    },
+    {
+      "sentence": "All of the clinicians in this study emphasized that MDD treatment decisions are a collaborative process.",
+      "label": "Background",
+      "prob": 0.8567833304405212
+    },
+    {
+      "sentence": "clinicians expectations for how DSTs may better engage with the healthcare system in order to support complex treatment decisions.",
+      "label": "Background",
+      "prob": 0.8565992712974548
+    },
+    {
+      "sentence": "Ten PCPs volunteered to participate in this study (six physicians, three resident physicians, and one nurse practitioner).",
+      "label": "Background",
+      "prob": 0.8551697134971619
+    },
+    {
+      "sentence": "Given the important role patients play in the treatment selection process, we also acknowledge the importance of creating patient-facing tools to support education and decision-making.",
+      "label": "Background",
+      "prob": 0.8543254733085632
+    },
+    {
+      "sentence": "studies focused on creating ML models to support MDD treatment decisions [25, 49, 57].",
+      "label": "Background",
+      "prob": 0.8539260029792786
+    },
+    {
+      "sentence": "In another study looking at image retrieval tools, Xie et al. developed a set of design recommendations for supporting clinician exploration and subsequent understanding of AI tools [70].",
+      "label": "Background",
+      "prob": 0.8511190414428711
+    },
+    {
+      "sentence": "Due to our focus on walking through a decision process that replicates real-world decision-making we worked with experts in clinical psychology and psychopharmacology to create a realistic patient scenario.",
+      "label": "Background",
+      "prob": 0.8477266430854797
+    },
+    {
+      "sentence": "Such AI-powered decision support tools (DSTs) may support many clinical practices, including diagnosing illnesses, selecting the optimal treatment for a patient, and predicting disease trajectories [72].",
+      "label": "Background",
+      "prob": 0.8468251824378967
+    },
+    {
+      "sentence": "Such short encounters are considered insufficient for effective mental health care [27].",
+      "label": "Background",
+      "prob": 0.8449617028236389
+    },
+    {
+      "sentence": "We recommend that for time-constrained medical environments, we shift from designing explanations for every decision to on-demand explanations that contrast AI recommendations with current standards of care.",
+      "label": "Background",
+      "prob": 0.8443223237991333
+    },
+    {
+      "sentence": "In our work, we found that due to time limitations, clinicians wanted to determine their trust in the technology one time, rather than at each decision point.",
+      "label": "Background",
+      "prob": 0.8433486819267273
+    },
+    {
+      "sentence": "As we discuss in the next section, interacting with the prototype also revealed a new way in which DSTs must engage with the broader healthcare system.",
+      "label": "Background",
+      "prob": 0.8430270552635193
+    },
+    {
+      "sentence": "We also wished to include clinicians in co-design activities to discuss their expectations for future DSTs.",
+      "label": "Background",
+      "prob": 0.8393816351890564
+    },
+    {
+      "sentence": "While we see this as an important first step, next-step studies should engage with other stakeholders, such as patients, nurses, pharmacists, and therapists.",
+      "label": "Background",
+      "prob": 0.8374291062355042
+    },
+    {
+      "sentence": "Yet, very few studies have looked at creating AI tools for patients [30].",
+      "label": "Background",
+      "prob": 0.8366143107414246
+    },
+    {
+      "sentence": "Recent literature in explainable AI has made important progress towards improving transparency of AI models by creating interpretable explanations for the models output [67].",
+      "label": "Background",
+      "prob": 0.8362160921096802
+    },
+    {
+      "sentence": "However these connections were not apparent to all healthcare providers, indicating the decision support tools should explicitly suggest appropriate next steps within the technology design.",
+      "label": "Background",
+      "prob": 0.8345848917961121
+    },
+    {
+      "sentence": "3) do not require making decisions of trust at every interaction, and",
+      "label": "Background",
+      "prob": 0.8340349793434143
+    },
+    {
+      "sentence": "In the context of antidepressant treatment selection, Jacobs et al. found in a factorial experiment that AI recommendations did not improve treatment selection accuracy, highlighting the need for research that engages directly with clinicians to create tools that are interpretable and useful [29].",
+      "label": "Background",
+      "prob": 0.8337080478668213
+    },
+    {
+      "sentence": "Using an iterative design process and two qualitative studies with PCPs, our findings raise many challenges to integrating ML-enabled tools into real clinical workflows.",
+      "label": "Background",
+      "prob": 0.8336156010627747
+    },
+    {
+      "sentence": "Unlike the dropout scores, some clinicians did not believe that patient-level stability scores guided them towards any particular interventions or next steps, and some clinicians saw stability scores as potentially harmful for seemingly stable patients:",
+      "label": "Background",
+      "prob": 0.8328907489776611
+    },
+    {
+      "sentence": "The frequency of ineffective drug trials has resulted in the psychiatry community calling for more information on which treatments will be most effective for an individual patient [58].",
+      "label": "Background",
+      "prob": 0.8324494361877441
+    },
+    {
+      "sentence": "These discussions reemphasized the type of validation methods that would help clinicians to establish trust.",
+      "label": "Background",
+      "prob": 0.8316166996955872
+    },
+    {
+      "sentence": "In response, there have been calls both within and outside of the field of HCI to use CSCW and HCI methods to improve these tools [51, 60, 72].",
+      "label": "Background",
+      "prob": 0.8311328291893005
+    },
+    {
+      "sentence": "While AI research continues to focus on improving information accuracy for clinicians, modern clinical care aspires toward shared decisionmaking with patients and clinicians working together to make decisions [12, 39].",
+      "label": "Background",
+      "prob": 0.8300912976264954
+    },
+    {
+      "sentence": "We see a clear need for DSTs to explicitly draw the connections between the model output and actionable next steps.",
+      "label": "Background",
+      "prob": 0.8290480375289917
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Background",
+      "prob": 0.8263400197029114
+    },
+    {
+      "sentence": "Notably, while some participants helped us to connect the ML predictions to existing health system procedures, others found this task difficult.",
+      "label": "Background",
+      "prob": 0.8249533772468567
+    },
+    {
+      "sentence": "The scenario was vetted by psychopharmacology experts as a reasonable example of a real-world patient.",
+      "label": "Background",
+      "prob": 0.8248288035392761
+    },
+    {
+      "sentence": "Even further, some clinicians saw an opportunity to use the information from the DST to create educational sources for patients:",
+      "label": "Background",
+      "prob": 0.8223528861999512
+    },
+    {
+      "sentence": "For example, studies in medical informatics found that when DST alerts arise at inopportune times (from clinicians vantage), the alerts become ignored or overridden [1, 35, 43].",
+      "label": "Background",
+      "prob": 0.8222524523735046
+    },
+    {
+      "sentence": "This came up both when discussing patient dropout predictions as well as treatment recommendations.",
+      "label": "Background",
+      "prob": 0.8219302892684937
+    },
+    {
+      "sentence": "First-line treatments are the recommended initial treatment options.",
+      "label": "Background",
+      "prob": 0.8195388317108154
+    },
+    {
+      "sentence": "Some clinicians commented that they were unable to identify a clear next step for patients with high stability scores, while others were concerned that these patients would not receive the needed attention.",
+      "label": "Background",
+      "prob": 0.8132375478744507
+    },
+    {
+      "sentence": "Clinicians wanted tools that showed all appropriate treatment options, rather than only showing one at a time:",
+      "label": "Background",
+      "prob": 0.8130933046340942
+    },
+    {
+      "sentence": "The ability to interact with a high fidelity prototype also led participants to discuss new opportunities and challenges.",
+      "label": "Background",
+      "prob": 0.8130822777748108
+    },
+    {
+      "sentence": "This result contrasts with work in the field of explainable AI, which often looks at designing explanations for each prediction or recommendation.",
+      "label": "Background",
+      "prob": 0.8123601675033569
+    },
+    {
+      "sentence": "To support treatment selection, the Canadian Network for Mood and Anxiety Treatments provides widely followed treatment guidelines for 25 antidepressants, organized as first-, second-, and (a small number of) third-line treatments [31].",
+      "label": "Background",
+      "prob": 0.8120831847190857
+    },
+    {
+      "sentence": "We assert that another problem is the lack of context awareness of the broader sociotechnical systems in which these tools are being embedded.",
+      "label": "Background",
+      "prob": 0.8116137385368347
+    },
+    {
+      "sentence": "But if its already in here and I can hit print, that might be useful.",
+      "label": "Background",
+      "prob": 0.8110830187797546
+    },
+    {
+      "sentence": "machine learning models and the design of DST interfaces.",
+      "label": "Background",
+      "prob": 0.8014401793479919
+    },
+    {
+      "sentence": "The examples we presented in this section describe reactions to scenarios in which the output of the machine learning model contrasts from clinical experiences or standards of care.",
+      "label": "Background",
+      "prob": 0.7921444177627563
+    },
+    {
+      "sentence": "Prior work has also noted that clinicians wanted ML tools to more closely align with evidence-based medicine methods [64].",
+      "label": "Background",
+      "prob": 0.7914167642593384
+    },
+    {
+      "sentence": "2) Providers have short and infrequent appointments with patients.",
+      "label": "Background",
+      "prob": 0.7912989258766174
+    },
+    {
+      "sentence": "Further, clinicians said that they frequently worked with patients who stopped taking their prescribed medications for a variety of reasons, including stigma, negative side effects, or a lack of drug effectiveness.",
+      "label": "Background",
+      "prob": 0.7904123663902283
+    },
+    {
+      "sentence": "Clinicians were interested in knowing when they should follow up sooner for patients who may be at risk of discontinuing treatment, but pointed out that stability scores risk inappropriately indicating that current follow up times could be lengthened, leading to potentially negative consequences for the patient.Clinicians",
+      "label": "Background",
+      "prob": 0.7858521342277527
+    },
+    {
+      "sentence": "We have seen several examples in recent years of AI predictions leading to biased or unfair behaviors [20, 45].",
+      "label": "Background",
+      "prob": 0.7827447056770325
+    },
+    {
+      "sentence": "These tools can be designed to provide a range of outputs, including treatment recommendations, prognosis predictions, and patient diagnoses [72].",
+      "label": "Background",
+      "prob": 0.7826048135757446
+    },
+    {
+      "sentence": "Based on this feedback, we see that data validation procedures should be findable, but not forced upon providers who are already focused on understanding many complicated facets of a patients history, health status, and treatment needs.",
+      "label": "Background",
+      "prob": 0.7823861837387085
+    },
+    {
+      "sentence": "In healthcare, the use of standardized clinical guidelines (e.g., [31, 38] for MDD treatment selection) means that aspects of these mental models are established, encodable, and may therefore be used in both the development of the",
+      "label": "Background",
+      "prob": 0.7821135520935059
+    },
+    {
+      "sentence": "While explanations to support transparency at each decision point were seen as unhelpful in general, more details in the case of surprising predictions were viewed more favorably.",
+      "label": "Background",
+      "prob": 0.7778551578521729
+    },
+    {
+      "sentence": "Rather, we present this as an initial step in a broader research agenda determining how the new wave of intelligent systems must account for the complexity of medical work.",
+      "label": "Background",
+      "prob": 0.7769666910171509
+    },
+    {
+      "sentence": "In the context of patient predictions, clinicians shared that DSTs could recommend existing processes for patients at risk of stopping their medication:",
+      "label": "Background",
+      "prob": 0.7751381397247314
+    },
+    {
+      "sentence": "This is consistent with the emerging understanding in the explainable AI community that in human-human discourse explanations are typically contrastive [42, 50].",
+      "label": "Background",
+      "prob": 0.7733619213104248
+    },
+    {
+      "sentence": "Surprising predictions, such as this one, led to greater interest in the depression score and how it was calculated.",
+      "label": "Background",
+      "prob": 0.7724922299385071
+    },
+    {
+      "sentence": "First, such tools can help patients have a greater voice in their healthcare decisions.",
+      "label": "Background",
+      "prob": 0.7698519825935364
+    },
+    {
+      "sentence": "While participants responded positively to the overall prototype design, we found that when the recommendations diverged from clinical knowledge or guidelines participants became confused and would often abandon the recommendation.",
+      "label": "Background",
+      "prob": 0.7615311741828918
+    },
+    {
+      "sentence": "for researchers to consider how to adapt DST system designs for instances in which the machine learning model output constrasts with existing domain knowledge.",
+      "label": "Background",
+      "prob": 0.7607457637786865
+    },
+    {
+      "sentence": "For example, a clinician could select fatigue if the patient was experiencing this symptom, and antidepressant treatments that are recommended for treating fatigue (and do not have a negative interaction with other patient symptoms) would appear as favorable.",
+      "label": "Background",
+      "prob": 0.7603263854980469
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than the author(s) must be honored.",
+      "label": "Background",
+      "prob": 0.7569791674613953
+    },
+    {
+      "sentence": "Health tools that directly interact with patients can help promote patient activation by increasing access to important health information and providing new ways to engage in their health care [55, 61].",
+      "label": "Background",
+      "prob": 0.7538440823554993
+    },
+    {
+      "sentence": "Much of the prototype feedback re-emphasized the lessons we learned in the first user study.",
+      "label": "Background",
+      "prob": 0.7526155710220337
+    },
+    {
+      "sentence": "In the interviews, we were surprised that discussions of trust in the technology were rarely initiated by participants.",
+      "label": "Background",
+      "prob": 0.7495998740196228
+    },
+    {
+      "sentence": "One issue is that recent AI work has focused on improving the accuracy of the model, rather than the needs of the intended user [56], and improving model accuracy does not always correlate with overall performance",
+      "label": "Background",
+      "prob": 0.7494878768920898
+    },
+    {
+      "sentence": "In some cases, clinicians indicated that seeing a surprising treatment recommendation would give them pause and lead to more reflection about the patients case and medication needs:",
+      "label": "Background",
+      "prob": 0.7491317391395569
+    },
+    {
+      "sentence": "While participants were interested in using technology to help in their decision-making, they would not have the time in these encounters to determine if they thought a tool was trust-worthy.",
+      "label": "Background",
+      "prob": 0.7486538887023926
+    },
+    {
+      "sentence": "Clinicians saw the DST output, particularly regarding personalized treatment recommendations and their associated side effects, as information that could be presented directly to patients in order to involve them in decision-making conversations, thus supporting patient-provider collaboration:",
+      "label": "Background",
+      "prob": 0.7485031485557556
+    },
+    {
+      "sentence": "Lifetime prevalence of MDD in the United States is estimated to exceed 15% [32].",
+      "label": "Background",
+      "prob": 0.7477800250053406
+    },
+    {
+      "sentence": "We first considered ways in which we could better account for patient preferences, as clinicians all described the treatment selection process as a mutual and collaborative decision.",
+      "label": "Background",
+      "prob": 0.7476435303688049
+    },
+    {
+      "sentence": "Eight PCPs enrolled in this user study (six physicians, two residents, and one nurse practitioner), four of whom also participated in the first study.",
+      "label": "Background",
+      "prob": 0.7469916343688965
+    },
+    {
+      "sentence": "Here, we see that when faced with unexpected model output that contrasted with participants expectations or mental model, participants found it challenging to identify appropriate next steps.",
+      "label": "Background",
+      "prob": 0.7435981631278992
+    },
+    {
+      "sentence": "Decision support tools are computational systems created to facilitate medical decision-making [47].",
+      "label": "Background",
+      "prob": 0.7423568367958069
+    },
+    {
+      "sentence": "Clinicians requested a tool for sharing and collaborating with patients, emphasizing the need for an interactive interface:",
+      "label": "Background",
+      "prob": 0.7279005646705627
+    },
+    {
+      "sentence": "In contrast, some clinicians were able to connect the model output with appropriate and existing healthcare processes.",
+      "label": "Background",
+      "prob": 0.7260236144065857
+    },
+    {
+      "sentence": "A consistent theme within this study was that clinicians wanted tools that provided actionable interventions, connecting predictions to appropriate clinical processes.",
+      "label": "Background",
+      "prob": 0.726020097732544
+    },
+    {
+      "sentence": "1) Patients are deeply involved in treatment decisions,",
+      "label": "Background",
+      "prob": 0.7236519455909729
+    },
+    {
+      "sentence": "Here we use clinical perspectives to consider the broader sociotechnical context that will be necessary to consider when creating AI systems for real-world use.",
+      "label": "Background",
+      "prob": 0.723590075969696
+    },
+    {
+      "sentence": "In a recent paper, Selbst et al. discuss how a failure to use a sociotechnical lens can lead ML tools to be ineffective [56].",
+      "label": "Background",
+      "prob": 0.7196470499038696
+    },
+    {
+      "sentence": "Prior studies have also found that feature-based explanations were inadequate for helping clinicians identify appropriate interventions [71].",
+      "label": "Background",
+      "prob": 0.7174072861671448
+    },
+    {
+      "sentence": "Such difficulties indicate that only displaying the prediction will likely be insufficient:",
+      "label": "Background",
+      "prob": 0.7153540253639221
+    },
+    {
+      "sentence": "We extend existing literature by identifying other aspects of the healthcare system that must be considered in the creation and deployment of novel DSTs.",
+      "label": "Background",
+      "prob": 0.712980329990387
+    },
+    {
+      "sentence": "By displaying all of the rules for a drug, both the PCP and patient can better understand the potential effects and ensure that the treatment they select is appropriate for the patient.",
+      "label": "Background",
+      "prob": 0.7128778696060181
+    },
+    {
+      "sentence": "discussed ways in which the system could further align with these expectations in subsequent designs.",
+      "label": "Background",
+      "prob": 0.7103913426399231
+    },
+    {
+      "sentence": "HCI research has helped to advance the field of explainable AI, examining how people interact with AI tools and designing tools to help end-users understand the inner workings of machine learning models [3, 8, 10, 24, 46, 73].",
+      "label": "Background",
+      "prob": 0.7098827958106995
+    },
+    {
+      "sentence": "These studies collectively provide insights into how DSTs may be better situated into clinical routines.",
+      "label": "Background",
+      "prob": 0.7068701982498169
+    },
+    {
+      "sentence": "These data-driven tools offer the opportunity to improve health outcomes and reduce human errors in the decision-making process [41].",
+      "label": "Background",
+      "prob": 0.703683614730835
+    },
+    {
+      "sentence": "The first author open coded the transcripts, comparing and contrasting existing decision-making processes and prototype feedback, and looking for patterns in the dataset.",
+      "label": "Background",
+      "prob": 0.7028136849403381
+    },
+    {
+      "sentence": "Prior work has discussed the challenges of running remote design studies [37].",
+      "label": "Background",
+      "prob": 0.7025371193885803
+    },
+    {
+      "sentence": "By including PCPs in design discussions, we were able to uncover which clinical processes may be most appropriate for various patients and treatment predictions.",
+      "label": "Background",
+      "prob": 0.7010015249252319
+    },
+    {
+      "sentence": "Further, the training that PCPs receive on antidepressant treatment selection can be highly variable [63, 69].",
+      "label": "Background",
+      "prob": 0.6957458853721619
+    },
+    {
+      "sentence": "As shown in the above examples, we found that clinicians expected DSTs to integrate with their existing processes and use the DST predictions to show a path forward .",
+      "label": "Background",
+      "prob": 0.6952950358390808
+    },
+    {
+      "sentence": "First, the system predicted a high dropout risk for a patient who participants would not typically assume to be high-risk patients:",
+      "label": "Background",
+      "prob": 0.6920282244682312
+    },
+    {
+      "sentence": "We presented clinicians with a short summary of essential patient information, including age, gender, relevant comorbidities, and a prior ineffective SSRI trial, as shown in figure 2A.",
+      "label": "Background",
+      "prob": 0.6894389986991882
+    },
+    {
+      "sentence": "Probing questions revealed that PCPs limited time with patients would make in-themoment determinations of trust nearly impossible.",
+      "label": "Background",
+      "prob": 0.6882296204566956
+    },
+    {
+      "sentence": "treatment side-effects, and promote discussions of drug effects with patients.",
+      "label": "Background",
+      "prob": 0.6860803365707397
+    },
+    {
+      "sentence": "We have also seen an increased use of co-design activities that give end-users a greater voice in how these systems should function [9, 36, 64, 71].",
+      "label": "Background",
+      "prob": 0.6841005682945251
+    },
+    {
+      "sentence": "We sent information about the study to an email list of primary care providers (including physicians, nurse practitioners, and residents).",
+      "label": "Background",
+      "prob": 0.6799947619438171
+    },
+    {
+      "sentence": "This research has revealed the importance of context in determining if and when end-users want computational assistance.",
+      "label": "Background",
+      "prob": 0.6773293018341064
+    },
+    {
+      "sentence": "In this case, while the participant indicated general interest in the DST recommendations, the conversation did not result in any specific conclusions on how to use the DST output to identify possible next steps.",
+      "label": "Background",
+      "prob": 0.6770938634872437
+    },
+    {
+      "sentence": "Ehsan and Riedl have also suggested that allowing users to voice skepticism in AI models may afford new interactions that encourage users to consider the limitations of the technology [16].",
+      "label": "Background",
+      "prob": 0.6757224798202515
+    },
+    {
+      "sentence": "For this study we again worked with PCPs who currently prescribe antidepressant treatments.",
+      "label": "Background",
+      "prob": 0.673262894153595
+    },
+    {
+      "sentence": "Thus, we found that conversations of trust were not typically initiated by participants because participants expected that trust in the technology will not be decided at each decision point.",
+      "label": "Background",
+      "prob": 0.672942578792572
+    },
+    {
+      "sentence": "In addition to the positive feedback, some participants mentioned opportunities to continue to integrate the DST with existing clinical processes.",
+      "label": "Background",
+      "prob": 0.6704267859458923
+    },
+    {
+      "sentence": "Therefore, we made the treatment recommendations more interactive, allowing clinicians to edit which aspects of a patients medical history are being used to drive the recommendations.",
+      "label": "Background",
+      "prob": 0.6680041551589966
+    },
+    {
+      "sentence": "Based on these findings, we discuss how using a sociotechnical lens challenges current trends in the design of explainable AI.",
+      "label": "Background",
+      "prob": 0.6673956513404846
+    },
+    {
+      "sentence": "The ability for some clinicians to connect DST output to existing clinical processes demonstrates the benefit of integrating participatory design methods into DST development workflows.",
+      "label": "Background",
+      "prob": 0.6608116626739502
+    },
+    {
+      "sentence": "Contrasting information in medicine can result in clinical uncertainty and adverse effects for patients [11].",
+      "label": "Background",
+      "prob": 0.660128653049469
+    },
+    {
+      "sentence": "We thank all of the participants for taking time to share their insights and expertise.",
+      "label": "Background",
+      "prob": 0.6569527983665466
+    },
+    {
+      "sentence": "In particular, we expect these results will be useful for designing ML-embedded DSTs for other primary care decisions.",
+      "label": "Background",
+      "prob": 0.6513572931289673
+    },
+    {
+      "sentence": "knowing the distribution of predictions across all patients.",
+      "label": "Background",
+      "prob": 0.6496466398239136
+    },
+    {
+      "sentence": "Clinicians also discussed ways in which the prototype could further support patient communication.",
+      "label": "Background",
+      "prob": 0.6479815244674683
+    },
+    {
+      "sentence": "The clinicians who participated in this study encouraged us to use DSTs to foster greater collaboration with patients.",
+      "label": "Background",
+      "prob": 0.6469142436981201
+    },
+    {
+      "sentence": "Specifically, our work highlights the importance of including patient preferences, recommending clinical processes, understanding system constraints, and engaging with domain knowledge.",
+      "label": "Background",
+      "prob": 0.6432991623878479
+    },
+    {
+      "sentence": "The majority of mental healthcare is provided within primary care settings [69].",
+      "label": "Background",
+      "prob": 0.6393201947212219
+    },
+    {
+      "sentence": "Further, in this study, we focused solely on the perspective of clinicians.",
+      "label": "Background",
+      "prob": 0.6383660435676575
+    },
+    {
+      "sentence": "A critical area for future work is designing tools which allow users to identify contrasting information in time-constrained environments and determine how to best proceed.",
+      "label": "Background",
+      "prob": 0.6375126242637634
+    },
+    {
+      "sentence": "Table 1 includes participant details across both of the user studies described in this paper, including participants years of experience prescribing antidepressants, and in which of the two studies they participated.",
+      "label": "Background",
+      "prob": 0.6337811350822449
+    },
+    {
+      "sentence": "We expect that this page will expand with each validation study, including clinical trial protocols, results, and publications.",
+      "label": "Background",
+      "prob": 0.6306500434875488
+    },
+    {
+      "sentence": "Currently, an estimated one-third of patients fail to reach remission even after four antidepressant trials [53].",
+      "label": "Background",
+      "prob": 0.627291738986969
+    },
+    {
+      "sentence": "In the case of dropout prediction, participants discussed three ways in which PCPs could respond to a high dropout risk prediction: including behavioral therapy with patient counseling in the care plan, lowering the drug titration, and reducing follow-up times.",
+      "label": "Background",
+      "prob": 0.6199370622634888
+    },
+    {
+      "sentence": "We found that when the DST output did not align with clinical knowledge or guidelines, clinicians were left confused, with most opting to abandon the recommendation.",
+      "label": "Background",
+      "prob": 0.6182909607887268
+    },
+    {
+      "sentence": "Therefore, clinicians wanted DSTs to display the evidence-based methods used to validate the tool (such as randomized controlled trial results), rather than individual explanations that focus on model features.",
+      "label": "Background",
+      "prob": 0.6181973814964294
+    },
+    {
+      "sentence": "You can click on the two major side effects and then based on that, a specific drug will come up.",
+      "label": "Background",
+      "prob": 0.6158493757247925
+    },
+    {
+      "sentence": "We worked with primary care physicians who currently prescribe antidepressant treatments.",
+      "label": "Background",
+      "prob": 0.6129533648490906
+    },
+    {
+      "sentence": "A recent study also found that including patient-facing DSTs can improve clinicians adherence to recommended practices when compared to DSTs that were only clinicianfacing [66].",
+      "label": "Background",
+      "prob": 0.6054592728614807
+    },
+    {
+      "sentence": "However, we see this as a small step towards a larger problem.",
+      "label": "Background",
+      "prob": 0.602865993976593
+    },
+    {
+      "sentence": "While clinicians saw value in dropout risk scores, we did not receive such positive feedback regarding stability scores.",
+      "label": "Background",
+      "prob": 0.6017662286758423
+    },
+    {
+      "sentence": "Future work should look at how needs and expectations change for medical specialists, healthcare systems in which patients are unwilling or unable to participate in care decisions, and for patients directly.",
+      "label": "Background",
+      "prob": 0.5952655673027039
+    },
+    {
+      "sentence": "Finally, we believe multi-user systems can support time management during clinical encounters.",
+      "label": "Background",
+      "prob": 0.5934963822364807
+    },
+    {
+      "sentence": "Current state of the art models provide prognostic",
+      "label": "Background",
+      "prob": 0.5904241800308228
+    },
+    {
+      "sentence": "Having an option like, patients also worried about",
+      "label": "Background",
+      "prob": 0.5896576046943665
+    },
+    {
+      "sentence": "In the remainder of this section, we describe",
+      "label": "Background",
+      "prob": 0.5866247415542603
+    },
+    {
+      "sentence": "In our iterative design, our shift from model features as explanations to tool validation steps helped to better reflect the evidence-based medicine process.",
+      "label": "Background",
+      "prob": 0.5802338123321533
+    },
+    {
+      "sentence": "Sociotechnical approaches have been important in healthcare for understanding how new technologies may be effectively integrated into the social processes that make up healthcare work [7].",
+      "label": "Background",
+      "prob": 0.5796529054641724
+    },
+    {
+      "sentence": "participants saw a clear opportunity to use DSTs to engage patients in the decision-making process.",
+      "label": "Background",
+      "prob": 0.5766667723655701
+    },
+    {
+      "sentence": "Participants did respond that the treatment recommendations could facilitate patient counseling, as expressed in study 1.",
+      "label": "Background",
+      "prob": 0.5761231780052185
+    },
+    {
+      "sentence": "Just something that I could give the patient so that they remember why we went on this and what might be normal, because a lot of the time Ill end up writing that down.",
+      "label": "Background",
+      "prob": 0.575360894203186
+    },
+    {
+      "sentence": "also discussed expectations for direction and next steps when considering personalized treatment recommendations.",
+      "label": "Background",
+      "prob": 0.5741361975669861
+    },
+    {
+      "sentence": "Interacting with this part of the prototype led to conversations about the types of validations that clinicians would expect to see:",
+      "label": "Background",
+      "prob": 0.5704284906387329
+    },
+    {
+      "sentence": "Time constraints have been cited as the most common barrier to the adoption to new decision support tools [14].",
+      "label": "Background",
+      "prob": 0.5680677890777588
+    },
+    {
+      "sentence": "As in study 1, the first author open coded the transcripts and identified an initial set of themes.",
+      "label": "Background",
+      "prob": 0.5676209330558777
+    },
+    {
+      "sentence": "Each session lasted 30 minutes due to participants busy schedules.",
+      "label": "Background",
+      "prob": 0.5671788454055786
+    },
+    {
+      "sentence": "We highlight the need to design DSTs as multi-user systems that facilitate patient-provider-AI collaboration.",
+      "label": "Background",
+      "prob": 0.5670119524002075
+    },
+    {
+      "sentence": "As this study was scheduled for March 2020, all study activities were revised and done remotely using Zoom.",
+      "label": "Background",
+      "prob": 0.5631561279296875
+    },
+    {
+      "sentence": "Participants said that these steps could be useful for patients at risk of dropout and use resources and procedures already established within the clinic.",
+      "label": "Background",
+      "prob": 0.5619561672210693
+    },
+    {
+      "sentence": "Based on our results, we see an opportunity to present ondemand explanations as differentials from existing clinical guidelines.",
+      "label": "Background",
+      "prob": 0.5590492486953735
+    },
+    {
+      "sentence": "We see this as an important opportunity for future work to develop best practices for cases in which DST recommendations diverge from domain knowledge, and show why divergence is happening in a way that is both understandable to the user and presents actionable next steps.",
+      "label": "Background",
+      "prob": 0.5515900254249573
+    },
+    {
+      "sentence": "We posit that by making these aspects of healthcare central to the design of DSTs, we may develop tools that are capable of supporting the collaborative nature of healthcare, identifying potential adverse events caused by ML predictions, working within time-critical environments, and recognizing conflicting information.",
+      "label": "Background",
+      "prob": 0.5492455363273621
+    },
+    {
+      "sentence": "We provided each participant with a $20 Amazon gift card to thank them for their time.",
+      "label": "Background",
+      "prob": 0.548356831073761
+    },
+    {
+      "sentence": "We provided each participant with a $20 Amazon gift card to thank them for their time.",
+      "label": "Background",
+      "prob": 0.548356831073761
+    },
+    {
+      "sentence": "predictions and support treatment selection [25, 49].",
+      "label": "Background",
+      "prob": 0.5413414239883423
+    },
+    {
+      "sentence": "Participants in this study had an average of 9.4 years",
+      "label": "Background",
+      "prob": 0.5368750691413879
+    },
+    {
+      "sentence": "We therefore display on hover all of the rules associated with a treatment.",
+      "label": "Background",
+      "prob": 0.5364433526992798
+    },
+    {
+      "sentence": "Educating patients about the potential negative side effects of the treatments was also an important aspect of clinicians work, as this communication could help in collaborative decision-making and help reduce the risk of the patient discontinuing the treatment.",
+      "label": "Background",
+      "prob": 0.5338119864463806
+    },
+    {
+      "sentence": "The prototype includes a fabricated patient scenario, as seen in figure 1A.",
+      "label": "Background",
+      "prob": 0.5321835279464722
+    },
+    {
+      "sentence": "The introduction of AI in clinical settings will likely increase the prevalence of contrasting information, as ML models trained on vast data sets have the promise to uncover nuanced relationships that are not encoded in existing medical training, guidelines, or clinicians expectations.",
+      "label": "Background",
+      "prob": 0.5296078324317932
+    },
+    {
+      "sentence": "In the case of primary care our results indicate that explanations for each model prediction would be unusable due to the limited time clinicians have with each patient.",
+      "label": "Background",
+      "prob": 0.5282377600669861
+    },
+    {
+      "sentence": "Clinicians also responded positively to the ability to edit patient to",
+      "label": "Background",
+      "prob": 0.5247644186019897
+    },
+    {
+      "sentence": "Within HCI, recent work has helped to establish clinical expectations for DSTs and develop guidelines for improving clinician-AI interactions.",
+      "label": "Background",
+      "prob": 0.5189905166625977
+    },
+    {
+      "sentence": "Further, our work reveals issues with using explanations that encourage users to make determinations of trust for each prediction.",
+      "label": "Background",
+      "prob": 0.5186686515808105
+    },
+    {
+      "sentence": "Based on co-design studies with primary care providers, we identified four important aspects of the care system that influence how we design decision support tools for real-world use.",
+      "label": "Background",
+      "prob": 0.5156803131103516
+    },
+    {
+      "sentence": "A key result from these discussions was that effective decision support tools will need to engage with the broader healthcare system, not just an individual healthcare provider.",
+      "label": "Background",
+      "prob": 0.5152896046638489
+    },
+    {
+      "sentence": "Participants indicated that such comparisons were important for helping them consider all of the possible treatment options.",
+      "label": "Background",
+      "prob": 0.5039324164390564
+    },
+    {
+      "sentence": "Participants had an average of 12.5 years of experience prescribing antidepressants (SD=12.1).",
+      "label": "Background",
+      "prob": 0.5012099742889404
+    },
+    {
+      "sentence": "Through the interviews participants affirmed many established treatment selection challenges.",
+      "label": "Background",
+      "prob": 0.4997231066226959
+    },
+    {
+      "sentence": "We found that, similar to study 1, discussions of trust were infrequently initiated by participants, but the link to model validation did pique participants interest.",
+      "label": "Background",
+      "prob": 0.4926585853099823
+    },
+    {
+      "sentence": "Toanalyzethedataweusedagroundedtheoryapproach[13].",
+      "label": "Background",
+      "prob": 0.4925019145011902
+    },
+    {
+      "sentence": "We found through discussions with our clinical collaborators that the dropout prediction was difficult to understand without",
+      "label": "Background",
+      "prob": 0.4890640079975128
+    },
+    {
+      "sentence": "It would be nice if, after you make a selection, like say I click, okay, were going to go with bupropion, if there was a patient-friendly educational handout that would just say, were starting you on bupropion.",
+      "label": "Background",
+      "prob": 0.488832026720047
+    },
+    {
+      "sentence": "Clinicians consistently said that they considered patient preferences.",
+      "label": "Background",
+      "prob": 0.4879067540168762
+    },
+    {
+      "sentence": "To facilitate future-state ideation, we designed low fidelity prototypes to demonstrate a variety of features and information we could potentially derive based on existing ML research that uses electronic medical record data.",
+      "label": "Background",
+      "prob": 0.4858768880367279
+    },
+    {
+      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan",
+      "label": "Background",
+      "prob": 0.47950607538223267
+    },
+    {
+      "sentence": "2) connect DST output to existing healthcare system processes,",
+      "label": "Background",
+      "prob": 0.47900402545928955
+    },
+    {
+      "sentence": "We believe the lessons learned from this work may be transferable to healthcare systems and process that share characteristics that were emphasized by the participants in this work:",
+      "label": "Background",
+      "prob": 0.4785562753677368
+    },
+    {
+      "sentence": "Participants discussed ways in which the prototype successfully met their needs and opportunities for the system to further align with their expectations.",
+      "label": "Background",
+      "prob": 0.4765157401561737
+    },
+    {
+      "sentence": "These explanations can influence decision-makers understanding of the model and perceived fairness of these tools [15].",
+      "label": "Background",
+      "prob": 0.4703967571258545
+    },
+    {
+      "sentence": "We used semi-structured interviews and focus groups with no more than two participants.",
+      "label": "Background",
+      "prob": 0.4695127606391907
+    },
+    {
+      "sentence": "For this study, we focused specifically on clinician-facing tools, but plan to look into designing multi-user systems for patient-provider collaboration in the future.",
+      "label": "Objective",
+      "prob": 0.4783576428890228
+    },
+    {
+      "sentence": "In this paper, we report on aspects of the healthcare sociotechnical system that should be considered in the design of machine learning decision support tools.",
+      "label": "Objective",
+      "prob": 0.4747996926307678
+    },
+    {
+      "sentence": "In an initial attempt to promote",
+      "label": "Background",
+      "prob": 0.44952550530433655
+    },
+    {
+      "sentence": "We selected the matrix design in order to display a large amount of information in a glanceable display.",
+      "label": "Background",
+      "prob": 0.4485410749912262
+    },
+    {
+      "sentence": "We recruited participants at a large academic medical center.",
+      "label": "Background",
+      "prob": 0.4468062222003937
+    },
+    {
+      "sentence": "1) engage patients in decision-making,",
+      "label": "Background",
+      "prob": 0.4400472342967987
+    },
+    {
+      "sentence": "In the user study, we asked participants to reflect on these prototypes by considering which aspects they found helpful or unhelpful, what they would change, and other ideas for how technology may support antidepressant treatment selection.",
+      "label": "Background",
+      "prob": 0.4389495551586151
+    },
+    {
+      "sentence": "They felt such tools could remind them of",
+      "label": "Background",
+      "prob": 0.4345414340496063
+    },
+    {
+      "sentence": "conditions to see how the inclusion or exclusion of various conditions changed treatment recommendations, allowing them incorporate patient concerns: You can sort of click this and it helps to think about if I add poor concentration, if maybe thats another side effect shes having and it kind of modifies the medication regimen based off of that and bupropion is still appropriate for that.",
+      "label": "Background",
+      "prob": 0.4271959662437439
+    },
+    {
+      "sentence": "These empirical implications provide concrete implications to the specific context of MDD.",
+      "label": "Background",
+      "prob": 0.42504391074180603
+    },
+    {
+      "sentence": "4) compare and contrast DST output with existing standards of care.",
+      "label": "Background",
+      "prob": 0.4244772791862488
+    },
+    {
+      "sentence": "The link leads to a page that lists the steps used to validate the model.",
+      "label": "Background",
+      "prob": 0.4209703505039215
+    },
+    {
+      "sentence": "Beede et al. also recently showed how environmental factors in a clinical setting influenced the usability of a deep learning system [5].",
+      "label": "Other",
+      "prob": 0.4679412245750427
+    },
+    {
+      "sentence": "We used the first 15 minutes to discuss existing decision-making processes and the second 15 minutes to discuss future state ideas.",
+      "label": "Background",
+      "prob": 0.4133324921131134
+    },
+    {
+      "sentence": "There were two ways in which the the prototype differed from clinicians expectations.",
+      "label": "Result",
+      "prob": 0.4667637050151825
+    },
+    {
+      "sentence": "nitty-gritty details P6 If a major medical society is sort of putting this forth, my colleagues are using it, and I hear people saying that its that it works, then I am comfortable with it. P7",
+      "label": "Other",
+      "prob": 0.4804040491580963
+    },
+    {
+      "sentence": "We invited both new participants as well as those who participated in the prior study.",
+      "label": "Background",
+      "prob": 0.402888685464859
+    },
+    {
+      "sentence": "Here we address one challenge in implementing these tools in the real worldconsidering the broader healthcare system.",
+      "label": "Objective",
+      "prob": 0.5619692802429199
+    },
+    {
+      "sentence": "The research team then met to discuss themes and associated data segments, discuss discrepancies, and amend theme definitions.",
+      "label": "Background",
+      "prob": 0.3982751667499542
+    },
+    {
+      "sentence": "Participants positively responded to the ways in which we integrated clinical processes by displaying relevant actions.",
+      "label": "Result",
+      "prob": 0.5132027268409729
+    },
+    {
+      "sentence": "more inclusion of patients preferences, we used interaction to help tailor treatment recommendations.",
+      "label": "Background",
+      "prob": 0.38326308131217957
+    },
+    {
+      "sentence": "For example, Cai et al. found that refinement tools were considered more helpful and easier to use than traditional tools when interacting with image retrieval systems [10].",
+      "label": "Other",
+      "prob": 0.49272391200065613
+    },
+    {
+      "sentence": "altered the interface for the treatment recommendations.",
+      "label": "Background",
+      "prob": 0.38102996349334717
+    },
+    {
+      "sentence": "The matrix design mirrored the table format that PCPs currently use, while adding the needed interactivity.Finally,we",
+      "label": "Background",
+      "prob": 0.3705577254295349
+    },
+    {
+      "sentence": "The research team then met to discuss emerging themes and review associated data segments.",
+      "label": "Method",
+      "prob": 0.3703034818172455
+    },
+    {
+      "sentence": "We also included next steps PCPs could consider for high dropout risk predictions.",
+      "label": "Background",
+      "prob": 0.36373329162597656
+    },
+    {
+      "sentence": "We included a graph to help visualize this distribution and support further conversation of information needs.",
+      "label": "Background",
+      "prob": 0.3604201674461365
+    },
+    {
+      "sentence": "We also found that while some predictions helped clinicians to identify appropriate actions and next steps, other model predictions were viewed less favorably.",
+      "label": "Result",
+      "prob": 0.5592477321624756
+    },
+    {
+      "sentence": "of experience prescribing antidepressants (SD=14.3).",
+      "label": "Other",
+      "prob": 0.5504134893417358
+    },
+    {
+      "sentence": "I think the biggest thing is just getting behind how you validated your data, how you validated your model ...",
+      "label": "Other",
+      "prob": 0.44423121213912964
+    },
+    {
+      "sentence": "When looking at the feature importance charts, participants overall found the information unnecessary in determining how they will care for a patient, and ill-fitted for their short patient appointments:",
+      "label": "Result",
+      "prob": 0.5001409649848938
+    },
+    {
+      "sentence": "During the study session, participants were provided links to the prototype, asked to share their screen, and were able to interact with the prototype freely.",
+      "label": "Background",
+      "prob": 0.3383036255836487
+    },
+    {
+      "sentence": "3.2.3 Understand healthcare system resource constraints.",
+      "label": "Other",
+      "prob": 0.44572076201438904
+    },
+    {
+      "sentence": "3.2.2 Recommend appropriate clinical processes.",
+      "label": "Other",
+      "prob": 0.4951767921447754
+    },
+    {
+      "sentence": "Overall, we found that participants positively responded to the design concepts, reemphasized the expectations established in the previous study, and",
+      "label": "Result",
+      "prob": 0.5249972343444824
+    },
+    {
+      "sentence": "The first author then re-coded the data using the established themes and met with the research team to validate the final set of themes.",
+      "label": "Method",
+      "prob": 0.4380025267601013
+    },
+    {
+      "sentence": "One of the things that is the hardest about depression and anxiety is that patients who have really bad symptoms tend to not follow up or tend to not follow through with therapies just due to the nature of their disease. And so going into a room and already knowing, is there a high chance that this patient may fail on this therapy or may not adhere to this therapy, and going into the room knowing that this is someone who I need to talk to a little bit more or I need to follow up with a little bit more or who I need to schedule really close appointments for. I think thats probably the biggest help that you can offer. P11",
+      "label": "Result",
+      "prob": 0.3919152021408081
+    },
+    {
+      "sentence": "once implemented in the real-world [4, 5].",
+      "label": "Other",
+      "prob": 0.5817309617996216
+    },
+    {
+      "sentence": "Participants said they would use it if other clinicians used it, and would make a one-time decision about if the tool was helpful:",
+      "label": "Result",
+      "prob": 0.3965509533882141
+    },
+    {
+      "sentence": "For example, as in the quote below, participants next step was to understand what factors were leading to this unexpectedly high dropout prediction:",
+      "label": "Background",
+      "prob": 0.31638702750205994
+    },
+    {
+      "sentence": "Our results therefore align with recent discussions of the potential problems of using explainable AI in clinical settings [52].",
+      "label": "Result",
+      "prob": 0.3542822599411011
+    },
+    {
+      "sentence": "Each study session lasted 30 minutes and was conducted remotely using Zoom.",
+      "label": "Result",
+      "prob": 0.38521608710289
+    },
+    {
+      "sentence": "Table 2 describes the features we included in the prototype.",
+      "label": "Result",
+      "prob": 0.4196051359176636
+    },
+    {
+      "sentence": "To recruit participants we worked with the same academic medical center and used the same recruitment method as with the first user study.",
+      "label": "Method",
+      "prob": 0.4596085548400879
+    },
+    {
+      "sentence": "We also found that clinicians busy schedules influenced how they thought about trust as it relates to black-box ML models.",
+      "label": "Result",
+      "prob": 0.6135735511779785
+    },
+    {
+      "sentence": "By making these details easily findable, our intention was to make this information accessible, while also respecting PCPs limited time with patients.",
+      "label": "Objective",
+      "prob": 0.6300770044326782
+    },
+    {
+      "sentence": "We redesigned the DST prototype to operationalize the guidelines established in study 1.",
+      "label": "Method",
+      "prob": 0.36827611923217773
+    },
+    {
+      "sentence": "We also found that clinicians were thoughtful in considering the possible adverse effects of DST predictions.",
+      "label": "Result",
+      "prob": 0.6190003752708435
+    },
+    {
+      "sentence": "4) Is there any information you wish you had when selecting a treatment for a patient?",
+      "label": "Other",
+      "prob": 0.5863257050514221
+    },
+    {
+      "sentence": "In response, we have seen several",
+      "label": "Other",
+      "prob": 0.4984229505062103
+    },
+    {
+      "sentence": "Using the established themes, the first author re-coded the transcripts and met with team members to discuss new categories as they emerged in subsequent coding iterations and to validate the final themes.",
+      "label": "Method",
+      "prob": 0.5327191352844238
+    },
+    {
+      "sentence": "So truthfully, I would take a step back because its not that common that nortriptyline is a medication I think about as a first or even a second or third line agent, unless they have other conditions that I know [tricyclic antidepressants] can treat. So I would really take a step back and think about the patients pain. Do they have really bad migraines, that I think will get significant benefit from the TCAs. It would definitely give me pause if that was the most favorable medication to come up as a suggestion on this.  P11",
+      "label": "Result",
+      "prob": 0.3584190905094147
+    },
+    {
+      "sentence": "Participants commented that the recommended steps associated with dropout risk predictions were actionable and aligned with what they typically do for patients when they are concerned about their response to treatment:",
+      "label": "Result",
+      "prob": 0.5778511166572571
+    },
+    {
+      "sentence": "We first replaced the featureimportance explanations with information about the model validation process.",
+      "label": "Method",
+      "prob": 0.6270053386688232
+    },
+    {
+      "sentence": "I dont know if you necessarily need to get into super",
+      "label": "Other",
+      "prob": 0.6423256993293762
+    },
+    {
+      "sentence": "2) What do you do if you are unsure which antidepressant to select?",
+      "label": "Other",
+      "prob": 0.624862551689148
+    },
+    {
+      "sentence": "Similar to study 1, all sessions were audio recorded and transcribed.",
+      "label": "Result",
+      "prob": 0.5191828012466431
+    },
+    {
+      "sentence": "In the remainder of this section, we discuss how the prototype feedback reveals lessons for how we design AI for healthcare systems and we reflect on the implications of this work for HCI research.",
+      "label": "Objective",
+      "prob": 0.47962847352027893
+    },
+    {
+      "sentence": "Conversations revealed that PCPs wanted DSTs that:",
+      "label": "Other",
+      "prob": 0.48084336519241333
+    },
+    {
+      "sentence": "To view this information, we added a link labeled how dropout is calculated below the dropout prediction.",
+      "label": "Method",
+      "prob": 0.5234742760658264
+    },
+    {
+      "sentence": "Finally, Yang et al. designed a DST prototype to facilitate artificial heart implant decisions [71].",
+      "label": "Other",
+      "prob": 0.6020293235778809
+    },
+    {
+      "sentence": "In this study we used an iterative design process to guide discussions of clinician expectations.",
+      "label": "Method",
+      "prob": 0.5053956508636475
+    },
+    {
+      "sentence": "3) Where is there room for improvement in this process?",
+      "label": "Other",
+      "prob": 0.5733423233032227
+    },
+    {
+      "sentence": "Therefore, motivated by Bergs sociotechnical approach, which highlights the importance of empirical research of healthcare practices in which the technology will be used [6], we consider the social, technical, and organizational issues that must be considered in the design of DSTs for MDD treatment selection.",
+      "label": "Objective",
+      "prob": 0.49672573804855347
+    },
+    {
+      "sentence": "To drive discussion on current-state processes we used four questions to guide the semi-structured interview:",
+      "label": "Method",
+      "prob": 0.3909933269023895
+    },
+    {
+      "sentence": "This research was supported in part by the Harvard Data Science Initiative.",
+      "label": "Other",
+      "prob": 0.6753685474395752
+    },
+    {
+      "sentence": "So I think that toggling conditions is super helpful.",
+      "label": "Other",
+      "prob": 0.6861544251441956
+    },
+    {
+      "sentence": "While we did not directly ask about the results of study 1, we found that much of the feedback re-emphasized the themes we previously discussed, helping to validate our previous findings and our approach to operationalizing those guidelines.",
+      "label": "Objective",
+      "prob": 0.3388858437538147
+    },
+    {
+      "sentence": "All interviews were audio recorded and transcribed.",
+      "label": "Result",
+      "prob": 0.5846490859985352
+    },
+    {
+      "sentence": "The prototypes included the following features.",
+      "label": "Result",
+      "prob": 0.43754246830940247
+    },
+    {
+      "sentence": "To analyze the data, we continued to use a grounded theory approach, [13], first using an iterative inductive analysis to establish themes within the data.",
+      "label": "Method",
+      "prob": 0.6526162624359131
+    },
+    {
+      "sentence": "During this process, we found many similar themes to study 1.",
+      "label": "Result",
+      "prob": 0.5996436476707458
+    },
+    {
+      "sentence": "And I have to like, look more into this, but the dropout probability, is it because of the side effects that youre dropping out? Or is it because the medication is not effective. P3",
+      "label": "Other",
+      "prob": 0.6914810538291931
+    },
+    {
+      "sentence": "Using concepts from unremarkable computing, they aimed to make AI prediction unobtrusive in clinicians workflow and found that this integration supported clinicians acceptance of the technology.",
+      "label": "Objective",
+      "prob": 0.7684937715530396
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.7607739567756653
+    },
+    {
+      "sentence": "1) What factors do you consider when selecting an antidepressant?",
+      "label": "Other",
+      "prob": 0.6674307584762573
+    },
+    {
+      "sentence": "ACM ISBN 978-1-4503-8096-6/21/05..",
+      "label": "Other",
+      "prob": 0.7817044258117676
+    },
+    {
+      "sentence": "In the future, we intend to co-design such systems with patients directly, in order to amplify their voices in their own care decisions.",
+      "label": "Objective",
+      "prob": 0.802381157875061
+    },
+    {
+      "sentence": "Andrew C. Ahn Harvard Medical School Beth Israel Deaconess Medical Center aahn@bidmc.harvard.edu",
+      "label": "Other",
+      "prob": 0.7816435694694519
+    },
+    {
+      "sentence": "After a participant was presented with the link, we asked the following questions in order to guide discussion and feedback:",
+      "label": "Result",
+      "prob": 0.4252737760543823
+    },
+    {
+      "sentence": "2021 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.7865018248558044
+    },
+    {
+      "sentence": "To copy otherwise, or republish,topostonserversortoredistributetolists,requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org.",
+      "label": "Other",
+      "prob": 0.774137556552887
+    },
+    {
+      "sentence": "Patient-level prognostic predictions:",
+      "label": "Other",
+      "prob": 0.679135262966156
+    },
+    {
+      "sentence": "Massachusetts General Hospital",
+      "label": "Other",
+      "prob": 0.7611244320869446
+    },
+    {
+      "sentence": "Barbara Lam Beth Israel Deaconess Medical Center blam@bidmc.harvard.edu",
+      "label": "Other",
+      "prob": 0.8003964424133301
+    },
+    {
+      "sentence": "To support the future integration of DSTs into primary care, we seek to better understand PCPs support needs and expectations for how DSTs will function in the healthcare system.",
+      "label": "Objective",
+      "prob": 0.8155528903007507
+    },
+    {
+      "sentence": "Microsoft Research melanief@microsoft.com",
+      "label": "Other",
+      "prob": 0.8009597659111023
+    },
+    {
+      "sentence": "Melanie F. Pradier",
+      "label": "Other",
+      "prob": 0.7878347039222717
+    },
+    {
+      "sentence": "We also found that treatment recommendations at times contrasted with participants expectations.",
+      "label": "Result",
+      "prob": 0.7809531688690186
+    },
+    {
+      "sentence": "Harvard Medical School",
+      "label": "Other",
+      "prob": 0.7867287397384644
+    },
+    {
+      "sentence": "Harvard University jdhe@college.harvard.edu",
+      "label": "Other",
+      "prob": 0.8262273073196411
+    },
+    {
+      "sentence": "If you could show that patients have a better response to treatment by use of the algorithm, that would be amazing. If you can show that patients actually are more likely to adhere to treatment, that would be important as well, or that patients are less likely to develop adverse side effects that leads to stopping medications. It would be nice to do a trial with outcomes like that. P9",
+      "label": "Other",
+      "prob": 0.4563336968421936
+    },
+    {
+      "sentence": "To me, when I think of someone whos a high risk of dropout, its like a person with substance abuse or with bipolar disorder. Like, okay, obviously, theyre not going to show up. Theres a high chance they wont adhere to it. But for this person who seems like a relatively bread and butter, middle-aged, healthy person, the fact that shes on the higher end of dropout is kind of eye opening to me, and it almost makes me wonder then, who is on the lower end of dropout?  P7",
+      "label": "Result",
+      "prob": 0.47339725494384766
+    },
+    {
+      "sentence": ".$15.00 https://doi.org/10.1145/3411764.3445385",
+      "label": "Other",
+      "prob": 0.842555820941925
+    },
+    {
+      "sentence": "Therefore we also ran a deductive coding process [17], using the codes from the first user study in a subsequent analysis to identify thematic overlap, allowing us to assess specific feedback related to the study 1 guidelines.",
+      "label": "Method",
+      "prob": 0.4338744282722473
+    },
+    {
+      "sentence": "5.2.2 Engaging with Domain Knowledge.",
+      "label": "Other",
+      "prob": 0.7705062627792358
+    },
+    {
+      "sentence": "Overall, clinicians responded positively to the treatment recommendation feature.",
+      "label": "Result",
+      "prob": 0.8146299719810486
+    },
+    {
+      "sentence": "Thomas H. McCoy Massachusetts General Hospital Harvard Medical School tmccoy@mgh.harvard.edu Krzysztof Z. Gajos Harvard University kgajos@g.harvard.edu",
+      "label": "Other",
+      "prob": 0.8458979725837708
+    },
+    {
+      "sentence": "Our findings reveal a need",
+      "label": "Result",
+      "prob": 0.6301970481872559
+    },
+    {
+      "sentence": "Rather than make me feel like theres no good option it might point me to consider something else. It may or may not be appropriate, but certainly, I would think about it I guess. P2",
+      "label": "Other",
+      "prob": 0.836489200592041
+    },
+    {
+      "sentence": "This study was approved by the Harvard Institutional Review Board.",
+      "label": "Other",
+      "prob": 0.8205288648605347
+    },
+    {
+      "sentence": "This study was approved by the Harvard Institutional Review Board.",
+      "label": "Other",
+      "prob": 0.8205288648605347
+    },
+    {
+      "sentence": "Jeffrey He",
+      "label": "Other",
+      "prob": 0.8305224180221558
+    },
+    {
+      "sentence": "I guess if I were using this in practice, I would probably click to see if prescribing information or something like that came up as a next step. P2",
+      "label": "Other",
+      "prob": 0.836384117603302
+    },
+    {
+      "sentence": "Publication rights licensed to ACM.",
+      "label": "Other",
+      "prob": 0.8686001300811768
+    },
+    {
+      "sentence": "REFERENCES",
+      "label": "Other",
+      "prob": 0.8192349076271057
+    },
+    {
+      "sentence": "Finally, a goal with this prototype was to allow clinicians to establish trust within the tool while being more mindful of their time constraints.",
+      "label": "Objective",
+      "prob": 0.8669825792312622
+    },
+    {
+      "sentence": "this and that.",
+      "label": "Other",
+      "prob": 0.8340093493461609
+    },
+    {
+      "sentence": "[The features] just feel a little random, these things. Again, I dont know if it would help me. Im just not sure how its going to help me change what Im going to do. P8",
+      "label": "Other",
+      "prob": 0.8509002923965454
+    },
+    {
+      "sentence": "We aimed to make validation data available, without distracting from the information most critical to the decision-making process.",
+      "label": "Objective",
+      "prob": 0.8804343938827515
+    },
+    {
+      "sentence": "5.2.1 Feedback on Study 1 Guidelines.",
+      "label": "Other",
+      "prob": 0.8241516947746277
+    },
+    {
+      "sentence": "As mentioned previously, these steps included lowering the medication titration, scheduling earlier follow up visits with the patient, and making sure patients were set up with additional behavioral therapy.Wealso",
+      "label": "Other",
+      "prob": 0.8108932375907898
+    },
+    {
+      "sentence": "Based on the discussions from the first study, in which participants expressed interest in patient dropout scores, we aimed to make this more prominent in the second iteration.",
+      "label": "Objective",
+      "prob": 0.8665091395378113
+    },
+    {
+      "sentence": "aimed to design the prototype to work within the time-constraints of the medical system.",
+      "label": "Objective",
+      "prob": 0.8660646677017212
+    },
+    {
+      "sentence": "Our second goal was to connect the DST predictions with appropriate clinical processes.",
+      "label": "Objective",
+      "prob": 0.8659705519676208
+    },
+    {
+      "sentence": "If I was trying to decide between two meds and Im talking to a patient... its even something that you could potentially show a patient or say, \"These are two choices. I think theyre both maybe equally effective. This one may have more of the side effect or something.\"  P8",
+      "label": "Other",
+      "prob": 0.842801570892334
+    },
+    {
+      "sentence": "5.1.1 Participants and recruitment.",
+      "label": "Other",
+      "prob": 0.8581759333610535
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.8979548215866089
+    },
+    {
+      "sentence": "3.1.1 Participants and Recruitment.",
+      "label": "Other",
+      "prob": 0.8667876720428467
+    },
+    {
+      "sentence": "Our contributions include the following:",
+      "label": "Other",
+      "prob": 0.8490805625915527
+    },
+    {
+      "sentence": "Treatment selection support:",
+      "label": "Other",
+      "prob": 0.8605777621269226
+    },
+    {
+      "sentence": "CCS CONCEPTS",
+      "label": "Other",
+      "prob": 0.90241539478302
+    },
+    {
+      "sentence": "5.1.3 Data Analysis.",
+      "label": "Other",
+      "prob": 0.8546488285064697
+    },
+    {
+      "sentence": "3.1.3 Data Analysis.",
+      "label": "Other",
+      "prob": 0.8652691841125488
+    },
+    {
+      "sentence": "5.1.2 Study Design.",
+      "label": "Other",
+      "prob": 0.8750819563865662
+    },
+    {
+      "sentence": "3.1.2 Study Design.",
+      "label": "Other",
+      "prob": 0.8923842906951904
+    }
+  ]
+}

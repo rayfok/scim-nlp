@@ -1,0 +1,1674 @@
+{
+  "2010.07358": [
+    {
+      "sentence": "While many current AR head-mounted devices are equipped with only RGB video, future devices are likely to be equipped with much more high-fidelity observations.",
+      "label": "Background",
+      "prob": 0.985395073890686
+    },
+    {
+      "sentence": "However, AR devices hold the promise of providing assistance to users on a much broader and less specialized class of commonly occurring quotidian activities.",
+      "label": "Background",
+      "prob": 0.979332447052002
+    },
+    {
+      "sentence": "The former category suffers from lack of scalability, while the latter category lacks immersion due to its reliance on a third-person perspective.",
+      "label": "Background",
+      "prob": 0.9783863425254822
+    },
+    {
+      "sentence": "Second, no widely available consumer AR device currently exists; as such there is no large AR user base or associated infrastructure that can support the evaluation of AR assistance on users at scale.",
+      "label": "Background",
+      "prob": 0.9718872904777527
+    },
+    {
+      "sentence": "Ultimately, navigating this trade-off is likely user or task specific, and can likely be made more favorable with alternative and personalized interface design.",
+      "label": "Background",
+      "prob": 0.9637553095817566
+    },
+    {
+      "sentence": "Consequently, assistive AR systems have been used quite extensively in specialized applications such as maintenance and manufacturing [15, 35], education [23], tourism [47], and surgery [44] to name a few.",
+      "label": "Background",
+      "prob": 0.9596829414367676
+    },
+    {
+      "sentence": "assigned to the books and magazines category in the highest difficulty setting, as well, but it might not be exactly the same book.",
+      "label": "Background",
+      "prob": 0.956721842288971
+    },
+    {
+      "sentence": "Even though participants tend to follow optimal assistance, this does not necessarily translate to improvements in all performance metrics.",
+      "label": "Background",
+      "prob": 0.9532920718193054
+    },
+    {
+      "sentence": "Evaluating how assistance affects important qualitative aspects of the user experience (e.g., effort, sense of agency) necessitates collecting data from real users at scale.",
+      "label": "Background",
+      "prob": 0.9527206420898438
+    },
+    {
+      "sentence": "In this case, learningor planning-based approaches for computing the embodied agents policy require modeling only the physical dynamics of object rearrangement.",
+      "label": "Background",
+      "prob": 0.9521515965461731
+    },
+    {
+      "sentence": "Such assistancewhich does not rely on knowledge of traversable paths in the environment nor a real-time plannerwould be especially helpful in situations where certain items are obstructed from view or are difficult to spot.",
+      "label": "Background",
+      "prob": 0.9517760872840881
+    },
+    {
+      "sentence": "This reliance on a third-person perspective lacks immersion and limits the types of interactions that can be studied; further, no analogous approach to AR assistance would be viable as the AR assistance is not directly observable from third parties.",
+      "label": "Background",
+      "prob": 0.9490230083465576
+    },
+    {
+      "sentence": "Third, it supports 3D environments based on real-world reconstructions (e.g., the Replica dataset [39]) rather than synthetically generated environments.",
+      "label": "Background",
+      "prob": 0.9429903030395508
+    },
+    {
+      "sentence": "One may thus envision such AR assistance as providing  superpowers for everyday tasks .",
+      "label": "Background",
+      "prob": 0.9393168091773987
+    },
+    {
+      "sentence": "Unfortunately, this approach introduces significant challenges, as the user is included in the AR systems environment and thus any simulation-based learning algorithm for the AR-systems policy would require modeling the users policy acting on an observation space augmented by the AR-systems displayed information [11].",
+      "label": "Background",
+      "prob": 0.9378771781921387
+    },
+    {
+      "sentence": "Most efforts consider fully autonomous agents (e.g. robots) whose actions directly change the physical state of the environment.",
+      "label": "Background",
+      "prob": 0.9334737658500671
+    },
+    {
+      "sentence": "Thus, for AR assistance, any realistic evaluation of the how the embodied-agent policy affects task performance must involve a human in the loopor a high-fidelity model of the humans behavior.",
+      "label": "Background",
+      "prob": 0.9268034100532532
+    },
+    {
+      "sentence": "Our AR-assistance application is fundamentally different from these, in that actions that can modify the physical state of the environment belong to the human agent.",
+      "label": "Background",
+      "prob": 0.9252557158470154
+    },
+    {
+      "sentence": "Finally, users were less likely or equally likely to accept the assistanceasthedifficultyofthetaskincreased,thoughthepopulationofusersintheoptimalassistanceconditionexhibited a much wider variability of assistance acceptance.",
+      "label": "Background",
+      "prob": 0.9251117706298828
+    },
+    {
+      "sentence": "and training ; the only strong compatibility requirement is that the evaluation environment must support the states and actions associated with the trained policy to deploy it in real time.",
+      "label": "Background",
+      "prob": 0.9214901924133301
+    },
+    {
+      "sentence": "To date, most work on employing AR devices to assist users has focused on displaying predefined information overlays that can be useful in completing a prescribed task; the information overlays are often spatially registered to objects or locations",
+      "label": "Background",
+      "prob": 0.910198986530304
+    },
+    {
+      "sentence": "The majority of the application is loaded directly onto the participants computer, with the exception of the OR-Tools replanning module.",
+      "label": "Background",
+      "prob": 0.9068582057952881
+    },
+    {
+      "sentence": "In the cases of no assistance and object-highlighting assistance, this trend conforms to our expectation that people have difficulties in finding the optimal solution in object-rearrangement tasks.",
+      "label": "Background",
+      "prob": 0.897782564163208
+    },
+    {
+      "sentence": "Compared with current personal computing devices, always-on AR devices (1) have access to a much larger volume and more diverse set of sensor data and (2) are able to display real-time information to the user in a much lower friction manner [24].",
+      "label": "Background",
+      "prob": 0.8905648589134216
+    },
+    {
+      "sentence": "Thus, for learning assistive AR policies, rather different demands are placed on the environments used for evaluation",
+      "label": "Background",
+      "prob": 0.8845030069351196
+    },
+    {
+      "sentence": "This further indicates that even though we are able to shorten path length, this may come at some cost to the speed at which a user completes the task (potentially in the interpretation of the interface).",
+      "label": "Background",
+      "prob": 0.8814306259155273
+    },
+    {
+      "sentence": "We consider agency due to its central role in humancomputer interaction (HCI) research and its relatively uncharacterized role in immersive AR-like assistive scenarios.",
+      "label": "Background",
+      "prob": 0.8806101679801941
+    },
+    {
+      "sentence": "The AR device (our parallel to the autonomous system) can only influence the physical state of the environment indirectly via suggestion-notification actions displayed to the human.",
+      "label": "Background",
+      "prob": 0.8765510320663452
+    },
+    {
+      "sentence": "The robotics and embodied AI communities have leveraged simulation frameworks to train and evaluate embodiedagent policies in lieu of expensive real-world experimentation infrastructure [16, 25, 26, 37].",
+      "label": "Background",
+      "prob": 0.8761574029922485
+    },
+    {
+      "sentence": "Fifth, Habitat supports the WebGL JavaScript API that enables web-based deployment at scale.",
+      "label": "Background",
+      "prob": 0.8707760572433472
+    },
+    {
+      "sentence": "Since they were not exposed to a condition where they were provided this information, they are likely rating this against their idea of what such a system might look like.",
+      "label": "Background",
+      "prob": 0.8695534467697144
+    },
+    {
+      "sentence": "The field of humanrobot interaction (HRI) faces a similar challenge; to overcome it, they have leveraged web-based studies that ask users to react to videos of humans and robots interacting [21, 30].",
+      "label": "Background",
+      "prob": 0.8688878417015076
+    },
+    {
+      "sentence": "In all conditions, text-information assistance includes a list of bins including their picture and semantic location.",
+      "label": "Background",
+      "prob": 0.8636898994445801
+    },
+    {
+      "sentence": "Ifanytwopickupordropofflocations  and  coincide,wetreatthemasseparatelocationswithzeroseparating distance such that  ( , ) = 0.",
+      "label": "Background",
+      "prob": 0.8594198226928711
+    },
+    {
+      "sentence": "This indicates that users may be willing to sacrifice a small amount of agency in favor of a system that provides useful assistance.",
+      "label": "Background",
+      "prob": 0.855873703956604
+    },
+    {
+      "sentence": "A single difficulty level can thus be defined by the ratio of the number of objects to the number of bins.",
+      "label": "Background",
+      "prob": 0.8533279299736023
+    },
+    {
+      "sentence": "It is generally challenging to characterize the user experience for digital assistance owing to a plethora of factors involved and owing to the difficulty of measuring some of these factors with high fidelity [2].",
+      "label": "Background",
+      "prob": 0.8529849648475647
+    },
+    {
+      "sentence": "assume the user has a capacity constraint of   N (which we set to be  = 2 in the experiments, which assumes a user can carryoneobjectperhand).",
+      "label": "Background",
+      "prob": 0.8519542217254639
+    },
+    {
+      "sentence": "Interestingly, though, the variance in the optimal-assistance condition is consistently much greater than those in either the no assistance or object-highlighting assistance cases.",
+      "label": "Background",
+      "prob": 0.8431224226951599
+    },
+    {
+      "sentence": "Second, it can display world-locked digital objects and other information that can mimic suggestion notifications in an AR systems HUD, thus supporting the actions of the embodied-agent policy.",
+      "label": "Background",
+      "prob": 0.8326363563537598
+    },
+    {
+      "sentence": "This suggests that the underlying distribution of assistance acceptance is likely multi-modal, and future work can investigate mechanisms to increase acceptance among various sub-populations of users.",
+      "label": "Background",
+      "prob": 0.8307420611381531
+    },
+    {
+      "sentence": "Indeed, it is likely thatat least for familiar environmentsthe AR device will have access to a complete map and will be able to perform localization of the user and objects [34].",
+      "label": "Background",
+      "prob": 0.8247199058532715
+    },
+    {
+      "sentence": "Further,in thecaseofoptimalassistance,participantsfollowtheshortest-pathtrajectorybetweenpointsmorecloselythantheydoin either the no assistance or object-highlighting assistance conditions (see IPL in Fig. 5).",
+      "label": "Background",
+      "prob": 0.8235529065132141
+    },
+    {
+      "sentence": "This way, each scene built on top of the previous scene order to control for any single scene having an outlying dispersion between points.",
+      "label": "Background",
+      "prob": 0.8217164874076843
+    },
+    {
+      "sentence": "Participants provided with both optimal assistance and object-highlighting assistance believed that they completed the task faster with the additional information than they would have without it (i.e., with no assistance).",
+      "label": "Background",
+      "prob": 0.816938579082489
+    },
+    {
+      "sentence": "So, even though participants in the optimal assistance condition felt less in control overall, they seemed to prefer this than to an alternative .",
+      "label": "Background",
+      "prob": 0.8121273517608643
+    },
+    {
+      "sentence": "In this case, one could learn the AR systems policy and present its action sequence to the user as suggestion notifications.",
+      "label": "Background",
+      "prob": 0.8102625608444214
+    },
+    {
+      "sentence": "This assumes the users time to complete the task is proportional to their total path length.",
+      "label": "Background",
+      "prob": 0.7934848070144653
+    },
+    {
+      "sentence": "The actual object model used for any individual point was held constant within difficulty settings, but was randomly sampled across difficulty settings.",
+      "label": "Background",
+      "prob": 0.7929440140724182
+    },
+    {
+      "sentence": "Further, our embodied AI formulation enables straightforward extensions that go beyond the strict environment-knowledge requirements of planning to learning policies that can employ perception-based partial environment observations.",
+      "label": "Background",
+      "prob": 0.7909271121025085
+    },
+    {
+      "sentence": "First, there has been limited work towards formalizing the problem of computing and displaying AR assistance that can lead to improved task performance, reduced effort, and preserved sense of agency for users; while this has been investigated for specialized tasks such as AR-assisted assembly [41, 46], it has not yet been pursued for a broad class of quotidian tasks.",
+      "label": "Background",
+      "prob": 0.7880102396011353
+    },
+    {
+      "sentence": "To acquaint the participant with the keyboard controls, they are given a simple training task of finding and picking up a single object and placing it in its appropriate bin without any imposed time limit or incentive.",
+      "label": "Background",
+      "prob": 0.7849928140640259
+    },
+    {
+      "sentence": "Participantsreceivenoassistancefromthesysteminthiscondition,whichservesasourcontrol.The egocentric frame contains only the scene, rendered objects and rendered bins; there are no additional visual cues.",
+      "label": "Background",
+      "prob": 0.7844586968421936
+    },
+    {
+      "sentence": "A message bar on the top of the HUD alerts users of important interactions, including when the user places an item successfully, or when a user attempts an infeasible action (e.g., attempting to pick/place an item when they are at an excessive distance from a pickup or dropoff location).",
+      "label": "Background",
+      "prob": 0.7821597456932068
+    },
+    {
+      "sentence": "In order to avoid a late fee, you must navigate through the house to pick up the",
+      "label": "Background",
+      "prob": 0.7740118503570557
+    },
+    {
+      "sentence": "Past studies on evaluating users response to digital assistance have focused on evaluating factors such as usability, utility, effectiveness, and agency [8].",
+      "label": "Background",
+      "prob": 0.768879234790802
+    },
+    {
+      "sentence": "To control for certain objects being easier to reorganize (due to visual salience or bin location), the number of each object type remained fixed for each difficulty setting.",
+      "label": "Background",
+      "prob": 0.7687880992889404
+    },
+    {
+      "sentence": "Each item in this list contains the name of the object, a picture of the object, and the bin in which it should be placed.",
+      "label": "Background",
+      "prob": 0.7673652768135071
+    },
+    {
+      "sentence": "[1] enable AR assistance for collaborative manufacturing using a complex back-end infrastructure where smart devices broadcast their status to a centralized planner with a predefined task dependency graph.",
+      "label": "Background",
+      "prob": 0.764175534248352
+    },
+    {
+      "sentence": "As mentioned above, the embodied-agents observations correspond to those of the AR system.",
+      "label": "Background",
+      "prob": 0.7609813809394836
+    },
+    {
+      "sentence": "with feeling in control, reported that they felt less in control than in the other assistance conditions.",
+      "label": "Background",
+      "prob": 0.7576169967651367
+    },
+    {
+      "sentence": "We remark that future work will relax the above assumptions and consider multiagent formulations, partial observations, and model-free learning of embodied-agent policies.",
+      "label": "Background",
+      "prob": 0.7575523853302002
+    },
+    {
+      "sentence": "In this initial study, we assume the device has full environment knowledge via its sensors and can support mapping and localization of the user and objects [34].",
+      "label": "Background",
+      "prob": 0.7575012445449829
+    },
+    {
+      "sentence": "In this initial study, we assume that the AR-system has full observability of the environment, which includes a map and real-time localization of the objects and user within that map.",
+      "label": "Background",
+      "prob": 0.7572885751724243
+    },
+    {
+      "sentence": "This cost may be one users are willing to pay, however, as we also find that users report preferring the optimal assistance to a system that does not provide them with the optimal solution.",
+      "label": "Background",
+      "prob": 0.7551153898239136
+    },
+    {
+      "sentence": "5.2.2 Task Difficulty We consider four levels of task difficulty, where we define difficulty in terms of the number of misplaced objects that must be cleaned up.",
+      "label": "Background",
+      "prob": 0.7537111639976501
+    },
+    {
+      "sentence": "when people are explicitly given the optimal ordering as in the optimal-assistance condition.",
+      "label": "Background",
+      "prob": 0.7513640522956848
+    },
+    {
+      "sentence": "associated partially observable Markov decision process (POMDP) ingredients: the states, observations, actions, and rewards characterizing the environment, agent, and task.",
+      "label": "Background",
+      "prob": 0.7487727999687195
+    },
+    {
+      "sentence": "This indicates that there are potential subgroups in the user population, and that future work should be conducted to discover these groups and develop personalized assistance systems.",
+      "label": "Background",
+      "prob": 0.739388108253479
+    },
+    {
+      "sentence": "Thus, if a sampled point was assigned to the books and magazines category in the lowest difficulty setting, it would be",
+      "label": "Background",
+      "prob": 0.7305858135223389
+    },
+    {
+      "sentence": "This suggests that when participants freely navigate within an environment, they do not naturally take the shortest paths to get from point to point.",
+      "label": "Background",
+      "prob": 0.7272458076477051
+    },
+    {
+      "sentence": "In our formulation, the embodied agent comprises a userAR-system hybrid in that it has the observation space (i.e., sensor",
+      "label": "Background",
+      "prob": 0.7253962159156799
+    },
+    {
+      "sentence": "Fourth, with modifications, it enables users to perform the task-execution actions required for object-rearrangement tasks.",
+      "label": "Background",
+      "prob": 0.7225766777992249
+    },
+    {
+      "sentence": "This exposes the exciting potential for such AR devices to provide users with continual, contextually relevant assistance toward achieving their personalized goals.",
+      "label": "Background",
+      "prob": 0.7168037295341492
+    },
+    {
+      "sentence": "Thus, the observations and state coincide in this case, and the POMDP reduces to an MDP with deterministic transition dynamics, exposing the use for a deterministic planner as described in Sec. 3.2.",
+      "label": "Background",
+      "prob": 0.7166117429733276
+    },
+    {
+      "sentence": "We now conduct a study that varies the assistance fidelity and fixes task difficulty to the easiest level (i.e., 6 total objects).",
+      "label": "Background",
+      "prob": 0.7119309306144714
+    },
+    {
+      "sentence": "The third phase corresponds to executing the main cleaning task described in Sec. 5.1 with specified task-difficulty and assistance-fidelity levels.",
+      "label": "Background",
+      "prob": 0.700583279132843
+    },
+    {
+      "sentence": "Webeginbydefiningtheobjective(andassociatedreward)ofthetaskasmovingeachobjectinquestionfromitsinitialpositiontoitsfinaldesiredpositioninaslittletimeaspossible.Minimaltimetotaskcompletionisnotonlyanintuitivechoicefor an objective and reward, it also draws inspiration from the long history of AI assistants for task and time management [33].",
+      "label": "Background",
+      "prob": 0.6990910768508911
+    },
+    {
+      "sentence": "We focus on task performance as it is easy to measure and directly addresses the key value proposition of AR assistance for complex tasks.",
+      "label": "Background",
+      "prob": 0.6990406513214111
+    },
+    {
+      "sentence": "This form of assistance enables participants to understand the rough locations of all objects at once and form a plan themselves.",
+      "label": "Background",
+      "prob": 0.6973857283592224
+    },
+    {
+      "sentence": "We emphasize that replanning is essential to ensure robustness to realistic user behavior in complex multi-step object-rearrangement tasks.",
+      "label": "Background",
+      "prob": 0.6923951506614685
+    },
+    {
+      "sentence": "Again, this list is randomized per participant and list items are crossed off as they are completed.",
+      "label": "Background",
+      "prob": 0.6915600895881653
+    },
+    {
+      "sentence": "After accepting a HIT, participants consent to study participation, which initiates serving the approximately 8 GB Habitat WebGL application to the users web browser using a combination of a psiTurk server and an NGINX server [36].",
+      "label": "Background",
+      "prob": 0.690423309803009
+    },
+    {
+      "sentence": "In particular, it natively supports navigation, and we implemented a rudimentary pick/place action as described below.",
+      "label": "Background",
+      "prob": 0.6898631453514099
+    },
+    {
+      "sentence": "We note that this formulation leads to a capacitated vehicle routing problem as described in Sec. 3.2, where  denotes the number objects to be cleaned up, and delivery locations are repeated when more than one object is associated with the same bin.",
+      "label": "Background",
+      "prob": 0.6882336735725403
+    },
+    {
+      "sentence": "Fourth, we integrate Habitat with the OR-Tools planner to support real-time replanning as described in Section 3.2.",
+      "label": "Background",
+      "prob": 0.6863082051277161
+    },
+    {
+      "sentence": "To the best of our knowledge, this is the first at-scale study of AR assistance for quotidian tasks.",
+      "label": "Background",
+      "prob": 0.6827194094657898
+    },
+    {
+      "sentence": "First, it supports a suite of embodied-agent observations that mimic the on-board sensors of an AR device (e.g., RGBD video, compass) including those relevant to our current formulation (i.e., mapping and localization of objects and the user).",
+      "label": "Background",
+      "prob": 0.6803597211837769
+    },
+    {
+      "sentence": "Each assistance level is characterized by both a world-locked digital-object component and a text-information component; see Fig. 2.",
+      "label": "Background",
+      "prob": 0.674860954284668
+    },
+    {
+      "sentence": "where 1  is the indicator function that evaluates to 1 if its argument is in the set  and evaluates to zero otherwise.",
+      "label": "Background",
+      "prob": 0.6720666289329529
+    },
+    {
+      "sentence": "Regarding the choice of embodied agent, one could adopt a fully multiagent perspective and consider the user and AR system to be independent but cooperating agents with the shared aforementioned objective but with different observation and action spaces.",
+      "label": "Background",
+      "prob": 0.6682776212692261
+    },
+    {
+      "sentence": "Inparticular,oneoftheeightclassicrulesofinterfacedesignplacesemphasisondesigninginterfaces that support the users sense of agency [38].",
+      "label": "Background",
+      "prob": 0.6622066497802734
+    },
+    {
+      "sentence": "These assumptions allow us to compute the policy of the embodied agent by a planner that solves a capacitated vehicle routing problem (CVRP), which we describe in Sec. 3.2 below.",
+      "label": "Background",
+      "prob": 0.6592503190040588
+    },
+    {
+      "sentence": "This suggests that people may not able to compute independently the optimal ordering of locationvisitsforobject-rearrangementtasksbasedononlyafirst-personperspective,evenwithobjecthighlighting .",
+      "label": "Background",
+      "prob": 0.6568402051925659
+    },
+    {
+      "sentence": "Once a participant picks up an item, the text corresponding to the selected item is crossed out and move to the bottom of the list.",
+      "label": "Background",
+      "prob": 0.6531586647033691
+    },
+    {
+      "sentence": "In contrast to this work, we consider a much broader category of object-rearrangement tasks and consider planners based on a general capacitated vehicle routing problem as described in Sec. 3.2.",
+      "label": "Background",
+      "prob": 0.6492758989334106
+    },
+    {
+      "sentence": "In practice, we solve planning problem (1) using OR-Tools [19].",
+      "label": "Background",
+      "prob": 0.6452814936637878
+    },
+    {
+      "sentence": "Instead, we simplify this setup and consider a single-agent formulation with an agent comprising a hybrid between the AR system and the user.",
+      "label": "Background",
+      "prob": 0.6434820294380188
+    },
+    {
+      "sentence": "Appendix C describes how the bins, objects, and starting location are determined for a given experiment.",
+      "label": "Background",
+      "prob": 0.6378412842750549
+    },
+    {
+      "sentence": "This indicates that it is possible to get users to follow shorter paths thanthosetheymightfindontheirown,butthatsimplyhighlightingobjectsmaybesufficientfordecreasinguserpathdistance.",
+      "label": "Background",
+      "prob": 0.6377415060997009
+    },
+    {
+      "sentence": "When a disagreement between the participants actual path and the computed optimal path occurs, the participants web browser communicates with the psiTurk server to recalculate the optimal path and send this back to the client.",
+      "label": "Background",
+      "prob": 0.6346210241317749
+    },
+    {
+      "sentence": "Finally, how real users will respond to AR assistance in everyday tasksin particular, how it affects their task performance, effort, and sense of agencyremains an open question [2, 8].",
+      "label": "Background",
+      "prob": 0.6334172487258911
+    },
+    {
+      "sentence": "These modeling choices allow us to formalize the problem of computing AR assistance for any object-rearrangement task as a planning task that reduces to solving a capacitated vehicle-routing problem (CVRP) [12, 18] from combinatorial optimization.",
+      "label": "Background",
+      "prob": 0.6269787549972534
+    },
+    {
+      "sentence": "For example, the lowest difficulty setting (6 objects) contained the first 6 points from this list, the highest difficulty setting contained the first 30 points.",
+      "label": "Background",
+      "prob": 0.6264162659645081
+    },
+    {
+      "sentence": "For example, researchers have investigated approaches wherein the AR device overlays information or instructions on parts to be assembled or maintained [41, 42], retrieves and displays maintenance documentation using object recognition [13], overlaying medical imaging data on patients in real time [4], or provides location and activity-based, world-locked information to the users during indoor navigation [32].",
+      "label": "Background",
+      "prob": 0.6256325840950012
+    },
+    {
+      "sentence": "Participants were uniformly randomly assigned to one of these conditions when they accepted to participate in the study.",
+      "label": "Background",
+      "prob": 0.6241262555122375
+    },
+    {
+      "sentence": "For example, the dish bin was placed on top of the counter next to the sink and the office supply box was placed on top of thew desk in the office.",
+      "label": "Background",
+      "prob": 0.6232582330703735
+    },
+    {
+      "sentence": "Second, though participants reported feeling less in control over their own actions when following the optimal assistance they were also more likely to agree that they preferred a system that told them what to do than users in either other group.",
+      "label": "Background",
+      "prob": 0.620262861251831
+    },
+    {
+      "sentence": "Namely, it has the observation space (i.e., sensor measurements) of the AR system and the actions (i.e., physical task-execution actions) of the user; in the case of object-rearrangement tasks, the latter corresponds to navigation and object pick/place actions.",
+      "label": "Background",
+      "prob": 0.6199729442596436
+    },
+    {
+      "sentence": "measurements) of the AR system and the action space (i.e., task-execution actions) of the user, and its policy is learned by minimizing the time to complete the task.",
+      "label": "Background",
+      "prob": 0.6018819212913513
+    },
+    {
+      "sentence": "In fact, the data suggest that they are either less likely or just as likely to accept the assistance as the task difficulty increases.",
+      "label": "Background",
+      "prob": 0.6011891961097717
+    },
+    {
+      "sentence": "After completing the survey, the data collected during the experiment (e.g., keyboard actions, time spent completing each phase, survey responses) are transmitted back to the server where it is stored in a MySQL database for later use.",
+      "label": "Background",
+      "prob": 0.5975887775421143
+    },
+    {
+      "sentence": "Because the optimal action sequence comprises a sequence of location visits along shortest paths, we present this action sequence by displaying the next shortest path to the user in the form of world-locked digital breadcrumbs in the heads-up display.",
+      "label": "Background",
+      "prob": 0.5942460894584656
+    },
+    {
+      "sentence": "As such, for this initial study, we assume that the AR device can has complete observations that include a map of the environment, the current position of all objects in question, and the position of the user.",
+      "label": "Background",
+      "prob": 0.5924343466758728
+    },
+    {
+      "sentence": "Taken together, this refutes our hypothesis H5 that users would be more likely to accept assistance as the task became harder.",
+      "label": "Background",
+      "prob": 0.5909790396690369
+    },
+    {
+      "sentence": "Future work will entail developing and assessing perception-based learned policies that assume lower fidelity of the embodied agents observations and considering multi-agent formulations that incorporate models of the users behavior.",
+      "label": "Background",
+      "prob": 0.5890710353851318
+    },
+    {
+      "sentence": "5.2.1 Assistance Fidelity We consider three different levels of assistance fidelity: no assistance, object-highlighting assistance, and optimal assistance.",
+      "label": "Background",
+      "prob": 0.5880958437919617
+    },
+    {
+      "sentence": "The full list of Likert-scale questions used in our study is below (a subset was described in Sec. 5.3 and used for analysis in Sec. 6.1):",
+      "label": "Background",
+      "prob": 0.587220311164856
+    },
+    {
+      "sentence": "To particularize this setup, we must define the embodied agent and",
+      "label": "Background",
+      "prob": 0.5835731029510498
+    },
+    {
+      "sentence": "Sec. 5.4 provides an overview of the Human Intelligence Task (HIT) characterizing our study.",
+      "label": "Background",
+      "prob": 0.5801377296447754
+    },
+    {
+      "sentence": "To prevent the participant from losing their orientation with respect to these start and end positions of the optimal path segment, the  -coordinate of the paths breadcrumbs start at the participants chest",
+      "label": "Background",
+      "prob": 0.5799578428268433
+    },
+    {
+      "sentence": "Even so, participants provided with optimal assistance, while still generally agreeing",
+      "label": "Background",
+      "prob": 0.5755504965782166
+    },
+    {
+      "sentence": "If the user ignores the AR-systems suggestion notifications and deviates from the optimal action sequence by visiting an alternative pickup or delivery location, we replan on the fly.",
+      "label": "Background",
+      "prob": 0.5752719640731812
+    },
+    {
+      "sentence": "While participants in all assistance-fidelity conditions perceived the assistance to be useful, those provided with optimal assistance perceived it to be more useful than in either the object-highlighting or no assistance conditions.",
+      "label": "Background",
+      "prob": 0.5729498267173767
+    },
+    {
+      "sentence": "Further, the sense of agency may also influence a users acceptance of technology[6,27].",
+      "label": "Background",
+      "prob": 0.5705286264419556
+    },
+    {
+      "sentence": "Critically, none of the above approaches are truly robust for complex multi-step tasks, as they do not leverage the devices on-board sensors to infer the current task state; as such, they are unable to provide the user with up-to-date assistance toward optimal task completion or properly adapt when users deviate from the systems suggested steps.",
+      "label": "Background",
+      "prob": 0.5572928786277771
+    },
+    {
+      "sentence": "The sense of agency refers to the feeling of being in the drivers seat when it comes to selecting ones actions [31].",
+      "label": "Background",
+      "prob": 0.5536125302314758
+    },
+    {
+      "sentence": "The participant is then placed in a virtual environment within the AR simulator described in Sec. 4 and must complete the task using the keyboard navigation and pick/place actions; they can leverage any AR assistance we provide in the HUD.",
+      "label": "Background",
+      "prob": 0.5536083579063416
+    },
+    {
+      "sentence": "You have been staying at the house for the past several daysandcheckouttimeisfastapproaching.Youmustcleanupthishouseaccordingtothehostsinstructions in as little time as possible.",
+      "label": "Background",
+      "prob": 0.550015389919281
+    },
+    {
+      "sentence": "Namely, we review existing work in AR assistance in Sec. 2.1, simulation frameworks for training and evaluating embodied-agent policies in Sec. 2.2, and assessing users response to digital assistance in Sec. 2.3.",
+      "label": "Background",
+      "prob": 0.548952579498291
+    },
+    {
+      "sentence": "The authors would like to thank Gideon Stocek and Blaise Ritchie for setting up the back-end servers, front-end development and design of the study logic and flow, integration with ORTools for online optimal path calculations, and integration with psiTurk for deployment on AMT.",
+      "label": "Background",
+      "prob": 0.5460183620452881
+    },
+    {
+      "sentence": "level and end at the floor level (see Fig. 2).",
+      "label": "Background",
+      "prob": 0.5360236763954163
+    },
+    {
+      "sentence": "After the user executes a feasible pick/place action, we display the next segment of the optimal path (which may involve replanning as described in Sec. 3.",
+      "label": "Background",
+      "prob": 0.5347006916999817
+    },
+    {
+      "sentence": "Except for the actual task in the third phase of the HITwhich varied across participants depending on the study conditions described in Sec. 5.2all other phases were consistent across participants.",
+      "label": "Background",
+      "prob": 0.5341156721115112
+    },
+    {
+      "sentence": "Sec. 5.1 describes the house-cleaning task.",
+      "label": "Background",
+      "prob": 0.5308707356452942
+    },
+    {
+      "sentence": "H5 As the task difficulty increases, participants will be more willing to accept the assistance.",
+      "label": "Background",
+      "prob": 0.5282851457595825
+    },
+    {
+      "sentence": "In our study, we focus primarily on evaluating effectiveness as measured by the users task performance and sense of agency.",
+      "label": "Background",
+      "prob": 0.5267925262451172
+    },
+    {
+      "sentence": "Interestingly, even though participants found shorter paths in the optimal and object-highlighting conditions, there was no significant difference in the total task completion time between the three conditions.",
+      "label": "Background",
+      "prob": 0.5232588052749634
+    },
+    {
+      "sentence": "Futureworkwillexploreextensionsofthecurrentframeworkandstudy,includingdevelopingandassessingperceptionbased learned policies that assume lower fidelity of the embodied agents observations, considering multi-agent formulations that incorporate models of the users behavior, and extending the current assistance framework and AR simulator to other quotidian object-rearrangement tasks and assessing the user experience in those settings.",
+      "label": "Background",
+      "prob": 0.5188882946968079
+    },
+    {
+      "sentence": "Appendix B describes the details of this setup.",
+      "label": "Background",
+      "prob": 0.5186089873313904
+    },
+    {
+      "sentence": "This allows us to compute the policy using a planner based on a capacitated vehicle routing problem.",
+      "label": "Background",
+      "prob": 0.5163722038269043
+    },
+    {
+      "sentence": "Object locations for each difficulty setting are shown as circles in Fig. 3.",
+      "label": "Background",
+      "prob": 0.5122175812721252
+    },
+    {
+      "sentence": "For example, if advances in AI can enable AR devices to reason about the structure and state of quotidian tasks such as cooking, cleaning, or organizing, then this ability could be leveraged to lend assistance to users in performing these tasks, ideally leading to improved task performance, reduced physical and cognitive effort, and preserved sense of agency.",
+      "label": "Background",
+      "prob": 0.5087018609046936
+    },
+    {
+      "sentence": "Making progress towards this objective of pervasive AR assistance is challenging for myriad reasons.",
+      "label": "Background",
+      "prob": 0.5075613260269165
+    },
+    {
+      "sentence": "E.1 and E.2 provide statistical analysis for the studies performed in Secs.",
+      "label": "Background",
+      "prob": 0.5072309970855713
+    },
+    {
+      "sentence": "This form of assistance is designed to provide assistance to the participant under the assumption that the AR device knows the location of the objects and bins salient to the house-cleaning task and can highlight them.",
+      "label": "Background",
+      "prob": 0.5063944458961487
+    },
+    {
+      "sentence": "A solution to this problem for the lowest difficulty setting is shown in Fig. 3.",
+      "label": "Background",
+      "prob": 0.5060613751411438
+    },
+    {
+      "sentence": "The starting position of each participant was held constant for any individual scene.",
+      "label": "Background",
+      "prob": 0.5027450919151306
+    },
+    {
+      "sentence": "We vary two key variables across experiments: assistance fidelity , which represents how much assistance the AR simulator provides to the user toward efficient task completion; and task difficulty as measured by the number of objects that must be cleaned up.",
+      "label": "Background",
+      "prob": 0.5004309415817261
+    },
+    {
+      "sentence": "[22], which employs a perception module driven by computer vision to identify task state in a sandwich-assembly task and re-plan using a finite state machine.",
+      "label": "Background",
+      "prob": 0.4998316764831543
+    },
+    {
+      "sentence": "We hypothesize that these two variables will be the key drivers of the user experience and task performance.",
+      "label": "Background",
+      "prob": 0.4990408420562744
+    },
+    {
+      "sentence": "As before, items are crossed off the list as they are completed.",
+      "label": "Background",
+      "prob": 0.4974779188632965
+    },
+    {
+      "sentence": "We find that by following the optimal assistance, users are able to decrease their total distance traveled though this comes at a cost of feeling less in control over their own actions.",
+      "label": "Background",
+      "prob": 0.49556317925453186
+    },
+    {
+      "sentence": "We used rejection sampling in order to ensure that sampled points were at least one unit of distance away from every other sampled point and receptacle location within the scene.",
+      "label": "Background",
+      "prob": 0.49198979139328003
+    },
+    {
+      "sentence": "ByleveragingHabitatsexistingWebGLJavaScriptAPI,wecandeployourARsimulatoratscaleonAMTandcollectdata related to task performance and sense of agency by leveraging psiTurk [20].",
+      "label": "Background",
+      "prob": 0.4914332330226898
+    },
+    {
+      "sentence": "We now describe how we generated the disorganized house for the study described in Section 5.1.",
+      "label": "Background",
+      "prob": 0.48988255858421326
+    },
+    {
+      "sentence": "Receptacle locations were kept fixed in each difficulty setting.",
+      "label": "Background",
+      "prob": 0.4876819849014282
+    },
+    {
+      "sentence": "Fig. 1(a) illustrates some of the objects and bins used in the study.",
+      "label": "Background",
+      "prob": 0.48322799801826477
+    },
+    {
+      "sentence": "To fill this gap, planning-based 1 approaches that track task state in real time and update assistance accordingly have been proposed for a variety of AR applications such as robot tele-operation [17, 43], assistive surgery [9], assembly and manufacturing [1], and even an quotidian task of sandwich assembly [22].",
+      "label": "Background",
+      "prob": 0.48196712136268616
+    },
+    {
+      "sentence": "Inthisfield,thetwomostcommonevaluationenvironmentscomprise either (1) in-person studies where users are asked to respond to robotic assistance [14], and (2) web-based studies where users are asked to view third-person videos or photos of humans and robots interacting and react accordingly [21, 30].",
+      "label": "Background",
+      "prob": 0.4781849980354309
+    },
+    {
+      "sentence": "We now review related work that relates to our three key contributions.",
+      "label": "Background",
+      "prob": 0.4756009578704834
+    },
+    {
+      "sentence": "In this HIT, you are a guest at a short-term rental.",
+      "label": "Background",
+      "prob": 0.4711807370185852
+    },
+    {
+      "sentence": "Sec. 5.2 describes the two key variables that we varied during the study.",
+      "label": "Background",
+      "prob": 0.46968594193458557
+    },
+    {
+      "sentence": "Bins were placed manually within the environment in semantically reasonable locations.",
+      "label": "Background",
+      "prob": 0.46830102801322937
+    },
+    {
+      "sentence": "Additionally, each step is numbered in order to emphasize the importance of the lists order.",
+      "label": "Background",
+      "prob": 0.46661922335624695
+    },
+    {
+      "sentence": "However, there was no change in IPL as the task-difficulty level increased.",
+      "label": "Background",
+      "prob": 0.46502214670181274
+    },
+    {
+      "sentence": "To display this information to the participant, we display the next segment of the optimal path in the egocentric frame as a trail of digital breadcrumbs, which we set to red spheres.",
+      "label": "Background",
+      "prob": 0.4614794850349426
+    },
+    {
+      "sentence": "Wenowformulatethe(single-vehicle)CVRP[12,18]forobject-rearrangementtasks.Weassumethatwearerearranging  objectssuchthateachobjecthasaninitiallocationandfinal(desired)location,thusyielding2  + 1totallocationsofinterest (including the initial position of the user).",
+      "label": "Background",
+      "prob": 0.45871177315711975
+    },
+    {
+      "sentence": "Through this portal, participants can view a study description, compensation details, and the estimated completion time.",
+      "label": "Background",
+      "prob": 0.4525855481624603
+    },
+    {
+      "sentence": "000) had statistically significant effects on normalized deviations.",
+      "label": "Background",
+      "prob": 0.45154523849487305
+    },
+    {
+      "sentence": "sample object locations within the scene we randomly sampled a total of 40 navigable scene points using the Habitat simulator.",
+      "label": "Background",
+      "prob": 0.4465157687664032
+    },
+    {
+      "sentence": "Lastly, the authors are grateful to Amanpreet Singh, Mandeep Baines, Oleksandr Maksymets, Alexander Clegg, and Dhruv Batra from the Habitat team for their support in understanding and debugging various features related to Habitat for our setup.",
+      "label": "Background",
+      "prob": 0.44121477007865906
+    },
+    {
+      "sentence": "50 for completing the 25-minute-long study.",
+      "label": "Background",
+      "prob": 0.4399568438529968
+    },
+    {
+      "sentence": "Appendix A reports details on the number of participants in each condition.",
+      "label": "Background",
+      "prob": 0.4358672499656677
+    },
+    {
+      "sentence": "AppendixCdescribesourapproachforgeneratingthebin,object,andinitialuserlocationsforanyoftheseconditions.Fig.3 showsthebinlocationsassquaresineachdifficultysetting,witheachcolorrepresentingaspecificsemanticobjectcategory.",
+      "label": "Background",
+      "prob": 0.4358411133289337
+    },
+    {
+      "sentence": "After the participant completes the experiment, we employ psiTurk to approve and disburse payment through AMT.",
+      "label": "Background",
+      "prob": 0.4351261258125305
+    },
+    {
+      "sentence": "This was kept consistent throughout each difficulty setting.",
+      "label": "Background",
+      "prob": 0.4350372850894928
+    },
+    {
+      "sentence": "To satisfy the above criteria, we build our AR simulator upon Habitat [37].",
+      "label": "Background",
+      "prob": 0.4342168867588043
+    },
+    {
+      "sentence": "Overall, this does not support our hypothesis H3 that participants sense of agency would remain unaffected by assistance fidelity; however, it seems that despite feeling a slight loss in their sense of agency, they may actually prefer this sacrifice order to obtain useful information for optimal task completion.",
+      "label": "Result",
+      "prob": 0.45658183097839355
+    },
+    {
+      "sentence": "We use four task-difficulty levels, where this ratio corresponds to 1:1 (6 total objects), 2:1 (12 total objects), 3:1 (18 total objects), and 4:1 (24 total objects), respectively.",
+      "label": "Background",
+      "prob": 0.4209294617176056
+    },
+    {
+      "sentence": "To determine the effect of assistance fidelity and task difficulty on participants task performance and experience, we collect an array of objective and subjective participant-response data.",
+      "label": "Background",
+      "prob": 0.40321865677833557
+    },
+    {
+      "sentence": "In contrast to other assistance conditions, the text-information assistance is now ordered according to the optimal path: each step lists the action the participant should take, the object they should perform it on, a picture of this object, and the objects location.",
+      "label": "Method",
+      "prob": 0.42448315024375916
+    },
+    {
+      "sentence": "We now describe in more detail how we control these variables.",
+      "label": "Background",
+      "prob": 0.3982318043708801
+    },
+    {
+      "sentence": "In the second phase, the participant is familiarized with the 3D layout of the short-term rental house using a pre-recorded fly-through video that displays information regarding room names and bins locations.",
+      "label": "Background",
+      "prob": 0.3892059922218323
+    },
+    {
+      "sentence": "We measure task performance in two additional ways: total distance traveled and total task completion time.",
+      "label": "Background",
+      "prob": 0.38834989070892334
+    },
+    {
+      "sentence": "In the case of optimal assistance, we observe that participants are more likely to pick and place items in the optimal order than they are in either the none or object-highlighting assistance conditions as measured by normalized deviations (Fig. 4).",
+      "label": "Result",
+      "prob": 0.46204718947410583
+    },
+    {
+      "sentence": "We make several modifications to Habitat to generate our AR simulator.",
+      "label": "Background",
+      "prob": 0.3832337558269501
+    },
+    {
+      "sentence": "Each point was assigned a semantic object category, as well.",
+      "label": "Background",
+      "prob": 0.38148877024650574
+    },
+    {
+      "sentence": "Participants who actually were exposed to optimal assistance agreed that they preferred this to not having this assistive information.",
+      "label": "Result",
+      "prob": 0.3873446583747864
+    },
+    {
+      "sentence": "In the first phase, the participant is presented with the house-cleaningscenario prompt described in Sec. 5.1.",
+      "label": "Other",
+      "prob": 0.41727256774902344
+    },
+    {
+      "sentence": "We make this choice because Habitat satisfies all four of these criteria.",
+      "label": "Background",
+      "prob": 0.37227684259414673
+    },
+    {
+      "sentence": "We envision our second contribution as being useful beyond the domain of AR assistance, as it can provide a framework for at-scale user-in-the-loop evaluation of different kinds of digital assistance.",
+      "label": "Objective",
+      "prob": 0.39615488052368164
+    },
+    {
+      "sentence": "Akin to other studies on AR assistance that have shown improved task performance for instance in assembly tasks [41, 46], we show faster task completion times with the use of the proposed AR assistance.",
+      "label": "Background",
+      "prob": 0.36954909563064575
+    },
+    {
+      "sentence": "We first present and evaluate the hypotheses related to different assistance fidelity in easiest task difficulty condition using objective and subjective metrics defined in Sec.",
+      "label": "Background",
+      "prob": 0.36449727416038513
+    },
+    {
+      "sentence": "Sec. 5.3 describes the metrics that we employed to evaluate the user experience.",
+      "label": "Result",
+      "prob": 0.4188675582408905
+    },
+    {
+      "sentence": "This point was determined to be navigable using the Habitat simulator.",
+      "label": "Result",
+      "prob": 0.3975221514701843
+    },
+    {
+      "sentence": "Finally, we note that Habitat supports reinforcement-learning training algorithms (e.g., PPO) [45] that we can employ to train embodied-agent policies in future studies that assume reduced observation fidelity (e.g., assume only RGBD video); this obviates the need to employ different platforms for policy training and evaluation in future work.",
+      "label": "Background",
+      "prob": 0.33170363306999207
+    },
+    {
+      "sentence": "In the final phase, the participant is given a survey that collects demographic information (e.g., age, gender), responses to the subjective questions described in Sec. 5.3.2, and a free-form response to capture anything else relevant to their experience.",
+      "label": "Method",
+      "prob": 0.4031885862350464
+    },
+    {
+      "sentence": "000) and task-completion distance (  ( 2 , 116 ) = 13 .",
+      "label": "Other",
+      "prob": 0.4589705169200897
+    },
+    {
+      "sentence": "Across the board, we observed that participants deviated more from the optimal ordering as task-difficulty increased (Fig. 8).",
+      "label": "Other",
+      "prob": 0.3958427608013153
+    },
+    {
+      "sentence": "The HIT for the study consists of four phases: (1) task setup, (2) house familiarization and navigation-controls training, (3) cleaning-task execution, and (4) survey.",
+      "label": "Background",
+      "prob": 0.29930293560028076
+    },
+    {
+      "sentence": "We conducted two individual two-way factorial ANOVA tests to measure the main effects of assistance type and task difficulty on normalized deviations and IPL, and any combined effects of assistance type and difficulty (see Fig. 8).",
+      "label": "Other",
+      "prob": 0.31298694014549255
+    },
+    {
+      "sentence": "We performed six one-way ANOVA tests to test for a main effect of assistance type within each question (Sec. 5.3).",
+      "label": "Result",
+      "prob": 0.32776230573654175
+    },
+    {
+      "sentence": "We consider six semantic object categories and employ a specific bin for each category: dishes (dish bin), toys (toy box), books (bookshelf), laundry (laundry hamper), office supplies (office-supply box), recycling (recycling bin).",
+      "label": "Method",
+      "prob": 0.3310612142086029
+    },
+    {
+      "sentence": "Optimal assistance corresponds to the form of AR assistance proposed in Sec. 3.",
+      "label": "Background",
+      "prob": 0.2922728657722473
+    },
+    {
+      "sentence": "Arguably the closest related work is in the field of humanrobot interaction (HRI), where researchers are interested in evaluatingusersresponsetoroboticassistance[10].",
+      "label": "Other",
+      "prob": 0.6184103488922119
+    },
+    {
+      "sentence": "For an in-depth reporting of the statistical analyses, see Sec.",
+      "label": "Other",
+      "prob": 0.5513085722923279
+    },
+    {
+      "sentence": "For an in-depth reporting of the statistical analyses, see Sec.",
+      "label": "Other",
+      "prob": 0.5513085722923279
+    },
+    {
+      "sentence": "Here, we focus on the evaluation environment.",
+      "label": "Objective",
+      "prob": 0.40799272060394287
+    },
+    {
+      "sentence": "Additionally, this method allowed us to generate our optimal assistance, discussed in Sec. 3.2.",
+      "label": "Method",
+      "prob": 0.2973993122577667
+    },
+    {
+      "sentence": "Finally, we assume that the user can carry only two objects at once, the AR device has knowledge of the desired final location of all objects in question (i.e., the goal state of the environment), and the AR device can calculate the shortest path between any two points on the map.",
+      "label": "Method",
+      "prob": 0.34186092019081116
+    },
+    {
+      "sentence": "1 Planningreferstotheprocessofcomputinganagentspolicyusingamodelforthetransitiondynamicsoftheenvironment,i.e.,amodelthatpredictstheeffectoftheagentsactionsontheenvironmentstates[40].",
+      "label": "Other",
+      "prob": 0.693336546421051
+    },
+    {
+      "sentence": "There was no significant effect of task difficulty on IPL, and the interaction effect was not statistically significant.",
+      "label": "Result",
+      "prob": 0.6631898283958435
+    },
+    {
+      "sentence": "We still observe this trend, however,",
+      "label": "Result",
+      "prob": 0.5862010717391968
+    },
+    {
+      "sentence": "Assuming the user has already executed  ( 2  ) steps of the task by visiting locations   ( 0 ) ,...,   (  ) with   ( 0 ) = 0 and the task initialized at  = 0, the planner definestheoptimalsequenceoflocationvisits (   ( 0 ) ,...,  ( 2  )) asthesolutiontothecombinatorialoptimizationproblem",
+      "label": "Objective",
+      "prob": 0.27501803636550903
+    },
+    {
+      "sentence": "The setup works as follows: we serve a Human Intelligence Task (HIT) to AMT using a psiTurk server, which also allows us to advertise our HIT on through the AMT web portal.",
+      "label": "Method",
+      "prob": 0.3734135329723358
+    },
+    {
+      "sentence": "Overall, these findings partially support our hypothesis H4 that participants will be more likely to perceive the optimal assistance to be usable and useful than other assistance types.",
+      "label": "Result",
+      "prob": 0.6671589016914368
+    },
+    {
+      "sentence": "Perhaps the most closely related work to ours is the planning-based cognitive assistant developed by Hu et al.",
+      "label": "Other",
+      "prob": 0.6704371571540833
+    },
+    {
+      "sentence": "Usability and Utility .",
+      "label": "Other",
+      "prob": 0.526211678981781
+    },
+    {
+      "sentence": "To address the second challenge, we propose a novel AR simulator that can enable large-scale web-based evaluation of AR assistance and associated data collection.",
+      "label": "Objective",
+      "prob": 0.6715630292892456
+    },
+    {
+      "sentence": "We observe that participants presented with object-highlighting and optimal assistance generated significantly shorter total paths than those generated in the no-assistance case, but the average path length traveled with these two forms of assistance was not substantially different (Fig. 6).",
+      "label": "Result",
+      "prob": 0.655029833316803
+    },
+    {
+      "sentence": "Taken together, these two findings partially confirm our hypothesis H2 that participants will have higher task performance when presented with optimal assistance.",
+      "label": "Result",
+      "prob": 0.6720708608627319
+    },
+    {
+      "sentence": "Weassumethat transportationcosts canbe calculatedfromanoperator  : { 0 ,..., 2  }{ 0 ,..., 2  }  R + that calculates the geodesic distance between any two locations and satisfies  ( , ) = 0,  { 0 ,..., 2  } .",
+      "label": "Result",
+      "prob": 0.25850802659988403
+    },
+    {
+      "sentence": "Despitetheimportanceofagency,ithasreceivedlimitedattentioninthedomainofAR.Itisimportanttoaddress thistopicearlyindevelopingnovelARtechnologies,asenablinguserssenseofagencyisindeedchallenginginassistiveand immersivesystems;forexample,previousresearchhasfoundareductioninsenseofagencywithincreaseinautomation[7].",
+      "label": "Other",
+      "prob": 0.5454302430152893
+    },
+    {
+      "sentence": "We found that participants generally felt in control of what they should do next and how quickly they completed the task.",
+      "label": "Result",
+      "prob": 0.6883108615875244
+    },
+    {
+      "sentence": "Further, we study the effectiveness over a range of task-difficulty and assistance-fidelity levels.",
+      "label": "Result",
+      "prob": 0.4959331452846527
+    },
+    {
+      "sentence": "If the point was not navigable, rejection sampling was used to find a navigable point within a small radius surroundingthecentroid.Thismethodallowedustoensurethattheparticipantsstartingpositiondidnotbiastheirsolution by their starting location.",
+      "label": "Method",
+      "prob": 0.346687376499176
+    },
+    {
+      "sentence": "The study presented in Sec. 5 evaluates task performance and the users sense of agency on the proposed cleaninghouse task.",
+      "label": "Result",
+      "prob": 0.4005356431007385
+    },
+    {
+      "sentence": "This position was calculated by first finding the centroid of all of objects placed in the scene.",
+      "label": "Method",
+      "prob": 0.5016959309577942
+    },
+    {
+      "sentence": "Weintroduceadeliveryoperator  : P D thatmapseachpickuplocationtoitscorresponding dropofflocation.Weassociateanysolutiontotheproblemwithaninvertibleoperator  : { 0 ,..., 2  }{ 0 ,..., 2  } thatmapsthe step number to location index; note that invertibility of this operator assumes that each location is visited exactly once and a location visit is associated with the pickup or dropoff of the appropriate object.",
+      "label": "Method",
+      "prob": 0.5524724721908569
+    },
+    {
+      "sentence": "5.3.2 Subjective metrics We employ subjective metrics that are measured using a five-point Likert scale, which focus on the following two categories 3 :",
+      "label": "Other",
+      "prob": 0.5517967343330383
+    },
+    {
+      "sentence": "These results are especially interesting given that no significant difference was found in total task completion time between assistance-fidelity levels.",
+      "label": "Result",
+      "prob": 0.6919987201690674
+    },
+    {
+      "sentence": "Table 1 shows the number of participant in each of our twelve conditions.",
+      "label": "Result",
+      "prob": 0.6048154830932617
+    },
+    {
+      "sentence": "If the user violates assistance and instead visits a feasible alternative location   (  + 1 )(    (  + 1 )) , then the system replans by solving problem (1) with    + 1 and resumes.",
+      "label": "Method",
+      "prob": 0.4661150872707367
+    },
+    {
+      "sentence": "000), Prefer to show (  ( 2 , 116 ) = 15 .",
+      "label": "Other",
+      "prob": 0.6101309657096863
+    },
+    {
+      "sentence": "3 Thesequestionsonlycompriseasubsetofthequestionsthatweaskedintheoriginalstudy.Welimitouranalysisheretothissubsetduetospaceconstraints;seetheAppendixDforthefulllist.",
+      "label": "Other",
+      "prob": 0.7434542775154114
+    },
+    {
+      "sentence": "000), Need to follow (  ( 2 , 116 ) = 7 .",
+      "label": "Other",
+      "prob": 0.6239234209060669
+    },
+    {
+      "sentence": "We collect user data across a range of task difficulties and types of AR assistance in order to evaluate how the proposed form of AR assistance affects users task performance, effort, and sense of agency.",
+      "label": "Objective",
+      "prob": 0.5177943706512451
+    },
+    {
+      "sentence": "000) and Usable (  ( 2 , 116 ) = 12 .",
+      "label": "Other",
+      "prob": 0.5686111450195312
+    },
+    {
+      "sentence": "The main house-cleaning task is explained to participants through the following prompt:",
+      "label": "Result",
+      "prob": 0.3300640285015106
+    },
+    {
+      "sentence": "We implement this form of assistance by placing a digital flagpole over each object as depicted in Fig. 2; the corresponding text-information assistance includes all of the information from the No-assistance condition but with the addition of the name of the room in which the object can be found.",
+      "label": "Method",
+      "prob": 0.43796536326408386
+    },
+    {
+      "sentence": "Nostatisticallysignificanteffectofassistancewasfoundontask-completiontime(  ( 2 , 116 ) = 0 .",
+      "label": "Other",
+      "prob": 0.6994621157646179
+    },
+    {
+      "sentence": "First, by following the optimal assistance, participants were able to reduce the overall distance they travelled, suggesting that people do not immediately solve this problem optimally and could benefit from a system like the one we propose.",
+      "label": "Result",
+      "prob": 0.5287779569625854
+    },
+    {
+      "sentence": "Following each ANOVA, we performed a post hoc Tukey test when a main effect was found; Fig. 7 summarizes these results.",
+      "label": "Result",
+      "prob": 0.6317418217658997
+    },
+    {
+      "sentence": "Given the solution (   ( 0 ) ,...,  ( 2  )) to problem (1), at step  (  ) of the task, the AR device provides assistance by displaying to the user the shortest path between locations   (  )( =   (  )) and   (  + 1 ) in the form of world-locked digital breadcrumbs in the heads-up display.",
+      "label": "Method",
+      "prob": 0.484748512506485
+    },
+    {
+      "sentence": "000) and difficulty (  ( 3 , 435 ) = 76 .",
+      "label": "Other",
+      "prob": 0.6223123073577881
+    },
+    {
+      "sentence": "We achieve this by adopting the perspetive of embodied AI and (1) associate an optimal action sequence with the policy of an embodied agent, and (2) present this optimal action sequence to the user as suggestion notifications in the AR systems heads-up display.",
+      "label": "Method",
+      "prob": 0.3782646954059601
+    },
+    {
+      "sentence": "With regards to varying the assistance fidelity, we had the following hypotheses:",
+      "label": "Result",
+      "prob": 0.43617022037506104
+    },
+    {
+      "sentence": "The simulator is based on Habitat [37] for embodied AI and satisfies the key criteria we have in an AR simulator: (1) it support the observations and actions of the proposed embodied-agent policy, (2) it emulates a first-person view through an AR device, including an ability to display suggestion-notifications in a heads-up display (HUD) in the form of digital objects and information, (3) it enables a user in the loop to autonomously perform the task-execution actions, and (4) it is deployable on the web at scale via integration with Amazon Mechanical Turk (AMT) and supports data collection related to task performance and sense of agency via psiTurk [20] integration.",
+      "label": "Method",
+      "prob": 0.4359143376350403
+    },
+    {
+      "sentence": "We then used the first N points from this list to define the object locations in the scene.",
+      "label": "Method",
+      "prob": 0.5790963768959045
+    },
+    {
+      "sentence": "We performed post hoc Tukey honest significant difference tests to measure differences between each group.",
+      "label": "Result",
+      "prob": 0.5357277393341064
+    },
+    {
+      "sentence": "The study illustrated several salient trends.",
+      "label": "Result",
+      "prob": 0.7021979093551636
+    },
+    {
+      "sentence": "Our study also suggests that while reports of user agency may be negatively affected by increased assistance in this scenario, this may be a cost participants are willing to pay in order to realize improved task performance; these are promising results, and can serve as a baseline for alternative interfaces for displaying the computed AR assistance to the user.",
+      "label": "Result",
+      "prob": 0.609408974647522
+    },
+    {
+      "sentence": "WorkdoneatFacebookRealityLabsResearch",
+      "label": "Other",
+      "prob": 0.762395441532135
+    },
+    {
+      "sentence": "Given any arbitrary enumeration of these locations with the zeroth location correspondingtotheusersinitialposition(i.e.,the depot ),wedecomposetheselocationsinto pickuplocations P { 1 ,..., 2  } associating with the objects current locations and dropoff locations D { 1 ,..., 2  } associated with the final locations such that |P| = |D| =  , PD =  ,and PD = { 1 ,..., 2  } .",
+      "label": "Result",
+      "prob": 0.3834758698940277
+    },
+    {
+      "sentence": "Wealsoobservedthatparticipantsweremorelikelytotakeshorterpathsintheoptimal-assistanceconditionthanintheother two conditions, and that participants provided with object-highlighting assistance were more likely to take shorter paths than those provided with no assistance (Fig. 8) .",
+      "label": "Result",
+      "prob": 0.6029755473136902
+    },
+    {
+      "sentence": "The authors would also like to thank Yan Xu and Mei Gao for help with the UX design decisions, survey design, and interpretation of early results; Joshua Walton for feedback on the design of the assistance and HUD; Hrvoje Benko and Tanya Jonker for early feedback on study design; Michael Shvartsman for pointer to psiTurk and James Hillis for forming cross-function connection with the Habitat team.",
+      "label": "Result",
+      "prob": 0.3690606951713562
+    },
+    {
+      "sentence": "Noassistance(None) .",
+      "label": "Other",
+      "prob": 0.789207398891449
+    },
+    {
+      "sentence": "The interaction between the two independent variables was also statistically significant  ( 6 , 435 ) = 2 .",
+      "label": "Other",
+      "prob": 0.4347230792045593
+    },
+    {
+      "sentence": "001), IPL (  ( 2 , 116 ) = 15 .",
+      "label": "Other",
+      "prob": 0.6894870400428772
+    },
+    {
+      "sentence": "Additionally, we find that users are not consistent in their willingness to follow assistance.",
+      "label": "Result",
+      "prob": 0.7861399054527283
+    },
+    {
+      "sentence": "2021AssociationforComputingMachinery.ManuscriptsubmittedtoACM",
+      "label": "Other",
+      "prob": 0.8196679353713989
+    },
+    {
+      "sentence": "To address the first challenge in the context of object-rearrangement tasks, we formalize the problem of computing and displaying AR assistance by (1) associating an optimal action sequence with the policy of an embodied agent and (2) presenting this optimal action sequence to the user as suggestion notifications in the AR systems heads-up display.",
+      "label": "Method",
+      "prob": 0.43377894163131714
+    },
+    {
+      "sentence": "Optimal assistance .",
+      "label": "Other",
+      "prob": 0.70047926902771
+    },
+    {
+      "sentence": "We found that participants generally felt that they were faster with assistance than without assistance.",
+      "label": "Result",
+      "prob": 0.807593584060669
+    },
+    {
+      "sentence": "We found a statistically significant effect of assistance on Control what to do (  ( 2 , 116 ) = 11 .",
+      "label": "Other",
+      "prob": 0.5756802558898926
+    },
+    {
+      "sentence": "Weperformedfourone-wayANOVAteststomeasuretheeffectofassistanceonnormalizeddeviations, IPL,taskcompletiondistance,andtaskcompletiontime.Theeffectofassistancewasstatisticallysignificantonnormalized deviations (  ( 2 , 116 ) = 41 .",
+      "label": "Other",
+      "prob": 0.4127199351787567
+    },
+    {
+      "sentence": "In particular, Abramovici et al.",
+      "label": "Other",
+      "prob": 0.7958824038505554
+    },
+    {
+      "sentence": "[28, 48].",
+      "label": "Other",
+      "prob": 0.8014957904815674
+    },
+    {
+      "sentence": "4. Participants were compensated $7 .",
+      "label": "Other",
+      "prob": 0.6536979079246521
+    },
+    {
+      "sentence": "6.1.2 Results summary We now present results for the varying-assistance-fidelity study in terms of both objective and subjective metrics.",
+      "label": "Result",
+      "prob": 0.7976154685020447
+    },
+    {
+      "sentence": "Assistance type (  ( 2 , 435 ) = 265 .",
+      "label": "Other",
+      "prob": 0.7629445195198059
+    },
+    {
+      "sentence": "E.2 and Fig. 8.",
+      "label": "Other",
+      "prob": 0.5514521598815918
+    },
+    {
+      "sentence": "2 Thatis, (cid:205) 2  = 1  (   (  ) ,   (   1 )) inthenotationofSec.3.2.",
+      "label": "Other",
+      "prob": 0.8451012969017029
+    },
+    {
+      "sentence": "523).",
+      "label": "Other",
+      "prob": 0.8116894960403442
+    },
+    {
+      "sentence": "Second, we introduce a virtual knapsack of capacity two that represents the users current inventory;wedisplaythecurrentcontentsofthisbackpackastheusersinventoryinthevirtualHUD.Third,weintroduce a rudimentary object pick/place action that either (1) picks up an object and places it in the virtual knapsack if the user is within a specified distance of a pickup location and the knapsack is not full, or (2) places an object in inventory in its dropoff location if the user is within a specified distance of the dropoff location and the associated object is in inventory.",
+      "label": "Result",
+      "prob": 0.4990059733390808
+    },
+    {
+      "sentence": "Instead, our proposed approach for AR assistance applicable to complex object-rearrangement tasks described in Sec. 3 leverages only the sensor measurements of the AR device, and executes a policy whose state is informed only by these sensor measurements, thus enabling up-to-date assistance toward optimal task completion.",
+      "label": "Method",
+      "prob": 0.6577819585800171
+    },
+    {
+      "sentence": "relevant to the task.",
+      "label": "Other",
+      "prob": 0.6942967176437378
+    },
+    {
+      "sentence": "Taken together, these two findings support our hypothesis H1 that participants will follow optimal assistance when presented with it.",
+      "label": "Result",
+      "prob": 0.8118849396705627
+    },
+    {
+      "sentence": "000)(seeFigs.46).",
+      "label": "Other",
+      "prob": 0.8530777096748352
+    },
+    {
+      "sentence": "Thus, we believe that our proposed evaluation frameworkwhich is based on an AR simulator and is described in Sec. 4combines the attractive attributes of each of these paradigms, as it enables scalable, first-person interaction of a user with an embodied assistant and thus we hypothesize can capture more realistic user experiencesand thus yield higher quality user-experience dataat scale.",
+      "label": "Result",
+      "prob": 0.5785602927207947
+    },
+    {
+      "sentence": "First, we implement a virtual HUD to mimic the first-person view through an AR device (see Fig. 2(a)); the HUD supports the display of information relevant to the proposed AR assistance, as well as the ability to display world-locked digital objects in the environment.",
+      "label": "Method",
+      "prob": 0.5866866111755371
+    },
+    {
+      "sentence": "The effect of assistance type on IPL was statistically significant (  ( 2 , 435 ) = 30 .",
+      "label": "Other",
+      "prob": 0.5873494744300842
+    },
+    {
+      "sentence": "We performed post hoc Tukey honest significant difference tests, where effects were found.",
+      "label": "Result",
+      "prob": 0.7256729006767273
+    },
+    {
+      "sentence": "Subjective metrics .",
+      "label": "Other",
+      "prob": 0.4253060817718506
+    },
+    {
+      "sentence": "Subjective metrics .",
+      "label": "Other",
+      "prob": 0.4253060817718506
+    },
+    {
+      "sentence": "We conducted a 3  4 between-subjects user study (  = 447 participants, male = 265, female = 177, other = 1, no answer = 4; three assistance-fidelity levels; four task-difficulty levels) on AMT using our AR simulator setup described in Sec.",
+      "label": "Result",
+      "prob": 0.39791038632392883
+    },
+    {
+      "sentence": "6.1 and 6.2, respectively.",
+      "label": "Other",
+      "prob": 0.7862226963043213
+    },
+    {
+      "sentence": "To address the third challenge, we define house cleaning as a specific object-rearrangement task, implement the task and the proposed CVRP-based assistance using OR-Tools [19] in the proposed AR simulator, and evaluate it at scale using AMT.",
+      "label": "Method",
+      "prob": 0.575564980506897
+    },
+    {
+      "sentence": "Secs.",
+      "label": "Other",
+      "prob": 0.8401418328285217
+    },
+    {
+      "sentence": "Agency.",
+      "label": "Other",
+      "prob": 0.8383876085281372
+    },
+    {
+      "sentence": "000), Useful (  ( 2 , 116 ) = 7 .",
+      "label": "Other",
+      "prob": 0.7978296279907227
+    },
+    {
+      "sentence": "HCI researchhaslongrecognizedthesenseofagencyasakeyfactorincharacterizinghowpeopleexperienceinteractionswith technology[29,31,38].",
+      "label": "Other",
+      "prob": 0.8658815026283264
+    },
+    {
+      "sentence": "Objective metrics .",
+      "label": "Other",
+      "prob": 0.49289408326148987
+    },
+    {
+      "sentence": "In summary, our contributions are: (1) a novel framework for computing and displaying AR assistance for objectrearrangement tasks that employs a hybrid single agent (i.e., the userAR-system) and CVRP formulation, (2) a novel AR simulator that can enable large-scale web-based evaluation of AR-like assistance, and (3) a large-scale web-based study that assesses how users respond to the proposed form of AR assistance in a house-cleaning task over a range of task difficulties.",
+      "label": "Method",
+      "prob": 0.3423977196216583
+    },
+    {
+      "sentence": "46.",
+      "label": "Other",
+      "prob": 0.8507099747657776
+    },
+    {
+      "sentence": "E.1 and Figs.",
+      "label": "Other",
+      "prob": 0.8252531290054321
+    },
+    {
+      "sentence": "The objective function in problem (1) corresponds to the transportation costs (i.e., total distance traveled); the first set of constraints corresponds to the capacity constraints; the second set of constraints ensures that each objects pickup location is visited before its dropoff location; the third set of constraints enforces that the solution is computed from the current state of the task at step  .",
+      "label": "Method",
+      "prob": 0.5119975209236145
+    },
+    {
+      "sentence": "5. We then show the interaction effects between assistance and task difficulty.",
+      "label": "Result",
+      "prob": 0.6334980726242065
+    },
+    {
+      "sentence": "000).",
+      "label": "Other",
+      "prob": 0.8588401079177856
+    },
+    {
+      "sentence": "000).",
+      "label": "Other",
+      "prob": 0.8588401675224304
+    },
+    {
+      "sentence": "In this work, our goal is to develop a framework for such AR assistance applicable to an important class of everyday tasksthose involving object rearrangementand to evaluate its value to users at scale.",
+      "label": "Objective",
+      "prob": 0.8989026546478271
+    },
+    {
+      "sentence": "To evaluate how the proposed AR-assistance model described in Section 3 affects the user experience, an AR simulator must (1) support the observations and actions of the embodied-agent policy, (2) emulate the first-person view through an AR device, including support of the display of suggestion-notifications in the form of digital objects and information in a heads-up display (HUD), (3) enable a user in the loop to autonomously perform the task-execution actions, and (4) be deployable on the web at scale and support data collection related to task performance and sense of agency.",
+      "label": "Result",
+      "prob": 0.46907252073287964
+    },
+    {
+      "sentence": "001).",
+      "label": "Other",
+      "prob": 0.852833092212677
+    },
+    {
+      "sentence": "On the other hand, training of the embodied-agent policy can be done in a variety of ways that need not rely on a human in the loop; Sec. 3 describes in detail our proposed formulation for computing the policy that does not require a human in the looponly a planner coupled to a simulator that can compute the geodesic distances between locations and track task statealthough future work will consider human-in-the-loop training loop analogously to Refs.",
+      "label": "Other",
+      "prob": 0.36925363540649414
+    },
+    {
+      "sentence": "This work has presented (1) a novel framework for computing and displaying AR assistance for object-rearrangement tasks that characterize a broad category of quotidian tasks, (2) a novel AR simulator that can enable web-based evaluation of AR-like assistance and large-scale data collection, and (3) a study that assesses how users respond to the proposed AR assistance in the AR simulator on a specific object-rearrangement task: house cleaning.",
+      "label": "Result",
+      "prob": 0.4424497187137604
+    },
+    {
+      "sentence": "We had the following hypothesis:",
+      "label": "Other",
+      "prob": 0.7295125126838684
+    },
+    {
+      "sentence": "Acknowledgments",
+      "label": "Other",
+      "prob": 0.8444640636444092
+    },
+    {
+      "sentence": "The goal of our AR assistance model is to formalize the problem of computing and displaying AR assistance for objectrearrangement tasks.",
+      "label": "Objective",
+      "prob": 0.9147471189498901
+    },
+    {
+      "sentence": "Object-highlighting assistance .",
+      "label": "Other",
+      "prob": 0.8494271039962769
+    },
+    {
+      "sentence": "The overarching goal of our study is to evaluate how users respond to the AR assistance generated by the proposed framework on a specific quotidian object-rearrangement taskhouse cleaningusing our proposed AR simulator.",
+      "label": "Objective",
+      "prob": 0.7742143869400024
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.8979548215866089
+    },
+    {
+      "sentence": "6.1.1 Hypotheses.",
+      "label": "Other",
+      "prob": 0.9011058807373047
+    },
+    {
+      "sentence": "We",
+      "label": "Other",
+      "prob": 0.8461043238639832
+    },
+    {
+      "sentence": "652,  = 0 .",
+      "label": "Other",
+      "prob": 0.8662195801734924
+    },
+    {
+      "sentence": "865,  = 0 .",
+      "label": "Other",
+      "prob": 0.8658396005630493
+    },
+    {
+      "sentence": "6.2.1 Hypothesis.",
+      "label": "Other",
+      "prob": 0.9020416736602783
+    },
+    {
+      "sentence": "Participants provided with no assistance and object-highlighting assistance were neutral about their feelings of needing to follow the assistance; participantsprovidedwithoptimalassistanceratedthattheydidfeeltheneedtofollowtheassistance.Finally,participants provided with no assistance and object-highlighting assistance disagreed that they would prefer to have the system show them what to do next and where to go next.",
+      "label": "Result",
+      "prob": 0.8400449156761169
+    },
+    {
+      "sentence": "05,  = 0 .",
+      "label": "Other",
+      "prob": 0.8654283285140991
+    },
+    {
+      "sentence": "6.2.2 Results summary.",
+      "label": "Other",
+      "prob": 0.7561641931533813
+    },
+    {
+      "sentence": "Permissiontomakedigitalorhardcopiesofallorpartofthisworkforpersonalorclassroomuseisgrantedwithoutfeeprovidedthatcopiesarenotmadeordistributedforprofitorcommercialadvantageandthatcopiesbearthisnoticeandthefullcitationonthefirstpage.CopyrightsforcomponentsofthisworkownedbyothersthanACMmustbehonored.Abstractingwithcreditispermitted.Tocopyotherwise,orrepublish,topostonserversortoredistributetolists,requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org.",
+      "label": "Other",
+      "prob": 0.8885763883590698
+    },
+    {
+      "sentence": "56,  = 0 .",
+      "label": "Other",
+      "prob": 0.8877483010292053
+    },
+    {
+      "sentence": "62,  = 0 .",
+      "label": "Other",
+      "prob": 0.8973341584205627
+    },
+    {
+      "sentence": "75,  = 0 .",
+      "label": "Other",
+      "prob": 0.8969067335128784
+    },
+    {
+      "sentence": "38,  = 0 .",
+      "label": "Other",
+      "prob": 0.8975693583488464
+    },
+    {
+      "sentence": "59,  = 0 .",
+      "label": "Other",
+      "prob": 0.8982623219490051
+    },
+    {
+      "sentence": "71,  = 0 .",
+      "label": "Other",
+      "prob": 0.9036864042282104
+    },
+    {
+      "sentence": "72,  = 0 .",
+      "label": "Other",
+      "prob": 0.8909329771995544
+    },
+    {
+      "sentence": "Objectivemetrics .",
+      "label": "Other",
+      "prob": 0.8472727537155151
+    },
+    {
+      "sentence": "39,  = 0 .",
+      "label": "Other",
+      "prob": 0.9034217596054077
+    },
+    {
+      "sentence": "83,  = 0 .",
+      "label": "Other",
+      "prob": 0.9006689190864563
+    },
+    {
+      "sentence": "48,  = 0 .",
+      "label": "Other",
+      "prob": 0.9031697511672974
+    },
+    {
+      "sentence": "5.3.1 Objective metrics We employ four metrics to evaluate task performance: (1) Normalized Deviations : the number of deviations from the optimal location ordering (accounting for replanning) normalized by the total number of possible deviations, (2) Inverse Path Length (IPL) : the ratio of the minimal possible path length for to the sequence of location visits taken by the participant 2 to the total distance traveled by the participant, (3) Task Distance : the total distance traveled by the participant, and (4) Task Completion Time : the ratio of the total time taken by a participant to complete the task to the time taken by a participant to complete the fly-through familiarization phase; this ratio accounts for any system-dependent latency that may affect completion time.",
+      "label": "Result",
+      "prob": 0.5923383831977844
+    },
+    {
+      "sentence": "The textinformationassistanceprovidesa(randomized)listofobjectstheparticipantmustreorganizeinordertocompletethetask.",
+      "label": "Other",
+      "prob": 0.9131961464881897
+    }
+  ]
+}

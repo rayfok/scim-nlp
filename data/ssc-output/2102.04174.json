@@ -1,0 +1,1484 @@
+{
+  "2102.04174": [
+    {
+      "sentence": "Indeed, fitting a memory model to the individuals learning data in online fashion (i.e. during interaction with the user) is rendered challenging by the scarcity of data and the typically large number of parameters in these models.",
+      "label": "Background",
+      "prob": 0.977220892906189
+    },
+    {
+      "sentence": "Secondly, planning in this context is particularly difficult: the number of possible sequences is generally large, and the reward is often delayed.",
+      "label": "Background",
+      "prob": 0.9769303798675537
+    },
+    {
+      "sentence": "The teacher must, therefore, rely on a memory model, which serves as a proxy for the learners actual memorization state.",
+      "label": "Background",
+      "prob": 0.9726206660270691
+    },
+    {
+      "sentence": "Applications for self-regulated teaching are very popular (e.g., with Duolingo estimates of 100M+ downloads from Google Play at the time of writing).",
+      "label": "Background",
+      "prob": 0.9705029129981995
+    },
+    {
+      "sentence": "However, their context does not assume sessions separated by long breaks, so the scope for application of their results is limited.",
+      "label": "Background",
+      "prob": 0.9664039015769958
+    },
+    {
+      "sentence": "Predicting the effects of teaching interventions on human learning is challenging, however.",
+      "label": "Background",
+      "prob": 0.957974910736084
+    },
+    {
+      "sentence": "The downside of this approach is the same as that of model-free methods in general: they require extensive training and generalize poorly to unseen situations.",
+      "label": "Background",
+      "prob": 0.9561153650283813
+    },
+    {
+      "sentence": "Moreover, any errors in inference are bound to be compounded in planning, and this could explain why the myopic planner maintained its performance.",
+      "label": "Background",
+      "prob": 0.9560002684593201
+    },
+    {
+      "sentence": "Previous work on this topic has mainly explored rule-based and model-based approaches (see Related Work).",
+      "label": "Background",
+      "prob": 0.9497596621513367
+    },
+    {
+      "sentence": "Importantly,  and  are specific to each learner and have to be inferred from the teaching interactions.",
+      "label": "Background",
+      "prob": 0.9414393901824951
+    },
+    {
+      "sentence": "At each iteration  , only one item can be selected, even though it may be time to review several items under the aforementioned criterion.",
+      "label": "Background",
+      "prob": 0.9358131885528564
+    },
+    {
+      "sentence": "Also, extensions are possible for addressing the nature or type of various teaching objectives: focusing on particular classes of words, paying attention to exam dates, attention to quality over quantity, etc.",
+      "label": "Background",
+      "prob": 0.9312167167663574
+    },
+    {
+      "sentence": "In general, breaks can be stochastic or deterministic.",
+      "label": "Background",
+      "prob": 0.9301578402519226
+    },
+    {
+      "sentence": "omniscient psychologist has access to the parameterization of the items/learners, and a non-omniscient psychologist does not.",
+      "label": "Background",
+      "prob": 0.9269673824310303
+    },
+    {
+      "sentence": "It considers only successes and errors, not addressing individual-specific characteristics such as the users forgetting rate or time constraints.",
+      "label": "Background",
+      "prob": 0.9129657745361328
+    },
+    {
+      "sentence": "For instance, it may be possible to include elements such as additional cognitive aspects of memorization, among them subtler ones (such as the shape of the forgetting curve [9, 21] and modeling the spacing effect separately [5, 24]).",
+      "label": "Background",
+      "prob": 0.9118945002555847
+    },
+    {
+      "sentence": "or question in a concept-learning task, which can be viewed as a stationary problem (the value of a teaching activity can be assumed to be constant).",
+      "label": "Background",
+      "prob": 0.9105497598648071
+    },
+    {
+      "sentence": "In reality, human memorization is imperfect: the probability of recall of a previously seen item can be far lower than 1.",
+      "label": "Background",
+      "prob": 0.9034073352813721
+    },
+    {
+      "sentence": "[19] have framed the teaching situation as a POMDP, to enable dealing with the teachers uncertainty about the cognitive state of the learner (the literature discusses various POMDP-based models of human behavior [10]).",
+      "label": "Background",
+      "prob": 0.8993461728096008
+    },
+    {
+      "sentence": "This system is unlike model-based ones in that it is competitive in terms of adaptation to the learner.",
+      "label": "Background",
+      "prob": 0.8988500237464905
+    },
+    {
+      "sentence": "Also, instead of planning a sequence of actions, most studies either used a heuristic approach for selection of the next item [11, 14] or applied offline optimization [4, 22, 23], hence limiting adaptability and real-world applicability.",
+      "label": "Background",
+      "prob": 0.8978962898254395
+    },
+    {
+      "sentence": "[17] too based their intelligent tutoring system on ACT-R [1, 15, 16], but they provided a non-myopic planning technique in addition.",
+      "label": "Background",
+      "prob": 0.8927610516548157
+    },
+    {
+      "sentence": "In so-called model-free approaches, a teaching policy is learned via experience.",
+      "label": "Background",
+      "prob": 0.8920618295669556
+    },
+    {
+      "sentence": "Were the learner to have unbounded memory abilities, the optimal sequence of items would be to present each item once.",
+      "label": "Background",
+      "prob": 0.8890466094017029
+    },
+    {
+      "sentence": "Advances in all of these directions can be easily integrated into our framework, and attention to all the various aspects listed is necessary for enhancing the learning experience of real human users.",
+      "label": "Background",
+      "prob": 0.8842260837554932
+    },
+    {
+      "sentence": "Firstly, the state of user memory is both latent (that is, not directly observable) and non-stationary (that is, evolving over time, on account of such effects as loss of activation and interference), and an intervention that is ideal for one user may be a poor choice for another user  there are large individual-to-individual differences in forgetting and recall.",
+      "label": "Background",
+      "prob": 0.8817560076713562
+    },
+    {
+      "sentence": "Although this approach is easy to implement, computationally inexpensive, and applicable across different contexts [8, 12] and while there is evidence that it yields benefits in terms of learning optimization [20], its ability to adapt to the individuals characteristics is limited.",
+      "label": "Background",
+      "prob": 0.8758674263954163
+    },
+    {
+      "sentence": "To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee.",
+      "label": "Background",
+      "prob": 0.8757467269897461
+    },
+    {
+      "sentence": "Model-based approaches, in contrast, rely on a predictive model of human memory for scheduling the reviews.",
+      "label": "Background",
+      "prob": 0.8753902316093445
+    },
+    {
+      "sentence": "[25] offered useful extension to that work; however, the purpose of the optimization for the latter studies is quite different from ours.",
+      "label": "Background",
+      "prob": 0.8669818043708801
+    },
+    {
+      "sentence": "An item that was not selected at  even though  was equal to (or past) its time for review is added to a waiting queue.",
+      "label": "Background",
+      "prob": 0.8652455806732178
+    },
+    {
+      "sentence": "For the item-counting reward (see Equation 4), myopic sampling induces straightforward behavior.",
+      "label": "Background",
+      "prob": 0.86370849609375
+    },
+    {
+      "sentence": "The decision tree expands exponentially (size =   ), and the decision problem is dynamic (e.g., presenting  at  influences the effect of presenting  at  + 1).",
+      "label": "Background",
+      "prob": 0.8571358919143677
+    },
+    {
+      "sentence": "The psychologist is in charge of managing the memory model,   more specifically, with inferring its parameterization    and  (  | , ) , the probability of recall of item  in light of history  .",
+      "label": "Background",
+      "prob": 0.8534237146377563
+    },
+    {
+      "sentence": "For instance, Clement and colleagues [6] proposed framing the teaching situation as a multi-armed bandit system.",
+      "label": "Background",
+      "prob": 0.8531661629676819
+    },
+    {
+      "sentence": ",  } that have been introduced before  s first presentation (by convention,   refers to the  th new item introduced in the history).",
+      "label": "Background",
+      "prob": 0.8525458574295044
+    },
+    {
+      "sentence": "The psychologist is endowed with a memory model  and is in charge of proceeding from the observations     to infer its correct parameterization     , so as to estimate the recall probabilities.",
+      "label": "Background",
+      "prob": 0.8483928442001343
+    },
+    {
+      "sentence": "The main limitation of myopic sampling is that it does not do any planning.",
+      "label": "Background",
+      "prob": 0.8457790017127991
+    },
+    {
+      "sentence": "It assumes that the probability of recall decays exponentially but that the decay increases each time a given item is reviewed.",
+      "label": "Background",
+      "prob": 0.8377840518951416
+    },
+    {
+      "sentence": "Model-based approaches, on the other hand, utilize a predictive model of (human) memory to select interventions or schedule practice sessions [4, 11, 14, 17, 22, 23].",
+      "label": "Background",
+      "prob": 0.8327405452728271
+    },
+    {
+      "sentence": "The parameterization is similar to that for the artificial learners in the item-specific condition with a non-omniscient psychologist except that",
+      "label": "Background",
+      "prob": 0.8318766951560974
+    },
+    {
+      "sentence": "The number of parameters to be estimated by the psychologist in this model is proportional, then, to the number of elements for learning.",
+      "label": "Background",
+      "prob": 0.8302604556083679
+    },
+    {
+      "sentence": "benchmarking it against a well-established rule-based baseline (the aforementioned Leitner system, which is ubiquitous in commercial deployments of self-regulated teaching applications).",
+      "label": "Background",
+      "prob": 0.8293253779411316
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Background",
+      "prob": 0.8263400197029114
+    },
+    {
+      "sentence": "The parameters   [ 0 , +) and   ( 0 , 1 ) correspond to the initial forgetting rate and the effect of teaching, respectively.",
+      "label": "Background",
+      "prob": 0.8238384127616882
+    },
+    {
+      "sentence": "Finally, we would expect this framework to hold great potential for extension to other application contexts wherein adaptation to the user and other individualization would be beneficial.",
+      "label": "Background",
+      "prob": 0.8215329647064209
+    },
+    {
+      "sentence": "Rarely is the goal to maximize knowledge at the time of learning, as opposed to some later stage/point (e.g. an exam date).",
+      "label": "Background",
+      "prob": 0.8210816979408264
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than ACM must be honored.",
+      "label": "Background",
+      "prob": 0.8177655339241028
+    },
+    {
+      "sentence": "The state    , describing the status of the memory (the probability of recall for each of the items, the values of the memory parameters, and so on), depends on the chosen memory model  .",
+      "label": "Background",
+      "prob": 0.8176009654998779
+    },
+    {
+      "sentence": "[14] took a model-based approach to optimize scheduling of reviews, by relying on ACT-R as the memory model [1, 15, 16].",
+      "label": "Background",
+      "prob": 0.8160260915756226
+    },
+    {
+      "sentence": "Still, the models parameters that support the planning are optimized offline, kept constant, and not fitted to the current users data.",
+      "label": "Background",
+      "prob": 0.8142632246017456
+    },
+    {
+      "sentence": "Because the memory states  are not directly observable, the teachers problem at each interaction can be divided into two parts:",
+      "label": "Background",
+      "prob": 0.8054628968238831
+    },
+    {
+      "sentence": "The next time an item is presented for review depends on the box that item belongs to and is equal to      , where   and   are scale parameters that influence how the reviews are spaced.",
+      "label": "Background",
+      "prob": 0.8037946224212646
+    },
+    {
+      "sentence": "2 , 000 pairs of kanji-English definitions (one set for each teacher, for 400 items in total).",
+      "label": "Background",
+      "prob": 0.8018333911895752
+    },
+    {
+      "sentence": "While results have been positive for models that represent population-level characteristics, these still do not model each user individually (i.e. a particular users memory state is not inferred).",
+      "label": "Background",
+      "prob": 0.7894988656044006
+    },
+    {
+      "sentence": "Two cases are possible in choosing an item: If at least one item has a probability of recall below  , one can increment the immediate reward by 1 by presenting one of the forgotten items to the learner.",
+      "label": "Background",
+      "prob": 0.7878389358520508
+    },
+    {
+      "sentence": "This included acknowledgment of their right to withdraw from the study at any time without fear of negative consequences.",
+      "label": "Background",
+      "prob": 0.7875131964683533
+    },
+    {
+      "sentence": "Among other factors for possible consideration are the influence of words similarity and/or of",
+      "label": "Background",
+      "prob": 0.7845345735549927
+    },
+    {
+      "sentence": "Rule-based approaches define hand-crafted rules for deciding which learning events to trigger on the basis of the response data from the user.",
+      "label": "Background",
+      "prob": 0.784242570400238
+    },
+    {
+      "sentence": "In human experience, this would correspond to grading a final test in which the learner is asked about all the items presented earlier.",
+      "label": "Background",
+      "prob": 0.7840936779975891
+    },
+    {
+      "sentence": ",  } of length  , and the teacher offers assistance by presenting the items to memorize.",
+      "label": "Background",
+      "prob": 0.7834416031837463
+    },
+    {
+      "sentence": "For simplicitys sake, here we consider them deterministic, and known by the teacher.",
+      "label": "Background",
+      "prob": 0.775976300239563
+    },
+    {
+      "sentence": "In the item-specific condition, once at least one item has been reviewed, the prior for an item not reviewed is the average of the priors of the items reviewed at least once.",
+      "label": "Background",
+      "prob": 0.7707377672195435
+    },
+    {
+      "sentence": "This model diverges from the EF model in that the parameters ( ,  ) are not global for a specific user but defined for each item separately.",
+      "label": "Background",
+      "prob": 0.7704809308052063
+    },
+    {
+      "sentence": "During subsequent reviews, the item is moved from box  to either box  + 1 (in cases of success) or box max { 0 ,  1 } (otherwise).",
+      "label": "Background",
+      "prob": 0.7701277732849121
+    },
+    {
+      "sentence": "Atkinson [3] proposed one implementation of this algorithm, a popular variant of which is still widely used today, under the name SuperMemo [26].",
+      "label": "Background",
+      "prob": 0.7697962522506714
+    },
+    {
+      "sentence": "Also, the learners memory state is not known.",
+      "label": "Background",
+      "prob": 0.7693206071853638
+    },
+    {
+      "sentence": "In this Bayesian belief update, the likelihood corresponds to the probability of recall, which depends on both the model  and the parameter  .",
+      "label": "Background",
+      "prob": 0.7688045501708984
+    },
+    {
+      "sentence": "In order to compute the recall probabilities, the psychologist needs to possess accurate knowledge of the learner, which includes the memory model (discussed above) and its parameter  .",
+      "label": "Background",
+      "prob": 0.7661885619163513
+    },
+    {
+      "sentence": "The probability of recall denotes the probability of item   A being retained by the learner under memory model  .",
+      "label": "Background",
+      "prob": 0.7631769180297852
+    },
+    {
+      "sentence": "(ii) the space between two sessions managed by the same teacher was only approximately (rather than strictly) equal to one day, on account of the alternation between the two teachers.",
+      "label": "Background",
+      "prob": 0.7578819990158081
+    },
+    {
+      "sentence": "Otherwise, the algorithm presents a new item, since displaying a previously seen one would not affect the immediate reward.",
+      "label": "Background",
+      "prob": 0.755096435546875
+    },
+    {
+      "sentence": "Therefore, we cut the POMDP into two complementary components, called the psychologist and planner , with the learner here being considered to be the environment.",
+      "label": "Background",
+      "prob": 0.7513962984085083
+    },
+    {
+      "sentence": "| denotes the number of elements in a set.",
+      "label": "Background",
+      "prob": 0.7500746846199036
+    },
+    {
+      "sentence": "Each set of two sessions took place at the same time of the day, chosen by each participant at the time of signing up for the experiment, and kept constant for all seven consecutive days.",
+      "label": "Background",
+      "prob": 0.7404270172119141
+    },
+    {
+      "sentence": "One of the first implementations applied an approach suggested by Pimsleur [18] in which a rigid schedule progressively spaces out the reviews in line with a power law.",
+      "label": "Background",
+      "prob": 0.7376848459243774
+    },
+    {
+      "sentence": "No planning is implemented in this technique, though, because the intelligent tutoring system uses a heuristic for item selection: it employs a threshold  such that it presents the user with any item for which the predicted probability of recall falls below the threshold set.",
+      "label": "Background",
+      "prob": 0.7358201146125793
+    },
+    {
+      "sentence": "This planning is greedy and does not require fixing the horizon  .",
+      "label": "Background",
+      "prob": 0.7345830798149109
+    },
+    {
+      "sentence": "We were surprised to find, however, that with human learners the myopic teacher, which greedily picks the best next item to show, fared better than did the longer-term planning approach.",
+      "label": "Background",
+      "prob": 0.7302533984184265
+    },
+    {
+      "sentence": "(ii) online inference of the models parameters at item level for single users, and",
+      "label": "Background",
+      "prob": 0.7195528745651245
+    },
+    {
+      "sentence": "where    (    1 ;  ) represents the time that has elapsed since the last presentation of the item  and  (  ;  ) is the number of times that said item has been presented in history  .",
+      "label": "Background",
+      "prob": 0.7124109268188477
+    },
+    {
+      "sentence": "Participants connected to a Web-based application displaying a graphical user interface similar to that of other flashcard software (see Figure 1).",
+      "label": "Background",
+      "prob": 0.7090060114860535
+    },
+    {
+      "sentence": "(i) the number of items to learn per teacher was 200 (instead of 500), to avoid very long evaluation sessions, and",
+      "label": "Background",
+      "prob": 0.7071949243545532
+    },
+    {
+      "sentence": "The software used for the experimental part of the study is based on a client/server architecture.",
+      "label": "Background",
+      "prob": 0.7065600156784058
+    },
+    {
+      "sentence": "(i) model-based estimation of the learners memory state that accounts for forgetting,",
+      "label": "Background",
+      "prob": 0.7035502195358276
+    },
+    {
+      "sentence": "For one of the series, the teacher handling the item selection was a Leitner teacher, and the other sessions teacher was a version of our system (either myopic or conservative sampling).",
+      "label": "Background",
+      "prob": 0.7022925615310669
+    },
+    {
+      "sentence": "The planner, in turn, is endowed with a definition of learning that takes the form of the reward function  and is in charge of, for each time point, selecting the optimal item to present while accounting for the future (see Figure 1).",
+      "label": "Background",
+      "prob": 0.7006177306175232
+    },
+    {
+      "sentence": "At each interaction point, we assume that the teacher proceeds with Bayesian belief updating for the parameter  .",
+      "label": "Background",
+      "prob": 0.6996076107025146
+    },
+    {
+      "sentence": "The client part was developed on the Unity platform and ran in the subjects Web browser by means of the WebGL API.",
+      "label": "Background",
+      "prob": 0.6966971158981323
+    },
+    {
+      "sentence": "is then   =  |A|  , where |A| is the number of items to learn.",
+      "label": "Background",
+      "prob": 0.6956781148910522
+    },
+    {
+      "sentence": "The application was hosted on an Aalto University virtual server (Ubuntu 18.04  86_64 GNU/Linux 4.15.091-generic, with 4 GB of RAM, two virtual CPU cores, and 50 GB of disk space).",
+      "label": "Background",
+      "prob": 0.695635974407196
+    },
+    {
+      "sentence": "The teacher relies on a proxy reward  ( ,,  ) at time  as an approximation for the actual reward.",
+      "label": "Background",
+      "prob": 0.6925072073936462
+    },
+    {
+      "sentence": "The total number of items was set to  = 500, and the time for completion of one iteration was set to 4 s.",
+      "label": "Background",
+      "prob": 0.6894224286079407
+    },
+    {
+      "sentence": "[19], we frame the item-selection process as a partially observable Markov decision process (POMDP) and introduce a modular framework for",
+      "label": "Background",
+      "prob": 0.6801034808158875
+    },
+    {
+      "sentence": "(i) the number of items learned (an item is regarded as learned if its probability of recall exceeds  at the time of the evaluation session) and",
+      "label": "Background",
+      "prob": 0.6708645224571228
+    },
+    {
+      "sentence": "Since such standard sampling techniques as Monte Carlo tree search are computationally demanding in our online setting, we offer a variant algorithm, conservative sampling , as a solution.",
+      "label": "Background",
+      "prob": 0.6699920296669006
+    },
+    {
+      "sentence": "Otherwise, our criterion for presenting item  =   is that the set A <  can still be fully memorized by the learner at  under teaching by a myopic teacher.",
+      "label": "Background",
+      "prob": 0.6688611507415771
+    },
+    {
+      "sentence": "Following the principle that spacing out the reviews of an item is beneficial for the teaching process [7], it lowers the frequency of review when the student has responded correctly and otherwise increases it [13, 18, 26].",
+      "label": "Background",
+      "prob": 0.6628154516220093
+    },
+    {
+      "sentence": "(ii) the ratio between of items learned to all items seen between a Leitner teacher and the model-based teacher (a myopic or CS teacher, depending on the subject).",
+      "label": "Background",
+      "prob": 0.6601397395133972
+    },
+    {
+      "sentence": "Each question consisted of the presentation of a kanji and six possible answers (note that the six-responses setting corresponds to not too high a probability of randomly selecting the correct answer while still not overloading the interface).",
+      "label": "Background",
+      "prob": 0.6596800684928894
+    },
+    {
+      "sentence": "The actions correspond to presenting an item, so  = A ; the observations correspond to a success or a failure of the learner, so  = { 0 , 1 } .",
+      "label": "Background",
+      "prob": 0.6577032804489136
+    },
+    {
+      "sentence": "A classic implementation of this principle makes use of a box system: Each item    belongs to a box   N .",
+      "label": "Background",
+      "prob": 0.6572384834289551
+    },
+    {
+      "sentence": "The parameter space for the exponential forgetting model, then, is   = {( ,  ) :   [ 0 , +) ,   ( 0 , 1 )} .",
+      "label": "Background",
+      "prob": 0.6567493677139282
+    },
+    {
+      "sentence": "For the Leitner system,   = 4,   = 2, which means that items in box 0 should be reviewed after four seconds, items in box 1 eight seconds later, then 16 seconds, 32 seconds, etc.",
+      "label": "Background",
+      "prob": 0.651846170425415
+    },
+    {
+      "sentence": "In practice, this entails defining a final reward for the teacher to receive after all the teaching sessions are complete.",
+      "label": "Background",
+      "prob": 0.6499097943305969
+    },
+    {
+      "sentence": "Memory models with item-specific exponential forgetting.",
+      "label": "Background",
+      "prob": 0.647916316986084
+    },
+    {
+      "sentence": "Here,   + 1  (  ) is the posterior probability of the parameter    and   (  ) the prior belief about this parameter.",
+      "label": "Background",
+      "prob": 0.6445005536079407
+    },
+    {
+      "sentence": "(i) a Leitner teacher (the baseline, identical to that in the experiments with artificial learners) and",
+      "label": "Background",
+      "prob": 0.6433592438697815
+    },
+    {
+      "sentence": "At this stage, the participants also filled in a survey form asking their age, gender, mother tongue/s, and secondary languages.",
+      "label": "Background",
+      "prob": 0.6428128480911255
+    },
+    {
+      "sentence": "The intuition behind the conservative-sampling algorithm is that we should avoid presenting a particular item when there is insufficient time for learning that item or when this choice would adversely affect learning of any item introduced earlier.",
+      "label": "Background",
+      "prob": 0.6212347745895386
+    },
+    {
+      "sentence": "Memory models with exponential forgetting.",
+      "label": "Background",
+      "prob": 0.6188967823982239
+    },
+    {
+      "sentence": "It accounts for the POMDP components ( , ) .",
+      "label": "Background",
+      "prob": 0.6186312437057495
+    },
+    {
+      "sentence": "Each box plot extends from the lowest to the highest quartile of the frequencies observed (the central line denotes the median, and the whiskers refer to an IQR of 1.5).",
+      "label": "Background",
+      "prob": 0.6170182228088379
+    },
+    {
+      "sentence": "If the teaching process is not active at time  , the teacher cannot take any action: teaching is paused , which we express as   = 0.",
+      "label": "Background",
+      "prob": 0.6137405037879944
+    },
+    {
+      "sentence": "(i) inference of memory state at the item level for each user and",
+      "label": "Background",
+      "prob": 0.6132364273071289
+    },
+    {
+      "sentence": "We also acknowledge the computation resources provided by the universitys Science-IT project.",
+      "label": "Background",
+      "prob": 0.5957931876182556
+    },
+    {
+      "sentence": "We thank all study participants for their time, and our colleagues and the reviewers for their helpful comments.",
+      "label": "Background",
+      "prob": 0.5895419120788574
+    },
+    {
+      "sentence": "(ii) if several items qualify, select the one that has spent the most iteration in the waiting queue;",
+      "label": "Background",
+      "prob": 0.5873451828956604
+    },
+    {
+      "sentence": "context on memorization (e.g. how learning   : eight interferes with learning   : people), non-binary responses, and irregular learning sessions (for which one might employ a predictive model of the learners favorite moments in the course of the day, with the teachers expected rewards getting weighted accordingly).",
+      "label": "Background",
+      "prob": 0.5869799256324768
+    },
+    {
+      "sentence": "This model provides both a description of the lag effect (the shorter the time since the last review, the higher the probability of recall) and the repetition effect (the more repetitions there are, the higher the probability of recall).",
+      "label": "Background",
+      "prob": 0.5755293369293213
+    },
+    {
+      "sentence": "For the artificial learners, we chose a parameterization that is plausible for humans by running 400 exploratory simulations.",
+      "label": "Background",
+      "prob": 0.5695132613182068
+    },
+    {
+      "sentence": "Bonferroni corrections for multiple comparisons were applied (since two comparisons were made for each dataset, the  -values are multiplied by 2).",
+      "label": "Background",
+      "prob": 0.5681095719337463
+    },
+    {
+      "sentence": "The latter ratio was assessed to identify potential teaching strategies, relying mainly on wide ranges of items, non-selectivity, and overwhelming ranges of item presentation.",
+      "label": "Background",
+      "prob": 0.5676408410072327
+    },
+    {
+      "sentence": "It contributes to scholarship by combining planning and inference with model-based approaches at the level of individual learners and items.",
+      "label": "Background",
+      "prob": 0.5623739957809448
+    },
+    {
+      "sentence": "We chose a Leitner system as the baseline, since this affords comparison with a popular adaptive approach.",
+      "label": "Background",
+      "prob": 0.5576175451278687
+    },
+    {
+      "sentence": "Specifically, this technique requires fixing the horizon  .",
+      "label": "Background",
+      "prob": 0.5571717023849487
+    },
+    {
+      "sentence": "The general principle of a Leitner system is the following: in the event of success (   = 1), lower the frequency of review; in the event of failure (   = 0), increase the review frequency.",
+      "label": "Background",
+      "prob": 0.555984616279602
+    },
+    {
+      "sentence": "The problem of intelligent tutoring can also be formulated as that of maximizing learning over a sequence of learning events.",
+      "label": "Background",
+      "prob": 0.5542892813682556
+    },
+    {
+      "sentence": "Otherwise, the learner is in a teaching session : the teacher suggests item    A and observes    { 0 , 1 } , indicating whether the learner knows item   at this point in time.",
+      "label": "Background",
+      "prob": 0.5502808094024658
+    },
+    {
+      "sentence": "In our simulations with a learner that, by construction, has exact correspondence with the model, the long-termplanning teacher did better than the Leitner and myopic teachers  markedly and consistently.",
+      "label": "Background",
+      "prob": 0.5495392680168152
+    },
+    {
+      "sentence": "(iii) in the event of equality, select the one with the smallest  value; and",
+      "label": "Background",
+      "prob": 0.546487033367157
+    },
+    {
+      "sentence": "(iii) online planning that accounts for the users practice schedule.",
+      "label": "Background",
+      "prob": 0.5449801683425903
+    },
+    {
+      "sentence": "We set the state  = ( , ) to be the Cartesian product of the history of actions  and of the model parameterization  .",
+      "label": "Background",
+      "prob": 0.5438847541809082
+    },
+    {
+      "sentence": "Consequently, we simulate conditions that assume a few minutes of practice every day for a week, with an evaluation at the end of the week.",
+      "label": "Background",
+      "prob": 0.5353983640670776
+    },
+    {
+      "sentence": "We assume that time is discrete.",
+      "label": "Background",
+      "prob": 0.5319416522979736
+    },
+    {
+      "sentence": "For the conservative-sampling algorithm, the estimated time of completion of one iteration is 4 s.",
+      "label": "Background",
+      "prob": 0.528901994228363
+    },
+    {
+      "sentence": "We consider both artificial agents and a controlled study conducted with human learners over one weeks training (  = 53).",
+      "label": "Background",
+      "prob": 0.5262114405632019
+    },
+    {
+      "sentence": "What they optimized is the selection of the type of activity",
+      "label": "Background",
+      "prob": 0.5252989530563354
+    },
+    {
+      "sentence": "On the basis of these preliminary simulations, we chose parameters for the next simulations  the ones used for our analysis  such that they equated to agents learning at least one item with a Leitner system (see Figure 2).",
+      "label": "Background",
+      "prob": 0.5245462656021118
+    },
+    {
+      "sentence": "The model defines a probability   (   |   ,   1 , ) , for the probability of recall , with    1 = (  1 , . . .,   1 ) being the history up to time   1.",
+      "label": "Background",
+      "prob": 0.5223373770713806
+    },
+    {
+      "sentence": "To verify that the teacher actually adapted at the level of users and items, we present the final parameter estimates made by the psychologist in Figure 5.",
+      "label": "Background",
+      "prob": 0.5171824097633362
+    },
+    {
+      "sentence": "A few years later, Leitner [13] proposed a simple rule for adapting to the user: in conditions of success, lower the frequency of review; in those of failure, increase it.",
+      "label": "Background",
+      "prob": 0.5158997178077698
+    },
+    {
+      "sentence": "We introduce a variant of the exponential forgetting model, called item-specific exponential forgetting (ISEF).",
+      "label": "Background",
+      "prob": 0.5108171701431274
+    },
+    {
+      "sentence": "= 100 artificial agents were simulated for 6 training sessions, with a one-day break between sessions.",
+      "label": "Background",
+      "prob": 0.507843017578125
+    },
+    {
+      "sentence": "This model  is parameterized by  in parameter space   .",
+      "label": "Background",
+      "prob": 0.5037980675697327
+    },
+    {
+      "sentence": "The timing of the teaching sessions is controlled by the learner.",
+      "label": "Background",
+      "prob": 0.5027528405189514
+    },
+    {
+      "sentence": "The payoff function always evaluates to 0, except in the very last step, for  , for which the payoff is defined as the reward  ( ,,  ) , where  is the history of actions up until  .",
+      "label": "Background",
+      "prob": 0.5022227764129639
+    },
+    {
+      "sentence": "This parameter can be inferred from observation of the interactions with the learner.",
+      "label": "Background",
+      "prob": 0.4989195764064789
+    },
+    {
+      "sentence": "For both model-based teachers, the error of prediction diminishes over time as expected.",
+      "label": "Background",
+      "prob": 0.49732279777526855
+    },
+    {
+      "sentence": "The main contribution represented by this paper has less to do with the performance of an end-to-end method than it does with proposing a modular framework that, in contrast to prior methods, clearly advances our tackling of multiple aspects of learning.",
+      "label": "Background",
+      "prob": 0.49273115396499634
+    },
+    {
+      "sentence": "where  is the end date of the teaching.",
+      "label": "Background",
+      "prob": 0.47907763719558716
+    },
+    {
+      "sentence": "These observations highlight the importance of developing more robust planning methods in future work.",
+      "label": "Background",
+      "prob": 0.4785196781158447
+    },
+    {
+      "sentence": "There were two (roughly 10-minute) training sessions, with 100 questions each, per day for six days, then two evaluation sessions on the seventh day.",
+      "label": "Background",
+      "prob": 0.4767296314239502
+    },
+    {
+      "sentence": "Intelligent tutoring [2] addresses the problem of designing teaching interventions  any materials, practice, and feedback delivered by a teacher  for education objectives such as learning a new language or skill.",
+      "label": "Background",
+      "prob": 0.47171902656555176
+    },
+    {
+      "sentence": "The first time any given kanji was presented, the user was shown the right answer.",
+      "label": "Background",
+      "prob": 0.47051486372947693
+    },
+    {
+      "sentence": "If no item meets the first criterion, a new item gets introduced.",
+      "label": "Background",
+      "prob": 0.4650666415691376
+    },
+    {
+      "sentence": "[11] also used a myopic planner.",
+      "label": "Background",
+      "prob": 0.4648258090019226
+    },
+    {
+      "sentence": "In this model, the probability of recall of an item  is given by",
+      "label": "Background",
+      "prob": 0.45190325379371643
+    },
+    {
+      "sentence": "Their approaches build on an exponential forgetting model to infer a distribution of probability of recall for the items and then, given this distribution, select the next item to present.",
+      "label": "Background",
+      "prob": 0.4503585398197174
+    },
+    {
+      "sentence": "(ii) selection of the next item as planning a sequence of interventions.",
+      "label": "Background",
+      "prob": 0.4469465911388397
+    },
+    {
+      "sentence": "The corresponding bounds for  , in turn, represent a repetition effect that is practically negligible (when  = 0001, the forgetting rate is nearly unchanged after a new repetition) and to a forgetting rate reduced by almost 100% (when  = 0 . 9999).",
+      "label": "Background",
+      "prob": 0.4427841603755951
+    },
+    {
+      "sentence": "The planner is in charge of selecting the optimal items to present with regard to achieving some fixed learning objective.",
+      "label": "Background",
+      "prob": 0.44210293889045715
+    },
+    {
+      "sentence": "They were compensated for their time with cinema vouchers.",
+      "label": "Background",
+      "prob": 0.4415721595287323
+    },
+    {
+      "sentence": "(i) select an item that needs to be reviewed in accordance with the first criterion;",
+      "label": "Background",
+      "prob": 0.4371661841869354
+    },
+    {
+      "sentence": "As presented above, an implementation of this framework with a simple memory model showed favorable results; hence, it warrants further research.",
+      "label": "Background",
+      "prob": 0.4365573823451996
+    },
+    {
+      "sentence": "(i) the number of items learned (since probabilities of recall were not directly accessible, an item was considered learned if it was successfully recalled twice during the evaluation session) and",
+      "label": "Background",
+      "prob": 0.4359947144985199
+    },
+    {
+      "sentence": "If the item     is presented and the outcome    { 0 , 1 } is observed, the Bayesian belief update obeys the following rule:",
+      "label": "Background",
+      "prob": 0.42857125401496887
+    },
+    {
+      "sentence": "Using a brute-force algorithm to explore each solution is impossible.",
+      "label": "Background",
+      "prob": 0.42833277583122253
+    },
+    {
+      "sentence": "The first time an item is presented, it is added to box 1.",
+      "label": "Background",
+      "prob": 0.42273402214050293
+    },
+    {
+      "sentence": "Operating with this definition, we define the final reward as the number of items known at level  after the final teaching interaction at step  > 0:",
+      "label": "Background",
+      "prob": 0.4207918643951416
+    },
+    {
+      "sentence": "As for the ratio of items learned to items seen, the myopic teacher displays weaker performance than the baseline teacher (  = 0,  < 0 . 001,   < 0 . 001,  = 100  2), while 10",
+      "label": "Background",
+      "prob": 0.4183485507965088
+    },
+    {
+      "sentence": "Unlike our method, these two models nonetheless assume that the best-fitting parameter values are common to the entire population, and the optimization is done offline.",
+      "label": "Method",
+      "prob": 0.4833090603351593
+    },
+    {
+      "sentence": "(ii) a model-based planning system.",
+      "label": "Background",
+      "prob": 0.40275582671165466
+    },
+    {
+      "sentence": "The prior over the parameter values is uniform at initialization.",
+      "label": "Background",
+      "prob": 0.40264254808425903
+    },
+    {
+      "sentence": "(i) inference of the parameterization     for the learner and",
+      "label": "Background",
+      "prob": 0.39839041233062744
+    },
+    {
+      "sentence": "The exponential forgetting (EF) model is based on Ebbinghauss model [7] and in this respect is close to the one used by Settles and Meeder [22], Tabibian et al.",
+      "label": "Other",
+      "prob": 0.43266358971595764
+    },
+    {
+      "sentence": "Our work extends research on model-based approaches for tutoring systems by offering a modular framework to combine online inference specific to each user and each item with online planning that takes the learners time constraints into account.",
+      "label": "Objective",
+      "prob": 0.4727117121219635
+    },
+    {
+      "sentence": "This work was funded by Aalto Universitys Department of Communications and Networking (Comnet), the Finnish Center for Artificial Intelligence (FCAI), the Foundation for Aalto University Science and Technology, and the Academy of Finland (projects 328813, Human Automata, and 318559, BAD).",
+      "label": "Background",
+      "prob": 0.3828361928462982
+    },
+    {
+      "sentence": "The artificial learners use the exponential forgetting model.",
+      "label": "Method",
+      "prob": 0.4357387125492096
+    },
+    {
+      "sentence": "Each participant was assigned two sets of  = 200 items randomly drawn from a database containing approx.",
+      "label": "Background",
+      "prob": 0.38073888421058655
+    },
+    {
+      "sentence": "An item was considered learned if its probability of recall was above the threshold  = 0 .",
+      "label": "Background",
+      "prob": 0.379294216632843
+    },
+    {
+      "sentence": "For their context, they showed that a myopic planner should perform at least as well as a non-myopic one.",
+      "label": "Result",
+      "prob": 0.4917622208595276
+    },
+    {
+      "sentence": "Our framework also introduces the possibility of considering breaks in the implementation of the planning phase.",
+      "label": "Background",
+      "prob": 0.37324821949005127
+    },
+    {
+      "sentence": "In this paper, we propose an approach that builds on the literature described above and draws its contributions together in a single system, with",
+      "label": "Objective",
+      "prob": 0.43427157402038574
+    },
+    {
+      "sentence": "Planning algorithms: Myopic sampling.",
+      "label": "Background",
+      "prob": 0.35750168561935425
+    },
+    {
+      "sentence": "Planning algorithms: Conservative sampling.",
+      "label": "Background",
+      "prob": 0.35431939363479614
+    },
+    {
+      "sentence": "Planning constraints: Learning with breaks.",
+      "label": "Other",
+      "prob": 0.42650076746940613
+    },
+    {
+      "sentence": "We use   to indicate whether the response was correct (   = 1) or not (   = 0).",
+      "label": "Background",
+      "prob": 0.3438321053981781
+    },
+    {
+      "sentence": "The statistical procedure was identical to the one employed for the corresponding comparison with artificial agents.",
+      "label": "Background",
+      "prob": 0.336532324552536
+    },
+    {
+      "sentence": "We consider two agents interacting with each other: the learner and the teacher .",
+      "label": "Background",
+      "prob": 0.33407509326934814
+    },
+    {
+      "sentence": "More recently, working with an exponentialdecay model of memory [7], Hunziker et al.",
+      "label": "Other",
+      "prob": 0.586151659488678
+    },
+    {
+      "sentence": "The corresponding parameter space",
+      "label": "Other",
+      "prob": 0.35158389806747437
+    },
+    {
+      "sentence": "With this paper, we examine a model-based planning approach that holds potential for better adapting to individuals learning characteristics.",
+      "label": "Objective",
+      "prob": 0.5484203696250916
+    },
+    {
+      "sentence": "In a practical example involving second-language vocabulary (e.g., German for an English-speaker), an item   A would be a word in the source and target languages (e.g., dog  Hund); the source word (dog) is presented to the learner, who tries to respond with the target word (Hund).",
+      "label": "Method",
+      "prob": 0.4210990369319916
+    },
+    {
+      "sentence": "The number of items learned was assessed in an evaluation session on the seventh day.",
+      "label": "Method",
+      "prob": 0.32961416244506836
+    },
+    {
+      "sentence": "Each participant engaged with two distinct teachers:",
+      "label": "Background",
+      "prob": 0.3130325973033905
+    },
+    {
+      "sentence": "If the item considered is  1 , then  1 is selected.",
+      "label": "Background",
+      "prob": 0.3124086260795593
+    },
+    {
+      "sentence": "For both model-based teachers, the prediction error decreases with time (it starts at 0 since the scenario begins with new items always being supplied alongside the correct answer, and the spikes correspond to the beginning of each session, where the space between two sessions induces an increase in the magnitude of the forgetting).",
+      "label": "Result",
+      "prob": 0.4279637932777405
+    },
+    {
+      "sentence": "One popular rule-based method is the Leitner system.",
+      "label": "Method",
+      "prob": 0.44791263341903687
+    },
+    {
+      "sentence": "The order of the series was alternated between the two teachers: if the first session on one day used teacher  , the next days first session was the one with teacher  .",
+      "label": "Result",
+      "prob": 0.33409252762794495
+    },
+    {
+      "sentence": "(iv) if the figures are still the same, select randomly.",
+      "label": "Background",
+      "prob": 0.30298155546188354
+    },
+    {
+      "sentence": "The server part was developed via the Django framework.",
+      "label": "Background",
+      "prob": 0.3016830384731293
+    },
+    {
+      "sentence": "For each user, the model-based planning system used the ISEF memory model, but the planning was based either on a myopic sampling algorithm or on a conservative-sampling algorithm.",
+      "label": "Method",
+      "prob": 0.5628032088279724
+    },
+    {
+      "sentence": "the CS teacher significantly outperforms it (  = 8294 . 5,  < 0 . 001,   < 0 . 001,  = 100  2).",
+      "label": "Result",
+      "prob": 0.5509607195854187
+    },
+    {
+      "sentence": "The optimization problem to be solved by the teacher is",
+      "label": "Background",
+      "prob": 0.29378142952919006
+    },
+    {
+      "sentence": "The myopic sampling algorithm attempts to maximize the final reward by, at each time step  , choosing the action that maximizes the immediate reward  ( ,,  ) .",
+      "label": "Method",
+      "prob": 0.4349081814289093
+    },
+    {
+      "sentence": "Also, to demonstrate the influence of the inference process on the results (including any interference exhibited), we contrasted two degrees of knowledge held by the psychologist: an 7",
+      "label": "Other",
+      "prob": 0.32100456953048706
+    },
+    {
+      "sentence": "All participants provided informed consent before proceeding to the experiment itself.",
+      "label": "Other",
+      "prob": 0.3718703091144562
+    },
+    {
+      "sentence": "[4] proposed fitting a parameterizable memory model to user data.",
+      "label": "Method",
+      "prob": 0.3242059648036957
+    },
+    {
+      "sentence": "2021 Association for Computing Machinery.",
+      "label": "Other",
+      "prob": 0.6891599297523499
+    },
+    {
+      "sentence": "More specifically, proceeding from the seminal work of Rafferty et al.",
+      "label": "Other",
+      "prob": 0.6620142459869385
+    },
+    {
+      "sentence": "The reward: Counting the items learned.",
+      "label": "Other",
+      "prob": 0.3570607304573059
+    },
+    {
+      "sentence": "(ii) the ratio between the number of items learned and that of all items seen, across conditions: a teacher using a Leitner algorithm (a Leitner teacher), myopic sampling (a myopic teacher), or a conservative-sampling algorithm (a conservative-sampling teacher), in both conditions of knowledge on the part of the psychologist (omniscient and not omniscient).",
+      "label": "Method",
+      "prob": 0.4368313252925873
+    },
+    {
+      "sentence": "The simulations ran on a cluster hosted by Aalto University, the technical characteristics of which are accessible at https://scicomp.aalto.fi/triton/overview/.",
+      "label": "Other",
+      "prob": 0.7124183177947998
+    },
+    {
+      "sentence": "Implementation and execution.",
+      "label": "Other",
+      "prob": 0.5182525515556335
+    },
+    {
+      "sentence": "Since the result of such a test cannot be known at planning time, we use the following definition as a proxy: an item   A is considered to be known at level   [ 0 , 1 ] for a memory model ( , ) if   (   = 1 |   = ,   1 , )   .",
+      "label": "Method",
+      "prob": 0.3646545112133026
+    },
+    {
+      "sentence": "Note that the bounds for the forgetting rate were within the limits of what we could observe in the user study (even if unlikely) for the time of around one iteration (with  = 0 . 025, the probability of recall falling under 0 . 90 in four seconds) and around one week (with  = 2e  07).",
+      "label": "Result",
+      "prob": 0.5984733700752258
+    },
+    {
+      "sentence": "When this criterion is not satisfied, we use the myopic sampling algorithm to select another item considering as possibilities only the set {  1 , .",
+      "label": "Other",
+      "prob": 0.47396987676620483
+    },
+    {
+      "sentence": "Inference methods: Bayesian belief updating.",
+      "label": "Other",
+      "prob": 0.2815544307231903
+    },
+    {
+      "sentence": "The computational problem we study is how, when given some learning materials, we can organize them into lessons and reviews such that, over time, human learning is maximized with respect to a set learning objective.",
+      "label": "Objective",
+      "prob": 0.6173278093338013
+    },
+    {
+      "sentence": ",   1 } and we repeat the process.",
+      "label": "Method",
+      "prob": 0.44868138432502747
+    },
+    {
+      "sentence": "The ratio between the items learned and all items seen is significantly different from the baseline value for both model-based teachers (M vs. L:  = 1836 . 5,  < 0 . 001,   < 0 . 001,  = 100  2; CS vs. L:  = 8250 . 0,  < 0 . 001,   < 0 . 001,  = 100  2): the myopic teacher leaves more items unlearned among those seen (at least once) by the learner than the baseline teacher, while the CS teacher leaves fewer items unlearned than the baseline.",
+      "label": "Result",
+      "prob": 0.5872430205345154
+    },
+    {
+      "sentence": "Under our approach, we intend to simulate teaching in a realistic context.",
+      "label": "Objective",
+      "prob": 0.6699577569961548
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.7607738375663757
+    },
+    {
+      "sentence": "Planning as a POMDP.",
+      "label": "Other",
+      "prob": 0.644227147102356
+    },
+    {
+      "sentence": "[23], or Hunziker et al.",
+      "label": "Other",
+      "prob": 0.7109917998313904
+    },
+    {
+      "sentence": "The goal of the learner is to learn a finite set of items A = {  1 , 2 , .",
+      "label": "Other",
+      "prob": 0.5377541184425354
+    },
+    {
+      "sentence": "In this paper, we address the problem of the teacher, which is to pick item   A that will help the learner to progress.",
+      "label": "Objective",
+      "prob": 0.7790708541870117
+    },
+    {
+      "sentence": "521,  = 100  2).",
+      "label": "Other",
+      "prob": 0.6877342462539673
+    },
+    {
+      "sentence": "As with an omniscient psychologist, the ratio of items learned to items seen is significantly lower than the baseline level for the myopic teacher (  = 2065 . 0,  < 0 . 001,   < 0 . 001,  = 100  2).",
+      "label": "Result",
+      "prob": 0.6834313273429871
+    },
+    {
+      "sentence": "Myopic planning.",
+      "label": "Other",
+      "prob": 0.7082821726799011
+    },
+    {
+      "sentence": "From our current knowledge, we attribute this finding to the predictive model in our framework, because the results with artificial learners were conclusive while the ones for humans were not.",
+      "label": "Result",
+      "prob": 0.7513463497161865
+    },
+    {
+      "sentence": "Given the choice of item   , we consider the set of items A <  = {  1 , .",
+      "label": "Other",
+      "prob": 0.6160919070243835
+    },
+    {
+      "sentence": "Our tests applied two variants of the model: a nonitem-specific one, wherein each user has a specific parameterization but all the items from any given user share the same parameterization (for proof of concept), and an item-specific one, in which, for each user, each item has a specific parameterization (offering finer granularity).",
+      "label": "Method",
+      "prob": 0.4356257915496826
+    },
+    {
+      "sentence": "We compared both",
+      "label": "Result",
+      "prob": 0.383560448884964
+    },
+    {
+      "sentence": "The selection process is performed thus:",
+      "label": "Result",
+      "prob": 0.3261113166809082
+    },
+    {
+      "sentence": "Parameterization.",
+      "label": "Other",
+      "prob": 0.6583351492881775
+    },
+    {
+      "sentence": "Parameterization.",
+      "label": "Other",
+      "prob": 0.6583351492881775
+    },
+    {
+      "sentence": "More recently, Settles et al.",
+      "label": "Other",
+      "prob": 0.7714755535125732
+    },
+    {
+      "sentence": "With human learners (see Figure 4), the number of items learned proved to be significantly greater with the myopic teacher than with the Leitner teacher (  = 174 . 5,  = 0 . 019,   = 0 . 038,  = 24  2).",
+      "label": "Result",
+      "prob": 0.6955206394195557
+    },
+    {
+      "sentence": "Furthermore, we observed that our method successfully adapts to the variability of learners learning capabilities and items difficulty level.",
+      "label": "Result",
+      "prob": 0.5756740570068359
+    },
+    {
+      "sentence": "Our comparisons examined both",
+      "label": "Other",
+      "prob": 0.49277353286743164
+    },
+    {
+      "sentence": "We evaluated the unified system in a controlled experiment, comparing it against a popular rule-based approach (involving the Leitner system).",
+      "label": "Result",
+      "prob": 0.7240779995918274
+    },
+    {
+      "sentence": "Human (performance)",
+      "label": "Other",
+      "prob": 0.7032170295715332
+    },
+    {
+      "sentence": "Request permissions from permissions@acm.org.",
+      "label": "Other",
+      "prob": 0.8142567276954651
+    },
+    {
+      "sentence": "[23], and Aydin et al.",
+      "label": "Other",
+      "prob": 0.7486215233802795
+    },
+    {
+      "sentence": "More precisely, the algorithm adapts myopic sampling thus: using a myopic planner with a restricted number of items to introduce, our technique evaluates whether presenting the chosen item is compatible with memorizing the set containing all those previously seen by the learner.",
+      "label": "Method",
+      "prob": 0.694015383720398
+    },
+    {
+      "sentence": "For the psychologist component of our system, the parameters are evaluated with a grid of size 100  100 (  : log scale bounded by [ 2e  7 , 2 . 5e  2 ] ;  : linear scale bounded by [ 0 . 0001 , 0 . 9999 ] ).",
+      "label": "Result",
+      "prob": 0.42376500368118286
+    },
+    {
+      "sentence": "We used a mixed experimental design.",
+      "label": "Method",
+      "prob": 0.4927756190299988
+    },
+    {
+      "sentence": "The code for reproducing the simulations, our analysis, and figures are available at https://github.com/AurelienNioche/ActiveTeachingModel/tree/master.",
+      "label": "Other",
+      "prob": 0.8259475827217102
+    },
+    {
+      "sentence": "Execution.",
+      "label": "Other",
+      "prob": 0.6960738301277161
+    },
+    {
+      "sentence": "One of the central challenges for research on intelligent user interfaces is to identify algorithmic principles that can pick the best interventions for reliably improving human learning toward stated objectives in light of realistically obtainable data on the user.",
+      "label": "Objective",
+      "prob": 0.7996655702590942
+    },
+    {
+      "sentence": "After having received ethics approval for the study from Aalto University per the universitys guidelines, we recruited 65 individuals through a mailing list of Aalto University, of whom 53 completed the task (self-reported data: 12 male, 39 female, and 1 other; age = 26 . 38 years, SD  7 . 67).",
+      "label": "Result",
+      "prob": 0.6228217482566833
+    },
+    {
+      "sentence": "Comparisons.",
+      "label": "Other",
+      "prob": 0.6173694729804993
+    },
+    {
+      "sentence": "Comparisons.",
+      "label": "Other",
+      "prob": 0.6173694729804993
+    },
+    {
+      "sentence": "We evaluated statistical significance via a non-parametric test (Mann-Whitney  , with significance threshold  = 0 . 05).",
+      "label": "Result",
+      "prob": 0.7338531613349915
+    },
+    {
+      "sentence": "In contrast against the corresponding results obtained with artificial learners, no significant difference was visible between the CS and the Leitner teacher (  = 434 . 5,  = 0 . 828,   = 1 . 655,  = 29  2).",
+      "label": "Result",
+      "prob": 0.7631032466888428
+    },
+    {
+      "sentence": "The learned-to-seen ratio is significantly lower with the myopic and Leitner teachers (  = 0,  < 0 . 001,   < 0 . 001,  = 100  2), while it is higher for the conservative-sampling teacher (  = 10 , 000,  < 0 . 001,   < 0 . 001,  = 100  2).",
+      "label": "Result",
+      "prob": 0.7726745009422302
+    },
+    {
+      "sentence": "This time, no significant difference is visible for the CS teacher (  = 4551 .",
+      "label": "Other",
+      "prob": 0.7235279083251953
+    },
+    {
+      "sentence": "[22], Tabibian et al.",
+      "label": "Other",
+      "prob": 0.7887421250343323
+    },
+    {
+      "sentence": "(ii) item selection.",
+      "label": "Other",
+      "prob": 0.7068023085594177
+    },
+    {
+      "sentence": "We assess the performance of a simple implementation of our framework, 2",
+      "label": "Result",
+      "prob": 0.5728880167007446
+    },
+    {
+      "sentence": "In each simulation, we supplied the agent with parameters ( ,  ) picked from the Cartesian product of 20 values for each parameter, with   [ 2e  07 , 0 . 025 ] and   [ 0 . 0001 , 0 . 9999 ] , using a logarithmic scale for the value of  .",
+      "label": "Result",
+      "prob": 0.4453441798686981
+    },
+    {
+      "sentence": "The objective of the teacher is to maximize this reward, which depends on the actual memorization by the learner.",
+      "label": "Objective",
+      "prob": 0.8602877259254456
+    },
+    {
+      "sentence": "REFERENCES",
+      "label": "Other",
+      "prob": 0.8192349076271057
+    },
+    {
+      "sentence": "Offline optimization.",
+      "label": "Other",
+      "prob": 0.6872730255126953
+    },
+    {
+      "sentence": "A simple learning objective for the teacher is to maximize the number of items learned in the course of the teaching process.",
+      "label": "Objective",
+      "prob": 0.8755188584327698
+    },
+    {
+      "sentence": "261, 9",
+      "label": "Other",
+      "prob": 0.8597697019577026
+    },
+    {
+      "sentence": "Aiming to increase the learners knowledge, the teacher sets learning objectives.",
+      "label": "Objective",
+      "prob": 0.8251826763153076
+    },
+    {
+      "sentence": "Procedure.",
+      "label": "Other",
+      "prob": 0.7638217210769653
+    },
+    {
+      "sentence": "Procedure.",
+      "label": "Other",
+      "prob": 0.7638217210769653
+    },
+    {
+      "sentence": "In the item-specific condition with an omniscient psychologist (see Figure 3), the number of items learned is significantly greater for both model-based teachers as compared with the Leitner teacher (M vs. L:  = 10 , 000,  < 0 . 001,   < 0 . 001,  = 100  2; CS vs. L:  = 10 , 000,  < 0 . 001,   < 0 . 001,  = 100  2).",
+      "label": "Other",
+      "prob": 0.46480369567871094
+    },
+    {
+      "sentence": "11",
+      "label": "Other",
+      "prob": 0.8710495829582214
+    },
+    {
+      "sentence": "Our experiments, with both artificial and human learners, attest that even a simple model can offer performances at least equalling that of the industry-standard Leitner method, as evaluated by two metrics:   learned, which captures (raw) performance, and the   learned /  seen ratio, which can be interpreted as the precision of the teacher.",
+      "label": "Result",
+      "prob": 0.5160605907440186
+    },
+    {
+      "sentence": "90.",
+      "label": "Other",
+      "prob": 0.880393922328949
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.8979548215866089
+    },
+    {
+      "sentence": ". .",
+      "label": "Other",
+      "prob": 0.8528966903686523
+    },
+    {
+      "sentence": ". .",
+      "label": "Other",
+      "prob": 0.8528966903686523
+    },
+    {
+      "sentence": ". .",
+      "label": "Other",
+      "prob": 0.8528966903686523
+    },
+    {
+      "sentence": "In the non-item-specific condition with a non-omniscient psychologist (see Figure 2), the number of items learned is significantly greater for each model-based teacher relative to the baseline (M vs. L:  = 5976 . 5,  = 0 . 017,   = 0 . 033,  = 100  2; CS vs. L:  = 7401 . 5,  < 0 . 001,   < 0 . 001,  = 100  2).",
+      "label": "Result",
+      "prob": 0.6152333617210388
+    },
+    {
+      "sentence": "Lindsey et al.",
+      "label": "Other",
+      "prob": 0.8835325837135315
+    },
+    {
+      "sentence": "Whitehill et al.",
+      "label": "Other",
+      "prob": 0.8844729661941528
+    },
+    {
+      "sentence": "Rafferty et al.",
+      "label": "Other",
+      "prob": 0.8993481993675232
+    },
+    {
+      "sentence": "The code for the server portion is available at https://github.com/AurelienNioche/ActiveTeachingServer/tree/master, and the Unity assets are available at https://github.com/AurelienNioche/ActiveTeachingUnityAssets/tree/master.",
+      "label": "Other",
+      "prob": 0.8998451232910156
+    },
+    {
+      "sentence": "5,  = 0 .",
+      "label": "Other",
+      "prob": 0.8640590310096741
+    },
+    {
+      "sentence": "= 0 .",
+      "label": "Other",
+      "prob": 0.8685264587402344
+    },
+    {
+      "sentence": "In the non-item-specific condition with an omniscient psychologist (see Figure 2), the simplest scenario under our framework, the number of items learned does not differ between the myopic (M) and Leitner (L) teachers (  = 5650 . 0,  = 0 . 110,   = 0 . 221,  = 100  2), while the conservative-sampling (CS) teacher significantly outperforms the Leitner one (  = 8539 . 0,  < 0 . 001,   < 0 . 001,  = 100  2).",
+      "label": "Result",
+      "prob": 0.8042929172515869
+    },
+    {
+      "sentence": "For solving Equation 1, our proposed technique is to model the overall teaching process for the teacher as a POMDP ( ,,,,  , ) , where  is the set of possible states and  the set of actions,  is a payoff function,  is the statetransition probability,  is the set of observations, and  :       [ 0 , 1 ] defines the probability  (  | , ) =  ( ,, ) .",
+      "label": "Result",
+      "prob": 0.4543304741382599
+    },
+    {
+      "sentence": "[11].",
+      "label": "Other",
+      "prob": 0.9059356451034546
+    },
+    {
+      "sentence": "where | .",
+      "label": "Other",
+      "prob": 0.897933304309845
+    },
+    {
+      "sentence": "Pavlik et al.",
+      "label": "Other",
+      "prob": 0.8940398693084717
+    },
+    {
+      "sentence": "Corresponding author.",
+      "label": "Other",
+      "prob": 0.9183300733566284
+    },
+    {
+      "sentence": "The study was conducted online.",
+      "label": "Other",
+      "prob": 0.7138926982879639
+    },
+    {
+      "sentence": "Participants.",
+      "label": "Other",
+      "prob": 0.8811558485031128
+    },
+    {
+      "sentence": "In a parallel with the artificial agents in the item-specific condition with a non-omniscient psychologist, the ratio of items learned to items seen for the myopic teacher was below the baseline figure (  = 435,  = 0 . 003,   = 0 . 005,  = 24  2), while no significant difference emerged for the CS teacher (  = 397,  = 0 . 721,   = 1 . 441,  = 29  2).",
+      "label": "Other",
+      "prob": 0.5207201838493347
+    },
+    {
+      "sentence": "When the framework is evaluated in the maximum-complexity condition  i.e., in the item-specific condition with a non-omniscient psychologist  the number of items learned is significantly greater for both the myopic and the conservative-sampling teacher relative to the Leitner teacher (M vs. L:  = 10 , 000,  < 0 . 001,   < 0 . 001,  = 100  2; CS vs. L:  = 8640,  < 0 . 001,   < 0 . 001,  = 100  2).",
+      "label": "Other",
+      "prob": 0.7992352843284607
+    }
+  ]
+}

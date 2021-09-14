@@ -1,0 +1,1594 @@
+{
+  "1908.07816": [
+    {
+      "sentence": "Recent development in neural language modeling has generated significant excitement in the open-domain dialog generation community.",
+      "label": "Background",
+      "prob": 0.978300154209137
+    },
+    {
+      "sentence": "Both approaches require an emotion label as input (either given or handcrafted), which might be unpractical in real dialog scenarios.",
+      "label": "Background",
+      "prob": 0.9767491817474365
+    },
+    {
+      "sentence": "In multi-turn settings, where a context with multiple history utterances is given, the same structure often ignores the hierarchical characteristic of the context.",
+      "label": "Background",
+      "prob": 0.972743570804596
+    },
+    {
+      "sentence": "Many application areas show significant benefits of integrating affect information in natural language dialogs.",
+      "label": "Background",
+      "prob": 0.9675283432006836
+    },
+    {
+      "sentence": "because it is a well-established emotion lexical resource, covering the whole English dictionary whereas VAD only contains 13K lemmatized terms.",
+      "label": "Background",
+      "prob": 0.9666993618011475
+    },
+    {
+      "sentence": "However, literature in affective science does not necessarily validate such rules.",
+      "label": "Background",
+      "prob": 0.9602041840553284
+    },
+    {
+      "sentence": "on millions of tweets with emoji labels and is more suitable for tweet-like conversations.",
+      "label": "Background",
+      "prob": 0.9573941230773926
+    },
+    {
+      "sentence": "But such human experiments are sensitive to risk factors if the experiment is not carefully designed.",
+      "label": "Background",
+      "prob": 0.9538152813911438
+    },
+    {
+      "sentence": "However, these multiturn dialog models do not take into account the turn-taking emotional changes of the dialog.",
+      "label": "Background",
+      "prob": 0.9529637098312378
+    },
+    {
+      "sentence": "However, for DeepMoji, the 64 categories of emojis do not have a clear and exact correspondence with standardized emotion categories, nor to the VAD vectors.",
+      "label": "Background",
+      "prob": 0.9520537853240967
+    },
+    {
+      "sentence": "Some researchers [19, 34, 48] argue that perplexity score is not the ideal measurement because for a given context history, one should allow many responses.",
+      "label": "Background",
+      "prob": 0.9494701027870178
+    },
+    {
+      "sentence": "seems to be making the responses emotionally richer, existing approaches mainly follow two directions.",
+      "label": "Background",
+      "prob": 0.9460627436637878
+    },
+    {
+      "sentence": "Including HRAN instead of other neural dialog models with affect information was not an easy decision.",
+      "label": "Background",
+      "prob": 0.944890022277832
+    },
+    {
+      "sentence": "Furthermore, to the best of our knowledge, the psychology and social science literature does not provide clear rules for emotional interaction.",
+      "label": "Background",
+      "prob": 0.944421112537384
+    },
+    {
+      "sentence": "Recent work on incorporating affect information into natural language processing tasks has inspired our current work.",
+      "label": "Background",
+      "prob": 0.9419107437133789
+    },
+    {
+      "sentence": "by randomly sampling the dialogs from the dataset, it may include out-of-context dialogs, causing confusion and ambiguity for human evaluators.",
+      "label": "Background",
+      "prob": 0.9405982494354248
+    },
+    {
+      "sentence": "They can be mainly described as affect language models and emotional dialog systems.",
+      "label": "Background",
+      "prob": 0.9330385327339172
+    },
+    {
+      "sentence": "BLEU score is often used to measure the quality of machinetranslated text.",
+      "label": "Background",
+      "prob": 0.929578959941864
+    },
+    {
+      "sentence": "More recently, researchers started incorporating affect information into neural dialog models.",
+      "label": "Background",
+      "prob": 0.928883969783783
+    },
+    {
+      "sentence": "The approach is also completely data-driven, thus absent of hand-crafted rules.",
+      "label": "Background",
+      "prob": 0.9283439517021179
+    },
+    {
+      "sentence": "Recent advances in natural language understanding have proposed new network architectures to process text input.",
+      "label": "Background",
+      "prob": 0.9217297434806824
+    },
+    {
+      "sentence": "Human evaluation has been widely used to evaluate open-domain dialog generation tasks.",
+      "label": "Background",
+      "prob": 0.9201277494430542
+    },
+    {
+      "sentence": "As mentioned in the related work, Asghars affective dialog model, the affect-rich conversation model, and the Emotional Chatting Machine do not learn the emotional exchanges in the dialogs.",
+      "label": "Background",
+      "prob": 0.9167871475219727
+    },
+    {
+      "sentence": "Equally we need a decoder capable of selecting the best and most human-like answers.",
+      "label": "Background",
+      "prob": 0.912011981010437
+    },
+    {
+      "sentence": "On the contrary, HRAN poses a question in reply, contradicting the dialog history.",
+      "label": "Background",
+      "prob": 0.9099550247192383
+    },
+    {
+      "sentence": "However they are still in an early stage.",
+      "label": "Background",
+      "prob": 0.9034994840621948
+    },
+    {
+      "sentence": "of dialog response generation, perplexity does not align with human judgement.",
+      "label": "Background",
+      "prob": 0.9030619263648987
+    },
+    {
+      "sentence": "Recent work [1, 48, 49] on affect-rich conversational chatbots turned to human opinion to evaluate both fluency and emotionality of their models.",
+      "label": "Background",
+      "prob": 0.8992446064949036
+    },
+    {
+      "sentence": "Some earlier work of dialog response generation [17, 18] adopted this metric to measure the performance of chatbots.",
+      "label": "Background",
+      "prob": 0.8952736258506775
+    },
+    {
+      "sentence": "This approach is free of human-defined heuristic rules, and hence, is more robust and fundamental than those described in existing work.",
+      "label": "Background",
+      "prob": 0.8950899839401245
+    },
+    {
+      "sentence": "They include whether the intructions are clear, whether they have been tested with users before hand, and whether there is a good balance of the human judgement tasks.",
+      "label": "Background",
+      "prob": 0.884476900100708
+    },
+    {
+      "sentence": "Usually the probability distribution p ( y | X ) can be modeled by an RNN language model conditioned on X .",
+      "label": "Background",
+      "prob": 0.8841683268547058
+    },
+    {
+      "sentence": "Some recent work addresses this problem by adopting a hierarchical recurrent encoder-decoder (HRED) structure [32, 33, 35].",
+      "label": "Background",
+      "prob": 0.8821359276771545
+    },
+    {
+      "sentence": "However, recent study [22] suggests that it does not align well with human evaluation.",
+      "label": "Background",
+      "prob": 0.8799969553947449
+    },
+    {
+      "sentence": "Following the Transformer architecture, researchers found that pre-training language models on huge amounts of data could largely boost the performance of downstream tasks, and published many pre-trained language models such as BERT [7] and RoBERTa [23].",
+      "label": "Background",
+      "prob": 0.8791379928588867
+    },
+    {
+      "sentence": "It could be replaced by other well-established affect recognizer or one that is more appropriate to the target domain.",
+      "label": "Background",
+      "prob": 0.8785562515258789
+    },
+    {
+      "sentence": "This set can be expanded to include more categories if we desire a richer distinction.",
+      "label": "Background",
+      "prob": 0.8713996410369873
+    },
+    {
+      "sentence": "Recent work [22] has shown that the automatic evaluation metrics borrowed from machine translation such as",
+      "label": "Background",
+      "prob": 0.8699822425842285
+    },
+    {
+      "sentence": "BLEU score [27] tend to align poorly with human judgement.",
+      "label": "Background",
+      "prob": 0.8620667457580566
+    },
+    {
+      "sentence": "Following the standard seq2seq structure, various improvements have been made on the neural conversation model.",
+      "label": "Background",
+      "prob": 0.8584612607955933
+    },
+    {
+      "sentence": "VAD is a vector model, as opposed to a categorical model (LIWC), representing a given emotion in each of the valence, arousal, and dominance axes.",
+      "label": "Background",
+      "prob": 0.8558710813522339
+    },
+    {
+      "sentence": "Most commonly, researchers have included the models ability to generate grammatically correct, contextually coherent, and emotionally appropriate responses, of which the latter two properties cannot be reliably evaluated using automatic metrics.",
+      "label": "Background",
+      "prob": 0.8519514799118042
+    },
+    {
+      "sentence": "In addition, comparing S2S and HRAN also gives us an idea of how much the hierarchical mechansim is improving upon the basic model.",
+      "label": "Background",
+      "prob": 0.8437758088111877
+    },
+    {
+      "sentence": "Dialog 1 and 2 are emotionally positive and dialog 3 and 4 are negative.",
+      "label": "Background",
+      "prob": 0.8428398370742798
+    },
+    {
+      "sentence": "We chose the multi-turn setting because a model suitable for single-turn dialogs cannot effectively track earlier context in multi-turn dialogs, both semantically and emotionally.",
+      "label": "Background",
+      "prob": 0.8336495757102966
+    },
+    {
+      "sentence": "Perplexity is a measurement of how a probability model predicts a sample.",
+      "label": "Background",
+      "prob": 0.8328907489776611
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Background",
+      "prob": 0.831842303276062
+    },
+    {
+      "sentence": "We do recognize that it is not the only way to measure chatbots performance.",
+      "label": "Background",
+      "prob": 0.831002414226532
+    },
+    {
+      "sentence": "Since being able to track several turns is really important, we made this design decision from the beginning, in contrast to most related work where models are only trained and tested on single-turn dialogs.",
+      "label": "Background",
+      "prob": 0.8251744508743286
+    },
+    {
+      "sentence": "since the word worried is assigned to both negative emotion and anxious .",
+      "label": "Background",
+      "prob": 0.8230409622192383
+    },
+    {
+      "sentence": "Since our model learns how to respond properly in a data-driven way, we believe having a training dataset with good quality while being large enough plays an important role in developing an engaging and user-friendly chatbot.",
+      "label": "Background",
+      "prob": 0.8205680251121521
+    },
+    {
+      "sentence": "It seems such social and emotional intelligence is captured in our conversations.",
+      "label": "Background",
+      "prob": 0.8201711773872375
+    },
+    {
+      "sentence": "This is especially true if we want our conversational agents to speak more diversely.",
+      "label": "Background",
+      "prob": 0.817184329032898
+    },
+    {
+      "sentence": "Unbalanced emotional distribution of the test dialogs may also lead to biased conclusions since the chatbots abilities are evaluated on the unrepresentative",
+      "label": "Background",
+      "prob": 0.8164738416671753
+    },
+    {
+      "sentence": "[11] made the first attempt to augment the original LSTM language model with affect treatment in what they called Affect-LM.",
+      "label": "Background",
+      "prob": 0.8113006949424744
+    },
+    {
+      "sentence": "As much as these work in the above section inspired our work, our approach in generating affect dialogs is significantly different.",
+      "label": "Background",
+      "prob": 0.8112799525260925
+    },
+    {
+      "sentence": "To achieve this, we need an encoder to distinguish the affect information in the context, in addition to its semantic meaning.",
+      "label": "Background",
+      "prob": 0.8054074645042419
+    },
+    {
+      "sentence": "Specifically, the Transformer [41] uses pure attention mechanisms without any recurrence structures.",
+      "label": "Background",
+      "prob": 0.8042151927947998
+    },
+    {
+      "sentence": "The Emotional Chatting Machine (ECM) [49] takes a post and generates a response in a predefined emotion category.",
+      "label": "Background",
+      "prob": 0.8039879202842712
+    },
+    {
+      "sentence": "Nevertheless, we still include BLEU scores in this paper, to get a sense of comparison with perplexity and human evaluation results.",
+      "label": "Background",
+      "prob": 0.8018574714660645
+    },
+    {
+      "sentence": "Thus the i th row of the weight matrix W i can be regarded as a vector representation of the i th word in the vocabulary.",
+      "label": "Background",
+      "prob": 0.8009557127952576
+    },
+    {
+      "sentence": "We may wonder how HRAN and MEED differ in terms of the distributional representations of their respective vocabularies (words in the language model, and affect words).",
+      "label": "Background",
+      "prob": 0.7957230806350708
+    },
+    {
+      "sentence": "The hierarchical attention structure involves two encoders to produce the dialog context vector c t , namely the word-level encoder and the utterance-level encoder.",
+      "label": "Background",
+      "prob": 0.7954115271568298
+    },
+    {
+      "sentence": "[14] developed a customer support neural chatbot, capable of generating dialogs similar to the humans in terms of empathic and passionate tones, potentially serving as proxy customer support agents on social media platforms.",
+      "label": "Background",
+      "prob": 0.7943173050880432
+    },
+    {
+      "sentence": "We would also like to adopt the Transformer architecture with pre-trained language model weights, and train our model on a much larger dataset, by extracting multi-turn dialogs from the OpenSubtitles corpus.",
+      "label": "Background",
+      "prob": 0.7927843928337097
+    },
+    {
+      "sentence": "[14] built a tone-aware chatbot for customer care on social media, by deploying extra meta information of the conversations in the seq2seq model.",
+      "label": "Background",
+      "prob": 0.7907882928848267
+    },
+    {
+      "sentence": "where s t  1 is the previous hidden state of the decoder, and v b , U b and W b are utterance-level attention parameters.",
+      "label": "Background",
+      "prob": 0.7897608876228333
+    },
+    {
+      "sentence": "For dialog 4, MEED responds in sympathy to the other speaker, which is consistent with the second utterance in the context.",
+      "label": "Background",
+      "prob": 0.7863559126853943
+    },
+    {
+      "sentence": "This gives the hint that the emotion encoder in MEED is capable of tracking the emotion states in the conversation history.",
+      "label": "Background",
+      "prob": 0.7858835458755493
+    },
+    {
+      "sentence": "If the emotion embedding layer is learning and distinguishing affect states correctly, we will see clear differences in the visualization.",
+      "label": "Background",
+      "prob": 0.7844988107681274
+    },
+    {
+      "sentence": "On the contrary, the emotion weights in MEED, in the last plot, have a clearer clustering effect, i.e., positive words are mainly grouped on the top-left, while negative words are mainly grouped at the bottom-right.",
+      "label": "Background",
+      "prob": 0.7797983288764954
+    },
+    {
+      "sentence": "We adopted this particular training order because we would like our chatbot to talk more like human chit-chats, and the DailyDialog dataset, compared with the bigger Cornell dataset, is more daily-based.",
+      "label": "Background",
+      "prob": 0.779559314250946
+    },
+    {
+      "sentence": "Vinyals and Le [42] were one of the first to model dialog generation using neural networks.",
+      "label": "Background",
+      "prob": 0.773693323135376
+    },
+    {
+      "sentence": "capable of recognizing and generating emotionally appropriate responses, which is the first step toward such a goal.",
+      "label": "Background",
+      "prob": 0.7730875015258789
+    },
+    {
+      "sentence": "Evaluation of dialog models remains an open problem in the response generation field.",
+      "label": "Background",
+      "prob": 0.7702877521514893
+    },
+    {
+      "sentence": "In a qualitative study [47], participants expressed an interest in chatbots capable of serving as an attentive listener and providing motivational support, thus fulfilling users emotional needs.",
+      "label": "Background",
+      "prob": 0.7698819041252136
+    },
+    {
+      "sentence": "Three of them are fluent English speakers and one is a native speaker.",
+      "label": "Background",
+      "prob": 0.7634705305099487
+    },
+    {
+      "sentence": "It is the first time such an approach is designed with consideration for human judges.",
+      "label": "Background",
+      "prob": 0.7622519135475159
+    },
+    {
+      "sentence": "Compared with RNNs, the Transformer can capture better long-term dependency due to the self-attention mechanism, which is free of locality biases, and is more efficient to train because of better parallelization capability.",
+      "label": "Background",
+      "prob": 0.761856198310852
+    },
+    {
+      "sentence": "whose responses appear too many times (the threshold is set to 10 for Cornell, and 5 for DailyDialog), to prevent them from dominating the learning procedure.",
+      "label": "Background",
+      "prob": 0.7613340020179749
+    },
+    {
+      "sentence": "Our choice of including S2S is rather obvious.",
+      "label": "Background",
+      "prob": 0.7595486640930176
+    },
+    {
+      "sentence": "However, for all of the three criteria in human evaluation, HRAN actually outperforms S2S.",
+      "label": "Background",
+      "prob": 0.7589334845542908
+    },
+    {
+      "sentence": "[17] found the original version tend to favor short and dull responses.",
+      "label": "Background",
+      "prob": 0.7549076676368713
+    },
+    {
+      "sentence": "Since HRAN does not have the emotion context vector, we just visualized the whole output layer weight vector, which does a similar job as the language model weights in",
+      "label": "Background",
+      "prob": 0.7548518180847168
+    },
+    {
+      "sentence": "Several participants even noted a chatbot is ideal for sensitive content that is too embarrassing to ask another human.",
+      "label": "Background",
+      "prob": 0.7546756267547607
+    },
+    {
+      "sentence": "This makes Affect-LM both capable of distinguishing affect information conveyed by each word in the language modeling part and aware of the preceeding texts emotion in each generation step.",
+      "label": "Background",
+      "prob": 0.754589319229126
+    },
+    {
+      "sentence": "They fixed this problem by increasing the diversity of the response.",
+      "label": "Background",
+      "prob": 0.7543445229530334
+    },
+    {
+      "sentence": "A key component in Affect-LM is the use of a well established text analysis program, LIWC (Linguistic Inquiry and Word Count) [28].",
+      "label": "Background",
+      "prob": 0.7494997382164001
+    },
+    {
+      "sentence": "5 For grammatical correctness, all three models achieved high scores, which means all models are capable of generating fluent utterances that make sense.",
+      "label": "Background",
+      "prob": 0.7484913468360901
+    },
+    {
+      "sentence": "While using a hierarchical mechanism to track the conversation history in multi-turn dialogs is not new (e.g., HRAN by Xing et al. [45]), to combine it with an additional emotion RNN to process the emotional information in each history utterance has never been attempted",
+      "label": "Background",
+      "prob": 0.745928168296814
+    },
+    {
+      "sentence": "[46] built a customer service chatbot by training the seq2seq model on a dataset collected with conversations between customers and customer service accounts from 62 brands on Twitter.",
+      "label": "Background",
+      "prob": 0.7415521144866943
+    },
+    {
+      "sentence": "We adopted this training pattern because the Cornell dataset is bigger but noisier, while DailyDialog is smaller but more daily-based.",
+      "label": "Background",
+      "prob": 0.7401604652404785
+    },
+    {
+      "sentence": "[16] found users frustration caused by a computer system can be alleviated by computer-initiated emotional support, by providing feedback on emotional content along with sympathy and empathy.",
+      "label": "Background",
+      "prob": 0.7392287254333496
+    },
+    {
+      "sentence": "For our purposes we filtered out only those dialogs where more than a half of utterances have non-neutral emotional labels, resulting in 78 emotionally positive dialogs and 14 emotionally negative dialogs.",
+      "label": "Background",
+      "prob": 0.7344710230827332
+    },
+    {
+      "sentence": "Thus a lower perplexity score indicates that the model has better capability of predicting the target sentence, i.e., the humans response.",
+      "label": "Background",
+      "prob": 0.7315751910209656
+    },
+    {
+      "sentence": "We are going to elaborate on how to obtain c t and e , and how they are combined in the decoding part.",
+      "label": "Background",
+      "prob": 0.719694972038269
+    },
+    {
+      "sentence": "The success of sequence-to-sequence (seq2seq) learning [5, 37] in the field of neural machine translation has inspired researchers to apply the recurrent neural network (RNN) encoder-decoder structure to response generation [42].",
+      "label": "Background",
+      "prob": 0.7155941724777222
+    },
+    {
+      "sentence": "Part of our test set comes from the DailyDialog dataset, which consists of meaningful complete dialogs.",
+      "label": "Background",
+      "prob": 0.7127261161804199
+    },
+    {
+      "sentence": "Here  tj is the utterance-level attention score placed on  tj , and can be calculated as",
+      "label": "Background",
+      "prob": 0.7122666835784912
+    },
+    {
+      "sentence": "Copyrights for thirdparty components of this work must be honored.",
+      "label": "Background",
+      "prob": 0.7090867757797241
+    },
+    {
+      "sentence": "where s t  1 is the previous hidden state of the decoder,  tj + 1 is the previous hidden state of the utterance-level encoder, and v a , U a , V a and W a are word-level attention parameters.",
+      "label": "Background",
+      "prob": 0.707188606262207
+    },
+    {
+      "sentence": "For example, we can consider using more fine-grained emotion categories from GALC [31], or using DeepMoji [8], which was trained",
+      "label": "Background",
+      "prob": 0.7015887498855591
+    },
+    {
+      "sentence": "At training time, Affect-LM can be considered as an energy based model where the added energy term captures the degree of correlation between the next word and the affect information of the preceeding text.",
+      "label": "Background",
+      "prob": 0.7007763981819153
+    },
+    {
+      "sentence": "Note that we report Fleiss  score [10] for contextual coherence and emotional appropriateness, and Finns r score [9] for grammatical correctness.",
+      "label": "Background",
+      "prob": 0.6976715326309204
+    },
+    {
+      "sentence": "In one, an emotion label is explicitly required as input so that the machine can generate sentences of that particular emotion label or type [49].",
+      "label": "Background",
+      "prob": 0.6972475647926331
+    },
+    {
+      "sentence": "To avoid learning obscene and callous exchanges often found in social media data like tweets and Reddit threads [29], we opted to train our model on movie subtitles, whose dialogs were carefully created by professional writers.",
+      "label": "Background",
+      "prob": 0.6945713758468628
+    },
+    {
+      "sentence": "The Google form was released on 31 January 2019, and the workers finished their tasks by 4 February 2019.",
+      "label": "Background",
+      "prob": 0.6929805874824524
+    },
+    {
+      "sentence": "On the contrary, we did not use Finns r score for contextual coherence and emotional appropriateness because it is only reasonable when the observed variance is significantly less than the chance variance [40], which did not apply to these two criteria.",
+      "label": "Background",
+      "prob": 0.6917814016342163
+    },
+    {
+      "sentence": "We believe this emotion recognition step is vital for a dialog model to produce emotionally appropriate responses.",
+      "label": "Background",
+      "prob": 0.6833768486976624
+    },
+    {
+      "sentence": "With t-SNE [25], we are able to reduce the dimensionality of the weights to two, and visualize them in a straightforward way.",
+      "label": "Background",
+      "prob": 0.6830601096153259
+    },
+    {
+      "sentence": "Human-centered computing  Human computer interaction (HCI) ; Natural language interfaces .",
+      "label": "Background",
+      "prob": 0.6597302556037903
+    },
+    {
+      "sentence": "In fact, the best strategy to speak to an angry customer is the de-escalation strategy (using neutral words to validate anger) rather than employing equally emotional words (minimizing affect dissonance) or words that convey happiness (maximizing affect dissonance).",
+      "label": "Background",
+      "prob": 0.6580240726470947
+    },
+    {
+      "sentence": "is a sequence of m i utterances, and",
+      "label": "Background",
+      "prob": 0.6506961584091187
+    },
+    {
+      "sentence": "The paper also proposed the affectively diverse beam search during decoding, so that the generated candidate responses are as affectively diverse as possible.",
+      "label": "Background",
+      "prob": 0.650601863861084
+    },
+    {
+      "sentence": "As agreement is extremely high, this can make Fleiss  very sensitive to prevalence [13].",
+      "label": "Background",
+      "prob": 0.6486965417861938
+    },
+    {
+      "sentence": "Zhou and Wang [50] extended the standard seq2seq model to a conditional variational autoencoder combined with policy gradient techniques.",
+      "label": "Background",
+      "prob": 0.6486186385154724
+    },
+    {
+      "sentence": "Based on this, we conclude that perplexity alone is not enough for evaluating a dialog system.",
+      "label": "Background",
+      "prob": 0.6456607580184937
+    },
+    {
+      "sentence": "The evaluation of chatbots remains an open problem in the field.",
+      "label": "Background",
+      "prob": 0.6450211405754089
+    },
+    {
+      "sentence": "We consider factors such as the balance of positive and negative emotions in test dialogs, a well-chosen range of topics, and dialogs that our human evaluators can relate.",
+      "label": "Background",
+      "prob": 0.6431766152381897
+    },
+    {
+      "sentence": "For contextual coherence and emotional appropriateness, MEED achieved higher average scores than S2S and HRAN, which means MEED keeps better track of the context and can generate responses that are emotionally more appropriate and natural.",
+      "label": "Background",
+      "prob": 0.6424325108528137
+    },
+    {
+      "sentence": "The workers fulfilled the tasks in Google form 4 following the instructions and created five negative dialogs with four turns, as if they were interacting with another human, in each of the following topics: relationships , entertainment , service , work and study , and everyday situations .",
+      "label": "Background",
+      "prob": 0.641830563545227
+    },
+    {
+      "sentence": "We recruited two human workers to augment the data to produce more emotionally negative dialogs.",
+      "label": "Background",
+      "prob": 0.6383601427078247
+    },
+    {
+      "sentence": "Early work [18, 30, 36] on response generation used automatic evaluation metrics borrowed from the machine translation field, such as the BLEU score, to evaluate dialog systems.",
+      "label": "Background",
+      "prob": 0.6369040608406067
+    },
+    {
+      "sentence": "is a sequence of n ij words.",
+      "label": "Background",
+      "prob": 0.6352919936180115
+    },
+    {
+      "sentence": "where W and b are trainable parameters.",
+      "label": "Background",
+      "prob": 0.6335723996162415
+    },
+    {
+      "sentence": "For this survey, the Google form was launched on 12 February 2019, and all the submissions from our raters were collected by 14 February 2019.",
+      "label": "Background",
+      "prob": 0.6300943493843079
+    },
+    {
+      "sentence": "In order to adapt S2S to the multi-turn setting, we concatenate all the history utterances in the context into one.For",
+      "label": "Background",
+      "prob": 0.6283092498779297
+    },
+    {
+      "sentence": "But this condition does not gurantee the optimal results until",
+      "label": "Background",
+      "prob": 0.6231522560119629
+    },
+    {
+      "sentence": "We found them via email and messaging platforms, and offered 80 CHF (or roughly US $80) gift coupons as incentive for each participant.",
+      "label": "Background",
+      "prob": 0.6211997866630554
+    },
+    {
+      "sentence": "(1) We describe in detail a novel emotion-tracking dialog generation model that learns the emotional interactions directly from the data.",
+      "label": "Background",
+      "prob": 0.6205873489379883
+    },
+    {
+      "sentence": "At text generation time, affect information is also used to increase the appropriate selection of the next word.",
+      "label": "Background",
+      "prob": 0.6194698214530945
+    },
+    {
+      "sentence": "To compensate for the inbalance, we further curated more negative emotion dialogs so that the final set has equal emotion distributions.",
+      "label": "Background",
+      "prob": 0.617567777633667
+    },
+    {
+      "sentence": "We make use of the five emotion-related categories, namely positive emotion , negative emotion , anxious , angry , and sad .",
+      "label": "Background",
+      "prob": 0.6109622716903687
+    },
+    {
+      "sentence": "all the models, the vocabulary consists of 20,000 most frequent words in the Cornell and DailyDialog datasets, plus three extra tokens: <unk> for words that do not exist in the vocabulary, <go> indicating the begin of an utterance, and <eos> indicating the end of an utterance.",
+      "label": "Background",
+      "prob": 0.6079892516136169
+    },
+    {
+      "sentence": "As future work, we would like to adopt the Transformer architecture to replace the RNNs in our model, and initialize our encoder with pre-trained language models.",
+      "label": "Background",
+      "prob": 0.6074822545051575
+    },
+    {
+      "sentence": "where W e and b e are trainable parameters.",
+      "label": "Background",
+      "prob": 0.6062229871749878
+    },
+    {
+      "sentence": "For future directions, we would like to investigate the diversity issue of the responses generated, possibly by extending the mutual information objective function [17] to multi-turn settings.",
+      "label": "Background",
+      "prob": 0.6025829315185547
+    },
+    {
+      "sentence": "The recruitment proceeded in the same manner as described above; the raters were offered 80 CHF (or roughly US $80) per participant gift coupons for fulfilling the task, and extra 20 CHF (or roughly US $20) coupon was promised",
+      "label": "Background",
+      "prob": 0.6022828221321106
+    },
+    {
+      "sentence": "Recently, a number of researchers begain developing automatic and data-driven evaluation methods [24, 38], with the ultimate goal of replacing human evaluation.",
+      "label": "Background",
+      "prob": 0.5991830229759216
+    },
+    {
+      "sentence": "In the dataset each dialog turn is annotated with a corresponding emotional category, including the neutral one.",
+      "label": "Background",
+      "prob": 0.5979941487312317
+    },
+    {
+      "sentence": "We refer to them as language model weights and emotion weights, respectively.",
+      "label": "Background",
+      "prob": 0.5977000594139099
+    },
+    {
+      "sentence": "Here  tjk is the word-level attention score placed on h jk , and can be calculated as",
+      "label": "Background",
+      "prob": 0.5904397368431091
+    },
+    {
+      "sentence": "If any word in x j belongs to one of the five categories, then the corresponding entry in 1 ( x j ) is set to 1; otherwise, x j is treated as neutral, with the last entry of 1 ( x j ) set to 1.",
+      "label": "Background",
+      "prob": 0.585491955280304
+    },
+    {
+      "sentence": "When generating the word y t at time step t , the context X is encoded into a fixed-sized dialog context vector c t by following the hierarchical attention structure in HRAN [45].",
+      "label": "Background",
+      "prob": 0.5816138982772827
+    },
+    {
+      "sentence": "Therefore, in this paper, we mainly adopt human evaluation, along with perplexity and BLEU score, following the existing work.",
+      "label": "Background",
+      "prob": 0.5807073712348938
+    },
+    {
+      "sentence": "In another group of work, the main idea is to develop handcrafted rules to direct the machines to generated responses of the desired emotions [1, 48].",
+      "label": "Background",
+      "prob": 0.5788411498069763
+    },
+    {
+      "sentence": "[34] applied attention mechanism [2] to the same structure on Twitter-style microblogging data.",
+      "label": "Background",
+      "prob": 0.5716019868850708
+    },
+    {
+      "sentence": "as a bonus to the rater judged to be the most serious.",
+      "label": "Background",
+      "prob": 0.565593957901001
+    },
+    {
+      "sentence": "Our model uses RNNs to encode the input sequences, and GRU cells to capture long-term dependency among different positions in the sequences.",
+      "label": "Background",
+      "prob": 0.5567291378974915
+    },
+    {
+      "sentence": "(2) We compare our model, MEED, with the generic seq2seq model and the hierarchical model of multiturn dialogs (HRAN).",
+      "label": "Background",
+      "prob": 0.5529170036315918
+    },
+    {
+      "sentence": "In neural dialog generation community, many researchers have adopted this method, especially in the beginning of this field [32, 42, 45, 4850].",
+      "label": "Background",
+      "prob": 0.5500869154930115
+    },
+    {
+      "sentence": "The weight matrix of this softmax layer is denoted as W , whose shape is | V | 2 d , where | V | is the vocabulary size and d = 256 is the hidden state size of the RNNs.",
+      "label": "Background",
+      "prob": 0.5455904603004456
+    },
+    {
+      "sentence": "Their seq2seq framework was trained on an IT Helpdesk Troubleshooting dataset and the OpenSubtitles dataset [21].",
+      "label": "Background",
+      "prob": 0.545163631439209
+    },
+    {
+      "sentence": "For example, assuming x j = he is worried about me, then",
+      "label": "Background",
+      "prob": 0.5421587228775024
+    },
+    {
+      "sentence": "This approach can include any criterion as we judge appropriate.",
+      "label": "Background",
+      "prob": 0.5389807820320129
+    },
+    {
+      "sentence": "[44] developed a topic aware dialog system.",
+      "label": "Background",
+      "prob": 0.5346015095710754
+    },
+    {
+      "sentence": "Each term in Equation (13) is then given by",
+      "label": "Background",
+      "prob": 0.5344004034996033
+    },
+    {
+      "sentence": "Since we concatenate the language context vector and the emotion context vector as the input to the softmax layer, the first half of the weight vector W i corresponds to the language context vector, and the second half corresponds to the emotion context vector.",
+      "label": "Background",
+      "prob": 0.5298539400100708
+    },
+    {
+      "sentence": "[34] further trained the seq2seq model with attention mechanism on a self-crawled Weibo (a popular Twitter-like social media website in China) dataset.",
+      "label": "Background",
+      "prob": 0.5204527974128723
+    },
+    {
+      "sentence": "We filtered out those pairs that have at least one utterance with length greater than 30.",
+      "label": "Background",
+      "prob": 0.5087781548500061
+    },
+    {
+      "sentence": "In this section, we briefly discuss how our framework can incorporate other components, as well as several directions to extend it.",
+      "label": "Background",
+      "prob": 0.5011404752731323
+    },
+    {
+      "sentence": "We did not use Fleiss  score for grammatical correctness.",
+      "label": "Background",
+      "prob": 0.4957755208015442
+    },
+    {
+      "sentence": "The probability distribution p ( y | X ) can be written as",
+      "label": "Background",
+      "prob": 0.4913870692253113
+    },
+    {
+      "sentence": "[1] appended the original word embeddings with a VAD affect model [43].",
+      "label": "Background",
+      "prob": 0.49029263854026794
+    },
+    {
+      "sentence": "To give attention to different parts of the context while generating responses, Xing et al.",
+      "label": "Background",
+      "prob": 0.49020278453826904
+    },
+    {
+      "sentence": "IUI 20 Workshops, March 17, 2020, Cagliari, Italy",
+      "label": "Background",
+      "prob": 0.4838624894618988
+    },
+    {
+      "sentence": "We used two different dialog corpora to train our model the Cornell Movie Dialogs Corpus [6] and the DailyDialog dataset [20].",
+      "label": "Background",
+      "prob": 0.48378926515579224
+    },
+    {
+      "sentence": "The comparison between perplexity scores and human evaluation results further confirms the fact that in the context",
+      "label": "Background",
+      "prob": 0.4823134243488312
+    },
+    {
+      "sentence": "Further, if a test set for human evaluation is prepared",
+      "label": "Background",
+      "prob": 0.48206207156181335
+    },
+    {
+      "sentence": "In Table 2, for all the three sets, HRAN performs worse than S2S in terms of perplexity.",
+      "label": "Background",
+      "prob": 0.4784175753593445
+    },
+    {
+      "sentence": "Finally Bickmore and Picard [3] showed a relational agent with deliberate socialemotional skills was respected more, liked more, and trusted more, even after four weeks of interaction, compared to an equivalent task-oriented agent.",
+      "label": "Background",
+      "prob": 0.4774099290370941
+    },
+    {
+      "sentence": "This is why we decided to take the automatic and data-driven approach.",
+      "label": "Background",
+      "prob": 0.4671783745288849
+    },
+    {
+      "sentence": "Thus, in the future, we plan to train our model on the multi-turn conversations that we have already extracted from the much bigger OpenSubtitles corpus and the EmpatheticDialogues dataset.",
+      "label": "Background",
+      "prob": 0.4654155969619751
+    },
+    {
+      "sentence": "However, for our purpose, which is to speak emotionally appropriately and as human-like as possible, we believe this is a good measure.",
+      "label": "Background",
+      "prob": 0.46298885345458984
+    },
+    {
+      "sentence": "For each criterion, the raters gave scores of either 0, 1 or 2, where 0 means bad, 2 means good, and 1 indicates neutral.",
+      "label": "Background",
+      "prob": 0.4616128206253052
+    },
+    {
+      "sentence": "Given a target response y = { y 1 , y 2 , . . . , y T } , the perplexity is calculated as",
+      "label": "Background",
+      "prob": 0.4579167068004608
+    },
+    {
+      "sentence": "where w y t  1 is the word embedding of y t  1 .",
+      "label": "Background",
+      "prob": 0.4547561705112457
+    },
+    {
+      "sentence": "[48] proposed an affect-rich dialog model using biased attention mechanism on emotional words in the input message, by taking advantage of the VAD embeddings.",
+      "label": "Background",
+      "prob": 0.45401430130004883
+    },
+    {
+      "sentence": "For better illustration, we selected 100 most frequent (emotionally) positive words and 100 most frequent negative words from the vocabulary, and used t-SNE to project the corresponding language model weights and emotion weights to two dimensions.",
+      "label": "Background",
+      "prob": 0.44815269112586975
+    },
+    {
+      "sentence": "The model takes a post and an emoji as input, and generates the response with target emotion specified by the emoji.",
+      "label": "Background",
+      "prob": 0.44242992997169495
+    },
+    {
+      "sentence": "For the first two examples, we can see that MEED is able to generate more emotional content (like fun and congratulations) that is appropriate according to the context.",
+      "label": "Background",
+      "prob": 0.4368745982646942
+    },
+    {
+      "sentence": "(3) We illustrate a human-evaluation procedure for judging machine produced emotional dialogs.",
+      "label": "Background",
+      "prob": 0.4352859556674957
+    },
+    {
+      "sentence": "Subsequently, to form the final test set, we randomly selected 50 emotionally positive and 50 emotionally negative dialogs from the two pools of dialogs described above.",
+      "label": "Background",
+      "prob": 0.4313194751739502
+    },
+    {
+      "sentence": "For every sentence, for example, I unfortunately did not pass my exam, the model generates five emotion features denoting ( sad : 1, angry : 1, anxiety : 1, negative emotion : 1, positive emotion : 0).",
+      "label": "Background",
+      "prob": 0.4262116551399231
+    },
+    {
+      "sentence": "This leaves us wondering whether using a multi-turn neural model can be as effective in learning emotional exchanges as MEED.",
+      "label": "Other",
+      "prob": 0.49903589487075806
+    },
+    {
+      "sentence": "We call work in this area globally neural dialog generation.",
+      "label": "Background",
+      "prob": 0.4132753610610962
+    },
+    {
+      "sentence": "We believe the quality of this dataset can be better than those curated by crowdsource platforms.",
+      "label": "Result",
+      "prob": 0.4790322184562683
+    },
+    {
+      "sentence": "This is why our final comparision is based on three multi-turn dialog generation models: the standard seq2seq model (denoted as S2S), HRAN, and our proposed model, MEED.",
+      "label": "Background",
+      "prob": 0.40738242864608765
+    },
+    {
+      "sentence": "on which we apply a softmax layer to obtain a probability distribution over the vocabulary,",
+      "label": "Background",
+      "prob": 0.40045690536499023
+    },
+    {
+      "sentence": "contrast to Affect-LM, Asghars neural affect dialog model aims at generating explicit responses given a particular utterance.",
+      "label": "Objective",
+      "prob": 0.47371962666511536
+    },
+    {
+      "sentence": "We present four sample dialogs in Table 6, along with the responses generated by the three models.",
+      "label": "Background",
+      "prob": 0.39798417687416077
+    },
+    {
+      "sentence": "We pre-trained our model on the Cornell movie subtitles and then fine-tuned it with the DailyDialog dataset.",
+      "label": "Background",
+      "prob": 0.39514994621276855
+    },
+    {
+      "sentence": "Both of them were PhD students from our university (males, aged 24 and 25), fluent in English, and not related to the authors lab.",
+      "label": "Other",
+      "prob": 0.43199479579925537
+    },
+    {
+      "sentence": "For utterance x j in X ( j = 1 , 2 , . . . , m ), the bidirectional encoder produces two hidden states at each word position k , the forward hidden state h f jk and the backward hidden state h b jk .",
+      "label": "Background",
+      "prob": 0.39073941111564636
+    },
+    {
+      "sentence": "We first selected the emotionally colored dialogs with exactly four turns from the DailyDialog dataset.",
+      "label": "Background",
+      "prob": 0.38797104358673096
+    },
+    {
+      "sentence": "See the discussion section for more details on how to do this.",
+      "label": "Background",
+      "prob": 0.3876810371875763
+    },
+    {
+      "sentence": "In our experiments, the models were first trained on the Cornell Movie Dialogs Corpus, and then fine-tuned on the DailyDialog dataset.",
+      "label": "Background",
+      "prob": 0.379447340965271
+    },
+    {
+      "sentence": "learning-with-neural-networks",
+      "label": "Other",
+      "prob": 0.46142634749412537
+    },
+    {
+      "sentence": "The word-level encoder is essentially a bidirectional RNN with gated recurrent units (GRU) [5].",
+      "label": "Other",
+      "prob": 0.5314734578132629
+    },
+    {
+      "sentence": "For modeling the affect information, we chose to use LIWC",
+      "label": "Background",
+      "prob": 0.37553441524505615
+    },
+    {
+      "sentence": "Specifically, at time step t , the hidden state of the decoder s t is obtained by applying the GRU function,",
+      "label": "Background",
+      "prob": 0.37130090594291687
+    },
+    {
+      "sentence": "We describe our model one element at a time, from the basic structure, to the hierarchical component, and finally the emotion embedding layer.",
+      "label": "Background",
+      "prob": 0.3708134889602661
+    },
+    {
+      "sentence": "Dialog contexts and three models responses were included into Google form.",
+      "label": "Background",
+      "prob": 0.3700549304485321
+    },
+    {
+      "sentence": "We trained our model using two different datasets and compared its performance with HRAN as well as the basic seq2seq model by performing both offline and online testings.",
+      "label": "Method",
+      "prob": 0.4849558472633362
+    },
+    {
+      "sentence": "See Table 1 for the sizes of the training and validation sets.",
+      "label": "Background",
+      "prob": 0.3621252477169037
+    },
+    {
+      "sentence": "In the final human evaluation of the model, we recruited four more PhD students from our university (1 female and 3 males, aged 2225).",
+      "label": "Result",
+      "prob": 0.370012491941452
+    },
+    {
+      "sentence": "We believe reproducing conversational and emotional intelligence will make social chatbots more believable and engaging. In this paper, we proposed a multi-turn dialog system",
+      "label": "Objective",
+      "prob": 0.5350799560546875
+    },
+    {
+      "sentence": "However, the choice of emotion classifier is not strictly limited to LIWC.",
+      "label": "Other",
+      "prob": 0.5637239813804626
+    },
+    {
+      "sentence": "The final emotion context vector e is obtained as the last hidden state of this emotion encoding RNN.",
+      "label": "Background",
+      "prob": 0.35385048389434814
+    },
+    {
+      "sentence": "We give more detailed description of how we created the test set in the section of human evaluation.",
+      "label": "Background",
+      "prob": 0.3510565161705017
+    },
+    {
+      "sentence": "The standard seq2seq framework is applied to single-turn response generation.",
+      "label": "Method",
+      "prob": 0.4580284059047699
+    },
+    {
+      "sentence": "the program LIWC2015, 1 we are able to map each utterance x j in the context to a six-dimensional indicator vector 1 ( x j ) , with the first five entries corresponding to the five emotion categories, and the last one corresponding to neutral .",
+      "label": "Background",
+      "prob": 0.34267985820770264
+    },
+    {
+      "sentence": "To do so, the authors designed three affect-related loss functions, namely minimizing affect dissonance, maximizing a affective dissonance, and maximizing affective content.",
+      "label": "Objective",
+      "prob": 0.3503529727458954
+    },
+    {
+      "sentence": "[22] showed that these metrics correlate poorly with human judgement.",
+      "label": "Result",
+      "prob": 0.5430043339729309
+    },
+    {
+      "sentence": "For all other uses, contact the owner/author(s).",
+      "label": "Other",
+      "prob": 0.6002382636070251
+    },
+    {
+      "sentence": "In this paper, we used both perplexity measures and human judgement in our experiments to finalize our model.",
+      "label": "Method",
+      "prob": 0.39082860946655273
+    },
+    {
+      "sentence": "As shown in the table, MEED achieves the lowest perplexity and the highest BLEU score on all three sets.",
+      "label": "Result",
+      "prob": 0.5586224794387817
+    },
+    {
+      "sentence": "Table 2 gives the perplexity and BLEU scores obtained by the three models on the two validation sets and the test set.",
+      "label": "Result",
+      "prob": 0.43301424384117126
+    },
+    {
+      "sentence": "To create a training set and a validation set for each of the two datasets, we took segments of each dialog with number of turns no more than six, 2 to serve as the training/validation examples.",
+      "label": "Method",
+      "prob": 0.4323037266731262
+    },
+    {
+      "sentence": "It is a popular method used in language modeling.",
+      "label": "Method",
+      "prob": 0.506617546081543
+    },
+    {
+      "sentence": "Specifically, a tone indicator is added to each step of the decoder during the training phase.",
+      "label": "Method",
+      "prob": 0.5112543106079102
+    },
+    {
+      "sentence": "The model is trained with a weighted cross-entropy loss function, which encourages the generation of emotional words.",
+      "label": "Method",
+      "prob": 0.46239209175109863
+    },
+    {
+      "sentence": "The final dialog context vector c t is then obtained as another linear combination of the outputs of the utterance-level encoder  tj , for j = 1 , 2 , . . . , m ,",
+      "label": "Result",
+      "prob": 0.3191611170768738
+    },
+    {
+      "sentence": "The emotion flow of the context X is then modeled by an unidirectional RNN with GRU going from the first utterance in the context to the last, with its input being a j at each step.",
+      "label": "Method",
+      "prob": 0.4804221987724304
+    },
+    {
+      "sentence": "We provide the details about the test data preparation process and the evaluation experiment below.",
+      "label": "Background",
+      "prob": 0.312465637922287
+    },
+    {
+      "sentence": "decoding phase, Equation (16) takes o t , the concatenation of the language context vector s t and the emotion context vector e , and generates a probability distribution over the vocabulary words by applying a softmax layer.",
+      "label": "Method",
+      "prob": 0.5452488660812378
+    },
+    {
+      "sentence": "Here we summarize the configurations and parameters of our experiments:",
+      "label": "Result",
+      "prob": 0.37086522579193115
+    },
+    {
+      "sentence": "The final hidden state h jk is then obtained by concatenating the two,",
+      "label": "Background",
+      "prob": 0.30219969153404236
+    },
+    {
+      "sentence": "More specifically, at decoding step t , the summary of utterance x j is a linear combination of h jk , for k = 1 , 2 , . . . , n j ,",
+      "label": "Result",
+      "prob": 0.3090152442455292
+    },
+    {
+      "sentence": "Using the newest version of",
+      "label": "Other",
+      "prob": 0.3008438050746918
+    },
+    {
+      "sentence": "We apply a dense layer with sigmoid activation function on top of 1 ( x j ) to embed the emotion indicator vector into a continuous space,",
+      "label": "Method",
+      "prob": 0.4782208502292633
+    },
+    {
+      "sentence": "The test set consists of 100 dialogs with four turns.",
+      "label": "Result",
+      "prob": 0.4636092185974121
+    },
+    {
+      "sentence": "In the tables, we give the percentage of votes each model received for the three scores, the average score obtained, and the agreement score among the raters.",
+      "label": "Result",
+      "prob": 0.3262597918510437
+    },
+    {
+      "sentence": "We also reduced the frequency of those pairs",
+      "label": "Result",
+      "prob": 0.44700583815574646
+    },
+    {
+      "sentence": "We decided to visualize the output layer weights as word embedding representations using dimensionality reduction technique for the various models.Inthe",
+      "label": "Other",
+      "prob": 0.3578680753707886
+    },
+    {
+      "sentence": "Preparation of Natural Dialog Test Set.",
+      "label": "Other",
+      "prob": 0.28871843218803406
+    },
+    {
+      "sentence": "We have made the source code publicly available.",
+      "label": "Other",
+      "prob": 0.5666304230690002
+    },
+    {
+      "sentence": "This is why we also conducted human evaluation experiment.",
+      "label": "Result",
+      "prob": 0.4809803068637848
+    },
+    {
+      "sentence": "Visualization of Output Layer Weights.",
+      "label": "Background",
+      "prob": 0.27874359488487244
+    },
+    {
+      "sentence": "In other words, using the perplexity measures, we were able to determine when to stop training our model.",
+      "label": "Result",
+      "prob": 0.4320717751979828
+    },
+    {
+      "sentence": "sample.Totake into account the above issues, we took several iterations to prepare the instructions and the test set before conducting the human evaluation experiment.",
+      "label": "Method",
+      "prob": 0.4835360646247864
+    },
+    {
+      "sentence": "As shown in the tables, we got high agreement among the raters for grammatical correctness, and fair",
+      "label": "Result",
+      "prob": 0.6128604412078857
+    },
+    {
+      "sentence": "While a central theme",
+      "label": "Other",
+      "prob": 0.5943049192428589
+    },
+    {
+      "sentence": "In this subsection, we present the experimental results of the automatic evaluation metric as well as human judgement, followed by some analysis.",
+      "label": "Result",
+      "prob": 0.33431607484817505
+    },
+    {
+      "sentence": "[18] modeled the personalities of the speakers, and Xing et al.",
+      "label": "Other",
+      "prob": 0.6285538673400879
+    },
+    {
+      "sentence": "In earlier work on human computer interaction, Klein et al.",
+      "label": "Other",
+      "prob": 0.6443818211555481
+    },
+    {
+      "sentence": "[45] proposed the hierarchical recurrent attention network (HRAN), using a hierarchical attention mechanism.",
+      "label": "Objective",
+      "prob": 0.3765193819999695
+    },
+    {
+      "sentence": "It measures how well a dialog model predicts the target response.",
+      "label": "Result",
+      "prob": 0.417462557554245
+    },
+    {
+      "sentence": "agreement among the raters for contextual coherence and emotional appropriateness.",
+      "label": "Result",
+      "prob": 0.5635839700698853
+    },
+    {
+      "sentence": "The overall architecture of the model is depicted in Figure 1.",
+      "label": "Other",
+      "prob": 0.4182705283164978
+    },
+    {
+      "sentence": "We can observe from the first two plots that positive words (green dots) and negative words (red dots) are scattered around and mixed with each other in the language model weights for HRAN and MEED respectively, which means no emotion information is captured in these weights.",
+      "label": "Result",
+      "prob": 0.6034103035926819
+    },
+    {
+      "sentence": "We thus highly recommend this combination, which is also a common practice in the research community [45, 4850].",
+      "label": "Other",
+      "prob": 0.6754888892173767
+    },
+    {
+      "sentence": "To extract the affect information contained in the utterances, we used the LIWC text analysis program.",
+      "label": "Method",
+      "prob": 0.5109821557998657
+    },
+    {
+      "sentence": "The utterance-level encoder is a unidirectional RNN with GRU that goes from the last utterance in the context to the first, with its input at each step as the summary of the corresponding utterance, which is obtained by applying a Bahdanau-style attention mechanism [2] on the word-level",
+      "label": "Method",
+      "prob": 0.41482698917388916
+    },
+    {
+      "sentence": "We hope to increase the performance of response generation.",
+      "label": "Objective",
+      "prob": 0.6438390612602234
+    },
+    {
+      "sentence": "We model the probability distribution using an RNN language model along with the emotion context vector e .",
+      "label": "Result",
+      "prob": 0.33611029386520386
+    },
+    {
+      "sentence": "human judgement test can validate them.",
+      "label": "Result",
+      "prob": 0.4133620858192444
+    },
+    {
+      "sentence": "6 https://github.com/facebookresearch/EmpatheticDialogues",
+      "label": "Other",
+      "prob": 0.7378513216972351
+    },
+    {
+      "sentence": "Similar to AffectLM [11], we then define a new feature vector o t by concatenating s t (which we refer to as the language context vector) with the emotion context vector e ,",
+      "label": "Method",
+      "prob": 0.3965190649032593
+    },
+    {
+      "sentence": "The main idea is to use an internal memory module to capture the emotion dynamics during decoding, and an external memory module to model emotional expressions explicitly by assigning different probability values to emotional words as opposed to regular words.",
+      "label": "Objective",
+      "prob": 0.6889792680740356
+    },
+    {
+      "sentence": "Additionally, we extract the emotion information from the utterances in X by leveraging an external text analysis program, and use an RNN to encode it into an emotion context vector e , which is combined with c t to produce the distribution.",
+      "label": "Method",
+      "prob": 0.6390365958213806
+    },
+    {
+      "sentence": "Table 3, 4 and 5 summarize the human evaluation results on the responses grammatical correctness, contextual coherence, and emotional appropriateness, respectively.",
+      "label": "Result",
+      "prob": 0.6712532043457031
+    },
+    {
+      "sentence": "3 https://github.com/yuboxie/meed",
+      "label": "Other",
+      "prob": 0.7475752234458923
+    },
+    {
+      "sentence": "5 https://en.wikipedia.org/wiki/Fleiss%27_kappa#Interpretation",
+      "label": "Other",
+      "prob": 0.7532598376274109
+    },
+    {
+      "sentence": "o t = concat ( s t , e ) ,",
+      "label": "Other",
+      "prob": 0.6914503574371338
+    },
+    {
+      "sentence": "For the evaluation survey, we also leveraged Google form.",
+      "label": "Result",
+      "prob": 0.47602707147598267
+    },
+    {
+      "sentence": "Further experiments with human evaluation show our model produces emotionally more appropriate responses than both baselines, while also improving the language fluency.",
+      "label": "Result",
+      "prob": 0.7045581936836243
+    },
+    {
+      "sentence": "2020 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.7770246863365173
+    },
+    {
+      "sentence": "Offline experiments show that our model outperforms both seq2seq and HRAN by a significant amount.",
+      "label": "Result",
+      "prob": 0.7517513632774353
+    },
+    {
+      "sentence": "For a comprehensive survey, please refer to [4].",
+      "label": "Other",
+      "prob": 0.7382301688194275
+    },
+    {
+      "sentence": "We use the cross-entropy loss as our objective function",
+      "label": "Result",
+      "prob": 0.36508709192276
+    },
+    {
+      "sentence": "In",
+      "label": "Other",
+      "prob": 0.6678418517112732
+    },
+    {
+      "sentence": "Specifically, we randomly shuffled the 100 dialogs in the test set, then we used the first three utterances of each dialog as the input to the three models being compared (S2S, HRAN, and MEED), and obtain the respective responses.",
+      "label": "Method",
+      "prob": 0.6610681414604187
+    },
+    {
+      "sentence": "In parallel to these developments, Zhong et al.",
+      "label": "Other",
+      "prob": 0.7207597494125366
+    },
+    {
+      "sentence": "In this paper, we describe an end-to-end Multi-turn Emotionally Engaging Dialog model (MEED), capable of recognizing emotions and generating emotionally appropriate and humanlike responses with the ultimate goal of reproducing social behaviors that are habitual in human-human conversations.",
+      "label": "Objective",
+      "prob": 0.76461261510849
+    },
+    {
+      "sentence": "We two datasets in Table 1.",
+      "label": "Other",
+      "prob": 0.3823132812976837
+    },
+    {
+      "sentence": "p t = softmax ( Wo t + b ) ,",
+      "label": "Other",
+      "prob": 0.6846408247947693
+    },
+    {
+      "sentence": "According to the context given, the raters were instructed to evaluate the quality of the responses based on three criteria:",
+      "label": "Result",
+      "prob": 0.4811612069606781
+    },
+    {
+      "sentence": "Similarly,",
+      "label": "Other",
+      "prob": 0.6297169923782349
+    },
+    {
+      "sentence": "ACM ISBN 978-x-xxxx-xxxx-x/YY/MM.",
+      "label": "Other",
+      "prob": 0.8128252029418945
+    },
+    {
+      "sentence": "We are able to achieve this goal, i.e., capturing the emotion information carried in the context X , in the encoder, thanks to LIWC.",
+      "label": "Other",
+      "prob": 0.7870302796363831
+    },
+    {
+      "sentence": "We first consider the problem of generating response y given a context X consisting of multiple previous utterances by estimating the probability distribution p ( y | X ) from a data set D = {( X ( i ) , y ( i ) )} Ni = 1 containing N context-response pairs.",
+      "label": "Method",
+      "prob": 0.3866121470928192
+    },
+    {
+      "sentence": "Our main goal is to increase the objectivity of the results and reduce judges mistakes due to out-of-context dialogs they have to evaluate.",
+      "label": "Objective",
+      "prob": 0.829452633857727
+    },
+    {
+      "sentence": "https://doi.org/10.1145/nnnnnnn.nnnnnnn",
+      "label": "Other",
+      "prob": 0.8324875235557556
+    },
+    {
+      "sentence": "In a similar vein, Asghar et al.",
+      "label": "Other",
+      "prob": 0.792610764503479
+    },
+    {
+      "sentence": "is the response with T i words.",
+      "label": "Other",
+      "prob": 0.808391809463501
+    },
+    {
+      "sentence": "1 https://liwc.wpengine.com/",
+      "label": "Other",
+      "prob": 0.8448797464370728
+    },
+    {
+      "sentence": "encoder output.",
+      "label": "Other",
+      "prob": 0.5665355920791626
+    },
+    {
+      "sentence": "Human Evaluation Experiment Design.",
+      "label": "Other",
+      "prob": 0.5711604356765747
+    },
+    {
+      "sentence": "Human Evaluation.",
+      "label": "Other",
+      "prob": 0.6255568861961365
+    },
+    {
+      "sentence": "Case Study.",
+      "label": "Other",
+      "prob": 0.6917441487312317
+    },
+    {
+      "sentence": "Later on, Liu et al.",
+      "label": "Other",
+      "prob": 0.8271751999855042
+    },
+    {
+      "sentence": "For example, Shang et al.",
+      "label": "Other",
+      "prob": 0.8417348861694336
+    },
+    {
+      "sentence": "Figure 2 gives the results in three subplots.",
+      "label": "Result",
+      "prob": 0.8245140910148621
+    },
+    {
+      "sentence": "Here",
+      "label": "Other",
+      "prob": 0.8534526228904724
+    },
+    {
+      "sentence": "ABSTRACT",
+      "label": "Other",
+      "prob": 0.850910484790802
+    },
+    {
+      "sentence": "Automatic Evaluation.",
+      "label": "Other",
+      "prob": 0.6464868783950806
+    },
+    {
+      "sentence": "The main objective of the emotion embedding layer is to recognize the affect information in the given utterances so that the model can respond with emotionally appropriate replies.",
+      "label": "Objective",
+      "prob": 0.9020901918411255
+    },
+    {
+      "sentence": "Recently, Hu et al.",
+      "label": "Other",
+      "prob": 0.8762308359146118
+    },
+    {
+      "sentence": "We first conducted Friedman test [12] and then t -test on the human evaluation results (contextual coherence and emotional appropriateness), showing the improvements of MEED over S2S are significant (with p -value < 0 . 01).",
+      "label": "Result",
+      "prob": 0.8670583963394165
+    },
+    {
+      "sentence": "MEED.",
+      "label": "Other",
+      "prob": 0.8765213489532471
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.8979548215866089
+    },
+    {
+      "sentence": "Specifically, for each dialog D = ( x 1 , x 2 , . . . , x M ) , we created M  1 contextresponse pairs, namely U i = ( x s i , . . . , x i ) and y i = x i + 1 , for i = 1 , 2 , . . . , M  1, where s i = max ( 1 , i  4 ) .",
+      "label": "Result",
+      "prob": 0.5520246624946594
+    },
+    {
+      "sentence": "Shang et al.",
+      "label": "Other",
+      "prob": 0.8669105768203735
+    },
+    {
+      "sentence": "KEYWORDS",
+      "label": "Other",
+      "prob": 0.8791307806968689
+    },
+    {
+      "sentence": "6",
+      "label": "Other",
+      "prob": 0.8737578988075256
+    },
+    {
+      "sentence": "Li et al.",
+      "label": "Other",
+      "prob": 0.8775672912597656
+    },
+    {
+      "sentence": "Li et al.",
+      "label": "Other",
+      "prob": 0.8775672912597656
+    },
+    {
+      "sentence": "Hu et al.",
+      "label": "Other",
+      "prob": 0.8750988245010376
+    },
+    {
+      "sentence": "3",
+      "label": "Other",
+      "prob": 0.8659807443618774
+    },
+    {
+      "sentence": "Most of related work focused on integrating affect information into the transduction vector space using either VAD or LIWC, we aim at modeling and generating the affect exchanges in human dialogs using a dedicated embedding layer.",
+      "label": "Objective",
+      "prob": 0.895667314529419
+    },
+    {
+      "sentence": "We conducted t -test on the perplexity obtained, and results show significant improvements of MEED over S2S and HRAN on the two validation sets (with p -value < 0 . 05).",
+      "label": "Result",
+      "prob": 0.8971232175827026
+    },
+    {
+      "sentence": "Ghosh et al.",
+      "label": "Other",
+      "prob": 0.8984120488166809
+    },
+    {
+      "sentence": "We have demonstrated how to do so by (1) modeling utterances with extra affect vectors, (2) creating an emotional encoding mechanism that learns emotion exchanges in the dataset, (3) curating a multi-turn and balanced dialog dataset, and (4) evaluating the model with offline and online experiments.",
+      "label": "Result",
+      "prob": 0.6120589971542358
+    },
+    {
+      "sentence": "Meanwhile, Xu et al.",
+      "label": "Other",
+      "prob": 0.8908460140228271
+    },
+    {
+      "sentence": "Our contributions are threefold.",
+      "label": "Other",
+      "prob": 0.8631138801574707
+    },
+    {
+      "sentence": "Human Evaluation Results.",
+      "label": "Result",
+      "prob": 0.9075150489807129
+    },
+    {
+      "sentence": "Automatic Evaluation Results.",
+      "label": "Result",
+      "prob": 0.9091019034385681
+    }
+  ]
+}

@@ -12,6 +12,10 @@ from utils import (SPP_OUTPUT_DIR, SSC_INPUT_DIR, SSC_OUTPUT_DIR,
 
 
 def main(args):
+    output_dir = "output/detected"
+    if os.path.exists(f"{output_dir}/{args.arxiv_id}.json"):
+        return
+
     rhetorical_units = []  # list to hold outputs
 
     # Run scienceparseplus to detect all tokens and bounding boxes
@@ -82,7 +86,6 @@ def main(args):
     #     print(json.dumps(unit.to_json(), indent=2))
 
     # Dump all detected rhetorical units to JSON file
-    output_dir = "output/detected"
     os.makedirs(output_dir, exist_ok=True)
     with open(f"{output_dir}/{args.arxiv_id}.json", "w") as out:
         serialized = [r.to_json() for r in rhetorical_units]

@@ -1,0 +1,1659 @@
+{
+  "2102.09039": [
+    {
+      "sentence": "Nevertheless, A/B testing still struggles to support a large design space when there are hundreds or thousands of design alternatives.",
+      "label": "Background",
+      "prob": 0.9869338274002075
+    },
+    {
+      "sentence": "Moreover, the designer-facing tools require specific learning of a custom specification or programming language, which increases the burden on the designer.",
+      "label": "Background",
+      "prob": 0.9848474860191345
+    },
+    {
+      "sentence": "However, these existing tools often require a designer to learn a new language that is tailored for working with the underlying algorithm to define a search space.",
+      "label": "Background",
+      "prob": 0.984001874923706
+    },
+    {
+      "sentence": "Nevertheless, it remains challenging for existing tools to examine a large design space where it is a commonplace to have hundreds or even thousands of design alternatives.",
+      "label": "Background",
+      "prob": 0.9839290380477905
+    },
+    {
+      "sentence": "Although existing methods are widely adopted, they often require substantial engineering effort to build and instrument a test.",
+      "label": "Background",
+      "prob": 0.9833711385726929
+    },
+    {
+      "sentence": "However, it tremendously enhances A/B testing by allowing designers to explore a much larger design space with minimal effort.",
+      "label": "Background",
+      "prob": 0.9831901788711548
+    },
+    {
+      "sentence": "User interface design is a complex task that often requires designers to explore a wide range of options, which is expensive and time consuming.",
+      "label": "Background",
+      "prob": 0.9827698469161987
+    },
+    {
+      "sentence": "To search for an optimal design in the space, it is prohibitively expensive to examine every possible design configuration with worker evaluation.",
+      "label": "Background",
+      "prob": 0.9814746379852295
+    },
+    {
+      "sentence": "Despite the adoption of the crowd, these interactive GA solutions rely on implicit information, such as click location that is difficult to generalize to other design tasks.",
+      "label": "Background",
+      "prob": 0.9792900085449219
+    },
+    {
+      "sentence": "There lacks a tool for general-purpose design space exploration that is seamlessly integrated into current design practice.",
+      "label": "Background",
+      "prob": 0.9767246246337891
+    },
+    {
+      "sentence": "It also often involves extensive effort to analyze user data to extract findings that can be used for next design iteration.",
+      "label": "Background",
+      "prob": 0.9743936061859131
+    },
+    {
+      "sentence": "In particular, P1, P4, and P5 found Spacewalker to require less effort than the the traditional way of exploring multiple designs individually.",
+      "label": "Background",
+      "prob": 0.9682368040084839
+    },
+    {
+      "sentence": "In addition, these methods are limited by the number of alternatives they can explore, which is problematic as a design space of a UI is often large.",
+      "label": "Background",
+      "prob": 0.9675530791282654
+    },
+    {
+      "sentence": "However, it might not be always clear to the designer what the reasonable values are for these parameters.",
+      "label": "Background",
+      "prob": 0.9656381607055664
+    },
+    {
+      "sentence": "However, pairwise comparison raises challenges for genetic programming.",
+      "label": "Background",
+      "prob": 0.9648281931877136
+    },
+    {
+      "sentence": "As a raters judgement can be dominated by the early examples and may drift over time [1], it is generally difficult for a user to rate the goodness of a design with an absolute scale.",
+      "label": "Background",
+      "prob": 0.9597127437591553
+    },
+    {
+      "sentence": "However, these approaches only take the input from a few users, causing fatigue [21] and increasing potential bias.",
+      "label": "Background",
+      "prob": 0.9594431519508362
+    },
+    {
+      "sentence": "Various commercial tools also exist to support A/B testing of UI designs.",
+      "label": "Background",
+      "prob": 0.9587866067886353
+    },
+    {
+      "sentence": "Although searching over the entire space would be ideal, it is impractical to do so.",
+      "label": "Background",
+      "prob": 0.958488941192627
+    },
+    {
+      "sentence": "However, when these shared options are less desirable, conventional GA performs poorly as those options that are not compared also receive positive responses.",
+      "label": "Background",
+      "prob": 0.9561048746109009
+    },
+    {
+      "sentence": "Dependency between elements and designer specified options also presents two challenges to Spacewalker.",
+      "label": "Background",
+      "prob": 0.9553810954093933
+    },
+    {
+      "sentence": "However, we note that Spacewalker performed well on rather large search spaces in our experiment, and that other approaches, such as uniform sampling, would suffer more in these cases as the probability of encountering one \"good\" example would be minuscule.",
+      "label": "Background",
+      "prob": 0.9546241760253906
+    },
+    {
+      "sentence": "Although presenting more than two examples in a gallery design can be another appealing alternative [1, 13], the viewing area for each example would be too small in our case of web design, and may prevent raters from noticing design details that matter.",
+      "label": "Background",
+      "prob": 0.9504939317703247
+    },
+    {
+      "sentence": "Second, with multiple dependencies and the resulting hierarchical design spaces, the search space for a design grows combinatorially.",
+      "label": "Background",
+      "prob": 0.9489896297454834
+    },
+    {
+      "sentence": "Although she has written an HTML prototype of the page, she is uncertain about a few of design aspects of the page, such as color schemes, font sizes, and background choices.",
+      "label": "Background",
+      "prob": 0.9484273195266724
+    },
+    {
+      "sentence": "Various tools or platforms are available to support A/B testing of UI designs, such as GoodUI 2 , Optimizely 3 and VWO 4 .",
+      "label": "Background",
+      "prob": 0.9440203309059143
+    },
+    {
+      "sentence": "Note that attributes that are not marked for exploration do not appear in a configuration for genetic programming because they are already determined by the designer.",
+      "label": "Background",
+      "prob": 0.9435646533966064
+    },
+    {
+      "sentence": "Nevertheless, there is still strong consistency in raters preferences towards Spacewalker genetic method.",
+      "label": "Background",
+      "prob": 0.9411818385124207
+    },
+    {
+      "sentence": "First, in complex design spaces, designers may want to maintain dependencies between several sets of elements, while style options for different elements can also be dependent, where only certain options or elements can be combined together.",
+      "label": "Background",
+      "prob": 0.9401729702949524
+    },
+    {
+      "sentence": "Particularly, Salem [19] combined crowdsourcing and genetic programming [12] for the design of landing pages.",
+      "label": "Background",
+      "prob": 0.9398570656776428
+    },
+    {
+      "sentence": "In Spacewalker, a designer currently needs to specify the number of iterations and workers needed for searching a design space (see Figure 2).",
+      "label": "Background",
+      "prob": 0.9385725855827332
+    },
+    {
+      "sentence": "For example, a designer may consider multiple color schemes or layout choices for a UI.",
+      "label": "Background",
+      "prob": 0.9379425048828125
+    },
+    {
+      "sentence": "Spacewalker is not intended as a tool for creating a design from scratch.",
+      "label": "Background",
+      "prob": 0.9357849955558777
+    },
+    {
+      "sentence": "Instead of specifying exploration strategies based on nodes, which can be tedious, designers can directly explore at the level of CSS specification using the explore-css tag.",
+      "label": "Background",
+      "prob": 0.931561291217804
+    },
+    {
+      "sentence": "To the workers, the scheduling process is transparent and they always see a consistent labeling interface for comparing two web UIs.",
+      "label": "Background",
+      "prob": 0.9306299686431885
+    },
+    {
+      "sentence": "In addition, designers would be able to easily include or exclude certain combinations given appropriate visualization tools, which can be utilized by Spacewalker as an initialization condition.",
+      "label": "Background",
+      "prob": 0.9299907088279724
+    },
+    {
+      "sentence": "Consequently, an end design might be suboptimal due to limited exploration.",
+      "label": "Background",
+      "prob": 0.9267165660858154
+    },
+    {
+      "sentence": "As the number of attributes and nodes to be explored increases, the search space for a design grows combinatorially.",
+      "label": "Background",
+      "prob": 0.9259990453720093
+    },
+    {
+      "sentence": "Although these classical approaches are widely used, they require substantial engineering",
+      "label": "Background",
+      "prob": 0.9234678149223328
+    },
+    {
+      "sentence": "The Spacewalker markup extension is easy to understand and use for specifying design exploration.",
+      "label": "Background",
+      "prob": 0.9195406436920166
+    },
+    {
+      "sentence": "These improvements can be easily achievable, particularly because these were achieved by only using 50 workers and a small monetary budget (around 35 US Dollars), which gives a lot of room to scale up.",
+      "label": "Background",
+      "prob": 0.9181572794914246
+    },
+    {
+      "sentence": "The streamlined end-to-end support of Spacewalker is useful for both novice and experienced designers.",
+      "label": "Background",
+      "prob": 0.9172527194023132
+    },
+    {
+      "sentence": "Our HTML markup for creating exploration specification provides a lightweight and familiar language for designers to specify complex designs and search requirements.",
+      "label": "Background",
+      "prob": 0.9158560037612915
+    },
+    {
+      "sentence": "Another challenge lies in how well designers can understand the effect when complex design alternatives exist in one design space, e.g., design options nested within a parent option or global options via CSS.",
+      "label": "Background",
+      "prob": 0.8989881873130798
+    },
+    {
+      "sentence": "Although our participants did not encounter much difficulty, this can be challenging as the design space becomes convoluted.",
+      "label": "Background",
+      "prob": 0.8987032771110535
+    },
+    {
+      "sentence": "Mutation is handled in a similar way to the traditional approach, where we alter one attribute in a genetic sequence based on a mutation rate.",
+      "label": "Background",
+      "prob": 0.8969666361808777
+    },
+    {
+      "sentence": "Using Artificial Intelligence algorithms to optimize interface design is a longstanding topic.",
+      "label": "Background",
+      "prob": 0.8940277695655823
+    },
+    {
+      "sentence": "In addition to explore individual elements, Spacewalker allows a designer to easily explore a large component of a design as a whole, which might contain a branch of elements and sub-trees, such as a side bar or a navigation bar.",
+      "label": "Background",
+      "prob": 0.8938395977020264
+    },
+    {
+      "sentence": "With a large enough search space, the effectiveness of any algorithm will be impacted.",
+      "label": "Background",
+      "prob": 0.8889543414115906
+    },
+    {
+      "sentence": "Spacewalker supports all CSS properties and any number of them for an element.",
+      "label": "Background",
+      "prob": 0.888481616973877
+    },
+    {
+      "sentence": "In order to support more advanced dependency, we believe automatic tooling for identifying option dependencies and detecting potential inconsistency would be necessary, which provides opportunity for future work.",
+      "label": "Background",
+      "prob": 0.884243369102478
+    },
+    {
+      "sentence": "To address the issue, Salem [19] combined crowdsourcing and genetic programming [12] for the design of landing pages.",
+      "label": "Background",
+      "prob": 0.882829487323761
+    },
+    {
+      "sentence": "On the other hand, with a limited number of worker feedback, which is often the case in reality, a search very likely ends up with a sub-optimal design, as shown in our experiments later.",
+      "label": "Background",
+      "prob": 0.882288932800293
+    },
+    {
+      "sentence": "Usability testing [2] is a commonly used approach for evaluating a UI design, which often requires a user experience researcher to",
+      "label": "Background",
+      "prob": 0.8809317946434021
+    },
+    {
+      "sentence": "there is a research opportunity to better support designers by providing more guidance when creating a design search task.",
+      "label": "Background",
+      "prob": 0.8693062663078308
+    },
+    {
+      "sentence": "A specific genetic sequence indicates a UI configuration, which can be rendered as a design instance shown to a crowd worker for feedback.",
+      "label": "Background",
+      "prob": 0.8690013289451599
+    },
+    {
+      "sentence": "Therefore, even our enhanced genetic algorithm may not converge to an optimal solution with a small number of comparisons.",
+      "label": "Background",
+      "prob": 0.8669295310974121
+    },
+    {
+      "sentence": "Similarly, Alex can explore any CSS property for an HTML element, such as font-size , margin , height and width , using a simple syntax rule, i.e., prefixing exploreto the property name.",
+      "label": "Background",
+      "prob": 0.8661983609199524
+    },
+    {
+      "sentence": "investment to build and instrument each design alternative for testing, and extensive analytical effort to process collected user data and distill findings.",
+      "label": "Background",
+      "prob": 0.8640646934509277
+    },
+    {
+      "sentence": "Although we employ GA-based algorithms and crowd in our work, Spacewalker is designed to address a general web UI design scenario.",
+      "label": "Background",
+      "prob": 0.8632534146308899
+    },
+    {
+      "sentence": "The score that a design receives is now more with respect to the differences between two designs being compared, instead of every aspect of the design.",
+      "label": "Background",
+      "prob": 0.8630970120429993
+    },
+    {
+      "sentence": "Note that depending on the search options specified in a design, the difference between the outcome designs from the two methods can be subtle sometime, e.g., the Dashboard case in Figure 7.",
+      "label": "Background",
+      "prob": 0.8629354238510132
+    },
+    {
+      "sentence": "perception-oriented feedback from a non-expert crowd, with an emphasis on connecting the visual design with corresponding feedback [26].",
+      "label": "Background",
+      "prob": 0.8597890138626099
+    },
+    {
+      "sentence": "As the combination of these factors resembles a vast number of design",
+      "label": "Background",
+      "prob": 0.8585427403450012
+    },
+    {
+      "sentence": "A line of dashes (i.e., any number of \"-\") separates these two options.",
+      "label": "Background",
+      "prob": 0.8570090532302856
+    },
+    {
+      "sentence": "In other words, the rater feedback carries information only for a subset of genes in a genetic sequence.",
+      "label": "Background",
+      "prob": 0.8569509387016296
+    },
+    {
+      "sentence": "Genetic algorithms (GA) in particular have been applied to optimize UI designs with large search spaces.",
+      "label": "Background",
+      "prob": 0.8526382446289062
+    },
+    {
+      "sentence": "The search spaces specified ranged from 480 to 3888, which indicated the need of designers to explore large design spaces.",
+      "label": "Background",
+      "prob": 0.8523867130279541
+    },
+    {
+      "sentence": "Effectively conveying such expectation to users is essential.",
+      "label": "Background",
+      "prob": 0.8494076132774353
+    },
+    {
+      "sentence": "The feedback mask for each genetic sequence is all zeros, as it has not received feedback from raters yet.",
+      "label": "Background",
+      "prob": 0.842230498790741
+    },
+    {
+      "sentence": "A bit in the feedback mask is 1 when the corresponding option is compared and favored by a crowd worker or 0 when it is not.",
+      "label": "Background",
+      "prob": 0.8397354483604431
+    },
+    {
+      "sentence": "Because of this, powerful CSS features, such as CSS variables (which can",
+      "label": "Background",
+      "prob": 0.8392927646636963
+    },
+    {
+      "sentence": "In this example, Spacewalker uses either \" nav-1 \" or \" nav-2 \" at a time, while the rest children are unaffected.",
+      "label": "Background",
+      "prob": 0.836688756942749
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Background",
+      "prob": 0.831842303276062
+    },
+    {
+      "sentence": "The diff mask represents where we would likely gain knowledge by comparing these two designs: in the part where they differ.",
+      "label": "Background",
+      "prob": 0.8273983597755432
+    },
+    {
+      "sentence": "In case that none of the designs are satisfactory, Alex can edit the task in the Progress Viewer and relaunch the task to continue evolving the design.",
+      "label": "Background",
+      "prob": 0.826957106590271
+    },
+    {
+      "sentence": "The number of options being explored ranged from 3 to 8 in this example, which corresponds a search space size ranging from 50 to 11,000 (see Table 2 for all the search space sizes).",
+      "label": "Background",
+      "prob": 0.8257196545600891
+    },
+    {
+      "sentence": "A designer can specify them based on the complexity of their design task, and their time and budget constraints.",
+      "label": "Background",
+      "prob": 0.8223007917404175
+    },
+    {
+      "sentence": "specification, generates and distributes evaluation tasks, schedules workers and execute genetic operations on the sequences.",
+      "label": "Background",
+      "prob": 0.8150576949119568
+    },
+    {
+      "sentence": "Note that the CSS attributes of elements for each node can be further explored, which enables recursive exploration.",
+      "label": "Background",
+      "prob": 0.8069016933441162
+    },
+    {
+      "sentence": "When a parent is selected, only the relevant child genes would be active, and we only perform the crossover and mutation operations on these genes.",
+      "label": "Background",
+      "prob": 0.8026532530784607
+    },
+    {
+      "sentence": "For example, a general rule of thumb for the genetic population size for each generation (iteration) is 10 times the dimensionality of the search space [20].",
+      "label": "Background",
+      "prob": 0.8015192747116089
+    },
+    {
+      "sentence": "This will require Spacewalker to encode certain design knowledge to make proper",
+      "label": "Background",
+      "prob": 0.7981780767440796
+    },
+    {
+      "sentence": "Previous work has incorporated crowdsourcing for UI design and evaluation.",
+      "label": "Background",
+      "prob": 0.7972947359085083
+    },
+    {
+      "sentence": "Meanwhile, in addition to crossover for the genetic sequences, the feedback masks also crossover at the sequence crossover point to carry the mask to the next generation.",
+      "label": "Background",
+      "prob": 0.7933607697486877
+    },
+    {
+      "sentence": "We refer an instance of a UI design, which is acquired by selecting a specific option for each attribute to be explored, as a configuration of the design.",
+      "label": "Background",
+      "prob": 0.7903361916542053
+    },
+    {
+      "sentence": "Copyrights for third-party components of this work must be honored.",
+      "label": "Background",
+      "prob": 0.7885529398918152
+    },
+    {
+      "sentence": "Moreover, the system can offer to break down large multi-level search spaces into smaller ones, and perform design search tasks on each of them.",
+      "label": "Background",
+      "prob": 0.7857685685157776
+    },
+    {
+      "sentence": "be used to store values in custom properties) 6 , can be adopted to streamline the specification of possible values for properties.",
+      "label": "Background",
+      "prob": 0.7846301198005676
+    },
+    {
+      "sentence": "To battle the issue, previous work has attempted to apply Artificial Intelligence algorithms to enable efficient search of a large design space [5, 13, 16, 19, 22].",
+      "label": "Background",
+      "prob": 0.7778659462928772
+    },
+    {
+      "sentence": "provided a description of supported functionalities and sample markup code snippets (similar to Section 4.1.1).",
+      "label": "Background",
+      "prob": 0.776655375957489
+    },
+    {
+      "sentence": "Upon Alex clicking the Launch button, Spacewalker automatically generates and sample designs based on her specification and distributes them to online raters that are recruited from Amazon MTurk.",
+      "label": "Background",
+      "prob": 0.775052011013031
+    },
+    {
+      "sentence": "We here describe how UI designers or developers would use Spacewalker to explore the design space of their user interfaces.",
+      "label": "Background",
+      "prob": 0.772113025188446
+    },
+    {
+      "sentence": "We verbally walked them through the code snippets and demoed the usage, which took 1015 minutes.",
+      "label": "Background",
+      "prob": 0.7694075107574463
+    },
+    {
+      "sentence": "so, Alex first edits the HTML prototype for the Product page by adding simple markup tags for the design options that she is unsure.",
+      "label": "Background",
+      "prob": 0.7684697508811951
+    },
+    {
+      "sentence": "As a result, it is necessary to use a more intelligent algorithm.",
+      "label": "Background",
+      "prob": 0.7610085606575012
+    },
+    {
+      "sentence": "Designers also want to immediately see the effect of a design when adding an option value, instead of examining them on a separate screen in the Preview (see Figure 2).",
+      "label": "Background",
+      "prob": 0.7610065340995789
+    },
+    {
+      "sentence": "As shown in the above example, Spacewalker supports a rich set of methods for exploring a design space through simple HTML extensions, which are intuitive to designers as shown in our experiments.",
+      "label": "Background",
+      "prob": 0.7602372169494629
+    },
+    {
+      "sentence": "AB4Web addresses this problem through randomized split testing, and successfully analyzed users preferences for a task with 49 designs [23].",
+      "label": "Background",
+      "prob": 0.7537577152252197
+    },
+    {
+      "sentence": "Assume, Alex, an web designer is designing a new Product page for her company.",
+      "label": "Background",
+      "prob": 0.7451953291893005
+    },
+    {
+      "sentence": "In about one hour, all the iterations are completed, and Alex selects five top designs from the collection of designs in the last generation.",
+      "label": "Background",
+      "prob": 0.7349192500114441
+    },
+    {
+      "sentence": "To account for raters that may not be responsive after accepting the tasks, we distributed the tasks to 70 raters.",
+      "label": "Background",
+      "prob": 0.734528660774231
+    },
+    {
+      "sentence": "In a typical HTML page or a CSS specification, designers first annotate each attribute they want to explore using a simple markup extension we designed.",
+      "label": "Background",
+      "prob": 0.7342433333396912
+    },
+    {
+      "sentence": "Conceptually, Spacewalker plays a similar role as A/B testing.",
+      "label": "Background",
+      "prob": 0.7335104942321777
+    },
+    {
+      "sentence": "To explore a property of an individual element, a designer follows a simple syntax by prefixing \" explore\" to the property, and specifying the alternative values for the property delimited by spaces:",
+      "label": "Background",
+      "prob": 0.7332628965377808
+    },
+    {
+      "sentence": "They feel Spacewalker is highly valuable for the design task.",
+      "label": "Background",
+      "prob": 0.7270007133483887
+    },
+    {
+      "sentence": "To evaluate these options, it is often necessary to test them with users, via either usability testing [2, 4] or A/B testing at scale [6, 18].",
+      "label": "Background",
+      "prob": 0.7217130661010742
+    },
+    {
+      "sentence": "The Spacewalker system consists of three main components: an HTML specification parser, a genetic algorithm backend, and a crowdsourcing frontend.",
+      "label": "Background",
+      "prob": 0.7197955250740051
+    },
+    {
+      "sentence": "However, we focus on the design task where an interaction designer has a basic HTML design and wants to obtain an optimal configuration for the design by exploring a large range of options such as colors, fonts and layouts.",
+      "label": "Background",
+      "prob": 0.7179598808288574
+    },
+    {
+      "sentence": "When the worker selects their preferred design, the original feedback mask for that design is combined with the diff mask through a bitwise logical OR operation.",
+      "label": "Background",
+      "prob": 0.7143509984016418
+    },
+    {
+      "sentence": "P1 suggested that Spacewalker should provide suggestions for possible options to explore for a specific property, and warns designers when an option value is out of a reasonable range for a good design.",
+      "label": "Background",
+      "prob": 0.7109386324882507
+    },
+    {
+      "sentence": "Spacewalker provides integrated support to enable designers to rapidly explore a large design space to improve their web UI design.",
+      "label": "Background",
+      "prob": 0.707944929599762
+    },
+    {
+      "sentence": "These participants resemble HCI researchers and web developers who want to improve their design by quickly examining detailed design options with users at scale.We",
+      "label": "Background",
+      "prob": 0.7054005861282349
+    },
+    {
+      "sentence": "The specifications for these designs were created so that their search spaces are similar in size (between 972 and 1215, mean=1050) for all the tasks.",
+      "label": "Background",
+      "prob": 0.7047969698905945
+    },
+    {
+      "sentence": "Raters see a pair of designs side by side, and are asked to select the one that they prefer.",
+      "label": "Background",
+      "prob": 0.6999966502189636
+    },
+    {
+      "sentence": "To do so, she adds an explore-child-id attribute to the parent div node of the navigation bar, which instructs Spacewalker to only use one out of multiple candidates when generating and evaluating a design.",
+      "label": "Background",
+      "prob": 0.6996896266937256
+    },
+    {
+      "sentence": "We would like to thank anonymous reviewers for their insightful feedback for improving the paper.",
+      "label": "Background",
+      "prob": 0.6970874071121216
+    },
+    {
+      "sentence": "Crowdsourcing has shown success in providing comparable results for evaluating user interfaces with those acquired from a lab-based setting [8, 24].",
+      "label": "Background",
+      "prob": 0.696598470211029
+    },
+    {
+      "sentence": "The Spacewalker parser analyzes a design specification file by parsing its HTML structure, which derives an internal representation for the design search space.",
+      "label": "Background",
+      "prob": 0.6953709721565247
+    },
+    {
+      "sentence": "Alex can preview designs generated by Spacewalker based on her specifications.",
+      "label": "Background",
+      "prob": 0.6953675150871277
+    },
+    {
+      "sentence": "The Spacewalker system is built as a web service based on AppEngine 7 .",
+      "label": "Background",
+      "prob": 0.6940014362335205
+    },
+    {
+      "sentence": "We chose a .03 mutation rate in Spacewalker, which is in line with other genetic algorithms applied on a similar population size.",
+      "label": "Background",
+      "prob": 0.6922252178192139
+    },
+    {
+      "sentence": "We believe the above extensions can provide a good starting point for designers to understand the search space.",
+      "label": "Background",
+      "prob": 0.6901814937591553
+    },
+    {
+      "sentence": "This ensures that Spacewalker would globally apply these options: either color1 for titles and color2 for body text, or color3 for titles and color4 for body text.",
+      "label": "Background",
+      "prob": 0.6887483596801758
+    },
+    {
+      "sentence": "To study how users react to design alternatives at scale, A/B testing is widely used where variants of a design are tested with different user populations and user behaviors are logged and statistically analyzed by user experience researchers [6, 7].",
+      "label": "Background",
+      "prob": 0.6884992122650146
+    },
+    {
+      "sentence": "Therefore, each design search task needed 50 raters.",
+      "label": "Background",
+      "prob": 0.6848168969154358
+    },
+    {
+      "sentence": "Combinatorially, the number of pairwise comparisons needed to cover the smallest search space (50) is  250 = 1 , 225.",
+      "label": "Background",
+      "prob": 0.6836726665496826
+    },
+    {
+      "sentence": "Our quantitative experiments for examining the performance of Spacewalker algorithms for searching a design space indicate that it improves designs over time by producing better design candidates, particularly when the search space is large.",
+      "label": "Background",
+      "prob": 0.6813415884971619
+    },
+    {
+      "sentence": "We ran 100 comparison tasks for each search specification, and the rater must make a choice between one of the two designs.",
+      "label": "Background",
+      "prob": 0.6748384833335876
+    },
+    {
+      "sentence": "Each time, a pair of parents are randomly selected by the fitness function, and their genetic representations are mixed based on a crossover operator.",
+      "label": "Background",
+      "prob": 0.6745736598968506
+    },
+    {
+      "sentence": "We also enhanced genetic programming for addressing worker responses from pairwise comparison of designs, which makes genetic programming more applicable for UI optimization.",
+      "label": "Background",
+      "prob": 0.6743229031562805
+    },
+    {
+      "sentence": "The gist is how to search the vast space efficiently under the monetary and time constraint for a task.",
+      "label": "Background",
+      "prob": 0.6734273433685303
+    },
+    {
+      "sentence": "In addition, the parser adds a unique HTML id to elements without one, in order to link the attribute and options with the corresponding element.",
+      "label": "Background",
+      "prob": 0.6724597215652466
+    },
+    {
+      "sentence": "It looks specifically for the explore-* tags, and records the options for each attribute provided by the designer.",
+      "label": "Background",
+      "prob": 0.6708083152770996
+    },
+    {
+      "sentence": "It allows designers to easily instrument a design exploration using our simple markup extension, seamlessly distribute design critique tasks to crowd workers, and quickly receive exploration results with genetic algorithms.",
+      "label": "Background",
+      "prob": 0.6707119941711426
+    },
+    {
+      "sentence": "P1 and P4 reported that the syntax was easy to learn, \"even with basic knowledge background about HTML and CSS\" (P4).",
+      "label": "Background",
+      "prob": 0.6706133484840393
+    },
+    {
+      "sentence": "The target use case of Spacewalker is when a designer already has a basic design, and wants to examine a set of design alternatives or dimensions in mind, e.g., colors, styles and layouts, in light of user feedback.",
+      "label": "Background",
+      "prob": 0.6699125170707703
+    },
+    {
+      "sentence": "Currently, a designer can revise these parameters by examining the resulted designs shown in the Monitor view (see Figure 4) and schedule more iterations and workers to the task to improve the designs.",
+      "label": "Background",
+      "prob": 0.6697850227355957
+    },
+    {
+      "sentence": "It allows designers to specify the design space for exploration using a simple extension of HTML tags.",
+      "label": "Background",
+      "prob": 0.6656640768051147
+    },
+    {
+      "sentence": "In our early exploration, we found conventional GA sensitive to the random initialization of design options.",
+      "label": "Background",
+      "prob": 0.6638960242271423
+    },
+    {
+      "sentence": "When a worker is submitting a comparison result, or a new iteration is being generated by the genetic algorithm, the database is locked to ensure the atomicity of the operations.",
+      "label": "Background",
+      "prob": 0.6638837456703186
+    },
+    {
+      "sentence": "All the participants indicated at least three years of experience with web interface design and development.",
+      "label": "Background",
+      "prob": 0.6628159284591675
+    },
+    {
+      "sentence": "After creating the specifications for all the design aspects in questioning, Alex launches a Spacewalker task by specifying 50",
+      "label": "Background",
+      "prob": 0.6609807014465332
+    },
+    {
+      "sentence": "1) designing a markup annotation that is expressive and easy to use for specifying various design options,",
+      "label": "Background",
+      "prob": 0.6604267954826355
+    },
+    {
+      "sentence": "When the options shared by the pair of designs in comparison happen to be desirable, conventional GA yields good results.",
+      "label": "Background",
+      "prob": 0.660172164440155
+    },
+    {
+      "sentence": "and options to be explored, which are passed on to the genetic algorithm.",
+      "label": "Background",
+      "prob": 0.6577523350715637
+    },
+    {
+      "sentence": "Spacewalker shows an estimate about how much it would cost for using the crowd workers.",
+      "label": "Background",
+      "prob": 0.6538697481155396
+    },
+    {
+      "sentence": "The interface for the rater is straightforward (see Figure 3).",
+      "label": "Background",
+      "prob": 0.6450979709625244
+    },
+    {
+      "sentence": "Tamburrelli and Margara [22] explored approaches for optimizing software designs specified in Java through GA, basing their fitness function on the distance from users interaction position.",
+      "label": "Background",
+      "prob": 0.6391393542289734
+    },
+    {
+      "sentence": "If multiple properties need to be explored jointly (e.g., height and width), Spacewalker allows a designer to combine multiple properties for exploration by joining their names using \" -and\" and optional values using a semicolon ( ; ):",
+      "label": "Background",
+      "prob": 0.6210879683494568
+    },
+    {
+      "sentence": "Voyant allows designers to seek",
+      "label": "Background",
+      "prob": 0.6209535002708435
+    },
+    {
+      "sentence": "Behind the scene, Spacewalker creates three page designs with each using a different background choice.",
+      "label": "Background",
+      "prob": 0.617907702922821
+    },
+    {
+      "sentence": "We here discuss its syntax and parsing details.",
+      "label": "Background",
+      "prob": 0.6159129738807678
+    },
+    {
+      "sentence": "Four of them were trained in HCI and had experience with conducting user studies.",
+      "label": "Background",
+      "prob": 0.615774393081665
+    },
+    {
+      "sentence": "For example, in the <div> element for the background, Alex adds the following tag:",
+      "label": "Background",
+      "prob": 0.6058178544044495
+    },
+    {
+      "sentence": "To do so, a designer can use the explore-child-id tag in a parent node with the id of each child that corresponds a design candidate as options.",
+      "label": "Background",
+      "prob": 0.6014938354492188
+    },
+    {
+      "sentence": "To ease the effort for exploring a design space, previous work has extensively investigated using crowdsourcing as an essential component in UI design and evaluation [3, 911, 14, 15, 17, 25, 26], which lowers the threshold for acquiring user feedback at scale.",
+      "label": "Background",
+      "prob": 0.5989882946014404
+    },
+    {
+      "sentence": "The back-end server is responsible for scheduling workers for different web UI pairs without conflicts and supporting multiple workers submitting results at the same time, using database read/write lock.",
+      "label": "Background",
+      "prob": 0.594762921333313
+    },
+    {
+      "sentence": "We added exploration attributes and options to five additional web page templates, which are also based on Bootstrap examples 8 .",
+      "label": "Background",
+      "prob": 0.5899872183799744
+    },
+    {
+      "sentence": "Lastly, instead of exploring a design space based on elements, a designer can explore style options with CSS selectors using the same format as a regular CSS file, and by again prefixing the \" explore\" tag, and by using a line of dashes to indicate alternative styles (see examples in Section 3).",
+      "label": "Background",
+      "prob": 0.5800973176956177
+    },
+    {
+      "sentence": "These are beyond the scope of this paper.",
+      "label": "Background",
+      "prob": 0.5793039798736572
+    },
+    {
+      "sentence": "We can train a model to predict a reasonable worker and iteration size by incorporating design complexities.",
+      "label": "Background",
+      "prob": 0.5769491791725159
+    },
+    {
+      "sentence": "The crowd can be more actively involved in UI design tasks to provide feedback [14, 17, 25, 26] or participate in the design process [10, 11, 15].",
+      "label": "Background",
+      "prob": 0.5711204409599304
+    },
+    {
+      "sentence": "To address challenge 2), we enhanced a genetic algorithm by adding feedback mask-based stochastic sampling, to accommodate crowd worker responses from pairwise comparison of UI designsthat tends to yield more reliable feedback than rating each design separately.",
+      "label": "Background",
+      "prob": 0.5708974599838257
+    },
+    {
+      "sentence": "In this section, we discuss the system design and algorithmic details that underline the Spacewalker.",
+      "label": "Background",
+      "prob": 0.5672533512115479
+    },
+    {
+      "sentence": "The pairwise comparison of designs eases the rater task and yields more reliable feedback than rating a design individually on an absolute scale.",
+      "label": "Background",
+      "prob": 0.5582606792449951
+    },
+    {
+      "sentence": "In this case, we link the child choices to the parent choices in the genes.",
+      "label": "Background",
+      "prob": 0.5542616844177246
+    },
+    {
+      "sentence": "effectively utilize crowd worker feedback, our system can quickly explore the search space of a web design, which provides realtime feedback to the designer about the progress of the search.",
+      "label": "Background",
+      "prob": 0.5423403382301331
+    },
+    {
+      "sentence": "2) developing an algorithm to allow efficient exploration of a large design space based on crowd worker feedback, and",
+      "label": "Background",
+      "prob": 0.5415895581245422
+    },
+    {
+      "sentence": "For simplicity, we did not use these features in this paper.",
+      "label": "Background",
+      "prob": 0.540048360824585
+    },
+    {
+      "sentence": "For each of the tasks, our GA-based algorithm only visited a small portion of the design space.",
+      "label": "Background",
+      "prob": 0.5372906923294067
+    },
+    {
+      "sentence": "Our work is related to three areas of the literature, including UI evaluation methods, crowdsourcing-based design support, and interactive UI design optimization.",
+      "label": "Background",
+      "prob": 0.5300765037536621
+    },
+    {
+      "sentence": "Once a designer submits an HTML specification, the parser extracts the attributes",
+      "label": "Background",
+      "prob": 0.5262696146965027
+    },
+    {
+      "sentence": "As a result, we introduce variations to asequencewhere we haveyet to acquire raterfeedback.",
+      "label": "Background",
+      "prob": 0.5250213146209717
+    },
+    {
+      "sentence": "All participants were able to learn the Spacewalker markup syntax using the description we provided and were able to create syntactically correct specifications.",
+      "label": "Background",
+      "prob": 0.5222064256668091
+    },
+    {
+      "sentence": "We elaborate on our algorithm below and particularly focus on how the masks operate in the initialization, crossover, and mutation phase.",
+      "label": "Background",
+      "prob": 0.5221295952796936
+    },
+    {
+      "sentence": "Alex can monitor the progress of the task in the Progress Viewer (see Figure 4), which allows her to see the sample designs of the current generation (iteration).",
+      "label": "Background",
+      "prob": 0.5196412801742554
+    },
+    {
+      "sentence": "To preserve the hierarchical relationship of the HTML tree structure, the parser also maintains the hierarchical layout of the elements to be explored in a separate tree structure.",
+      "label": "Background",
+      "prob": 0.5170156359672546
+    },
+    {
+      "sentence": "We based our study on the Cover example provided by Bootstrap 8 , and we added Spacewalker markups to create the specifications used in the study.",
+      "label": "Background",
+      "prob": 0.5154809951782227
+    },
+    {
+      "sentence": "The resulting mask is assigned to the genetic sequence of the favored design, which captures both the information learned from previous generations (through the original feedback mask) and the current generation (through the diff mask).",
+      "label": "Background",
+      "prob": 0.5152398943901062
+    },
+    {
+      "sentence": "Here Alex would like to assure the titles ( <h1>,<h2> ) and the body paragraphs ( <p> ) are using matching colors that she designed, so she adds the options as a group:",
+      "label": "Background",
+      "prob": 0.5126712918281555
+    },
+    {
+      "sentence": "To adapt the genetic algorithm for searching an optimal UI configuration, we first encode each configuration as a genetic sequence, which is an ordered list of valued attributes whose value is denoted by the index to an",
+      "label": "Background",
+      "prob": 0.5115169882774353
+    },
+    {
+      "sentence": "On average, participants were able to understand and create a search specification in 28 minutes (SD = 13.8), exploring different options for five to eight attributes.",
+      "label": "Background",
+      "prob": 0.5019198656082153
+    },
+    {
+      "sentence": "On average, each task took about 1 hour to finish.",
+      "label": "Background",
+      "prob": 0.5013595223426819
+    },
+    {
+      "sentence": "In this experiment, we varied the search space size by using a different number of attributes and options in the design search specification.",
+      "label": "Background",
+      "prob": 0.4824700951576233
+    },
+    {
+      "sentence": "We here focus on Genetic Algorithms, a popular choice that has been used in the literature, with several important enhancements.",
+      "label": "Background",
+      "prob": 0.480897456407547
+    },
+    {
+      "sentence": "Apparition supports creating UI designs and animations from interface sketches and natural language descriptions through self-coordinated real-time crowdsourcing [9].",
+      "label": "Background",
+      "prob": 0.48018625378608704
+    },
+    {
+      "sentence": "Once enough feedback is received for one iteration, the genetic algorithm generates the next generation of designs, and the process is repeated until the specified number of iterations is reached.",
+      "label": "Background",
+      "prob": 0.4769379496574402
+    },
+    {
+      "sentence": "P1 praised the system for \"supporting all existing CSS properties\".",
+      "label": "Background",
+      "prob": 0.47230157256126404
+    },
+    {
+      "sentence": "Our tool then parses the annotated HTML or CSS specification, and intelligently generates and distributes various configurations of the web UI to crowd workers for evaluation.",
+      "label": "Background",
+      "prob": 0.4697791039943695
+    },
+    {
+      "sentence": "During initialization , the first generation is randomly generated, with the goal of covering as many configurations as possible.",
+      "label": "Background",
+      "prob": 0.4685365855693817
+    },
+    {
+      "sentence": "We asked each participant to add markups to one template HTML web page (the Cover example in Section 5.2.1), specifying exploration options for attributes or style sheet entries that they would like to change.",
+      "label": "Background",
+      "prob": 0.4646839201450348
+    },
+    {
+      "sentence": "A typical genetic algorithm (GA) follows an iterative process, where potential solutions evolve from a multi-generation process.",
+      "label": "Background",
+      "prob": 0.46445906162261963
+    },
+    {
+      "sentence": "Their optimization objectives (or fitness functions [12]) are designed based on user click behaviors of specific interaction tasks.",
+      "label": "Background",
+      "prob": 0.46428394317626953
+    },
+    {
+      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan ACM ISBN 978-1-4503-8096-6/21/05.",
+      "label": "Other",
+      "prob": 0.47872060537338257
+    },
+    {
+      "sentence": "In this paper, we present Spacewalker, a tool that allows designers to rapidly search a design space of a web UI for an optimal design within that space (see Figure 1).",
+      "label": "Background",
+      "prob": 0.46027663350105286
+    },
+    {
+      "sentence": "Our experiments indicate that Spacewalker is well received by designers, and Spacewalkers genetic search algorithm significantly outperformed a uniform sampling baseline under different search space sizes and web design types.",
+      "label": "Background",
+      "prob": 0.45533522963523865
+    },
+    {
+      "sentence": "that the quality of these designs could further improved with more iterations and workers.",
+      "label": "Background",
+      "prob": 0.450861394405365
+    },
+    {
+      "sentence": "For Spacewalker, we used 10 iterations with 50 design samples in each iteration, which requires 25 comparisons by the raters.",
+      "label": "Background",
+      "prob": 0.4499531090259552
+    },
+    {
+      "sentence": "The genetic algorithm generates design instances from the options, which are sent to the crowdsourcing frontend to collect worker feedback.",
+      "label": "Background",
+      "prob": 0.4495322108268738
+    },
+    {
+      "sentence": "We also systematically examine how well Spacewalker explores a design space for designers and improve designs over iterations.",
+      "label": "Background",
+      "prob": 0.4490894377231598
+    },
+    {
+      "sentence": "To do so, we introduce a bit mask, named feedback mask , for each genetic sequencethat corresponds a design instance, which has the same length as a genetic sequence.",
+      "label": "Background",
+      "prob": 0.44791722297668457
+    },
+    {
+      "sentence": "As an example, consider a specification that explores three attributes (A,B,C) .",
+      "label": "Background",
+      "prob": 0.44638651609420776
+    },
+    {
+      "sentence": "When an attribute is mutated, its mask is set to 0 .",
+      "label": "Background",
+      "prob": 0.4460316002368927
+    },
+    {
+      "sentence": "Our backend parses a design",
+      "label": "Background",
+      "prob": 0.4457452893257141
+    },
+    {
+      "sentence": "For Spacewalker, these designs were drawn",
+      "label": "Background",
+      "prob": 0.4452013373374939
+    },
+    {
+      "sentence": "Finally, the next generation goes through mutation , where the genetic sequences are randomly altered to prevent the algorithm from running into a local minima.",
+      "label": "Background",
+      "prob": 0.4450804889202118
+    },
+    {
+      "sentence": "To address challenge 1), We designed the HTML annotation as a simple extension of the existing HTML and CSS grammar, where instead of specifying a single value for an attribute, a designer can provide multiple candidate values for it, which are to be explored by Spacewalker.",
+      "label": "Background",
+      "prob": 0.44204941391944885
+    },
+    {
+      "sentence": "Similar to previous work, we also embed the crowd in the loop of the design and evaluation process.",
+      "label": "Background",
+      "prob": 0.43970561027526855
+    },
+    {
+      "sentence": "Figure 7 shows the top designs generated by Spacewalker and those from uniform sampling for each of the web pages.",
+      "label": "Background",
+      "prob": 0.4385184645652771
+    },
+    {
+      "sentence": "We compensated each rater that finished the 5 comparisons 0.5 US dollars.",
+      "label": "Background",
+      "prob": 0.43645015358924866
+    },
+    {
+      "sentence": "This indicates that the benefit of Spacewalker is well demonstrated across different web page types.",
+      "label": "Result",
+      "prob": 0.4692745804786682
+    },
+    {
+      "sentence": "To reduce the potential influence from a single worker, we used workers who had above 90% approval rate in MTurk, and limited each worker to performing 5 comparisons (10 samples).",
+      "label": "Method",
+      "prob": 0.4410044252872467
+    },
+    {
+      "sentence": "Two of the participants were graduate students and the other three were professional developers.",
+      "label": "Background",
+      "prob": 0.42899155616760254
+    },
+    {
+      "sentence": "It consists of four stages: initialization , selection , crossover , and mutation .",
+      "label": "Background",
+      "prob": 0.4279308617115021
+    },
+    {
+      "sentence": "recruit user participants, moderate a study session, and observe and analyze findings from the study [4].",
+      "label": "Background",
+      "prob": 0.42739421129226685
+    },
+    {
+      "sentence": "human raters 5 and 10 iterations (see Figure 2).",
+      "label": "Background",
+      "prob": 0.42050737142562866
+    },
+    {
+      "sentence": "To address the issue, we enhance traditional genetic algorithms, for each iteration, by directing rater feedback to genes that participate in a comparison while allowing the rest genes in a sequence to remain stochastic in the downstream evolution.",
+      "label": "Background",
+      "prob": 0.41325536370277405
+    },
+    {
+      "sentence": "By adapting genetic algorithms to",
+      "label": "Background",
+      "prob": 0.4118765890598297
+    },
+    {
+      "sentence": "The presentation order was randomized, and the rater had no knowledge of the underlying method of each design.",
+      "label": "Background",
+      "prob": 0.40886905789375305
+    },
+    {
+      "sentence": "Thus, our fitness function outputs 1 for the preferred design and 0 for the less preferred one.",
+      "label": "Background",
+      "prob": 0.40816348791122437
+    },
+    {
+      "sentence": "Finally, we want to emphasize that Spacewalker is able to identify an optimal design in a defined design space, instead of finding a globally optimal design.",
+      "label": "Objective",
+      "prob": 0.5450891256332397
+    },
+    {
+      "sentence": "3) creating a tool that can provide integrated support for design exploration.",
+      "label": "Background",
+      "prob": 0.402096152305603
+    },
+    {
+      "sentence": "To address challenge 3), we created a webbased tool that streamlined the entire task of design exploration including task creation, monitoring and evaluation.",
+      "label": "Background",
+      "prob": 0.38976991176605225
+    },
+    {
+      "sentence": "A crowd worker first signs in the worker interface by entering their worker ID, and then performs a sequence of evaluation tasks in which each trial involves indicating their preference over a pair of designs.",
+      "label": "Method",
+      "prob": 0.4750920832157135
+    },
+    {
+      "sentence": "In addition to exploring individual CSS properties, Alex wants to determine which design of the navigation bar she should use for the Product page.",
+      "label": "Objective",
+      "prob": 0.5533707141876221
+    },
+    {
+      "sentence": "All participants appreciated the time savings and improved efficiency when working with Spacewalker.",
+      "label": "Result",
+      "prob": 0.4995492696762085
+    },
+    {
+      "sentence": "Reinecke et al. evaluated a set of 430 web designs through 40,000 online participants, demonstrating the feasibility of largescale design evaluations through the crowd [17].",
+      "label": "Background",
+      "prob": 0.38271620869636536
+    },
+    {
+      "sentence": "We conduct a user study to investigate whether Spacewalker markup extension to HTML is easy to understand and use by designers and developers, and how they react to the overall support of Spacewalker for design exploration.",
+      "label": "Background",
+      "prob": 0.3818300664424896
+    },
+    {
+      "sentence": "We plan to infer these hyperparamters (the number of workers and iterations) needed automatically.",
+      "label": "Objective",
+      "prob": 0.46341246366500854
+    },
+    {
+      "sentence": "Experiment #1: Effects of Search Space Sizes.",
+      "label": "Background",
+      "prob": 0.3737170398235321
+    },
+    {
+      "sentence": "After the study, each participant was asked to comment on their experience with learning the markups and creating the specification.",
+      "label": "Background",
+      "prob": 0.36960551142692566
+    },
+    {
+      "sentence": "Finally, we consider nested designs (where one option value depend on another parent value).",
+      "label": "Background",
+      "prob": 0.3668574392795563
+    },
+    {
+      "sentence": "This instructs Spacewalker to explore three different alternatives for the page background: image \" bg1.jpg \", image \" bg2.jpg \", and a solid background with a dark gray color \" #333 \".",
+      "label": "Other",
+      "prob": 0.5125874280929565
+    },
+    {
+      "sentence": "ZIPT allows designers to collect and visualize interaction patterns for any Android apps from the crowd [3].",
+      "label": "Other",
+      "prob": 0.5324007272720337
+    },
+    {
+      "sentence": "For uniform sampling, they were chosen by ranking all the selected samples that were returned.",
+      "label": "Background",
+      "prob": 0.35818132758140564
+    },
+    {
+      "sentence": "A rater was only allowed to work in each method condition once.",
+      "label": "Method",
+      "prob": 0.38228172063827515
+    },
+    {
+      "sentence": "See Section 3 for an example.",
+      "label": "Background",
+      "prob": 0.35635825991630554
+    },
+    {
+      "sentence": "from the population of the last generation.",
+      "label": "Background",
+      "prob": 0.35601821541786194
+    },
+    {
+      "sentence": "Experiment #2: Effects of Web Page Designs.",
+      "label": "Background",
+      "prob": 0.3550921082496643
+    },
+    {
+      "sentence": "In this section, we discuss the strengths and limitation of our work, and our plan for future work.",
+      "label": "Objective",
+      "prob": 0.44385990500450134
+    },
+    {
+      "sentence": "We also conduct one-sample z-tests on the differences between a random draw and the voters preferences for Spacewalker in each search specification.",
+      "label": "Method",
+      "prob": 0.40583336353302
+    },
+    {
+      "sentence": "For all other uses, contact the owner/author(s).",
+      "label": "Other",
+      "prob": 0.6002382636070251
+    },
+    {
+      "sentence": "We invited five participants for this remote user study.",
+      "label": "Result",
+      "prob": 0.3757782578468323
+    },
+    {
+      "sentence": "We conducted two experiments to evaluate whether Spacewalker was able to efficiently search a design space and generate better designs by utilizing the responses from the crowd workers.",
+      "label": "Background",
+      "prob": 0.33008134365081787
+    },
+    {
+      "sentence": "The search space size of our designs ranges from 50 to 10000.",
+      "label": "Result",
+      "prob": 0.48790687322616577
+    },
+    {
+      "sentence": "Based on the result of each pairwise comparison, Spacewalker learns which design was preferred by a human rater to which the option contributes, and sets the corresponding mask value as 1 , and the rest as 0 .",
+      "label": "Result",
+      "prob": 0.3465217053890228
+    },
+    {
+      "sentence": "Our front end includes a task authoring interface for a designer to create and launch a task (see Figure 2), a monitor interface for the designer to monitor the task progress and export results (see Figure 4), and a worker interface for the worker to compare a pair of designs (see Figure 3).",
+      "label": "Method",
+      "prob": 0.402734637260437
+    },
+    {
+      "sentence": "Each rater in the evaluation was asked to compare designs from Spacewalker genetic method and those from uniform sampling side by side.",
+      "label": "Method",
+      "prob": 0.31367161870002747
+    },
+    {
+      "sentence": "We would also like to thank the participants in our user studies.",
+      "label": "Other",
+      "prob": 0.4673926532268524
+    },
+    {
+      "sentence": "This indicates that the larger the search space is the more benefit there is for using Spacewalker.",
+      "label": "Result",
+      "prob": 0.5513129234313965
+    },
+    {
+      "sentence": "During selection , the algorithm selects a portion of the current population as the parents for the next generation based on a fitness function.",
+      "label": "Method",
+      "prob": 0.5090512037277222
+    },
+    {
+      "sentence": "Participants then edited the provided the HTML documents in their preferred code or text editors, and we recorded the time used for them to experiment with the markups and complete each task.",
+      "label": "Method",
+      "prob": 0.4947868287563324
+    },
+    {
+      "sentence": "We then deployed another task to a separate group of crowd workers for evaluating the quality of these selected designs.",
+      "label": "Method",
+      "prob": 0.45206907391548157
+    },
+    {
+      "sentence": "Therefore, we treat each attribute independently during initialization, and generate design variations by sampling the options of one attribute at a time while affixing the rest exploratory attributes at a random value.",
+      "label": "Method",
+      "prob": 0.5416311025619507
+    },
+    {
+      "sentence": "We reviewed their completed HTML specifications to check if they were correct.",
+      "label": "Result",
+      "prob": 0.3506641387939453
+    },
+    {
+      "sentence": "4.2.3 Enhancing Genetic Algorithms.",
+      "label": "Other",
+      "prob": 0.4684251546859741
+    },
+    {
+      "sentence": "We received largely positive feedback from the participants.",
+      "label": "Result",
+      "prob": 0.6374216675758362
+    },
+    {
+      "sentence": "In addition, we observe a trend of increased preference for Spacewalker genetic method as the size of the search space increases (see Figure 6).",
+      "label": "Result",
+      "prob": 0.5295708775520325
+    },
+    {
+      "sentence": "Our research challenges are three-fold:",
+      "label": "Other",
+      "prob": 0.33503684401512146
+    },
+    {
+      "sentence": "To systematically examine how well Spacewalker algorithms can evolve a design by quickly searching a design space, we tested it on six design tasks that range in search space sizes and design types.",
+      "label": "Method",
+      "prob": 0.5103733539581299
+    },
+    {
+      "sentence": "However, we observed",
+      "label": "Result",
+      "prob": 0.4349871873855591
+    },
+    {
+      "sentence": "Our search algorithm searches efficiently given a budget that dictates the number of comparisons and raters can be used.Inaddition,",
+      "label": "Other",
+      "prob": 0.6152766346931458
+    },
+    {
+      "sentence": "alternatives, Alex decides to let Spacewalker to explore her design space.Todo",
+      "label": "Other",
+      "prob": 0.6271058917045593
+    },
+    {
+      "sentence": "4.2.2 UI Design Search as Crowd-Driven Genetic Programming.",
+      "label": "Other",
+      "prob": 0.6294373869895935
+    },
+    {
+      "sentence": "One method is single-point crossover, where a crossover point is randomly selected from both parents, and all the genetic representation to the right of the crossover point are swapped, forming two children (Figure 5).",
+      "label": "Method",
+      "prob": 0.5987594723701477
+    },
+    {
+      "sentence": "We enhanced the single-point crossover operation of genetic algorithms, by assigning random option values to positions in the sequence (corresponding attributes in the design) where the feedback mask is 0 in the descendants.",
+      "label": "Method",
+      "prob": 0.5320754051208496
+    },
+    {
+      "sentence": "In the first experiment, we examine the effect of different search space sizes on the techniques.",
+      "label": "Method",
+      "prob": 0.29710251092910767
+    },
+    {
+      "sentence": "<div explore-background = \"url(bg1.jpg) url(bg2.jpg) #333\" >",
+      "label": "Other",
+      "prob": 0.6775978207588196
+    },
+    {
+      "sentence": "If one configuration selected option 3 for attribute A , option 1 for attribute B , and option 6 for attribute C , then the resulted genetic representation is [3,1,6] .",
+      "label": "Other",
+      "prob": 0.561577320098877
+    },
+    {
+      "sentence": "We also used 70 raters here to ensure enough responses.",
+      "label": "Method",
+      "prob": 0.35525235533714294
+    },
+    {
+      "sentence": "After a task was finished, we selected the five designs that received most votes from raters for each method.",
+      "label": "Method",
+      "prob": 0.4883348345756531
+    },
+    {
+      "sentence": "Our experiments show that the concept of Spacewalker is well received by the designers and developers.",
+      "label": "Result",
+      "prob": 0.6636466383934021
+    },
+    {
+      "sentence": "Quiroz et al. combines GA with UI design metrics to reduce the number of choices needed by a user [16].",
+      "label": "Other",
+      "prob": 0.6711164712905884
+    },
+    {
+      "sentence": "Our participants gave us several useful suggestions for improvements.",
+      "label": "Result",
+      "prob": 0.5174877047538757
+    },
+    {
+      "sentence": "Imagine generates style sheets for HTML pages interactively through user selection [13].",
+      "label": "Other",
+      "prob": 0.7005352973937988
+    },
+    {
+      "sentence": "Spacewalker instead presents each rater a pair of different candidate designs at a time, and asks the rater to select the preferred design, i.e., a twoalternative forced-choice (2AFC) method.",
+      "label": "Method",
+      "prob": 0.6437844634056091
+    },
+    {
+      "sentence": "Then, the algorithm loops through the rest of the stages, where each iteration leads to a new generation.",
+      "label": "Method",
+      "prob": 0.5111373066902161
+    },
+    {
+      "sentence": "For uniform sampling, to ensure that it receives the same number of rater responses as the genetic method, we randomly deployed 500 samples, which amounts to 250 pairs thus 250 rater responses.",
+      "label": "Method",
+      "prob": 0.6508616805076599
+    },
+    {
+      "sentence": "We used the following templates in this experiment (search space sizes in parentheses): Album (972), Blog (1080), Cover (972), Dashboard (1215), Pricing (1056), Product (1008).",
+      "label": "Method",
+      "prob": 0.34136876463890076
+    },
+    {
+      "sentence": "We evaluated Spacewalker by asking interaction designers to use it for exploring a set of UI design tasks, and Spacewalker received positive feedback.",
+      "label": "Result",
+      "prob": 0.626591145992279
+    },
+    {
+      "sentence": "6 CSS variable on MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/CSS/ var()",
+      "label": "Other",
+      "prob": 0.730671763420105
+    },
+    {
+      "sentence": "For each pair of designs shown to a crowd worker, we compute a diff mask to capture the differences between their genetic sequences where the corresponding bits for the differences are set to 1 .",
+      "label": "Method",
+      "prob": 0.5915824770927429
+    },
+    {
+      "sentence": "We refer to this round of crowd tasks as the cross-method evaluation .",
+      "label": "Result",
+      "prob": 0.35107311606407166
+    },
+    {
+      "sentence": "Yang Li Google Research Mountain View, CA liyang@google.com",
+      "label": "Other",
+      "prob": 0.7448369860649109
+    },
+    {
+      "sentence": "250 comparisons were made for each design.",
+      "label": "Result",
+      "prob": 0.5147193074226379
+    },
+    {
+      "sentence": "explore<property-A> -and<property-B> = \" option-A-1;option-B-1 option-A-2;option-B-2 ...\"",
+      "label": "Other",
+      "prob": 0.7191853523254395
+    },
+    {
+      "sentence": "We analyzed the specifications submitted by the participants, and Table 1",
+      "label": "Other",
+      "prob": 0.5055072903633118
+    },
+    {
+      "sentence": "In sum, the only difference between the two conditions is the method used for searching the design space, while the rest aspects including the feedback mechanism is the same.",
+      "label": "Method",
+      "prob": 0.7183955907821655
+    },
+    {
+      "sentence": "For each search specification, we calculate the percentage of votes received by Spacewalker genetic method (the rest of the votes are received by uniform sampling).",
+      "label": "Method",
+      "prob": 0.660494327545166
+    },
+    {
+      "sentence": "2021 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.786501944065094
+    },
+    {
+      "sentence": "4 https://vwo.com/testing/ab-testing/",
+      "label": "Other",
+      "prob": 0.779697597026825
+    },
+    {
+      "sentence": "The setup of the two experiments is the following.",
+      "label": "Other",
+      "prob": 0.41751787066459656
+    },
+    {
+      "sentence": "option for the attribute.",
+      "label": "Other",
+      "prob": 0.6120450496673584
+    },
+    {
+      "sentence": "After selecting the parents, the next generation is generated through the crossover operation.",
+      "label": "Method",
+      "prob": 0.4954075217247009
+    },
+    {
+      "sentence": "We conducted both experiments following the same procedure.",
+      "label": "Method",
+      "prob": 0.40769127011299133
+    },
+    {
+      "sentence": "To further our understanding, we intend to compare the automatic process enabled by Spacewalker with the existing manual process for design search in realistic design projects in the future.",
+      "label": "Objective",
+      "prob": 0.8145083785057068
+    },
+    {
+      "sentence": "\" option-1 option-2 option-3 ...\"",
+      "label": "Other",
+      "prob": 0.8122900724411011
+    },
+    {
+      "sentence": "We also randomly shuffled the order of designs for both methods.",
+      "label": "Method",
+      "prob": 0.5700871348381042
+    },
+    {
+      "sentence": "3 https://www.optimizely.com/",
+      "label": "Other",
+      "prob": 0.8336462378501892
+    },
+    {
+      "sentence": "<div explore-child-id=\"nav-1 nav-2\" > <div id=\"nav-1\" > ... </div> <div id=\"nav-2\" > ... </div> <div class=\"title\"> ... </div> ... </div>",
+      "label": "Other",
+      "prob": 0.7793514728546143
+    },
+    {
+      "sentence": "7 https://cloud.google.com/appengine",
+      "label": "Other",
+      "prob": 0.836575448513031
+    },
+    {
+      "sentence": "In the second experiment, we test these search methods on different types of web pages.",
+      "label": "Method",
+      "prob": 0.5577187538146973
+    },
+    {
+      "sentence": "https://doi.org/10.1145/3411764.3445326",
+      "label": "Other",
+      "prob": 0.8497665524482727
+    },
+    {
+      "sentence": "The experiments indicate that UI designs obtained by Spacewalker were significantly more preferred by human evaluators 1 than those from a baseline method.",
+      "label": "Result",
+      "prob": 0.806332528591156
+    },
+    {
+      "sentence": "5.2.1 Experimental Procedures & Setup.",
+      "label": "Other",
+      "prob": 0.7920452952384949
+    },
+    {
+      "sentence": "Crowd raters, from the cross-method evaluation, showed significant preference for the designs generated by Spacewalker for all the search space sizes in Experiment 1 (see Table 2).",
+      "label": "Result",
+      "prob": 0.8194810748100281
+    },
+    {
+      "sentence": "In this study, we evaluate the usability of our proposed HTML extensions by gather informal feedback from web designers.",
+      "label": "Result",
+      "prob": 0.735389232635498
+    },
+    {
+      "sentence": "We compare Spacewalker genetic algorithm against a baseline method that uniformly samples the design space for crowd evaluation.",
+      "label": "Method",
+      "prob": 0.677236020565033
+    },
+    {
+      "sentence": "In Spacewalker, we aim to address these issues by providing an integrated support for designers to explore a large design space and improve their design.",
+      "label": "Objective",
+      "prob": 0.9029521346092224
+    },
+    {
+      "sentence": "The goal of our initialization process is to maximally cover possible options for each attribute, but meanwhile limit the total number of designs to be compared by human raters.",
+      "label": "Objective",
+      "prob": 0.8924456238746643
+    },
+    {
+      "sentence": "2 https://goodui.org/",
+      "label": "Other",
+      "prob": 0.8926830887794495
+    },
+    {
+      "sentence": "suggestions.",
+      "label": "Other",
+      "prob": 0.8135539293289185
+    },
+    {
+      "sentence": "<head> ... <explore-css> h1, h2: { color: (color1); } p : { color: (color2); } --------h1,h2:{ color: (color3); } p : { color: (color4); } </explore-css> ...</head>",
+      "label": "Other",
+      "prob": 0.7974644899368286
+    },
+    {
+      "sentence": "Our paper makes the following contributions:",
+      "label": "Other",
+      "prob": 0.8321059346199036
+    },
+    {
+      "sentence": "4.2.1 Genetic Algorithm Background.",
+      "label": "Other",
+      "prob": 0.8646724820137024
+    },
+    {
+      "sentence": "Initialization.",
+      "label": "Other",
+      "prob": 0.6827178597450256
+    },
+    {
+      "sentence": "The goal is to test whether web designers are able to learn and use our markups to specify search criteria and launch a design exploration task, and to gather feedback of the Spacewalker system.",
+      "label": "Objective",
+      "prob": 0.9146967530250549
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.8979548215866089
+    },
+    {
+      "sentence": "As P4 commented:",
+      "label": "Other",
+      "prob": 0.8369103074073792
+    },
+    {
+      "sentence": "4.1.2 Parsing.",
+      "label": "Other",
+      "prob": 0.9055430889129639
+    },
+    {
+      "sentence": "4.1.1 Syntax.",
+      "label": "Other",
+      "prob": 0.9103381633758545
+    },
+    {
+      "sentence": "We also aim to minimize the effort and cost of the designer to perform the task.",
+      "label": "Objective",
+      "prob": 0.8920279741287231
+    },
+    {
+      "sentence": "Crossover.",
+      "label": "Other",
+      "prob": 0.8838220834732056
+    },
+    {
+      "sentence": "We evaluate Spacewalker in multiple dimensions.",
+      "label": "Result",
+      "prob": 0.8866589665412903
+    },
+    {
+      "sentence": "5.1.1 Participants & Procedure.",
+      "label": "Other",
+      "prob": 0.8754450082778931
+    },
+    {
+      "sentence": "\"This tool provides (a) useful way to compare my designs. I used to use the Inspect tool in Chrome to try out different values of the styles of my attributes, but the limitation is that I can only modify one item at a time. With this tool I could manage my HTML/CSS code and potential designs of the whole page efficiently. It improves my productivity and experience significantly.\"",
+      "label": "Result",
+      "prob": 0.7127982974052429
+    },
+    {
+      "sentence": "summarizes the results.",
+      "label": "Result",
+      "prob": 0.8607693314552307
+    },
+    {
+      "sentence": "5.2.2 Performance Results.",
+      "label": "Result",
+      "prob": 0.662573516368866
+    },
+    {
+      "sentence": "5.1.2 Results & Feedback.",
+      "label": "Other",
+      "prob": 0.8442924618721008
+    },
+    {
+      "sentence": "For the experiment where Spacewalker is used to search for different web page types, we find that crowd raters, from the crossmethod evaluation, preferred the results produced by Spacewalker genetic method in all cases we tested when they are compared with those from the uniform sampling method (see Table 3).",
+      "label": "Result",
+      "prob": 0.8551549315452576
+    }
+  ]
+}
