@@ -4,6 +4,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
+from string import punctuation
 from typing import Dict, List
 
 import pysbd
@@ -228,12 +229,18 @@ class SPPPaper:
         matched_tokens = []
         matched_token_indices = []
         prev_find_ind = None
+
+        # Preprocess span to match tokenization schema of sentence tokens
+        span = span.replace(" - ", "-")
+
         for i, token in enumerate(self.sent_tokens_map[sentence]):
+            # Preprocess sentence tokens to match tokenization schema of span
+            cleaned_token_text = token.text.lower().strip(punctuation)
             if prev_find_ind:
-                find_ind = span.find(token.text.lower(), start=prev_find_ind)
+                find_ind = span.find(cleaned_token_text, start=prev_find_ind)
                 prev_find_ind = find_ind
             else:
-                find_ind = span.find(token.text.lower())
+                find_ind = span.find(cleaned_token_text)
             if find_ind != -1:
                 matched_tokens.append(token)
                 matched_token_indices.append(i)
