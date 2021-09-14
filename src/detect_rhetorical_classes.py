@@ -2,9 +2,10 @@ import json
 import os
 import re
 from collections import defaultdict
+from typing import List, Union
 
 import spacy
-from spacy.symbols import VERB
+from spacy.symbols import PRON, VERB
 
 from paper import RhetoricUnit, S2OrcPaper, SPPPaper
 
@@ -99,7 +100,9 @@ class AZClassifier:
 
         self.lexical_set = LexicalSet()
 
-    def _sentence_contains_root_or_aliases(self, sentence, roots):
+    def _sentence_contains_root_or_aliases(
+        self, sentence: str, roots: Union[str, List[str]]
+    ):
         if isinstance(roots, str):
             roots = [roots]
         sentence = sentence.lower().strip()
@@ -111,47 +114,47 @@ class AZClassifier:
                     found.append(token)
         return found
 
-    def _has_section(self, aliases):
+    def _has_section(self, aliases: List[str]):
         for section in self.paper.sections:
             for a in aliases:
                 if a in section.lower():
                     return True
         return False
 
-    def _is_in_introduction(self, sentence):
+    def _is_in_introduction(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
         return "introduction" in section_found
 
-    def _is_in_conclusion(self, sentence):
+    def _is_in_conclusion(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
         return "conclusion" in section_found
 
-    def _is_in_discussion(self, sentence):
+    def _is_in_discussion(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
         return "discussion" in section_found
 
-    def _is_in_related_work(self, sentence):
+    def _is_in_related_work(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
         aliases = ["related work", "background", "relatedwork"]
         return any(a in section_found for a in aliases)
 
-    def _is_in_future_work(self, sentence):
+    def _is_in_future_work(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
         aliases = ["future work"]
         return any(a in section_found for a in aliases)
 
-    def _is_in_result(self, sentence):
+    def _is_in_result(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
         aliases = ["result"]
         return any(a in section_found for a in aliases)
 
-    def _is_in_expected_section(self, sentence, label):
+    def _is_in_expected_section(self, sentence: str, label: str):
         if label == "contribution":
             return self._is_in_introduction(sentence)
         elif label == "objective":
@@ -183,7 +186,7 @@ class AZClassifier:
     def detect_contribution(self):
         print("=== Contribution ===")
         detected = []
-        for sent_bbox_obj in self.paper.sentences_bbox:
+        for sent_bbox_obj in self.paper.sentences:
             sentence = sent_bbox_obj.text
             bboxes = sent_bbox_obj.bboxes
             found = self._sentence_contains_root_or_aliases(sentence, ["contribution"])
@@ -213,7 +216,7 @@ class AZClassifier:
     def detect_objective(self):
         print("=== Objective ===")
         detected = []
-        for sent_bbox_obj in self.paper.sentences_bbox:
+        for sent_bbox_obj in self.paper.sentences:
             sentence = sent_bbox_obj.text
             bboxes = sent_bbox_obj.bboxes
             aim_noun_found = self._sentence_contains_root_or_aliases(
@@ -259,7 +262,7 @@ class AZClassifier:
     def detect_novelty(self):
         print("=== Novelty ===")
         detected = []
-        for sent_bbox_obj in self.paper.sentences_bbox:
+        for sent_bbox_obj in self.paper.sentences:
             sentence = sent_bbox_obj.text
             bboxes = sent_bbox_obj.bboxes
             found = self._sentence_contains_root_or_aliases(
@@ -289,7 +292,7 @@ class AZClassifier:
     def detect_result(self):
         print("=== Result ===")
         detected = []
-        for sent_bbox_obj in self.paper.sentences_bbox:
+        for sent_bbox_obj in self.paper.sentences:
             sentence = sent_bbox_obj.text
             bboxes = sent_bbox_obj.bboxes
             found = self._sentence_contains_root_or_aliases(sentence, ["observe"])
@@ -317,7 +320,7 @@ class AZClassifier:
     def detect_conclusion(self):
         print("=== Conclusion ===")
         detected = []
-        for sent_bbox_obj in self.paper.sentences_bbox:
+        for sent_bbox_obj in self.paper.sentences:
             sentence = sent_bbox_obj.text
             bboxes = sent_bbox_obj.bboxes
             con_found = self._sentence_contains_root_or_aliases(sentence, ["conclude"])
@@ -354,7 +357,7 @@ class AZClassifier:
     def detect_future_work(self):
         print("=== Future Work ===")
         detected = []
-        for sent_bbox_obj in self.paper.sentences_bbox:
+        for sent_bbox_obj in self.paper.sentences:
             sentence = sent_bbox_obj.text
             bboxes = sent_bbox_obj.bboxes
             found = self._sentence_contains_root_or_aliases(
@@ -383,7 +386,7 @@ class AZClassifier:
             detected.append(rhetoric_unit)
         return detected
 
-    def make_ssc_rhetoric_unit(self, sentence, label, prob=None):
+    def make_ssc_rhetoric_unit(self, sentence: str, label: str, prob: float = None):
         is_author_statement = (
             len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
         )
@@ -404,6 +407,71 @@ class AZClassifier:
             is_author_statement=is_author_statement,
             is_in_expected_section=is_in_expected_section,
         )
+
+    def _token_to_noun_chunk(self, doc):
+        noun_chunks = [nc for nc in doc.noun_chunks]
+        token_chunks = {}
+        for tok in doc:
+            for nc in noun_chunks:
+                if tok.i >= nc.start and tok.i < nc.end:
+                    token_chunks[tok] = nc
+                    break
+        return token_chunks
+
+    def _get_noun_chunk_after(self, noun_chunks, i):
+        for nc in noun_chunks:
+            if i >= nc.start and i < nc.end:
+                return nc
+
+    def get_author_statements(self):
+        author_statements = []
+        for sentence in self.paper.sentences:
+            if self._sentence_contains_root_or_aliases(sentence.text, "we"):
+                author_statements.append(sentence.text)
+        return author_statements
+
+    def get_short_author_statements(self):
+        short_statements = []
+        author_statements = self.get_author_statements()
+        for sent in author_statements:
+            doc = nlp(sent.lower())
+            clause_tokens = []
+            pron_found = False
+            verb_found = False
+            noun_chunk_found = False
+            clause_completed = False
+            sconj_found = False
+            for token in doc:
+                if token.lemma_ == "-PRON-" or token.pos == PRON:
+                    pron_found = True
+                    clause_completed = False
+                if pron_found and not clause_completed:
+                    if token.pos == VERB:
+                        clause_tokens.append(token.text)
+                        verb_found = True
+                    elif token.lemma_ == "that":
+                        clause_tokens.append(token.text)
+                        sconj_found = True
+                    elif verb_found:
+                        if not noun_chunk_found:
+                            clause_tokens.append(token.text)
+                            if self._get_noun_chunk_after(doc.noun_chunks, token.i):
+                                noun_chunk_found = True
+                        else:
+                            if not self._get_noun_chunk_after(doc.noun_chunks, token.i):
+                                if sconj_found:
+                                    clause_tokens.append(token.text)
+                                    noun_chunk_found = False
+                                    sconj_found = False
+                                else:
+                                    short_statement = " ".join(clause_tokens)
+                                    short_statements.append((short_statement, sent))
+                                    break
+                            else:
+                                clause_tokens.append(token.text)
+                    else:
+                        clause_tokens.append(token.text)
+        return short_statements
 
 
 if __name__ == "__main__":

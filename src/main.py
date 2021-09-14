@@ -4,16 +4,11 @@ import os
 from pprint import pprint
 
 from detect_rhetorical_classes import AZClassifier
-from extract_author_clauses import extract_author_sentences
+from paper import RhetoricUnit
 from run_spp import get_parsed_arxiv_pdf
 from run_ssc import run_ssc
-from utils import (
-    SPP_OUTPUT_DIR,
-    SSC_INPUT_DIR,
-    SSC_OUTPUT_DIR,
-    get_top_k_ssc_pred,
-    make_spp_output_to_ssc_input,
-)
+from utils import (SPP_OUTPUT_DIR, SSC_INPUT_DIR, SSC_OUTPUT_DIR,
+                   get_top_k_ssc_pred, make_spp_output_to_ssc_input)
 
 
 def main(args):
@@ -42,13 +37,25 @@ def main(args):
             output_json_file=ssc_output_file,
         )
 
-    # Extract sentences with author statements
-    # author_sents = extract_author_sentences(spp_output_file, dataset="spp")
-    # for sent in author_sents:
-    #     print(sent)
-
-    # # Extract rhetorical classes with heuristics
+    # Extract rhetorical classes with heuristics
     azc = AZClassifier(spp_output_file, dataset="spp")
+
+    author_statements = azc.get_short_author_statements()
+    for author_statement in author_statements:
+        short, full = author_statement[0], author_statement[1]
+        bboxes = azc.paper.get_bboxes_for_span(short, full)
+        rhetorical_units.append(
+            RhetoricUnit(
+                text=short,
+                label="Author",
+                bboxes=bboxes,
+                section=None,
+                prob=None,
+                is_author_statement=True,
+                is_in_expected_section=True,
+            )
+        )
+
     rhetorical_units += azc.detect_contribution()
     rhetorical_units += azc.detect_novelty()
     rhetorical_units += azc.detect_objective()
@@ -67,7 +74,9 @@ def main(args):
             label = pred_obj["label"]
             prob = pred_obj["prob"]
             if label in ["Method", "Objective", "Result"]:
-                rhetorical_units.append(azc.make_ssc_rhetoric_unit(sentence, label, prob))
+                rhetorical_units.append(
+                    azc.make_ssc_rhetoric_unit(sentence, label, prob)
+                )
 
     # for unit in rhetorical_units:
     #     print(json.dumps(unit.to_json(), indent=2))

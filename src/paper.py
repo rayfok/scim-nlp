@@ -8,7 +8,7 @@ from typing import Dict, List
 
 import pysbd
 
-from bbox import Block, BoundingBox, _bbox_to_json
+from bbox import Block, BoundingBox, _are_same_row, _bbox_to_json, _union_bboxes
 
 SEGMENTER = pysbd.Segmenter(language="en", clean=False, char_span=True)
 
@@ -74,8 +74,8 @@ class SPPPaper:
 
         self.blocks = self._get_blocks()
         self.sentences = self._get_sentences()
-        self.sentences_bbox = self._get_sentences_with_bbox()
-        self.sent_bbox_map = self._make_sent_bbox_map()
+        self.sent_bbox_map = {s.text: s.bboxes for s in self.sentences}
+        self.sent_tokens_map = {s.text: s.tokens for s in self.sentences}
 
         self.sent_sect_map = self._make_sent_sect_map()
         self.sections = list(set(self.sent_sect_map.values()))
@@ -84,30 +84,28 @@ class SPPPaper:
         return Block.build_blocks_from_spp_json(self.json_file_path)
 
     def _get_sentences(self):
-        sents = []
+        sentences = []
         for block in self.blocks:
-            sents.extend([self._clean_sentence(sent) for sent in block.sents])
-        return sents
+            sentences.extend([sent for sent in block.sents])
+        for sent in sentences:
+            sent.text = self._clean_sentence(sent.text)
+        return sentences
 
-    def _get_sentences_with_bbox(self):
-        sents_bbox = []
+    def _get_tokens_for_sentence(self):
+        sent_token_map = {}
         for block in self.blocks:
-            sents_bbox.extend([sent for sent in block.sents])
-        for sent in sents_bbox:
-            sent.text = self._clean_sentence(sent)
-        return sents_bbox
-
-    def _make_sent_bbox_map(self):
-        sent_bbox_map = {}
-        for sent_bbox in self.sentences_bbox:
-            sent_bbox_map[sent_bbox.text] = sent_bbox.bboxes
-        return sent_bbox_map
+            for token_sent_cluster in block.token_sent_clusters:
+                sent_tokens = [block.tokens[i] for i in token_sent_cluster]
+                sent = self._clean_sentence(" ".join([t.text for t in sent_tokens]))
+                sent_token_map[sent] = sent_tokens
+        return sent_token_map
 
     def _clean_sentence(self, sentence):
-        sentence_text = sentence.text.encode("ascii", "ignore")
-        sentence_text = sentence_text.decode()
-        sentence_text = sentence_text.replace("- ", "")
-        return sentence_text
+        cleaned = sentence.encode("ascii", "ignore")
+        cleaned = cleaned.decode()
+        cleaned = cleaned.replace("- ", "")
+        cleaned = cleaned.strip()
+        return cleaned
 
     def _get_title(self):
         if self.engine == "cermine":
@@ -175,7 +173,7 @@ class SPPPaper:
                 sent_to_sect[sent] = header
 
         for sent in self.sentences:
-            cands = difflib.get_close_matches(sent, sent_to_sect.keys())
+            cands = difflib.get_close_matches(sent.text, sent_to_sect.keys())
             num_close_matches = len(cands)
 
             # If there's exactly one close match, use it for the section label
@@ -195,16 +193,16 @@ class SPPPaper:
                     section = cand_sections[0]
                 else:
                     section = ""
-            sent_to_sect[sent] = section
+            sent_to_sect[sent.text] = section
 
         # For unlabeled sentences, if the previous and following labeled sentences
         # have the same label, use that label for the unlabeled sentence as well.
         for i, sent in enumerate(self.sentences):
-            if sent_to_sect[sent] == "":
+            if sent_to_sect[sent.text] == "":
                 prev_label = ""
                 j = i - 1
                 while j >= 0:
-                    cand_prev_label = sent_to_sect[self.sentences[j]]
+                    cand_prev_label = sent_to_sect[self.sentences[j].text]
                     if cand_prev_label != "":
                         prev_label = cand_prev_label
                         break
@@ -213,7 +211,7 @@ class SPPPaper:
                 next_label = ""
                 j = i + 1
                 while j < len(self.sentences):
-                    cand_next_label = sent_to_sect[self.sentences[j]]
+                    cand_next_label = sent_to_sect[self.sentences[j].text]
                     if cand_next_label != "":
                         next_label = cand_next_label
                         break
@@ -223,8 +221,70 @@ class SPPPaper:
 
         return sent_to_sect
 
-    def get_section_for_sentence(self, sentence):
+    def get_section_for_sentence(self, sentence: str):
         return self.sent_sect_map[sentence]
+
+    def get_bboxes_for_span(self, span, sentence) -> List[BoundingBox]:
+        matched_tokens = []
+        matched_token_indices = []
+        prev_find_ind = None
+        for i, token in enumerate(self.sent_tokens_map[sentence]):
+            if prev_find_ind:
+                find_ind = span.find(token.text.lower(), start=prev_find_ind)
+                prev_find_ind = find_ind
+            else:
+                find_ind = span.find(token.text.lower())
+            if find_ind != -1:
+                matched_tokens.append(token)
+                matched_token_indices.append(i)
+        longest_matched_token_indices = self._get_longest_consecutive_seq(
+            matched_token_indices
+        )
+        final_matched_tokens = [
+            t
+            for i, t in enumerate(self.sent_tokens_map[sentence])
+            if i in longest_matched_token_indices
+        ]
+        tokens_by_rows = self._cluster_tokens_by_row(final_matched_tokens)
+
+        final_bboxes = []
+        for row in tokens_by_rows:
+            final_bboxes.append(_union_bboxes([token.bbox for token in row]))
+
+        return final_bboxes
+
+    def _get_longest_consecutive_seq(self, X: List[int]):
+        longest = [X[0]]
+        cur = [X[0]]
+        for i in range(1, len(X)):
+            if X[i] == cur[-1] + 1:
+                cur.append(X[i])
+            else:
+                if len(cur) > len(longest):
+                    longest = cur
+                cur = [X[i]]
+        if len(cur) > len(longest):
+            longest = cur
+        return longest
+
+    def _cluster_tokens_by_row(self, tokens) -> List[List[int]]:
+        if not tokens:
+            return []
+        clusters_ind = [[0]]
+        for token_idx in range(1, len(tokens)):
+            current_token = tokens[token_idx]
+            prev_token = tokens[token_idx - 1]
+            if _are_same_row(bbox1=prev_token.bbox, bbox2=current_token.bbox):
+                clusters_ind[-1].append(token_idx)
+            else:
+                clusters_ind.append([token_idx])
+
+        # map clusters of indices to clusters of tokens
+        clusters = []
+        for row in clusters_ind:
+            clusters.append([tokens[i] for i in row])
+
+        return clusters
 
 
 class SciSummPaper:

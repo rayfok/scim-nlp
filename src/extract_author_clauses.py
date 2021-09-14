@@ -8,6 +8,9 @@ from spacy.symbols import VERB
 from paper import S2OrcPaper, SPPPaper
 from utils import make_ssc_input
 
+# Requires spacy>=3.0 and en_core_web_trf downloaded
+nlp = spacy.load("en_core_web_trf")
+
 
 def token_to_noun_chunk(doc):
     noun_chunks = [nc for nc in doc.noun_chunks]
@@ -47,16 +50,13 @@ def extract_author_sentences(json_file_path: str, dataset: str):
 
 def extract_author_clauses(json_file_path: str, dataset: str):
     sentences = extract_author_sentences(json_file_path, dataset)
-    clauses = [condense_author_clause(s) for s in sentences]
-    clauses = [c for c in clauses if c is not None]
+    clauses = [(condense_author_clause(s), s) for s in sentences]
+    clauses = [c for c in clauses if c[0] is not None]
     return clauses
 
 
 def condense_author_clause(sent: str):
-    nlp = spacy.load("en_core_web_md")
     doc = nlp(sent)
-    # for token in doc:
-    #     print(token.text, token.pos_, token.tag_, token.dep_)
     clause_tokens = []
     pron_found = False
     verb_found = False

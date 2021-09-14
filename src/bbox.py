@@ -1,11 +1,10 @@
-from typing import *
-
 import json
-from tqdm import tqdm
 from dataclasses import dataclass
+from typing import *
 
 import numpy as np
 import pysbd
+from tqdm import tqdm
 
 
 @dataclass(frozen=True)
@@ -33,7 +32,7 @@ class BoundingBox(FloatRectangle):
 
 
 def _bbox_to_json(bbox: BoundingBox) -> Dict:
-    return bbox.__dict__
+    return bbox if type(bbox) is dict else bbox.__dict__
 
 
 class SppBBox:
@@ -122,9 +121,12 @@ class SymbolWithBBoxes:
 
 
 class SentenceWithBBoxes:
-    def __init__(self, text: str, bboxes: List[BoundingBox]):
+    def __init__(
+        self, text: str, bboxes: List[BoundingBox], tokens: List[TokenWithBBox]
+    ):
         self.text = text
         self.bboxes = bboxes
+        self.tokens = tokens
 
     def __str__(self):
         s = ""
@@ -301,8 +303,9 @@ class Block:
             sent_bboxes = self._compute_sent_bboxes(
                 token_sent_cluster=token_sent_cluster
             )
+            tokens = [self.tokens[t] for t in token_sent_cluster]
             sent = SentenceWithBBoxes(
-                text=self.text[sent_start:sent_end], bboxes=sent_bboxes
+                text=self.text[sent_start:sent_end], bboxes=sent_bboxes, tokens=tokens
             )
             sents.append(sent)
         return sents
@@ -312,7 +315,7 @@ class Block:
         with open(infile) as f_in:
             page_dicts = json.load(f_in)
             blocks = []
-            for page_dict in tqdm(page_dicts):
+            for page_dict in page_dicts:
                 page_height = page_dict["height"]
                 page_width = page_dict["width"]
                 page_id = page_dict["index"]
