@@ -20,7 +20,9 @@ def make_ssc_input(id: str, sentences: List[str]) -> None:
 
 def make_spp_output_to_ssc_input(arxiv_id: str):
     p = SPPPaper(f"{SPP_OUTPUT_DIR}/{arxiv_id}.json")
-    make_ssc_input(arxiv_id, [s.text for s in p.sentences])
+    sentences = [s.text for s in p.sentences]
+    sentences = [s for s in sentences if len(s) >= 10]
+    make_ssc_input(arxiv_id, sentences)
 
 
 def get_top_k_ssc_pred(data: Any, k: int = 5):
