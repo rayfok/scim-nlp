@@ -70,6 +70,7 @@ class LexicalSet:
                 "differ",
                 "different",
                 "difference",
+                "unlike"
             ],
             "than": ["compare"],
             "however": ["other hand", "although", "though", "but"],
@@ -129,7 +130,8 @@ class AZClassifier:
     def _is_in_conclusion(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
-        return "conclusion" in section_found
+        aliases = ["conclusion", "concluding"]
+        return any(a in section_found for a in aliases)
 
     def _is_in_discussion(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)

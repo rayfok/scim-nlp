@@ -25,14 +25,17 @@ def make_spp_output_to_ssc_input(arxiv_id: str):
     make_ssc_input(arxiv_id, sentences)
 
 
-def get_top_k_ssc_pred(data: Any, k: int = 5):
-    output = {}  # { paper_id: { <label>: [<pred>] }
+def get_top_k_ssc_pred(data: Any, label: str = "", k: int = 5):
+    output = {}
+    assert len(data.keys()) == 1
     for paper_id, preds in data.items():
-        output[paper_id] = {}
         by_cat = defaultdict(list)
         for pred in preds:
             by_cat[pred["label"]].append(pred)
         for cat, cat_preds in by_cat.items():
             cat_preds_sorted = sorted(cat_preds, key=lambda x: x["prob"], reverse=True)
-            output[paper_id][cat] = cat_preds_sorted[:k]
-    return output
+            output[cat] = cat_preds_sorted[:k]
+    if label == "":
+        return output
+    else:
+        return output[label]

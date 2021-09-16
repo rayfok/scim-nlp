@@ -7,8 +7,13 @@ from detect_rhetorical_classes import AZClassifier
 from paper import RhetoricUnit
 from run_spp import get_parsed_arxiv_pdf
 from run_ssc import run_ssc
-from utils import (SPP_OUTPUT_DIR, SSC_INPUT_DIR, SSC_OUTPUT_DIR,
-                   get_top_k_ssc_pred, make_spp_output_to_ssc_input)
+from utils import (
+    SPP_OUTPUT_DIR,
+    SSC_INPUT_DIR,
+    SSC_OUTPUT_DIR,
+    get_top_k_ssc_pred,
+    make_spp_output_to_ssc_input,
+)
 
 
 def main(args):
@@ -67,12 +72,13 @@ def main(args):
     rhetorical_units += azc.detect_conclusion()
     rhetorical_units += azc.detect_future_work()
 
-    # Print the top k sentences (based on model probs) for each category
     with open(ssc_output_file, "r") as f:
         ssc_preds = json.load(f)
-    top_k_pred = get_top_k_ssc_pred(ssc_preds, k=5)
-    # pprint(top_k_pred)
-    for label, preds_for_label in top_k_pred[args.arxiv_id].items():
+    top_preds = get_top_k_ssc_pred(ssc_preds, k=3)
+    top_preds["Method"] = get_top_k_ssc_pred(ssc_preds, label="Method", k=8)
+    top_preds["Result"] = get_top_k_ssc_pred(ssc_preds, label="Result", k=8)
+
+    for label, preds_for_label in top_preds.items():
         for pred_obj in preds_for_label:
             sentence = pred_obj["sentence"]
             label = pred_obj["label"]
