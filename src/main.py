@@ -15,10 +15,20 @@ from utils import (
     make_spp_output_to_ssc_input,
 )
 
+from paper import *
+
+OUTPUT_ROOT_DIR = "output"
+
 
 def main(args):
-    output_dir = "output/detected"
-    if os.path.exists(f"{output_dir}/{args.arxiv_id}.json"):
+    output_path = f"{OUTPUT_ROOT_DIR}/detected"
+    captions_output_path = f"{OUTPUT_ROOT_DIR}/captions"
+    os.makedirs(output_path, exist_ok=True)
+    os.makedirs(captions_output_path, exist_ok=True)
+
+    if os.path.exists(f"{output_path}/{args.arxiv_id}.json") and os.path.exists(
+        f"{captions_output_path}/{args.arxiv_id}.json"
+    ):
         return
 
     rhetorical_units = []  # list to hold outputs
@@ -49,6 +59,24 @@ def main(args):
     # Extract rhetorical classes with heuristics
     azc = AZClassifier(spp_output_file, dataset="spp")
 
+    ## First, we get approximate figure and table locations (using their caption bboxes)
+    media_units = []
+    caption_bboxes = azc.paper.get_caption_bboxes()
+    for caption_bbox in caption_bboxes:
+        if any(x in caption_bbox.text.lower() for x in ["fig.", "figure"]):
+            media_type = "figure"
+        elif any(x in caption_bbox.text.lower() for x in ["tab.", "table"]):
+            media_type = "table"
+        else:
+            media_type = ""
+        media_units.append(
+            MediaUnit(type=media_type, text=caption_bbox.text, bbox=caption_bbox.bbox)
+        )
+    with open(f"{captions_output_path}/{args.arxiv_id}.json", "w") as out:
+        serialized = [m.to_json() for m in media_units]
+        json.dump(serialized, out, indent=2)
+
+    ## Next, we get author statements (i.e., clauses including "we", "our", "this paper")
     author_statements = azc.get_short_author_statements()
     for author_statement in author_statements:
         short, full = author_statement[0], author_statement[1]
@@ -65,6 +93,7 @@ def main(args):
             )
         )
 
+    ## Next, we detect each of the predefined facets
     rhetorical_units += azc.detect_contribution()
     rhetorical_units += azc.detect_novelty()
     rhetorical_units += azc.detect_objective()
@@ -72,6 +101,7 @@ def main(args):
     rhetorical_units += azc.detect_conclusion()
     rhetorical_units += azc.detect_future_work()
 
+    ## Next, we filter the output of the facet classifier with a facet-sensitive threhsold
     with open(ssc_output_file, "r") as f:
         ssc_preds = json.load(f)
     top_preds = get_top_k_ssc_pred(ssc_preds, k=3)
@@ -88,12 +118,8 @@ def main(args):
                     azc.make_ssc_rhetoric_unit(sentence, label, prob)
                 )
 
-    # for unit in rhetorical_units:
-    #     print(json.dumps(unit.to_json(), indent=2))
-
-    # Dump all detected rhetorical units to JSON file
-    os.makedirs(output_dir, exist_ok=True)
-    with open(f"{output_dir}/{args.arxiv_id}.json", "w") as out:
+    ## Finally, we output all detected rhetorical units to a JSON file
+    with open(f"{output_path}/{args.arxiv_id}.json", "w") as out:
         serialized = [r.to_json() for r in rhetorical_units]
         json.dump(serialized, out, indent=2)
 

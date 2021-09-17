@@ -33,6 +33,21 @@ class RhetoricUnit:
         self.to_json()
 
 
+@dataclass
+class MediaUnit:
+    type: str
+    text: str
+    bbox: BoundingBox
+
+    def to_json(self) -> Dict:
+        out = self.__dict__
+        out["bbox"] = _bbox_to_json(self.bbox)
+        return out
+
+    def __repr__(self):
+        self.to_json()
+
+
 class S2OrcPaper:
     def __init__(self, json_file_path: str):
         with open(json_file_path, "r") as f:
@@ -292,6 +307,11 @@ class SPPPaper:
             clusters.append([tokens[i] for i in row])
 
         return clusters
+
+    def get_caption_bboxes(self):
+        return Block.build_blocks_from_spp_json(
+            infile=self.json_file_path, type="caption"
+        )
 
 
 class SciSummPaper:

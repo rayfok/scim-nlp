@@ -28,7 +28,7 @@ def make_spp_output_to_ssc_input(arxiv_id: str):
 def get_top_k_ssc_pred(data: Any, label: str = "", k: int = 5):
     output = {}
     assert len(data.keys()) == 1
-    for paper_id, preds in data.items():
+    for _, preds in data.items():
         by_cat = defaultdict(list)
         for pred in preds:
             by_cat[pred["label"]].append(pred)

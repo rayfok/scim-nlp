@@ -311,7 +311,7 @@ class Block:
         return sents
 
     @staticmethod
-    def build_blocks_from_spp_json(infile: str) -> List["Block"]:
+    def build_blocks_from_spp_json(infile: str, type: str = "paragraph") -> List["Block"]:
         with open(infile) as f_in:
             page_dicts = json.load(f_in)
             blocks = []
@@ -321,7 +321,7 @@ class Block:
                 page_id = page_dict["index"]
                 block_dicts = page_dict["layout"]["bundles"]
                 for block_dict in block_dicts:
-                    if block_dict["type"] != "paragraph":
+                    if block_dict["type"] != type:
                         continue
                     block_bbox: BoundingBox = SppBBox.normalize_spp_bbox_json(
                         spp_bbox_json=block_dict["bbox"],
