@@ -15,7 +15,7 @@ nlp = spacy.load("en_core_web_md")
 class LexicalSet:
     def __init__(self):
         self.lexical_set = {
-            "we": ["our", "present study", "this paper", "this work"],
+            "we": ["our", "present study", "this paper", "this work", "this research"],
             "previous": ["previously", "recent", "recently"],
             "thus": ["therefore"],
             "aim": ["objective", "goal", "purpose", "objectives", "goals", "purposes"],
@@ -31,11 +31,12 @@ class LexicalSet:
                 "characterize",
                 "analyze",
                 "report",
+                "seek",
                 # "present",
             ],
             "use": ["employ"],
             "method": ["algorithm", "assay"],
-            "observe": ["see", "find", "show"],
+            "observe": ["we see", "find", "show"],
             "conclude": ["conclusion", "summarize", "summary"],
             "suggest": [
                 "illustrate",
@@ -70,10 +71,10 @@ class LexicalSet:
                 "differ",
                 "different",
                 "difference",
-                "unlike"
+                "unlike",
             ],
             "than": ["compare"],
-            "however": ["other hand", "although", "though", "but"],
+            "however": ["other hand", "although", "though", "but", "while", "despite"],
             "extend": ["extension", "extends"],
             "contribution": ["contributions", "contribute", "contributes"],
         }
@@ -153,7 +154,7 @@ class AZClassifier:
     def _is_in_result(self, sentence: str):
         section_found = self.paper.get_section_for_sentence(sentence)
         section_found = section_found.lower()
-        aliases = ["result"]
+        aliases = ["result", "evaluation", "finding", "study", "experiment"]
         return any(a in section_found for a in aliases)
 
     def _is_in_expected_section(self, sentence: str, label: str):
@@ -171,6 +172,7 @@ class AZClassifier:
             return (
                 self._is_in_introduction(sentence)
                 or self._is_in_result(sentence)
+                or self._is_in_discussion(sentence)
                 or self._is_in_conclusion(sentence)
             )
         elif label == "conclusion":

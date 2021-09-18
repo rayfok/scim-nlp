@@ -9,7 +9,7 @@ from typing import Dict, List
 
 import pysbd
 
-from bbox import Block, BoundingBox, _are_same_row, _bbox_to_json, _union_bboxes
+from bbox import Block, BoundingBox, SentenceWithBBoxes, _are_same_row, _bbox_to_json, _union_bboxes
 
 SEGMENTER = pysbd.Segmenter(language="en", clean=False, char_span=True)
 
@@ -312,6 +312,25 @@ class SPPPaper:
         return Block.build_blocks_from_spp_json(
             infile=self.json_file_path, type="caption"
         )
+
+    def get_first_sentences(self) -> List[SentenceWithBBoxes]:
+        if not self.blocks:
+            return []
+        first_sents = []
+        for block in self.blocks:
+            if not block.sents:
+                continue
+            if block.text[0].isupper():
+                first_sent = block.sents[0]
+                if len(first_sent.text) >= 15:
+                    first_sents.append(first_sent)
+            elif block.text[0].isdigit():
+                if len(block.sents) > 1:
+                    if block.sents[1].text[0].isupper():
+                        first_sent = block.sents[1]
+                        if len(first_sent.text) >= 15:
+                            first_sents.append(first_sent)
+        return first_sents
 
 
 class SciSummPaper:

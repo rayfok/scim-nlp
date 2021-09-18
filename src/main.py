@@ -21,15 +21,16 @@ OUTPUT_ROOT_DIR = "output"
 
 
 def main(args):
-    output_path = f"{OUTPUT_ROOT_DIR}/detected"
+    output_path = f"{OUTPUT_ROOT_DIR}/facets"
     captions_output_path = f"{OUTPUT_ROOT_DIR}/captions"
-    os.makedirs(output_path, exist_ok=True)
-    os.makedirs(captions_output_path, exist_ok=True)
+    sentences_output_path = f"{OUTPUT_ROOT_DIR}/sentences"
 
-    if os.path.exists(f"{output_path}/{args.arxiv_id}.json") and os.path.exists(
-        f"{captions_output_path}/{args.arxiv_id}.json"
-    ):
+    paths = [output_path, captions_output_path, sentences_output_path]
+    if all(os.path.exists(f"{p}/{args.arxiv_id}.json") for p in paths):
         return
+
+    for p in paths:
+        os.makedirs(p, exist_ok=True)
 
     rhetorical_units = []  # list to hold outputs
 
@@ -59,7 +60,7 @@ def main(args):
     # Extract rhetorical classes with heuristics
     azc = AZClassifier(spp_output_file, dataset="spp")
 
-    ## First, we get approximate figure and table locations (using their caption bboxes)
+    # First, we get approximate figure and table locations (using their caption bboxes)
     media_units = []
     caption_bboxes = azc.paper.get_caption_bboxes()
     for caption_bbox in caption_bboxes:
@@ -74,6 +75,11 @@ def main(args):
         )
     with open(f"{captions_output_path}/{args.arxiv_id}.json", "w") as out:
         serialized = [m.to_json() for m in media_units]
+        json.dump(serialized, out, indent=2)
+
+    ## Next, we get all first sentences and their bboxes.
+    with open(f"{sentences_output_path}/{args.arxiv_id}.json", "w") as out:
+        serialized = [s.to_json() for s in azc.paper.get_first_sentences()]
         json.dump(serialized, out, indent=2)
 
     ## Next, we get author statements (i.e., clauses including "we", "our", "this paper")
