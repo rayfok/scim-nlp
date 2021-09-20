@@ -1,1709 +1,1709 @@
 {
   "2102.00625": [
     {
-      "sentence": "AI systems and robots are being widely adopted across society.",
-      "label": "Background",
-      "prob": 0.9826287031173706
-    },
-    {
-      "sentence": "However, little datadriven research has collected public opinion on how responsibility should be attributed for AI and robots actions.",
-      "label": "Background",
-      "prob": 0.981436550617218
-    },
-    {
-      "sentence": "Hence, there is no contradiction in people attributing blame to AI systems for harms, although they should not be praised for opposing consequences.",
-      "label": "Background",
-      "prob": 0.9802578091621399
-    },
-    {
-      "sentence": "Simultaneously, their self-learning capabilities and opacity do not allow users, designers, and manufacturers to foresee consequences.",
-      "label": "Background",
-      "prob": 0.9798088669776917
-    },
-    {
-      "sentence": "Existing studies addressing how users might attribute blame to automated agents have mostly focused on robots.",
-      "label": "Background",
-      "prob": 0.9757039546966553
-    },
-    {
-      "sentence": "These algorithms do not make decisions themselves, but rather advise humans in their decision-making processes.",
-      "label": "Background",
-      "prob": 0.9752925038337708
-    },
-    {
-      "sentence": "Therefore, liability is distributed across various entities, such as the government and the court per se.",
-      "label": "Background",
-      "prob": 0.9734876155853271
-    },
-    {
       "sentence": "A growing number of HCI research has been devoted to understanding how people perceive algorithmic decisions and their consequences in society.",
       "label": "Background",
-      "prob": 0.9722871780395508
-    },
-    {
-      "sentence": "Most research on the responsibility gap has been normative in that they prescribed ethical principles and proposed solutions.",
-      "label": "Background",
-      "prob": 0.971991777420044
+      "prob": 0.9547936320304871
     },
     {
       "sentence": "Until now, scholars in multiple disciplines, including ethics, philosophy, computer science, and law, have suggested possible solutions to this moral and legal dilemma.",
       "label": "Background",
-      "prob": 0.9676589369773865
-    },
-    {
-      "sentence": "Previous work has not controlled for a systems interpretability, and therefore such trends might either i ) be caused by the lack of explanations or ii ) be aggravated if people become aware that AI systems cannot justify their moral decisions.",
-      "label": "Background",
-      "prob": 0.9668664932250977
-    },
-    {
-      "sentence": "retributive aspect of punishment [25], often drawing a connection between punishment and blame.",
-      "label": "Background",
-      "prob": 0.9594573974609375
-    },
-    {
-      "sentence": "It is important to note that AI systems might not be appropriate subjects of (retributive) blame [26, 89], i.e., scholars argue that blaming automated agents would be wrong and unsuccessful.",
-      "label": "Background",
-      "prob": 0.9593644738197327
-    },
-    {
-      "sentence": "Theories of moral responsibility date back to Aristotle, who argued that an entity should satisfy both freedom and epistemic conditions to appropriately be ascribed to moral responsibility.",
-      "label": "Background",
-      "prob": 0.9585444927215576
-    },
-    {
-      "sentence": "Nonetheless, little attention is paid to the public attribution of (moral) responsibility to stakeholders (e.g., [43, 56, 81]), particularly the prospect of responsibility ascription to the AI system per se.",
-      "label": "Background",
-      "prob": 0.9579679369926453
-    },
-    {
-      "sentence": "Although descriptive and present-looking, these notions lead to the prescription of forward-looking responsibilities, such as an obligation.",
-      "label": "Background",
-      "prob": 0.9576607346534729
-    },
-    {
-      "sentence": "Attributing responsibility to an entity can be both descriptive (e.g., causal responsibility) and normative (e.g., blameworthiness).",
-      "label": "Background",
-      "prob": 0.9558862447738647
-    },
-    {
-      "sentence": "Although a clear separation is fuzzy, one may find two schools of thought on the responsibility gap issue.",
-      "label": "Background",
-      "prob": 0.9542274475097656
+      "prob": 0.9503060579299927
     },
     {
       "sentence": "A common concern raised by scholarly work is that blaming or punishing an AI system might lead to social disruptions.",
       "label": "Background",
-      "prob": 0.954214870929718
+      "prob": 0.941895067691803
     },
     {
-      "sentence": "On the other hand, AI systems are ascribed lower levels of all these responsibility notions.",
+      "sentence": "However, little datadriven research has collected public opinion on how responsibility should be attributed for AI and robots actions.",
       "label": "Background",
-      "prob": 0.9535277485847473
+      "prob": 0.9402546882629395
     },
     {
-      "sentence": "Responsibility has multiple distinct meanings depending on its purpose and requirements.",
+      "sentence": "AI systems and robots are being widely adopted across society.",
       "label": "Background",
-      "prob": 0.9532558917999268
+      "prob": 0.9319925904273987
     },
     {
-      "sentence": "a state-of-affairs does not necessarily prescribe a moral evaluation of the action.",
+      "sentence": "retributive aspect of punishment [25], often drawing a connection between punishment and blame.",
       "label": "Background",
-      "prob": 0.9509117603302002
-    },
-    {
-      "sentence": "Moreover, taking praise as positive reinforcement, praising the decision-maker over an advisor might have a bigger influence over future outcomes.",
-      "label": "Background",
-      "prob": 0.9507187604904175
-    },
-    {
-      "sentence": "Taking morality as a human-made construct [93], it may be inevitable to hold AI systems responsible alongside their users and designers so that this formulation is kept intact.",
-      "label": "Background",
-      "prob": 0.9497776627540588
-    },
-    {
-      "sentence": "Holding an agent responsible fulfills a wide range of social and legal functions.",
-      "label": "Background",
-      "prob": 0.947892427444458
-    },
-    {
-      "sentence": "Punishment fulfills many societal goals, such as making victims whole, the satisfaction of retributive feelings, and offenders reform.",
-      "label": "Background",
-      "prob": 0.9473574757575989
-    },
-    {
-      "sentence": "Responsibility can also be divided into backward-looking notions if they evaluate a past action and possibly lead to reactive attitudes [106], or forwardlooking notions if they prescribe obligations.",
-      "label": "Background",
-      "prob": 0.9471109509468079
-    },
-    {
-      "sentence": "Agents must act freely, without coercion, and understand their actions.",
-      "label": "Background",
-      "prob": 0.9465726017951965
-    },
-    {
-      "sentence": "Likewise, HCI research has found that people attribute blame to robotic agents upon harm, particularly if they are described to be autonomous and serve the main cause of harm [37, 52, 67].",
-      "label": "Background",
-      "prob": 0.9464408159255981
-    },
-    {
-      "sentence": "The responsibility notions that were attributed to human agents to a greater extent than to AIs are presentand forward-looking in the sense that they are descriptive, i.e., by stating a fact, and prescribe obligations.",
-      "label": "Background",
-      "prob": 0.9452947378158569
-    },
-    {
-      "sentence": "AI and robots are part of the socio-technological ensemble, in which responsibility can be distributed across multiple entities with varying degrees [32].",
-      "label": "Background",
-      "prob": 0.9429605603218079
-    },
-    {
-      "sentence": "Although a judges decision can directly affect a defendants rights depending on the appropriateness of ones jailing, preventing re-offenses is a complex task that encompasses diverse factors, such as policing and the defendants decision to re-offend.",
-      "label": "Background",
-      "prob": 0.9422938227653503
-    },
-    {
-      "sentence": "Early career judges are taking turns receiving advice from this AI program and another human judge, hired to serve as an advisor.",
-      "label": "Background",
-      "prob": 0.940668523311615
-    },
-    {
-      "sentence": "It not only addresses the moral dimension of society but also tackles legal concepts and other descriptive notions.",
-      "label": "Background",
-      "prob": 0.939362645149231
-    },
-    {
-      "sentence": "If the general public believes praising an AI system does not make sense, people might perceive blameworthiness similarly, contradicting our results.",
-      "label": "Background",
-      "prob": 0.9385068416595459
-    },
-    {
-      "sentence": "Hence, people might not believe that compensation is needed or deserved, or attribute this notion of responsibility to other entities, such as the court or the government, leading to a lower ascription of liability to the advisor or decision-maker.",
-      "label": "Background",
-      "prob": 0.9358823299407959
-    },
-    {
-      "sentence": "and the latter described a fictional circumstance where AI is the decision-maker itself.",
-      "label": "Background",
-      "prob": 0.9355230927467346
-    },
-    {
-      "sentence": "Similarly to the arguments against holding AI responsible per se, focusing on the fact that they do not have mental states required for existing responsibility practices [89, 96], praising an AI might lose its meaning if done as if it were towards humans.",
-      "label": "Background",
-      "prob": 0.9353413581848145
-    },
-    {
-      "sentence": "As their causal connection to the consequence is deemed alike, they are attributed to similar blame levels.",
-      "label": "Background",
-      "prob": 0.9333435297012329
+      "prob": 0.9297863841056824
     },
     {
       "sentence": "For instance, if a human judge chooses to disagree with advice, some of the advisors responsibilities might be shifted towards the decision-maker regardless of the advisors nature.",
       "label": "Background",
-      "prob": 0.9313884973526001
+      "prob": 0.9291262626647949
+    },
+    {
+      "sentence": "Simultaneously, their self-learning capabilities and opacity do not allow users, designers, and manufacturers to foresee consequences.",
+      "label": "Background",
+      "prob": 0.9251142740249634
+    },
+    {
+      "sentence": "These algorithms do not make decisions themselves, but rather advise humans in their decision-making processes.",
+      "label": "Background",
+      "prob": 0.9200783371925354
+    },
+    {
+      "sentence": "As their causal connection to the consequence is deemed alike, they are attributed to similar blame levels.",
+      "label": "Background",
+      "prob": 0.9135152697563171
+    },
+    {
+      "sentence": "Previous work has not controlled for a systems interpretability, and therefore such trends might either i ) be caused by the lack of explanations or ii ) be aggravated if people become aware that AI systems cannot justify their moral decisions.",
+      "label": "Background",
+      "prob": 0.912926435470581
+    },
+    {
+      "sentence": "Most research on the responsibility gap has been normative in that they prescribed ethical principles and proposed solutions.",
+      "label": "Background",
+      "prob": 0.9122626185417175
+    },
+    {
+      "sentence": "Therefore, liability is distributed across various entities, such as the government and the court per se.",
+      "label": "Background",
+      "prob": 0.9090123772621155
+    },
+    {
+      "sentence": "Taking morality as a human-made construct [93], it may be inevitable to hold AI systems responsible alongside their users and designers so that this formulation is kept intact.",
+      "label": "Background",
+      "prob": 0.9046437740325928
     },
     {
       "sentence": "In contrast, responsibility-as-cause, blame, and liability were attributed to a lesser extent if the defendant re-offended within two years.",
       "label": "Background",
-      "prob": 0.9306381940841675
+      "prob": 0.9043027758598328
     },
     {
-      "sentence": "Our responsibility practices depend on folk-psychology [15] (i.e., how people perceive the agents involved in social practices [91]).",
+      "sentence": "Although descriptive and present-looking, these notions lead to the prescription of forward-looking responsibilities, such as an obligation.",
       "label": "Background",
-      "prob": 0.9305084347724915
+      "prob": 0.903754711151123
     },
     {
-      "sentence": "From a legal perspective, attributing responsibility to these systems might obfuscatedesignersandusersroles,creatinghumanliability shields [16], i.e., stakeholders might use these automated systems as a form of protecting themselves from deserved punishment.",
+      "sentence": "Responsibility can also be divided into backward-looking notions if they evaluate a past action and possibly lead to reactive attitudes [106], or forwardlooking notions if they prescribe obligations.",
       "label": "Background",
-      "prob": 0.9300185441970825
+      "prob": 0.9032247066497803
     },
     {
-      "sentence": "The extent to which praise was assigned to human and AI agents varied depending on whether one was an advisor or a decision-maker.",
+      "sentence": "Theories of moral responsibility date back to Aristotle, who argued that an entity should satisfy both freedom and epistemic conditions to appropriately be ascribed to moral responsibility.",
       "label": "Background",
-      "prob": 0.9245235323905945
-    },
-    {
-      "sentence": "Therefore, we do not posit that peoples ascription of liability is solely dependent on causality determinations.",
-      "label": "Background",
-      "prob": 0.9236660003662109
-    },
-    {
-      "sentence": "Another is that it is also possible to hold one responsible for specific actions and consequences.",
-      "label": "Background",
-      "prob": 0.9213351011276245
-    },
-    {
-      "sentence": "This means that AI agents were assigned the responsibility to complete and oversee the same task to a lesser extent than human agents.",
-      "label": "Background",
-      "prob": 0.918887734413147
-    },
-    {
-      "sentence": "However, we have also found that people attribute similar levels of causal responsibility, blame, and liability to AI and human advisors and decision-makers for bail decisions.",
-      "label": "Background",
-      "prob": 0.9172459840774536
-    },
-    {
-      "sentence": "This finding may imply that deploying black box AI in high-stakes scenarios, such as bail decision-making, will not be perceived well by the public.",
-      "label": "Background",
-      "prob": 0.9161580801010132
-    },
-    {
-      "sentence": "Our study indicates these practices might not need to focus on compensating those harmed by these systems given the low attribution of liability to all agents.",
-      "label": "Background",
-      "prob": 0.9136602282524109
-    },
-    {
-      "sentence": "In answering this question, some scholars have defended the existence of a (techno-)responsibility gap [68] for autonomous and selflearning systems.",
-      "label": "Background",
-      "prob": 0.9130734205245972
-    },
-    {
-      "sentence": "One can be held legally responsible (i.e., liable) regardless of their moral responsibility, as in the case of strict or vicarious liability.",
-      "label": "Background",
-      "prob": 0.9111213088035583
-    },
-    {
-      "sentence": "AI-based algorithms are now used to assist humans in various scenarios, including high-stakes tasks such as medical diagnostics [35] and bail decisions [2].",
-      "label": "Background",
-      "prob": 0.9094343781471252
-    },
-    {
-      "sentence": "One group includes responsibility-as-task, as-authority, as-power, and as-obligation, all of which have positive mean values.",
-      "label": "Background",
-      "prob": 0.9077810645103455
-    },
-    {
-      "sentence": "Various other definitions have been proposed [102], including structured notions of what responsibility is [104] and how they are connected [14, 34].",
-      "label": "Background",
-      "prob": 0.9058957099914551
-    },
-    {
-      "sentence": "The other group includes responsibility-as-cause, praise, blame, and liability.",
-      "label": "Background",
-      "prob": 0.9051432609558105
-    },
-    {
-      "sentence": "Humans are responsible for the tasks they are assigned, e.g., preventing re-offenses because they are in charge (i.e., authority) and have the skills necessary for completing them (i.e., power).",
-      "label": "Background",
-      "prob": 0.90189129114151
-    },
-    {
-      "sentence": "However, both of our studies samples have a smaller ratio of women than the US population.",
-      "label": "Background",
-      "prob": 0.8994584083557129
-    },
-    {
-      "sentence": "Hence, we do not posit that similar causality judgments can explain the similar attribution of liability to AI and humans as in the case of blame.",
-      "label": "Background",
-      "prob": 0.8982871770858765
-    },
-    {
-      "sentence": "The meanings ofresponsibility addressing the attributionof tasks and their requirements are descriptive in the sense that they should be addressed in the present tense [27], e.g., one is responsible for a task, or is in charge of it.",
-      "label": "Background",
-      "prob": 0.8971922993659973
-    },
-    {
-      "sentence": "Scholars have extensively discussed the assignment of responsibility for autonomous machines actions and have expanded this gap to more specific notions of responsibility [5, 8, 54] and its functions [26, 62].",
-      "label": "Background",
-      "prob": 0.8966650366783142
-    },
-    {
-      "sentence": "However, future studies on similar topics should also consider scenarios in which AI systems and their human supervisors disagree.",
-      "label": "Background",
-      "prob": 0.8957356214523315
-    },
-    {
-      "sentence": "However, these studies and many others [52, 59, 105] tackle a singular notion of responsibility related to blameworthiness [102].",
-      "label": "Background",
-      "prob": 0.8931995630264282
-    },
-    {
-      "sentence": "Therefore, it is not deemed the AI programs responsibility to complete the assigned task or see it to be fulfilled.",
-      "label": "Background",
-      "prob": 0.8890912532806396
-    },
-    {
-      "sentence": "Some even propose to hold AI systems responsible per se [91], viewing human-AI collaborations as extended agencies [45, 48].",
-      "label": "Background",
-      "prob": 0.8881696462631226
-    },
-    {
-      "sentence": "Scholars have discussed the risks posed by the opacity of existing AI algorithms.",
-      "label": "Background",
-      "prob": 0.8868357539176941
-    },
-    {
-      "sentence": "Future studies can also address scenarios in which blame could be attributed to a higher degree, e.g., those with life-or-death consequences, such as self-driving vehicles and AI medical advisors.",
-      "label": "Background",
-      "prob": 0.8863515853881836
-    },
-    {
-      "sentence": "1 The autonomous component of AI and robots challenges the control condition of responsibility attribution.",
-      "label": "Background",
-      "prob": 0.8862844705581665
-    },
-    {
-      "sentence": "(Agent) is either AI program, human advisor, or human judge depending on the agent and the study.",
-      "label": "Background",
-      "prob": 0.8847537636756897
-    },
-    {
-      "sentence": "This gap is posed by highly autonomous and self-learning AI systems.",
-      "label": "Background",
-      "prob": 0.8840261101722717
-    },
-    {
-      "sentence": "Studies such as ours should be expanded to diverse AI applications, where they are used both in-the-loop (as in Study 1) and autonomously (as in Study 2).",
-      "label": "Background",
-      "prob": 0.8837929964065552
-    },
-    {
-      "sentence": "For the former, one might ask if an agent is responsible for an action or state-of-affairs, while the latter concerns whether one should attribute responsibility to an agent.",
-      "label": "Background",
-      "prob": 0.8820903897285461
-    },
-    {
-      "sentence": "In contrast, relatively little attention has been paid to understanding the publics views on this issue, who are likely the most affected stakeholder when AI systems are deployed [78].",
-      "label": "Background",
-      "prob": 0.8794413208961487
-    },
-    {
-      "sentence": "People have different opinions regarding how (and where) these systems should be deployed in relation to how autonomous they should be [65], which should affect how they ascribe responsibility for their actions.",
-      "label": "Background",
-      "prob": 0.8785561919212341
-    },
-    {
-      "sentence": "However, there is a growing need for practical and proactive guidelines; as Mittelstadt puts it, principles alone cannot guarantee ethical AI [69].",
-      "label": "Background",
-      "prob": 0.8785108327865601
-    },
-    {
-      "sentence": "However, previous work on the connection between liability (i.e., punishment) and causality focuses on the",
-      "label": "Background",
-      "prob": 0.8773031830787659
-    },
-    {
-      "sentence": "The other cluster includes meanings related to causal determinations (i.e., responsibility-as-cause) and backward-looking responsibility notions (i.e., blame, praise, and liability).",
-      "label": "Background",
-      "prob": 0.8766140937805176
-    },
-    {
-      "sentence": "Except for responsibility-as-answerability, addressing the violation or protection of a defendants rights led to a marginally higher assignment of responsibility than the phrasing style focusing on preventing re-offenses.",
-      "label": "Background",
-      "prob": 0.8740293979644775
+      "prob": 0.8955358862876892
     },
     {
       "sentence": "AI systems are often embedded into robots or machines, such as autonomous vehicles [13] and robot soldiers [3].",
       "label": "Background",
-      "prob": 0.8712823390960693
-    },
-    {
-      "sentence": "Viewing responsibility concepts as social constructs that aim to achieve specific social goals, attributing backward-looking notions of responsibility to AI systems might emphasize these goals [91].",
-      "label": "Background",
-      "prob": 0.86770099401474
-    },
-    {
-      "sentence": "This indicates that these systems are not thought to possess the necessary abilities to make decisions and advise such high-stakes decisions.",
-      "label": "Background",
-      "prob": 0.8653964400291443
-    },
-    {
-      "sentence": "However, studies have shown a public impulse to blame, driven by the desire to express social values and expectations [18].",
-      "label": "Background",
-      "prob": 0.8650286197662354
-    },
-    {
-      "sentence": "If this causal evaluation is not successful, the model assigns little or no blame to the agent.",
-      "label": "Background",
-      "prob": 0.8640729188919067
+      "prob": 0.89368736743927
     },
     {
       "sentence": "The respondents did not believe those harmed should, or even could, be made whole for the violation of their rights, and hence, both AI and human agents are attributed low and similar levels of liability.",
       "label": "Background",
-      "prob": 0.8605174422264099
+      "prob": 0.8896154761314392
     },
     {
-      "sentence": "The second cluster includes causal responsibility, blame, praise, and liability  all of which were attributed to a similar degree to humans and AI.",
+      "sentence": "This gap is posed by highly autonomous and self-learning AI systems.",
       "label": "Background",
-      "prob": 0.8575088977813721
+      "prob": 0.8873769044876099
     },
     {
-      "sentence": "Nevertheless, our research has found key clusters of responsibility notions concerning AI and human agents, opening further research directions.",
+      "sentence": "Hence, there is no contradiction in people attributing blame to AI systems for harms, although they should not be praised for opposing consequences.",
       "label": "Background",
-      "prob": 0.8549535870552063
+      "prob": 0.8872621059417725
     },
     {
-      "sentence": "For instance, the first four responsibility notions were ascribed to a more considerable degree if the defendant did not reoffend.",
+      "sentence": "Therefore, it is not deemed the AI programs responsibility to complete the assigned task or see it to be fulfilled.",
       "label": "Background",
-      "prob": 0.8509406447410583
+      "prob": 0.8857584595680237
     },
     {
-      "sentence": "Previous work has addressed how and why people assign responsibility to various agents.",
+      "sentence": "The extent to which praise was assigned to human and AI agents varied depending on whether one was an advisor or a decision-maker.",
       "label": "Background",
-      "prob": 0.8507228493690491
+      "prob": 0.8806514739990234
     },
     {
-      "sentence": "The general public might choose to hold a wrongdoer responsible for restoring moral coherence [22] or reaffirming a communal moral values [109].",
+      "sentence": "Although a judges decision can directly affect a defendants rights depending on the appropriateness of ones jailing, preventing re-offenses is a complex task that encompasses diverse factors, such as policing and the defendants decision to re-offend.",
       "label": "Background",
-      "prob": 0.8507155776023865
+      "prob": 0.880006730556488
     },
     {
-      "sentence": "Ascribing responsibility is a complex moral and legal practice that encompasses various functions, entities, and social practices [71, 91].",
+      "sentence": "It is important to note that AI systems might not be appropriate subjects of (retributive) blame [26, 89], i.e., scholars argue that blaming automated agents would be wrong and unsuccessful.",
       "label": "Background",
-      "prob": 0.8500843644142151
+      "prob": 0.8760190010070801
     },
     {
-      "sentence": "Other scholars explored peoples perceptions of procedural [41] and distributive [84, 90] aspects of algorithmic fairness and studied how they relate to individual differences [42, 76, 108].",
+      "sentence": "Holding an agent responsible fulfills a wide range of social and legal functions.",
       "label": "Background",
-      "prob": 0.8461928963661194
+      "prob": 0.8726322650909424
     },
     {
-      "sentence": "We highlight that any responsibility practice towards AI systems should not blur the responsibility prescribed and deserved by their designers and users.",
+      "sentence": "Moreover, taking praise as positive reinforcement, praising the decision-maker over an advisor might have a bigger influence over future outcomes.",
       "label": "Background",
-      "prob": 0.8436053991317749
+      "prob": 0.8721583485603333
     },
     {
-      "sentence": "Judges should base their decisions on facts and be able to explain why they made such decisions.",
+      "sentence": "In answering this question, some scholars have defended the existence of a (techno-)responsibility gap [68] for autonomous and selflearning systems.",
       "label": "Background",
-      "prob": 0.8435829281806946
+      "prob": 0.8695049285888672
     },
     {
-      "sentence": "should also be held responsible for the outcomes of their advice and decisions.",
+      "sentence": "However, previous work on the connection between liability (i.e., punishment) and causality focuses on the",
       "label": "Background",
-      "prob": 0.8366692066192627
+      "prob": 0.861308217048645
     },
     {
-      "sentence": "According to some scholars, holding AI and robots responsible per se could fulfill specific social goals [23] and promote critical social functions [11, 91].",
+      "sentence": "Agents must act freely, without coercion, and understand their actions.",
       "label": "Background",
-      "prob": 0.8363805413246155
-    },
-    {
-      "sentence": "Similarly to the problem of many hands in the assignment of responsibility to collective agents [102], AI and robots suffer from the problem of many things, i.e., current systems are composed of various interacting entities and technologies, making the search for a responsible entity harder [24].",
-      "label": "Background",
-      "prob": 0.8360865116119385
-    },
-    {
-      "sentence": "These notions have been widely agreed upon as incompatible with AI systems due to their lack of metaphysical attributes [20, 89, 96].",
-      "label": "Background",
-      "prob": 0.8345595002174377
-    },
-    {
-      "sentence": "Although an advisor influences the final decision, the judge is the one who acts on it and, hence, deserves praise.",
-      "label": "Background",
-      "prob": 0.8341425657272339
-    },
-    {
-      "sentence": "Therefore, we also posit that future work should delve deeper into what types of explanations the general public expects from AI systems.",
-      "label": "Background",
-      "prob": 0.8341385722160339
-    },
-    {
-      "sentence": "This form of blame-shifting has been observed, for example, when Facebook called out its algorithm for autonomously creating anti-semitic categories in its advertisement platform [1, 97].",
-      "label": "Background",
-      "prob": 0.8301429152488708
-    },
-    {
-      "sentence": "Each defendants COMPAS score ranges from 1 to 10, with ten indicating the highest risk of re-offense or nonappearance in court.",
-      "label": "Background",
-      "prob": 0.829742431640625
-    },
-    {
-      "sentence": "Moreover, human decision-makers are praised to a considerably larger degree than AI decision-makers, although the same effect was not observed for human and AI advisors.",
-      "label": "Background",
-      "prob": 0.8267604112625122
-    },
-    {
-      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
-      "label": "Background",
-      "prob": 0.8263400197029114
-    },
-    {
-      "sentence": "This allowed us to account for repeated measures, i.e., explicitly model that each participant responded to questions on eight distinct defendants.",
-      "label": "Background",
-      "prob": 0.8219572305679321
-    },
-    {
-      "sentence": "The four rightmost bars in Figure 3 suggest that AI and human agents are ascribed similar levels of backward-notions of responsibility, namely blame, liability, praise, and causal responsibility.",
-      "label": "Background",
-      "prob": 0.8188352584838867
-    },
-    {
-      "sentence": "This dataset contains information about 7,214 defendants subjected to COMPAS screening in Broward County, Florida, between 2013 and 2014.",
-      "label": "Background",
-      "prob": 0.8173508048057556
-    },
-    {
-      "sentence": "Compared to Pew Research data on the US populations political leaning [75], our samples are substantially more liberal.",
-      "label": "Background",
-      "prob": 0.8161956071853638
-    },
-    {
-      "sentence": "The first three are descriptive and focus on ones tasks (i.e., task, authority) and the necessary skills for their completion (i.e., power).",
-      "label": "Background",
-      "prob": 0.8154994249343872
-    },
-    {
-      "sentence": "Although recent scholarly work does not directly challenge these Aristotelian conditions, they argue that moral responsibility cannot be explained as a single concept, but that it involves a relatively pluralistic definition of what it means to hold someone morally responsible [87, 102].",
-      "label": "Background",
-      "prob": 0.8152503967285156
-    },
-    {
-      "sentence": "Compared to the 2016 US census [100], our respondents are indeed younger and more highly educated.",
-      "label": "Background",
-      "prob": 0.8106072545051575
-    },
-    {
-      "sentence": "Human subject studies suggest that blame attribution is a two-step process; it is initiated by a causal connection between an agents action and its consequences and is followed by evaluating its mental states, i.e., intentions [25].",
-      "label": "Background",
-      "prob": 0.8104775547981262
-    },
-    {
-      "sentence": "On the other hand, liability and blame were the least attributed responsibility notion in bail decisions.",
-      "label": "Background",
-      "prob": 0.8050824403762817
-    },
-    {
-      "sentence": "One is that there is an account of being responsible in rendering an agent worthy of moral appraisal.",
-      "label": "Background",
-      "prob": 0.8027795553207397
-    },
-    {
-      "sentence": "Regarding the difference between advisors and decision-makers, we posit that the differences between human agents are caused by the level of control the latter has over its decision outcomes.",
-      "label": "Background",
-      "prob": 0.8027394413948059
-    },
-    {
-      "sentence": "All of these notions originated from Van de Poels work [101, 102], except for responsibility-as-authority and as-power, which comes from Daviss discussion on professional responsibility [27].",
-      "label": "Background",
-      "prob": 0.8003753423690796
+      "prob": 0.8606486320495605
     },
     {
       "sentence": "It is important to note that users of AI systems are also responsible in a backward-looking fashion such that they",
       "label": "Background",
-      "prob": 0.7965400815010071
+      "prob": 0.8584201335906982
     },
     {
-      "sentence": "Several studies have analyzed the fairness and bias aspects of this risk assessment algorithm, e.g., [9, 33, 43].",
+      "sentence": "Future studies can also address scenarios in which blame could be attributed to a higher degree, e.g., those with life-or-death consequences, such as self-driving vehicles and AI medical advisors.",
       "label": "Background",
-      "prob": 0.7939775586128235
+      "prob": 0.8540035486221313
     },
     {
-      "sentence": "Furthermore, responsibility-as-obligation is related to responsibility-as-task in prescribing a specific goal to the agent; it differs from the latter, however, in setting a supervisory role towards the task, rather than specifying that one should be the one to complete it.",
+      "sentence": "It not only addresses the moral dimension of society but also tackles legal concepts and other descriptive notions.",
       "label": "Background",
-      "prob": 0.793552577495575
+      "prob": 0.853752613067627
     },
     {
-      "sentence": "The first four responsibility concepts are correlated; the notions addressing tasks, supervisory roles, and the skills needed to assume them show a meaningful difference between",
+      "sentence": "Responsibility has multiple distinct meanings depending on its purpose and requirements.",
       "label": "Background",
-      "prob": 0.7930740714073181
+      "prob": 0.8527801036834717
     },
     {
-      "sentence": "One side argues that designers and manufacturers should take responsibility for any harm caused by their tools. [16, 31] Supervisors and users of these systems should also take responsibility for their deployment, particularly in consequential environments like the military as argued by Champagne and Tonkens [20].",
+      "sentence": "a state-of-affairs does not necessarily prescribe a moral evaluation of the action.",
       "label": "Background",
-      "prob": 0.788889467716217
+      "prob": 0.8525166511535645
     },
     {
-      "sentence": "Intentionality also determines how much responsibility is assigned to an entity [70]; people look for an intentional agent to hold responsible and infer other entities intentionality upon failure to find one [40].",
+      "sentence": "One can be held legally responsible (i.e., liable) regardless of their moral responsibility, as in the case of strict or vicarious liability.",
       "label": "Background",
-      "prob": 0.7872788906097412
+      "prob": 0.8501191139221191
     },
     {
-      "sentence": "The regulation of AI and robots poses new challenges to policymaking, as in the previously introduced techno-responsibility gap, which society must discuss at large [24].",
+      "sentence": "Existing studies addressing how users might attribute blame to automated agents have mostly focused on robots.",
       "label": "Background",
-      "prob": 0.7861429452896118
+      "prob": 0.8386965990066528
     },
     {
-      "sentence": "AI systems should also be capable of justifying their advice and decision-making process according to our results.",
+      "sentence": "Although an advisor influences the final decision, the judge is the one who acts on it and, hence, deserves praise.",
       "label": "Background",
-      "prob": 0.7856617569923401
+      "prob": 0.8357592225074768
     },
     {
-      "sentence": "For instance, Lee et al. studied peoples perception of trust, fairness, and justice in the context of algorithmic decision-making [56, 57] and proposed how to embed these views into a policymaking framework [58].",
+      "sentence": "The other group includes responsibility-as-cause, praise, blame, and liability.",
       "label": "Background",
-      "prob": 0.7856414318084717
+      "prob": 0.8345091938972473
     },
     {
-      "sentence": "If the action is deemed intentional, the blamer evaluates the reasons behind it and ascribes blame accordingly.",
+      "sentence": "Moreover, human decision-makers are praised to a considerably larger degree than AI decision-makers, although the same effect was not observed for human and AI advisors.",
       "label": "Background",
-      "prob": 0.7795436382293701
+      "prob": 0.8277344703674316
     },
     {
-      "sentence": "The exercise of agency by these systems can be viewed as a human-robot collaboration, in which humans supervise and manage the agency of AI and robots [72].",
+      "sentence": "We highlight that any responsibility practice towards AI systems should not blur the responsibility prescribed and deserved by their designers and users.",
       "label": "Background",
-      "prob": 0.7793282866477966
+      "prob": 0.8277022838592529
     },
     {
-      "sentence": "3 We instead hypothesize that people might desire to hold these entities responsible for retributive motives, such as satisfying their needs for revenge [71] and bridging the retribution gap [26], as a result of human nature [25].",
+      "sentence": "This finding may imply that deploying black box AI in high-stakes scenarios, such as bail decision-making, will not be perceived well by the public.",
       "label": "Background",
-      "prob": 0.778394341468811
+      "prob": 0.8252949118614197
     },
     {
-      "sentence": "[66] have also proposed a theory of blame that is dependent on the causal connection between an agent and a norm-violating event.",
+      "sentence": "Each defendants COMPAS score ranges from 1 to 10, with ten indicating the highest risk of re-offense or nonappearance in court.",
       "label": "Background",
-      "prob": 0.7777892351150513
+      "prob": 0.8249217867851257
     },
     {
-      "sentence": "As our results demonstrate, people may hold AI to a similar level of moral scrutiny as humans for their actions and harms.",
+      "sentence": "Hence, people might not believe that compensation is needed or deserved, or attribute this notion of responsibility to other entities, such as the court or the government, leading to a lower ascription of liability to the advisor or decision-maker.",
       "label": "Background",
-      "prob": 0.7776012420654297
+      "prob": 0.82442706823349
     },
     {
-      "sentence": "It is crucial to understand how people perceive these systems before their wide deployment [80].",
+      "sentence": "This means that AI agents were assigned the responsibility to complete and oversee the same task to a lesser extent than human agents.",
       "label": "Background",
-      "prob": 0.7732659578323364
-    },
-    {
-      "sentence": "We approached the pluralistic view of responsibility and considered eight distinct notions compiled from philosophy and psychology literature.",
-      "label": "Background",
-      "prob": 0.7691161036491394
-    },
-    {
-      "sentence": "These scholars often view these human-AI collaborations as extended agencies where all entities should be held jointly responsible [45, 48].",
-      "label": "Background",
-      "prob": 0.7682864665985107
-    },
-    {
-      "sentence": "i) challenging ones causal connection to the wrongful action or",
-      "label": "Background",
-      "prob": 0.764676034450531
-    },
-    {
-      "sentence": "Stating that an agent is causally responsible for",
-      "label": "Background",
-      "prob": 0.7644728422164917
-    },
-    {
-      "sentence": "Asian ethnicity is slightly over-represented in our samples.",
-      "label": "Background",
-      "prob": 0.7643285393714905
-    },
-    {
-      "sentence": "Each vignette shown to participants varied in the advice given, bail decision, and recidivism, allowing us to compare across these factors.",
-      "label": "Background",
-      "prob": 0.7625887989997864
-    },
-    {
-      "sentence": "Hence, we recruited 400 respondents through the Prolific crowdsourcing platform [74] to compensate for attention-check failures.",
-      "label": "Background",
-      "prob": 0.7623767256736755
-    },
-    {
-      "sentence": "The current study revisits eight notions of responsibility compiled from psychology and philosophy.",
-      "label": "Background",
-      "prob": 0.7589036226272583
-    },
-    {
-      "sentence": "We also discuss the possibility of holding AI systems responsible per se [61] alongside other human agents, as a possible approach congruent to the public opinion.",
-      "label": "Background",
-      "prob": 0.7560620903968811
-    },
-    {
-      "sentence": "As a result, each respondent was shown one vignette of every possible combination of scenarios, encompassing eight (advice  recidivism  AI vs. human) variations.",
-      "label": "Background",
-      "prob": 0.7537457942962646
-    },
-    {
-      "sentence": "One of the prominent findings of this work is the need of interpretable AI systems.",
-      "label": "Background",
-      "prob": 0.7535733580589294
-    },
-    {
-      "sentence": "The current study focused on AI systems currently being used to advise bailing decisions, which is an important yet specific application of these algorithms.",
-      "label": "Background",
-      "prob": 0.7525004744529724
-    },
-    {
-      "sentence": "Prior studies of online crowdsourcing platforms have found that respondent samples tend to be younger, more educated, and consist of more women than the general US population [50].",
-      "label": "Background",
-      "prob": 0.7522392868995667
-    },
-    {
-      "sentence": "A Wilcoxon-Mann-Whitney two-tailed test, with a 0.8 power to detect an effect size of 0.5 at the significance level of 0.05, requires 67 respondents per treatment group.",
-      "label": "Background",
-      "prob": 0.7453325390815735
-    },
-    {
-      "sentence": "For unintentional actions, however, one evaluates whether the agent should have prevented the norm-violating event (i.e., had an obligation to prevent it) and could have done so (i.e., had the skills necessary), hence blaming the agent depending on the evaluation of these notions.",
-      "label": "Background",
-      "prob": 0.7428178787231445
-    },
-    {
-      "sentence": "So far, we have observed two clusters of responsibility concepts by their correlation.",
-      "label": "Background",
-      "prob": 0.7427150011062622
-    },
-    {
-      "sentence": "We complement these notions with a wide range of literature ranging from philosophical theories of moral responsibility (e.g., [86, 87]) to approaches in the context of AI systems (e.g., [24, 96]).",
-      "label": "Background",
-      "prob": 0.736961305141449
-    },
-    {
-      "sentence": "We highlight that those who are in charge of developing interpretable systems should not try to nudge recipients so they can be manipulated [63], e.g., for agency laundering [82].",
-      "label": "Background",
-      "prob": 0.7367849946022034
-    },
-    {
-      "sentence": "They argue that understanding how these systems come to their conclusions is necessary for both safe deployment and wide adoption [36].",
-      "label": "Background",
-      "prob": 0.7354573607444763
-    },
-    {
-      "sentence": "In our case study, human-AI collaborations are such that there exists an AI-in-theloop; future work should address other collaboration variations, such as human-in-the-loop, i.e., humans assisting machines.",
-      "label": "Background",
-      "prob": 0.7339473366737366
-    },
-    {
-      "sentence": "This finding is in line with previous work on blame assignment, highlighting the significance of causality in peoples ascription of blame and punishment.",
-      "label": "Background",
-      "prob": 0.7325067520141602
-    },
-    {
-      "sentence": "Algorithms are used to choose which candidate is most fit for a job position [111], decide which defendants are granted bail [33], guide health-related decision [73], and assess credit risk [49].",
-      "label": "Background",
-      "prob": 0.7317433953285217
-    },
-    {
-      "sentence": "We posit that the first excuse can explain why people blame human and AI advisors and decision-makers similarly.",
-      "label": "Background",
-      "prob": 0.7300139665603638
-    },
-    {
-      "sentence": "Still, we instead hypothesize that it results from two different factors based on our phrasing styles.",
-      "label": "Background",
-      "prob": 0.7245626449584961
-    },
-    {
-      "sentence": "Another possible issue is agency laundering, in which the systems designer distances itself from morally suspect actions, regardless of intentionality, by blaming the algorithm, machine, or system [82].",
-      "label": "Background",
-      "prob": 0.720733642578125
-    },
-    {
-      "sentence": "Secondly, we rephrased some of the statements about the notions of responsibility we address in this work so that survey respondents understanding of these concepts is similar to the definitions introduced above.",
-      "label": "Background",
-      "prob": 0.7176964282989502
-    },
-    {
-      "sentence": "We ensured a balanced set was shown to each participant in terms of the advice (i.e., grant bail vs. deny bail) and recidivism.",
-      "label": "Background",
-      "prob": 0.7173676490783691
-    },
-    {
-      "sentence": "Optimistic views proclaim that the gap can be bridged by proactive attitudes of AI designers, who should readily take responsibility for any harm [20, 72].",
-      "label": "Background",
-      "prob": 0.7148536443710327
-    },
-    {
-      "sentence": "Real-life adapted vignettes of AI-assisted bail decisions were used to observe how people attributed specific meanings of responsibility to i ) AI advisors vs. human advisors and ii ) AI decision-makers vs. human decisionmakers.",
-      "label": "Background",
-      "prob": 0.7136421799659729
-    },
-    {
-      "sentence": "ii) defending that it does not meet moral eligibility standards.",
-      "label": "Background",
-      "prob": 0.705382227897644
-    },
-    {
-      "sentence": "Previous work has found that ones normative and epistemological values influence how explanations are comprehended [64].",
-      "label": "Background",
-      "prob": 0.7032167911529541
-    },
-    {
-      "sentence": "Imagine that you read the following story in your local newspaper: A court in Broward County, Florida, is starting to use an artificial intelligence (AI) program to help them decide if a defendant can be released on bail before trial.",
-      "label": "Background",
-      "prob": 0.6988860964775085
-    },
-    {
-      "sentence": "Empirical findings indicate that people attribute responsibility to these systems [7, 62], although to a lesser extent than human agents.",
-      "label": "Background",
-      "prob": 0.6988745927810669
-    },
-    {
-      "sentence": "This study makes use of publicly available COMPAS data released by ProPublica [2] and considers the machine judgments as either an AI advisor (later in Study 1) or an AI decision-maker (in Study 2).",
-      "label": "Background",
-      "prob": 0.6962067484855652
-    },
-    {
-      "sentence": "The algorithmic social contract requires inputs from various stakeholders, whose opinion should be weighed for the holistic crafting of regulations [78].",
-      "label": "Background",
-      "prob": 0.6938719749450684
-    },
-    {
-      "sentence": "We note subtle differences in how people attribute responsibility to AI and humans.",
-      "label": "Background",
-      "prob": 0.6930233836174011
-    },
-    {
-      "sentence": "Our respondents perceive humans as having the skills necessary to complete these tasks, being in charge of them, and being able to ensure that they are completed.",
-      "label": "Background",
-      "prob": 0.6911398768424988
-    },
-    {
-      "sentence": "From a legal perspective, non-human entities (e.g., corporations) can be held responsible for any damage that they may cause [103].",
-      "label": "Background",
-      "prob": 0.6895579099655151
-    },
-    {
-      "sentence": "(c) Attribution of the eight notions of moral responsibility to the advisor in Study 1 (or decision-maker in Study 2).",
-      "label": "Background",
-      "prob": 0.6884456276893616
-    },
-    {
-      "sentence": "We recognize that other meanings of responsibility could be further considered, such as virtue-based notions where one might call an entity responsible in that it prescribes an evaluation of ones traits and dispositions [87, 94].",
-      "label": "Background",
-      "prob": 0.6877720952033997
-    },
-    {
-      "sentence": "One cluster encompasses meanings related to the attribution of tasks and obligations (i.e., responsibility-as-task, asobligation), their necessary skills (i.e., responsibility-as-power), and the ascription of authority (i.e., responsibility-as-authority).",
-      "label": "Background",
-      "prob": 0.6858461499214172
-    },
-    {
-      "sentence": "Explanations involve both an explainer and explainee, meaning that conflicts might arise concerning how they are evaluated [69].",
-      "label": "Background",
-      "prob": 0.6832365393638611
-    },
-    {
-      "sentence": "Our findings indicate that people believe humans are, and should be, responsible for the assigned tasks, regardless of whether they are advisors or decision-makers.",
-      "label": "Background",
-      "prob": 0.6821646094322205
-    },
-    {
-      "sentence": "Likewise, other authors argue that society should hold humans responsible because doing so for a machine would be meaningless as it does not understand the consequences of their actions or the reactive attitudes towards them [89, 96], possibly undermining the definition of responsibility [47].",
-      "label": "Background",
-      "prob": 0.6821126937866211
-    },
-    {
-      "sentence": "Furlough et al. found that respondents attributed similar levels of blame to robotic agents and humans when robots were described",
-      "label": "Background",
-      "prob": 0.6799615025520325
-    },
-    {
-      "sentence": "Each participant in the study was exposed to a random subset of four cases with human advice and another four with AI advice.",
-      "label": "Background",
-      "prob": 0.6753953695297241
-    },
-    {
-      "sentence": "Our study employed a within-subjects design where all participants were exposed to a diverse set of vignettes addressing distinct possible outcomes from bail decisions.",
-      "label": "Background",
-      "prob": 0.6745121479034424
-    },
-    {
-      "sentence": "Future research can address which functions of responsibility attribution would satisfy this public attribution of backward-looking responsibilities to AI systems.",
-      "label": "Background",
-      "prob": 0.6687169671058655
-    },
-    {
-      "sentence": "After identifying a norm-violating event, the model states that one judges whether the agent is causally connected to the harmful outcome.",
-      "label": "Background",
-      "prob": 0.6675477623939514
-    },
-    {
-      "sentence": "For instance, those wrongfully convicted do not receive any compensation for years spent in prison in at least 21 US states [88].",
-      "label": "Background",
-      "prob": 0.6598354578018188
-    },
-    {
-      "sentence": "Expanding this bipartite concept, Shoemaker [87] has proposed three different concepts of moral responsibility: attributability, answerability, and accountability.",
-      "label": "Background",
-      "prob": 0.6586360335350037
+      "prob": 0.8229514360427856
     },
     {
       "sentence": "A substantially higher degree of the presentand forward-looking notions were attributed to human agents than AI agents.",
       "label": "Background",
-      "prob": 0.6525422930717468
+      "prob": 0.8228683471679688
     },
     {
-      "sentence": "One such algorithm is the COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) tool, used by the judicial system in the US to assist bail decisions and sentencing [2].",
+      "sentence": "Punishment fulfills many societal goals, such as making victims whole, the satisfaction of retributive feelings, and offenders reform.",
       "label": "Background",
-      "prob": 0.6516662240028381
+      "prob": 0.82122802734375
     },
     {
-      "sentence": "Finally, this study also showed that people judge AI and humans differently with respect to certain notions of responsibility, particularly those addressing presentand forward-looking meanings, such as responsibility-as-task and as-obligation.",
+      "sentence": "This indicates that these systems are not thought to possess the necessary abilities to make decisions and advise such high-stakes decisions.",
       "label": "Background",
-      "prob": 0.6461410522460938
+      "prob": 0.8202376961708069
     },
     {
-      "sentence": "Our respondents indicate that they expect decision-makers and advisors to justify their bailing decisions regardless of their nature.",
+      "sentence": "(Agent) is either AI program, human advisor, or human judge depending on the agent and the study.",
       "label": "Background",
-      "prob": 0.6444454193115234
-    },
-    {
-      "sentence": "We posit that this effect results from the control that judges (humans and AIs) have over the consequences of their advice and decisions.",
-      "label": "Background",
-      "prob": 0.6426161527633667
-    },
-    {
-      "sentence": "Challenging ones causal effect in an outcome has also been discussed as a possible excuse to avoid blame by other scholars [101].",
-      "label": "Background",
-      "prob": 0.6373966932296753
-    },
-    {
-      "sentence": "Humans should focus on their relationship to the patients of their responsibility to answer for the actions of autonomous systems [24].",
-      "label": "Background",
-      "prob": 0.631111204624176
-    },
-    {
-      "sentence": "This question has been debated for over a decade since Matthias landmark essay on the responsibility gap of autonomous machines [68].",
-      "label": "Background",
-      "prob": 0.6306793689727783
-    },
-    {
-      "sentence": "(a) Study introduction presenting the scenario where AI systems are being used for bail decisions.",
-      "label": "Background",
-      "prob": 0.6306520104408264
-    },
-    {
-      "sentence": "Participants attributed lower levels of authority and power to AI.",
-      "label": "Background",
-      "prob": 0.6291260123252869
-    },
-    {
-      "sentence": "Addressing the statements focusing on protecting defendants rights, we hypothesize that people do not expect defendants to be compensated if their rights are violated.",
-      "label": "Background",
-      "prob": 0.6259739995002747
-    },
-    {
-      "sentence": "Literature exists on the public perception of moral and legal issues concerning AI [6, 7, 62].",
-      "label": "Background",
-      "prob": 0.6233291029930115
-    },
-    {
-      "sentence": "The phrases tackling praise and blame were presented depending on the advice/decision and recidivism.",
-      "label": "Background",
-      "prob": 0.6215044856071472
-    },
-    {
-      "sentence": "We stopped gathering new responses once the feedback stopped leading to new insights.",
-      "label": "Background",
-      "prob": 0.6170448660850525
-    },
-    {
-      "sentence": "In the current study, we address one of these functions and phrase liability as the responsibility to compensate those harmed (i.e., make victims whole).",
-      "label": "Background",
-      "prob": 0.6115179061889648
-    },
-    {
-      "sentence": "For instance, some of our results partly conflict with previous work addressing self-driving vehicles [7] and medical systems [62].",
-      "label": "Background",
-      "prob": 0.6095516681671143
-    },
-    {
-      "sentence": "Three respondents were recruited through the online crowdsourcing platform Prolific [74], while the other three were our colleagues, who had prior experience designing and conducting human-subject studies.",
-      "label": "Background",
-      "prob": 0.6094059348106384
-    },
-    {
-      "sentence": "A natural question here is: if an AI system or a robot causes harm, who should be held responsible for their actions and consequences?",
-      "label": "Background",
-      "prob": 0.6090106964111328
-    },
-    {
-      "sentence": "Participants perceived human judges and advisors as more responsible for their tasks than their AI counterparts (see the leftmost bars in Figure 3).",
-      "label": "Background",
-      "prob": 0.6089664101600647
-    },
-    {
-      "sentence": "We conducted two survey studies (  =200 each) that collect the public perception on moral responsibility of AI and human agents in high-stakes scenarios.",
-      "label": "Background",
-      "prob": 0.5996816158294678
-    },
-    {
-      "sentence": "Concerning the phrasing styles, our experiment design addressed responsibility-as-liability as the duty to compensate those harmed by a wrongful action.",
-      "label": "Background",
-      "prob": 0.5979955792427063
-    },
-    {
-      "sentence": "Both Study 1 and Study 2 show consistent differences in responsibility attribution between agents, regardless of whether they informed a human judge (Study 1) or decided by themselves (Study 2).",
-      "label": "Background",
-      "prob": 0.5975899696350098
-    },
-    {
-      "sentence": "Our data similarly reveal such a relationship, even when controlling for the advice given, bail decision, or re-offense.",
-      "label": "Background",
-      "prob": 0.5894518494606018
-    },
-    {
-      "sentence": "Therefore, our findings agree with scholars who propose that users (and designers) should take responsibility for their automated systems actions and consequences [20, 72].",
-      "label": "Background",
-      "prob": 0.589089035987854
-    },
-    {
-      "sentence": "The cognitive interviews lasted less than 30 minutes, while the online surveys took 10.36  5.43 minutes.",
-      "label": "Background",
-      "prob": 0.5868861079216003
-    },
-    {
-      "sentence": "We hypothesize that the low assignment of liability is due to the current studys bail decision-making context.",
-      "label": "Background",
-      "prob": 0.5863397121429443
-    },
-    {
-      "sentence": "our study participants were also assigned to one of two different phrasing styles addressing some of the bailing decisions objectives.",
-      "label": "Background",
-      "prob": 0.5850806832313538
-    },
-    {
-      "sentence": "Even though Study 1 shows no difference between the two (  >.05), human decisionmakers were more highly praised than AIs in Study 2 (  =0.461,  <.001).",
-      "label": "Background",
-      "prob": 0.5792849659919739
-    },
-    {
-      "sentence": "On the opposite side, some scholars propose autonomous systems could be held responsible per se [61].",
-      "label": "Background",
-      "prob": 0.5771337151527405
-    },
-    {
-      "sentence": "The present research explores multiple notions of moral responsibility of both human and AI agents involved in decision-making.",
-      "label": "Background",
-      "prob": 0.5757097601890564
-    },
-    {
-      "sentence": "We targeted US residents who have previously completed at least 100 tasks on Prolific, with an approval rate of 95% or above.",
-      "label": "Background",
-      "prob": 0.5748848915100098
-    },
-    {
-      "sentence": "Therefore, our results do not directly contradict earlier findings that had addressed punishment in its wide definition.",
-      "label": "Background",
-      "prob": 0.5748699903488159
-    },
-    {
-      "sentence": "Taking praise as a method of conveying social expectations and values, we highlight that people might perceive existing praising practices as inappropriate for AI.",
-      "label": "Background",
-      "prob": 0.5739883780479431
-    },
-    {
-      "sentence": "The phrasing column indicates how statements were phrased depending on which function of the bail decision they stressed: preventing further offenses (Further Offense) or protecting the defendants rights (Rights).",
-      "label": "Background",
-      "prob": 0.5728939175605774
-    },
-    {
-      "sentence": "as autonomous and at the same time the leading cause of harm [37].",
-      "label": "Background",
-      "prob": 0.5710561275482178
+      "prob": 0.8190082311630249
     },
     {
       "sentence": "The statements addressing responsibilityas-liability were shown if i ) the defendant re-offended and the phrasing style addressed the prevention of re-offenses, or ii ) the defendants were denied bail and did not re-offend within two years while the statements focused on the protection of their rights.",
       "label": "Background",
-      "prob": 0.5689260959625244
+      "prob": 0.8125413656234741
     },
     {
-      "sentence": "The latter aspect of bail decisions is related to the assumption that one is innocent until proven otherwise beyond a reasonable doubt under criminal law [30].",
+      "sentence": "One group includes responsibility-as-task, as-authority, as-power, and as-obligation, all of which have positive mean values.",
       "label": "Background",
-      "prob": 0.568831741809845
+      "prob": 0.8120723366737366
     },
     {
-      "sentence": "Responsibility can take many forms.",
+      "sentence": "Early career judges are taking turns receiving advice from this AI program and another human judge, hired to serve as an advisor.",
       "label": "Background",
-      "prob": 0.567809522151947
+      "prob": 0.8109409213066101
     },
     {
-      "sentence": "Bail decisions aim to procure a balance between protecting future victims, e.g., prevent further offenses, and to impede any unnecessary burdens towards the defendant, e.g., by ensuring that their rights are protected [43].",
+      "sentence": "Attributing responsibility to an entity can be both descriptive (e.g., causal responsibility) and normative (e.g., blameworthiness).",
       "label": "Background",
-      "prob": 0.567795991897583
+      "prob": 0.8089430332183838
     },
     {
-      "sentence": "Second,Figure 2 shows two distinct sets of responsibility notions, where these clusters can be observed from the pairwise Spearmans correlation chart.",
+      "sentence": "For instance, the first four responsibility notions were ascribed to a more considerable degree if the defendant did not reoffend.",
       "label": "Background",
-      "prob": 0.5625981092453003
+      "prob": 0.8070195317268372
     },
     {
-      "sentence": "The findings of this study have several implications for the development and regulation of AI.",
+      "sentence": "Similarly to the arguments against holding AI responsible per se, focusing on the fact that they do not have mental states required for existing responsibility practices [89, 96], praising an AI might lose its meaning if done as if it were towards humans.",
       "label": "Background",
-      "prob": 0.5589522123336792
+      "prob": 0.8033396601676941
     },
     {
-      "sentence": "As examined above, much of the US legislature does not compensate those who have been unjustly incarcerated [88].",
+      "sentence": "From a legal perspective, attributing responsibility to these systems might obfuscatedesignersandusersroles,creatinghumanliability shields [16], i.e., stakeholders might use these automated systems as a form of protecting themselves from deserved punishment.",
       "label": "Background",
-      "prob": 0.55678391456604
-    },
-    {
-      "sentence": "To study how the perceived responsibility for bail decisions differs when judges are advised by the COMPAS tool or by another human judge, we considered the following scenario:",
-      "label": "Background",
-      "prob": 0.5562686324119568
-    },
-    {
-      "sentence": "Hence, all study participants were paid above the US minimum wage.",
-      "label": "Background",
-      "prob": 0.5535153746604919
-    },
-    {
-      "sentence": "As a case study, we adapted vignettes from real-life algorithm-assisted bail decisions and employed a within-subjects experimental design to obtain public perceptions on various notions of moral responsibility.",
-      "label": "Background",
-      "prob": 0.5524805784225464
-    },
-    {
-      "sentence": "The first cluster is composed of responsibilityas-task, authority, power, and obligation  all of which were attributed to a greater degree to humans than AI systems (  >0.206,  <.001).",
-      "label": "Background",
-      "prob": 0.5523982048034668
-    },
-    {
-      "sentence": "These proposals arguably contribute to legal coherence [98], although it could also lead to various repercussions in moral and legal institutions [8].",
-      "label": "Background",
-      "prob": 0.549674928188324
-    },
-    {
-      "sentence": "We use 100 randomly selected cases from this dataset, the corresponding bail suggestions, and information about whether the defendant re-offended within two years of sentencing.",
-      "label": "Background",
-      "prob": 0.5455263257026672
-    },
-    {
-      "sentence": "Previous work has proposed praise as a positive reinforcement [51] and a method through which one might convey information about its values and expectations to the praisee [28].",
-      "label": "Background",
-      "prob": 0.5427477359771729
-    },
-    {
-      "sentence": "Moreover, our results suggest that an AI without a human-inthe-loop, i.e., AI judges in Study 2, could be held at the same level of scrutiny as human decision-makers for their decisions.",
-      "label": "Background",
-      "prob": 0.5426091551780701
-    },
-    {
-      "sentence": "Nina Grgi-Hlaa nghlaca@mpi-sws.org Systems Max Planck Institute for Research on Germany",
-      "label": "Background",
-      "prob": 0.5419560074806213
+      "prob": 0.8007636070251465
     },
     {
       "sentence": "Our findings suggest that autonomous algorithms alone should not be held responsible by themselves, but rather alongside other stakeholders, so these concerns are not realized.",
       "label": "Background",
-      "prob": 0.5410712957382202
+      "prob": 0.8004435896873474
     },
     {
-      "sentence": "Responsibility-as-answerability exhibits a marginal difference with respect to the agent type that assisted human judges in bail decisions; however, the same trend was not observed in Study 2.",
+      "sentence": "On the other hand, AI systems are ascribed lower levels of all these responsibility notions.",
       "label": "Background",
-      "prob": 0.5359093546867371
+      "prob": 0.8002229332923889
     },
     {
-      "sentence": "Table 2: Statements addressing all responsibility notions presented to participants in Study 1 and Study 2.",
+      "sentence": "Studies such as ours should be expanded to diverse AI applications, where they are used both in-the-loop (as in Study 1) and autonomously (as in Study 2).",
       "label": "Background",
-      "prob": 0.5306280851364136
+      "prob": 0.7955120801925659
     },
     {
-      "sentence": "We conducted two studies; the former illustrated a realistic scenario in which AI advises human judges,",
+      "sentence": "The responsibility notions that were attributed to human agents to a greater extent than to AIs are presentand forward-looking in the sense that they are descriptive, i.e., by stating a fact, and prescribe obligations.",
       "label": "Background",
-      "prob": 0.5281834006309509
+      "prob": 0.791191041469574
     },
     {
-      "sentence": "tasks or take the lead (i.e., task).",
+      "sentence": "Except for responsibility-as-answerability, addressing the violation or protection of a defendants rights led to a marginally higher assignment of responsibility than the phrasing style focusing on preventing re-offenses.",
       "label": "Background",
-      "prob": 0.5234430432319641
+      "prob": 0.7890797853469849
     },
     {
-      "sentence": "To strike a balance between these two functions of bail decisions, we phrase statements addressing all notions of responsibility addressed in this work in two different forms: a human agent or an AI program could be held responsible for i ) (not) protecting the rights of the defendant and ii ) (not) preventing re-offense.",
+      "sentence": "The other cluster includes meanings related to causal determinations (i.e., responsibility-as-cause) and backward-looking responsibility notions (i.e., blame, praise, and liability).",
       "label": "Background",
-      "prob": 0.5224489569664001
+      "prob": 0.7820945978164673
     },
     {
-      "sentence": "Human-centered computing  Empirical studies in HCI ;  Applied computing  Psychology ; Law .",
+      "sentence": "Another is that it is also possible to hold one responsible for specific actions and consequences.",
       "label": "Background",
-      "prob": 0.5209885239601135
+      "prob": 0.7787432074546814
     },
     {
-      "sentence": "First, responsibility-as-answerability (i.e., the bar in the middle) was the notion ascribed the highest to both human and AI advisors and decision-makers, followed by responsibility-as-obligation, astask, as-authority, and as-power (i.e., the first four bars).",
+      "sentence": "The second cluster includes causal responsibility, blame, praise, and liability  all of which were attributed to a similar degree to humans and AI.",
       "label": "Background",
-      "prob": 0.5184326767921448
+      "prob": 0.7785519957542419
     },
     {
-      "sentence": "A model that can explain our blameworthiness results is the Path Model of Blame, which proposes that blame is attributed through nested and sequential judgments of various aspects of the action and its agent [66].",
+      "sentence": "However, future studies on similar topics should also consider scenarios in which AI systems and their human supervisors disagree.",
       "label": "Background",
-      "prob": 0.5105225443840027
+      "prob": 0.7746160626411438
+    },
+    {
+      "sentence": "If the action is deemed intentional, the blamer evaluates the reasons behind it and ascribes blame accordingly.",
+      "label": "Background",
+      "prob": 0.7737406492233276
+    },
+    {
+      "sentence": "Therefore, we do not posit that peoples ascription of liability is solely dependent on causality determinations.",
+      "label": "Background",
+      "prob": 0.772071897983551
+    },
+    {
+      "sentence": "The phrases tackling praise and blame were presented depending on the advice/decision and recidivism.",
+      "label": "Background",
+      "prob": 0.7702512741088867
+    },
+    {
+      "sentence": "and the latter described a fictional circumstance where AI is the decision-maker itself.",
+      "label": "Background",
+      "prob": 0.7694661021232605
+    },
+    {
+      "sentence": "On the other hand, liability and blame were the least attributed responsibility notion in bail decisions.",
+      "label": "Background",
+      "prob": 0.7692969441413879
+    },
+    {
+      "sentence": "Although a clear separation is fuzzy, one may find two schools of thought on the responsibility gap issue.",
+      "label": "Background",
+      "prob": 0.7591189742088318
+    },
+    {
+      "sentence": "For the former, one might ask if an agent is responsible for an action or state-of-affairs, while the latter concerns whether one should attribute responsibility to an agent.",
+      "label": "Background",
+      "prob": 0.7581090927124023
+    },
+    {
+      "sentence": "Judges should base their decisions on facts and be able to explain why they made such decisions.",
+      "label": "Background",
+      "prob": 0.7572107911109924
+    },
+    {
+      "sentence": "should also be held responsible for the outcomes of their advice and decisions.",
+      "label": "Background",
+      "prob": 0.7568386793136597
+    },
+    {
+      "sentence": "AI-based algorithms are now used to assist humans in various scenarios, including high-stakes tasks such as medical diagnostics [35] and bail decisions [2].",
+      "label": "Background",
+      "prob": 0.7557996511459351
+    },
+    {
+      "sentence": "[66] have also proposed a theory of blame that is dependent on the causal connection between an agent and a norm-violating event.",
+      "label": "Background",
+      "prob": 0.7499623894691467
+    },
+    {
+      "sentence": "If this causal evaluation is not successful, the model assigns little or no blame to the agent.",
+      "label": "Background",
+      "prob": 0.7493435740470886
+    },
+    {
+      "sentence": "Our study indicates these practices might not need to focus on compensating those harmed by these systems given the low attribution of liability to all agents.",
+      "label": "Background",
+      "prob": 0.7451869249343872
+    },
+    {
+      "sentence": "We approached the pluralistic view of responsibility and considered eight distinct notions compiled from philosophy and psychology literature.",
+      "label": "Background",
+      "prob": 0.7447536587715149
+    },
+    {
+      "sentence": "Our respondents perceive humans as having the skills necessary to complete these tasks, being in charge of them, and being able to ensure that they are completed.",
+      "label": "Background",
+      "prob": 0.7404552698135376
+    },
+    {
+      "sentence": "One is that there is an account of being responsible in rendering an agent worthy of moral appraisal.",
+      "label": "Background",
+      "prob": 0.7390190362930298
+    },
+    {
+      "sentence": "Hence, we do not posit that similar causality judgments can explain the similar attribution of liability to AI and humans as in the case of blame.",
+      "label": "Background",
+      "prob": 0.7353269457817078
+    },
+    {
+      "sentence": "People have different opinions regarding how (and where) these systems should be deployed in relation to how autonomous they should be [65], which should affect how they ascribe responsibility for their actions.",
+      "label": "Background",
+      "prob": 0.7318020462989807
+    },
+    {
+      "sentence": "These proposals arguably contribute to legal coherence [98], although it could also lead to various repercussions in moral and legal institutions [8].",
+      "label": "Background",
+      "prob": 0.7225837111473083
+    },
+    {
+      "sentence": "Scholars have discussed the risks posed by the opacity of existing AI algorithms.",
+      "label": "Background",
+      "prob": 0.7135447263717651
+    },
+    {
+      "sentence": "This allowed us to account for repeated measures, i.e., explicitly model that each participant responded to questions on eight distinct defendants.",
+      "label": "Background",
+      "prob": 0.7081909775733948
+    },
+    {
+      "sentence": "Each participant in the study was exposed to a random subset of four cases with human advice and another four with AI advice.",
+      "label": "Background",
+      "prob": 0.6927391290664673
+    },
+    {
+      "sentence": "Nonetheless, little attention is paid to the public attribution of (moral) responsibility to stakeholders (e.g., [43, 56, 81]), particularly the prospect of responsibility ascription to the AI system per se.",
+      "label": "Background",
+      "prob": 0.6897791624069214
+    },
+    {
+      "sentence": "The four rightmost bars in Figure 3 suggest that AI and human agents are ascribed similar levels of backward-notions of responsibility, namely blame, liability, praise, and causal responsibility.",
+      "label": "Background",
+      "prob": 0.6892696022987366
+    },
+    {
+      "sentence": "The current study focused on AI systems currently being used to advise bailing decisions, which is an important yet specific application of these algorithms.",
+      "label": "Background",
+      "prob": 0.6891921758651733
+    },
+    {
+      "sentence": "Addressing the statements focusing on protecting defendants rights, we hypothesize that people do not expect defendants to be compensated if their rights are violated.",
+      "label": "Background",
+      "prob": 0.686613917350769
+    },
+    {
+      "sentence": "Each vignette shown to participants varied in the advice given, bail decision, and recidivism, allowing us to compare across these factors.",
+      "label": "Background",
+      "prob": 0.6761568784713745
+    },
+    {
+      "sentence": "ii) defending that it does not meet moral eligibility standards.",
+      "label": "Background",
+      "prob": 0.6710626482963562
+    },
+    {
+      "sentence": "The meanings ofresponsibility addressing the attributionof tasks and their requirements are descriptive in the sense that they should be addressed in the present tense [27], e.g., one is responsible for a task, or is in charge of it.",
+      "label": "Background",
+      "prob": 0.6704646348953247
+    },
+    {
+      "sentence": "We posit that the first excuse can explain why people blame human and AI advisors and decision-makers similarly.",
+      "label": "Background",
+      "prob": 0.6695693731307983
+    },
+    {
+      "sentence": "Responsibility-as-answerability belongs to neither of these groups.",
+      "label": "Background",
+      "prob": 0.6651582717895508
+    },
+    {
+      "sentence": "Furthermore, responsibility-as-obligation is related to responsibility-as-task in prescribing a specific goal to the agent; it differs from the latter, however, in setting a supervisory role towards the task, rather than specifying that one should be the one to complete it.",
+      "label": "Background",
+      "prob": 0.6619354486465454
+    },
+    {
+      "sentence": "AI and robots are part of the socio-technological ensemble, in which responsibility can be distributed across multiple entities with varying degrees [32].",
+      "label": "Background",
+      "prob": 0.6593466997146606
+    },
+    {
+      "sentence": "The current study revisits eight notions of responsibility compiled from psychology and philosophy.",
+      "label": "Background",
+      "prob": 0.6580058932304382
+    },
+    {
+      "sentence": "Future research can address which functions of responsibility attribution would satisfy this public attribution of backward-looking responsibilities to AI systems.",
+      "label": "Background",
+      "prob": 0.657687783241272
+    },
+    {
+      "sentence": "These notions have been widely agreed upon as incompatible with AI systems due to their lack of metaphysical attributes [20, 89, 96].",
+      "label": "Background",
+      "prob": 0.645071268081665
+    },
+    {
+      "sentence": "Compared to the 2016 US census [100], our respondents are indeed younger and more highly educated.",
+      "label": "Background",
+      "prob": 0.641755223274231
+    },
+    {
+      "sentence": "Concerning the phrasing styles, our experiment design addressed responsibility-as-liability as the duty to compensate those harmed by a wrongful action.",
+      "label": "Background",
+      "prob": 0.6350434422492981
+    },
+    {
+      "sentence": "Nevertheless, our research has found key clusters of responsibility notions concerning AI and human agents, opening further research directions.",
+      "label": "Background",
+      "prob": 0.6284074783325195
     },
     {
       "sentence": "Scanlon [85] has proposed moral responsibility to be a bipartite concept.",
       "label": "Background",
-      "prob": 0.5092045664787292
+      "prob": 0.6277101039886475
     },
     {
-      "sentence": "The same argument could also be applied to the practice of blame [26].",
+      "sentence": "1 The autonomous component of AI and robots challenges the control condition of responsibility attribution.",
       "label": "Background",
-      "prob": 0.5035932660102844
+      "prob": 0.6232621669769287
     },
     {
-      "sentence": "We discuss how theories of moral responsibility can explain these clusters.",
+      "sentence": "i) challenging ones causal connection to the wrongful action or",
       "label": "Background",
-      "prob": 0.5030802488327026
+      "prob": 0.620439350605011
     },
     {
-      "sentence": "Our findings suggest that the eight notions of responsibility considered can be re-grouped into two clusters: one encompasses present-looking and forward-looking notions (e.g., responsibility-astask, as-power, as-authority, as-obligation), and the other includes backward-looking notions (e.g., blame, praise, liability) and causal",
+      "sentence": "Our respondents indicate that they expect decision-makers and advisors to justify their bailing decisions regardless of their nature.",
       "label": "Background",
-      "prob": 0.49771204590797424
-    },
-    {
-      "sentence": "For instance, Malle et al. observed that peoples moral judgments between human and robotic agents differed in that respondents blamed robots to a more considerable extent had they not taken a utilitarian action [67].",
-      "label": "Background",
-      "prob": 0.4973497986793518
-    },
-    {
-      "sentence": "Our data show that vignettes that grant bail (as opposed to denying bail) led to a higher assignment of all responsibility notions, particularly causal responsibility and blame (see Figure 5 in the Appendix).",
-      "label": "Background",
-      "prob": 0.4930817186832428
-    },
-    {
-      "sentence": "The model proposes that one can mitigate blame by",
-      "label": "Background",
-      "prob": 0.4913049638271332
-    },
-    {
-      "sentence": "Psychological research indicates that people base much of their responsibility attribution on retributive sentiments rather than deterrence [18], while overestimating utilitarian goals in their ascription of punishment (i.e., responsibility) [17].",
-      "label": "Background",
-      "prob": 0.4900384247303009
-    },
-    {
-      "sentence": "The current research considered eight notions of responsibility from related work.",
-      "label": "Background",
-      "prob": 0.48890092968940735
-    },
-    {
-      "sentence": "This process led to two significant changes in our survey instrument",
-      "label": "Background",
-      "prob": 0.4883619546890259
-    },
-    {
-      "sentence": "This finding suggests that blame, liability, and causal responsibility were ascribed equally to AI and human agents, despite electronic agents not being appropriate subjects of liability and blame [16, 26, 89].",
-      "label": "Background",
-      "prob": 0.48520907759666443
-    },
-    {
-      "sentence": "Figure 2 shows how people attributed each notion of responsibility to AI and human agents in Study 1 (on the advisor role) and Study 2 (on the decision-maker role).",
-      "label": "Background",
-      "prob": 0.48386150598526
-    },
-    {
-      "sentence": "All vignettes were presented in random order to eliminate any order effect [44, 79].",
-      "label": "Background",
-      "prob": 0.4816218316555023
-    },
-    {
-      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan",
-      "label": "Background",
-      "prob": 0.47950607538223267
-    },
-    {
-      "sentence": "The results from our initial exploratory analysis in Section 4.1 show that trends found between causality and blame attributions across different phrasing styles do not directly transfer to liability judgments.",
-      "label": "Background",
-      "prob": 0.4759378433227539
-    },
-    {
-      "sentence": "A high correlation value indicates that those responsibility notions are perceived similarly by people.",
-      "label": "Background",
-      "prob": 0.47414958477020264
-    },
-    {
-      "sentence": "Therefore, our results might not be generalizable to all possible environments.",
-      "label": "Background",
-      "prob": 0.47357824444770813
-    },
-    {
-      "sentence": "Our respondents unanimously stated that they found information about defendants easier to read, understand, and use when presented in a tabular format (shown in Figure 4 in the Appendix).",
-      "label": "Background",
-      "prob": 0.47216373682022095
-    },
-    {
-      "sentence": "Responsibility-as-cause and praise were the most neutral notions, and their mean attribution is close to zero (i.e., the baseline) across all treatments (see Figure 5 in the",
-      "label": "Background",
-      "prob": 0.4700433015823364
-    },
-    {
-      "sentence": "Regardingthestatementsaddressingthepreventionofre-offenses, we posit that the lower attribution of liability to both agents is caused by a variation of the problem of many hands. [102] Preventing defendants from re-offending does not rely solely on a judges decision but encompasses many other factors as discussed above.",
-      "label": "Background",
-      "prob": 0.4682747423648834
-    },
-    {
-      "sentence": "All vignettes stated that the judges final decision followed the advice given, given the",
-      "label": "Background",
-      "prob": 0.465556800365448
-    },
-    {
-      "sentence": "For instance, to be responsible for a specific task because one has the authority and necessary skills prescribes that one should see to it that the task is completed, i.e., an obligation is prescribed, through consequentialist, deontological, or virtue-based routes [102].",
-      "label": "Background",
-      "prob": 0.4614984393119812
+      "prob": 0.6190900802612305
     },
     {
       "sentence": "Study 1 was designed so that the judges decision always followed the advice given to reduce complexity in the vignette design.",
       "label": "Background",
-      "prob": 0.4599187970161438
+      "prob": 0.6172498464584351
     },
     {
-      "sentence": "Nevertheless, our results suggest that humans and AI are judged similarly responsible with respect to causality, blame, and liability for bail decisions.",
+      "sentence": "Expanding this bipartite concept, Shoemaker [87] has proposed three different concepts of moral responsibility: attributability, answerability, and accountability.",
       "label": "Background",
-      "prob": 0.458987295627594
+      "prob": 0.6159072518348694
     },
     {
-      "sentence": "Meeyoung Cha mcha@ibs.re.kr Data Science Group, IBS School of Computing, KAIST Republic of Korea",
-      "label": "Other",
-      "prob": 0.4861862063407898
-    },
-    {
-      "sentence": "In comparing AI agents against human agents, we found a striking difference in the way people attribute responsibility.",
+      "sentence": "One of the prominent findings of this work is the need of interpretable AI systems.",
       "label": "Background",
-      "prob": 0.45457810163497925
+      "prob": 0.6150178909301758
     },
     {
-      "sentence": "5.4.2 Praise in AI-Assisted Bail Decisions.",
+      "sentence": "Humans are responsible for the tasks they are assigned, e.g., preventing re-offenses because they are in charge (i.e., authority) and have the skills necessary for completing them (i.e., power).",
       "label": "Background",
-      "prob": 0.4539802372455597
+      "prob": 0.6148914098739624
     },
     {
-      "sentence": "In this study, scores 1 to 5 were labeled grant bail and 6 to 10 were labeled deny bail.",
+      "sentence": "After identifying a norm-violating event, the model states that one judges whether the agent is causally connected to the harmful outcome.",
       "label": "Background",
-      "prob": 0.4524201452732086
+      "prob": 0.6059320569038391
     },
     {
-      "sentence": "As stimulus material, we use real-world data obtained from a previous analysis of the tool [2], which focused on its application in bail decision-making.",
+      "sentence": "To strike a balance between these two functions of bail decisions, we phrase statements addressing all notions of responsibility addressed in this work in two different forms: a human agent or an AI program could be held responsible for i ) (not) protecting the rights of the defendant and ii ) (not) preventing re-offense.",
       "label": "Background",
-      "prob": 0.4468444883823395
+      "prob": 0.6031425595283508
     },
     {
-      "sentence": "These agents should either oversee (i.e., obligation) these",
-      "label": "Other",
-      "prob": 0.48269128799438477
-    },
-    {
-      "sentence": "Our findings indicating that AI and human agents should be held liable to a similar level goes against previous work, which has found that people attribute punishment to AI systems to a lesser degree than their human counterparts [62].",
+      "sentence": "One cluster encompasses meanings related to the attribution of tasks and obligations (i.e., responsibility-as-task, asobligation), their necessary skills (i.e., responsibility-as-power), and the ascription of authority (i.e., responsibility-as-authority).",
       "label": "Background",
-      "prob": 0.4431513547897339
-    },
-    {
-      "sentence": "The respondents attributed more of these notions of responsibility to humans than to AIs.",
-      "label": "Result",
-      "prob": 0.45641598105430603
-    },
-    {
-      "sentence": "In all models, we use our adapted scale of pre-attitude towards AI systems as a control variable.",
-      "label": "Background",
-      "prob": 0.4367213249206543
-    },
-    {
-      "sentence": "Otherwise, the blamer evaluates the agents intentionality.",
-      "label": "Background",
-      "prob": 0.43282797932624817
-    },
-    {
-      "sentence": "There exists empirical evidence that people might be averse to machines making moral decisions [10].",
-      "label": "Other",
-      "prob": 0.5093885064125061
+      "prob": 0.6019426584243774
     },
     {
       "sentence": "Some even argue that normative approaches are inappropriate as they can hurt AIs adoption in the long run [12].",
-      "label": "Other",
-      "prob": 0.5306873917579651
+      "label": "Background",
+      "prob": 0.6010055541992188
     },
     {
-      "sentence": "Nonetheless, our study shows that AIs could also be held responsible for their actions.",
-      "label": "Result",
-      "prob": 0.49108579754829407
+      "sentence": "Similarly to the problem of many hands in the assignment of responsibility to collective agents [102], AI and robots suffer from the problem of many things, i.e., current systems are composed of various interacting entities and technologies, making the search for a responsible entity harder [24].",
+      "label": "Background",
+      "prob": 0.5934677720069885
+    },
+    {
+      "sentence": "From a legal perspective, non-human entities (e.g., corporations) can be held responsible for any damage that they may cause [103].",
+      "label": "Background",
+      "prob": 0.5885980129241943
+    },
+    {
+      "sentence": "This dataset contains information about 7,214 defendants subjected to COMPAS screening in Broward County, Florida, between 2013 and 2014.",
+      "label": "Background",
+      "prob": 0.5811148285865784
+    },
+    {
+      "sentence": "Finally, this study also showed that people judge AI and humans differently with respect to certain notions of responsibility, particularly those addressing presentand forward-looking meanings, such as responsibility-as-task and as-obligation.",
+      "label": "Background",
+      "prob": 0.574312150478363
+    },
+    {
+      "sentence": "We conducted two survey studies (  =200 each) that collect the public perception on moral responsibility of AI and human agents in high-stakes scenarios.",
+      "label": "Background",
+      "prob": 0.5707607865333557
+    },
+    {
+      "sentence": "The first four responsibility concepts are correlated; the notions addressing tasks, supervisory roles, and the skills needed to assume them show a meaningful difference between",
+      "label": "Background",
+      "prob": 0.5689883828163147
+    },
+    {
+      "sentence": "We also discuss the possibility of holding AI systems responsible per se [61] alongside other human agents, as a possible approach congruent to the public opinion.",
+      "label": "Background",
+      "prob": 0.5674766898155212
+    },
+    {
+      "sentence": "The regulation of AI and robots poses new challenges to policymaking, as in the previously introduced techno-responsibility gap, which society must discuss at large [24].",
+      "label": "Background",
+      "prob": 0.564774751663208
+    },
+    {
+      "sentence": "Participants perceived human judges and advisors as more responsible for their tasks than their AI counterparts (see the leftmost bars in Figure 3).",
+      "label": "Background",
+      "prob": 0.5614323616027832
+    },
+    {
+      "sentence": "One side argues that designers and manufacturers should take responsibility for any harm caused by their tools. [16, 31] Supervisors and users of these systems should also take responsibility for their deployment, particularly in consequential environments like the military as argued by Champagne and Tonkens [20].",
+      "label": "Background",
+      "prob": 0.5591505765914917
+    },
+    {
+      "sentence": "2 These statements aimed to capture different notions of responsibility (see Table 2 in the Appendix for the complete list).",
+      "label": "Background",
+      "prob": 0.5542581677436829
+    },
+    {
+      "sentence": "Another possible issue is agency laundering, in which the systems designer distances itself from morally suspect actions, regardless of intentionality, by blaming the algorithm, machine, or system [82].",
+      "label": "Background",
+      "prob": 0.5516233444213867
+    },
+    {
+      "sentence": "The phrasing column indicates how statements were phrased depending on which function of the bail decision they stressed: preventing further offenses (Further Offense) or protecting the defendants rights (Rights).",
+      "label": "Background",
+      "prob": 0.5484210848808289
+    },
+    {
+      "sentence": "our study participants were also assigned to one of two different phrasing styles addressing some of the bailing decisions objectives.",
+      "label": "Background",
+      "prob": 0.547370195388794
+    },
+    {
+      "sentence": "The first cluster is composed of responsibilityas-task, authority, power, and obligation  all of which were attributed to a greater degree to humans than AI systems (  >0.206,  <.001).",
+      "label": "Background",
+      "prob": 0.5447220802307129
+    },
+    {
+      "sentence": "The respondents attributed more of these notions of responsibility to humans than to AIs.",
+      "label": "Background",
+      "prob": 0.5434841513633728
+    },
+    {
+      "sentence": "We hypothesize that the low assignment of liability is due to the current studys bail decision-making context.",
+      "label": "Background",
+      "prob": 0.5400736927986145
+    },
+    {
+      "sentence": "(c) Attribution of the eight notions of moral responsibility to the advisor in Study 1 (or decision-maker in Study 2).",
+      "label": "Background",
+      "prob": 0.5330816507339478
+    },
+    {
+      "sentence": "Humans should focus on their relationship to the patients of their responsibility to answer for the actions of autonomous systems [24].",
+      "label": "Background",
+      "prob": 0.5321566462516785
+    },
+    {
+      "sentence": "Our responsibility practices depend on folk-psychology [15] (i.e., how people perceive the agents involved in social practices [91]).",
+      "label": "Background",
+      "prob": 0.5243938565254211
+    },
+    {
+      "sentence": "However, both of our studies samples have a smaller ratio of women than the US population.",
+      "label": "Background",
+      "prob": 0.5169345140457153
+    },
+    {
+      "sentence": "Our study employed a within-subjects design where all participants were exposed to a diverse set of vignettes addressing distinct possible outcomes from bail decisions.",
+      "label": "Background",
+      "prob": 0.5167787671089172
+    },
+    {
+      "sentence": "Regardingthestatementsaddressingthepreventionofre-offenses, we posit that the lower attribution of liability to both agents is caused by a variation of the problem of many hands. [102] Preventing defendants from re-offending does not rely solely on a judges decision but encompasses many other factors as discussed above.",
+      "label": "Background",
+      "prob": 0.5158757567405701
+    },
+    {
+      "sentence": "They argue that understanding how these systems come to their conclusions is necessary for both safe deployment and wide adoption [36].",
+      "label": "Background",
+      "prob": 0.5125149488449097
+    },
+    {
+      "sentence": "However, studies have shown a public impulse to blame, driven by the desire to express social values and expectations [18].",
+      "label": "Background",
+      "prob": 0.5123876929283142
+    },
+    {
+      "sentence": "The exercise of agency by these systems can be viewed as a human-robot collaboration, in which humans supervise and manage the agency of AI and robots [72].",
+      "label": "Background",
+      "prob": 0.51168292760849
+    },
+    {
+      "sentence": "For unintentional actions, however, one evaluates whether the agent should have prevented the norm-violating event (i.e., had an obligation to prevent it) and could have done so (i.e., had the skills necessary), hence blaming the agent depending on the evaluation of these notions.",
+      "label": "Background",
+      "prob": 0.5109223127365112
+    },
+    {
+      "sentence": "Furlough et al. found that respondents attributed similar levels of blame to robotic agents and humans when robots were described",
+      "label": "Background",
+      "prob": 0.5031143426895142
+    },
+    {
+      "sentence": "This finding is in line with previous work on blame assignment, highlighting the significance of causality in peoples ascription of blame and punishment.",
+      "label": "Background",
+      "prob": 0.5024166703224182
+    },
+    {
+      "sentence": "Therefore, we also posit that future work should delve deeper into what types of explanations the general public expects from AI systems.",
+      "label": "Background",
+      "prob": 0.5021959543228149
+    },
+    {
+      "sentence": "Our findings indicate that people believe humans are, and should be, responsible for the assigned tasks, regardless of whether they are advisors or decision-makers.",
+      "label": "Background",
+      "prob": 0.5001361966133118
+    },
+    {
+      "sentence": "Imagine that you read the following story in your local newspaper: A court in Broward County, Florida, is starting to use an artificial intelligence (AI) program to help them decide if a defendant can be released on bail before trial.",
+      "label": "Background",
+      "prob": 0.4988997280597687
+    },
+    {
+      "sentence": "Various other definitions have been proposed [102], including structured notions of what responsibility is [104] and how they are connected [14, 34].",
+      "label": "Background",
+      "prob": 0.496554970741272
+    },
+    {
+      "sentence": "Stating that an agent is causally responsible for",
+      "label": "Background",
+      "prob": 0.49344247579574585
     },
     {
       "sentence": "Participants were randomly assigned to one of these treatment groups, and all statements followed the same phrasing style.",
       "label": "Background",
-      "prob": 0.4060041606426239
+      "prob": 0.4830489754676819
     },
     {
-      "sentence": "Who should be held responsible for the harm caused by artificial intelligence (AI)?",
+      "sentence": "Scholars have extensively discussed the assignment of responsibility for autonomous machines actions and have expanded this gap to more specific notions of responsibility [5, 8, 54] and its functions [26, 62].",
+      "label": "Background",
+      "prob": 0.48057821393013
+    },
+    {
+      "sentence": "Ascribing responsibility is a complex moral and legal practice that encompasses various functions, entities, and social practices [71, 91].",
+      "label": "Background",
+      "prob": 0.47902432084083557
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than ACM mustbehonored.Abstractingwithcreditispermitted.Tocopyotherwise,orrepublish,topostonserversortoredistributetolists,requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org.",
+      "label": "Background",
+      "prob": 0.4778166711330414
+    },
+    {
+      "sentence": "The current study contributes by addressing the public perception of algorithmic decision-making through the lens of moral responsibility.",
+      "label": "Background",
+      "prob": 0.47500014305114746
+    },
+    {
+      "sentence": "Previous work has addressed how and why people assign responsibility to various agents.",
+      "label": "Background",
+      "prob": 0.4747886657714844
+    },
+    {
+      "sentence": "The first three are descriptive and focus on ones tasks (i.e., task, authority) and the necessary skills for their completion (i.e., power).",
+      "label": "Background",
+      "prob": 0.4727455973625183
+    },
+    {
+      "sentence": "Real-life adapted vignettes of AI-assisted bail decisions were used to observe how people attributed specific meanings of responsibility to i ) AI advisors vs. human advisors and ii ) AI decision-makers vs. human decisionmakers.",
+      "label": "Background",
+      "prob": 0.4660947918891907
+    },
+    {
+      "sentence": "In the current study, we address one of these functions and phrase liability as the responsibility to compensate those harmed (i.e., make victims whole).",
+      "label": "Background",
+      "prob": 0.4580312669277191
+    },
+    {
+      "sentence": "Compared to Pew Research data on the US populations political leaning [75], our samples are substantially more liberal.",
+      "label": "Background",
+      "prob": 0.4565551280975342
+    },
+    {
+      "sentence": "In contrast, relatively little attention has been paid to understanding the publics views on this issue, who are likely the most affected stakeholder when AI systems are deployed [78].",
       "label": "Other",
-      "prob": 0.4939076900482178
+      "prob": 0.47641944885253906
     },
     {
-      "sentence": "Responsibility-as-answerability belongs to neither of these groups.",
+      "sentence": "The present research explores multiple notions of moral responsibility of both human and AI agents involved in decision-making.",
+      "label": "Objective",
+      "prob": 0.49772384762763977
+    },
+    {
+      "sentence": "The cognitive interviews lasted less than 30 minutes, while the online surveys took 10.36  5.43 minutes.",
+      "label": "Background",
+      "prob": 0.43759816884994507
+    },
+    {
+      "sentence": "Some even propose to hold AI systems responsible per se [91], viewing human-AI collaborations as extended agencies [45, 48].",
       "label": "Other",
-      "prob": 0.49327054619789124
+      "prob": 0.48204267024993896
     },
     {
-      "sentence": "In contrast, pessimistic views question whether this gap can be bridged at all, since there might not exist appropriate subjects of retributive blame [26] nor it makes sense to hold inanimate and non-conscious entities responsible for their actions [16, 89, 96].",
+      "sentence": "These agents should either oversee (i.e., obligation) these",
       "label": "Other",
-      "prob": 0.4266378581523895
+      "prob": 0.4772064983844757
     },
     {
-      "sentence": "5.4.1 The Relation Between Causality and Blame.",
+      "sentence": "All of these notions originated from Van de Poels work [101, 102], except for responsibility-as-authority and as-power, which comes from Daviss discussion on professional responsibility [27].",
       "label": "Other",
-      "prob": 0.46305862069129944
+      "prob": 0.4475695490837097
     },
     {
-      "sentence": "In addition to these findings, we found that people expect both human and AI agents to justify their decisions.",
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Other",
+      "prob": 0.4592511057853699
+    },
+    {
+      "sentence": "We note subtle differences in how people attribute responsibility to AI and humans.",
       "label": "Result",
-      "prob": 0.5068120956420898
+      "prob": 0.476637601852417
     },
     {
-      "sentence": "We also gathered responses to a modified questionnaire of NARS (Negative Attitude towards Robot",
+      "sentence": "In our case study, human-AI collaborations are such that there exists an AI-in-theloop; future work should address other collaboration variations, such as human-in-the-loop, i.e., humans assisting machines.",
       "label": "Background",
-      "prob": 0.3995153605937958
+      "prob": 0.42525714635849
     },
     {
-      "sentence": "Third, we can quantify variations across vignette conditions.",
+      "sentence": "For instance, Lee et al. studied peoples perception of trust, fairness, and justice in the context of algorithmic decision-making [56, 57] and proposed how to embed these views into a policymaking framework [58].",
       "label": "Background",
-      "prob": 0.39256536960601807
+      "prob": 0.42423930764198303
+    },
+    {
+      "sentence": "(a) Study introduction presenting the scenario where AI systems are being used for bail decisions.",
+      "label": "Background",
+      "prob": 0.4218613803386688
+    },
+    {
+      "sentence": "Viewing responsibility concepts as social constructs that aim to achieve specific social goals, attributing backward-looking notions of responsibility to AI systems might emphasize these goals [91].",
+      "label": "Other",
+      "prob": 0.4236869812011719
+    },
+    {
+      "sentence": "Taking praise as a method of conveying social expectations and values, we highlight that people might perceive existing praising practices as inappropriate for AI.",
+      "label": "Background",
+      "prob": 0.4203176200389862
+    },
+    {
+      "sentence": "We complement these notions with a wide range of literature ranging from philosophical theories of moral responsibility (e.g., [86, 87]) to approaches in the context of AI systems (e.g., [24, 96]).",
+      "label": "Background",
+      "prob": 0.4177108407020569
+    },
+    {
+      "sentence": "Our findings highlight the importance of interpretable and explainable algorithms, particularly in high-stakes scenarios, such as our casestudy.",
+      "label": "Background",
+      "prob": 0.41443005204200745
+    },
+    {
+      "sentence": "We ensured a balanced set was shown to each participant in terms of the advice (i.e., grant bail vs. deny bail) and recidivism.",
+      "label": "Result",
+      "prob": 0.4097694754600525
+    },
+    {
+      "sentence": "As a case study, we adapted vignettes from real-life algorithm-assisted bail decisions and employed a within-subjects experimental design to obtain public perceptions on various notions of moral responsibility.",
+      "label": "Background",
+      "prob": 0.4074302613735199
     },
     {
       "sentence": "This paper discussed the responsibility gap posed by the deployment of autonomous AI systems [68] and conducted a survey study to understand how differently people attribute responsibility to AI and humans.",
       "label": "Objective",
-      "prob": 0.5195613503456116
+      "prob": 0.4412045180797577
     },
     {
-      "sentence": "Using the proposition of morality as a human-made social construct that aims to fulfill specific goals [91, 93], we highlight the importance of users and designers taking responsibility for their systems while being held responsible for any norm-violating outcomes.",
-      "label": "Background",
-      "prob": 0.3721376359462738
-    },
-    {
-      "sentence": "ProPublica dataset does not provide this information.",
+      "sentence": "Explanations involve both an explainer and explainee, meaning that conflicts might arise concerning how they are evaluated [69].",
       "label": "Other",
-      "prob": 0.5203282833099365
+      "prob": 0.5210409164428711
+    },
+    {
+      "sentence": "Bail decisions aim to procure a balance between protecting future victims, e.g., prevent further offenses, and to impede any unnecessary burdens towards the defendant, e.g., by ensuring that their rights are protected [43].",
+      "label": "Background",
+      "prob": 0.3952745795249939
+    },
+    {
+      "sentence": "Although our participants assign a marginally lower level of responsibility-as-answerability for AI advisors vis-vis their human counterparts (  =0.167,  <.05), they believe they should justify their decisions to the same extent as human judges, particularly if they are to make the final bail decision (  >.05).",
+      "label": "Background",
+      "prob": 0.39523184299468994
+    },
+    {
+      "sentence": "Our data show that vignettes that grant bail (as opposed to denying bail) led to a higher assignment of all responsibility notions, particularly causal responsibility and blame (see Figure 5 in the Appendix).",
+      "label": "Result",
+      "prob": 0.5157914757728577
+    },
+    {
+      "sentence": "tasks or take the lead (i.e., task).",
+      "label": "Other",
+      "prob": 0.5142776370048523
+    },
+    {
+      "sentence": "Hence, we recruited 400 respondents through the Prolific crowdsourcing platform [74] to compensate for attention-check failures.",
+      "label": "Background",
+      "prob": 0.39194536209106445
+    },
+    {
+      "sentence": "The latter aspect of bail decisions is related to the assumption that one is innocent until proven otherwise beyond a reasonable doubt under criminal law [30].",
+      "label": "Other",
+      "prob": 0.5543158650398254
+    },
+    {
+      "sentence": "According to some scholars, holding AI and robots responsible per se could fulfill specific social goals [23] and promote critical social functions [11, 91].",
+      "label": "Other",
+      "prob": 0.48503345251083374
+    },
+    {
+      "sentence": "Previous work has proposed praise as a positive reinforcement [51] and a method through which one might convey information about its values and expectations to the praisee [28].",
+      "label": "Background",
+      "prob": 0.3855956196784973
+    },
+    {
+      "sentence": "One such algorithm is the COMPAS (Correctional Offender Management Profiling for Alternative Sanctions) tool, used by the judicial system in the US to assist bail decisions and sentencing [2].",
+      "label": "Background",
+      "prob": 0.38521328568458557
+    },
+    {
+      "sentence": "as autonomous and at the same time the leading cause of harm [37].",
+      "label": "Other",
+      "prob": 0.5576088428497314
+    },
+    {
+      "sentence": "In this study, scores 1 to 5 were labeled grant bail and 6 to 10 were labeled deny bail.",
+      "label": "Background",
+      "prob": 0.3803655505180359
+    },
+    {
+      "sentence": "This question has been debated for over a decade since Matthias landmark essay on the responsibility gap of autonomous machines [68].",
+      "label": "Other",
+      "prob": 0.5757195949554443
+    },
+    {
+      "sentence": "Responsibility can take many forms.",
+      "label": "Other",
+      "prob": 0.41626209020614624
+    },
+    {
+      "sentence": "We stopped gathering new responses once the feedback stopped leading to new insights.",
+      "label": "Result",
+      "prob": 0.4119780957698822
+    },
+    {
+      "sentence": "Our data similarly reveal such a relationship, even when controlling for the advice given, bail decision, or re-offense.",
+      "label": "Result",
+      "prob": 0.55005943775177
+    },
+    {
+      "sentence": "However, we have also found that people attribute similar levels of causal responsibility, blame, and liability to AI and human advisors and decision-makers for bail decisions.",
+      "label": "Result",
+      "prob": 0.5397858619689941
+    },
+    {
+      "sentence": "Secondly, we rephrased some of the statements about the notions of responsibility we address in this work so that survey respondents understanding of these concepts is similar to the definitions introduced above.",
+      "label": "Background",
+      "prob": 0.3710096776485443
+    },
+    {
+      "sentence": "We targeted US residents who have previously completed at least 100 tasks on Prolific, with an approval rate of 95% or above.",
+      "label": "Background",
+      "prob": 0.36898180842399597
     },
     {
       "sentence": "Towards the end of the survey, we asked demographic questions (presented in Table 1).",
       "label": "Background",
-      "prob": 0.3630065321922302
+      "prob": 0.3680710792541504
     },
     {
-      "sentence": "Each participant was randomly assigned to one of the two studies.",
-      "label": "Result",
-      "prob": 0.37859827280044556
-    },
-    {
-      "sentence": "The annotated numbers indicate the differences and significance levels between the two agents.",
-      "label": "Result",
-      "prob": 0.42681267857551575
-    },
-    {
-      "sentence": "Firstly, we adapted the vignette presentation, which was initially adapted from previous work [33].",
-      "label": "Background",
-      "prob": 0.3541855216026306
-    },
-    {
-      "sentence": "Legal scholars state that punishment (which could be seen as a form of holding an agent responsible, e.g., under criminal liability) aims to reform the wrongdoers, deter re-offenses and similar actions, and resolve retributive sentiments [4, 99].",
+      "sentence": "Optimistic views proclaim that the gap can be bridged by proactive attitudes of AI designers, who should readily take responsibility for any harm [20, 72].",
       "label": "Other",
-      "prob": 0.47605717182159424
+      "prob": 0.5586697459220886
     },
     {
-      "sentence": "Although not exhaustive (e.g., we have not addressed virtue-based notions of responsibility as they cannot be easily adapted to AI systems), we highlight how our work differs from previous HCI approaches.",
-      "label": "Background",
-      "prob": 0.3492601811885834
-    },
-    {
-      "sentence": "Copyrights for components of this work owned by others than ACM mustbehonored.Abstractingwithcreditispermitted.Tocopyotherwise,orrepublish,topostonserversortoredistributetolists,requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org.",
+      "sentence": "However, these studies and many others [52, 59, 105] tackle a singular notion of responsibility related to blameworthiness [102].",
       "label": "Other",
-      "prob": 0.6131060123443604
+      "prob": 0.5503741502761841
     },
     {
-      "sentence": "Our findings indicate that participants who were presented with responsibility statements addressing the violation or protection of a defendants rights (e.g., It is the AI programs task to protect the rights of the defendant) were assigned higher responsibility levels across all notions.",
+      "sentence": "These scholars often view these human-AI collaborations as extended agencies where all entities should be held jointly responsible [45, 48].",
+      "label": "Other",
+      "prob": 0.5784899592399597
+    },
+    {
+      "sentence": "Asian ethnicity is slightly over-represented in our samples.",
       "label": "Result",
-      "prob": 0.5226398706436157
+      "prob": 0.3952697217464447
     },
     {
-      "sentence": "No difference, however, was observed for the backward-looking responsibility notions.",
+      "sentence": "Our findings suggest that the eight notions of responsibility considered can be re-grouped into two clusters: one encompasses present-looking and forward-looking notions (e.g., responsibility-astask, as-power, as-authority, as-obligation), and the other includes backward-looking notions (e.g., blame, praise, liability) and causal",
       "label": "Result",
-      "prob": 0.570448100566864
+      "prob": 0.4496012032032013
     },
     {
-      "sentence": "However, our results also indicate that AI decision-makers are not praised to the same level as human judges.",
+      "sentence": "5.4.2 Praise in AI-Assisted Bail Decisions.",
+      "label": "Other",
+      "prob": 0.4504995048046112
+    },
+    {
+      "sentence": "First, responsibility-as-answerability (i.e., the bar in the middle) was the notion ascribed the highest to both human and AI advisors and decision-makers, followed by responsibility-as-obligation, astask, as-authority, and as-power (i.e., the first four bars).",
       "label": "Result",
-      "prob": 0.5953154563903809
-    },
-    {
-      "sentence": "66 for completing the online surveys.",
-      "label": "Other",
-      "prob": 0.36168912053108215
-    },
-    {
-      "sentence": "Max Planck Institute for Software",
-      "label": "Other",
-      "prob": 0.5749816298484802
-    },
-    {
-      "sentence": "The current study contributes by addressing the public perception of algorithmic decision-making through the lens of moral responsibility.",
-      "label": "Objective",
-      "prob": 0.5309919714927673
-    },
-    {
-      "sentence": "This work was supported by the Institute for Basic Science (IBSR029-C2).",
-      "label": "Other",
-      "prob": 0.6438345313072205
-    },
-    {
-      "sentence": "use the standard .05 level of significance.",
-      "label": "Other",
-      "prob": 0.30130624771118164
-    },
-    {
-      "sentence": "To quantify the difference, we used a multivariate linear mixed model that included a random-effects term to control for each participant.",
-      "label": "Method",
-      "prob": 0.5740187764167786
-    },
-    {
-      "sentence": "Although our participants assign a marginally lower level of responsibility-as-answerability for AI advisors vis-vis their human counterparts (  =0.167,  <.05), they believe they should justify their decisions to the same extent as human judges, particularly if they are to make the final bail decision (  >.05).",
-      "label": "Result",
-      "prob": 0.5748748183250427
-    },
-    {
-      "sentence": "We interviewed six demographically diverse respondents.",
-      "label": "Result",
-      "prob": 0.49947887659072876
-    },
-    {
-      "sentence": "Collective Goods",
-      "label": "Other",
-      "prob": 0.5843666791915894
-    },
-    {
-      "sentence": "2 These statements aimed to capture different notions of responsibility (see Table 2 in the Appendix for the complete list).",
-      "label": "Objective",
-      "prob": 0.6469217538833618
-    },
-    {
-      "sentence": "2021 Association for Computing Machinery.",
-      "label": "Other",
-      "prob": 0.6891599297523499
-    },
-    {
-      "sentence": "The sampled data was balanced concerning these variables.",
-      "label": "Result",
-      "prob": 0.628987729549408
+      "prob": 0.3974345028400421
     },
     {
       "sentence": "Participants were also asked two attention check questions in between vignettes.",
       "label": "Result",
-      "prob": 0.4939948618412018
+      "prob": 0.39934784173965454
+    },
+    {
+      "sentence": "Likewise, HCI research has found that people attribute blame to robotic agents upon harm, particularly if they are described to be autonomous and serve the main cause of harm [37, 52, 67].",
+      "label": "Other",
+      "prob": 0.5356799960136414
+    },
+    {
+      "sentence": "We use 100 randomly selected cases from this dataset, the corresponding bail suggestions, and information about whether the defendant re-offended within two years of sentencing.",
+      "label": "Background",
+      "prob": 0.3427284359931946
+    },
+    {
+      "sentence": "This study makes use of publicly available COMPAS data released by ProPublica [2] and considers the machine judgments as either an AI advisor (later in Study 1) or an AI decision-maker (in Study 2).",
+      "label": "Result",
+      "prob": 0.3591662049293518
+    },
+    {
+      "sentence": "So far, we have observed two clusters of responsibility concepts by their correlation.",
+      "label": "Result",
+      "prob": 0.5714724659919739
+    },
+    {
+      "sentence": "A high correlation value indicates that those responsibility notions are perceived similarly by people.",
+      "label": "Result",
+      "prob": 0.5278312563896179
+    },
+    {
+      "sentence": "Although not exhaustive (e.g., we have not addressed virtue-based notions of responsibility as they cannot be easily adapted to AI systems), we highlight how our work differs from previous HCI approaches.",
+      "label": "Result",
+      "prob": 0.37287113070487976
+    },
+    {
+      "sentence": "The general public might choose to hold a wrongdoer responsible for restoring moral coherence [22] or reaffirming a communal moral values [109].",
+      "label": "Other",
+      "prob": 0.6051346659660339
+    },
+    {
+      "sentence": "The model proposes that one can mitigate blame by",
+      "label": "Background",
+      "prob": 0.32233181595802307
+    },
+    {
+      "sentence": "Empirical findings indicate that people attribute responsibility to these systems [7, 62], although to a lesser extent than human agents.",
+      "label": "Result",
+      "prob": 0.601891279220581
+    },
+    {
+      "sentence": "This work was supported by the Institute for Basic Science (IBSR029-C2).",
+      "label": "Other",
+      "prob": 0.49232247471809387
+    },
+    {
+      "sentence": "Nevertheless, our results suggest that humans and AI are judged similarly responsible with respect to causality, blame, and liability for bail decisions.",
+      "label": "Result",
+      "prob": 0.5978404879570007
+    },
+    {
+      "sentence": "All vignettes stated that the judges final decision followed the advice given, given the",
+      "label": "Other",
+      "prob": 0.3186207711696625
+    },
+    {
+      "sentence": "Legal scholars state that punishment (which could be seen as a form of holding an agent responsible, e.g., under criminal liability) aims to reform the wrongdoers, deter re-offenses and similar actions, and resolve retributive sentiments [4, 99].",
+      "label": "Objective",
+      "prob": 0.4911758601665497
+    },
+    {
+      "sentence": "In comparing AI agents against human agents, we found a striking difference in the way people attribute responsibility.",
+      "label": "Result",
+      "prob": 0.5541138648986816
+    },
+    {
+      "sentence": "A Wilcoxon-Mann-Whitney two-tailed test, with a 0.8 power to detect an effect size of 0.5 at the significance level of 0.05, requires 67 respondents per treatment group.",
+      "label": "Result",
+      "prob": 0.47898241877555847
+    },
+    {
+      "sentence": "For instance, those wrongfully convicted do not receive any compensation for years spent in prison in at least 21 US states [88].",
+      "label": "Other",
+      "prob": 0.6605016589164734
+    },
+    {
+      "sentence": "Algorithms are used to choose which candidate is most fit for a job position [111], decide which defendants are granted bail [33], guide health-related decision [73], and assess credit risk [49].",
+      "label": "Other",
+      "prob": 0.3616510331630707
+    },
+    {
+      "sentence": "However, there is a growing need for practical and proactive guidelines; as Mittelstadt puts it, principles alone cannot guarantee ethical AI [69].",
+      "label": "Other",
+      "prob": 0.649543821811676
+    },
+    {
+      "sentence": "We posit that this effect results from the control that judges (humans and AIs) have over the consequences of their advice and decisions.",
+      "label": "Result",
+      "prob": 0.6141946911811829
+    },
+    {
+      "sentence": "However, our results also indicate that AI decision-makers are not praised to the same level as human judges.",
+      "label": "Result",
+      "prob": 0.640937328338623
+    },
+    {
+      "sentence": "We recognize that other meanings of responsibility could be further considered, such as virtue-based notions where one might call an entity responsible in that it prescribes an evaluation of ones traits and dispositions [87, 94].",
+      "label": "Other",
+      "prob": 0.606853187084198
+    },
+    {
+      "sentence": "To study how the perceived responsibility for bail decisions differs when judges are advised by the COMPAS tool or by another human judge, we considered the following scenario:",
+      "label": "Objective",
+      "prob": 0.2948218286037445
+    },
+    {
+      "sentence": "In addition to these findings, we found that people expect both human and AI agents to justify their decisions.",
+      "label": "Result",
+      "prob": 0.5749094486236572
+    },
+    {
+      "sentence": "If the general public believes praising an AI system does not make sense, people might perceive blameworthiness similarly, contradicting our results.",
+      "label": "Result",
+      "prob": 0.6290017366409302
+    },
+    {
+      "sentence": "Our findings indicating that AI and human agents should be held liable to a similar level goes against previous work, which has found that people attribute punishment to AI systems to a lesser degree than their human counterparts [62].",
+      "label": "Other",
+      "prob": 0.47263628244400024
+    },
+    {
+      "sentence": "Our respondents unanimously stated that they found information about defendants easier to read, understand, and use when presented in a tabular format (shown in Figure 4 in the Appendix).",
+      "label": "Result",
+      "prob": 0.48238301277160645
+    },
+    {
+      "sentence": "As our results demonstrate, people may hold AI to a similar level of moral scrutiny as humans for their actions and harms.",
+      "label": "Result",
+      "prob": 0.6548224091529846
+    },
+    {
+      "sentence": "Hence, all study participants were paid above the US minimum wage.",
+      "label": "Result",
+      "prob": 0.40285244584083557
+    },
+    {
+      "sentence": "To quantify the difference, we used a multivariate linear mixed model that included a random-effects term to control for each participant.",
+      "label": "Method",
+      "prob": 0.45968517661094666
+    },
+    {
+      "sentence": "Three respondents were recruited through the online crowdsourcing platform Prolific [74], while the other three were our colleagues, who had prior experience designing and conducting human-subject studies.",
+      "label": "Result",
+      "prob": 0.5451489090919495
+    },
+    {
+      "sentence": "In all models, we use our adapted scale of pre-attitude towards AI systems as a control variable.",
+      "label": "Method",
+      "prob": 0.3397486209869385
+    },
+    {
+      "sentence": "Both Study 1 and Study 2 show consistent differences in responsibility attribution between agents, regardless of whether they informed a human judge (Study 1) or decided by themselves (Study 2).",
+      "label": "Result",
+      "prob": 0.6109387278556824
+    },
+    {
+      "sentence": "Although recent scholarly work does not directly challenge these Aristotelian conditions, they argue that moral responsibility cannot be explained as a single concept, but that it involves a relatively pluralistic definition of what it means to hold someone morally responsible [87, 102].",
+      "label": "Other",
+      "prob": 0.6658167839050293
+    },
+    {
+      "sentence": "There exists empirical evidence that people might be averse to machines making moral decisions [10].",
+      "label": "Other",
+      "prob": 0.6605703830718994
+    },
+    {
+      "sentence": "The algorithmic social contract requires inputs from various stakeholders, whose opinion should be weighed for the holistic crafting of regulations [78].",
+      "label": "Other",
+      "prob": 0.6565062999725342
+    },
+    {
+      "sentence": "As a result, each respondent was shown one vignette of every possible combination of scenarios, encompassing eight (advice  recidivism  AI vs. human) variations.",
+      "label": "Result",
+      "prob": 0.6557515263557434
+    },
+    {
+      "sentence": "Each participant was randomly assigned to one of the two studies.",
+      "label": "Result",
+      "prob": 0.5045618414878845
+    },
+    {
+      "sentence": "Human-centered computing  Empirical studies in HCI ;  Applied computing  Psychology ; Law .",
+      "label": "Other",
+      "prob": 0.6640934348106384
+    },
+    {
+      "sentence": "Literature exists on the public perception of moral and legal issues concerning AI [6, 7, 62].",
+      "label": "Other",
+      "prob": 0.7081896066665649
+    },
+    {
+      "sentence": "We conducted two studies; the former illustrated a realistic scenario in which AI advises human judges,",
+      "label": "Result",
+      "prob": 0.5611026287078857
+    },
+    {
+      "sentence": "This process led to two significant changes in our survey instrument",
+      "label": "Result",
+      "prob": 0.49731990694999695
+    },
+    {
+      "sentence": "Table 2: Statements addressing all responsibility notions presented to participants in Study 1 and Study 2.",
+      "label": "Result",
+      "prob": 0.4958231747150421
+    },
+    {
+      "sentence": "The annotated numbers indicate the differences and significance levels between the two agents.",
+      "label": "Result",
+      "prob": 0.5773741006851196
+    },
+    {
+      "sentence": "As stimulus material, we use real-world data obtained from a previous analysis of the tool [2], which focused on its application in bail decision-making.",
+      "label": "Result",
+      "prob": 0.4801074266433716
+    },
+    {
+      "sentence": "AI systems should also be capable of justifying their advice and decision-making process according to our results.",
+      "label": "Result",
+      "prob": 0.6950865983963013
+    },
+    {
+      "sentence": "Figure 2 shows how people attributed each notion of responsibility to AI and human agents in Study 1 (on the advisor role) and Study 2 (on the decision-maker role).",
+      "label": "Result",
+      "prob": 0.4780230224132538
+    },
+    {
+      "sentence": "Likewise, other authors argue that society should hold humans responsible because doing so for a machine would be meaningless as it does not understand the consequences of their actions or the reactive attitudes towards them [89, 96], possibly undermining the definition of responsibility [47].",
+      "label": "Other",
+      "prob": 0.6463810801506042
+    },
+    {
+      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan",
+      "label": "Other",
+      "prob": 0.7494847178459167
+    },
+    {
+      "sentence": "This finding suggests that blame, liability, and causal responsibility were ascribed equally to AI and human agents, despite electronic agents not being appropriate subjects of liability and blame [16, 26, 89].",
+      "label": "Other",
+      "prob": 0.6689819097518921
+    },
+    {
+      "sentence": "A model that can explain our blameworthiness results is the Path Model of Blame, which proposes that blame is attributed through nested and sequential judgments of various aspects of the action and its agent [66].",
+      "label": "Other",
+      "prob": 0.5246491432189941
     },
     {
       "sentence": "Psychological evidence further suggests that humans are innate retributivists [17].",
       "label": "Other",
-      "prob": 0.7032827734947205
+      "prob": 0.7026931643486023
     },
     {
-      "sentence": "The respondents demographics are shown in Table 1.",
-      "label": "Result",
-      "prob": 0.4472883343696594
-    },
-    {
-      "sentence": "These findings agree with the Path Model of Blame, which proposes causality as the initial step for blame mitigation.",
-      "label": "Result",
-      "prob": 0.6500331163406372
-    },
-    {
-      "sentence": "Our findings highlight the importance of interpretable and explainable algorithms, particularly in high-stakes scenarios, such as our casestudy.",
+      "sentence": "Challenging ones causal effect in an outcome has also been discussed as a possible excuse to avoid blame by other scholars [101].",
       "label": "Other",
-      "prob": 0.7106112241744995
+      "prob": 0.742822527885437
     },
     {
-      "sentence": "This finding demonstrates the significance of these systems interpretability.",
+      "sentence": "Nonetheless, our study shows that AIs could also be held responsible for their actions.",
       "label": "Result",
-      "prob": 0.6322861909866333
+      "prob": 0.6815555095672607
     },
     {
-      "sentence": "5 for taking part in the cognitive interviews and US$1 .",
-      "label": "Other",
-      "prob": 0.7101845145225525
-    },
-    {
-      "sentence": "After reading the stimulus material, respondents were asked to indicate to what extent they agreed with a set of statements, presented in random order between participants, regarding the advisor on a 7-point Likert scale (-3 = Strongly Disagree, 3 = Strongly Agree).",
+      "sentence": "No difference, however, was observed for the backward-looking responsibility notions.",
       "label": "Result",
-      "prob": 0.43327850103378296
+      "prob": 0.6870532631874084
     },
     {
-      "sentence": "ACM ISBN 978-1-4503-8096-6/21/05..",
+      "sentence": "For instance, Malle et al. observed that peoples moral judgments between human and robotic agents differed in that respondents blamed robots to a more considerable extent had they not taken a utilitarian action [67].",
       "label": "Other",
-      "prob": 0.7817045450210571
+      "prob": 0.721230149269104
+    },
+    {
+      "sentence": "Prior studies of online crowdsourcing platforms have found that respondent samples tend to be younger, more educated, and consist of more women than the general US population [50].",
+      "label": "Other",
+      "prob": 0.6937320828437805
+    },
+    {
+      "sentence": "Meeyoung Cha mcha@ibs.re.kr Data Science Group, IBS School of Computing, KAIST Republic of Korea",
+      "label": "Other",
+      "prob": 0.7672751545906067
+    },
+    {
+      "sentence": "Otherwise, the blamer evaluates the agents intentionality.",
+      "label": "Result",
+      "prob": 0.463969886302948
+    },
+    {
+      "sentence": "Firstly, we adapted the vignette presentation, which was initially adapted from previous work [33].",
+      "label": "Result",
+      "prob": 0.378764271736145
+    },
+    {
+      "sentence": "As examined above, much of the US legislature does not compensate those who have been unjustly incarcerated [88].",
+      "label": "Other",
+      "prob": 0.75190269947052
+    },
+    {
+      "sentence": "Responsibility-as-answerability exhibits a marginal difference with respect to the agent type that assisted human judges in bail decisions; however, the same trend was not observed in Study 2.",
+      "label": "Result",
+      "prob": 0.6454488039016724
+    },
+    {
+      "sentence": "The current research considered eight notions of responsibility from related work.",
+      "label": "Result",
+      "prob": 0.6638131737709045
+    },
+    {
+      "sentence": "Intentionality also determines how much responsibility is assigned to an entity [70]; people look for an intentional agent to hold responsible and infer other entities intentionality upon failure to find one [40].",
+      "label": "Other",
+      "prob": 0.6639280319213867
+    },
+    {
+      "sentence": "5.4.1 The Relation Between Causality and Blame.",
+      "label": "Other",
+      "prob": 0.5018338561058044
+    },
+    {
+      "sentence": "Participants attributed lower levels of authority and power to AI.",
+      "label": "Result",
+      "prob": 0.615604817867279
+    },
+    {
+      "sentence": "For instance, to be responsible for a specific task because one has the authority and necessary skills prescribes that one should see to it that the task is completed, i.e., an obligation is prescribed, through consequentialist, deontological, or virtue-based routes [102].",
+      "label": "Other",
+      "prob": 0.7562392950057983
+    },
+    {
+      "sentence": "Other scholars explored peoples perceptions of procedural [41] and distributive [84, 90] aspects of algorithmic fairness and studied how they relate to individual differences [42, 76, 108].",
+      "label": "Other",
+      "prob": 0.6955780386924744
+    },
+    {
+      "sentence": "We highlight that those who are in charge of developing interpretable systems should not try to nudge recipients so they can be manipulated [63], e.g., for agency laundering [82].",
+      "label": "Other",
+      "prob": 0.7630506753921509
     },
     {
       "sentence": "We report the full regression coefficients in Table 3 in the Appendix.",
       "label": "Result",
-      "prob": 0.5899938344955444
+      "prob": 0.5426633358001709
     },
     {
-      "sentence": "A similar effect was found depending on defendant recidivism.",
+      "sentence": "We discuss how theories of moral responsibility can explain these clusters.",
       "label": "Result",
-      "prob": 0.7390298247337341
+      "prob": 0.594884991645813
     },
     {
-      "sentence": "Figure 1 illustrates the survey methodology.",
-      "label": "Result",
-      "prob": 0.5005993247032166
-    },
-    {
-      "sentence": "Our exploratory analysis identified two clusters of responsibility notions.",
-      "label": "Result",
-      "prob": 0.7093559503555298
-    },
-    {
-      "sentence": "agent types.",
+      "sentence": "In contrast, pessimistic views question whether this gap can be bridged at all, since there might not exist appropriate subjects of retributive blame [26] nor it makes sense to hold inanimate and non-conscious entities responsible for their actions [16, 89, 96].",
       "label": "Other",
-      "prob": 0.7299478650093079
-    },
-    {
-      "sentence": "These trends corroborate the responsibility clusters discussed above.Finally,",
-      "label": "Result",
-      "prob": 0.7032065391540527
-    },
-    {
-      "sentence": "After each interview, we iteratively refined our survey instrument based on the respondents feedback.",
-      "label": "Method",
-      "prob": 0.4765940308570862
-    },
-    {
-      "sentence": "https://doi.org/10.1145/3411764.3445260",
-      "label": "Other",
-      "prob": 0.8475401401519775
-    },
-    {
-      "sentence": "5.4.3 Liability as Compensation.",
-      "label": "Other",
-      "prob": 0.8307027816772461
+      "prob": 0.7488850355148315
     },
     {
       "sentence": "We employed a factorial survey design [107] and showed participants eight vignettes that described a defendant from the ProPublica dataset, information about who the advisor was (i.e., an AI program or a human judge), which advice they gave, what the judges final decision was, and whether the defendant committed a new crime within the next two years (i.e., re-offended).",
-      "label": "Method",
-      "prob": 0.5908823013305664
+      "label": "Result",
+      "prob": 0.35586294531822205
     },
     {
-      "sentence": "The respondents were remunerated US$10 .",
+      "sentence": "This form of blame-shifting has been observed, for example, when Facebook called out its algorithm for autonomously creating anti-semitic categories in its advertisement platform [1, 97].",
       "label": "Other",
-      "prob": 0.6959668397903442
+      "prob": 0.7569512724876404
     },
     {
-      "sentence": "determinations .",
+      "sentence": "Still, we instead hypothesize that it results from two different factors based on our phrasing styles.",
+      "label": "Result",
+      "prob": 0.6898593306541443
+    },
+    {
+      "sentence": "5 for taking part in the cognitive interviews and US$1 .",
       "label": "Other",
-      "prob": 0.7834185361862183
+      "prob": 0.6523891687393188
+    },
+    {
+      "sentence": "Using the proposition of morality as a human-made social construct that aims to fulfill specific goals [91, 93], we highlight the importance of users and designers taking responsibility for their systems while being held responsible for any norm-violating outcomes.",
+      "label": "Result",
+      "prob": 0.34218907356262207
+    },
+    {
+      "sentence": "The same argument could also be applied to the practice of blame [26].",
+      "label": "Other",
+      "prob": 0.6704136729240417
+    },
+    {
+      "sentence": "Even though Study 1 shows no difference between the two (  >.05), human decisionmakers were more highly praised than AIs in Study 2 (  =0.461,  <.001).",
+      "label": "Result",
+      "prob": 0.4568336009979248
     },
     {
       "sentence": "Our primary goal was to examine how people attribute responsibility to human and AI agents in high-stakes scenarios.",
       "label": "Objective",
-      "prob": 0.8827093243598938
+      "prob": 0.8118701577186584
+    },
+    {
+      "sentence": "We also gathered responses to a modified questionnaire of NARS (Negative Attitude towards Robot",
+      "label": "Result",
+      "prob": 0.4212581217288971
+    },
+    {
+      "sentence": "Previous work has found that ones normative and epistemological values influence how explanations are comprehended [64].",
+      "label": "Other",
+      "prob": 0.7443021535873413
+    },
+    {
+      "sentence": "ProPublica dataset does not provide this information.",
+      "label": "Result",
+      "prob": 0.5677937865257263
+    },
+    {
+      "sentence": "On the opposite side, some scholars propose autonomous systems could be held responsible per se [61].",
+      "label": "Other",
+      "prob": 0.7220507860183716
+    },
+    {
+      "sentence": "We interviewed six demographically diverse respondents.",
+      "label": "Result",
+      "prob": 0.6264711618423462
+    },
+    {
+      "sentence": "It is crucial to understand how people perceive these systems before their wide deployment [80].",
+      "label": "Other",
+      "prob": 0.779291033744812
+    },
+    {
+      "sentence": "The sampled data was balanced concerning these variables.",
+      "label": "Result",
+      "prob": 0.6657819747924805
+    },
+    {
+      "sentence": "Regarding the difference between advisors and decision-makers, we posit that the differences between human agents are caused by the level of control the latter has over its decision outcomes.",
+      "label": "Result",
+      "prob": 0.7938685417175293
+    },
+    {
+      "sentence": "This finding demonstrates the significance of these systems interpretability.",
+      "label": "Result",
+      "prob": 0.7257211804389954
+    },
+    {
+      "sentence": "Responsibility-as-cause and praise were the most neutral notions, and their mean attribution is close to zero (i.e., the baseline) across all treatments (see Figure 5 in the",
+      "label": "Other",
+      "prob": 0.41799041628837585
+    },
+    {
+      "sentence": "Therefore, our results might not be generalizable to all possible environments.",
+      "label": "Result",
+      "prob": 0.7500219345092773
+    },
+    {
+      "sentence": "Second,Figure 2 shows two distinct sets of responsibility notions, where these clusters can be observed from the pairwise Spearmans correlation chart.",
+      "label": "Result",
+      "prob": 0.7009816765785217
+    },
+    {
+      "sentence": "A similar effect was found depending on defendant recidivism.",
+      "label": "Result",
+      "prob": 0.7275635600090027
+    },
+    {
+      "sentence": "3 We instead hypothesize that people might desire to hold these entities responsible for retributive motives, such as satisfying their needs for revenge [71] and bridging the retribution gap [26], as a result of human nature [25].",
+      "label": "Other",
+      "prob": 0.45577022433280945
+    },
+    {
+      "sentence": "The respondents demographics are shown in Table 1.",
+      "label": "Result",
+      "prob": 0.5041216015815735
+    },
+    {
+      "sentence": "Several studies have analyzed the fairness and bias aspects of this risk assessment algorithm, e.g., [9, 33, 43].",
+      "label": "Other",
+      "prob": 0.7630520462989807
+    },
+    {
+      "sentence": "All vignettes were presented in random order to eliminate any order effect [44, 79].",
+      "label": "Other",
+      "prob": 0.665241539478302
+    },
+    {
+      "sentence": "Psychological research indicates that people base much of their responsibility attribution on retributive sentiments rather than deterrence [18], while overestimating utilitarian goals in their ascription of punishment (i.e., responsibility) [17].",
+      "label": "Other",
+      "prob": 0.8226804733276367
+    },
+    {
+      "sentence": "Human subject studies suggest that blame attribution is a two-step process; it is initiated by a causal connection between an agents action and its consequences and is followed by evaluating its mental states, i.e., intentions [25].",
+      "label": "Other",
+      "prob": 0.7626329064369202
+    },
+    {
+      "sentence": "use the standard .05 level of significance.",
+      "label": "Other",
+      "prob": 0.6517050266265869
+    },
+    {
+      "sentence": "Therefore, our results do not directly contradict earlier findings that had addressed punishment in its wide definition.",
+      "label": "Result",
+      "prob": 0.8064236044883728
+    },
+    {
+      "sentence": "Third, we can quantify variations across vignette conditions.",
+      "label": "Result",
+      "prob": 0.6623196601867676
+    },
+    {
+      "sentence": "After reading the stimulus material, respondents were asked to indicate to what extent they agreed with a set of statements, presented in random order between participants, regarding the advisor on a 7-point Likert scale (-3 = Strongly Disagree, 3 = Strongly Agree).",
+      "label": "Result",
+      "prob": 0.5953317284584045
+    },
+    {
+      "sentence": "Figure 1 illustrates the survey methodology.",
+      "label": "Result",
+      "prob": 0.5391199588775635
+    },
+    {
+      "sentence": "After each interview, we iteratively refined our survey instrument based on the respondents feedback.",
+      "label": "Result",
+      "prob": 0.44722607731819153
+    },
+    {
+      "sentence": "A natural question here is: if an AI system or a robot causes harm, who should be held responsible for their actions and consequences?",
+      "label": "Other",
+      "prob": 0.8393371105194092
+    },
+    {
+      "sentence": "5.4.3 Liability as Compensation.",
+      "label": "Other",
+      "prob": 0.7964299321174622
+    },
+    {
+      "sentence": "Nina Grgi-Hlaa nghlaca@mpi-sws.org Systems Max Planck Institute for Research on Germany",
+      "label": "Other",
+      "prob": 0.8459780216217041
+    },
+    {
+      "sentence": "The results from our initial exploratory analysis in Section 4.1 show that trends found between causality and blame attributions across different phrasing styles do not directly transfer to liability judgments.",
+      "label": "Result",
+      "prob": 0.8248806595802307
+    },
+    {
+      "sentence": "Therefore, our findings agree with scholars who propose that users (and designers) should take responsibility for their automated systems actions and consequences [20, 72].",
+      "label": "Other",
+      "prob": 0.6963185667991638
     },
     {
       "sentence": "Our results from both studies show that AI and human agents are blamed to a similar degree.",
       "label": "Result",
-      "prob": 0.8702875971794128
+      "prob": 0.8264106512069702
+    },
+    {
+      "sentence": "These findings agree with the Path Model of Blame, which proposes causality as the initial step for blame mitigation.",
+      "label": "Result",
+      "prob": 0.8500522375106812
+    },
+    {
+      "sentence": "The respondents were remunerated US$10 .",
+      "label": "Other",
+      "prob": 0.7281212210655212
+    },
+    {
+      "sentence": "Our exploratory analysis identified two clusters of responsibility notions.",
+      "label": "Result",
+      "prob": 0.7610501646995544
+    },
+    {
+      "sentence": "Collective Goods",
+      "label": "Other",
+      "prob": 0.7346807718276978
+    },
+    {
+      "sentence": "The findings of this study have several implications for the development and regulation of AI.",
+      "label": "Result",
+      "prob": 0.8226355314254761
+    },
+    {
+      "sentence": "Who should be held responsible for the harm caused by artificial intelligence (AI)?",
+      "label": "Other",
+      "prob": 0.8743273019790649
+    },
+    {
+      "sentence": "These trends corroborate the responsibility clusters discussed above.Finally,",
+      "label": "Result",
+      "prob": 0.7708981037139893
     },
     {
       "sentence": "Appendix).",
       "label": "Other",
-      "prob": 0.7945110201835632
+      "prob": 0.7640845775604248
+    },
+    {
+      "sentence": "2021 Association for Computing Machinery.",
+      "label": "Other",
+      "prob": 0.8860682249069214
+    },
+    {
+      "sentence": "66 for completing the online surveys.",
+      "label": "Other",
+      "prob": 0.7419885993003845
+    },
+    {
+      "sentence": "Max Planck Institute for Software",
+      "label": "Other",
+      "prob": 0.8910292387008667
+    },
+    {
+      "sentence": "Our findings indicate that participants who were presented with responsibility statements addressing the violation or protection of a defendants rights (e.g., It is the AI programs task to protect the rights of the defendant) were assigned higher responsibility levels across all notions.",
+      "label": "Result",
+      "prob": 0.8958399891853333
+    },
+    {
+      "sentence": "For instance, some of our results partly conflict with previous work addressing self-driving vehicles [7] and medical systems [62].",
+      "label": "Other",
+      "prob": 0.5614669919013977
     },
     {
       "sentence": "We conducted a power analysis to calculate the minimum sample size.",
       "label": "Result",
-      "prob": 0.5607419013977051
+      "prob": 0.7101178765296936
     },
     {
-      "sentence": "ACM Reference Format:",
+      "sentence": "agent types.",
       "label": "Other",
-      "prob": 0.8979548215866089
+      "prob": 0.8007237911224365
+    },
+    {
+      "sentence": "ACM ISBN 978-1-4503-8096-6/21/05..",
+      "label": "Other",
+      "prob": 0.9147647023200989
+    },
+    {
+      "sentence": "Moreover, our results suggest that an AI without a human-inthe-loop, i.e., AI judges in Study 2, could be held at the same level of scrutiny as human decision-makers for their decisions.",
+      "label": "Result",
+      "prob": 0.9126347303390503
     },
     {
       "sentence": "Malle et al.",
       "label": "Other",
-      "prob": 0.8804839253425598
+      "prob": 0.9193310141563416
     },
     {
-      "sentence": "Explainable AI (XAI) [46] is a field of computer science that has been given much attention in the community [38], and our results suggest that people agree with its importance.",
-      "label": "Result",
-      "prob": 0.8804556131362915
-    },
-    {
-      "sentence": "CCS CONCEPTS",
+      "sentence": "https://doi.org/10.1145/3411764.3445260",
       "label": "Other",
-      "prob": 0.90241539478302
+      "prob": 0.9402992725372314
+    },
+    {
+      "sentence": "determinations .",
+      "label": "Other",
+      "prob": 0.8378140330314636
     },
     {
       "sentence": "Figure 3 shows the results.",
       "label": "Result",
-      "prob": 0.9396921396255493
+      "prob": 0.846621036529541
+    },
+    {
+      "sentence": "CCS CONCEPTS",
+      "label": "Other",
+      "prob": 0.9145587086677551
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.9455322623252869
+    },
+    {
+      "sentence": "Explainable AI (XAI) [46] is a field of computer science that has been given much attention in the community [38], and our results suggest that people agree with its importance.",
+      "label": "Result",
+      "prob": 0.9539101719856262
     }
   ]
 }

@@ -1,2109 +1,2109 @@
 {
   "1810.11143": [
     {
-      "sentence": "Due to the power imbalance and resource inequality, affected residents usually rely on experts in governmental agencies, academic institutions, or non-governmental organizations to analyze and track pollution sources.",
-      "label": "Background",
-      "prob": 0.9883384108543396
-    },
-    {
-      "sentence": "However, citizencontributed data is often held in low regard because the information can be unreliable or include errors during data entry.",
-      "label": "Background",
-      "prob": 0.9874083995819092
-    },
-    {
-      "sentence": "Such type of systematic error may be difficult to avoid, especially for community-powered projects.",
-      "label": "Background",
-      "prob": 0.9854372143745422
-    },
-    {
-      "sentence": "Without integrating both types of data, it is difficult to understand the context of local concerns and produce convincing evidence.",
-      "label": "Background",
-      "prob": 0.985064685344696
-    },
-    {
-      "sentence": "However, the communities, who are directly affected by the pollution, are rarely influential in policy-making.",
-      "label": "Background",
-      "prob": 0.9850517511367798
-    },
-    {
-      "sentence": "However, the number of collected smell reports are far away from such level due to the limited size of the community and active users.",
-      "label": "Background",
-      "prob": 0.9846177101135254
-    },
-    {
       "sentence": "Their voices typically fail to persuade decision-makers because collecting and presenting reliable evidence to support their arguments is resourceintensive.",
       "label": "Background",
-      "prob": 0.9839540719985962
+      "prob": 0.9656990170478821
     },
     {
       "sentence": "Citizen science data are typically high-dimensional, noisy, potentially correlated, and spatially or temporally sparse.",
       "label": "Background",
-      "prob": 0.9838281869888306
+      "prob": 0.9656270742416382
+    },
+    {
+      "sentence": "Without integrating both types of data, it is difficult to understand the context of local concerns and produce convincing evidence.",
+      "label": "Background",
+      "prob": 0.9590872526168823
+    },
+    {
+      "sentence": "Due to the power imbalance and resource inequality, affected residents usually rely on experts in governmental agencies, academic institutions, or non-governmental organizations to analyze and track pollution sources.",
+      "label": "Background",
+      "prob": 0.9576386213302612
     },
     {
       "sentence": "Addressing air pollution often involves negotiations between corporations and regulators, who hold power to improve air quality.",
       "label": "Background",
-      "prob": 0.9824299812316895
+      "prob": 0.9563562273979187
     },
     {
-      "sentence": "There are typically two types of community data, which are generated from either sensors or proactive human reports.",
+      "sentence": "Such type of systematic error may be difficult to avoid, especially for community-powered projects.",
       "label": "Background",
-      "prob": 0.9822701811790466
+      "prob": 0.9554843306541443
     },
     {
-      "sentence": "Furthermore, from a machine-learning standpoint, communitypowered projects such as Smell Pittsburgh often face two challenges that compromise model performances: data sparsity and label unreliability.",
+      "sentence": "However, citizencontributed data is often held in low regard because the information can be unreliable or include errors during data entry.",
       "label": "Background",
-      "prob": 0.9802950024604797
+      "prob": 0.9524596929550171
     },
     {
-      "sentence": "Asking citizens to submit complaints retrospectively is hard for capturing accurate details and prone to errors.",
+      "sentence": "However, the number of collected smell reports are far away from such level due to the limited size of the community and active users.",
       "label": "Background",
-      "prob": 0.9769418835639954
-    },
-    {
-      "sentence": "Outside the scope of citizen science, a few works have collected human-reported smell data in various manners.",
-      "label": "Background",
-      "prob": 0.9769126176834106
-    },
-    {
-      "sentence": "Because of these challenges, resident-reported smell data did not gain much attention as a critical tool for monitoring air pollution.",
-      "label": "Background",
-      "prob": 0.9767855405807495
-    },
-    {
-      "sentence": "Research questions under this strategy are often driven by community members, exploring how scientists can engage in social and ethical issues that are raised by citizens or communities.",
-      "label": "Background",
-      "prob": 0.9764644503593445
-    },
-    {
-      "sentence": "Forming such evidence requires collecting and analyzing multiple sources of data over a large geographic area and an extended period.",
-      "label": "Background",
-      "prob": 0.9763413667678833
-    },
-    {
-      "sentence": "Without data that adequately represents the community, it is difficult to know if an air pollution problem is at a neighborhood or city-wide scale.",
-      "label": "Background",
-      "prob": 0.9750447273254395
-    },
-    {
-      "sentence": "While adopting transfer learning could take advantage of existing large-scale datasets from different domains to boost our performance [95], data sparsity is a nearly inevitable issue that must be taken into consideration for many community-powered projects.",
-      "label": "Background",
-      "prob": 0.9749833941459656
-    },
-    {
-      "sentence": "However, while many prior works used sensors to monitor air pollution, none of them complemented the sensing data with human-reported data.",
-      "label": "Background",
-      "prob": 0.968360960483551
-    },
-    {
-      "sentence": "When it comes to resolving and revealing community concerns, human-reported data can show how experiences of residents are affected by local issues, but it is typically noisy, ambiguous, and hard to quantify at a consistent scale.",
-      "label": "Background",
-      "prob": 0.9655566811561584
-    },
-    {
-      "sentence": "Modern computational tools can collect volunteered geographic information [57] and aggregate them to produce scientific knowledge.",
-      "label": "Background",
-      "prob": 0.9640148878097534
-    },
-    {
-      "sentence": "Sensing data can complement human-reported data by providing temporally dense and reliable measurements of environmental phenomena but fails to explain how these phenomena affect communities.",
-      "label": "Background",
-      "prob": 0.9637982845306396
-    },
-    {
-      "sentence": "Although there is a significant increase in data quantity (as described in the system usage study), researchers may criticize the reliability of the citizen-contributed data, since lay experiences may be subjective, inconsistent, and prone to noise.",
-      "label": "Background",
-      "prob": 0.9627750515937805
-    },
-    {
-      "sentence": "However, most prior works focused on collecting general information of particular interest, rather than data of a particular type of human sense, such as odor.",
-      "label": "Background",
-      "prob": 0.9614585041999817
-    },
-    {
-      "sentence": "Involving citizens to address urban air pollution collaboratively is a wicked problem by its nature, so there is no guarantee that our success and effectiveness can be replicated in a different context.",
-      "label": "Background",
-      "prob": 0.960928738117218
-    },
-    {
-      "sentence": "Research questions under this strategy are often driven by professional scientists.",
-      "label": "Background",
-      "prob": 0.9602237939834595
-    },
-    {
-      "sentence": "There is a lack of research in understanding the potential of using smell as an indicator of urban air pollution.",
-      "label": "Background",
-      "prob": 0.9596501588821411
-    },
-    {
-      "sentence": "While these models enabled us to predict future smell events, they were typically considered as black box models and not suitable for interpreting patterns.",
-      "label": "Background",
-      "prob": 0.9587412476539612
-    },
-    {
-      "sentence": "Enthusiasts tended to contribute more smell reports, the number of alphanumeric characters of reports, and interaction events.",
-      "label": "Background",
-      "prob": 0.9578487873077393
-    },
-    {
-      "sentence": "Sensing data involves environmental measurements quantified with sensing devices or systems, which enable citizens to monitor their surroundings with minimal to no assistance from experts.",
-      "label": "Background",
-      "prob": 0.9576565623283386
+      "prob": 0.9508829116821289
     },
     {
       "sentence": "The commitment of these users may be driven by internal motivations, such as altruism, instead of the system.",
       "label": "Background",
-      "prob": 0.9576515555381775
+      "prob": 0.9508705139160156
     },
     {
-      "sentence": "It is possible that interactive systems like Smell Pittsburgh can only be practical for communities with specific characteristics, such as high awareness.",
+      "sentence": "However, the communities, who are directly affected by the pollution, are rarely influential in policy-making.",
       "label": "Background",
-      "prob": 0.9554214477539062
+      "prob": 0.9453817009925842
+    },
+    {
+      "sentence": "Without data that adequately represents the community, it is difficult to know if an air pollution problem is at a neighborhood or city-wide scale.",
+      "label": "Background",
+      "prob": 0.9417279958724976
+    },
+    {
+      "sentence": "Forming such evidence requires collecting and analyzing multiple sources of data over a large geographic area and an extended period.",
+      "label": "Background",
+      "prob": 0.940197765827179
+    },
+    {
+      "sentence": "When it comes to resolving and revealing community concerns, human-reported data can show how experiences of residents are affected by local issues, but it is typically noisy, ambiguous, and hard to quantify at a consistent scale.",
+      "label": "Background",
+      "prob": 0.9375948905944824
+    },
+    {
+      "sentence": "There are typically two types of community data, which are generated from either sensors or proactive human reports.",
+      "label": "Background",
+      "prob": 0.9349811673164368
+    },
+    {
+      "sentence": "Furthermore, from a machine-learning standpoint, communitypowered projects such as Smell Pittsburgh often face two challenges that compromise model performances: data sparsity and label unreliability.",
+      "label": "Background",
+      "prob": 0.9273143410682678
+    },
+    {
+      "sentence": "There is a lack of research in understanding the potential of using smell as an indicator of urban air pollution.",
+      "label": "Background",
+      "prob": 0.9267709851264954
     },
     {
       "sentence": "This task is challenging due to the requirements of financial resources, organizational networks, and access to technology.",
       "label": "Background",
-      "prob": 0.9553332328796387
+      "prob": 0.9267352223396301
     },
     {
-      "sentence": "alone in their concerns about stinky air, which I believe was a major problem for building momentum in the air quality community prior to the apps existence.",
+      "sentence": "Outside the scope of citizen science, a few works have collected human-reported smell data in various manners.",
       "label": "Background",
-      "prob": 0.9531509280204773
-    },
-    {
-      "sentence": "Most of them describe industrial pollution odors and symptoms of air pollution exposure, especially hydrogen sulfide (rotten egg smell).",
-      "label": "Background",
-      "prob": 0.9522579908370972
-    },
-    {
-      "sentence": "This process is labor intensive and hard for long-term air quality monitoring.",
-      "label": "Background",
-      "prob": 0.9512770175933838
-    },
-    {
-      "sentence": "Although these models provided feature importances, interpreting these weights could be problematic because several predictors in the dataset were highly correlated, which might appear less significant than other uncorrelated counterparts.",
-      "label": "Background",
-      "prob": 0.9507247805595398
-    },
-    {
-      "sentence": "While Google Form is usable for a small-size study, it would not be effective in collecting smell reports on a city-wide scale with more than 300,000 affected residents over several years.",
-      "label": "Background",
-      "prob": 0.9501833319664001
-    },
-    {
-      "sentence": "In reality, the effect of 10 and 100 smell reports with high ratings may be the same for a local geographical region.",
-      "label": "Background",
-      "prob": 0.949688196182251
-    },
-    {
-      "sentence": "Smell Pittsburgh is a system, distributed through iOS and Android devices, to collect smell reports and track urban pollution odors.",
-      "label": "Background",
-      "prob": 0.9488824009895325
-    },
-    {
-      "sentence": "This approach is inadequate for data collection and hinders the participation in bringing air quality issues to the attention of regulators and advocating for policy changes.",
-      "label": "Background",
-      "prob": 0.9449232220649719
-    },
-    {
-      "sentence": "Additionally, in our case, air pollution incidents can only be captured at the moment because our communities lack resources to deploy reliable air quality monitoring sensors.",
-      "label": "Background",
-      "prob": 0.944767951965332
-    },
-    {
-      "sentence": "But none of these work asked users to report odors, and thus can not directly capture how air pollution affects the living quality of community members.",
-      "label": "Background",
-      "prob": 0.9385787844657898
-    },
-    {
-      "sentence": "Also, sufficient citizen participation and data transparency are required for the evidence to be influential.",
-      "label": "Background",
-      "prob": 0.9380815029144287
-    },
-    {
-      "sentence": "These challenges form a wicked problem [29, 111], which refers to problems that have no precise definition, cannot be fully observed at the beginning, are unique and depend on context, have no opportunities for trial and error, and have no optimal or right solutions.",
-      "label": "Background",
-      "prob": 0.9379819631576538
+      "prob": 0.9167867302894592
     },
     {
       "sentence": "There is no real-time feedback or ways of sharing experiences to forge a sense of community.",
       "label": "Background",
-      "prob": 0.936960756778717
+      "prob": 0.9149959683418274
     },
     {
-      "sentence": "Modern technology allows communities to collect data that can contextualize and express their concerns.",
+      "sentence": "Sensing data can complement human-reported data by providing temporally dense and reliable measurements of environmental phenomena but fails to explain how these phenomena affect communities.",
       "label": "Background",
-      "prob": 0.935473620891571
+      "prob": 0.9106134176254272
     },
     {
-      "sentence": "The collected data may also suffer from many types of bias and error that sometimes can even be unavoidable [11, 22].",
+      "sentence": "Research questions under this strategy are often driven by community members, exploring how scientists can engage in social and ethical issues that are raised by citizens or communities.",
       "label": "Background",
-      "prob": 0.9337214827537537
+      "prob": 0.907833456993103
+    },
+    {
+      "sentence": "Asking citizens to submit complaints retrospectively is hard for capturing accurate details and prone to errors.",
+      "label": "Background",
+      "prob": 0.9040919542312622
+    },
+    {
+      "sentence": "Because of these challenges, resident-reported smell data did not gain much attention as a critical tool for monitoring air pollution.",
+      "label": "Background",
+      "prob": 0.9016503095626831
+    },
+    {
+      "sentence": "Enthusiasts tended to contribute more smell reports, the number of alphanumeric characters of reports, and interaction events.",
+      "label": "Background",
+      "prob": 0.8985434174537659
     },
     {
       "sentence": "Citizens may not remember the exact time and location that pollution odors occurred.",
       "label": "Background",
-      "prob": 0.9311482906341553
+      "prob": 0.8844887614250183
     },
     {
-      "sentence": "Additionally, our community members might be unique in their characteristics, such as the awareness of the air quality problem, the tenacity of advocacy, and the power relationships with other stakeholders.",
+      "sentence": "However, most prior works focused on collecting general information of particular interest, rather than data of a particular type of human sense, such as odor.",
       "label": "Background",
-      "prob": 0.9296493530273438
-    },
-    {
-      "sentence": "Currently, Pittsburgh citizens report air quality problems to the local health department via its phone line or website.",
-      "label": "Background",
-      "prob": 0.9261137843132019
-    },
-    {
-      "sentence": "Furthermore, the reporting process is not transparent and does not encourage citizens to contribute data.",
-      "label": "Background",
-      "prob": 0.9201934933662415
-    },
-    {
-      "sentence": "Kuznetsov et al. developed multiple air pollution monitoring systems which involved low-cost air quality sensors and a map-based visualization [78, 79].",
-      "label": "Background",
-      "prob": 0.9161076545715332
-    },
-    {
-      "sentence": "As there were many highly correlated features, selecting a subset of them arbitrarily for extracting patterns was impractical.",
-      "label": "Background",
-      "prob": 0.911902666091919
-    },
-    {
-      "sentence": "As a consequence, the quality of the labels for the prediction and interpretation task could be influenced by confirmation bias, where people tend to search for information that confirms their prior beliefs.",
-      "label": "Background",
-      "prob": 0.906827449798584
-    },
-    {
-      "sentence": "It is highly likely that the regression function tried to fit the noise after a certain threshold that indicates the presence of a smell event.",
-      "label": "Background",
-      "prob": 0.9014784097671509
-    },
-    {
-      "sentence": "It is not feasible to explore and evaluate all possible methods without deploying the system in the real-world context.",
-      "label": "Background",
-      "prob": 0.8982648253440857
-    },
-    {
-      "sentence": "Despite these doubts, in the smell dataset study, we have applied machine learning to demonstrate the predictive and explainable power of these data.",
-      "label": "Background",
-      "prob": 0.8899896144866943
-    },
-    {
-      "sentence": "Such features involved reporting smell retrospectively and viewing personal submission records.",
-      "label": "Background",
-      "prob": 0.8889515399932861
-    },
-    {
-      "sentence": "The system is specialized for gathering smell data at a broad temporal and geographical scale.",
-      "label": "Background",
-      "prob": 0.8880919218063354
-    },
-    {
-      "sentence": "Since users tended not to report when there is no pollution odor, we recommend aggregating smell ratings by time to produce samples with no smell events.",
-      "label": "Background",
-      "prob": 0.8870334625244141
-    },
-    {
-      "sentence": "Users could report odor complaints via Smell Pittsburgh from their mobile devices via the submission console (Figure 1, left).",
-      "label": "Background",
-      "prob": 0.886760413646698
-    },
-    {
-      "sentence": "In summary, when developing Smell Pittsburgh, we considered the system as an ongoing infrastructure to sustain communities over time (as mentioned in [34]), rather than a software product which solves a single well-defined problem.",
-      "label": "Background",
-      "prob": 0.8807334899902344
-    },
-    {
-      "sentence": "However, these manners are not suitable for our projects.",
-      "label": "Background",
-      "prob": 0.8760930895805359
-    },
-    {
-      "sentence": "These groups were pivotal in shaping the design of Smell Pittsburgh and providing insights into how to engage the broader Pittsburgh community.",
-      "label": "Background",
-      "prob": 0.8757565021514893
-    },
-    {
-      "sentence": "However, literature has shown that the human olfactory can distinguish more than one trillion odors [23] and outperform sensitive measuring equipment in odor detection tasks [116].",
-      "label": "Background",
-      "prob": 0.874480128288269
-    },
-    {
-      "sentence": "Sensr is a tool for creating environmental data collection and management applications on mobile devices without programming skills [73, 74].",
-      "label": "Background",
-      "prob": 0.8668535947799683
-    },
-    {
-      "sentence": "Making sense of such noisy data has been a significant concern in citizen science [88, 93], especially for untrained contributors [17, 28, 35, 91].",
-      "label": "Background",
-      "prob": 0.8660372495651245
-    },
-    {
-      "sentence": "One of the few examples focusing on information of a specific modality is NoiseTube , a mobile application that empowered citizens to report noise via their mobile phones and mapped urban noise pollution on a geographical heatmap [38, 83].",
-      "label": "Background",
-      "prob": 0.8655188679695129
-    },
-    {
-      "sentence": "Also, users could fill out optional text fields where they could describe the smell (e.g., industrial, rotten egg), their symptoms related to the odor (e.g., headache, irritation), and their personal experiences.",
-      "label": "Background",
-      "prob": 0.8653905391693115
-    },
-    {
-      "sentence": "Most of these studies focus on forecasting or interpolating sensing data.",
-      "label": "Background",
-      "prob": 0.8604723215103149
-    },
-    {
-      "sentence": "Although there have been discussions about the potential of using smell to indicate pollution events and support decision making [89, 91], no prior works collected long-term smell data at a city-wide scale and studied if these data are useful for air pollution monitoring and community advocacy.",
-      "label": "Background",
-      "prob": 0.8577403426170349
-    },
-    {
-      "sentence": "We envision that this research can inspire engineers, designers, and researchers to develop systems that support community advocacy and empowerment.",
-      "label": "Background",
-      "prob": 0.8553172945976257
-    },
-    {
-      "sentence": "Each type of data provides a small fragment of evidence.",
-      "label": "Background",
-      "prob": 0.8504818081855774
-    },
-    {
-      "sentence": "Data-driven evidence, especially when integrated with narratives, is essential for communities to make sense of local environmental issues and take action [94].",
-      "label": "Background",
-      "prob": 0.8497239351272583
-    },
-    {
-      "sentence": "It is viable to forecast upcoming smell events based on previous observations.",
-      "label": "Background",
-      "prob": 0.8470876216888428
-    },
-    {
-      "sentence": "The smell report data contained timestamps, zip-codes, smell ratings, descriptions of sources, symptoms, and comments.",
-      "label": "Background",
-      "prob": 0.8431886434555054
-    },
-    {
-      "sentence": "Such errors can result in missing or incomplete data that can affect the outcome of statistical analysis to identify pollution sources [36].",
-      "label": "Background",
-      "prob": 0.8426322340965271
-    },
-    {
-      "sentence": "In this case, Smell Pittsburgh rebalanced the power relationships between communities and regulators.",
-      "label": "Background",
-      "prob": 0.8410854935646057
-    },
-    {
-      "sentence": "These previous studies utilized domain knowledge to fit machine learning models with high explanatory powers on filtered citizen science",
-      "label": "Background",
-      "prob": 0.8370785117149353
-    },
-    {
-      "sentence": "Future research is needed to study the impact of deploying this system in other cities that have similar or distinct community characteristics compared to Pittsburgh.",
-      "label": "Background",
-      "prob": 0.8358116149902344
+      "prob": 0.8737219572067261
     },
     {
       "sentence": "Examples of external motivations included the attempt to gain rewards and to avoid negative consequences if not taking actions.",
       "label": "Background",
-      "prob": 0.8350757360458374
+      "prob": 0.872137188911438
     },
     {
-      "sentence": "Once a user submitted a smell report, the system sent it to the local health department and anonymously archived it on our backend database.",
+      "sentence": "This process is labor intensive and hard for long-term air quality monitoring.",
       "label": "Background",
-      "prob": 0.8317247629165649
+      "prob": 0.8678942918777466
     },
     {
-      "sentence": "For example, prior works have applied a smell-walking approach to record and map the landscape of smell experiences by recruiting participants to travel in cities [59, 106, 107].",
+      "sentence": "In reality, the effect of 10 and 100 smell reports with high ratings may be the same for a local geographical region.",
       "label": "Background",
-      "prob": 0.8291740417480469
+      "prob": 0.8674734830856323
     },
     {
-      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "sentence": "It is possible that interactive systems like Smell Pittsburgh can only be practical for communities with specific characteristics, such as high awareness.",
       "label": "Background",
-      "prob": 0.8263400197029114
+      "prob": 0.8653358221054077
     },
     {
-      "sentence": "I believe in the power of crowd-sourced data to influence policy decisions .",
+      "sentence": "Currently, Pittsburgh citizens report air quality problems to the local health department via its phone line or website.",
       "label": "Background",
-      "prob": 0.814512312412262
+      "prob": 0.8612593412399292
     },
     {
-      "sentence": "Historically, there exist both research and community-oriented strategies [31].",
+      "sentence": "These challenges form a wicked problem [29, 111], which refers to problems that have no precise definition, cannot be fully observed at the beginning, are unique and depend on context, have no opportunities for trial and error, and have no optimal or right solutions.",
       "label": "Background",
-      "prob": 0.8097783923149109
+      "prob": 0.856298565864563
     },
     {
-      "sentence": "Moreover, we recognized that there are various methods of collecting, presenting, and using the data.",
+      "sentence": "While these models enabled us to predict future smell events, they were typically considered as black box models and not suitable for interpreting patterns.",
       "label": "Background",
-      "prob": 0.8095500469207764
-    },
-    {
-      "sentence": "However, our survey study only targeted community activists, which led to a relatively small sample size.",
-      "label": "Background",
-      "prob": 0.8073923587799072
-    },
-    {
-      "sentence": "cation of air quality in Pittsburgh and believe the visuals Smell Pittsburgh provides is the best way to do that.",
-      "label": "Background",
-      "prob": 0.800645649433136
-    },
-    {
-      "sentence": "Air pollution has been associated with adverse impacts on human health, including respiratory and cardiovascular diseases [43, 72, 101, 105, 127].",
-      "label": "Background",
-      "prob": 0.7962384223937988
-    },
-    {
-      "sentence": "This approach is highly related to sustainable HumanComputer Interaction [13, 20, 41, 42, 45, 84], which studies the intervention of information technology for increasing the awareness of sustainability, changing user behaviors, and influencing attitudes of affected communities.",
-      "label": "Background",
-      "prob": 0.7936508059501648
-    },
-    {
-      "sentence": "Speck is an indoor air quality sensor for measuring",
-      "label": "Background",
-      "prob": 0.791163444519043
-    },
-    {
-      "sentence": "These reports allowed community members to ground their personal experiences with concrete and convincing data.",
-      "label": "Background",
-      "prob": 0.7898998856544495
-    },
-    {
-      "sentence": "eBird is a crowdsourcing platform to engage birdwatchers, scientists, and policy-makers to collect and analyze bird data collaboratively [122, 123].",
-      "label": "Background",
-      "prob": 0.7895997166633606
-    },
-    {
-      "sentence": "In response to this challenge, our design principle is inspired by how architects and urban designers address wicked problems.",
-      "label": "Background",
-      "prob": 0.7873836159706116
-    },
-    {
-      "sentence": "Hsu et al. has also demonstrated that resident-reported smell reports, collected via Google Forms, can form evidence about air pollution when combined with data from cameras and air quality sensors [65, 66].",
-      "label": "Background",
-      "prob": 0.7869747877120972
-    },
-    {
-      "sentence": "To the best of our knowledge, Smell Pittsburgh is the first system of its kind that demonstrates the potential of collecting and using smell data to form evidence about air quality issues at a city-wide scale.",
-      "label": "Background",
-      "prob": 0.7843466401100159
-    },
-    {
-      "sentence": "In this study, we show that human-reported smell data, despite noisy, can still enable prediction and contribute scientific knowledge of interpretable air pollution patterns.",
-      "label": "Background",
-      "prob": 0.782572865486145
-    },
-    {
-      "sentence": "Observers tended to browse data that were far away from the interaction time.",
-      "label": "Background",
-      "prob": 0.7812321186065674
-    },
-    {
-      "sentence": "All smell reports were anonymous, and their geographical locations were skewed to preserve privacy.",
-      "label": "Background",
-      "prob": 0.7801804542541504
-    },
-    {
-      "sentence": "During 2017, the system collected 8,720 smell reports, which is 10-fold more than the 796 complaints collected by the health department regulators in 2016.",
-      "label": "Background",
-      "prob": 0.7790083885192871
-    },
-    {
-      "sentence": "We defined the timely and geographically aggregated reports as smell events, which indicated that there would be many high-rating smell reports within the next 8 hours.",
-      "label": "Background",
-      "prob": 0.7719199657440186
-    },
-    {
-      "sentence": "After using this app for over a year, and making many dozens of reports, I havent once heard from the [health department] .",
-      "label": "Background",
-      "prob": 0.7702330946922302
-    },
-    {
-      "sentence": "We made use of an existing network of community advocacy groups, including ACCAN [3], GASP [50], Clean Air Council [24], PennFuture [100], and PennEnvironment [99].",
-      "label": "Background",
-      "prob": 0.7619234323501587
-    },
-    {
-      "sentence": "When computing these metrics, we considered only daytime events because residents rarely submitted reports during nighttime (Figure 4).",
-      "label": "Background",
-      "prob": 0.761222779750824
+      "prob": 0.8519582748413086
     },
     {
       "sentence": "Copyrights for components of this work owned by others than the author(s) must be honored.",
       "label": "Background",
-      "prob": 0.7569790482521057
+      "prob": 0.8468317985534668
     },
     {
-      "sentence": "Figure 6 should be replaced by Figure 8, and Table 3 should be replaced by Table 7.",
+      "sentence": "This approach is inadequate for data collection and hinders the participation in bringing air quality issues to the attention of regulators and advocating for policy changes.",
       "label": "Background",
-      "prob": 0.7554337978363037
+      "prob": 0.8453583121299744
     },
     {
-      "sentence": "It can also be beneficial to explore ways to connect citizens and regulators, such as visualizing smell reports by voting districts, providing more background information with demographics and industry data, and sending push notifications regarding health agency public meetings.",
+      "sentence": "Although there is a significant increase in data quantity (as described in the system usage study), researchers may criticize the reliability of the citizen-contributed data, since lay experiences may be subjective, inconsistent, and prone to noise.",
       "label": "Background",
-      "prob": 0.7531678676605225
-    },
-    {
-      "sentence": "Examples of internal motivations included enjoyment during participation and the desire to improve air quality.",
-      "label": "Background",
-      "prob": 0.7519794702529907
-    },
-    {
-      "sentence": "and presented a printed 230-foot-long scroll of more than 11,000 complaints submitted through the system.",
-      "label": "Background",
-      "prob": 0.7502589821815491
-    },
-    {
-      "sentence": "Based on their feedback, the system submitted all smell reports to the health department, regardless of the smell rating.",
-      "label": "Background",
-      "prob": 0.7500169277191162
-    },
-    {
-      "sentence": "Smell Pittsburgh sent post hoc and predictive event notifications to encourage participation.",
-      "label": "Background",
-      "prob": 0.745811939239502
-    },
-    {
-      "sentence": "When clicking or tapping on the playback button, the application animated 24 hours of data for the currently selected day, which served as convincing evidence of air quality concerns.",
-      "label": "Background",
-      "prob": 0.7448866963386536
-    },
-    {
-      "sentence": "We apologize for the errors in this paper, and this section describes the corrections.",
-      "label": "Background",
-      "prob": 0.7432186007499695
-    },
-    {
-      "sentence": "This extracted knowledge can reveal local concerns and serve as convincing evidence for communities in taking action.",
-      "label": "Background",
-      "prob": 0.7422258257865906
-    },
-    {
-      "sentence": "Hochachka et al. fused traditional statistical techniques with boosted regression trees to extract species distribution patterns from the data collected via the eBird platform [61].",
-      "label": "Background",
-      "prob": 0.7375590801239014
-    },
-    {
-      "sentence": "The app also acts as a way for non-activists to see that they are not",
-      "label": "Background",
-      "prob": 0.7374752163887024
-    },
-    {
-      "sentence": "To the best of our knowledge, none of them considered humanreported data in their predictive models.",
-      "label": "Background",
-      "prob": 0.7338211536407471
-    },
-    {
-      "sentence": "The deputy director of environmental health mentioned that ACHD would enact rigorous rules for coke plants: Every aspect of the activity and operation of these coke plants will have a more stringent standard applied [27, 62].",
-      "label": "Background",
-      "prob": 0.7287933826446533
+      "prob": 0.8438247442245483
     },
     {
       "sentence": "The tool could be utilized for not only understanding the context of urban noise pollution but also measuring short-term or long-term personal exposure.",
       "label": "Background",
-      "prob": 0.7285200357437134
+      "prob": 0.8318696618080139
     },
     {
-      "sentence": "The participated 3,917 users out of the 300,000 residents (1.3%) is not sufficient to cover the entire Pittsburgh area.",
+      "sentence": "Smell Pittsburgh is a system, distributed through iOS and Android devices, to collect smell reports and track urban pollution odors.",
       "label": "Background",
-      "prob": 0.7278059720993042
+      "prob": 0.8300521373748779
     },
     {
-      "sentence": "From our soft launch in November 2016 to the end of September 2018 over 23 months, there were 3,917 unique anonymous users (estimated by Google Analytics) in Pittsburgh.",
+      "sentence": "Research questions under this strategy are often driven by professional scientists.",
       "label": "Background",
-      "prob": 0.7274335622787476
+      "prob": 0.8279478549957275
     },
     {
-      "sentence": "When approaching a community or city-scale problem, architects and urban planners first explore problem attributes (as defined in [98]) and then design specific solutions based on prior empirical experiences.",
+      "sentence": "While adopting transfer learning could take advantage of existing large-scale datasets from different domains to boost our performance [95], data sparsity is a nearly inevitable issue that must be taken into consideration for many community-powered projects.",
       "label": "Background",
-      "prob": 0.7262707352638245
+      "prob": 0.8244656920433044
     },
     {
-      "sentence": "Because climate change is one of our largest challenges, [...] Also, the ACHD isnt as active as they should be, and needs a nudge .",
+      "sentence": "Sensing data involves environmental measurements quantified with sensing devices or systems, which enable citizens to monitor their surroundings with minimal to no assistance from experts.",
       "label": "Background",
-      "prob": 0.7257239818572998
+      "prob": 0.8220276236534119
     },
     {
-      "sentence": "Four responses were excluded due to incomplete questions or no experiences in interacting with the system, which gave 25 valid survey responses.",
+      "sentence": "While Google Form is usable for a small-size study, it would not be effective in collecting smell reports on a city-wide scale with more than 300,000 affected residents over several years.",
       "label": "Background",
-      "prob": 0.7254902720451355
+      "prob": 0.8149109482765198
     },
     {
-      "sentence": "In the caption of Table 2, and also in the second paragraph of section 5.1 (System Usage Study), the interquartile range texts should be semi-interquartile range.",
+      "sentence": "As a consequence, the quality of the labels for the prediction and interpretation task could be influenced by confirmation bias, where people tend to search for information that confirms their prior beliefs.",
       "label": "Background",
-      "prob": 0.7228776812553406
-    },
-    {
-      "sentence": "Enthusiasts submitted more than 6 reports and interacted with the",
-      "label": "Background",
-      "prob": 0.7213916182518005
-    },
-    {
-      "sentence": "Explorers submitted 1 to 6 reports or interacted with the visualization 1 to 31 times.",
-      "label": "Background",
-      "prob": 0.7183663249015808
-    },
-    {
-      "sentence": "bile smell reporting system for Pittsburgh communities to collect and visualize odor events.",
-      "label": "Background",
-      "prob": 0.716188907623291
-    },
-    {
-      "sentence": "Future work to address these two challenges involves adding more predictors ( e.g. , weather forecasts, air quality index) and using generalizable data interpretation techniques that can explain any predictive model to identify more patterns [110].",
-      "label": "Background",
-      "prob": 0.7155926823616028
-    },
-    {
-      "sentence": "From our initial testing with the community on September 2016 to the end of September 2018, we had about 5,790 and 1,070 installations (rounded to the nearest 10) of Smell Pittsburgh on iOS and Android devices respectively in the United States.",
-      "label": "Background",
-      "prob": 0.7155225872993469
-    },
-    {
-      "sentence": "Encyclopedia of Life is a platform for curating species information contributed by professionals and non-expert volunteers [112].",
-      "label": "Background",
-      "prob": 0.710638165473938
-    },
-    {
-      "sentence": "Table 1 shows that enthusiasts, corresponding to less than 10% of the users, contributed",
-      "label": "Background",
-      "prob": 0.7089071273803711
-    },
-    {
-      "sentence": "I also believe that the air quality activism community will find more willing participants if there is a very easy way for nonactivists to help support clean air , and the app onramp for potential new activists .",
-      "label": "Background",
-      "prob": 0.7080307602882385
-    },
-    {
-      "sentence": "The system visualized smell reports on a map that also depicted fine particulate matter and wind data from government-operated air quality monitoring stations (Figure 1, right).",
-      "label": "Background",
-      "prob": 0.7068268060684204
-    },
-    {
-      "sentence": "Triangular icons indicated smell reports with colors that correspond to smell ratings.",
-      "label": "Background",
-      "prob": 0.7051832675933838
-    },
-    {
-      "sentence": "sufficient amount of data during aggregation (Figure 3).",
-      "label": "Background",
-      "prob": 0.7031307816505432
-    },
-    {
-      "sentence": "All smell reports in our system had location data, while the location information was missing from 45% of the regulator-collected complaints.",
-      "label": "Background",
-      "prob": 0.6956706047058105
-    },
-    {
-      "sentence": "Our users contributed 17,280 smell reports, 582,108 alphanumeric characters in the submitted text fields, and 163,609 events of interacting with the visualization (e.g., clicking on icons on the map).",
-      "label": "Background",
-      "prob": 0.6942713856697083
-    },
-    {
-      "sentence": "Although stakeholders typically view odor experiences as subjective and noisy, our work shows that smell data is beneficial in identifying urban air pollution patterns and empowering communities to pursue a sustainable environment.",
-      "label": "Background",
-      "prob": 0.6886606216430664
-    },
-    {
-      "sentence": "The system visualizes odor complaints in real-time, which enables residents to confirm their experiences by viewing if others also share similar experiences.",
-      "label": "Background",
-      "prob": 0.6878923773765564
-    },
-    {
-      "sentence": "Moreover, to sustain participation, we visualized smell report data on a map and also engage residents through push notifications.",
-      "label": "Background",
-      "prob": 0.684866726398468
-    },
-    {
-      "sentence": "Circular icons showed government-operated air quality sensor readings with colors based on the Air Quality Index [47] to indicate the severity of particulate pollution.",
-      "label": "Background",
-      "prob": 0.6840980648994446
-    },
-    {
-      "sentence": "This knowledge can help to discover potential interrelationships between predictors and responses, which is known to be essential in analyzing the impacts of environmental issues in the long-term [19, 35].",
-      "label": "Background",
-      "prob": 0.6794816851615906
-    },
-    {
-      "sentence": "The predictor matrix and the response vector represented air quality data and smell events respectively.",
-      "label": "Background",
-      "prob": 0.6756027340888977
-    },
-    {
-      "sentence": "It is impractical to annotate these incidents off-line such as in Galaxy Zoo [108].",
-      "label": "Background",
-      "prob": 0.6726335287094116
-    },
-    {
-      "sentence": "To submit a report, users first selected a smell rating from 1 to 5, with one being just fine and five being about as bad as it gets.",
-      "label": "Background",
-      "prob": 0.671630859375
-    },
-    {
-      "sentence": "The timeline on the bottom of the map represented the concentration of smell reports per day with grayscale squares.",
-      "label": "Background",
-      "prob": 0.6714391112327576
-    },
-    {
-      "sentence": "Open-responses indicated that instead of using the system regularly, eight participants (32%) only submitted reports whenever they experienced poor odors.",
-      "label": "Background",
-      "prob": 0.6599346399307251
-    },
-    {
-      "sentence": "Finally, we discussed limitations and future directions: deploying the system in multiple cities and using advanced techniques for pattern recognition.",
-      "label": "Background",
-      "prob": 0.6596517562866211
-    },
-    {
-      "sentence": "Another issue is the label unreliability.",
-      "label": "Background",
-      "prob": 0.657867968082428
-    },
-    {
-      "sentence": "Creek Watch is a monitoring system which enabled citizens to report water flow and trash data in creeks [76].",
-      "label": "Background",
-      "prob": 0.6565678715705872
-    },
-    {
-      "sentence": "To assist community members in identifying evidence from large datasets efficiently, prior projects used machine learning algorithms to predict future events or interpret collected data [8, 11, 12, 58, 70, 71, 87].",
-      "label": "Background",
-      "prob": 0.6563384532928467
-    },
-    {
-      "sentence": "Recent research has shown that deep neural networks can predict events effectively when equipped with a significant amount of training data [80].",
-      "label": "Background",
-      "prob": 0.6562331914901733
-    },
-    {
-      "sentence": "This pattern could serve as hypotheses for future epidemiological studies.",
-      "label": "Background",
-      "prob": 0.6558788418769836
-    },
-    {
-      "sentence": "There were 8 males, 16 females, and 1 person with undisclosed gender information.",
-      "label": "Background",
-      "prob": 0.6497550010681152
-    },
-    {
-      "sentence": "Six participants (24%) mentioned the desire to address climate changes, activate regulators, raise awareness of others, expand air quality knowledge, influence policy-making, and build a sense of community.",
-      "label": "Background",
-      "prob": 0.6480180621147156
-    },
-    {
-      "sentence": "These two timestamps represented when users interacted with the system and when the data were archived respectively.",
-      "label": "Background",
-      "prob": 0.6479398012161255
-    },
-    {
-      "sentence": "The smell events defined in this research were based on the consensus from a group of users.",
-      "label": "Background",
-      "prob": 0.6453922986984253
-    },
-    {
-      "sentence": "Human-reported data includes observations contributed by users.",
-      "label": "Background",
-      "prob": 0.6447229981422424
-    },
-    {
-      "sentence": "(i) system usage information of smell reports and interaction events,",
-      "label": "Background",
-      "prob": 0.6427647471427917
-    },
-    {
-      "sentence": "Also, due to system limitations in tracking user behaviors and the sparsity of air pollution events, we leave the analysis of whether push notifications encourage user engagement to future work.",
-      "label": "Background",
-      "prob": 0.6301127672195435
-    },
-    {
-      "sentence": "Observers interacted with the visualization but did not submit reports.",
-      "label": "Background",
-      "prob": 0.6260762810707092
-    },
-    {
-      "sentence": "Thresholds 6 and 31 were the median of the number of submitted reports and interaction events for all users respectively, plus their semi-interquartile ranges.",
-      "label": "Background",
-      "prob": 0.6252252459526062
-    },
-    {
-      "sentence": "Users could view data for a date by selecting the corresponding square.",
-      "label": "Background",
-      "prob": 0.6231475472450256
-    },
-    {
-      "sentence": "We excluded data generated during the system stability testing phase in September and October 2016.",
-      "label": "Background",
-      "prob": 0.6229222416877747
-    },
-    {
-      "sentence": "For privacy preservation, we dropped the GPS location (latitude and longitude) of the smell reports and used zip-codes instead.",
-      "label": "Background",
-      "prob": 0.619265615940094
-    },
-    {
-      "sentence": "The system enables citizens to submit and visualize odor experiences without the assistance from professionals.",
-      "label": "Background",
-      "prob": 0.6178387999534607
-    },
-    {
-      "sentence": "Hsieh et al. utilized a graphical model to predict the air quality of a given location grid based on data from sparse monitoring stations [63].",
-      "label": "Background",
-      "prob": 0.6121233105659485
-    },
-    {
-      "sentence": "Research-oriented citizen science aims to address large-scale research questions which are infeasible for scientists to tackle alone [14, 15, 28, 30, 39, 40, 86, 118].",
-      "label": "Background",
-      "prob": 0.6070998311042786
-    },
-    {
-      "sentence": "Insights from these works showed that sensing data, especially accompanied by visualizations, could provide context and evidence that might raise awareness and engage local communities to participate in political activism.",
-      "label": "Background",
-      "prob": 0.604935348033905
-    },
-    {
-      "sentence": "This strategy ensured that the local health department could access high-resolution citizen-generated pollution data to ascertain better and address",
-      "label": "Background",
-      "prob": 0.604256272315979
-    },
-    {
-      "sentence": "One can view this process as performing model compression to distill the knowledge in a large black box model into a compact model that is explainable to human [21, 60].",
-      "label": "Background",
-      "prob": 0.6023854613304138
-    },
-    {
-      "sentence": "Parameters for data interpretation (DBSCAN, Random Forest, and Decision Tree) were selected by using",
-      "label": "Background",
-      "prob": 0.6020719408988953
-    },
-    {
-      "sentence": "This finding inspired us to chose hydrogen sulfide, wind direction, wind speed, and standard deviation",
-      "label": "Background",
-      "prob": 0.5956523418426514
-    },
-    {
-      "sentence": "According to the experiments of different models, we suggest using the classification approach by thresholding smell ratings instead of the regression approach.",
-      "label": "Background",
-      "prob": 0.5954450964927673
-    },
-    {
-      "sentence": "Regardless of the setting, our database did not record the personal information.",
-      "label": "Background",
-      "prob": 0.5942292213439941
-    },
-    {
-      "sentence": "I believe in science and data and think this can help",
-      "label": "Background",
-      "prob": 0.5918678045272827
-    },
-    {
-      "sentence": "These ratings, their color, and the corresponding descriptions were designed by affected local community members to mimic the US EPA Air Quality Index [47].",
-      "label": "Background",
-      "prob": 0.5877010226249695
-    },
-    {
-      "sentence": "Distributions of all variables differed from normal distributions (normality test p<.001) and were skewed toward zero.",
-      "label": "Background",
-      "prob": 0.5810521841049194
-    },
-    {
-      "sentence": "In contrast, community-oriented citizen science aims to democratize science by equipping citizens with tools to directly target community concerns for advocacy [26, 32, 53, 64, 67 69, 92, 96, 119, 120, 128].",
-      "label": "Background",
-      "prob": 0.5801113843917847
-    },
-    {
-      "sentence": "The authors suggested using Decision Tree learning to hypothesize about potential joint effects of predictors for further investigation.",
-      "label": "Background",
-      "prob": 0.5728872418403625
-    },
-    {
-      "sentence": "We use the dataset to develop a model that predicts upcoming pollution odors and send push notifications to users.",
-      "label": "Background",
-      "prob": 0.5725238919258118
-    },
-    {
-      "sentence": "We met and worked with staff in ACHD to determine how they hoped to utilize smell report data and adjusted elements of the application to better suit their needs, such as sending data directly to their database and using these data as evidence of air pollution.",
-      "label": "Background",
-      "prob": 0.572139322757721
-    },
-    {
-      "sentence": "Users could click on a triangle to view details of the associated report.",
-      "label": "Background",
-      "prob": 0.5704619288444519
-    },
-    {
-      "sentence": "We implemented two models, Random Forest [18] and Extremely Randomized Trees [52], by using python scikit-learn package [97].",
-      "label": "Background",
-      "prob": 0.5683821439743042
-    },
-    {
-      "sentence": "Also, we added interaction terms of all predictors, such as hydrogen sulfide multiplied by the sine component of wind direction.",
-      "label": "Background",
-      "prob": 0.5664247870445251
-    },
-    {
-      "sentence": "In the open-response text field for this question, two participants (8%) mentioned using personal resources to help promote the system.",
-      "label": "Background",
-      "prob": 0.5561863780021667
-    },
-    {
-      "sentence": "The numbers were treated as the similarity of sample pairs, and we scaled the similarity by dividing it with the number of trees in the model.",
-      "label": "Background",
-      "prob": 0.5553585290908813
-    },
-    {
-      "sentence": "and visualizing fine particulate matter [124, 125].",
-      "label": "Background",
-      "prob": 0.5534324645996094
-    },
-    {
-      "sentence": "To build y that represents smell events, we aggregated highrating smell reports over the future 8 hours at the beginning of each hour.",
-      "label": "Background",
-      "prob": 0.5505867004394531
-    },
-    {
-      "sentence": "The numbers were treated as the similarity of sample pairs and scaled to the range between 0 and 1.",
-      "label": "Background",
-      "prob": 0.5489701628684998
-    },
-    {
-      "sentence": "(ii) a dataset for predicting and interpreting smell event patterns, and",
-      "label": "Background",
-      "prob": 0.5477359890937805
-    },
-    {
-      "sentence": "For example, at 3 pm, we took the mean value of sensor readings between 2 pm and 3 pm to construct a new sample.",
-      "label": "Background",
-      "prob": 0.5463004112243652
-    },
-    {
-      "sentence": "Donnelly et al. combined kernel regression and multiple linear regression to forecast the concentrations of nitrogen dioxide over the next 24 and 48 hours [44].",
-      "label": "Background",
-      "prob": 0.5460615158081055
-    },
-    {
-      "sentence": "For ground truth events that had no overlapping predicted events, we counted them as FN.",
-      "label": "Background",
-      "prob": 0.5400340557098389
-    },
-    {
-      "sentence": "Moreover, these three user groups differed regarding the type and amount of data they contributed.",
-      "label": "Background",
-      "prob": 0.5359717607498169
-    },
-    {
-      "sentence": "Finally, for interaction events that involved viewing previous data, we computed the time difference between hit timestamps and data timestamps.",
-      "label": "Background",
-      "prob": 0.5318350195884705
-    },
-    {
-      "sentence": "This question allowed participants to select from a list of 11 activities, which include submitting reports, interacting with the system, sharing experiences, and disseminating data (Table 6).",
-      "label": "Background",
-      "prob": 0.5316711068153381
-    },
-    {
-      "sentence": "Therefore, we developed a mobile system to records GPS locations and timestamps automatically.",
-      "label": "Background",
-      "prob": 0.5284908413887024
-    },
-    {
-      "sentence": "The followings provide the corrections for the last two paragraphs in section 5.2 (Smell Dataset Study).",
-      "label": "Background",
-      "prob": 0.52845299243927
-    },
-    {
-      "sentence": "TheMotivation Factors section was based on a scale developed by the Cornell Lab of Ornithology [37, 102] with 14 Likert-type items (from 1 Strongly Disagree to 5 Strongly Agree).",
-      "label": "Background",
-      "prob": 0.5262959599494934
-    },
-    {
-      "sentence": "Because our predictors and responses were all time-dependent, we used previous samples to train the models and evaluated them on future data.",
-      "label": "Background",
-      "prob": 0.5216808915138245
-    },
-    {
-      "sentence": "We were interested in four variables with different distributions among user groups, which represented their characteristics (Table 2).",
-      "label": "Background",
-      "prob": 0.5165702700614929
-    },
-    {
-      "sentence": "This approach provided ACHD with a more comprehensive picture of the local pollution landscape.",
-      "label": "Background",
-      "prob": 0.5163928270339966
-    },
-    {
-      "sentence": "Several participants were even willing to use their resources to encourage others to install the system and engage in odor reporting. Moreover, in July 2018, activists attended the Board of Health meeting with the ACHD (Allegheny County Health Department)",
-      "label": "Background",
-      "prob": 0.5153771042823792
-    },
-    {
-      "sentence": "There were three tunable model parameters: the number of trees in the model, the number of features to select randomly for splitting a tree node, and the minimum number of samples required to split a tree node.",
-      "label": "Background",
-      "prob": 0.514683723449707
-    },
-    {
-      "sentence": "These errors do not affect the conclusions.",
-      "label": "Background",
-      "prob": 0.5128515958786011
-    },
-    {
-      "sentence": "IUI 19, March 1720, 2019, Marina del Ray, CA, USA",
-      "label": "Background",
-      "prob": 0.5120202302932739
-    },
-    {
-      "sentence": "For instance, the city involved in this study, Pittsburgh, is one of the ten most polluted cities in the United States [4].",
-      "label": "Background",
-      "prob": 0.5109633803367615
+      "prob": 0.8042277693748474
     },
     {
       "sentence": "Users could decide if they were willing to provide their contact information to the health department through the system setting panel.",
       "label": "Background",
-      "prob": 0.5105713605880737
+      "prob": 0.8032357096672058
     },
     {
-      "sentence": "of wind direction from all of the other available predictors.",
+      "sentence": "alone in their concerns about stinky air, which I believe was a major problem for building momentum in the air quality community prior to the apps existence.",
       "label": "Background",
-      "prob": 0.5078576803207397
+      "prob": 0.8009684085845947
+    },
+    {
+      "sentence": "Observers tended to browse data that were far away from the interaction time.",
+      "label": "Background",
+      "prob": 0.7965407371520996
+    },
+    {
+      "sentence": "But none of these work asked users to report odors, and thus can not directly capture how air pollution affects the living quality of community members.",
+      "label": "Background",
+      "prob": 0.7953451871871948
+    },
+    {
+      "sentence": "Also, sufficient citizen participation and data transparency are required for the evidence to be influential.",
+      "label": "Background",
+      "prob": 0.7922440767288208
+    },
+    {
+      "sentence": "Modern computational tools can collect volunteered geographic information [57] and aggregate them to produce scientific knowledge.",
+      "label": "Background",
+      "prob": 0.7896788120269775
+    },
+    {
+      "sentence": "Most of these studies focus on forecasting or interpolating sensing data.",
+      "label": "Background",
+      "prob": 0.7875010967254639
+    },
+    {
+      "sentence": "Most of them describe industrial pollution odors and symptoms of air pollution exposure, especially hydrogen sulfide (rotten egg smell).",
+      "label": "Background",
+      "prob": 0.7855918407440186
+    },
+    {
+      "sentence": "Historically, there exist both research and community-oriented strategies [31].",
+      "label": "Background",
+      "prob": 0.7813198566436768
+    },
+    {
+      "sentence": "It is highly likely that the regression function tried to fit the noise after a certain threshold that indicates the presence of a smell event.",
+      "label": "Background",
+      "prob": 0.7811084985733032
+    },
+    {
+      "sentence": "Furthermore, the reporting process is not transparent and does not encourage citizens to contribute data.",
+      "label": "Background",
+      "prob": 0.7799400091171265
+    },
+    {
+      "sentence": "Additionally, our community members might be unique in their characteristics, such as the awareness of the air quality problem, the tenacity of advocacy, and the power relationships with other stakeholders.",
+      "label": "Background",
+      "prob": 0.7758590579032898
+    },
+    {
+      "sentence": "Involving citizens to address urban air pollution collaboratively is a wicked problem by its nature, so there is no guarantee that our success and effectiveness can be replicated in a different context.",
+      "label": "Background",
+      "prob": 0.7722970843315125
+    },
+    {
+      "sentence": "Such features involved reporting smell retrospectively and viewing personal submission records.",
+      "label": "Background",
+      "prob": 0.765149712562561
+    },
+    {
+      "sentence": "Smell Pittsburgh sent post hoc and predictive event notifications to encourage participation.",
+      "label": "Background",
+      "prob": 0.7550601959228516
+    },
+    {
+      "sentence": "It is viable to forecast upcoming smell events based on previous observations.",
+      "label": "Background",
+      "prob": 0.7539477348327637
+    },
+    {
+      "sentence": "Modern technology allows communities to collect data that can contextualize and express their concerns.",
+      "label": "Background",
+      "prob": 0.7426130771636963
+    },
+    {
+      "sentence": "Nevertheless, the quality of the gathered data is doubtful.",
+      "label": "Background",
+      "prob": 0.7406822443008423
+    },
+    {
+      "sentence": "and presented a printed 230-foot-long scroll of more than 11,000 complaints submitted through the system.",
+      "label": "Background",
+      "prob": 0.7351163029670715
+    },
+    {
+      "sentence": "Based on their feedback, the system submitted all smell reports to the health department, regardless of the smell rating.",
+      "label": "Background",
+      "prob": 0.7336806654930115
+    },
+    {
+      "sentence": "Four responses were excluded due to incomplete questions or no experiences in interacting with the system, which gave 25 valid survey responses.",
+      "label": "Background",
+      "prob": 0.7318111062049866
+    },
+    {
+      "sentence": "cation of air quality in Pittsburgh and believe the visuals Smell Pittsburgh provides is the best way to do that.",
+      "label": "Background",
+      "prob": 0.7261145114898682
+    },
+    {
+      "sentence": "The smell report data contained timestamps, zip-codes, smell ratings, descriptions of sources, symptoms, and comments.",
+      "label": "Background",
+      "prob": 0.724601149559021
+    },
+    {
+      "sentence": "As there were many highly correlated features, selecting a subset of them arbitrarily for extracting patterns was impractical.",
+      "label": "Background",
+      "prob": 0.7226921916007996
+    },
+    {
+      "sentence": "Data-driven evidence, especially when integrated with narratives, is essential for communities to make sense of local environmental issues and take action [94].",
+      "label": "Background",
+      "prob": 0.7210502028465271
+    },
+    {
+      "sentence": "These groups were pivotal in shaping the design of Smell Pittsburgh and providing insights into how to engage the broader Pittsburgh community.",
+      "label": "Background",
+      "prob": 0.7109568119049072
+    },
+    {
+      "sentence": "Additionally, in our case, air pollution incidents can only be captured at the moment because our communities lack resources to deploy reliable air quality monitoring sensors.",
+      "label": "Background",
+      "prob": 0.6973130702972412
+    },
+    {
+      "sentence": "The system is specialized for gathering smell data at a broad temporal and geographical scale.",
+      "label": "Background",
+      "prob": 0.6933039426803589
+    },
+    {
+      "sentence": "The collected data may also suffer from many types of bias and error that sometimes can even be unavoidable [11, 22].",
+      "label": "Background",
+      "prob": 0.6909671425819397
+    },
+    {
+      "sentence": "It can also be beneficial to explore ways to connect citizens and regulators, such as visualizing smell reports by voting districts, providing more background information with demographics and industry data, and sending push notifications regarding health agency public meetings.",
+      "label": "Background",
+      "prob": 0.689211368560791
+    },
+    {
+      "sentence": "I also believe that the air quality activism community will find more willing participants if there is a very easy way for nonactivists to help support clean air , and the app onramp for potential new activists .",
+      "label": "Background",
+      "prob": 0.6871131658554077
+    },
+    {
+      "sentence": "Because climate change is one of our largest challenges, [...] Also, the ACHD isnt as active as they should be, and needs a nudge .",
+      "label": "Background",
+      "prob": 0.679468035697937
+    },
+    {
+      "sentence": "These two timestamps represented when users interacted with the system and when the data were archived respectively.",
+      "label": "Background",
+      "prob": 0.669601559638977
+    },
+    {
+      "sentence": "Also, users could fill out optional text fields where they could describe the smell (e.g., industrial, rotten egg), their symptoms related to the odor (e.g., headache, irritation), and their personal experiences.",
+      "label": "Background",
+      "prob": 0.6684888005256653
+    },
+    {
+      "sentence": "I believe in the power of crowd-sourced data to influence policy decisions .",
+      "label": "Background",
+      "prob": 0.6669225692749023
+    },
+    {
+      "sentence": "All smell reports were anonymous, and their geographical locations were skewed to preserve privacy.",
+      "label": "Background",
+      "prob": 0.6660993099212646
+    },
+    {
+      "sentence": "Examples of internal motivations included enjoyment during participation and the desire to improve air quality.",
+      "label": "Background",
+      "prob": 0.6640208959579468
+    },
+    {
+      "sentence": "The smell events defined in this research were based on the consensus from a group of users.",
+      "label": "Background",
+      "prob": 0.6592833995819092
+    },
+    {
+      "sentence": "Although there have been discussions about the potential of using smell to indicate pollution events and support decision making [89, 91], no prior works collected long-term smell data at a city-wide scale and studied if these data are useful for air pollution monitoring and community advocacy.",
+      "label": "Background",
+      "prob": 0.6545363068580627
+    },
+    {
+      "sentence": "It is not feasible to explore and evaluate all possible methods without deploying the system in the real-world context.",
+      "label": "Background",
+      "prob": 0.6532801389694214
+    },
+    {
+      "sentence": "We envision that this research can inspire engineers, designers, and researchers to develop systems that support community advocacy and empowerment.",
+      "label": "Background",
+      "prob": 0.6267753839492798
+    },
+    {
+      "sentence": "Although these models provided feature importances, interpreting these weights could be problematic because several predictors in the dataset were highly correlated, which might appear less significant than other uncorrelated counterparts.",
+      "label": "Background",
+      "prob": 0.6176896691322327
+    },
+    {
+      "sentence": "This approach is highly related to sustainable HumanComputer Interaction [13, 20, 41, 42, 45, 84], which studies the intervention of information technology for increasing the awareness of sustainability, changing user behaviors, and influencing attitudes of affected communities.",
+      "label": "Background",
+      "prob": 0.6101968288421631
+    },
+    {
+      "sentence": "During 2017, the system collected 8,720 smell reports, which is 10-fold more than the 796 complaints collected by the health department regulators in 2016.",
+      "label": "Background",
+      "prob": 0.6089903116226196
+    },
+    {
+      "sentence": "In this case, Smell Pittsburgh rebalanced the power relationships between communities and regulators.",
+      "label": "Background",
+      "prob": 0.6052712798118591
+    },
+    {
+      "sentence": "The app also acts as a way for non-activists to see that they are not",
+      "label": "Background",
+      "prob": 0.6039743423461914
+    },
+    {
+      "sentence": "The system visualizes odor complaints in real-time, which enables residents to confirm their experiences by viewing if others also share similar experiences.",
+      "label": "Background",
+      "prob": 0.6024960875511169
+    },
+    {
+      "sentence": "Distributions of all variables differed from normal distributions (normality test p<.001) and were skewed toward zero.",
+      "label": "Background",
+      "prob": 0.6019859313964844
+    },
+    {
+      "sentence": "However, while many prior works used sensors to monitor air pollution, none of them complemented the sensing data with human-reported data.",
+      "label": "Background",
+      "prob": 0.5994078516960144
+    },
+    {
+      "sentence": "To the best of our knowledge, Smell Pittsburgh is the first system of its kind that demonstrates the potential of collecting and using smell data to form evidence about air quality issues at a city-wide scale.",
+      "label": "Background",
+      "prob": 0.5976548194885254
+    },
+    {
+      "sentence": "Users could report odor complaints via Smell Pittsburgh from their mobile devices via the submission console (Figure 1, left).",
+      "label": "Background",
+      "prob": 0.581230103969574
+    },
+    {
+      "sentence": "However, our survey study only targeted community activists, which led to a relatively small sample size.",
+      "label": "Background",
+      "prob": 0.5780898928642273
+    },
+    {
+      "sentence": "In summary, when developing Smell Pittsburgh, we considered the system as an ongoing infrastructure to sustain communities over time (as mentioned in [34]), rather than a software product which solves a single well-defined problem.",
+      "label": "Background",
+      "prob": 0.568722128868103
+    },
+    {
+      "sentence": "In response to this challenge, our design principle is inspired by how architects and urban designers address wicked problems.",
+      "label": "Background",
+      "prob": 0.5662592649459839
+    },
+    {
+      "sentence": "When clicking or tapping on the playback button, the application animated 24 hours of data for the currently selected day, which served as convincing evidence of air quality concerns.",
+      "label": "Background",
+      "prob": 0.5575753450393677
+    },
+    {
+      "sentence": "Despite these doubts, in the smell dataset study, we have applied machine learning to demonstrate the predictive and explainable power of these data.",
+      "label": "Background",
+      "prob": 0.5527661442756653
+    },
+    {
+      "sentence": "(i) to develop a system that can lower the barriers to contribute smell data and",
+      "label": "Background",
+      "prob": 0.5522345900535583
+    },
+    {
+      "sentence": "(ii) to make sure the data is useful in studying the impact of urban air pollution and advocating for better air quality.",
+      "label": "Background",
+      "prob": 0.550310492515564
+    },
+    {
+      "sentence": "Regardless of the setting, our database did not record the personal information.",
+      "label": "Background",
+      "prob": 0.5421273112297058
+    },
+    {
+      "sentence": "Insights from these works showed that sensing data, especially accompanied by visualizations, could provide context and evidence that might raise awareness and engage local communities to participate in political activism.",
+      "label": "Background",
+      "prob": 0.5366215705871582
+    },
+    {
+      "sentence": "Another issue is the label unreliability.",
+      "label": "Background",
+      "prob": 0.5315657258033752
+    },
+    {
+      "sentence": "Once a user submitted a smell report, the system sent it to the local health department and anonymously archived it on our backend database.",
+      "label": "Background",
+      "prob": 0.5308681726455688
     },
     {
       "sentence": "We administered and delivered an anonymous online survey via email to community advocacy groups and asked them to distribute the survey to others.",
       "label": "Background",
-      "prob": 0.5042327642440796
+      "prob": 0.5307500958442688
     },
     {
-      "sentence": "For simplicity, we fixed the number of trees (1,000 for classification and 200 for regression) and chose other parameters during model selection.",
+      "sentence": "bile smell reporting system for Pittsburgh communities to collect and visualize odor events.",
       "label": "Background",
-      "prob": 0.5041013956069946
+      "prob": 0.5257099270820618
     },
     {
-      "sentence": "For instance, at 3 pm, we took the sum of smell ratings with values higher than two between 3 pm and 11 pm to obtain a confidence score, which represented agreements of how likely a smell event occurred.",
+      "sentence": "This strategy ensured that the local health department could access high-resolution citizen-generated pollution data to ascertain better and address",
       "label": "Background",
-      "prob": 0.5022850036621094
+      "prob": 0.5208550691604614
     },
     {
-      "sentence": "We have also shown that the transparency of smell data empowered communities to advocate for better air quality.",
+      "sentence": "Moreover, to sustain participation, we visualized smell report data on a map and also engage residents through push notifications.",
       "label": "Background",
-      "prob": 0.5009896755218506
+      "prob": 0.5178462862968445
     },
     {
-      "sentence": "Figure 2: Text analysis of high frequency words (unigram) and phrases (bigram) in the text fields of all smell reports.",
+      "sentence": "The predictor matrix and the response vector represented air quality data and smell events respectively.",
       "label": "Background",
-      "prob": 0.49929627776145935
-    },
-    {
-      "sentence": "This research is rooted in citizen science, which empowers amateurs and professionals to form partnerships and produce scientific knowledge [16, 17, 46, 85, 114].",
-      "label": "Background",
-      "prob": 0.4976861774921417
-    },
-    {
-      "sentence": "We documented participation level through a multiple-choice and multiple-response question, How did you use Smell Pittsburgh? as shown in Figure 7 (right).",
-      "label": "Background",
-      "prob": 0.494057834148407
-    },
-    {
-      "sentence": "To add more weight to citizen-contributed pollution odor report, we engineered the application to send smell reports directly to the Allegheny County Health Department (ACHD).",
-      "label": "Background",
-      "prob": 0.49333178997039795
-    },
-    {
-      "sentence": "We framed the smell event prediction as a supervised learning task to approximate the function F that maps a predictor matrix X to a response vector y .",
-      "label": "Background",
-      "prob": 0.4929228723049164
-    },
-    {
-      "sentence": "Ushahidi gathers crisis information via text messages or its website to provide timely transparent information to a broader audience [90].",
-      "label": "Background",
-      "prob": 0.49074313044548035
-    },
-    {
-      "sentence": "The system is designed to influence citizen participation and reveals community concerns simultaneously, which is different from observational studies that use existing data, such as correlating air quality keywords from social media contents with environmental sensor measurements [49].",
-      "label": "Background",
-      "prob": 0.48584210872650146
-    },
-    {
-      "sentence": "The scale consisted of eight Likert-type items (from 1 Strongly Disagree to 5 Strongly",
-      "label": "Background",
-      "prob": 0.4828213155269623
-    },
-    {
-      "sentence": "Contributors submitted reports but did not interact with the visualization.",
-      "label": "Background",
-      "prob": 0.4802730083465576
-    },
-    {
-      "sentence": "Researchers applying this strategy study how scientists can encourage the public to participate in scientific research.",
-      "label": "Background",
-      "prob": 0.4765140116214752
+      "prob": 0.5171036124229431
     },
     {
       "sentence": "This section was framed as a retrospective pre-post self-assessment.",
       "label": "Background",
-      "prob": 0.47318631410598755
+      "prob": 0.5161617994308472
     },
     {
-      "sentence": "ground truth air pollution data in our case.",
+      "sentence": "Such errors can result in missing or incomplete data that can affect the outcome of statistical analysis to identify pollution sources [36].",
       "label": "Background",
-      "prob": 0.47302934527397156
+      "prob": 0.5083086490631104
     },
     {
-      "sentence": "Gass et al. investigated the joint effects of outdoor air pollutants on emergency department visits for pediatric asthma by applying Decision Tree learning [51].",
+      "sentence": "However, these manners are not suitable for our projects.",
       "label": "Background",
-      "prob": 0.46946582198143005
+      "prob": 0.49807026982307434
     },
     {
-      "sentence": "MyPart is a low-cost and calibrated wearable sensor for measuring and visualizing airborne particles [126].",
+      "sentence": "Future research is needed to study the impact of deploying this system in other cities that have similar or distinct community characteristics compared to Pittsburgh.",
       "label": "Background",
-      "prob": 0.4689992666244507
+      "prob": 0.49349722266197205
     },
     {
-      "sentence": "Azid et al. used principal component analysis and an artificial neural network to identify pollution sources and predict air pollution [6].",
+      "sentence": "Interpretationtechniquesaimtoextractknowledge from the collected data.",
       "label": "Background",
-      "prob": 0.4689379632472992
+      "prob": 0.4922266900539398
     },
     {
-      "sentence": "Each goal yields a set of design challenges.",
+      "sentence": "We also trained an explainable model to reveal connections between air quality sensor readings and smell events.",
       "label": "Background",
-      "prob": 0.4672282338142395
-    },
-    {
-      "sentence": "In this way, we simplify the task to a binary classification problem, with 64 predictor variables (columns of X ) and 16,766 samples (rows of X and y ).",
-      "label": "Background",
-      "prob": 0.4624292850494385
-    },
-    {
-      "sentence": "For Self-Efficacy Changes, we measured changes to user confidence mitigating air quality problems.",
-      "label": "Background",
-      "prob": 0.46004047989845276
-    },
-    {
-      "sentence": "The demographics of the sample population (Table 4) were not typical for",
-      "label": "Background",
-      "prob": 0.4471572935581207
-    },
-    {
-      "sentence": "For both assessments, we used a scale developed by the Cornell Lab of Ornithology [37, 103].",
-      "label": "Background",
-      "prob": 0.44441667199134827
-    },
-    {
-      "sentence": "When performing classification and regression, we added 3-hour lagged predictor variables, days of the week, hours of the day, and days of the month into the original predictor variable, which expanded its length from 64 to 195.",
-      "label": "Background",
-      "prob": 0.4425647258758545
-    },
-    {
-      "sentence": "A text field with question Are there other reasons that you use Smell Pittsburgh? was provided for open responses.",
-      "label": "Background",
-      "prob": 0.4417456090450287
+      "prob": 0.4892614185810089
     },
     {
       "sentence": "These studies applied prediction techniques to help citizens plan daily activities and also inform regulators in controlling air pollution sources.",
       "label": "Background",
-      "prob": 0.4384966790676117
+      "prob": 0.481949120759964
     },
     {
-      "sentence": "The visualization presents the context of air quality concerns from multiple perspectives as evidence.",
+      "sentence": "The numbers were treated as the similarity of sample pairs and scaled to the range between 0 and 1.",
       "label": "Background",
-      "prob": 0.4384154677391052
+      "prob": 0.4694454073905945
     },
     {
-      "sentence": "The knowledge obtained from informal community meetings and the result discovered in the text analysis (Figure 2) suggested that hydrogen sulfide might be the primary source of smell events.",
-      "label": "Result",
-      "prob": 0.43831852078437805
-    },
-    {
-      "sentence": "We also extracted connections between predictors and responses that reveal a dominant local air pollution pattern, which is a joint effect of hydrogen sulfide and wind information.",
+      "sentence": "Creek Watch is a monitoring system which enabled citizens to report water flow and trash data in creeks [76].",
       "label": "Background",
-      "prob": 0.437741756439209
+      "prob": 0.4689929187297821
     },
     {
-      "sentence": "To investigate the distribution of smell reports and interaction events among our users, we divided all users into four types: enthusiasts, explorers, contributors, and observers (Table 1).",
+      "sentence": "Parameters for data interpretation (DBSCAN, Random Forest, and Decision Tree) were selected by using",
       "label": "Background",
-      "prob": 0.43652623891830444
+      "prob": 0.46407821774482727
     },
     {
-      "sentence": "The scale was customized for air quality and measured both internal (7 items) and external motivations (7 items).",
+      "sentence": "We defined the timely and geographically aggregated reports as smell events, which indicated that there would be many high-rating smell reports within the next 8 hours.",
       "label": "Background",
-      "prob": 0.4326682388782501
+      "prob": 0.4603601098060608
     },
     {
-      "sentence": "We now describe two system features: (1) a mobile interface for submitting and visualizing odor complaints and (2) push notifications for predicting the potential presence of odor events.",
+      "sentence": "To submit a report, users first selected a smell rating from 1 to 5, with one being just fine and five being about as bad as it gets.",
       "label": "Background",
-      "prob": 0.43111366033554077
+      "prob": 0.4557400345802307
     },
     {
-      "sentence": "We used python NLTK package [10] to remove stop words and group similar words with different forms (lemmatization).",
-      "label": "Method",
-      "prob": 0.45502614974975586
-    },
-    {
-      "sentence": "We released the system in September 2016.",
+      "sentence": "To the best of our knowledge, none of them considered humanreported data in their predictive models.",
       "label": "Background",
-      "prob": 0.4281224310398102
+      "prob": 0.454270601272583
     },
     {
-      "sentence": "Factors, we averaged the internal (Mdn=4.29) and external (Mdn=3.14) motivation scores for each participant (Figure 7, center).",
+      "sentence": "Making sense of such noisy data has been a significant concern in citizen science [88, 93], especially for untrained contributors [17, 28, 35, 91].",
       "label": "Background",
-      "prob": 0.4267725944519043
+      "prob": 0.45358675718307495
     },
     {
-      "sentence": "The scores were further divided into positive and negative classes (with or without smell events) by using threshold 40.",
+      "sentence": "Finally, we discussed limitations and future directions: deploying the system in multiple cities and using advanced techniques for pattern recognition.",
       "label": "Background",
-      "prob": 0.42431777715682983
+      "prob": 0.4534498453140259
     },
     {
-      "sentence": "Zheng et al. developed a framework to predict air quality readings of a monitoring station over the next 48 hours based on meteorological data, weather forecasts, and sensor readings from other nearby monitoring stations [129].",
+      "sentence": "To equalize the effect of predictors, we normalized each column of matrix X to zero mean and unit variance.",
       "label": "Background",
-      "prob": 0.4211002290248871
-    },
-    {
-      "sentence": "We identified the frequency of system usage through a multiple-choice question, How often do you use Smell Pittsburgh? as shown in Table 5.",
-      "label": "Background",
-      "prob": 0.41756945848464966
-    },
-    {
-      "sentence": "These algorithms build a collection of decision trees using the CART algorithm [81], where the leaves represent the responses y and the branches represent the logical conjunction of predictors in X .",
-      "label": "Background",
-      "prob": 0.4162880778312683
-    },
-    {
-      "sentence": "To quantify participation levels, we counted the number of selected choices for each participant, as shown in Figure 7 (right).",
-      "label": "Background",
-      "prob": 0.41558730602264404
-    },
-    {
-      "sentence": "About 48% and 81% of the users submitted less than three and ten reports respectively, which aligned with the typical pattern in citizen science projects that many volunteers participated for only a few times [113].",
-      "label": "Background",
-      "prob": 0.4117263853549957
-    },
-    {
-      "sentence": "In this research, we demonstrate how citizen science can be used for communities to pool resources and efforts to gather evidence for advocacy.",
-      "label": "Objective",
-      "prob": 0.4380492866039276
-    },
-    {
-      "sentence": "For each sample pair, we counted the number of times that the pair appeared in the same leaf for all trees in the model.",
-      "label": "Background",
-      "prob": 0.40815305709838867
-    },
-    {
-      "sentence": "Tiramisu was a transit information system for collecting GPS location data and problem reports from bus commuters [130].",
-      "label": "Other",
-      "prob": 0.5055590271949768
-    },
-    {
-      "sentence": "Stingone et al. trained decision trees to identify possible interaction patterns between air pollutants and math test scores of kindergarten children [121].",
-      "label": "Other",
-      "prob": 0.5163564085960388
-    },
-    {
-      "sentence": "(i) to develop a system that can lower the barriers to contribute smell data and",
-      "label": "Objective",
-      "prob": 0.5120133757591248
-    },
-    {
-      "sentence": "Additionally, we present a dataset of smell reports and air quality measurements from nearby monitoring stations over 21 months [1].",
-      "label": "Background",
-      "prob": 0.39957842230796814
-    },
-    {
-      "sentence": "During data interpretation, we only considered the classification approach due to better performance.",
-      "label": "Background",
-      "prob": 0.3968198895454407
-    },
-    {
-      "sentence": "A two-tailed Wilcoxon Signed-Ranks test indicated a statistically significant difference (W=0, Z=-4.29, p<.001).",
-      "label": "Background",
-      "prob": 0.3967602252960205
-    },
-    {
-      "sentence": "We believe that it is more beneficial to ask Is the system influential? instead of Is the system useful?",
-      "label": "Other",
-      "prob": 0.45398035645484924
-    },
-    {
-      "sentence": "The distance matrix for clustering was derived from a Random Forest in an unsupervised manner, as described in [117].",
-      "label": "Background",
-      "prob": 0.39339327812194824
-    },
-    {
-      "sentence": "This finding inspired us to examine how hydrogen sulfide affected urban odors in the next study.",
-      "label": "Background",
-      "prob": 0.392865389585495
-    },
-    {
-      "sentence": "To build X , we re-sampled air quality data over the previous hour at the beginning of each hour.",
-      "label": "Background",
-      "prob": 0.3911525011062622
-    },
-    {
-      "sentence": "In this study, we show the usage patterns on mobile devices by parsing server logs and Google Analytics events.",
-      "label": "Background",
-      "prob": 0.38967809081077576
+      "prob": 0.4521277844905853
     },
     {
       "sentence": "Parameters for data interpretation (DBSCAN, Random Forest, and Decision Tree) were selected by using cross-validation.",
       "label": "Background",
-      "prob": 0.3890853226184845
+      "prob": 0.4513339400291443
     },
     {
-      "sentence": "To equalize the effect of predictors, we normalized each column of matrix X to zero mean and unit variance.",
-      "label": "Method",
-      "prob": 0.4266372323036194
-    },
-    {
-      "sentence": "The sensor data were recorded hourly by twelve government-operated monitoring stations at different locations in Pittsburgh, which included timestamps, particulate matters, sulfur dioxide, carbon monoxide, nitrogen oxides, ozone, hydrogen sulfide, and wind information (direction, speed, and standard deviation of direction).",
+      "sentence": "Users could click on a triangle to view details of the associated report.",
       "label": "Background",
-      "prob": 0.383292019367218
+      "prob": 0.4511958658695221
     },
     {
-      "sentence": "In this study, we show that the system can motivate active community members to contribute data and increase their self-efficacy, beliefs about how well an individual can achieve desired effects through actions [7].",
+      "sentence": "We met and worked with staff in ACHD to determine how they hoped to utilize smell report data and adjusted elements of the application to better suit their needs, such as sending data directly to their database and using these data as evidence of air pollution.",
       "label": "Background",
-      "prob": 0.3828040659427643
+      "prob": 0.44565609097480774
     },
     {
-      "sentence": "That is disappointing, and makes me wonder, why bother?",
-      "label": "Other",
-      "prob": 0.5226030349731445
-    },
-    {
-      "sentence": "The evaluation shows that using smell experiences is practical for revealing urban air quality concerns and empowering communities to advocate for a sustainable environment.",
+      "sentence": "Open-responses indicated that instead of using the system regularly, eight participants (32%) only submitted reports whenever they experienced poor odors.",
       "label": "Result",
-      "prob": 0.4455905854701996
+      "prob": 0.4620116651058197
     },
     {
-      "sentence": "By adopting machine learning, we developed a model to predict smell events and send push notifications accordingly.",
-      "label": "Method",
-      "prob": 0.3914150595664978
-    },
-    {
-      "sentence": "We specifically chose the geographic regions that have",
-      "label": "Other",
-      "prob": 0.38694217801094055
-    },
-    {
-      "sentence": "Text fields were provided for both of the above two questions.",
-      "label": "Result",
-      "prob": 0.41103610396385193
-    },
-    {
-      "sentence": "Kim et al. implemented an indoor air quality monitoring system to gather air quality data from commercial sensors [75].",
-      "label": "Other",
-      "prob": 0.41084107756614685
-    },
-    {
-      "sentence": "Nevertheless, the quality of the gathered data is doubtful.",
-      "label": "Other",
-      "prob": 0.47565534710884094
-    },
-    {
-      "sentence": "Finally, we describe qualitative and quantitative studies for understanding changes in user engagement and motivation.",
+      "sentence": "Since users tended not to report when there is no pollution odor, we recommend aggregating smell ratings by time to produce samples with no smell events.",
       "label": "Background",
-      "prob": 0.36046600341796875
+      "prob": 0.44185590744018555
     },
     {
-      "sentence": "Missing values were replaced with the corresponding mean values.",
-      "label": "Result",
-      "prob": 0.3642398416996002
-    },
-    {
-      "sentence": "We first constructed and introduced a dataset with air quality sensor readings and smell",
+      "sentence": "TheMotivation Factors section was based on a scale developed by the Cornell Lab of Ornithology [37, 102] with 14 Likert-type items (from 1 Strongly Disagree to 5 Strongly Agree).",
       "label": "Background",
-      "prob": 0.3560730814933777
+      "prob": 0.4417455792427063
     },
     {
-      "sentence": "The current and up to 2-hour lagged predictor variables were all included.",
-      "label": "Result",
-      "prob": 0.41141241788864136
-    },
-    {
-      "sentence": "Table 8 reported the evaluation metrics after running the data interpretation pipeline for 100 times, including the cluster analysis and recursive feature elimination.",
-      "label": "Result",
-      "prob": 0.4090617597103119
-    },
-    {
-      "sentence": "Blue arrows showed wind directions measured from nearby monitoring stations.",
-      "label": "Result",
-      "prob": 0.41169413924217224
-    },
-    {
-      "sentence": "We have shown that the smell data gathered through the system is practical in identifying local air pollution patterns.",
-      "label": "Result",
-      "prob": 0.471161425113678
-    },
-    {
-      "sentence": "The survey had three sections: (1) Self-Efficacy Changes, (2) Motivation Factors, (3) System Usage Information.",
+      "sentence": "To build X , we re-sampled air quality data over the previous hour at the beginning of each hour.",
       "label": "Background",
-      "prob": 0.34987854957580566
+      "prob": 0.44107356667518616
     },
     {
-      "sentence": "All responses were kept confidential, and there was no compensation.",
-      "label": "Result",
-      "prob": 0.487344890832901
+      "sentence": "Speck is an indoor air quality sensor for measuring",
+      "label": "Background",
+      "prob": 0.4375048577785492
     },
     {
-      "sentence": "In the open-ended question to freely provide comments and concerns, two participants (8%) were frustrated about the lack of responses from regulators and unclear values of using the data to take action.",
-      "label": "Result",
-      "prob": 0.5424990653991699
+      "sentence": "For instance, at 3 pm, we took the sum of smell ratings with values higher than two between 3 pm and 11 pm to obtain a confidence score, which represented agreements of how likely a smell event occurred.",
+      "label": "Background",
+      "prob": 0.43498048186302185
     },
     {
-      "sentence": "About 32% of the users submitted only one report.",
-      "label": "Result",
-      "prob": 0.5256832242012024
+      "sentence": "We use the dataset to develop a model that predicts upcoming pollution odors and send push notifications to users.",
+      "label": "Background",
+      "prob": 0.43375328183174133
     },
     {
-      "sentence": "Figure 8 indicated the model and the most important two features, which were consistent for 99 times, out of the total 100 times experiment.",
-      "label": "Result",
-      "prob": 0.5161736011505127
-    },
-    {
-      "sentence": "We also found that altruism, the concern about the welfare of others, was another motivation.",
-      "label": "Result",
-      "prob": 0.5301103591918945
-    },
-    {
-      "sentence": "Then the predicted scores were thresholded post hoc with value 40 to produce positive and negative classes, which enabled us to compare the performance of these two approaches.",
-      "label": "Method",
-      "prob": 0.4184340536594391
-    },
-    {
-      "sentence": "Otherwise, we counted a non-overlapped predicted event as an FP.",
-      "label": "Result",
-      "prob": 0.36692729592323303
-    },
-    {
-      "sentence": "For System Usage Information, we reported the counts for system usage frequency questions (Table 5).",
-      "label": "Result",
-      "prob": 0.4579832851886749
-    },
-    {
-      "sentence": "It is basically a very easy",
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
       "label": "Other",
-      "prob": 0.4832780957221985
+      "prob": 0.4592511057853699
     },
     {
-      "sentence": "We defined daytime from 5 am to 7 pm.",
-      "label": "Result",
-      "prob": 0.3723308742046356
+      "sentence": "When computing these metrics, we considered only daytime events because residents rarely submitted reports during nighttime (Figure 4).",
+      "label": "Background",
+      "prob": 0.4313068985939026
     },
     {
-      "sentence": "We also trained an explainable model to reveal connections between air quality sensor readings and smell events.",
-      "label": "Method",
-      "prob": 0.42967498302459717
+      "sentence": "Also, we added interaction terms of all predictors, such as hydrogen sulfide multiplied by the sine component of wind direction.",
+      "label": "Background",
+      "prob": 0.42416879534721375
     },
     {
-      "sentence": "We found errors in the system usage study and the analysis of the air pollution patterns when discussing this research with a colleague.",
-      "label": "Result",
-      "prob": 0.5468817949295044
+      "sentence": "(i) system usage information of smell reports and interaction events,",
+      "label": "Background",
+      "prob": 0.4236847758293152
     },
     {
-      "sentence": "Our research focuses on the community-oriented",
-      "label": "Objective",
-      "prob": 0.4098864495754242
+      "sentence": "Figure 2: Text analysis of high frequency words (unigram) and phrases (bigram) in the text fields of all smell reports.",
+      "label": "Background",
+      "prob": 0.4225502610206604
     },
     {
-      "sentence": "A straightforward solution is to empower the affected communities directly.",
-      "label": "Objective",
-      "prob": 0.5657596588134766
+      "sentence": "A text field with question Are there other reasons that you use Smell Pittsburgh? was provided for open responses.",
+      "label": "Background",
+      "prob": 0.4189612865447998
     },
     {
-      "sentence": "Also, four participants (16%) indicated the benefit to validate personal experiences based on the data provided by others.",
-      "label": "Result",
-      "prob": 0.5690910220146179
+      "sentence": "These algorithms build a collection of decision trees using the CART algorithm [81], where the leaves represent the responses y and the branches represent the logical conjunction of predictors in X .",
+      "label": "Background",
+      "prob": 0.41784384846687317
+    },
+    {
+      "sentence": "This knowledge can help to discover potential interrelationships between predictors and responses, which is known to be essential in analyzing the impacts of environmental issues in the long-term [19, 35].",
+      "label": "Background",
+      "prob": 0.4176297187805176
+    },
+    {
+      "sentence": "In our evaluation, we studied the distribution of smell reports and interaction events among different types of users.",
+      "label": "Background",
+      "prob": 0.41094523668289185
+    },
+    {
+      "sentence": "I believe in science and data and think this can help",
+      "label": "Background",
+      "prob": 0.40822097659111023
+    },
+    {
+      "sentence": "(ii) a dataset for predicting and interpreting smell event patterns, and",
+      "label": "Background",
+      "prob": 0.40767109394073486
+    },
+    {
+      "sentence": "In the caption of Table 2, and also in the second paragraph of section 5.1 (System Usage Study), the interquartile range texts should be semi-interquartile range.",
+      "label": "Background",
+      "prob": 0.4075469374656677
     },
     {
       "sentence": "The presented smell scroll demonstrated strong evidence about the impact of air pollution on the living quality of citizens, which forced regulators to respond to the air quality problem publicly.",
       "label": "Result",
-      "prob": 0.605087399482727
+      "prob": 0.48197221755981445
     },
     {
-      "sentence": "In this paper, we also used Decision Tree to explore hidden interrelationships in the data.",
-      "label": "Method",
-      "prob": 0.44116130471229553
-    },
-    {
-      "sentence": "and air quality measurements.",
+      "sentence": "To build y that represents smell events, we aggregated highrating smell reports over the future 8 hours at the beginning of each hour.",
       "label": "Background",
-      "prob": 0.3210986256599426
+      "prob": 0.3920303285121918
     },
     {
-      "sentence": "After fitting the model, for each sample pair, we counted the number of times that the pair appeared in the same leaf for all trees in the model.",
-      "label": "Method",
-      "prob": 0.5022473335266113
-    },
-    {
-      "sentence": "We also apply machine learning to identify relationships between smell reports",
-      "label": "Method",
-      "prob": 0.3351101875305176
-    },
-    {
-      "sentence": "Then, for each smell report, we calculated the number of alphanumeric characters in the submitted text fields.",
-      "label": "Method",
-      "prob": 0.4157763123512268
-    },
-    {
-      "sentence": "Then, if a predicted event overlapped with a ground truth event, we counted this event as a TP.",
+      "sentence": "In this study, we show that human-reported smell data, despite noisy, can still enable prediction and contribute scientific knowledge of interpretable air pollution patterns.",
       "label": "Result",
-      "prob": 0.365254282951355
+      "prob": 0.40310969948768616
     },
     {
-      "sentence": "We first divided all samples into folds, with each fold approximately representing a week.",
-      "label": "Method",
-      "prob": 0.3466184735298157
+      "sentence": "After using this app for over a year, and making many dozens of reports, I havent once heard from the [health department] .",
+      "label": "Other",
+      "prob": 0.44496190547943115
     },
     {
       "sentence": "I used to try to use the phone to call in complaints, but that was highly unsatisfactory. I never knew if my complaints were even registered. With Smell Pittsburgh, I feel that Im contributing to taking data , as well as to complaining when its awful . [...] Its seems to be the most effective way to report wood burning that can fill my neighborhood with the smoke and emissions from wood burning. TheSmellapp quantifiesobservationsinrealtime. Researchers can use this qualitative information along quantitative data in real time. Added benefit is to have [the health department] receive this information in real time without having to make a phone call or send separate email . I have confidence that the recording of Smell app data is quantified more accurately than [the health department]s. It is an evidence based way for a citizen to register what is going on with the air where I live and work. build a case .",
-      "label": "Result",
-      "prob": 0.3752205967903137
-    },
-    {
-      "sentence": "(iii) a survey of attitude changes and motivation factors.",
       "label": "Background",
-      "prob": 0.30785536766052246
+      "prob": 0.3877125382423401
     },
     {
-      "sentence": "dont see the point in continuing to report .",
-      "label": "Other",
-      "prob": 0.5613296031951904
+      "sentence": "The system enables citizens to submit and visualize odor experiences without the assistance from professionals.",
+      "label": "Background",
+      "prob": 0.38510066270828247
     },
     {
-      "sentence": "To keep the prediction system updated, we computed a new machine learning model every Sunday night based on the data collected previously.",
+      "sentence": "These reports allowed community members to ground their personal experiences with concrete and convincing data.",
+      "label": "Result",
+      "prob": 0.3890833258628845
+    },
+    {
+      "sentence": "The sensor data were recorded hourly by twelve government-operated monitoring stations at different locations in Pittsburgh, which included timestamps, particulate matters, sulfur dioxide, carbon monoxide, nitrogen oxides, ozone, hydrogen sulfide, and wind information (direction, speed, and standard deviation of direction).",
       "label": "Method",
-      "prob": 0.43458256125450134
+      "prob": 0.41973915696144104
     },
     {
-      "sentence": "potential pollution sources in our region.",
-      "label": "Other",
-      "prob": 0.3417065441608429
+      "sentence": "For privacy preservation, we dropped the GPS location (latitude and longitude) of the smell reports and used zip-codes instead.",
+      "label": "Background",
+      "prob": 0.3798580765724182
     },
     {
-      "sentence": "This manual feature selection procedure produced 781 features.",
-      "label": "Result",
-      "prob": 0.35626429319381714
-    },
-    {
-      "sentence": "The lagged duration was chosen during model selection.",
-      "label": "Method",
-      "prob": 0.33349335193634033
-    },
-    {
-      "sentence": "The distribution of classes was highly imbalanced (only 8% positive).",
-      "label": "Result",
-      "prob": 0.6101289987564087
-    },
-    {
-      "sentence": "First, for each user, we computed the number of submitted reports and interaction events.",
-      "label": "Method",
-      "prob": 0.4621332287788391
-    },
-    {
-      "sentence": "Wind directions were further decomposed into cosine and sine components.",
-      "label": "Method",
-      "prob": 0.4805909991264343
-    },
-    {
-      "sentence": "For each predictor in the original dataset, we sampled the predictor values for n times uniformly at random (with replacement) and put the values in the synthetic dataset for the corresponding predictor, where n is the size of the original dataset.",
-      "label": "Method",
-      "prob": 0.4827446937561035
-    },
-    {
-      "sentence": "We chose model parameters by using time-series cross-validation [5, 77], where the entire dataset was partitioned and rolled into several pairs of training and testing subsets for evaluation.",
-      "label": "Method",
-      "prob": 0.4774809181690216
-    },
-    {
-      "sentence": "Our analysis is presented below along with each related question and",
-      "label": "Result",
-      "prob": 0.30236226320266724
-    },
-    {
-      "sentence": "In the System Usage Information section, we collected individual experiences with Smell Pittsburgh.",
-      "label": "Result",
-      "prob": 0.32707253098487854
-    },
-    {
-      "sentence": "Among all reports, 76% of them had ratings greater than two.",
-      "label": "Result",
-      "prob": 0.6072739362716675
-    },
-    {
-      "sentence": "We now discuss three studies:",
-      "label": "Result",
-      "prob": 0.30795615911483765
-    },
-    {
-      "sentence": "For Self-Efficacy, we averaged the scale items to produce total self-efficacy pre score (Mdn=3.50) and post score (Mdn=4.13) for each participant (Figure 7, left).",
-      "label": "Result",
-      "prob": 0.3986370265483856
-    },
-    {
-      "sentence": "We also constructed a smell event dataset to study the value of these citizen-contributed data.",
-      "label": "Method",
-      "prob": 0.34790751338005066
-    },
-    {
-      "sentence": "A two-tailed Wilcoxon SignedRanks test (a nonparametric version of a paired t-test) indicated a statistically significant difference (W=13.5, Z=-3.79, p<.001).",
-      "label": "Result",
-      "prob": 0.5138434171676636
-    },
-    {
-      "sentence": "We first merged consecutive positive samples to compute the starting and ending time of smell events.",
-      "label": "Method",
-      "prob": 0.5999093651771545
-    },
-    {
-      "sentence": "The items were divided between pre-assessment, BEFORE you knew about or used Smell Pittsburgh, and post-assessment, AFTER you knew about or used Smell Pittsburgh.",
-      "label": "Result",
-      "prob": 0.40942540764808655
-    },
-    {
-      "sentence": "Then, starting from fold 49, we took the previous 48 folds as training data (about 8,000 samples) and the current fold as testing data (about 168 samples).",
-      "label": "Method",
-      "prob": 0.4703364670276642
-    },
-    {
-      "sentence": "Interpretationtechniquesaimtoextractknowledge from the collected data.",
-      "label": "Other",
-      "prob": 0.6224406361579895
-    },
-    {
-      "sentence": "The scale was customized for air quality to suit our purpose.",
-      "label": "Result",
-      "prob": 0.36526790261268616
-    },
-    {
-      "sentence": "(ii) to make sure the data is useful in studying the impact of urban air pollution and advocating for better air quality.",
-      "label": "Objective",
-      "prob": 0.6888990998268127
-    },
-    {
-      "sentence": "To evaluate model performance, we defined and computed true positives (TP), false positives (FP), and false negatives (FN) to obtain precision, recall, and F-score [104] (Figure 5).",
-      "label": "Method",
-      "prob": 0.38252565264701843
-    },
-    {
-      "sentence": "This procedure was iterated for the rest of the folds, which reflected the setting of the deployed system where a new model was trained on every Sunday night by using data from the previous 48 weeks.",
-      "label": "Method",
-      "prob": 0.542914867401123
-    },
-    {
-      "sentence": "The distance matrix for clustering was derived from a Random Forest fitted on the manually selected features.",
-      "label": "Method",
-      "prob": 0.41175636649131775
-    },
-    {
-      "sentence": "Finally, we used recursive feature elimination [56] to remove 50 features that had the smallest weights iteratively, which resulted in 30 most important features.",
-      "label": "Method",
-      "prob": 0.6160943508148193
-    },
-    {
-      "sentence": "provides that mechanism.",
-      "label": "Other",
-      "prob": 0.5211251378059387
-    },
-    {
-      "sentence": "Table 2 indicates the characteristics of these groups.",
-      "label": "Result",
-      "prob": 0.5155861377716064
-    },
-    {
-      "sentence": "Open-ended answers showed that nine participants (36%) mentioned that the system enabled them to contribute data-driven evidence efficiently and intuitively.",
-      "label": "Result",
-      "prob": 0.6621658205986023
-    },
-    {
-      "sentence": "This procedure identified a cluster with about 25% of positive samples from 50% of the smell events.",
-      "label": "Result",
-      "prob": 0.6064519286155701
-    },
-    {
-      "sentence": "All but one participant had a Bachelors degree at minimum.",
-      "label": "Other",
-      "prob": 0.57204270362854
-    },
-    {
-      "sentence": "We propose a system, Smell Pittsburgh [2], for citizens to report pollution odors to the local health department with accurate time and GPS location data via smartphones.",
-      "label": "Objective",
-      "prob": 0.6309999823570251
-    },
-    {
-      "sentence": "At the end of the survey, we asked an open-response question Do you have any other comments, questions, or concerns?",
-      "label": "Other",
-      "prob": 0.6030248999595642
-    },
-    {
-      "sentence": "In our evaluation, we studied the distribution of smell reports and interaction events among different types of users.",
-      "label": "Result",
-      "prob": 0.6065230369567871
-    },
-    {
-      "sentence": "reports from October 31 in 2016 to September 27 in 2018 [1].",
-      "label": "Other",
-      "prob": 0.6839709281921387
-    },
-    {
-      "sentence": "[...] Collecting this data is clever, but towards what end?",
-      "label": "Other",
-      "prob": 0.6570022702217102
-    },
-    {
-      "sentence": "We also added a new reference [117] and a new table (Table 8).",
-      "label": "Other",
-      "prob": 0.6125727295875549
-    },
-    {
-      "sentence": "This result suggested that internal factors were primary motivations for our participants rather than external factors.",
-      "label": "Result",
-      "prob": 0.7006381154060364
-    },
-    {
-      "sentence": "Carnegie Mellon University",
-      "label": "Other",
-      "prob": 0.7009709477424622
-    },
-    {
-      "sentence": "To identify critical topics in citizen-contributed smell reports, we analyzed the frequency of words (unigram) and phrases (bigram) in the text fields.",
-      "label": "Method",
-      "prob": 0.43908074498176575
-    },
-    {
-      "sentence": "This paper explores the design and impact of a mobile smell reporting system, Smell Pittsburgh, to empower communities in advocating for better air quality.",
-      "label": "Objective",
-      "prob": 0.7460030317306519
-    },
-    {
-      "sentence": "Then, we used DBSCAN [48] to cluster positive samples and to choose a representative subset.",
-      "label": "Method",
-      "prob": 0.5622066855430603
-    },
-    {
-      "sentence": "Figure 2 shows that high-frequency words and phrases mostly described industrial pollution odors and symptoms of air pollution exposure, especially hydrogen sulfide that has rotten egg smell and can cause a headache, dizziness, eye irritation, sore throat, cough, nausea, and shortness of breath [33, 54, 82, 109].",
-      "label": "Other",
-      "prob": 0.494367390871048
-    },
-    {
-      "sentence": "the model predicted if a smell event would occur in the next 8 hours, we only evaluated the prediction generated from 5 am to 11 am.",
-      "label": "Result",
-      "prob": 0.5335636734962463
-    },
-    {
-      "sentence": "Table 3 reports the evaluation metrics after cross-validating the models 100 times with various random seeds.",
-      "label": "Result",
-      "prob": 0.5748340487480164
-    },
-    {
-      "sentence": "Carnegie Mellon University pdille@andrew.cmu.edu",
-      "label": "Other",
-      "prob": 0.7532769441604614
-    },
-    {
-      "sentence": "ACM ISBN 978-1-4503-6272-6/19/03..",
-      "label": "Other",
-      "prob": 0.7561693787574768
-    },
-    {
-      "sentence": "[Correction for the last paragraph in section 5.2] Finally, we used recursive feature elimination [56] to remove 50 features that had the smallest weights iteratively, which resulted in 30 most important features.",
-      "label": "Method",
-      "prob": 0.6393831372261047
-    },
-    {
-      "sentence": "We converted the similarity s into distance d by using d = 1  s .",
-      "label": "Result",
-      "prob": 0.3353326618671417
-    },
-    {
-      "sentence": "We converted the similarity s into distance d by using d = 1  s .",
-      "label": "Result",
-      "prob": 0.33533287048339844
-    },
-    {
-      "sentence": "Michael Tasota Carnegie Mellon University tasota@andrew.cmu.edu",
-      "label": "Other",
-      "prob": 0.751020610332489
-    },
-    {
-      "sentence": "about half of the data overall.",
-      "label": "Result",
-      "prob": 0.5905367136001587
-    },
-    {
-      "sentence": "[Correction for the second to the last paragraph in section 5.2] Then, we used DBSCAN [48] to cluster positive samples and to choose a representative subset.",
-      "label": "Method",
-      "prob": 0.6760329008102417
-    },
-    {
-      "sentence": "The findings in the survey study suggested that the system lowered the barrier for communities to contribute and communicate data-driven evidence.",
-      "label": "Result",
-      "prob": 0.7180154919624329
-    },
-    {
-      "sentence": "Abstracting with credit is permitted.",
-      "label": "Other",
-      "prob": 0.7607739567756653
+      "sentence": "The timeline on the bottom of the map represented the concentration of smell reports per day with grayscale squares.",
+      "label": "Background",
+      "prob": 0.3793703317642212
     },
     {
       "sentence": "We seek to generate scientific knowledge from community data to support citizen-driven exploration, understanding, and dissemination of local air quality concerns.",
       "label": "Objective",
-      "prob": 0.7915108799934387
+      "prob": 0.40315914154052734
     },
     {
-      "sentence": "Paper surveys were also provided.",
+      "sentence": "Encyclopedia of Life is a platform for curating species information contributed by professionals and non-expert volunteers [112].",
+      "label": "Other",
+      "prob": 0.5673860311508179
+    },
+    {
+      "sentence": "The scale was customized for air quality and measured both internal (7 items) and external motivations (7 items).",
       "label": "Result",
-      "prob": 0.5498163104057312
+      "prob": 0.37318092584609985
     },
     {
-      "sentence": "Paul Dille",
-      "label": "Other",
-      "prob": 0.7275510430335999
+      "sentence": "The findings in the survey study suggested that the system lowered the barrier for communities to contribute and communicate data-driven evidence.",
+      "label": "Result",
+      "prob": 0.518165647983551
     },
     {
-      "sentence": "Carnegie Mellon University jcross1@andrew.cmu.edu Beatrice Dias Carnegie Mellon University mdias@andrew.cmu.edu",
-      "label": "Other",
-      "prob": 0.7772856950759888
+      "sentence": "In this way, we simplify the task to a binary classification problem, with 64 predictor variables (columns of X ) and 16,766 samples (rows of X and y ).",
+      "label": "Background",
+      "prob": 0.3684667944908142
     },
     {
-      "sentence": "Randy Sargent Carnegie Mellon University rsargent@andrew.cmu.edu",
-      "label": "Other",
-      "prob": 0.7848156690597534
+      "sentence": "We framed the smell event prediction as a supervised learning task to approximate the function F that maps a predictor matrix X to a response vector y .",
+      "label": "Background",
+      "prob": 0.3646017611026764
     },
     {
-      "sentence": "To copy otherwise, or republish,topostonserversortoredistributetolists,requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org.",
-      "label": "Other",
-      "prob": 0.774137556552887
+      "sentence": "Then, for each smell report, we calculated the number of alphanumeric characters in the submitted text fields.",
+      "label": "Background",
+      "prob": 0.3639913499355316
     },
     {
-      "sentence": "2019 Copyright held by the owner/author(s).",
-      "label": "Other",
-      "prob": 0.7903644442558289
-    },
-    {
-      "sentence": "Using a survey, we studied motivation factors for submitting smell reports and measured user attitude changes after using the system.",
+      "sentence": "By adopting machine learning, we developed a model to predict smell events and send push notifications accordingly.",
       "label": "Method",
-      "prob": 0.4177658259868622
+      "prob": 0.41556864976882935
     },
     {
-      "sentence": "We received 29 responses in total over one month from March 20th to April 20th, 2018.",
+      "sentence": "We propose a system, Smell Pittsburgh [2], for citizens to report pollution odors to the local health department with accurate time and GPS location data via smartphones.",
+      "label": "Background",
+      "prob": 0.35856252908706665
+    },
+    {
+      "sentence": "Our users contributed 17,280 smell reports, 582,108 alphanumeric characters in the submitted text fields, and 163,609 events of interacting with the visualization (e.g., clicking on icons on the map).",
+      "label": "Background",
+      "prob": 0.3573276698589325
+    },
+    {
+      "sentence": "We were interested in four variables with different distributions among user groups, which represented their characteristics (Table 2).",
+      "label": "Result",
+      "prob": 0.4656897783279419
+    },
+    {
+      "sentence": "These previous studies utilized domain knowledge to fit machine learning models with high explanatory powers on filtered citizen science",
+      "label": "Result",
+      "prob": 0.46465983986854553
+    },
+    {
+      "sentence": "Enthusiasts submitted more than 6 reports and interacted with the",
       "label": "Other",
-      "prob": 0.659467339515686
+      "prob": 0.41890719532966614
     },
     {
-      "sentence": "These feature importance weights were computed by fitting a Random Forest.",
-      "label": "Result",
-      "prob": 0.41064223647117615
+      "sentence": "When performing classification and regression, we added 3-hour lagged predictor variables, days of the week, hours of the day, and days of the month into the original predictor variable, which expanded its length from 64 to 195.",
+      "label": "Background",
+      "prob": 0.3513243496417999
     },
     {
-      "sentence": "These feature importance weights were computed by fitting a Random Forest.",
-      "label": "Result",
-      "prob": 0.41064223647117615
-    },
-    {
-      "sentence": "Further investigation of the enthusiast group revealed a moderate positive association (Pearson correlation coefficient r=.50, n=375, p<.001) between the number of submitted reports and the number of user interaction events.",
-      "label": "Result",
-      "prob": 0.7551681995391846
-    },
-    {
-      "sentence": "We trained a Decision Tree using the CART algorithm [81] to interpret the cluster and the selected 30 features.",
+      "sentence": "We used python NLTK package [10] to remove stop words and group similar words with different forms (lemmatization).",
       "label": "Method",
-      "prob": 0.542544960975647
+      "prob": 0.4253675937652588
     },
     {
-      "sentence": "We trained a Decision Tree using the CART algorithm [81] to interpret the cluster and the selected 30 features.",
+      "sentence": "This extracted knowledge can reveal local concerns and serve as convincing evidence for communities in taking action.",
+      "label": "Result",
+      "prob": 0.4757150113582611
+    },
+    {
+      "sentence": "Recent research has shown that deep neural networks can predict events effectively when equipped with a significant amount of training data [80].",
+      "label": "Other",
+      "prob": 0.5857191681861877
+    },
+    {
+      "sentence": "sufficient amount of data during aggregation (Figure 3).",
+      "label": "Result",
+      "prob": 0.35968974232673645
+    },
+    {
+      "sentence": "The scores were further divided into positive and negative classes (with or without smell events) by using threshold 40.",
+      "label": "Background",
+      "prob": 0.34302258491516113
+    },
+    {
+      "sentence": "To quantify participation levels, we counted the number of selected choices for each participant, as shown in Figure 7 (right).",
+      "label": "Background",
+      "prob": 0.3419530689716339
+    },
+    {
+      "sentence": "The numbers were treated as the similarity of sample pairs, and we scaled the similarity by dividing it with the number of trees in the model.",
+      "label": "Result",
+      "prob": 0.34838882088661194
+    },
+    {
+      "sentence": "Figure 6 should be replaced by Figure 8, and Table 3 should be replaced by Table 7.",
+      "label": "Background",
+      "prob": 0.33535605669021606
+    },
+    {
+      "sentence": "Therefore, we developed a mobile system to records GPS locations and timestamps automatically.",
       "label": "Method",
-      "prob": 0.542544960975647
+      "prob": 0.3769834637641907
     },
     {
-      "sentence": "There is no real",
-      "label": "Other",
-      "prob": 0.7627077698707581
-    },
-    {
-      "sentence": "First, we used domain knowledge to manually select features.",
-      "label": "Method",
-      "prob": 0.6938896179199219
-    },
-    {
-      "sentence": "Besides classification, we also applied a regression approach to predict the confidence scores directly without thresholding initially.",
-      "label": "Method",
-      "prob": 0.7230637073516846
-    },
-    {
-      "sentence": "This procedure identified a cluster with about 25% of positive samples.",
+      "sentence": "The participated 3,917 users out of the 300,000 residents (1.3%) is not sufficient to cover the entire Pittsburgh area.",
       "label": "Result",
-      "prob": 0.689274787902832
+      "prob": 0.43594780564308167
     },
     {
-      "sentence": "visualization more than 31 times.",
-      "label": "Other",
-      "prob": 0.6938402652740479
-    },
-    {
-      "sentence": "Jennifer Cross",
-      "label": "Other",
-      "prob": 0.7273606061935425
-    },
-    {
-      "sentence": "The user group study showed highly skewed user contributions.",
+      "sentence": "There were 8 males, 16 females, and 1 person with undisclosed gender information.",
       "label": "Result",
-      "prob": 0.8077145218849182
+      "prob": 0.45301905274391174
     },
     {
-      "sentence": "I sometimes",
-      "label": "Other",
-      "prob": 0.7910154461860657
-    },
-    {
-      "sentence": "Table 3 reports the evaluation metrics after crossvalidating the model for 100 times with random seeds.",
+      "sentence": "Users could view data for a date by selecting the corresponding square.",
       "label": "Result",
-      "prob": 0.6944854855537415
+      "prob": 0.3956870138645172
     },
     {
-      "sentence": "We recruited adult participants via snowball sampling [9].",
+      "sentence": "Several participants were even willing to use their resources to encourage others to install the system and engage in odor reporting. Moreover, in July 2018, activists attended the Board of Health meeting with the ACHD (Allegheny County Health Department)",
       "label": "Other",
-      "prob": 0.7491667866706848
+      "prob": 0.3964686095714569
     },
     {
-      "sentence": "Our goals are",
-      "label": "Other",
-      "prob": 0.6128806471824646
+      "sentence": "In this study, we show the usage patterns on mobile devices by parsing server logs and Google Analytics events.",
+      "label": "Background",
+      "prob": 0.3321363031864166
     },
     {
-      "sentence": "This finding indicated that there were increases in self-efficacy during participation.ForMotivation",
-      "label": "Other",
-      "prob": 0.4327579736709595
-    },
-    {
-      "sentence": "The result showed that the model explains the underlying pattern of about 30% of the smell events, which was a joint effect of wind information and hydrogen sulfide readings.",
-      "label": "Result",
-      "prob": 0.8159971833229065
+      "sentence": "We now describe two system features: (1) a mobile interface for submitting and visualizing odor complaints and (2) push notifications for predicting the potential presence of odor events.",
+      "label": "Background",
+      "prob": 0.330556720495224
     },
     {
       "sentence": "Second, to predict the occurrence of abnormal odors in the future, we applied machine learning to model the relationships between aggregated smell reports and air quality measurements from the past.",
       "label": "Method",
-      "prob": 0.6710283160209656
+      "prob": 0.3784422278404236
     },
     {
-      "sentence": "We found that our participation levels were normally distributed.",
+      "sentence": "Air pollution has been associated with adverse impacts on human health, including respiratory and cardiovascular diseases [43, 72, 101, 105, 127].",
+      "label": "Other",
+      "prob": 0.5957476496696472
+    },
+    {
+      "sentence": "We also extracted connections between predictors and responses that reveal a dominant local air pollution pattern, which is a joint effect of hydrogen sulfide and wind information.",
       "label": "Result",
-      "prob": 0.8191131353378296
+      "prob": 0.3941333591938019
     },
     {
-      "sentence": "more cities.",
-      "label": "Other",
-      "prob": 0.824120819568634
-    },
-    {
-      "sentence": "https://doi.org/10.1145/3301275.3302293",
-      "label": "Other",
-      "prob": 0.8586111664772034
-    },
-    {
-      "sentence": "cross-validation.",
-      "label": "Other",
-      "prob": 0.704664945602417
-    },
-    {
-      "sentence": "Illah Nourbakhsh",
-      "label": "Other",
-      "prob": 0.8419287204742432
-    },
-    {
-      "sentence": "The Heinz Endowments, the CREATE Lab (Jessica Pachuta, Ana Tsuhlares), Allegheny County Clean Air Now (ACCAN), PennEnvironment, Group Against Smog and Pollution (GASP), Sierra Club, Reducing Outdoor Contamination in Indoor Spaces (ROCIS), Blue Lens, PennFuture, Clean Water Action, Clean Air Council, the Global Communication Center of Carnegie Mellon University (Ryan Roderick), the Allegheny County Health Department, and all other participants.",
-      "label": "Other",
-      "prob": 0.579886794090271
-    },
-    {
-      "sentence": "Publication rights licensed to ACM.",
-      "label": "Other",
-      "prob": 0.8686001300811768
-    },
-    {
-      "sentence": "Prediction techniques aim to forecast the future accurately based on previous observations.",
-      "label": "Objective",
-      "prob": 0.737946629524231
-    },
-    {
-      "sentence": "Our goal is to evaluate the impact of deploying interactive systems on communities rather than the usability (e.g., the time of completing tasks).",
-      "label": "Objective",
-      "prob": 0.9057512283325195
-    },
-    {
-      "sentence": "It wasnt clear when using the app that my submission was counted [...]. I want to be able to see directly that my smell reports are going somewhere and being used for something. [...]",
-      "label": "Other",
-      "prob": 0.8427773714065552
-    },
-    {
-      "sentence": "I used to (and sometimes still do) call reports in to [the health department]. I love how the map displays after I post a smell report. Wow! Im not alone!  It validates my pollution experiences because others are reporting similar experiences. I like using it for a similar reason that I like checking the weather. It helps me understand my environment and confirms my sense of what Im seeing .",
+      "sentence": "We have shown that the smell data gathered through the system is practical in identifying local air pollution patterns.",
       "label": "Result",
-      "prob": 0.5959229469299316
+      "prob": 0.4535922408103943
     },
     {
-      "sentence": "The result showed that the model was capable of explaining the underlying pattern of about 50% of the smell events, which was a joint effect of wind information and hydrogen sulfide readings (Figure 6).",
+      "sentence": "We apologize for the errors in this paper, and this section describes the corrections.",
       "label": "Result",
-      "prob": 0.8621377348899841
+      "prob": 0.37366342544555664
     },
     {
-      "sentence": "2.1.1 Human-Reported Data.",
-      "label": "Other",
-      "prob": 0.8355813026428223
-    },
-    {
-      "sentence": "ACM Reference Format:",
-      "label": "Other",
-      "prob": 0.8979548215866089
-    },
-    {
-      "sentence": "The result showed that our users had a wide variety of system usage frequency.",
+      "sentence": "For example, at 3 pm, we took the mean value of sensor readings between 2 pm and 3 pm to construct a new sample.",
       "label": "Result",
-      "prob": 0.9069530963897705
+      "prob": 0.34795764088630676
     },
     {
-      "sentence": "The goal was to construct another synthetic dataset and use both datasets to predict if a data sample came from the original one.",
-      "label": "Objective",
-      "prob": 0.9009099006652832
+      "sentence": "In this research, we demonstrate how citizen science can be used for communities to pool resources and efforts to gather evidence for advocacy.",
+      "label": "Background",
+      "prob": 0.32461124658584595
     },
     {
-      "sentence": "When there were a sufficient number of poor odor reports during the previous hour, the system sent a post hoc event notification:  Many residents are reporting poor odors in Pittsburgh. Were you affected by this smell event? Be sure to submit a smell report!  The intention of sending this notification was to encourage users to check and report if they had similar odor experiences.",
-      "label": "Objective",
-      "prob": 0.7182831764221191
-    },
-    {
-      "sentence": "Inspired by several previous works related to extracting knowledge from data [25, 51, 115], we utilized a white box model, Decision Tree, to explain a representative subset of predictors and samples, which were selected by applying feature selection [55] and cluster analysis.",
+      "sentence": "For simplicity, we fixed the number of trees (1,000 for classification and 200 for regression) and chose other parameters during model selection.",
       "label": "Method",
-      "prob": 0.8044089078903198
+      "prob": 0.35047245025634766
+    },
+    {
+      "sentence": "Explorers submitted 1 to 6 reports or interacted with the visualization 1 to 31 times.",
+      "label": "Result",
+      "prob": 0.4219001233577728
+    },
+    {
+      "sentence": "Finally, for interaction events that involved viewing previous data, we computed the time difference between hit timestamps and data timestamps.",
+      "label": "Method",
+      "prob": 0.39035606384277344
+    },
+    {
+      "sentence": "We received 29 responses in total over one month from March 20th to April 20th, 2018.",
+      "label": "Other",
+      "prob": 0.4403001070022583
+    },
+    {
+      "sentence": "To identify critical topics in citizen-contributed smell reports, we analyzed the frequency of words (unigram) and phrases (bigram) in the text fields.",
+      "label": "Background",
+      "prob": 0.31609734892845154
+    },
+    {
+      "sentence": "We specifically chose the geographic regions that have",
+      "label": "Background",
+      "prob": 0.3140949606895447
+    },
+    {
+      "sentence": "For example, prior works have applied a smell-walking approach to record and map the landscape of smell experiences by recruiting participants to travel in cities [59, 106, 107].",
+      "label": "Other",
+      "prob": 0.5070136785507202
+    },
+    {
+      "sentence": "The visualization presents the context of air quality concerns from multiple perspectives as evidence.",
+      "label": "Result",
+      "prob": 0.4163239598274231
+    },
+    {
+      "sentence": "We first constructed and introduced a dataset with air quality sensor readings and smell",
+      "label": "Method",
+      "prob": 0.34543725848197937
+    },
+    {
+      "sentence": "The lagged duration was chosen during model selection.",
+      "label": "Result",
+      "prob": 0.37218692898750305
+    },
+    {
+      "sentence": "This finding inspired us to chose hydrogen sulfide, wind direction, wind speed, and standard deviation",
+      "label": "Result",
+      "prob": 0.4303951859474182
+    },
+    {
+      "sentence": "The followings provide the corrections for the last two paragraphs in section 5.2 (Smell Dataset Study).",
+      "label": "Result",
+      "prob": 0.3391704559326172
+    },
+    {
+      "sentence": "From our initial testing with the community on September 2016 to the end of September 2018, we had about 5,790 and 1,070 installations (rounded to the nearest 10) of Smell Pittsburgh on iOS and Android devices respectively in the United States.",
+      "label": "Result",
+      "prob": 0.5004336833953857
+    },
+    {
+      "sentence": "Sensr is a tool for creating environmental data collection and management applications on mobile devices without programming skills [73, 74].",
+      "label": "Other",
+      "prob": 0.5158034563064575
+    },
+    {
+      "sentence": "In this paper, we also used Decision Tree to explore hidden interrelationships in the data.",
+      "label": "Method",
+      "prob": 0.3698369562625885
+    },
+    {
+      "sentence": "Then, we used DBSCAN [48] to cluster positive samples and to choose a representative subset.",
+      "label": "Method",
+      "prob": 0.42859435081481934
+    },
+    {
+      "sentence": "To add more weight to citizen-contributed pollution odor report, we engineered the application to send smell reports directly to the Allegheny County Health Department (ACHD).",
+      "label": "Result",
+      "prob": 0.29970476031303406
+    },
+    {
+      "sentence": "All but one participant had a Bachelors degree at minimum.",
+      "label": "Other",
+      "prob": 0.43969595432281494
+    },
+    {
+      "sentence": "From our soft launch in November 2016 to the end of September 2018 over 23 months, there were 3,917 unique anonymous users (estimated by Google Analytics) in Pittsburgh.",
+      "label": "Result",
+      "prob": 0.5112656354904175
+    },
+    {
+      "sentence": "The deputy director of environmental health mentioned that ACHD would enact rigorous rules for coke plants: Every aspect of the activity and operation of these coke plants will have a more stringent standard applied [27, 62].",
+      "label": "Other",
+      "prob": 0.6038201451301575
+    },
+    {
+      "sentence": "The current and up to 2-hour lagged predictor variables were all included.",
+      "label": "Result",
+      "prob": 0.45621076226234436
+    },
+    {
+      "sentence": "This pattern could serve as hypotheses for future epidemiological studies.",
+      "label": "Result",
+      "prob": 0.5356155633926392
+    },
+    {
+      "sentence": "Also, four participants (16%) indicated the benefit to validate personal experiences based on the data provided by others.",
+      "label": "Result",
+      "prob": 0.5686134099960327
+    },
+    {
+      "sentence": "A straightforward solution is to empower the affected communities directly.",
+      "label": "Method",
+      "prob": 0.28631591796875
+    },
+    {
+      "sentence": "This procedure identified a cluster with about 25% of positive samples from 50% of the smell events.",
+      "label": "Result",
+      "prob": 0.518561601638794
+    },
+    {
+      "sentence": "Thresholds 6 and 31 were the median of the number of submitted reports and interaction events for all users respectively, plus their semi-interquartile ranges.",
+      "label": "Other",
+      "prob": 0.49116051197052
+    },
+    {
+      "sentence": "This approach provided ACHD with a more comprehensive picture of the local pollution landscape.",
+      "label": "Result",
+      "prob": 0.3733428716659546
+    },
+    {
+      "sentence": "This paper explores the design and impact of a mobile smell reporting system, Smell Pittsburgh, to empower communities in advocating for better air quality.",
+      "label": "Objective",
+      "prob": 0.6400172710418701
+    },
+    {
+      "sentence": "Our research focuses on the community-oriented",
+      "label": "Result",
+      "prob": 0.32337450981140137
+    },
+    {
+      "sentence": "We excluded data generated during the system stability testing phase in September and October 2016.",
+      "label": "Result",
+      "prob": 0.5807434320449829
+    },
+    {
+      "sentence": "We have also shown that the transparency of smell data empowered communities to advocate for better air quality.",
+      "label": "Result",
+      "prob": 0.5654940605163574
+    },
+    {
+      "sentence": "Table 1 shows that enthusiasts, corresponding to less than 10% of the users, contributed",
+      "label": "Result",
+      "prob": 0.5149876475334167
+    },
+    {
+      "sentence": "Finally, we used recursive feature elimination [56] to remove 50 features that had the smallest weights iteratively, which resulted in 30 most important features.",
+      "label": "Result",
+      "prob": 0.35593995451927185
+    },
+    {
+      "sentence": "We also apply machine learning to identify relationships between smell reports",
+      "label": "Result",
+      "prob": 0.3109942674636841
+    },
+    {
+      "sentence": "Azid et al. used principal component analysis and an artificial neural network to identify pollution sources and predict air pollution [6].",
+      "label": "Other",
+      "prob": 0.6124635934829712
+    },
+    {
+      "sentence": "We first merged consecutive positive samples to compute the starting and ending time of smell events.",
+      "label": "Method",
+      "prob": 0.4310307204723358
+    },
+    {
+      "sentence": "Finally, we describe qualitative and quantitative studies for understanding changes in user engagement and motivation.",
+      "label": "Result",
+      "prob": 0.27770695090293884
+    },
+    {
+      "sentence": "We documented participation level through a multiple-choice and multiple-response question, How did you use Smell Pittsburgh? as shown in Figure 7 (right).",
+      "label": "Result",
+      "prob": 0.4959363043308258
+    },
+    {
+      "sentence": "Triangular icons indicated smell reports with colors that correspond to smell ratings.",
+      "label": "Result",
+      "prob": 0.5834072828292847
+    },
+    {
+      "sentence": "We trained a Decision Tree using the CART algorithm [81] to interpret the cluster and the selected 30 features.",
+      "label": "Method",
+      "prob": 0.35467731952667236
+    },
+    {
+      "sentence": "We trained a Decision Tree using the CART algorithm [81] to interpret the cluster and the selected 30 features.",
+      "label": "Method",
+      "prob": 0.35467731952667236
+    },
+    {
+      "sentence": "The distance matrix for clustering was derived from a Random Forest fitted on the manually selected features.",
+      "label": "Result",
+      "prob": 0.45433786511421204
+    },
+    {
+      "sentence": "For ground truth events that had no overlapping predicted events, we counted them as FN.",
+      "label": "Result",
+      "prob": 0.451373815536499
+    },
+    {
+      "sentence": "Ushahidi gathers crisis information via text messages or its website to provide timely transparent information to a broader audience [90].",
+      "label": "Other",
+      "prob": 0.6718372106552124
+    },
+    {
+      "sentence": "Using a survey, we studied motivation factors for submitting smell reports and measured user attitude changes after using the system.",
+      "label": "Method",
+      "prob": 0.34607192873954773
+    },
+    {
+      "sentence": "eBird is a crowdsourcing platform to engage birdwatchers, scientists, and policy-makers to collect and analyze bird data collaboratively [122, 123].",
+      "label": "Other",
+      "prob": 0.6655169129371643
+    },
+    {
+      "sentence": "The demographics of the sample population (Table 4) were not typical for",
+      "label": "Result",
+      "prob": 0.3895559310913086
+    },
+    {
+      "sentence": "Human-reported data includes observations contributed by users.",
+      "label": "Result",
+      "prob": 0.3738158941268921
     },
     {
       "sentence": "I get around mostly by bike , so it is difficult to report smells the same moment I smell them. I wish I could report smells in a different location than where I am so that I could report the smell once I reach my destination . It would be nice to be able to add a retroactive report . We often get the strong sulfur smells in Forest Hills in the middle of the night [...] but I strongly prefer to not have to log in to my phone at 3 am to log the report as it makes it harder to get back to sleep. This app should let me see/download all of my data : how many times I reported smells, what my symptoms and comments were and how many times the [health department] didnt respond [...]",
       "label": "Other",
-      "prob": 0.8222289085388184
+      "prob": 0.5550578236579895
     },
     {
-      "sentence": "the region.",
+      "sentence": "Observers interacted with the visualization but did not submit reports.",
+      "label": "Result",
+      "prob": 0.5594453811645508
+    },
+    {
+      "sentence": "Hsu et al. has also demonstrated that resident-reported smell reports, collected via Google Forms, can form evidence about air pollution when combined with data from cameras and air quality sensors [65, 66].",
       "label": "Other",
-      "prob": 0.8521707057952881
+      "prob": 0.5766083002090454
+    },
+    {
+      "sentence": "For each sample pair, we counted the number of times that the pair appeared in the same leaf for all trees in the model.",
+      "label": "Result",
+      "prob": 0.4678262770175934
+    },
+    {
+      "sentence": "Then, starting from fold 49, we took the previous 48 folds as training data (about 8,000 samples) and the current fold as testing data (about 168 samples).",
+      "label": "Result",
+      "prob": 0.42294439673423767
+    },
+    {
+      "sentence": "Each type of data provides a small fragment of evidence.",
+      "label": "Result",
+      "prob": 0.5784560441970825
+    },
+    {
+      "sentence": "We also found that altruism, the concern about the welfare of others, was another motivation.",
+      "label": "Result",
+      "prob": 0.6420693397521973
+    },
+    {
+      "sentence": "The items were divided between pre-assessment, BEFORE you knew about or used Smell Pittsburgh, and post-assessment, AFTER you knew about or used Smell Pittsburgh.",
+      "label": "Result",
+      "prob": 0.4569043219089508
+    },
+    {
+      "sentence": "Text fields were provided for both of the above two questions.",
+      "label": "Result",
+      "prob": 0.4552551507949829
+    },
+    {
+      "sentence": "Future work to address these two challenges involves adding more predictors ( e.g. , weather forecasts, air quality index) and using generalizable data interpretation techniques that can explain any predictive model to identify more patterns [110].",
+      "label": "Other",
+      "prob": 0.48748064041137695
+    },
+    {
+      "sentence": "All responses were kept confidential, and there was no compensation.",
+      "label": "Result",
+      "prob": 0.5470787286758423
+    },
+    {
+      "sentence": "We chose model parameters by using time-series cross-validation [5, 77], where the entire dataset was partitioned and rolled into several pairs of training and testing subsets for evaluation.",
+      "label": "Method",
+      "prob": 0.4063866138458252
+    },
+    {
+      "sentence": "Researchers applying this strategy study how scientists can encourage the public to participate in scientific research.",
+      "label": "Result",
+      "prob": 0.40928393602371216
+    },
+    {
+      "sentence": "We identified the frequency of system usage through a multiple-choice question, How often do you use Smell Pittsburgh? as shown in Table 5.",
+      "label": "Result",
+      "prob": 0.5511757731437683
+    },
+    {
+      "sentence": "It is impractical to annotate these incidents off-line such as in Galaxy Zoo [108].",
+      "label": "Other",
+      "prob": 0.7255047559738159
+    },
+    {
+      "sentence": "We also constructed a smell event dataset to study the value of these citizen-contributed data.",
+      "label": "Result",
+      "prob": 0.40991440415382385
+    },
+    {
+      "sentence": "Additionally, we present a dataset of smell reports and air quality measurements from nearby monitoring stations over 21 months [1].",
+      "label": "Result",
+      "prob": 0.45852261781692505
+    },
+    {
+      "sentence": "The system visualized smell reports on a map that also depicted fine particulate matter and wind data from government-operated air quality monitoring stations (Figure 1, right).",
+      "label": "Result",
+      "prob": 0.4879128634929657
+    },
+    {
+      "sentence": "First, for each user, we computed the number of submitted reports and interaction events.",
+      "label": "Method",
+      "prob": 0.3986465334892273
+    },
+    {
+      "sentence": "There were three tunable model parameters: the number of trees in the model, the number of features to select randomly for splitting a tree node, and the minimum number of samples required to split a tree node.",
+      "label": "Result",
+      "prob": 0.5192952156066895
+    },
+    {
+      "sentence": "One of the few examples focusing on information of a specific modality is NoiseTube , a mobile application that empowered citizens to report noise via their mobile phones and mapped urban noise pollution on a geographical heatmap [38, 83].",
+      "label": "Other",
+      "prob": 0.7010647654533386
+    },
+    {
+      "sentence": "To investigate the distribution of smell reports and interaction events among our users, we divided all users into four types: enthusiasts, explorers, contributors, and observers (Table 1).",
+      "label": "Method",
+      "prob": 0.37523552775382996
+    },
+    {
+      "sentence": "For Self-Efficacy Changes, we measured changes to user confidence mitigating air quality problems.",
+      "label": "Result",
+      "prob": 0.5052378177642822
+    },
+    {
+      "sentence": "During data interpretation, we only considered the classification approach due to better performance.",
+      "label": "Result",
+      "prob": 0.5312828421592712
+    },
+    {
+      "sentence": "Otherwise, we counted a non-overlapped predicted event as an FP.",
+      "label": "Result",
+      "prob": 0.5491384863853455
+    },
+    {
+      "sentence": "Also, due to system limitations in tracking user behaviors and the sparsity of air pollution events, we leave the analysis of whether push notifications encourage user engagement to future work.",
+      "label": "Result",
+      "prob": 0.5864944458007812
+    },
+    {
+      "sentence": "Tiramisu was a transit information system for collecting GPS location data and problem reports from bus commuters [130].",
+      "label": "Other",
+      "prob": 0.714371919631958
+    },
+    {
+      "sentence": "dont see the point in continuing to report .",
+      "label": "Result",
+      "prob": 0.39064934849739075
+    },
+    {
+      "sentence": "potential pollution sources in our region.",
+      "label": "Other",
+      "prob": 0.44254595041275024
+    },
+    {
+      "sentence": "We first divided all samples into folds, with each fold approximately representing a week.",
+      "label": "Result",
+      "prob": 0.43578553199768066
+    },
+    {
+      "sentence": "This question allowed participants to select from a list of 11 activities, which include submitting reports, interacting with the system, sharing experiences, and disseminating data (Table 6).",
+      "label": "Result",
+      "prob": 0.6052862405776978
+    },
+    {
+      "sentence": "When there were a sufficient number of poor odor reports during the previous hour, the system sent a post hoc event notification:  Many residents are reporting poor odors in Pittsburgh. Were you affected by this smell event? Be sure to submit a smell report!  The intention of sending this notification was to encourage users to check and report if they had similar odor experiences.",
+      "label": "Result",
+      "prob": 0.3281228244304657
+    },
+    {
+      "sentence": "Wind directions were further decomposed into cosine and sine components.",
+      "label": "Method",
+      "prob": 0.5833696126937866
+    },
+    {
+      "sentence": "Contributors submitted reports but did not interact with the visualization.",
+      "label": "Result",
+      "prob": 0.5741888880729675
+    },
+    {
+      "sentence": "Open-ended answers showed that nine participants (36%) mentioned that the system enabled them to contribute data-driven evidence efficiently and intuitively.",
+      "label": "Result",
+      "prob": 0.7297871112823486
+    },
+    {
+      "sentence": "Table 8 reported the evaluation metrics after running the data interpretation pipeline for 100 times, including the cluster analysis and recursive feature elimination.",
+      "label": "Result",
+      "prob": 0.5677881836891174
+    },
+    {
+      "sentence": "Six participants (24%) mentioned the desire to address climate changes, activate regulators, raise awareness of others, expand air quality knowledge, influence policy-making, and build a sense of community.",
+      "label": "Result",
+      "prob": 0.6912694573402405
+    },
+    {
+      "sentence": "In this study, we show that the system can motivate active community members to contribute data and increase their self-efficacy, beliefs about how well an individual can achieve desired effects through actions [7].",
+      "label": "Result",
+      "prob": 0.5007907152175903
+    },
+    {
+      "sentence": "According to the experiments of different models, we suggest using the classification approach by thresholding smell ratings instead of the regression approach.",
+      "label": "Method",
+      "prob": 0.3853912353515625
+    },
+    {
+      "sentence": "ground truth air pollution data in our case.",
+      "label": "Result",
+      "prob": 0.5377574563026428
+    },
+    {
+      "sentence": "Blue arrows showed wind directions measured from nearby monitoring stations.",
+      "label": "Result",
+      "prob": 0.5557247400283813
+    },
+    {
+      "sentence": "of wind direction from all of the other available predictors.",
+      "label": "Other",
+      "prob": 0.4016740620136261
+    },
+    {
+      "sentence": "Each goal yields a set of design challenges.",
+      "label": "Result",
+      "prob": 0.5227800011634827
+    },
+    {
+      "sentence": "This finding inspired us to examine how hydrogen sulfide affected urban odors in the next study.",
+      "label": "Result",
+      "prob": 0.6408199667930603
+    },
+    {
+      "sentence": "After fitting the model, for each sample pair, we counted the number of times that the pair appeared in the same leaf for all trees in the model.",
+      "label": "Result",
+      "prob": 0.44470587372779846
+    },
+    {
+      "sentence": "[Correction for the second to the last paragraph in section 5.2] Then, we used DBSCAN [48] to cluster positive samples and to choose a representative subset.",
+      "label": "Method",
+      "prob": 0.400338739156723
+    },
+    {
+      "sentence": "IUI 19, March 1720, 2019, Marina del Ray, CA, USA",
+      "label": "Other",
+      "prob": 0.7546566128730774
+    },
+    {
+      "sentence": "Figure 8 indicated the model and the most important two features, which were consistent for 99 times, out of the total 100 times experiment.",
+      "label": "Result",
+      "prob": 0.6718078851699829
+    },
+    {
+      "sentence": "The system is designed to influence citizen participation and reveals community concerns simultaneously, which is different from observational studies that use existing data, such as correlating air quality keywords from social media contents with environmental sensor measurements [49].",
+      "label": "Other",
+      "prob": 0.45817652344703674
+    },
+    {
+      "sentence": "Hsieh et al. utilized a graphical model to predict the air quality of a given location grid based on data from sparse monitoring stations [63].",
+      "label": "Other",
+      "prob": 0.5890406370162964
+    },
+    {
+      "sentence": "Although stakeholders typically view odor experiences as subjective and noisy, our work shows that smell data is beneficial in identifying urban air pollution patterns and empowering communities to pursue a sustainable environment.",
+      "label": "Result",
+      "prob": 0.6306784152984619
+    },
+    {
+      "sentence": "To assist community members in identifying evidence from large datasets efficiently, prior projects used machine learning algorithms to predict future events or interpret collected data [8, 11, 12, 58, 70, 71, 87].",
+      "label": "Other",
+      "prob": 0.6266703009605408
+    },
+    {
+      "sentence": "These errors do not affect the conclusions.",
+      "label": "Result",
+      "prob": 0.4832668602466583
+    },
+    {
+      "sentence": "For Self-Efficacy, we averaged the scale items to produce total self-efficacy pre score (Mdn=3.50) and post score (Mdn=4.13) for each participant (Figure 7, left).",
+      "label": "Result",
+      "prob": 0.5131330490112305
+    },
+    {
+      "sentence": "These ratings, their color, and the corresponding descriptions were designed by affected local community members to mimic the US EPA Air Quality Index [47].",
+      "label": "Other",
+      "prob": 0.6402602791786194
+    },
+    {
+      "sentence": "(iii) a survey of attitude changes and motivation factors.",
+      "label": "Result",
+      "prob": 0.5080270767211914
+    },
+    {
+      "sentence": "For System Usage Information, we reported the counts for system usage frequency questions (Table 5).",
+      "label": "Result",
+      "prob": 0.6060028076171875
+    },
+    {
+      "sentence": "MyPart is a low-cost and calibrated wearable sensor for measuring and visualizing airborne particles [126].",
+      "label": "Other",
+      "prob": 0.7781882882118225
+    },
+    {
+      "sentence": "For instance, the city involved in this study, Pittsburgh, is one of the ten most polluted cities in the United States [4].",
+      "label": "Other",
+      "prob": 0.7443302869796753
+    },
+    {
+      "sentence": "The distance matrix for clustering was derived from a Random Forest in an unsupervised manner, as described in [117].",
+      "label": "Other",
+      "prob": 0.6904473900794983
+    },
+    {
+      "sentence": "Moreover, these three user groups differed regarding the type and amount of data they contributed.",
+      "label": "Result",
+      "prob": 0.7726454138755798
+    },
+    {
+      "sentence": "Factors, we averaged the internal (Mdn=4.29) and external (Mdn=3.14) motivation scores for each participant (Figure 7, center).",
+      "label": "Result",
+      "prob": 0.5828575491905212
+    },
+    {
+      "sentence": "We converted the similarity s into distance d by using d = 1  s .",
+      "label": "Result",
+      "prob": 0.372001588344574
+    },
+    {
+      "sentence": "We converted the similarity s into distance d by using d = 1  s .",
+      "label": "Result",
+      "prob": 0.3720019459724426
+    },
+    {
+      "sentence": "The authors suggested using Decision Tree learning to hypothesize about potential joint effects of predictors for further investigation.",
+      "label": "Result",
+      "prob": 0.6982904672622681
+    },
+    {
+      "sentence": "Research-oriented citizen science aims to address large-scale research questions which are infeasible for scientists to tackle alone [14, 15, 28, 30, 39, 40, 86, 118].",
+      "label": "Other",
+      "prob": 0.6829867959022522
+    },
+    {
+      "sentence": "provides that mechanism.",
+      "label": "Other",
+      "prob": 0.40800797939300537
+    },
+    {
+      "sentence": "Because our predictors and responses were all time-dependent, we used previous samples to train the models and evaluated them on future data.",
+      "label": "Result",
+      "prob": 0.5265263319015503
+    },
+    {
+      "sentence": "To keep the prediction system updated, we computed a new machine learning model every Sunday night based on the data collected previously.",
+      "label": "Result",
+      "prob": 0.40600326657295227
+    },
+    {
+      "sentence": "We found errors in the system usage study and the analysis of the air pollution patterns when discussing this research with a colleague.",
+      "label": "Result",
+      "prob": 0.69513338804245
+    },
+    {
+      "sentence": "Prediction techniques aim to forecast the future accurately based on previous observations.",
+      "label": "Objective",
+      "prob": 0.5750799179077148
+    },
+    {
+      "sentence": "Kim et al. implemented an indoor air quality monitoring system to gather air quality data from commercial sensors [75].",
+      "label": "Other",
+      "prob": 0.4349820911884308
+    },
+    {
+      "sentence": "The survey had three sections: (1) Self-Efficacy Changes, (2) Motivation Factors, (3) System Usage Information.",
+      "label": "Result",
+      "prob": 0.5870826840400696
+    },
+    {
+      "sentence": "Kuznetsov et al. developed multiple air pollution monitoring systems which involved low-cost air quality sensors and a map-based visualization [78, 79].",
+      "label": "Other",
+      "prob": 0.7200424671173096
+    },
+    {
+      "sentence": "However, literature has shown that the human olfactory can distinguish more than one trillion odors [23] and outperform sensitive measuring equipment in odor detection tasks [116].",
+      "label": "Other",
+      "prob": 0.7428956031799316
+    },
+    {
+      "sentence": "All smell reports in our system had location data, while the location information was missing from 45% of the regulator-collected complaints.",
+      "label": "Result",
+      "prob": 0.7925958633422852
+    },
+    {
+      "sentence": "This research is rooted in citizen science, which empowers amateurs and professionals to form partnerships and produce scientific knowledge [16, 17, 46, 85, 114].",
+      "label": "Other",
+      "prob": 0.7225598096847534
+    },
+    {
+      "sentence": "When approaching a community or city-scale problem, architects and urban planners first explore problem attributes (as defined in [98]) and then design specific solutions based on prior empirical experiences.",
+      "label": "Method",
+      "prob": 0.5471762418746948
+    },
+    {
+      "sentence": "Moreover, we recognized that there are various methods of collecting, presenting, and using the data.",
+      "label": "Result",
+      "prob": 0.6422219276428223
+    },
+    {
+      "sentence": "Our analysis is presented below along with each related question and",
+      "label": "Result",
+      "prob": 0.5268034338951111
+    },
+    {
+      "sentence": "It is basically a very easy",
+      "label": "Other",
+      "prob": 0.7444496750831604
+    },
+    {
+      "sentence": "The evaluation shows that using smell experiences is practical for revealing urban air quality concerns and empowering communities to advocate for a sustainable environment.",
+      "label": "Result",
+      "prob": 0.7328609228134155
+    },
+    {
+      "sentence": "Further investigation of the enthusiast group revealed a moderate positive association (Pearson correlation coefficient r=.50, n=375, p<.001) between the number of submitted reports and the number of user interaction events.",
+      "label": "Result",
+      "prob": 0.7246254086494446
+    },
+    {
+      "sentence": "These feature importance weights were computed by fitting a Random Forest.",
+      "label": "Result",
+      "prob": 0.47045019268989563
+    },
+    {
+      "sentence": "These feature importance weights were computed by fitting a Random Forest.",
+      "label": "Result",
+      "prob": 0.47045019268989563
+    },
+    {
+      "sentence": "Our goal is to evaluate the impact of deploying interactive systems on communities rather than the usability (e.g., the time of completing tasks).",
+      "label": "Objective",
+      "prob": 0.7842764258384705
+    },
+    {
+      "sentence": "The scale consisted of eight Likert-type items (from 1 Strongly Disagree to 5 Strongly",
+      "label": "Other",
+      "prob": 0.6756895780563354
+    },
+    {
+      "sentence": "One can view this process as performing model compression to distill the knowledge in a large black box model into a compact model that is explainable to human [21, 60].",
+      "label": "Other",
+      "prob": 0.5870564579963684
+    },
+    {
+      "sentence": "We made use of an existing network of community advocacy groups, including ACCAN [3], GASP [50], Clean Air Council [24], PennFuture [100], and PennEnvironment [99].",
+      "label": "Other",
+      "prob": 0.6189879775047302
+    },
+    {
+      "sentence": "Then, if a predicted event overlapped with a ground truth event, we counted this event as a TP.",
+      "label": "Result",
+      "prob": 0.5368960499763489
+    },
+    {
+      "sentence": "In the System Usage Information section, we collected individual experiences with Smell Pittsburgh.",
+      "label": "Result",
+      "prob": 0.6066445708274841
+    },
+    {
+      "sentence": "To evaluate model performance, we defined and computed true positives (TP), false positives (FP), and false negatives (FN) to obtain precision, recall, and F-score [104] (Figure 5).",
+      "label": "Result",
+      "prob": 0.4575176537036896
+    },
+    {
+      "sentence": "For both assessments, we used a scale developed by the Cornell Lab of Ornithology [37, 103].",
+      "label": "Other",
+      "prob": 0.7353337407112122
+    },
+    {
+      "sentence": "Donnelly et al. combined kernel regression and multiple linear regression to forecast the concentrations of nitrogen dioxide over the next 24 and 48 hours [44].",
+      "label": "Other",
+      "prob": 0.7703143954277039
+    },
+    {
+      "sentence": "[Correction for the last paragraph in section 5.2] Finally, we used recursive feature elimination [56] to remove 50 features that had the smallest weights iteratively, which resulted in 30 most important features.",
+      "label": "Result",
+      "prob": 0.4895475506782532
+    },
+    {
+      "sentence": "The distribution of classes was highly imbalanced (only 8% positive).",
+      "label": "Result",
+      "prob": 0.6794375777244568
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.8195109367370605
+    },
+    {
+      "sentence": "reports from October 31 in 2016 to September 27 in 2018 [1].",
+      "label": "Other",
+      "prob": 0.8132385015487671
+    },
+    {
+      "sentence": "Missing values were replaced with the corresponding mean values.",
+      "label": "Result",
+      "prob": 0.5944613218307495
+    },
+    {
+      "sentence": "To copy otherwise, or republish,topostonserversortoredistributetolists,requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org.",
+      "label": "Other",
+      "prob": 0.8067464232444763
+    },
+    {
+      "sentence": "Circular icons showed government-operated air quality sensor readings with colors based on the Air Quality Index [47] to indicate the severity of particulate pollution.",
+      "label": "Result",
+      "prob": 0.7884063124656677
+    },
+    {
+      "sentence": "That is disappointing, and makes me wonder, why bother?",
+      "label": "Other",
+      "prob": 0.8247807025909424
+    },
+    {
+      "sentence": "A two-tailed Wilcoxon Signed-Ranks test indicated a statistically significant difference (W=0, Z=-4.29, p<.001).",
+      "label": "Result",
+      "prob": 0.5087850689888
+    },
+    {
+      "sentence": "In the open-ended question to freely provide comments and concerns, two participants (8%) were frustrated about the lack of responses from regulators and unclear values of using the data to take action.",
+      "label": "Result",
+      "prob": 0.8065096735954285
+    },
+    {
+      "sentence": "We released the system in September 2016.",
+      "label": "Result",
+      "prob": 0.6066327095031738
+    },
+    {
+      "sentence": "Then the predicted scores were thresholded post hoc with value 40 to produce positive and negative classes, which enabled us to compare the performance of these two approaches.",
+      "label": "Result",
+      "prob": 0.6198045611381531
+    },
+    {
+      "sentence": "In the open-response text field for this question, two participants (8%) mentioned using personal resources to help promote the system.",
+      "label": "Result",
+      "prob": 0.8128747940063477
+    },
+    {
+      "sentence": "the model predicted if a smell event would occur in the next 8 hours, we only evaluated the prediction generated from 5 am to 11 am.",
+      "label": "Result",
+      "prob": 0.7049163579940796
+    },
+    {
+      "sentence": "Besides classification, we also applied a regression approach to predict the confidence scores directly without thresholding initially.",
+      "label": "Method",
+      "prob": 0.5034465789794922
+    },
+    {
+      "sentence": "about half of the data overall.",
+      "label": "Other",
+      "prob": 0.44033119082450867
+    },
+    {
+      "sentence": "The Heinz Endowments, the CREATE Lab (Jessica Pachuta, Ana Tsuhlares), Allegheny County Clean Air Now (ACCAN), PennEnvironment, Group Against Smog and Pollution (GASP), Sierra Club, Reducing Outdoor Contamination in Indoor Spaces (ROCIS), Blue Lens, PennFuture, Clean Water Action, Clean Air Council, the Global Communication Center of Carnegie Mellon University (Ryan Roderick), the Allegheny County Health Department, and all other participants.",
+      "label": "Other",
+      "prob": 0.5377159714698792
+    },
+    {
+      "sentence": "First, we used domain knowledge to manually select features.",
+      "label": "Method",
+      "prob": 0.4175596535205841
+    },
+    {
+      "sentence": "We now discuss three studies:",
+      "label": "Result",
+      "prob": 0.5277224779129028
+    },
+    {
+      "sentence": "Our goals are",
+      "label": "Other",
+      "prob": 0.5792730450630188
+    },
+    {
+      "sentence": "We defined daytime from 5 am to 7 pm.",
+      "label": "Result",
+      "prob": 0.5355150699615479
+    },
+    {
+      "sentence": "This procedure identified a cluster with about 25% of positive samples.",
+      "label": "Result",
+      "prob": 0.7402961254119873
+    },
+    {
+      "sentence": "The goal was to construct another synthetic dataset and use both datasets to predict if a data sample came from the original one.",
+      "label": "Objective",
+      "prob": 0.811119556427002
+    },
+    {
+      "sentence": "For each predictor in the original dataset, we sampled the predictor values for n times uniformly at random (with replacement) and put the values in the synthetic dataset for the corresponding predictor, where n is the size of the original dataset.",
+      "label": "Result",
+      "prob": 0.46862977743148804
+    },
+    {
+      "sentence": "We found that our participation levels were normally distributed.",
+      "label": "Result",
+      "prob": 0.7580280900001526
+    },
+    {
+      "sentence": "and air quality measurements.",
+      "label": "Result",
+      "prob": 0.5559802055358887
+    },
+    {
+      "sentence": "Hochachka et al. fused traditional statistical techniques with boosted regression trees to extract species distribution patterns from the data collected via the eBird platform [61].",
+      "label": "Other",
+      "prob": 0.7022345662117004
+    },
+    {
+      "sentence": "Paper surveys were also provided.",
+      "label": "Result",
+      "prob": 0.487542062997818
+    },
+    {
+      "sentence": "[...] Collecting this data is clever, but towards what end?",
+      "label": "Other",
+      "prob": 0.8308303356170654
+    },
+    {
+      "sentence": "This manual feature selection procedure produced 781 features.",
+      "label": "Result",
+      "prob": 0.6008649468421936
+    },
+    {
+      "sentence": "visualization more than 31 times.",
+      "label": "Other",
+      "prob": 0.58721524477005
+    },
+    {
+      "sentence": "This finding indicated that there were increases in self-efficacy during participation.ForMotivation",
+      "label": "Result",
+      "prob": 0.7545046210289001
+    },
+    {
+      "sentence": "We implemented two models, Random Forest [18] and Extremely Randomized Trees [52], by using python scikit-learn package [97].",
+      "label": "Other",
+      "prob": 0.7021897435188293
+    },
+    {
+      "sentence": "This result suggested that internal factors were primary motivations for our participants rather than external factors.",
+      "label": "Result",
+      "prob": 0.8137044906616211
+    },
+    {
+      "sentence": "This procedure was iterated for the rest of the folds, which reflected the setting of the deployed system where a new model was trained on every Sunday night by using data from the previous 48 weeks.",
+      "label": "Method",
+      "prob": 0.47963768243789673
+    },
+    {
+      "sentence": "There is no real",
+      "label": "Other",
+      "prob": 0.7790992259979248
+    },
+    {
+      "sentence": "We also added a new reference [117] and a new table (Table 8).",
+      "label": "Other",
+      "prob": 0.521562397480011
+    },
+    {
+      "sentence": "The result showed that our users had a wide variety of system usage frequency.",
+      "label": "Result",
+      "prob": 0.8137609362602234
+    },
+    {
+      "sentence": "The knowledge obtained from informal community meetings and the result discovered in the text analysis (Figure 2) suggested that hydrogen sulfide might be the primary source of smell events.",
+      "label": "Result",
+      "prob": 0.8121199607849121
+    },
+    {
+      "sentence": "cross-validation.",
+      "label": "Other",
+      "prob": 0.39045917987823486
+    },
+    {
+      "sentence": "Table 2 indicates the characteristics of these groups.",
+      "label": "Result",
+      "prob": 0.727022647857666
+    },
+    {
+      "sentence": "Table 3 reports the evaluation metrics after crossvalidating the model for 100 times with random seeds.",
+      "label": "Result",
+      "prob": 0.7558481097221375
+    },
+    {
+      "sentence": "Carnegie Mellon University",
+      "label": "Other",
+      "prob": 0.8596534132957458
+    },
+    {
+      "sentence": "and visualizing fine particulate matter [124, 125].",
+      "label": "Other",
+      "prob": 0.837281346321106
+    },
+    {
+      "sentence": "2019 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.8682994246482849
+    },
+    {
+      "sentence": "Figure 2 shows that high-frequency words and phrases mostly described industrial pollution odors and symptoms of air pollution exposure, especially hydrogen sulfide that has rotten egg smell and can cause a headache, dizziness, eye irritation, sore throat, cough, nausea, and shortness of breath [33, 54, 82, 109].",
+      "label": "Other",
+      "prob": 0.8227038979530334
+    },
+    {
+      "sentence": "The scale was customized for air quality to suit our purpose.",
+      "label": "Result",
+      "prob": 0.6619836688041687
+    },
+    {
+      "sentence": "About 32% of the users submitted only one report.",
+      "label": "Result",
+      "prob": 0.617631733417511
+    },
+    {
+      "sentence": "Zheng et al. developed a framework to predict air quality readings of a monitoring station over the next 48 hours based on meteorological data, weather forecasts, and sensor readings from other nearby monitoring stations [129].",
+      "label": "Other",
+      "prob": 0.6340909600257874
+    },
+    {
+      "sentence": "The user group study showed highly skewed user contributions.",
+      "label": "Result",
+      "prob": 0.8214932084083557
+    },
+    {
+      "sentence": "The result showed that the model explains the underlying pattern of about 30% of the smell events, which was a joint effect of wind information and hydrogen sulfide readings.",
+      "label": "Result",
+      "prob": 0.8281002044677734
+    },
+    {
+      "sentence": "Gass et al. investigated the joint effects of outdoor air pollutants on emergency department visits for pediatric asthma by applying Decision Tree learning [51].",
+      "label": "Other",
+      "prob": 0.6598907113075256
     },
     {
       "sentence": "Although the small sample size limited the survey study, the result showed increases in self-efficacy after using the system.",
       "label": "Result",
-      "prob": 0.9226599931716919
+      "prob": 0.8399184346199036
     },
     {
-      "sentence": "2.2.2 Interpretation.",
+      "sentence": "Illah Nourbakhsh",
       "label": "Other",
-      "prob": 0.9221689701080322
+      "prob": 0.869184136390686
     },
     {
-      "sentence": "2.2.1 Prediction.",
-      "label": "Other",
-      "prob": 0.9212765693664551
+      "sentence": "The result showed that the model was capable of explaining the underlying pattern of about 50% of the smell events, which was a joint effect of wind information and hydrogen sulfide readings (Figure 6).",
+      "label": "Result",
+      "prob": 0.8155971765518188
     },
     {
-      "sentence": "2.1.2 Sensing Data.",
+      "sentence": "About 48% and 81% of the users submitted less than three and ten reports respectively, which aligned with the typical pattern in citizen science projects that many volunteers participated for only a few times [113].",
       "label": "Other",
-      "prob": 0.9205873012542725
+      "prob": 0.7539590001106262
+    },
+    {
+      "sentence": "Table 3 reports the evaluation metrics after cross-validating the models 100 times with various random seeds.",
+      "label": "Result",
+      "prob": 0.7870234251022339
+    },
+    {
+      "sentence": "Inspired by several previous works related to extracting knowledge from data [25, 51, 115], we utilized a white box model, Decision Tree, to explain a representative subset of predictors and samples, which were selected by applying feature selection [55] and cluster analysis.",
+      "label": "Method",
+      "prob": 0.6584274768829346
+    },
+    {
+      "sentence": "Carnegie Mellon University pdille@andrew.cmu.edu",
+      "label": "Other",
+      "prob": 0.8971537351608276
+    },
+    {
+      "sentence": "I used to (and sometimes still do) call reports in to [the health department]. I love how the map displays after I post a smell report. Wow! Im not alone!  It validates my pollution experiences because others are reporting similar experiences. I like using it for a similar reason that I like checking the weather. It helps me understand my environment and confirms my sense of what Im seeing .",
+      "label": "Result",
+      "prob": 0.4474313259124756
+    },
+    {
+      "sentence": "Randy Sargent Carnegie Mellon University rsargent@andrew.cmu.edu",
+      "label": "Other",
+      "prob": 0.9038770198822021
+    },
+    {
+      "sentence": "Among all reports, 76% of them had ratings greater than two.",
+      "label": "Result",
+      "prob": 0.7522363662719727
+    },
+    {
+      "sentence": "I sometimes",
+      "label": "Other",
+      "prob": 0.8753657341003418
+    },
+    {
+      "sentence": "In contrast, community-oriented citizen science aims to democratize science by equipping citizens with tools to directly target community concerns for advocacy [26, 32, 53, 64, 67 69, 92, 96, 119, 120, 128].",
+      "label": "Other",
+      "prob": 0.8586066961288452
+    },
+    {
+      "sentence": "Stingone et al. trained decision trees to identify possible interaction patterns between air pollutants and math test scores of kindergarten children [121].",
+      "label": "Other",
+      "prob": 0.8936610817909241
+    },
+    {
+      "sentence": "At the end of the survey, we asked an open-response question Do you have any other comments, questions, or concerns?",
+      "label": "Other",
+      "prob": 0.8682941198348999
+    },
+    {
+      "sentence": "Michael Tasota Carnegie Mellon University tasota@andrew.cmu.edu",
+      "label": "Other",
+      "prob": 0.9113094210624695
+    },
+    {
+      "sentence": "We believe that it is more beneficial to ask Is the system influential? instead of Is the system useful?",
+      "label": "Other",
+      "prob": 0.8768312931060791
+    },
+    {
+      "sentence": "We recruited adult participants via snowball sampling [9].",
+      "label": "Other",
+      "prob": 0.7781690359115601
+    },
+    {
+      "sentence": "ACM ISBN 978-1-4503-6272-6/19/03..",
+      "label": "Other",
+      "prob": 0.9249117374420166
+    },
+    {
+      "sentence": "Paul Dille",
+      "label": "Other",
+      "prob": 0.9069730043411255
+    },
+    {
+      "sentence": "A two-tailed Wilcoxon SignedRanks test (a nonparametric version of a paired t-test) indicated a statistically significant difference (W=13.5, Z=-3.79, p<.001).",
+      "label": "Other",
+      "prob": 0.5718028545379639
+    },
+    {
+      "sentence": "It wasnt clear when using the app that my submission was counted [...]. I want to be able to see directly that my smell reports are going somewhere and being used for something. [...]",
+      "label": "Other",
+      "prob": 0.8882377743721008
+    },
+    {
+      "sentence": "Carnegie Mellon University jcross1@andrew.cmu.edu Beatrice Dias Carnegie Mellon University mdias@andrew.cmu.edu",
+      "label": "Other",
+      "prob": 0.9321991205215454
+    },
+    {
+      "sentence": "https://doi.org/10.1145/3301275.3302293",
+      "label": "Other",
+      "prob": 0.9355260133743286
+    },
+    {
+      "sentence": "the region.",
+      "label": "Other",
+      "prob": 0.7131248116493225
+    },
+    {
+      "sentence": "Publication rights licensed to ACM.",
+      "label": "Other",
+      "prob": 0.9333989024162292
+    },
+    {
+      "sentence": "2.1.1 Human-Reported Data.",
+      "label": "Other",
+      "prob": 0.8615162372589111
+    },
+    {
+      "sentence": "more cities.",
+      "label": "Other",
+      "prob": 0.8757144808769226
     },
     {
       "sentence": "Each day, whenever the model predicted a smell event, the system sent a predictive notification:  Local weather and pollution data indicates there may be a Pittsburgh smell event in the next few hours. Keep a nose out and report smells you notice.  The goal of making the prediction was to support users in planning daily activities and encourage community members to pay attention to the air quality.",
       "label": "Objective",
-      "prob": 0.884064257144928
+      "prob": 0.8971188068389893
+    },
+    {
+      "sentence": "2.1.2 Sensing Data.",
+      "label": "Other",
+      "prob": 0.8858698606491089
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.9455322623252869
+    },
+    {
+      "sentence": "2.2.2 Interpretation.",
+      "label": "Other",
+      "prob": 0.9311586618423462
+    },
+    {
+      "sentence": "Jennifer Cross",
+      "label": "Other",
+      "prob": 0.9298539757728577
+    },
+    {
+      "sentence": "2.2.1 Prediction.",
+      "label": "Other",
+      "prob": 0.9361365437507629
     }
   ]
 }

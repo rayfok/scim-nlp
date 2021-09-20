@@ -1,1479 +1,1479 @@
 {
   "2104.03820": [
     {
-      "sentence": "For large codebases, the downside of imperfectly-translated code may be less than the upside of simply having automatically-produced translations.",
-      "label": "Background",
-      "prob": 0.985627293586731
-    },
-    {
-      "sentence": "However, code is unique compared to other kinds of natural languages: code is much more brittle, and swapping even a few characters or tokens can completely change its meaning or effect.",
-      "label": "Background",
-      "prob": 0.9827451109886169
-    },
-    {
       "sentence": "Recent advances in deep generative models have enabled them to produce content with a proficiency often indistinguishable from that of humans.",
       "label": "Background",
-      "prob": 0.9795141220092773
-    },
-    {
-      "sentence": "These models have been rapidly adopted in many domains.",
-      "label": "Background",
-      "prob": 0.9788287281990051
-    },
-    {
-      "sentence": "Less attention has been given to scenarios with objective outcomes, such as in software engineering where correct code is of prime importance.",
-      "label": "Background",
-      "prob": 0.9671503901481628
-    },
-    {
-      "sentence": "In addition, code demands a certain level of correctness: code either compiles or does not, and it is either correct or contains bugs such as logic errors, security flaws, or race conditions.",
-      "label": "Background",
-      "prob": 0.964974045753479
-    },
-    {
-      "sentence": "The possibility that a software problem would be introduced by a compilation process, for example, would not be considered under ordinary circumstances.",
-      "label": "Background",
-      "prob": 0.9644986987113953
+      "prob": 0.9619989991188049
     },
     {
       "sentence": "Recent advances in deep generative models have enabled them to produce content of a quality indistinguishable from that produced by a human being.",
       "label": "Background",
-      "prob": 0.9644827246665955
-    },
-    {
-      "sentence": "Counter to expectations, software engineers felt a generative model that produced imperfect output  such as code with compilation or logical errors  would be a useful aid, albeit one subject to the same procedures of review and testing as code produced by their colleagues.",
-      "label": "Background",
-      "prob": 0.9608019590377808
-    },
-    {
-      "sentence": "While conventional software development tools are generally quite reliable, software engineers themselves are not.",
-      "label": "Background",
-      "prob": 0.9597035050392151
-    },
-    {
-      "sentence": "Software developers typically work with deterministic tools and a great deal of work goes into ensuring that these tools are highly reliable [19].",
-      "label": "Background",
-      "prob": 0.959113359451294
-    },
-    {
-      "sentence": "New unsupervised neural machine translation models have demonstrated the capability for generative AI to translate code from one programming language to another in the software engineering domain.",
-      "label": "Background",
-      "prob": 0.9549237489700317
+      "prob": 0.9549835324287415
     },
     {
       "sentence": "Recently, generative techniques have been applied to the realm of software engineering.",
       "label": "Background",
-      "prob": 0.9533743262290955
+      "prob": 0.9465747475624084
     },
     {
-      "sentence": "Given the probabilistic nature of deep learning models, we posit that there will always be some amount of noise in their output; correspondingly, deep generative models that produce code as output may exhibit some amount of deviation from a programmers intentions.",
+      "sentence": "For large codebases, the downside of imperfectly-translated code may be less than the upside of simply having automatically-produced translations.",
       "label": "Background",
-      "prob": 0.9526585340499878
+      "prob": 0.9455829858779907
     },
     {
-      "sentence": "[81], the allocation of tasks in a human-AI collaboration need not be symmetric.",
+      "sentence": "Less attention has been given to scenarios with objective outcomes, such as in software engineering where correct code is of prime importance.",
       "label": "Background",
-      "prob": 0.9486909508705139
+      "prob": 0.9273169040679932
+    },
+    {
+      "sentence": "However, code is unique compared to other kinds of natural languages: code is much more brittle, and swapping even a few characters or tokens can completely change its meaning or effect.",
+      "label": "Background",
+      "prob": 0.9261958003044128
     },
     {
       "sentence": "Many of these difficulties were due to decisions made by people who were no longer present in the team or in the company.",
       "label": "Background",
-      "prob": 0.9371930360794067
+      "prob": 0.9207348227500916
     },
     {
-      "sentence": "Given the imperfect output of state-of-the-art NMT models, we posit that such systems will act in concert with human software engineers as a collaborative partner or teammate.",
+      "sentence": "The possibility that a software problem would be introduced by a compilation process, for example, would not be considered under ordinary circumstances.",
       "label": "Background",
-      "prob": 0.9301445484161377
-    },
-    {
-      "sentence": "We initially thought that the translation would produce only content in the form of the translated code.",
-      "label": "Background",
-      "prob": 0.925748884677887
-    },
-    {
-      "sentence": "One such area is in further developing intelligent user interfaces tailored specifically for code translation.",
-      "label": "Background",
-      "prob": 0.9249993562698364
+      "prob": 0.897588849067688
     },
     {
       "sentence": "In addition, technical mechanisms that enable fine-grained human control over the translation process ought to be explored.",
       "label": "Background",
-      "prob": 0.924299418926239
-    },
-    {
-      "sentence": "Although the import of generative capabilities may seem to be about the production of an artifact itself, we found that they instead may also be a means rather than just an end .",
-      "label": "Background",
-      "prob": 0.9225579500198364
-    },
-    {
-      "sentence": "These flaws provided a degree of realism to our study; several participants actually discovered these errors during the study, leading to discussions on the utility of imperfect AI.",
-      "label": "Background",
-      "prob": 0.9187675714492798
-    },
-    {
-      "sentence": "an effective division of labor between humans and machines to be particularly salient as it is critical to understand what factors lead to productive human-AI partnerships.",
-      "label": "Background",
-      "prob": 0.9185531139373779
-    },
-    {
-      "sentence": "P7 described how legacy application specifications usually lived in the gray matter storage in other people.",
-      "label": "Background",
-      "prob": 0.9178752899169922
-    },
-    {
-      "sentence": "In some cases, although not an explicit part of the study, participants actually found the errors in the translation.",
-      "label": "Background",
-      "prob": 0.9152357578277588
+      "prob": 0.8908988237380981
     },
     {
       "sentence": "Thus, although many participants expressed a willingness to accept imperfectly-translated code as a starting point, acceptance may depend on how many errors the translated code contains as well as the nature of those errors (e.g. if they are easy to spot and fix, or if they take attention away from the central problem).",
       "label": "Background",
-      "prob": 0.9141519069671631
+      "prob": 0.8711923360824585
     },
     {
-      "sentence": "lack of a corpus of parallel code examples across source and target languages.",
+      "sentence": "In addition, code demands a certain level of correctness: code either compiles or does not, and it is either correct or contains bugs such as logic errors, security flaws, or race conditions.",
       "label": "Background",
-      "prob": 0.9118253588676453
+      "prob": 0.8698515295982361
     },
     {
-      "sentence": "However, more work is needed to understand how such visualizations and other explanatory methods impact peoples willingness to use generative models and their productivity in using them.",
+      "sentence": "While conventional software development tools are generally quite reliable, software engineers themselves are not.",
       "label": "Background",
-      "prob": 0.9099112153053284
+      "prob": 0.8683091402053833
     },
     {
-      "sentence": "Many participants discussed the issue of trust in software engineering and how practices such as testing and code review help establish trust amongst human teams of software engineers.",
+      "sentence": "an effective division of labor between humans and machines to be particularly salient as it is critical to understand what factors lead to productive human-AI partnerships.",
       "label": "Background",
-      "prob": 0.9073683023452759
-    },
-    {
-      "sentence": "[81] recently outlined a set of research questions spanning many aspects of human-AI collaboration, such as how tasks should be allocated across both parties and how trust could be established with a machine teammate.",
-      "label": "Background",
-      "prob": 0.9061855673789978
-    },
-    {
-      "sentence": "For example, the generation of documentation and architecture specifications, rather than being the desired end products themselves, are more of an intermediate output that supports a modernization effort by helping people understand an impossible, undocumented (P4) legacy application.",
-      "label": "Background",
-      "prob": 0.9049195647239685
-    },
-    {
-      "sentence": "Not surprisingly, unit test generation was a highly-requested feature for this stage of application modernization.",
-      "label": "Background",
-      "prob": 0.9046826958656311
-    },
-    {
-      "sentence": "Despite the positive reception of potentially error-prone code, there did seem to be a threshold regarding how many errors would be acceptable.",
-      "label": "Background",
-      "prob": 0.9046418070793152
-    },
-    {
-      "sentence": "The UI also contained a feature to make relevant downstream edits when selecting an alternate translation (e.g. renaming all instances of a variable), as the selection of an alternate often carried consequences for other parts of the code.",
-      "label": "Background",
-      "prob": 0.9042511582374573
-    },
-    {
-      "sentence": "Although the translated code was syntactically correct, there was a logic error in the translation of a loop that resulted in wrong values being returned.",
-      "label": "Background",
-      "prob": 0.9019139409065247
-    },
-    {
-      "sentence": "Participants werent told that it was a deep learning-based NMT model that produced the translation, so many assumed the translation was produced by a rule-based system.",
-      "label": "Background",
-      "prob": 0.8967295289039612
-    },
-    {
-      "sentence": "For example, we believe that there is a richer design space in which AI translations can be provided at a number of different granularities, from highly-automated, bulk translation of large codebases to highly-controlled, real-time translation of code as it is being written.",
-      "label": "Background",
-      "prob": 0.8871176838874817
-    },
-    {
-      "sentence": "Leveraging the naturalness hypothesis [2]  code is a form of human communication with similar statistical properties as natural languages",
-      "label": "Background",
-      "prob": 0.8843916654586792
-    },
-    {
-      "sentence": "Several studies have examined the notion of an imperfect AI system.",
-      "label": "Background",
-      "prob": 0.8822309970855713
-    },
-    {
-      "sentence": "Thus, although participants generally said they dont care (P7) about knowing how the translation was produced, explanations of the models mechanics may be helpful for avoiding confusion caused by confidence discrepancies.",
-      "label": "Background",
-      "prob": 0.8721674084663391
-    },
-    {
-      "sentence": "way of confidence highlights and alternate translations were also seen as critical ways to help prioritize their review effort.",
-      "label": "Background",
-      "prob": 0.8721582293510437
-    },
-    {
-      "sentence": "P3 expected that the translator would be able to define this def function signature line with the function name correct, but expressed confusion when the translator wasnt as confident as it could be.",
-      "label": "Background",
-      "prob": 0.8718287348747253
-    },
-    {
-      "sentence": "We recognize that some work has been done in this space, such as in visualizing how transformer models produce their output (e.g. [42]).",
-      "label": "Background",
-      "prob": 0.8665568232536316
-    },
-    {
-      "sentence": "Incorporating feedback to the generative model from the edits made by software engineers is another fruitful research opportunity.",
-      "label": "Background",
-      "prob": 0.86421799659729
-    },
-    {
-      "sentence": "Thematic analysis has been used for many kinds of qualitative analysis work in HCI (e.g. [58]).",
-      "label": "Background",
-      "prob": 0.8630679845809937
+      "prob": 0.8623501658439636
     },
     {
       "sentence": "NMT models such as the one we used are typically trained in an unsupervised manner, in part due to the",
       "label": "Background",
-      "prob": 0.8618026971817017
+      "prob": 0.8585051894187927
     },
     {
-      "sentence": "There was also an issue with our reconstitution of tokenized code resulting in a discrepancy in an exception message string.",
+      "sentence": "These models have been rapidly adopted in many domains.",
       "label": "Background",
-      "prob": 0.8608332276344299
+      "prob": 0.8559896945953369
     },
     {
-      "sentence": "However, participants ultimately felt that understanding how the NMT model worked was not a prerequisite for being able to put that model to productive use.",
+      "sentence": "One such area is in further developing intelligent user interfaces tailored specifically for code translation.",
       "label": "Background",
-      "prob": 0.8589415550231934
+      "prob": 0.8495190143585205
     },
     {
       "sentence": "The question of how to design effective interactions between human and machine teammates is of great interest to the IUI community.",
       "label": "Background",
-      "prob": 0.8476671576499939
+      "prob": 0.844039261341095
     },
     {
-      "sentence": "Generating a whole slew of automated unit tests (P4) as well as more realistic test values (P3) ensures that the right hand side code not only runs and doesnt crash but produces expected output (P4).",
+      "sentence": "Counter to expectations, software engineers felt a generative model that produced imperfect output  such as code with compilation or logical errors  would be a useful aid, albeit one subject to the same procedures of review and testing as code produced by their colleagues.",
       "label": "Background",
-      "prob": 0.8457106947898865
+      "prob": 0.8415687084197998
     },
     {
-      "sentence": "That said, participants who did understand that the NMT model was probabilistic, and not rule-based, in nature, were less confused by spurious confidence highlights.",
+      "sentence": "Not surprisingly, unit test generation was a highly-requested feature for this stage of application modernization.",
       "label": "Background",
-      "prob": 0.8450285792350769
+      "prob": 0.8403260111808777
     },
     {
-      "sentence": "Similarly, P0 struggled to understand why the NMT model would not be confident in a line of code that was syntactically correct.",
+      "sentence": "In some cases, although not an explicit part of the study, participants actually found the errors in the translation.",
       "label": "Background",
-      "prob": 0.844169557094574
-    },
-    {
-      "sentence": "Participants also appreciated the feature of the alternate translation UI in which downstream edits could be made when selecting an alternate translation (e.g. because selecting an alternate may have renamed a variable or changed a loop index).",
-      "label": "Background",
-      "prob": 0.8439986705780029
-    },
-    {
-      "sentence": "Once they saw the alternate translations, they began to understand why the NMT model had highlighted certain tokens as low-confidence: precisely because there were alternate ways of translating those tokens.",
-      "label": "Background",
-      "prob": 0.8396161198616028
-    },
-    {
-      "sentence": "In addition, task-oriented displays of the checklist mentioned by P10 could be used to help organize and track review efforts.",
-      "label": "Background",
-      "prob": 0.8316879868507385
-    },
-    {
-      "sentence": "P9 emphasized how the alternate translations provided an educational opportunity while doing code modernization work because having new options makes it much more easy for me to explore newer methods in the newer language.",
-      "label": "Background",
-      "prob": 0.8296681046485901
-    },
-    {
-      "sentence": "Participants identified many opportunities for generative models to aid the overall application modernization workflow of building understanding, performing the migration, and reviewing & testing.",
-      "label": "Background",
-      "prob": 0.8287761807441711
-    },
-    {
-      "sentence": "new progress in neural machine translation (NMT) has demonstrated how unsupervised techniques can be used to train models that transform source code from one programming language to another [20, 79].",
-      "label": "Background",
-      "prob": 0.8280215859413147
-    },
-    {
-      "sentence": "P9 offered a more nuanced view on who would need to have an understanding of how the AI model operated.",
-      "label": "Background",
-      "prob": 0.825384259223938
-    },
-    {
-      "sentence": "Overwhelmingly, they felt that a tool that could do code translation work within the application modernization context would be useful as it would help them get their own work done more quickly and effectively (e.g. as discussed by P3).",
-      "label": "Background",
-      "prob": 0.8163442015647888
-    },
-    {
-      "sentence": "Despite the feelings that having an understanding of the NMT models operation wasnt important, we observed that having such understanding does have benefits.",
-      "label": "Background",
-      "prob": 0.8146207928657532
-    },
-    {
-      "sentence": "Throughout our interviews, participants made a number of suggestions for how generative AI models, as well as the user interfaces that incorporate them, could support these activities.",
-      "label": "Background",
-      "prob": 0.8137814998626709
-    },
-    {
-      "sentence": "One way of producing such explanations is via the alternate translations shown in Figure 1C.",
-      "label": "Background",
-      "prob": 0.8124229311943054
+      "prob": 0.8326934576034546
     },
     {
       "sentence": "Generative techniques that are capable of converting code from one language to another, from one version of a language to another, or even from one version of an API or framework to another, would be helpful.",
       "label": "Background",
-      "prob": 0.8078234195709229
-    },
-    {
-      "sentence": "P3 discussed how he had to manage libraries for the same set of APIs across multiple languages: Were up to nine different languages now total and and each one seems to have its own, like, name capitalization conventions and things like that.",
-      "label": "Background",
-      "prob": 0.8066771030426025
-    },
-    {
-      "sentence": "Some participants had questions about the underlying mechanics of the NMT model, as they were curious how it works (P5) and would like to know what its thinking (P10).",
-      "label": "Background",
-      "prob": 0.8049046993255615
-    },
-    {
-      "sentence": "5.0.1 Challenges of Modernizing Legacy Applications.",
-      "label": "Background",
-      "prob": 0.8029496073722839
-    },
-    {
-      "sentence": "P1 expressed the same sentiment, citing efficiency gains as a reason for accepting the models output without understanding how it was produced.",
-      "label": "Background",
-      "prob": 0.8017407655715942
-    },
-    {
-      "sentence": "In addition, several participants noted the importance of coding styles (e.g. variable naming conventions, documentation standards) and the desire for output code to have",
-      "label": "Background",
-      "prob": 0.7992415428161621
-    },
-    {
-      "sentence": "P10 crystallized this notion by speaking of a checklist, and P7 desired the ability to turn off the highlights after reviewing each one.",
-      "label": "Background",
-      "prob": 0.7968434691429138
-    },
-    {
-      "sentence": "Interestingly, he would tolerate mistakes or errors in the generated documentation.",
-      "label": "Background",
-      "prob": 0.7963993549346924
-    },
-    {
-      "sentence": "Similarly, P10 would make my edits, and... that would help train the model.",
-      "label": "Background",
-      "prob": 0.7898533940315247
-    },
-    {
-      "sentence": "These comments call out that an AI teammate would be expected to follow the same coding conventions as other members of the team.",
-      "label": "Background",
-      "prob": 0.7839198708534241
-    },
-    {
-      "sentence": "Many participants also pointed out how edits to low-confidence translated code could serve as feedback to the NMT model to improve its training.",
-      "label": "Background",
-      "prob": 0.7839022278785706
-    },
-    {
-      "sentence": "P3 described how there may be individual differences in the value people derive from NMT translations.",
-      "label": "Background",
-      "prob": 0.7797549366950989
-    },
-    {
-      "sentence": "They have also been used to produce artifacts such as novel furniture designs [38], packaging designs [47], aircraft compartment partitions [7], and molecules [18, 24, 94].",
-      "label": "Background",
-      "prob": 0.7792952060699463
-    },
-    {
-      "sentence": "As described in Section 5.0.1, one of the main challenges in migrating legacy applications is due to the fact that code and code architectures are undocumented, (P4) with specifications sometimes living in the gray matter storage (P7) of engineers that dont work here anymore (P4).",
-      "label": "Background",
-      "prob": 0.7764410972595215
-    },
-    {
-      "sentence": "Our interviews generated a wealth of material: 11 hours of recorded videos, approximately 63 pages of notes, and a corpus of approximately 400 pages of interview transcripts containing about 89k words.",
-      "label": "Background",
-      "prob": 0.7712868452072144
-    },
-    {
-      "sentence": "We have examined how such a model would be received by software engineers in the context of modernizing legacy applications.",
-      "label": "Background",
-      "prob": 0.7653859853744507
-    },
-    {
-      "sentence": "We note that our system only examined one kind of human-AI interaction pattern, in which the human provided code and the translator produced a translation.",
-      "label": "Background",
-      "prob": 0.7653079032897949
-    },
-    {
-      "sentence": "We recruited 11 full-time software engineers within our organization, an international information technology company.",
-      "label": "Background",
-      "prob": 0.7613673210144043
-    },
-    {
-      "sentence": "However, our system was solely driven by human initiative.",
-      "label": "Background",
-      "prob": 0.760001540184021
-    },
-    {
-      "sentence": "Participants were eager to accept help from an imperfect AI assistant (e.g. as discussed by P2 & P3).",
-      "label": "Background",
-      "prob": 0.759515106678009
-    },
-    {
-      "sentence": "Instead of viewing the review and correction of the translated code as additional effort, they felt that the skeletal framework provided by the NMT model would be a useful starting place that they could then adjust and correct as necessary, as they usually do with code produced by their colleagues (e.g. as discussed by P4).",
-      "label": "Background",
-      "prob": 0.7585850358009338
-    },
-    {
-      "sentence": "P4 described application modernization as a rats nest [of] very impossible, undocumented, uncommitted, lots of dead unit tests that hadnt been run [in] year[s] kind of situation, and complained that there was an architecture at some point... then you had other folks come along and write additional pieces that... kind of go their own way.",
-      "label": "Background",
-      "prob": 0.757183849811554
-    },
-    {
-      "sentence": "Understanding the models operation could also eliminate some of the confusion caused by the confidence highlights in Figure 1B.",
-      "label": "Background",
-      "prob": 0.7526040077209473
-    },
-    {
-      "sentence": "[52] examined the effect of giving people control over the types of errors made by an AI meeting request detection system, either by avoiding false positives or false negatives.",
-      "label": "Background",
-      "prob": 0.7500107884407043
-    },
-    {
-      "sentence": "Although we have discovered that our design scenario did demonstrate compelling user experiences, we caution that our results may not generalize to other domains or use cases beyond the code translation task we examined (e.g. using generative models for molecular discovery).",
-      "label": "Background",
-      "prob": 0.7437732815742493
-    },
-    {
-      "sentence": "In addition, our finding that acceptance of a models output is established through verification, rather than explanation of the models operation, is not meant to diminish the importance of further research and exploration into how generative models might explain themselves, their operation, and their limitations.",
-      "label": "Background",
-      "prob": 0.7434225082397461
-    },
-    {
-      "sentence": "This discrepancy in confidence, in which participants were more confident in their own abilities to translate the code than the NMT model, caused many participants to desire additional insight into why the NMT model was not confident.",
-      "label": "Background",
-      "prob": 0.7424482107162476
-    },
-    {
-      "sentence": "P4 specifically called out how code reviews are used to give people feedback to improve their skills and how such reviews could be used to improve the NMT model.",
-      "label": "Background",
-      "prob": 0.74232017993927
-    },
-    {
-      "sentence": "Each variant appeared as a partially-functional prototype, through which participants could explore features of interest.",
-      "label": "Background",
-      "prob": 0.737597644329071
-    },
-    {
-      "sentence": "The two other authors took running notes in a shared online document and occasionally stepped in to ask clarifying questions, probe deeper on topics of interest, or provide technical explanations for how the translation algorithm worked.",
-      "label": "Background",
-      "prob": 0.736490786075592
-    },
-    {
-      "sentence": "P7 commented, the AIs letting me know... its best if you change it in multiple locations in order to be consistent.",
-      "label": "Background",
-      "prob": 0.7345920205116272
-    },
-    {
-      "sentence": "While there are no agreed guidelines about required sample sizes for this kind of analysis [67], we followed commonly-accepted practices to identify saturation (e.g. when we stopped identifying new codes in our interview transcripts) [35, 60].",
-      "label": "Background",
-      "prob": 0.7278292775154114
-    },
-    {
-      "sentence": "They recognize the human capacity to err in themselves and their colleagues, and thus have developed processes and ways of working in which these errors are expected: code reviews [9, 63], test-driven development [23, 61], and root-cause analysis [53] are all ways of finding, fixing, and learning from the mistakes that are bound to happen in any software engineering effort.",
-      "label": "Background",
-      "prob": 0.7274916768074036
-    },
-    {
-      "sentence": "[57] found that people working with a generative model to produce musical compositions felt a greater sense of self-efficacy and ownership of their compositions.",
-      "label": "Background",
-      "prob": 0.72593754529953
-    },
-    {
-      "sentence": "Generative AI techniques are enabling new forms of human-AI co-creation.",
-      "label": "Background",
-      "prob": 0.7226784229278564
-    },
-    {
-      "sentence": "Indeed, the ML community has explored many methods for generating tests [31, 86, 87] as well as generating data for tests [50, 83], and our findings reinforce the need to incorporate these techniques into mainstream application modernization tools.",
-      "label": "Background",
-      "prob": 0.721619188785553
-    },
-    {
-      "sentence": "was born, and P4 spoke of three generations of engineers that dont work here anymore.",
-      "label": "Background",
-      "prob": 0.7196077108383179
-    },
-    {
-      "sentence": "Our study identified a number of areas that could be pursued for the use of generative AI in application modernization.",
-      "label": "Background",
-      "prob": 0.717233419418335
-    },
-    {
-      "sentence": "Many participants were initially skeptical of the accuracy and value of the confidence highlights (P1, P2, P3, P5, P7, P9).",
-      "label": "Background",
-      "prob": 0.7155176401138306
-    },
-    {
-      "sentence": "First, we discussed the participants background, their level of experience with both Java and Python, and their experiences in modernizing legacy applications.",
-      "label": "Background",
-      "prob": 0.7149033546447754
-    },
-    {
-      "sentence": "Both P1 and P3 were able to identify a logical error in the translated code because they reviewed the alternate translations.",
-      "label": "Background",
-      "prob": 0.7144734263420105
-    },
-    {
-      "sentence": "P4 emphasized the utility of this approach: Having something to draw my attention to places where its more likely that theres an error would be super helpful.",
-      "label": "Background",
-      "prob": 0.7101620435714722
-    },
-    {
-      "sentence": "For each interview, at least two authors reviewed each of the transcripts and notes and independently identified interesting observations.",
-      "label": "Background",
-      "prob": 0.7099389433860779
-    },
-    {
-      "sentence": "On the other, P0 expressed that errors that werent related to the central problem might interrupt his flow and become distracting if they occurred too often: If Im iterating and I have to stop and fix something else thats not germane to the central problem, that can become annoying if its repetitive.",
-      "label": "Background",
-      "prob": 0.7098090648651123
-    },
-    {
-      "sentence": "For example, participants desired a stronger visual correspondence between the source and translated code to understand how one flowed from the other.",
-      "label": "Background",
-      "prob": 0.707210898399353
-    },
-    {
-      "sentence": "Thus, we challenge the community to consider use cases for generative AI that involve improving the state of human understanding of a domain or artifact, rather than considering the only utility of generative models to be the output itself.",
-      "label": "Background",
-      "prob": 0.7061498165130615
-    },
-    {
-      "sentence": "The presence of the alternate translations seemed to provide an implicit explanation that helped participants better understand the model.",
-      "label": "Background",
-      "prob": 0.7020953297615051
-    },
-    {
-      "sentence": "For example, P4 found a string mismatch: There is an actual functional difference here on line 21 of the Python code where theres an extra space inserted into that error string.",
-      "label": "Background",
-      "prob": 0.6942324638366699
-    },
-    {
-      "sentence": "Participants were informed that the translation results were produced by an AI system and that the translations may be imperfect.",
-      "label": "Background",
-      "prob": 0.6916414499282837
-    },
-    {
-      "sentence": "P4 described how generative methods could be used to reverse engineer the architecture programmatically and deal with dead codebases.",
-      "label": "Background",
-      "prob": 0.6871293783187866
-    },
-    {
-      "sentence": "[26] discovered that once people observed an automated system make errors, their distrust in the system increased unless an explanation was provided regarding why the system might make an error; however, these explanations also increased trust and reliance on the system even when unwarranted, signaling the importance and difficulty of providing explanations that help people appropriately calibrate their trust.",
-      "label": "Background",
-      "prob": 0.6845725178718567
-    },
-    {
-      "sentence": "What characteristics of a user experience are important for facilitating acceptance of a deep generative model and its outputs?",
-      "label": "Background",
-      "prob": 0.6832398176193237
-    },
-    {
-      "sentence": "P7 described how one of the alternatives more explicitly demonstrated the codes functionality: The first [option] is more Pythonic because its taking advantage of the built-in functionality of an array... however this [second option] is far more explicit... this is whats happening behind the scenes.",
-      "label": "Background",
-      "prob": 0.6817542910575867
-    },
-    {
-      "sentence": "resistance to a tool that was not guaranteed to produce correct results.",
-      "label": "Background",
-      "prob": 0.6796351671218872
-    },
-    {
-      "sentence": "As described by P4, If I had [it] sort of laid out with a diff, I might just be able to parse it visually a little better.",
-      "label": "Background",
-      "prob": 0.6777965426445007
-    },
-    {
-      "sentence": "P5 pointed out that, If you used this [confidence highlighting] on a big code base... you could know where to look, where there might be problems.",
-      "label": "Background",
-      "prob": 0.6753560304641724
-    },
-    {
-      "sentence": "P6: As long as it is giving me a head start of any sort I will take it because for me the overhead to write such comments for every function that I code is very high. As you can imagine in a practical system there is going to be hundreds of such functions... its a lot of human hours.",
-      "label": "Background",
-      "prob": 0.6668475866317749
-    },
-    {
-      "sentence": "To explore the utility of NMT models, we conducted a series of scenario-based design interviews with 11 professional software engineers who work across a variety of technology areas.",
-      "label": "Background",
-      "prob": 0.666401743888855
-    },
-    {
-      "sentence": "P2 described how the translations, even with small mistakes, were preferable to manually rewriting code.",
-      "label": "Background",
-      "prob": 0.6560978889465332
-    },
-    {
-      "sentence": "Their comments provided insight into how these features could be used to drive human-AI workflows and how human actions could provide feedback to improve the NMT model.",
-      "label": "Background",
-      "prob": 0.6545623540878296
-    },
-    {
-      "sentence": "As the three UX variants built conceptually on top of each other, they were shown in the same order to each participant (A, B, C).",
-      "label": "Background",
-      "prob": 0.6544773578643799
-    },
-    {
-      "sentence": "[88]s work on learning bug-fixing patches and TransCoder [79]  are often capable of producing high-quality source code, the code that they generate may not always be error-free 1 .",
-      "label": "Background",
-      "prob": 0.6468856930732727
-    },
-    {
-      "sentence": "Similarly, P6 said, If its trying to highlight that its really not sure that its done a good job here then I should pay attention to this piece and see if it makes sense.",
-      "label": "Background",
-      "prob": 0.6461764574050903
-    },
-    {
-      "sentence": "[92] found that artwork that was restored with the aid of a generative model was rated as preferable to artwork restored by a human alone.",
-      "label": "Background",
-      "prob": 0.644500195980072
-    },
-    {
-      "sentence": "If participants recalled highly-relevant experiences, we delved into more detail about their modernization project, how it was organized, what their role was, and what specific pain points existed in their work.",
-      "label": "Background",
-      "prob": 0.6439418792724609
-    },
-    {
-      "sentence": "Many participants described how code translation could be used to take advantage of functionality defined in third party libraries, because the same libraries in Java dont exist in Python, or similar libraries exist but theyre not... syntactically the same. (P0).",
-      "label": "Background",
-      "prob": 0.6410597562789917
-    },
-    {
-      "sentence": "As a seed to the brainstorm, we showed three examples of how generative AI might provide unique value: translating complex algorithms, translating large codebases, and converting 3rd party library usage across languages.",
-      "label": "Background",
-      "prob": 0.639049232006073
-    },
-    {
-      "sentence": "For example, they have been used in creative domains to create or alter media such as images, videos, and artwork [10, 46, 54, 56, 92], music [11, 45, 57], and writing [21, 32, 76].",
-      "label": "Background",
-      "prob": 0.637418270111084
-    },
-    {
-      "sentence": "P3 discussed how the NMT model could fit into a workflow for translating a large codebase.",
-      "label": "Background",
-      "prob": 0.6338369846343994
-    },
-    {
-      "sentence": "We begin by highlighting the difficulties faced by our software engineers in modernizing legacy applications, motivating the need for AI support.",
-      "label": "Background",
-      "prob": 0.631507396697998
+      "prob": 0.8320004343986511
     },
     {
       "sentence": "One helpful improvement to the code translation user interface would be to show a stronger visual correspondence between input and output source code.",
       "label": "Background",
-      "prob": 0.6275991201400757
+      "prob": 0.8281369805335999
     },
     {
-      "sentence": "Motivated by these studies, we also consider the effect that confidence and translation alternatives (which have explanatory power, discussed in Section 5.1.2) have on the utility and acceptance of a generative AI system.",
+      "sentence": "Although the translated code was syntactically correct, there was a logic error in the translation of a loop that resulted in wrong values being returned.",
       "label": "Background",
-      "prob": 0.6268867254257202
-    },
-    {
-      "sentence": "After reviewing all three UX variants, we asked participants to brainstorm with us on broader applications of generative AI in application modernization.",
-      "label": "Background",
-      "prob": 0.6236997246742249
-    },
-    {
-      "sentence": "As summarized by P6, If its egregiously wrong then no, Id rather do it myself. But as long as its giving me a head start of any sort, Ill take it.",
-      "label": "Background",
-      "prob": 0.6230168342590332
-    },
-    {
-      "sentence": "s notion of how humans may steer the output of a generative model [57].",
-      "label": "Background",
-      "prob": 0.6223862171173096
-    },
-    {
-      "sentence": "Alternate translations also helped participants identify errors in the translation by showing them alternatives that the translator had considered.",
-      "label": "Background",
-      "prob": 0.6217125058174133
-    },
-    {
-      "sentence": "a standard formatting (P5) because reading other peoples code is much easier when you all adhere to the same standards. (P5).",
-      "label": "Background",
-      "prob": 0.6199588179588318
-    },
-    {
-      "sentence": "All participants who were involved in an application modernization project expressed some desire for help, and our focus on the code translation use case positively resonated with them.",
-      "label": "Background",
-      "prob": 0.6199255585670471
-    },
-    {
-      "sentence": "In addition, the explanatory power of alternate translations enabled participants to understand why regions of the code were flagged as low confidence, helping them focus their effort toward reviewing those potentially problematic sections.",
-      "label": "Background",
-      "prob": 0.6152143478393555
-    },
-    {
-      "sentence": "Participants were identified using an internal expertise-location tool that allowed us to find people in a software engineering role with experience in both Java and Python.",
-      "label": "Background",
-      "prob": 0.6089844107627869
-    },
-    {
-      "sentence": "[28] found a similar result, that giving a good reason for a poor recommendation made people more likely to accept that poor recommendation.",
-      "label": "Background",
-      "prob": 0.6088147163391113
-    },
-    {
-      "sentence": "P1 was surprised that the model was not confident in some of the punctuation tokens: Why is the left bracket after the return... why is that not so confident... its not even an identifier... the double quote in that string there, thats a funny one too.",
-      "label": "Background",
-      "prob": 0.6087375283241272
-    },
-    {
-      "sentence": "Future work should explore how different patterns of interaction and initiative, as well as capabilities beyond code translation, can enable effective human-AI partnerships with generative models that produce better outcomes than what could be accomplished by either party alone.",
-      "label": "Background",
-      "prob": 0.6019724607467651
-    },
-    {
-      "sentence": "For each UX variant, we asked participants about what they liked and disliked and how they might improve the design.",
-      "label": "Background",
-      "prob": 0.59830641746521
-    },
-    {
-      "sentence": "Overall, many participants felt that even the erroneous output was desirable and that it would be something they would find useful to have.",
-      "label": "Background",
-      "prob": 0.5971076488494873
-    },
-    {
-      "sentence": "P4 summarized his ideal interplay between human and machine: Focus on letting the machine do the stuff thats really easy and letting a human help out with the parts that are less easy.",
-      "label": "Background",
-      "prob": 0.595853865146637
-    },
-    {
-      "sentence": "P4 also gained insight by comparing two alternate translations: This is clearly... toggling between those two styles of iteration... its interesting to see what the AI is... thinking between these two different programming constructs.",
-      "label": "Background",
-      "prob": 0.5942137837409973
-    },
-    {
-      "sentence": "We created a series of three progressively-enhancing UX variants within the scenario that illustrated different ways that a software engineer might interact with an NMT model to translate source code from one language to another.",
-      "label": "Background",
-      "prob": 0.5824989676475525
-    },
-    {
-      "sentence": "The process of using these models to perform an initial translation, followed by manual correction, could provide a corpus of correctly-translated code that would enable supervised training, resulting in further quality improvements to the translator.",
-      "label": "Background",
-      "prob": 0.5800701379776001
-    },
-    {
-      "sentence": "In discussing whether they would accept code produced by the NMT model, participants felt that they would treat it in the same fashion that they would treat the output of their fellow software developers: by reviewing and testing it.",
-      "label": "Background",
-      "prob": 0.5767129063606262
-    },
-    {
-      "sentence": "Our scenario used real output from TransCoder that contained flaws.",
-      "label": "Background",
-      "prob": 0.5751399993896484
-    },
-    {
-      "sentence": "Are there ways that we can leverage generative model state to aid in the detection and correction of errors that do occur?",
-      "label": "Background",
-      "prob": 0.5734337568283081
-    },
-    {
-      "sentence": "Our study is a preliminary examination of how probabilistic generative models can be applied to a use case that requires an objective level of quality.",
-      "label": "Background",
-      "prob": 0.5694074034690857
+      "prob": 0.825144350528717
     },
     {
       "sentence": "Participants also expressed mixed feelings about their tolerance for easy-to-spot or easy-to-fix errors.",
       "label": "Background",
-      "prob": 0.568662703037262
+      "prob": 0.8201965689659119
     },
     {
-      "sentence": "This context is both timely and relevant: timely, because many organizations are currently faced with the problem of how to migrate complex, legacy applications to the cloud when they do not necessarily have the resources or expertise to do so [34, 36]; and relevant, because NMT models can specifically help in the process of translating from legacy languages or application frameworks (e.g. COBOL, J2EE) into modern ones (e.g. Python, Go).",
+      "sentence": "However, participants ultimately felt that understanding how the NMT model worked was not a prerequisite for being able to put that model to productive use.",
       "label": "Background",
-      "prob": 0.5648593902587891
+      "prob": 0.81465083360672
     },
     {
-      "sentence": "P6 described how his team has strict requirements for writing documentation for every function because it is used to generate Swagger API documentation 3 .",
+      "sentence": "Similarly, P0 struggled to understand why the NMT model would not be confident in a line of code that was syntactically correct.",
       "label": "Background",
-      "prob": 0.5641874670982361
+      "prob": 0.8131212592124939
     },
     {
-      "sentence": "As discussed by Wolf [97, p. 252], scenario-based design [is] a method that anticipates and leverages scenarios of possible use early on in system development. (italics in original).",
+      "sentence": "Several studies have examined the notion of an imperfect AI system.",
       "label": "Background",
-      "prob": 0.563590407371521
+      "prob": 0.8034352660179138
     },
     {
-      "sentence": "For example, P6 described how understanding the models operation might help him achieve better outcomes: I might want to have the option to look into what the AI is doing just so I can interpret or prepare my code better for the translation.",
+      "sentence": "For example, the generation of documentation and architecture specifications, rather than being the desired end products themselves, are more of an intermediate output that supports a modernization effort by helping people understand an impossible, undocumented (P4) legacy application.",
       "label": "Background",
-      "prob": 0.5590435862541199
+      "prob": 0.8034096360206604
     },
     {
-      "sentence": "Next, we showed each UX variant and allowed them to explore the interface while thinking aloud to capture their general impressions.",
+      "sentence": "Incorporating feedback to the generative model from the edits made by software engineers is another fruitful research opportunity.",
       "label": "Background",
-      "prob": 0.558903157711029
+      "prob": 0.8004780411720276
     },
     {
-      "sentence": "Techniques that help people understand the mechanics of generative models, as well as techniques that are able to generate specific rationales for why a given artifact was generated, could help people further adopt generative models in their own work practices.",
+      "sentence": "[81], the allocation of tasks in a human-AI collaboration need not be symmetric.",
       "label": "Background",
-      "prob": 0.5588647723197937
+      "prob": 0.7877944111824036
     },
     {
-      "sentence": "Some of this work has examined the extent to which deep generative models provide humans with augmented capabilities, addressing the question of the extent to which the human-AI team produces outcomes better than those produced by either party alone (e.g. [29, 37, 57, 70, 92, 100]).",
+      "sentence": "Despite the positive reception of potentially error-prone code, there did seem to be a threshold regarding how many errors would be acceptable.",
       "label": "Background",
-      "prob": 0.5578264594078064
+      "prob": 0.7859575152397156
     },
     {
-      "sentence": "The emergence of generative AI techniques for natural language generation, such as GPT-2 [73] and GPT-3 [14], have also been reflected in code-centric use cases: Brockschmidt et al.",
+      "sentence": "Given the probabilistic nature of deep learning models, we posit that there will always be some amount of noise in their output; correspondingly, deep generative models that produce code as output may exhibit some amount of deviation from a programmers intentions.",
       "label": "Background",
-      "prob": 0.5547940135002136
+      "prob": 0.7839452624320984
     },
     {
-      "sentence": "We recognize that trust is a complex, multi-faceted construct that has been described as being an attitude [78], an intention [62], and a behavior [1].",
+      "sentence": "Thus, although participants generally said they dont care (P7) about knowing how the translation was produced, explanations of the models mechanics may be helpful for avoiding confusion caused by confidence discrepancies.",
       "label": "Background",
-      "prob": 0.5523590445518494
+      "prob": 0.7751330137252808
     },
     {
-      "sentence": "We discuss three areas relevant to our work: recent advances in the use of AI techniques, and specifically deep generative models, in software engineering; studies of the utility of imperfect AI; and studies of human-AI co-creation with generative AI.",
+      "sentence": "Interestingly, he would tolerate mistakes or errors in the generated documentation.",
       "label": "Background",
-      "prob": 0.5503670573234558
-    },
-    {
-      "sentence": "Participants also described how generative methods could be used to fill in missing documentation to help others understand ones own code, to create an understanding of poorly-documented code, or to re-align documentation with code when drift has occurred [30, 85].",
-      "label": "Background",
-      "prob": 0.5454103946685791
-    },
-    {
-      "sentence": "As a result, participants felt that having an understanding of the mechanics of the NMT model was less important for accepting its output than just reviewing and testing that output.",
-      "label": "Background",
-      "prob": 0.5431844592094421
-    },
-    {
-      "sentence": "Despite identifying favorable outcomes of human-AI partnerships, we note that these outcomes are all subjective: the quality of the generated output lies in the perceptions of the people using the system.",
-      "label": "Background",
-      "prob": 0.5358410477638245
-    },
-    {
-      "sentence": "Participants did identify how to close the loop by using the selection of alternate translations to provide feedback to the NMT model to improve its training.",
-      "label": "Background",
-      "prob": 0.5240148305892944
-    },
-    {
-      "sentence": "Initial descriptive codes were recorded in informal notes on these transcripts, which were then collaboratively reviewed by all authors.",
-      "label": "Background",
-      "prob": 0.5175690054893494
-    },
-    {
-      "sentence": "P2 felt he would be happy with [the NMT model] as long as I get the correct output. All I would be concerned with is... if I had a five, six example test case, if theyre producing the same output.",
-      "label": "Background",
-      "prob": 0.5139789581298828
-    },
-    {
-      "sentence": "We address these questions by considering the use of an NMT model within the context of application modernization [27, 64, 72].",
-      "label": "Background",
-      "prob": 0.512203574180603
+      "prob": 0.7647712826728821
     },
     {
       "sentence": "Participants were also specifically asked what they did and did not like about the interface and how they might improve it.",
       "label": "Background",
-      "prob": 0.5097593069076538
+      "prob": 0.7641260623931885
     },
     {
-      "sentence": "Multiple participants pointed out how this interaction pattern would enable a feedback loop to improve the NMT model (P4, P6, P7).",
+      "sentence": "[81] recently outlined a set of research questions spanning many aspects of human-AI collaboration, such as how tasks should be allocated across both parties and how trust could be established with a machine teammate.",
       "label": "Background",
-      "prob": 0.5078704953193665
+      "prob": 0.7556302547454834
     },
     {
-      "sentence": "Figure 1A shows the base user interaction: a Java function 2 translated into Python using a pre-trained TransCoder model [79].",
+      "sentence": "In addition, several participants noted the importance of coding styles (e.g. variable naming conventions, documentation standards) and the desire for output code to have",
       "label": "Background",
-      "prob": 0.50058913230896
+      "prob": 0.749299168586731
     },
     {
-      "sentence": "Our work examines a different aspect of imperfect AI by focusing on a co-creation scenario that has a lower tolerance for error (e.g. code ought to compile and be free of errors).",
+      "sentence": "Thematic analysis has been used for many kinds of qualitative analysis work in HCI (e.g. [58]).",
       "label": "Background",
-      "prob": 0.49629417061805725
+      "prob": 0.7430052757263184
+    },
+    {
+      "sentence": "There was also an issue with our reconstitution of tokenized code resulting in a discrepancy in an exception message string.",
+      "label": "Background",
+      "prob": 0.7405768036842346
+    },
+    {
+      "sentence": "New unsupervised neural machine translation models have demonstrated the capability for generative AI to translate code from one programming language to another in the software engineering domain.",
+      "label": "Background",
+      "prob": 0.7305315136909485
+    },
+    {
+      "sentence": "Both P1 and P3 were able to identify a logical error in the translated code because they reviewed the alternate translations.",
+      "label": "Background",
+      "prob": 0.7289665341377258
+    },
+    {
+      "sentence": "However, more work is needed to understand how such visualizations and other explanatory methods impact peoples willingness to use generative models and their productivity in using them.",
+      "label": "Background",
+      "prob": 0.7227112650871277
+    },
+    {
+      "sentence": "Given the imperfect output of state-of-the-art NMT models, we posit that such systems will act in concert with human software engineers as a collaborative partner or teammate.",
+      "label": "Background",
+      "prob": 0.7206605076789856
+    },
+    {
+      "sentence": "lack of a corpus of parallel code examples across source and target languages.",
+      "label": "Background",
+      "prob": 0.7179567813873291
+    },
+    {
+      "sentence": "In addition, task-oriented displays of the checklist mentioned by P10 could be used to help organize and track review efforts.",
+      "label": "Background",
+      "prob": 0.7169361710548401
+    },
+    {
+      "sentence": "These comments call out that an AI teammate would be expected to follow the same coding conventions as other members of the team.",
+      "label": "Background",
+      "prob": 0.7148074507713318
+    },
+    {
+      "sentence": "Leveraging the naturalness hypothesis [2]  code is a form of human communication with similar statistical properties as natural languages",
+      "label": "Background",
+      "prob": 0.7128981947898865
+    },
+    {
+      "sentence": "Many participants discussed the issue of trust in software engineering and how practices such as testing and code review help establish trust amongst human teams of software engineers.",
+      "label": "Background",
+      "prob": 0.6986849904060364
+    },
+    {
+      "sentence": "Participants also appreciated the feature of the alternate translation UI in which downstream edits could be made when selecting an alternate translation (e.g. because selecting an alternate may have renamed a variable or changed a loop index).",
+      "label": "Background",
+      "prob": 0.6983686089515686
+    },
+    {
+      "sentence": "That said, participants who did understand that the NMT model was probabilistic, and not rule-based, in nature, were less confused by spurious confidence highlights.",
+      "label": "Background",
+      "prob": 0.6983258724212646
+    },
+    {
+      "sentence": "P7 described how legacy application specifications usually lived in the gray matter storage in other people.",
+      "label": "Background",
+      "prob": 0.6973291039466858
+    },
+    {
+      "sentence": "P9 offered a more nuanced view on who would need to have an understanding of how the AI model operated.",
+      "label": "Background",
+      "prob": 0.6938827037811279
+    },
+    {
+      "sentence": "was born, and P4 spoke of three generations of engineers that dont work here anymore.",
+      "label": "Background",
+      "prob": 0.6936740279197693
+    },
+    {
+      "sentence": "Generative AI techniques are enabling new forms of human-AI co-creation.",
+      "label": "Background",
+      "prob": 0.6859117150306702
+    },
+    {
+      "sentence": "Overall, many participants felt that even the erroneous output was desirable and that it would be something they would find useful to have.",
+      "label": "Background",
+      "prob": 0.6854804158210754
+    },
+    {
+      "sentence": "For each interview, at least two authors reviewed each of the transcripts and notes and independently identified interesting observations.",
+      "label": "Background",
+      "prob": 0.6787413358688354
+    },
+    {
+      "sentence": "Once they saw the alternate translations, they began to understand why the NMT model had highlighted certain tokens as low-confidence: precisely because there were alternate ways of translating those tokens.",
+      "label": "Background",
+      "prob": 0.6766316890716553
     },
     {
       "sentence": "P3 succinctly summarized this point: Even if some things were incorrect in the [translation], I think theres still a potential for the tool saving the developers some time... it doesnt have to be perfect and it doesnt have to necessarily be complete for a tool like this to be effective.",
       "label": "Background",
-      "prob": 0.48961174488067627
+      "prob": 0.6675362586975098
     },
     {
-      "sentence": "Thus, the alternate translations served as explanations for the highlights.",
+      "sentence": "Techniques that help people understand the mechanics of generative models, as well as techniques that are able to generate specific rationales for why a given artifact was generated, could help people further adopt generative models in their own work practices.",
       "label": "Background",
-      "prob": 0.48806923627853394
+      "prob": 0.6662985682487488
     },
     {
-      "sentence": "Future work is needed to investigate different kinds of interaction patterns, including different mixed-initiative patterns [43, 82], to understand their effect on a software engineers productivity and capability.",
-      "label": "Objective",
-      "prob": 0.4788743257522583
-    },
-    {
-      "sentence": "[88] used generative models for learning patches for bug fixes.",
+      "sentence": "Throughout our interviews, participants made a number of suggestions for how generative AI models, as well as the user interfaces that incorporate them, could support these activities.",
       "label": "Background",
-      "prob": 0.4743034243583679
+      "prob": 0.6604040265083313
     },
     {
-      "sentence": "Would people desire to work with a generative AI system knowing that it might produce flawed output, or would they rather do the work themselves?",
+      "sentence": "P7 described how one of the alternatives more explicitly demonstrated the codes functionality: The first [option] is more Pythonic because its taking advantage of the built-in functionality of an array... however this [second option] is far more explicit... this is whats happening behind the scenes.",
       "label": "Background",
-      "prob": 0.47130098938941956
+      "prob": 0.655360996723175
     },
     {
-      "sentence": "Indeed, having an accurate mental model did help participants understand the models confidence levels, and we hypothesize that generative AI user interfaces that provide salient details of a models operation can help people form accurate mental models.",
+      "sentence": "On the other, P0 expressed that errors that werent related to the central problem might interrupt his flow and become distracting if they occurred too often: If Im iterating and I have to stop and fix something else thats not germane to the central problem, that can become annoying if its repetitive.",
       "label": "Background",
-      "prob": 0.46964409947395325
+      "prob": 0.654628336429596
     },
     {
-      "sentence": "As previously mentioned, P1 discovered a logic error: Ah, see there, now there is a mistake in the code. The statement d [ i ] = i is wrong.",
+      "sentence": "We have examined how such a model would be received by software engineers in the context of modernizing legacy applications.",
       "label": "Background",
-      "prob": 0.4667954444885254
+      "prob": 0.6537613272666931
     },
     {
-      "sentence": "The UX variants were designed to resemble a simple programming environment with two code panes: a source pane on the left for input code, and a target pane on the right for the code output by the NMT model.",
+      "sentence": "We initially thought that the translation would produce only content in the form of the translated code.",
       "label": "Background",
-      "prob": 0.4663996994495392
+      "prob": 0.6488322615623474
     },
     {
-      "sentence": "P5 directly asserted, Yes, the imperfect translations are useful.",
+      "sentence": "They recognize the human capacity to err in themselves and their colleagues, and thus have developed processes and ways of working in which these errors are expected: code reviews [9, 63], test-driven development [23, 61], and root-cause analysis [53] are all ways of finding, fixing, and learning from the mistakes that are bound to happen in any software engineering effort.",
       "label": "Background",
-      "prob": 0.466244101524353
+      "prob": 0.6486609578132629
     },
     {
-      "sentence": "P8 similarly suggested, An explanation of why the [model had] low confidence... would be helpful.",
+      "sentence": "Thus, we challenge the community to consider use cases for generative AI that involve improving the state of human understanding of a domain or artifact, rather than considering the only utility of generative models to be the output itself.",
       "label": "Background",
-      "prob": 0.4653888940811157
+      "prob": 0.6480370759963989
     },
     {
-      "sentence": "To probe at this idea, we selected a code sample with an incorrect translation in order to spark discussion on the utility of erroneous output.",
+      "sentence": "Software developers typically work with deterministic tools and a great deal of work goes into ensuring that these tools are highly reliable [19].",
       "label": "Background",
-      "prob": 0.4596315324306488
+      "prob": 0.6473242044448853
     },
     {
-      "sentence": "We also discovered how this information possessed explanatory power, helping participants both understand the codes underlying intent and identify potential errors in the translation.",
+      "sentence": "P10 crystallized this notion by speaking of a checklist, and P7 desired the ability to turn off the highlights after reviewing each one.",
       "label": "Background",
-      "prob": 0.45779189467430115
+      "prob": 0.646028995513916
     },
     {
-      "sentence": "Thus, in our discussions with participants around the topic of trust, our emphasis was on understanding their attitudes toward acceptance of AI-generated code through their expressions of desire to incorporate (or not incorporate) such code in their work  i.e. their willing[ness] to act, rather than their past behavior of having acted, as no participants had previously encountered a code-generating AI system.",
+      "sentence": "In addition, the explanatory power of alternate translations enabled participants to understand why regions of the code were flagged as low confidence, helping them focus their effort toward reviewing those potentially problematic sections.",
       "label": "Background",
-      "prob": 0.45518168807029724
+      "prob": 0.6380505561828613
     },
     {
-      "sentence": "We learned that the low-confidence highlighting (Figure 1B) could also help developers to organize their work.",
+      "sentence": "Initial descriptive codes were recorded in informal notes on these transcripts, which were then collaboratively reviewed by all authors.",
       "label": "Background",
-      "prob": 0.44772931933403015
-    },
-    {
-      "sentence": "Figure 1B shows the first enhancement in which low-confidence tokens in the translated code are highlighted in red.",
-      "label": "Background",
-      "prob": 0.4453350901603699
-    },
-    {
-      "sentence": "[90] show how such scores encourage use of an autonomous system.",
-      "label": "Background",
-      "prob": 0.4451875388622284
-    },
-    {
-      "sentence": "Figure 1C shows the second enhancement in which alternate translations were provided for some of the low-confidence regions.",
-      "label": "Background",
-      "prob": 0.4396204948425293
-    },
-    {
-      "sentence": "We then discuss the four major themes we identified in our data: acceptance through verification, human-AI patterns of interaction, the utility of imperfect AI, and future opportunities for generative AI in application modernization.",
-      "label": "Background",
-      "prob": 0.4393904507160187
+      "prob": 0.6348972320556641
     },
     {
       "sentence": "In addition, the alternate translations had additional explanatory power in helping participants understand the nature of the underlying code.",
       "label": "Background",
-      "prob": 0.43841779232025146
+      "prob": 0.6336346864700317
     },
     {
-      "sentence": "For Figure 1A, we asked participants whether it was important to them to understand how the AI model produced the translation, and whether the AI is doing the right thing in modernizing a legacy app by translating code from one language to another, or whether it should do something else.",
+      "sentence": "way of confidence highlights and alternate translations were also seen as critical ways to help prioritize their review effort.",
       "label": "Background",
-      "prob": 0.43729695677757263
+      "prob": 0.6333403587341309
+    },
+    {
+      "sentence": "[26] discovered that once people observed an automated system make errors, their distrust in the system increased unless an explanation was provided regarding why the system might make an error; however, these explanations also increased trust and reliance on the system even when unwarranted, signaling the importance and difficulty of providing explanations that help people appropriately calibrate their trust.",
+      "label": "Background",
+      "prob": 0.6315117478370667
+    },
+    {
+      "sentence": "Future work should explore how different patterns of interaction and initiative, as well as capabilities beyond code translation, can enable effective human-AI partnerships with generative models that produce better outcomes than what could be accomplished by either party alone.",
+      "label": "Background",
+      "prob": 0.6232791543006897
+    },
+    {
+      "sentence": "Our study identified a number of areas that could be pursued for the use of generative AI in application modernization.",
+      "label": "Background",
+      "prob": 0.6223398447036743
+    },
+    {
+      "sentence": "P3 discussed how he had to manage libraries for the same set of APIs across multiple languages: Were up to nine different languages now total and and each one seems to have its own, like, name capitalization conventions and things like that.",
+      "label": "Background",
+      "prob": 0.6142144799232483
+    },
+    {
+      "sentence": "[88]s work on learning bug-fixing patches and TransCoder [79]  are often capable of producing high-quality source code, the code that they generate may not always be error-free 1 .",
+      "label": "Background",
+      "prob": 0.6116420030593872
+    },
+    {
+      "sentence": "In discussing whether they would accept code produced by the NMT model, participants felt that they would treat it in the same fashion that they would treat the output of their fellow software developers: by reviewing and testing it.",
+      "label": "Background",
+      "prob": 0.6075713038444519
+    },
+    {
+      "sentence": "Alternate translations also helped participants identify errors in the translation by showing them alternatives that the translator had considered.",
+      "label": "Background",
+      "prob": 0.6074270009994507
+    },
+    {
+      "sentence": "The two other authors took running notes in a shared online document and occasionally stepped in to ask clarifying questions, probe deeper on topics of interest, or provide technical explanations for how the translation algorithm worked.",
+      "label": "Background",
+      "prob": 0.6049780249595642
+    },
+    {
+      "sentence": "P5 directly asserted, Yes, the imperfect translations are useful.",
+      "label": "Background",
+      "prob": 0.6027036905288696
+    },
+    {
+      "sentence": "They found that, even when the system was only 50% accurate (i.e. randomly guessing), users who expected a reduction in the false positive rate had a lower perception of accuracy and lower acceptance of the system than users who expected a reduction in the false negative rate.",
+      "label": "Background",
+      "prob": 0.6017175316810608
+    },
+    {
+      "sentence": "As described in Section 5.0.1, one of the main challenges in migrating legacy applications is due to the fact that code and code architectures are undocumented, (P4) with specifications sometimes living in the gray matter storage (P7) of engineers that dont work here anymore (P4).",
+      "label": "Background",
+      "prob": 0.6002639532089233
+    },
+    {
+      "sentence": "Participants were informed that the translation results were produced by an AI system and that the translations may be imperfect.",
+      "label": "Background",
+      "prob": 0.5957483649253845
+    },
+    {
+      "sentence": "P4 summarized his ideal interplay between human and machine: Focus on letting the machine do the stuff thats really easy and letting a human help out with the parts that are less easy.",
+      "label": "Background",
+      "prob": 0.5911076068878174
+    },
+    {
+      "sentence": "The UI also contained a feature to make relevant downstream edits when selecting an alternate translation (e.g. renaming all instances of a variable), as the selection of an alternate often carried consequences for other parts of the code.",
+      "label": "Background",
+      "prob": 0.5903934836387634
+    },
+    {
+      "sentence": "This discrepancy in confidence, in which participants were more confident in their own abilities to translate the code than the NMT model, caused many participants to desire additional insight into why the NMT model was not confident.",
+      "label": "Background",
+      "prob": 0.5884840488433838
+    },
+    {
+      "sentence": "[52] examined the effect of giving people control over the types of errors made by an AI meeting request detection system, either by avoiding false positives or false negatives.",
+      "label": "Background",
+      "prob": 0.5850621461868286
+    },
+    {
+      "sentence": "Participants were identified using an internal expertise-location tool that allowed us to find people in a software engineering role with experience in both Java and Python.",
+      "label": "Background",
+      "prob": 0.5729367733001709
+    },
+    {
+      "sentence": "P4 emphasized the utility of this approach: Having something to draw my attention to places where its more likely that theres an error would be super helpful.",
+      "label": "Background",
+      "prob": 0.5706158876419067
+    },
+    {
+      "sentence": "For example, we believe that there is a richer design space in which AI translations can be provided at a number of different granularities, from highly-automated, bulk translation of large codebases to highly-controlled, real-time translation of code as it is being written.",
+      "label": "Background",
+      "prob": 0.5652673244476318
+    },
+    {
+      "sentence": "We begin by highlighting the difficulties faced by our software engineers in modernizing legacy applications, motivating the need for AI support.",
+      "label": "Background",
+      "prob": 0.5632298588752747
+    },
+    {
+      "sentence": "P4 described application modernization as a rats nest [of] very impossible, undocumented, uncommitted, lots of dead unit tests that hadnt been run [in] year[s] kind of situation, and complained that there was an architecture at some point... then you had other folks come along and write additional pieces that... kind of go their own way.",
+      "label": "Background",
+      "prob": 0.5620644092559814
+    },
+    {
+      "sentence": "Instead of viewing the review and correction of the translated code as additional effort, they felt that the skeletal framework provided by the NMT model would be a useful starting place that they could then adjust and correct as necessary, as they usually do with code produced by their colleagues (e.g. as discussed by P4).",
+      "label": "Background",
+      "prob": 0.5607609152793884
     },
     {
       "sentence": "In this paper, we adopt the AI-focused attitudinal view espoused by Madsen and Gregor [59], that trust is the extent to which a user is confident in, and willing to act on the basis of, the recommendations, actions, and decisions of an artificially intelligent decision aid.",
       "label": "Background",
-      "prob": 0.4349508285522461
+      "prob": 0.5493204593658447
     },
     {
-      "sentence": "Next, we developed more integrative codes (similar to grounded theory axial codes) using a shared online document and visual collaboration tools.",
-      "label": "Method",
-      "prob": 0.4428095817565918
+      "sentence": "On one hand, P5 felt that I think it would still be worth using the tool if the only problems were small things like that, little nitpickings.",
+      "label": "Background",
+      "prob": 0.5453073382377625
+    },
+    {
+      "sentence": "After reviewing all three UX variants, we asked participants to brainstorm with us on broader applications of generative AI in application modernization.",
+      "label": "Background",
+      "prob": 0.5408531427383423
+    },
+    {
+      "sentence": "Participants were eager to accept help from an imperfect AI assistant (e.g. as discussed by P2 & P3).",
+      "label": "Background",
+      "prob": 0.5406495332717896
+    },
+    {
+      "sentence": "One way of producing such explanations is via the alternate translations shown in Figure 1C.",
+      "label": "Background",
+      "prob": 0.5396423935890198
+    },
+    {
+      "sentence": "As described by P4, If I had [it] sort of laid out with a diff, I might just be able to parse it visually a little better.",
+      "label": "Background",
+      "prob": 0.5343993902206421
+    },
+    {
+      "sentence": "For each UX variant, we asked participants about what they liked and disliked and how they might improve the design.",
+      "label": "Background",
+      "prob": 0.5267226696014404
+    },
+    {
+      "sentence": "For example, participants desired a stronger visual correspondence between the source and translated code to understand how one flowed from the other.",
+      "label": "Background",
+      "prob": 0.5248781442642212
+    },
+    {
+      "sentence": "Our scenario used real output from TransCoder that contained flaws.",
+      "label": "Background",
+      "prob": 0.5240177512168884
+    },
+    {
+      "sentence": "First, we discussed the participants background, their level of experience with both Java and Python, and their experiences in modernizing legacy applications.",
+      "label": "Background",
+      "prob": 0.5198126435279846
+    },
+    {
+      "sentence": "Participants identified many opportunities for generative models to aid the overall application modernization workflow of building understanding, performing the migration, and reviewing & testing.",
+      "label": "Background",
+      "prob": 0.518966794013977
+    },
+    {
+      "sentence": "P7 commented, the AIs letting me know... its best if you change it in multiple locations in order to be consistent.",
+      "label": "Background",
+      "prob": 0.5114825963973999
+    },
+    {
+      "sentence": "Participants werent told that it was a deep learning-based NMT model that produced the translation, so many assumed the translation was produced by a rule-based system.",
+      "label": "Background",
+      "prob": 0.5086780786514282
+    },
+    {
+      "sentence": "P6 further imagined that Im just going to rewrite this and through my action the AI can learn.",
+      "label": "Background",
+      "prob": 0.5058186054229736
+    },
+    {
+      "sentence": "P4 specifically called out how code reviews are used to give people feedback to improve their skills and how such reviews could be used to improve the NMT model.",
+      "label": "Background",
+      "prob": 0.5046067237854004
+    },
+    {
+      "sentence": "These flaws provided a degree of realism to our study; several participants actually discovered these errors during the study, leading to discussions on the utility of imperfect AI.",
+      "label": "Background",
+      "prob": 0.5010617971420288
+    },
+    {
+      "sentence": "Similarly, P6 said, If its trying to highlight that its really not sure that its done a good job here then I should pay attention to this piece and see if it makes sense.",
+      "label": "Background",
+      "prob": 0.4978354573249817
+    },
+    {
+      "sentence": "P6: As long as it is giving me a head start of any sort I will take it because for me the overhead to write such comments for every function that I code is very high. As you can imagine in a practical system there is going to be hundreds of such functions... its a lot of human hours.",
+      "label": "Background",
+      "prob": 0.48954150080680847
+    },
+    {
+      "sentence": "Our research focuses on understanding the extent to which generative models are still useful to human stakeholders despite their potential to produce imperfect output.",
+      "label": "Background",
+      "prob": 0.4802662134170532
+    },
+    {
+      "sentence": "Figure 1B shows the first enhancement in which low-confidence tokens in the translated code are highlighted in red.",
+      "label": "Background",
+      "prob": 0.46798205375671387
+    },
+    {
+      "sentence": "Motivated by these studies, we also consider the effect that confidence and translation alternatives (which have explanatory power, discussed in Section 5.1.2) have on the utility and acceptance of a generative AI system.",
+      "label": "Background",
+      "prob": 0.4676513373851776
+    },
+    {
+      "sentence": "For Figure 1A, we asked participants whether it was important to them to understand how the AI model produced the translation, and whether the AI is doing the right thing in modernizing a legacy app by translating code from one language to another, or whether it should do something else.",
+      "label": "Background",
+      "prob": 0.4652077257633209
+    },
+    {
+      "sentence": "We learned that the low-confidence highlighting (Figure 1B) could also help developers to organize their work.",
+      "label": "Background",
+      "prob": 0.45597565174102783
+    },
+    {
+      "sentence": "We recognize that some work has been done in this space, such as in visualizing how transformer models produce their output (e.g. [42]).",
+      "label": "Background",
+      "prob": 0.45530635118484497
+    },
+    {
+      "sentence": "Some participants had questions about the underlying mechanics of the NMT model, as they were curious how it works (P5) and would like to know what its thinking (P10).",
+      "label": "Background",
+      "prob": 0.4543633460998535
+    },
+    {
+      "sentence": "Figure 1C shows the second enhancement in which alternate translations were provided for some of the low-confidence regions.",
+      "label": "Background",
+      "prob": 0.44651341438293457
+    },
+    {
+      "sentence": "Many participants also pointed out how edits to low-confidence translated code could serve as feedback to the NMT model to improve its training.",
+      "label": "Result",
+      "prob": 0.4486599564552307
+    },
+    {
+      "sentence": "P1 was surprised that the model was not confident in some of the punctuation tokens: Why is the left bracket after the return... why is that not so confident... its not even an identifier... the double quote in that string there, thats a funny one too.",
+      "label": "Background",
+      "prob": 0.4327004551887512
+    },
+    {
+      "sentence": "5.0.1 Challenges of Modernizing Legacy Applications.",
+      "label": "Background",
+      "prob": 0.42993593215942383
+    },
+    {
+      "sentence": "Our interviews generated a wealth of material: 11 hours of recorded videos, approximately 63 pages of notes, and a corpus of approximately 400 pages of interview transcripts containing about 89k words.",
+      "label": "Result",
+      "prob": 0.44779255986213684
+    },
+    {
+      "sentence": "Similarly, P10 would make my edits, and... that would help train the model.",
+      "label": "Background",
+      "prob": 0.41971614956855774
+    },
+    {
+      "sentence": "To probe at this idea, we selected a code sample with an incorrect translation in order to spark discussion on the utility of erroneous output.",
+      "label": "Background",
+      "prob": 0.4179772138595581
+    },
+    {
+      "sentence": "One author led each interview, guiding participants through each phase and asking all interview questions.",
+      "label": "Background",
+      "prob": 0.41693612933158875
+    },
+    {
+      "sentence": "In this paper, we focus on TransCoder [79], an unsupervised neural machine translation (NMT) model that transforms source code from one programming language to another.",
+      "label": "Background",
+      "prob": 0.41102373600006104
+    },
+    {
+      "sentence": "P3 expected that the translator would be able to define this def function signature line with the function name correct, but expressed confusion when the translator wasnt as confident as it could be.",
+      "label": "Background",
+      "prob": 0.4087332487106323
+    },
+    {
+      "sentence": "We then discuss the four major themes we identified in our data: acceptance through verification, human-AI patterns of interaction, the utility of imperfect AI, and future opportunities for generative AI in application modernization.",
+      "label": "Background",
+      "prob": 0.40861275792121887
+    },
+    {
+      "sentence": "Overwhelmingly, they felt that a tool that could do code translation work within the application modernization context would be useful as it would help them get their own work done more quickly and effectively (e.g. as discussed by P3).",
+      "label": "Background",
+      "prob": 0.4045558273792267
     },
     {
       "sentence": "Token-level confidences were extracted from TransCoder and presented as tooltips that displayed on mouse hover.",
       "label": "Background",
-      "prob": 0.41950953006744385
+      "prob": 0.40156710147857666
     },
     {
-      "sentence": "Interface features such as confidence highlighting helped steer human attention toward potentially problematic areas, and alternate translations provided explanatory power for why a segment of translated code was rated as low confidence by the model; in addition, alternate translations provided clues toward the semantic meaning of the code and helped participants find logical errors in it.",
+      "sentence": "Some of this work has examined the extent to which deep generative models provide humans with augmented capabilities, addressing the question of the extent to which the human-AI team produces outcomes better than those produced by either party alone (e.g. [29, 37, 57, 70, 92, 100]).",
       "label": "Background",
-      "prob": 0.4181806147098541
+      "prob": 0.4000476002693176
     },
     {
-      "sentence": "5.2.2 Alternate Translations as Explanations and Quick Fixes.",
-      "label": "Other",
-      "prob": 0.4590311050415039
-    },
-    {
-      "sentence": "The interviews lasted one hour and consisted of three phases.",
+      "sentence": "Many participants were initially skeptical of the accuracy and value of the confidence highlights (P1, P2, P3, P5, P7, P9).",
       "label": "Background",
-      "prob": 0.40306979417800903
+      "prob": 0.3999518156051636
     },
     {
-      "sentence": "Participants identified the importance of being able to give feedback (P4), such as by unflag[ing] (P7) low-confidence tokens identified by the NMT model.",
+      "sentence": "In addition, our finding that acceptance of a models output is established through verification, rather than explanation of the models operation, is not meant to diminish the importance of further research and exploration into how generative models might explain themselves, their operation, and their limitations.",
       "label": "Result",
-      "prob": 0.40966132283210754
+      "prob": 0.4629477262496948
     },
     {
-      "sentence": "P3 expressed the same sentiment, I guess Im a little curious how it works, but maybe I dont wanna know [how it really works].",
-      "label": "Other",
-      "prob": 0.47146907448768616
-    },
-    {
-      "sentence": "We find their question of how to determine",
-      "label": "Background",
-      "prob": 0.39112573862075806
-    },
-    {
-      "sentence": "We conducted an interview study with software engineers in which we used the design scenario to spark discussions around the role of generative AI in application modernization.",
-      "label": "Background",
-      "prob": 0.3904569745063782
-    },
-    {
-      "sentence": "P6 described how generative methods could help him form a clearer picture of system architecture: If AI could actually somehow... help me keep track of how the current function Im looking at fits into the bigger picture... I think thats really beneficial.",
-      "label": "Background",
-      "prob": 0.3843483030796051
+      "sentence": "P4 described how generative methods could be used to reverse engineer the architecture programmatically and deal with dead codebases.",
+      "label": "Method",
+      "prob": 0.4569770097732544
     },
     {
       "sentence": "Much of the recent focus of the generative AI community has been on developing new capabilities and exploring their applications in creative domains such as art [29, 51, 70, 92], photography [10], music [45, 57], video games [37], and literature [21], as well as scientific domains such as drug discovery [24], materials discovery [98], and software engineering [69].",
       "label": "Background",
-      "prob": 0.3822838366031647
-    },
-    {
-      "sentence": "Thus, we questioned whether we would encounter 9",
-      "label": "Other",
-      "prob": 0.4285220205783844
-    },
-    {
-      "sentence": "P6: Its very tedious to write these comments... It really takes so much time... If the AI generated this for me I think that is gonna be really helpful.",
-      "label": "Other",
-      "prob": 0.4328869581222534
-    },
-    {
-      "sentence": "He described a situation in which individual contributors working on a code conversion task dont have to understand how the background of the application of the AI works, [because] they have to do the conversion [task].",
-      "label": "Other",
-      "prob": 0.39740338921546936
-    },
-    {
-      "sentence": "On one hand, P5 felt that I think it would still be worth using the tool if the only problems were small things like that, little nitpickings.",
-      "label": "Other",
-      "prob": 0.5238714218139648
-    },
-    {
-      "sentence": "In this way, the NMT model can work collaboratively with the human: the model proposes multiple solutions, the human chooses one, and if necessary, the model follows-through to make a series of changes that are consistent with one another.",
-      "label": "Method",
-      "prob": 0.4544358551502228
-    },
-    {
-      "sentence": "We observed that discrepancies between our participants mental models and the actual operation of the NMT model was a source of confusion.",
-      "label": "Result",
-      "prob": 0.5577945709228516
-    },
-    {
-      "sentence": "Each interview was attended by at least three of the authors.",
-      "label": "Result",
-      "prob": 0.37015199661254883
-    },
-    {
-      "sentence": "Through a thematic analysis [12, 22], we identified four themes when considering the design of user experiences that leverage generative models in software engineering: acceptance through verification, human-AI patterns of interaction, the utility of imperfect AI, and future opportunities for generative AI in application modernization.",
-      "label": "Background",
-      "prob": 0.3612666726112366
-    },
-    {
-      "sentence": "In this paper, we focus on TransCoder [79], an unsupervised neural machine translation (NMT) model that transforms source code from one programming language to another.",
-      "label": "Objective",
-      "prob": 0.563809871673584
-    },
-    {
-      "sentence": "architects overseeing the entire project have to know how this AI is working because they are the ones responsible for making this [code translation] project [happen].",
-      "label": "Other",
-      "prob": 0.5405175685882568
-    },
-    {
-      "sentence": "[13] proposed generative models for source code, and Tufano et al.",
-      "label": "Other",
-      "prob": 0.38170745968818665
-    },
-    {
-      "sentence": "For Figure 1B, we asked participants if they understood why the highlighted tokens were highlighted, and what other information could help them better understand the AIs confidence.",
-      "label": "Background",
-      "prob": 0.3527531921863556
+      "prob": 0.3898543417453766
     },
     {
       "sentence": "P10 described, If you had a library that you know was in another language and you want to use it, but they dont have it in your language, thats great.",
       "label": "Other",
-      "prob": 0.5238445401191711
+      "prob": 0.4437401294708252
     },
     {
-      "sentence": "One author led each interview, guiding participants through each phase and asking all interview questions.",
-      "label": "Method",
-      "prob": 0.4207308888435364
-    },
-    {
-      "sentence": "P6 touched on the importance of evaluating the model based on the quality of its output: I dont really care [how it works]. If its magic, Im very happy with it.",
-      "label": "Background",
-      "prob": 0.3425275981426239
-    },
-    {
-      "sentence": "They found that, even when the system was only 50% accurate (i.e. randomly guessing), users who expected a reduction in the false positive rate had a lower perception of accuracy and lower acceptance of the system than users who expected a reduction in the false negative rate.",
+      "sentence": "P2 described how the translations, even with small mistakes, were preferable to manually rewriting code.",
       "label": "Result",
-      "prob": 0.5617601275444031
+      "prob": 0.47466665506362915
     },
     {
-      "sentence": "As asserted by P7, You have rules that are driving this confidence [feature].",
-      "label": "Other",
-      "prob": 0.5759317874908447
+      "sentence": "Our work examines a different aspect of imperfect AI by focusing on a co-creation scenario that has a lower tolerance for error (e.g. code ought to compile and be free of errors).",
+      "label": "Objective",
+      "prob": 0.47672367095947266
     },
     {
-      "sentence": "[6] both discuss how confidence scores can help calibrate peoples trust in an AI model, and Verame et al.",
-      "label": "Other",
-      "prob": 0.5380697846412659
+      "sentence": "The process of using these models to perform an initial translation, followed by manual correction, could provide a corpus of correctly-translated code that would enable supervised training, resulting in further quality improvements to the translator.",
+      "label": "Result",
+      "prob": 0.3821297287940979
     },
     {
-      "sentence": "Participants represented a diverse range of roles and technical backgrounds: Research Scientist in AI (P1); Software Engineer in AI (P0, P2, P6), Infrastructure Security (P5), and Mainframe (P9); Senior Software Engineer in Front-end Development (P10), Cloud (P3), and Healthcare (P7); and Software Architect in AI (P4) and Cloud (P8).",
+      "sentence": "We recruited 11 full-time software engineers within our organization, an international information technology company.",
       "label": "Background",
-      "prob": 0.33338961005210876
+      "prob": 0.375070184469223
+    },
+    {
+      "sentence": "As the three UX variants built conceptually on top of each other, they were shown in the same order to each participant (A, B, C).",
+      "label": "Result",
+      "prob": 0.3886861205101013
+    },
+    {
+      "sentence": "P5 pointed out that, If you used this [confidence highlighting] on a big code base... you could know where to look, where there might be problems.",
+      "label": "Background",
+      "prob": 0.3650559186935425
+    },
+    {
+      "sentence": "We also discovered how this information possessed explanatory power, helping participants both understand the codes underlying intent and identify potential errors in the translation.",
+      "label": "Result",
+      "prob": 0.41934138536453247
+    },
+    {
+      "sentence": "As summarized by P6, If its egregiously wrong then no, Id rather do it myself. But as long as its giving me a head start of any sort, Ill take it.",
+      "label": "Other",
+      "prob": 0.40879398584365845
+    },
+    {
+      "sentence": "Our study is a preliminary examination of how probabilistic generative models can be applied to a use case that requires an objective level of quality.",
+      "label": "Background",
+      "prob": 0.361694872379303
+    },
+    {
+      "sentence": "Next, we developed more integrative codes (similar to grounded theory axial codes) using a shared online document and visual collaboration tools.",
+      "label": "Method",
+      "prob": 0.3688286542892456
+    },
+    {
+      "sentence": "To explore the utility of NMT models, we conducted a series of scenario-based design interviews with 11 professional software engineers who work across a variety of technology areas.",
+      "label": "Background",
+      "prob": 0.35778430104255676
+    },
+    {
+      "sentence": "[57] found that people working with a generative model to produce musical compositions felt a greater sense of self-efficacy and ownership of their compositions.",
+      "label": "Result",
+      "prob": 0.5142570734024048
+    },
+    {
+      "sentence": "We note that our system only examined one kind of human-AI interaction pattern, in which the human provided code and the translator produced a translation.",
+      "label": "Result",
+      "prob": 0.5110812783241272
+    },
+    {
+      "sentence": "Participants did identify how to close the loop by using the selection of alternate translations to provide feedback to the NMT model to improve its training.",
+      "label": "Result",
+      "prob": 0.48533546924591064
+    },
+    {
+      "sentence": "We developed an exploratory design scenario in order to engage software engineers in a discussion about the role of generative AI in application modernization.",
+      "label": "Background",
+      "prob": 0.35261040925979614
+    },
+    {
+      "sentence": "Understanding the models operation could also eliminate some of the confusion caused by the confidence highlights in Figure 1B.",
+      "label": "Background",
+      "prob": 0.34858202934265137
+    },
+    {
+      "sentence": "Each variant appeared as a partially-functional prototype, through which participants could explore features of interest.",
+      "label": "Result",
+      "prob": 0.5267216563224792
+    },
+    {
+      "sentence": "P9 emphasized how the alternate translations provided an educational opportunity while doing code modernization work because having new options makes it much more easy for me to explore newer methods in the newer language.",
+      "label": "Result",
+      "prob": 0.3951842784881592
+    },
+    {
+      "sentence": "5.2.2 Alternate Translations as Explanations and Quick Fixes.",
+      "label": "Background",
+      "prob": 0.33686569333076477
+    },
+    {
+      "sentence": "P3 described how there may be individual differences in the value people derive from NMT translations.",
+      "label": "Result",
+      "prob": 0.4388822913169861
+    },
+    {
+      "sentence": "The interviews lasted one hour and consisted of three phases.",
+      "label": "Result",
+      "prob": 0.45776262879371643
+    },
+    {
+      "sentence": "Future work is needed to investigate different kinds of interaction patterns, including different mixed-initiative patterns [43, 82], to understand their effect on a software engineers productivity and capability.",
+      "label": "Objective",
+      "prob": 0.483548104763031
+    },
+    {
+      "sentence": "Participants identified the importance of being able to give feedback (P4), such as by unflag[ing] (P7) low-confidence tokens identified by the NMT model.",
+      "label": "Result",
+      "prob": 0.3814699053764343
+    },
+    {
+      "sentence": "For example, P6 described how understanding the models operation might help him achieve better outcomes: I might want to have the option to look into what the AI is doing just so I can interpret or prepare my code better for the translation.",
+      "label": "Background",
+      "prob": 0.326662540435791
+    },
+    {
+      "sentence": "We observed that discrepancies between our participants mental models and the actual operation of the NMT model was a source of confusion.",
+      "label": "Result",
+      "prob": 0.5561975836753845
+    },
+    {
+      "sentence": "Interface features such as confidence highlighting helped steer human attention toward potentially problematic areas, and alternate translations provided explanatory power for why a segment of translated code was rated as low confidence by the model; in addition, alternate translations provided clues toward the semantic meaning of the code and helped participants find logical errors in it.",
+      "label": "Result",
+      "prob": 0.5334740281105042
+    },
+    {
+      "sentence": "We conducted an interview study with software engineers in which we used the design scenario to spark discussions around the role of generative AI in application modernization.",
+      "label": "Background",
+      "prob": 0.3194732666015625
+    },
+    {
+      "sentence": "We conducted a thematic analysis of our data to identify important ideas and themes from our interviews.",
+      "label": "Background",
+      "prob": 0.316514253616333
+    },
+    {
+      "sentence": "Next, we showed each UX variant and allowed them to explore the interface while thinking aloud to capture their general impressions.",
+      "label": "Result",
+      "prob": 0.3282153904438019
+    },
+    {
+      "sentence": "resistance to a tool that was not guaranteed to produce correct results.",
+      "label": "Result",
+      "prob": 0.4725630283355713
+    },
+    {
+      "sentence": "P4 also gained insight by comparing two alternate translations: This is clearly... toggling between those two styles of iteration... its interesting to see what the AI is... thinking between these two different programming constructs.",
+      "label": "Result",
+      "prob": 0.47833991050720215
+    },
+    {
+      "sentence": "We discuss three areas relevant to our work: recent advances in the use of AI techniques, and specifically deep generative models, in software engineering; studies of the utility of imperfect AI; and studies of human-AI co-creation with generative AI.",
+      "label": "Background",
+      "prob": 0.3012523651123047
+    },
+    {
+      "sentence": "P1 expressed the same sentiment, citing efficiency gains as a reason for accepting the models output without understanding how it was produced.",
+      "label": "Result",
+      "prob": 0.4892727732658386
+    },
+    {
+      "sentence": "The emergence of generative AI techniques for natural language generation, such as GPT-2 [73] and GPT-3 [14], have also been reflected in code-centric use cases: Brockschmidt et al.",
+      "label": "Other",
+      "prob": 0.5988933444023132
+    },
+    {
+      "sentence": "[90] show how such scores encourage use of an autonomous system.",
+      "label": "Result",
+      "prob": 0.45368778705596924
+    },
+    {
+      "sentence": "Generating a whole slew of automated unit tests (P4) as well as more realistic test values (P3) ensures that the right hand side code not only runs and doesnt crash but produces expected output (P4).",
+      "label": "Result",
+      "prob": 0.4582386910915375
+    },
+    {
+      "sentence": "Thus, in our discussions with participants around the topic of trust, our emphasis was on understanding their attitudes toward acceptance of AI-generated code through their expressions of desire to incorporate (or not incorporate) such code in their work  i.e. their willing[ness] to act, rather than their past behavior of having acted, as no participants had previously encountered a code-generating AI system.",
+      "label": "Result",
+      "prob": 0.3336925804615021
+    },
+    {
+      "sentence": "As discussed by Wolf [97, p. 252], scenario-based design [is] a method that anticipates and leverages scenarios of possible use early on in system development. (italics in original).",
+      "label": "Method",
+      "prob": 0.42026016116142273
+    },
+    {
+      "sentence": "P6: Its very tedious to write these comments... It really takes so much time... If the AI generated this for me I think that is gonna be really helpful.",
+      "label": "Other",
+      "prob": 0.5357446074485779
+    },
+    {
+      "sentence": "Although the import of generative capabilities may seem to be about the production of an artifact itself, we found that they instead may also be a means rather than just an end .",
+      "label": "Result",
+      "prob": 0.6119279265403748
+    },
+    {
+      "sentence": "For Figure 1B, we asked participants if they understood why the highlighted tokens were highlighted, and what other information could help them better understand the AIs confidence.",
+      "label": "Result",
+      "prob": 0.4206344187259674
     },
     {
       "sentence": "We followed the process described by Braun and Clarke [12, 22] in which researchers familiarize themselves with their data, generate and group codes to identify higher-level themes, and iteratively refine codes and themes through collaborative discussion.",
       "label": "Method",
-      "prob": 0.45464158058166504
+      "prob": 0.5495303273200989
     },
     {
-      "sentence": "The alternate translations were obtained from TransCoder, which can generate multiple translations using beam search decoding [79].",
-      "label": "Other",
-      "prob": 0.40823742747306824
-    },
-    {
-      "sentence": "Additional support provided by the NMT model by 12",
-      "label": "Other",
-      "prob": 0.5155805945396423
-    },
-    {
-      "sentence": "We developed an exploratory design scenario in order to engage software engineers in a discussion about the role of generative AI in application modernization.",
-      "label": "Objective",
-      "prob": 0.5582051873207092
-    },
-    {
-      "sentence": "P6 further imagined that Im just going to rewrite this and through my action the AI can learn.",
-      "label": "Other",
-      "prob": 0.5776119232177734
-    },
-    {
-      "sentence": "Our research focuses on understanding the extent to which generative models are still useful to human stakeholders despite their potential to produce imperfect output.",
-      "label": "Objective",
-      "prob": 0.6608271598815918
-    },
-    {
-      "sentence": "Generating documentation from source is an active area of research in the machine learning community (e.g. [44, 48, 65, 91]) and our results highlight the importance of this functionality in user experiences, even when generated documentation may be imperfect.",
+      "sentence": "If participants recalled highly-relevant experiences, we delved into more detail about their modernization project, how it was organized, what their role was, and what specific pain points existed in their work.",
       "label": "Result",
-      "prob": 0.557977020740509
+      "prob": 0.3620973229408264
     },
     {
-      "sentence": "Although the system did allow for some subsequent actions by the human (e.g. hovering to see confidence scores or clicking to see alternate translations), our tool falls short of the tightly-coupled human-machine interactions envisioned by some of the informants in Seeber et al.",
-      "label": "Other",
-      "prob": 0.4385618269443512
-    },
-    {
-      "sentence": "That just confuses me because this line of code is syntactically correct. I would write that line of code with 100% confidence. Im confused about why the translator would be confused about that assignment. (P0)",
-      "label": "Other",
-      "prob": 0.5471523404121399
-    },
-    {
-      "sentence": "5.2.1 Translation Meta-Information Guides Human Task Management.",
-      "label": "Other",
-      "prob": 0.6234977841377258
-    },
-    {
-      "sentence": "P2 said, [If its] 42% confident about this translation, maybe... [there could be] a link that you could click on to see why it is not confident.",
-      "label": "Other",
-      "prob": 0.4404606819152832
-    },
-    {
-      "sentence": "Three participants presented as women; the other eight presented as men.",
+      "sentence": "P3 discussed how the NMT model could fit into a workflow for translating a large codebase.",
       "label": "Result",
-      "prob": 0.5509616732597351
+      "prob": 0.5556954145431519
     },
     {
-      "sentence": "Participants described the lifecycle of modernizing applications as consisting of three general phases: (1) creating an understanding of the legacy application and its architecture by reviewing code and documentation; (2) performing the migration work, which may include translating and/or refactoring the code; and (3) reviewing and testing the migrated code.",
-      "label": "Objective",
-      "prob": 0.2716423273086548
-    },
-    {
-      "sentence": "P9 explained, I work on an application which was written before I 6",
-      "label": "Other",
-      "prob": 0.5429095029830933
-    },
-    {
-      "sentence": "As discussed in Section 5.1.1, testing seems to be one of the primary ways that software engineers will accept and use AI-translated code: Im very much a supporter of test-driven development, which typically means you write tests that validate behavior. (P3).",
-      "label": "Other",
-      "prob": 0.5830054879188538
-    },
-    {
-      "sentence": "For Figure 1C, we asked participants if they understood why the AI produced the alternatives it produced, and what other information could help them better understand how those alternatives were generated.",
+      "sentence": "The presence of the alternate translations seemed to provide an implicit explanation that helped participants better understand the model.",
       "label": "Result",
-      "prob": 0.32279595732688904
+      "prob": 0.6627179980278015
     },
     {
-      "sentence": "P5 questioned, Why is it highlighting so many of these comments?",
-      "label": "Other",
-      "prob": 0.6809514164924622
-    },
-    {
-      "sentence": "In recent years, several efforts have focused on the use of AI and machine learning techniques for various tasks related to software engineering, including code completion [15, 41, 75, 84], code classification [49, 68], API recommendation [16, 33], variable and method naming [3, 5], type inference [39, 93], bug detection and repair [25, 40, 71, 74, 89, 95], comment description and generation [4, 44, 48, 65, 80, 91], code change summarization [66], and code clone detection [96].",
+      "sentence": "Through a thematic analysis [12, 22], we identified four themes when considering the design of user experiences that leverage generative models in software engineering: acceptance through verification, human-AI patterns of interaction, the utility of imperfect AI, and future opportunities for generative AI in application modernization.",
       "label": "Result",
-      "prob": 0.3701285123825073
+      "prob": 0.4119412302970886
     },
     {
-      "sentence": "This notion was best summarized by P4.",
+      "sentence": "As a seed to the brainstorm, we showed three examples of how generative AI might provide unique value: translating complex algorithms, translating large codebases, and converting 3rd party library usage across languages.",
+      "label": "Result",
+      "prob": 0.515471875667572
+    },
+    {
+      "sentence": "P2 felt he would be happy with [the NMT model] as long as I get the correct output. All I would be concerned with is... if I had a five, six example test case, if theyre producing the same output.",
       "label": "Other",
-      "prob": 0.5807193517684937
+      "prob": 0.3217260241508484
     },
     {
-      "sentence": "The use of scenarios to elicit feedback on future UX design has a long history in HCI (e.g. [17, 77]), and recently this method has been applied to the design of AI systems as well (e.g. [8, 55, 97]).",
+      "sentence": "P6 described how his team has strict requirements for writing documentation for every function because it is used to generate Swagger API documentation 3 .",
+      "label": "Result",
+      "prob": 0.3137372136116028
+    },
+    {
+      "sentence": "Many participants described how code translation could be used to take advantage of functionality defined in third party libraries, because the same libraries in Java dont exist in Python, or similar libraries exist but theyre not... syntactically the same. (P0).",
+      "label": "Other",
+      "prob": 0.5077721476554871
+    },
+    {
+      "sentence": "[28] found a similar result, that giving a good reason for a poor recommendation made people more likely to accept that poor recommendation.",
+      "label": "Result",
+      "prob": 0.6252177357673645
+    },
+    {
+      "sentence": "This context is both timely and relevant: timely, because many organizations are currently faced with the problem of how to migrate complex, legacy applications to the cloud when they do not necessarily have the resources or expertise to do so [34, 36]; and relevant, because NMT models can specifically help in the process of translating from legacy languages or application frameworks (e.g. COBOL, J2EE) into modern ones (e.g. Python, Go).",
+      "label": "Other",
+      "prob": 0.4211020767688751
+    },
+    {
+      "sentence": "P8 similarly suggested, An explanation of why the [model had] low confidence... would be helpful.",
+      "label": "Result",
+      "prob": 0.4613124132156372
+    },
+    {
+      "sentence": "In this way, the NMT model can work collaboratively with the human: the model proposes multiple solutions, the human chooses one, and if necessary, the model follows-through to make a series of changes that are consistent with one another.",
       "label": "Method",
-      "prob": 0.6352401375770569
+      "prob": 0.3750298023223877
     },
     {
-      "sentence": "Participants responded positively to the confidence highlights (Figure 1B) and the alternate translations (Figure 1C) and felt that both views were helpful.",
-      "label": "Result",
-      "prob": 0.6828795671463013
-    },
-    {
-      "sentence": "We conducted a thematic analysis of our data to identify important ideas and themes from our interviews.",
-      "label": "Method",
-      "prob": 0.34150630235671997
+      "sentence": "Would people desire to work with a generative AI system knowing that it might produce flawed output, or would they rather do the work themselves?",
+      "label": "Other",
+      "prob": 0.7149767279624939
     },
     {
       "sentence": "When asked whether it was important to understand the mechanism of operation, P7 replied, Personally? I dont care.",
       "label": "Other",
-      "prob": 0.701831042766571
+      "prob": 0.6224339008331299
+    },
+    {
+      "sentence": "Each interview was attended by at least three of the authors.",
+      "label": "Result",
+      "prob": 0.46502354741096497
+    },
+    {
+      "sentence": "The UX variants were designed to resemble a simple programming environment with two code panes: a source pane on the left for input code, and a target pane on the right for the code output by the NMT model.",
+      "label": "Method",
+      "prob": 0.38904812932014465
+    },
+    {
+      "sentence": "We created a series of three progressively-enhancing UX variants within the scenario that illustrated different ways that a software engineer might interact with an NMT model to translate source code from one language to another.",
+      "label": "Method",
+      "prob": 0.4496774673461914
+    },
+    {
+      "sentence": "We recognize that trust is a complex, multi-faceted construct that has been described as being an attitude [78], an intention [62], and a behavior [1].",
+      "label": "Other",
+      "prob": 0.497367262840271
+    },
+    {
+      "sentence": "We also asked specific questions for each variant.",
+      "label": "Result",
+      "prob": 0.4243544042110443
+    },
+    {
+      "sentence": "Multiple participants pointed out how this interaction pattern would enable a feedback loop to improve the NMT model (P4, P6, P7).",
+      "label": "Result",
+      "prob": 0.484051913022995
+    },
+    {
+      "sentence": "P6 described how generative methods could help him form a clearer picture of system architecture: If AI could actually somehow... help me keep track of how the current function Im looking at fits into the bigger picture... I think thats really beneficial.",
+      "label": "Result",
+      "prob": 0.3161233365535736
+    },
+    {
+      "sentence": "Despite the feelings that having an understanding of the NMT models operation wasnt important, we observed that having such understanding does have benefits.",
+      "label": "Result",
+      "prob": 0.694159746170044
+    },
+    {
+      "sentence": "[88] used generative models for learning patches for bug fixes.",
+      "label": "Result",
+      "prob": 0.3607451617717743
+    },
+    {
+      "sentence": "Their comments provided insight into how these features could be used to drive human-AI workflows and how human actions could provide feedback to improve the NMT model.",
+      "label": "Result",
+      "prob": 0.6450044512748718
+    },
+    {
+      "sentence": "The use of scenarios to elicit feedback on future UX design has a long history in HCI (e.g. [17, 77]), and recently this method has been applied to the design of AI systems as well (e.g. [8, 55, 97]).",
+      "label": "Method",
+      "prob": 0.5702952742576599
+    },
+    {
+      "sentence": "Although the system did allow for some subsequent actions by the human (e.g. hovering to see confidence scores or clicking to see alternate translations), our tool falls short of the tightly-coupled human-machine interactions envisioned by some of the informants in Seeber et al.",
+      "label": "Other",
+      "prob": 0.6069960594177246
     },
     {
       "sentence": "A significant portion of this work is recounted in Allamanis et al.",
       "label": "Other",
-      "prob": 0.7112674117088318
+      "prob": 0.714255154132843
     },
     {
-      "sentence": "Participants expressed similar desires to establish trust with the code translation tool.",
-      "label": "Result",
-      "prob": 0.698104739189148
-    },
-    {
-      "sentence": "We also asked specific questions for each variant.",
-      "label": "Method",
-      "prob": 0.40689319372177124
-    },
-    {
-      "sentence": "However, the",
+      "sentence": "new progress in neural machine translation (NMT) has demonstrated how unsupervised techniques can be used to train models that transform source code from one programming language to another [20, 79].",
       "label": "Other",
-      "prob": 0.5832229256629944
+      "prob": 0.6485909223556519
     },
     {
       "sentence": "Our work makes three important contributions:",
       "label": "Other",
-      "prob": 0.6046563386917114
-    },
-    {
-      "sentence": "Indeed, while state-of-the-art NMT models  e.g. Tufano et al.",
-      "label": "Other",
-      "prob": 0.7575322985649109
-    },
-    {
-      "sentence": "I think for someone to start using a tool like this, it would need to prove that its adding some value... It probably varies from person to person. Some people wont be satisfied with anything you give them, and others will be satisfied with if it can be 10% effective in doing translations perhaps. And most people fall somewhere in the middle there. (P3)",
-      "label": "Other",
-      "prob": 0.4591217637062073
-    },
-    {
-      "sentence": "Given that the probabilistic nature of generative models implies the potential for some amount of error in their outputs, we seek to understand the extent to which they may be useful in scenarios that have an objective bar of quality.",
-      "label": "Objective",
-      "prob": 0.7407407164573669
-    },
-    {
-      "sentence": "Thus, the meta-information provided by the existence of a highlight can help steer human activity, complementing Louie et al.",
-      "label": "Other",
-      "prob": 0.7416151762008667
+      "prob": 0.36485007405281067
     },
     {
       "sentence": "Yeah I would [like it]. It makes it much more easier than to just rewrite the code or to hand type the code. Even if it had... little distortions, like extra spaces, which can be easy to fix... I would rather do that instead of rewriting everything from scratch. (P2)",
       "label": "Other",
-      "prob": 0.6595177054405212
+      "prob": 0.6844958662986755
     },
     {
-      "sentence": "These ideas were generated through our pilot testing.",
+      "sentence": "For example, P4 found a string mismatch: There is an actual functional difference here on line 21 of the Python code where theres an extra space inserted into that error string.",
       "label": "Result",
-      "prob": 0.5959768891334534
+      "prob": 0.6866694688796997
     },
     {
-      "sentence": "Finally, P7 discussed how an AI partner might monitor his work and make proactive suggestions: It would be cool if the AI knew what I was trying to build, like a controller or view, and it would finish it for me. Like give me a shell of what Im trying to do so I can fill in the details.",
+      "sentence": "For Figure 1C, we asked participants if they understood why the AI produced the alternatives it produced, and what other information could help them better understand how those alternatives were generated.",
       "label": "Result",
-      "prob": 0.35913369059562683
+      "prob": 0.5925738215446472
     },
     {
-      "sentence": "Interviewer: What if the AI was only able to generate part of it, or maybe sometimes made mistakes...Would you still want to use it... or would you rather just write [it] from scratch?",
+      "sentence": "a standard formatting (P5) because reading other peoples code is much easier when you all adhere to the same standards. (P5).",
       "label": "Other",
-      "prob": 0.7317250370979309
+      "prob": 0.6623287796974182
     },
     {
-      "sentence": "P0 took a more extreme view of reviewing any code  human or NMT-produced  before accepting it, asserting, My developer attitude is trust no one. I mean, if someone hands me a piece of code, I dont trust it. I test it.",
+      "sentence": "P2 said, [If its] 42% confident about this translation, maybe... [there could be] a link that you could click on to see why it is not confident.",
       "label": "Other",
-      "prob": 0.4931107759475708
+      "prob": 0.552849292755127
     },
     {
-      "sentence": "A lot of us in the software development field, we sometimes have the feeling that for a given problem set, we have to solve the entire problem. But, thats not necessarily true... if you can help someone do part of the task... maybe it will be more effective at smaller, less complex code fragments. Then, [as] you get feedback from users, you build into it more intelligence, then maybe it becomes more effective on larger, more complex pieces of code. (P3)",
-      "label": "Result",
-      "prob": 0.3780754506587982
-    },
-    {
-      "sentence": "Our results motivate the need for explainable generative AI.",
-      "label": "Result",
-      "prob": 0.6428225040435791
-    },
-    {
-      "sentence": "It would be different if the i as an index... lets see... is it used? Oh actually it is used... Now theres a mistake the code.. The statement d [ i ] = i, is wrong [but] the other [alternate translation] is correct. (P1)",
+      "sentence": "P9 explained, I work on an application which was written before I 6",
       "label": "Other",
-      "prob": 0.6841791272163391
+      "prob": 0.6385632157325745
+    },
+    {
+      "sentence": "Are there ways that we can leverage generative model state to aid in the detection and correction of errors that do occur?",
+      "label": "Other",
+      "prob": 0.7511395812034607
+    },
+    {
+      "sentence": "They have also been used to produce artifacts such as novel furniture designs [38], packaging designs [47], aircraft compartment partitions [7], and molecules [18, 24, 94].",
+      "label": "Other",
+      "prob": 0.7277335524559021
+    },
+    {
+      "sentence": "Participants represented a diverse range of roles and technical backgrounds: Research Scientist in AI (P1); Software Engineer in AI (P0, P2, P6), Infrastructure Security (P5), and Mainframe (P9); Senior Software Engineer in Front-end Development (P10), Cloud (P3), and Healthcare (P7); and Software Architect in AI (P4) and Cloud (P8).",
+      "label": "Result",
+      "prob": 0.3835351765155792
+    },
+    {
+      "sentence": "Thus, the alternate translations served as explanations for the highlights.",
+      "label": "Result",
+      "prob": 0.6946296691894531
+    },
+    {
+      "sentence": "P3 expressed the same sentiment, I guess Im a little curious how it works, but maybe I dont wanna know [how it really works].",
+      "label": "Other",
+      "prob": 0.7132672667503357
+    },
+    {
+      "sentence": "All participants who were involved in an application modernization project expressed some desire for help, and our focus on the code translation use case positively resonated with them.",
+      "label": "Result",
+      "prob": 0.7582169771194458
+    },
+    {
+      "sentence": "Given that the probabilistic nature of generative models implies the potential for some amount of error in their outputs, we seek to understand the extent to which they may be useful in scenarios that have an objective bar of quality.",
+      "label": "Objective",
+      "prob": 0.7735995054244995
+    },
+    {
+      "sentence": "As discussed in Section 5.1.1, testing seems to be one of the primary ways that software engineers will accept and use AI-translated code: Im very much a supporter of test-driven development, which typically means you write tests that validate behavior. (P3).",
+      "label": "Other",
+      "prob": 0.5808506011962891
+    },
+    {
+      "sentence": "P6 touched on the importance of evaluating the model based on the quality of its output: I dont really care [how it works]. If its magic, Im very happy with it.",
+      "label": "Other",
+      "prob": 0.5976538062095642
+    },
+    {
+      "sentence": "However, our system was solely driven by human initiative.",
+      "label": "Result",
+      "prob": 0.6973761320114136
+    },
+    {
+      "sentence": "[92] found that artwork that was restored with the aid of a generative model was rated as preferable to artwork restored by a human alone.",
+      "label": "Result",
+      "prob": 0.7444602847099304
+    },
+    {
+      "sentence": "As asserted by P7, You have rules that are driving this confidence [feature].",
+      "label": "Other",
+      "prob": 0.749454140663147
     },
     {
       "sentence": "Translation could also help software engineers better understand codebases in languages with which they are less familiar: Ive got a bunch of engineers that know Python, but they dont know Java. So, it might be easier to delve in and spelunk through... auto gen[erated] Python code than it would be to go back and spelunk the original Java. (P4).",
       "label": "Other",
-      "prob": 0.5897369384765625
+      "prob": 0.5094861388206482
     },
     {
-      "sentence": "For example, Louie et al.",
+      "sentence": "[13] proposed generative models for source code, and Tufano et al.",
       "label": "Other",
-      "prob": 0.7941154837608337
+      "prob": 0.6489956974983215
     },
     {
-      "sentence": "[99] and Antifakos et al.",
-      "label": "Other",
-      "prob": 0.7996983528137207
+      "sentence": "These ideas were generated through our pilot testing.",
+      "label": "Result",
+      "prob": 0.547524631023407
     },
     {
-      "sentence": "As discussed by Seeber et al.",
+      "sentence": "5.2.1 Translation Meta-Information Guides Human Task Management.",
       "label": "Other",
-      "prob": 0.7822482585906982
+      "prob": 0.622283399105072
     },
     {
-      "sentence": "One thing that would be really interesting... especially if you are going from a strongly-typed language like Java to something like Python, would be to generate automated unit tests with coverage. That would certainly help probe at places where the AI got it wrong and build trust where it got it right. (P4)",
-      "label": "Other",
-      "prob": 0.6824557185173035
-    },
-    {
-      "sentence": "5.4.1 Creating Understanding.",
-      "label": "Other",
-      "prob": 0.8102364540100098
-    },
-    {
-      "sentence": "As a user, you... accept whats going on here as a useful and correct process and you probably do not even care how its done because it will speed up your work... and at the end of the day, youll say, okay, Im done. (P1)",
-      "label": "Other",
-      "prob": 0.7533813714981079
-    },
-    {
-      "sentence": "s survey of the area [2].",
-      "label": "Other",
-      "prob": 0.8480111956596375
-    },
-    {
-      "sentence": "5.4.3 Reviewing & Testing.",
-      "label": "Other",
-      "prob": 0.8466979265213013
-    },
-    {
-      "sentence": "REFERENCES",
-      "label": "Other",
-      "prob": 0.8192349076271057
-    },
-    {
-      "sentence": "5.1.2 Understanding AI Mechanics.",
-      "label": "Other",
-      "prob": 0.8550972938537598
-    },
-    {
-      "sentence": "5.1.1 Acceptance Through Verification.",
-      "label": "Other",
-      "prob": 0.8157045245170593
-    },
-    {
-      "sentence": "5.4.2 Performing Migration Work.",
-      "label": "Other",
-      "prob": 0.8395860195159912
-    },
-    {
-      "sentence": "If Im going to put my production systems functionality behind this, I really want some degree of trust that this thing is robust... Every piece of code that we put into production has been reviewed by at least one other person. And so we try hard to basically build that trust through review and familiarity in humans... wed need basically the same level of trust for a system like this. (P4)",
-      "label": "Other",
-      "prob": 0.6176038980484009
-    },
-    {
-      "sentence": "The place where I can see something like this being very helpful would be where you really have a truly dead codebase thats just a complete black box that nobody can, or wants, to understand... because for that you need understanding if the goal is to keep the darn thing limping while you transition to something else. (P4)",
-      "label": "Other",
-      "prob": 0.7101541757583618
-    },
-    {
-      "sentence": "3 https://swagger.io",
-      "label": "Other",
-      "prob": 0.8844134211540222
+      "sentence": "However, the",
+      "label": "Result",
+      "prob": 0.5340478420257568
     },
     {
       "sentence": "With humans, you can teach through review...if somebody is continuously making these kind of mistakes, and were catching them in review, that person is going to get annoyed by a million comments... you could probably have some sort of reinforcement or sort of iterative learning in your model that would teach it. (P4)",
       "label": "Other",
-      "prob": 0.7828264832496643
+      "prob": 0.688127338886261
     },
     {
-      "sentence": "Kocielnik et al.",
+      "sentence": "He described a situation in which individual contributors working on a code conversion task dont have to understand how the background of the application of the AI works, [because] they have to do the conversion [task].",
       "label": "Other",
-      "prob": 0.8720700740814209
+      "prob": 0.7407679557800293
     },
     {
-      "sentence": "s study [81].",
-      "label": "Other",
-      "prob": 0.8710305690765381
+      "sentence": "As previously mentioned, P1 discovered a logic error: Ah, see there, now there is a mistake in the code. The statement d [ i ] = i is wrong.",
+      "label": "Result",
+      "prob": 0.6106923818588257
     },
     {
-      "sentence": "Zhang et al.",
+      "sentence": "Thus, the meta-information provided by the existence of a highlight can help steer human activity, complementing Louie et al.",
       "label": "Other",
-      "prob": 0.8626930117607117
+      "prob": 0.7835164666175842
     },
     {
-      "sentence": "Ehrlich et al.",
-      "label": "Other",
-      "prob": 0.8766729235649109
+      "sentence": "5.4.2 Performing Migration Work.",
+      "label": "Result",
+      "prob": 0.33727848529815674
     },
     {
-      "sentence": "Seeber et al.",
-      "label": "Other",
-      "prob": 0.886049211025238
+      "sentence": "Participants expressed similar desires to establish trust with the code translation tool.",
+      "label": "Result",
+      "prob": 0.717616617679596
     },
     {
-      "sentence": "5.1.3 Feedback & Learning.",
-      "label": "Other",
-      "prob": 0.9010933637619019
+      "sentence": "As a result, participants felt that having an understanding of the mechanics of the NMT model was less important for accepting its output than just reviewing and testing that output.",
+      "label": "Result",
+      "prob": 0.8313383460044861
     },
     {
-      "sentence": "Dzindolet et al.",
+      "sentence": "We address these questions by considering the use of an NMT model within the context of application modernization [27, 64, 72].",
       "label": "Other",
-      "prob": 0.893064558506012
+      "prob": 0.6199459433555603
+    },
+    {
+      "sentence": "The place where I can see something like this being very helpful would be where you really have a truly dead codebase thats just a complete black box that nobody can, or wants, to understand... because for that you need understanding if the goal is to keep the darn thing limping while you transition to something else. (P4)",
+      "label": "Other",
+      "prob": 0.6575318574905396
+    },
+    {
+      "sentence": "What characteristics of a user experience are important for facilitating acceptance of a deep generative model and its outputs?",
+      "label": "Other",
+      "prob": 0.8220788240432739
+    },
+    {
+      "sentence": "Despite identifying favorable outcomes of human-AI partnerships, we note that these outcomes are all subjective: the quality of the generated output lies in the perceptions of the people using the system.",
+      "label": "Result",
+      "prob": 0.772724449634552
+    },
+    {
+      "sentence": "Participants described the lifecycle of modernizing applications as consisting of three general phases: (1) creating an understanding of the legacy application and its architecture by reviewing code and documentation; (2) performing the migration work, which may include translating and/or refactoring the code; and (3) reviewing and testing the migrated code.",
+      "label": "Method",
+      "prob": 0.536973237991333
+    },
+    {
+      "sentence": "Finally, P7 discussed how an AI partner might monitor his work and make proactive suggestions: It would be cool if the AI knew what I was trying to build, like a controller or view, and it would finish it for me. Like give me a shell of what Im trying to do so I can fill in the details.",
+      "label": "Result",
+      "prob": 0.45342475175857544
+    },
+    {
+      "sentence": "s notion of how humans may steer the output of a generative model [57].",
+      "label": "Other",
+      "prob": 0.8088433146476746
+    },
+    {
+      "sentence": "A lot of us in the software development field, we sometimes have the feeling that for a given problem set, we have to solve the entire problem. But, thats not necessarily true... if you can help someone do part of the task... maybe it will be more effective at smaller, less complex code fragments. Then, [as] you get feedback from users, you build into it more intelligence, then maybe it becomes more effective on larger, more complex pieces of code. (P3)",
+      "label": "Result",
+      "prob": 0.4559834599494934
+    },
+    {
+      "sentence": "Thus, we questioned whether we would encounter 9",
+      "label": "Other",
+      "prob": 0.5619712471961975
+    },
+    {
+      "sentence": "Participants also described how generative methods could be used to fill in missing documentation to help others understand ones own code, to create an understanding of poorly-documented code, or to re-align documentation with code when drift has occurred [30, 85].",
+      "label": "Other",
+      "prob": 0.7294009327888489
+    },
+    {
+      "sentence": "Figure 1A shows the base user interaction: a Java function 2 translated into Python using a pre-trained TransCoder model [79].",
+      "label": "Other",
+      "prob": 0.5017000436782837
+    },
+    {
+      "sentence": "Additional support provided by the NMT model by 12",
+      "label": "Other",
+      "prob": 0.6297659873962402
+    },
+    {
+      "sentence": "For example, they have been used in creative domains to create or alter media such as images, videos, and artwork [10, 46, 54, 56, 92], music [11, 45, 57], and writing [21, 32, 76].",
+      "label": "Other",
+      "prob": 0.7353760600090027
+    },
+    {
+      "sentence": "One thing that would be really interesting... especially if you are going from a strongly-typed language like Java to something like Python, would be to generate automated unit tests with coverage. That would certainly help probe at places where the AI got it wrong and build trust where it got it right. (P4)",
+      "label": "Other",
+      "prob": 0.7057350873947144
+    },
+    {
+      "sentence": "We find their question of how to determine",
+      "label": "Other",
+      "prob": 0.5380277037620544
+    },
+    {
+      "sentence": "[6] both discuss how confidence scores can help calibrate peoples trust in an AI model, and Verame et al.",
+      "label": "Other",
+      "prob": 0.817369282245636
+    },
+    {
+      "sentence": "That just confuses me because this line of code is syntactically correct. I would write that line of code with 100% confidence. Im confused about why the translator would be confused about that assignment. (P0)",
+      "label": "Other",
+      "prob": 0.8121950626373291
+    },
+    {
+      "sentence": "Participants responded positively to the confidence highlights (Figure 1B) and the alternate translations (Figure 1C) and felt that both views were helpful.",
+      "label": "Result",
+      "prob": 0.8210458159446716
+    },
+    {
+      "sentence": "For example, Louie et al.",
+      "label": "Other",
+      "prob": 0.8535189032554626
+    },
+    {
+      "sentence": "I think for someone to start using a tool like this, it would need to prove that its adding some value... It probably varies from person to person. Some people wont be satisfied with anything you give them, and others will be satisfied with if it can be 10% effective in doing translations perhaps. And most people fall somewhere in the middle there. (P3)",
+      "label": "Other",
+      "prob": 0.7749902606010437
+    },
+    {
+      "sentence": "Indeed, while state-of-the-art NMT models  e.g. Tufano et al.",
+      "label": "Other",
+      "prob": 0.8691480755805969
+    },
+    {
+      "sentence": "P5 questioned, Why is it highlighting so many of these comments?",
+      "label": "Other",
+      "prob": 0.869853138923645
+    },
+    {
+      "sentence": "Indeed, having an accurate mental model did help participants understand the models confidence levels, and we hypothesize that generative AI user interfaces that provide salient details of a models operation can help people form accurate mental models.",
+      "label": "Result",
+      "prob": 0.7354360818862915
+    },
+    {
+      "sentence": "In recent years, several efforts have focused on the use of AI and machine learning techniques for various tasks related to software engineering, including code completion [15, 41, 75, 84], code classification [49, 68], API recommendation [16, 33], variable and method naming [3, 5], type inference [39, 93], bug detection and repair [25, 40, 71, 74, 89, 95], comment description and generation [4, 44, 48, 65, 80, 91], code change summarization [66], and code clone detection [96].",
+      "label": "Result",
+      "prob": 0.3728429675102234
+    },
+    {
+      "sentence": "This notion was best summarized by P4.",
+      "label": "Other",
+      "prob": 0.5945009589195251
+    },
+    {
+      "sentence": "The alternate translations were obtained from TransCoder, which can generate multiple translations using beam search decoding [79].",
+      "label": "Other",
+      "prob": 0.6568212509155273
+    },
+    {
+      "sentence": "5.1.1 Acceptance Through Verification.",
+      "label": "Other",
+      "prob": 0.6170729994773865
+    },
+    {
+      "sentence": "Although we have discovered that our design scenario did demonstrate compelling user experiences, we caution that our results may not generalize to other domains or use cases beyond the code translation task we examined (e.g. using generative models for molecular discovery).",
+      "label": "Result",
+      "prob": 0.7208418250083923
+    },
+    {
+      "sentence": "Three participants presented as women; the other eight presented as men.",
+      "label": "Result",
+      "prob": 0.6858747601509094
+    },
+    {
+      "sentence": "architects overseeing the entire project have to know how this AI is working because they are the ones responsible for making this [code translation] project [happen].",
+      "label": "Other",
+      "prob": 0.8354666233062744
+    },
+    {
+      "sentence": "5.1.2 Understanding AI Mechanics.",
+      "label": "Other",
+      "prob": 0.8333527445793152
+    },
+    {
+      "sentence": "[99] and Antifakos et al.",
+      "label": "Other",
+      "prob": 0.8876923322677612
+    },
+    {
+      "sentence": "P0 took a more extreme view of reviewing any code  human or NMT-produced  before accepting it, asserting, My developer attitude is trust no one. I mean, if someone hands me a piece of code, I dont trust it. I test it.",
+      "label": "Other",
+      "prob": 0.6971985697746277
+    },
+    {
+      "sentence": "While there are no agreed guidelines about required sample sizes for this kind of analysis [67], we followed commonly-accepted practices to identify saturation (e.g. when we stopped identifying new codes in our interview transcripts) [35, 60].",
+      "label": "Other",
+      "prob": 0.7155783772468567
+    },
+    {
+      "sentence": "As discussed by Seeber et al.",
+      "label": "Other",
+      "prob": 0.8791648149490356
+    },
+    {
+      "sentence": "Interviewer: What if the AI was only able to generate part of it, or maybe sometimes made mistakes...Would you still want to use it... or would you rather just write [it] from scratch?",
+      "label": "Other",
+      "prob": 0.887057363986969
+    },
+    {
+      "sentence": "As a user, you... accept whats going on here as a useful and correct process and you probably do not even care how its done because it will speed up your work... and at the end of the day, youll say, okay, Im done. (P1)",
+      "label": "Other",
+      "prob": 0.8146440386772156
     },
     {
       "sentence": "P8 described how the code translation process wasnt just about converting from one language to another, but also about identifying opportunities to leverage language-specific features to create more optimal code: The whole point of using the latest version is to tap into the new features... in JDK 8 they have lambdas... it is much faster. If it could do something like this I would use it like hell!",
       "label": "Other",
-      "prob": 0.7778763175010681
+      "prob": 0.7499105334281921
+    },
+    {
+      "sentence": "Indeed, the ML community has explored many methods for generating tests [31, 86, 87] as well as generating data for tests [50, 83], and our findings reinforce the need to incorporate these techniques into mainstream application modernization tools.",
+      "label": "Result",
+      "prob": 0.8828402161598206
+    },
+    {
+      "sentence": "5.4.1 Creating Understanding.",
+      "label": "Other",
+      "prob": 0.7732811570167542
+    },
+    {
+      "sentence": "Our results motivate the need for explainable generative AI.",
+      "label": "Result",
+      "prob": 0.8513228297233582
+    },
+    {
+      "sentence": "It would be different if the i as an index... lets see... is it used? Oh actually it is used... Now theres a mistake the code.. The statement d [ i ] = i, is wrong [but] the other [alternate translation] is correct. (P1)",
+      "label": "Other",
+      "prob": 0.8250179290771484
+    },
+    {
+      "sentence": "s survey of the area [2].",
+      "label": "Other",
+      "prob": 0.9123875498771667
+    },
+    {
+      "sentence": "If Im going to put my production systems functionality behind this, I really want some degree of trust that this thing is robust... Every piece of code that we put into production has been reviewed by at least one other person. And so we try hard to basically build that trust through review and familiarity in humans... wed need basically the same level of trust for a system like this. (P4)",
+      "label": "Result",
+      "prob": 0.5041751265525818
+    },
+    {
+      "sentence": "5.1.3 Feedback & Learning.",
+      "label": "Other",
+      "prob": 0.9219618439674377
+    },
+    {
+      "sentence": "Kocielnik et al.",
+      "label": "Other",
+      "prob": 0.9268469214439392
+    },
+    {
+      "sentence": "5.4.3 Reviewing & Testing.",
+      "label": "Other",
+      "prob": 0.9098657369613647
+    },
+    {
+      "sentence": "Seeber et al.",
+      "label": "Other",
+      "prob": 0.9246471524238586
+    },
+    {
+      "sentence": "Ehrlich et al.",
+      "label": "Other",
+      "prob": 0.9256436824798584
     },
     {
       "sentence": "Weber et al.",
       "label": "Other",
-      "prob": 0.9117826223373413
+      "prob": 0.9280768036842346
+    },
+    {
+      "sentence": "Dzindolet et al.",
+      "label": "Other",
+      "prob": 0.9377264976501465
+    },
+    {
+      "sentence": "Zhang et al.",
+      "label": "Other",
+      "prob": 0.9289854764938354
+    },
+    {
+      "sentence": "3 https://swagger.io",
+      "label": "Other",
+      "prob": 0.9600588083267212
+    },
+    {
+      "sentence": "Generating documentation from source is an active area of research in the machine learning community (e.g. [44, 48, 65, 91]) and our results highlight the importance of this functionality in user experiences, even when generated documentation may be imperfect.",
+      "label": "Result",
+      "prob": 0.964076817035675
+    },
+    {
+      "sentence": "REFERENCES",
+      "label": "Other",
+      "prob": 0.9412382245063782
+    },
+    {
+      "sentence": "s study [81].",
+      "label": "Other",
+      "prob": 0.9353510737419128
     }
   ]
 }

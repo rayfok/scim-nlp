@@ -1,1989 +1,1989 @@
 {
   "2103.06807": [
     {
-      "sentence": "Unfortunately, utility is very hard to estimate accurately  hard both at design time as well as interactively from the kind of data these systems have access to, such as clicks or viewing duration.",
-      "label": "Background",
-      "prob": 0.9852842688560486
-    },
-    {
-      "sentence": "In particular, presently, with our computing resources, problem sizes of up to 20 items are still within reach in the case of menu systems.",
-      "label": "Background",
-      "prob": 0.9837337136268616
-    },
-    {
-      "sentence": "This is computationally expensive given the large number of possible adaptations (breadth) and long horizons (depth) in adaptive interfaces.",
-      "label": "Background",
-      "prob": 0.9823060631752014
-    },
-    {
-      "sentence": "However, classic tree search algorithms often require expansion of the entire tree.",
-      "label": "Background",
-      "prob": 0.9815266728401184
-    },
-    {
-      "sentence": "However, given the varying length of menu sizes, running simulations with long horizons can be infeasible for online settings.",
-      "label": "Background",
-      "prob": 0.9796922206878662
-    },
-    {
-      "sentence": "A change that would make sense in the beginning when the user is novice with the design may be devastating for an experienced user.",
-      "label": "Background",
-      "prob": 0.9775450229644775
-    },
-    {
       "sentence": "sequence of adaptations with predictive models  is computationally costly, especially when considering sequences of changes over a long horizon.",
       "label": "Background",
-      "prob": 0.9775074124336243
-    },
-    {
-      "sentence": "However, non-stationarity makes planning challenging: considering only a short period of time (i.e. a short horizon) can result in suboptimal designs.",
-      "label": "Background",
-      "prob": 0.9774616360664368
-    },
-    {
-      "sentence": "Generally, such models are available at least in the areas of pointing, menu interaction, and graphical layouts.",
-      "label": "Background",
-      "prob": 0.9759851694107056
-    },
-    {
-      "sentence": "An adaptation that is overfit to a novice could be impossible to recover from later on when the user is more experienced.",
-      "label": "Background",
-      "prob": 0.9696406126022339
-    },
-    {
-      "sentence": "On the other hand, planning a long sequence of adaptations increases the size of search space, growing exponentially with the length of the planning horizon.",
-      "label": "Background",
-      "prob": 0.9654093384742737
-    },
-    {
-      "sentence": "Recall (direct) search [5] relies on users memory, given by activations  , to directly glance at items without inspecting the entire menu.",
-      "label": "Background",
-      "prob": 0.9572180509567261
-    },
-    {
-      "sentence": "Finally, at any given state, there is a large number of possible adaptations that can change the design.",
-      "label": "Background",
-      "prob": 0.9567755460739136
-    },
-    {
-      "sentence": "Bandit systems are one of the most successful probabilistic approaches to this problem, not only for recommendation systems but also for interface design and adaptation [38].",
-      "label": "Background",
-      "prob": 0.9558296799659729
-    },
-    {
-      "sentence": "In HCI, although previous work has explored the use of model-free RL (e.g., see [35]), model-based RL has not been explored in adaptive interfaces at large, as far as we know.",
-      "label": "Background",
-      "prob": 0.9554115533828735
-    },
-    {
-      "sentence": "They have found several applications (e.g. game-playing [8], circuit-routing [11], etc.).",
-      "label": "Background",
-      "prob": 0.9546135067939758
-    },
-    {
-      "sentence": "Adaptive user interfaces can autonomously change the content, layout, or style of an interface to improve their fit with the users capabilities and interests.",
-      "label": "Background",
-      "prob": 0.9544775485992432
-    },
-    {
-      "sentence": "Importantly, the adaptive system does not require explicit user input, but is still able to perform conservatively without disadvantageous or annoying changes (Figure 10).",
-      "label": "Background",
-      "prob": 0.9538995623588562
-    },
-    {
-      "sentence": "Further, due to the lack of user feedback, computing reward is not straightforward.",
-      "label": "Background",
-      "prob": 0.9527930021286011
-    },
-    {
-      "sentence": "Another limitation is that writing a comprehensive and accurate rule system requires plenty of foresight.",
-      "label": "Background",
-      "prob": 0.9522084593772888
-    },
-    {
-      "sentence": "However, while bandits and BO have been successful in simpler adaptation problems, like recommendations and calibration of interface parameters, their intrinsic limitation is that they are myopic; that is, they do not plan over a series of changes  a capability we need in adaptive interaction.",
-      "label": "Background",
-      "prob": 0.9504936337471008
-    },
-    {
-      "sentence": "Unlike bandits, reinforcement learning permits learning policies for sequences of actions where rewards are not immediately achievable.",
-      "label": "Background",
-      "prob": 0.9464852809906006
-    },
-    {
-      "sentence": "A common pitfall of the frequencybased approach is that, although it can improve performance for commonly-used items or commands, it prevents recall and makes selection of other items increasingly difficult.",
-      "label": "Background",
-      "prob": 0.9441351890563965
-    },
-    {
-      "sentence": "Thus, adaptations must be picked with a horizon of such developments in mind.",
-      "label": "Background",
-      "prob": 0.9421986937522888
-    },
-    {
-      "sentence": "So far we have assumed that such models are expressed as step-by-step computer simulations or mathematical models.",
-      "label": "Background",
-      "prob": 0.9385733008384705
-    },
-    {
-      "sentence": "Monte Carlo Tree Search (MCTS) has been successfully employed in various game-playing applications to plan a sequence of moves efficiently (see [9]).",
-      "label": "Background",
-      "prob": 0.9384051561355591
-    },
-    {
-      "sentence": "While the true state of the design is fully observable, the system does not have access to the true state of the user.",
-      "label": "Background",
-      "prob": 0.9365924596786499
-    },
-    {
-      "sentence": "However, this selection time depends not only on the cursor movement distance, but also the users ability to search for items in the menu.",
-      "label": "Background",
-      "prob": 0.9332009553909302
-    },
-    {
-      "sentence": "For example, for a menu with 15 items, and up to 8 separators, there are over 500 feasible adaptations.",
-      "label": "Background",
-      "prob": 0.9327224493026733
-    },
-    {
-      "sentence": "This complicates the problem: Any greedily chosen adaptation may lead to irreversibly poor interactions later on.",
-      "label": "Background",
-      "prob": 0.9306023716926575
-    },
-    {
-      "sentence": "In the beginning, best-case performance would be governed by foraging and serial search, but as experience accumulates, the (rational) user would shift to foraging based and recall-based strategies.",
-      "label": "Background",
-      "prob": 0.9305140376091003
-    },
-    {
-      "sentence": "The two challenges can be relaxed, for example if user state is trivially known, or if the state is highly predictive of appropriate adaptation.",
-      "label": "Background",
-      "prob": 0.9292424321174622
-    },
-    {
-      "sentence": "However, their application is conditioned on their accuracy: They should accurately predict short-term costs such as due to relearning as well as longer-term improvements to performance.",
-      "label": "Background",
-      "prob": 0.928500771522522
-    },
-    {
-      "sentence": "To improve performance beyond that, techniques for GPU computation and more efficient training will need attention.",
-      "label": "Background",
-      "prob": 0.9268607497215271
-    },
-    {
-      "sentence": "When considering a sequence of adaptations over a long horizon, the state space grows exponentially.",
-      "label": "Background",
-      "prob": 0.9252930879592896
-    },
-    {
-      "sentence": "A well-known, inspiring application of MCTS is in AlphaGo [48], the computer program capable of playing the game of Go competitively against human players.",
-      "label": "Background",
-      "prob": 0.9251265525817871
+      "prob": 0.9585109353065491
     },
     {
       "sentence": "approach in HCI, applications to adaptive user interfaces have remained scarce.",
       "label": "Background",
-      "prob": 0.9245918393135071
+      "prob": 0.9528777599334717
     },
     {
-      "sentence": "Given an initial homescreen design, with which the user has interacted, an adaptation  would result in a new design by, for example, changing the layout or ordering of icons.",
+      "sentence": "A common pitfall of the frequencybased approach is that, although it can improve performance for commonly-used items or commands, it prevents recall and makes selection of other items increasingly difficult.",
       "label": "Background",
-      "prob": 0.9229121804237366
+      "prob": 0.9515333771705627
     },
     {
-      "sentence": "First, one limitation to the applicability of the approach is the requirement for accurate models of shortand long-term consequences of adaptations.",
+      "sentence": "Unfortunately, utility is very hard to estimate accurately  hard both at design time as well as interactively from the kind of data these systems have access to, such as clicks or viewing duration.",
       "label": "Background",
-      "prob": 0.9197510480880737
-    },
-    {
-      "sentence": "However, there is no reason why data-driven models (e.g. [59])  trained on larger datasets of user data  could not be used for this purpose, significantly expanding the scope of possible applications.",
-      "label": "Background",
-      "prob": 0.918759822845459
-    },
-    {
-      "sentence": "Menus have received extensive attention in HCI research because they are widely used, and adaptation has potential to improve usability [4, 55].",
-      "label": "Background",
-      "prob": 0.9174994230270386
-    },
-    {
-      "sentence": "Planning algorithms such as minimax and A-star, among others, utilise a tree representation of the search space.",
-      "label": "Background",
-      "prob": 0.9169599413871765
-    },
-    {
-      "sentence": "Additional statistical models of user interest and expertise [18, 19, 21, 51], can be plugged into our architecture.",
-      "label": "Background",
-      "prob": 0.9162845611572266
-    },
-    {
-      "sentence": "Typically, a policy is learnt via trial-and-error that maximises future cumulative utility.",
-      "label": "Background",
-      "prob": 0.9160667061805725
-    },
-    {
-      "sentence": "While this approach has been successful for input techniques, such as gesture recognition [57], it is an open question if this scales up to adaptive interfaces, which must not only learn user state but flexibly decide how to intervene in the user interface.",
-      "label": "Background",
-      "prob": 0.9160546064376831
-    },
-    {
-      "sentence": "Finding a policy to select adaptations can be challenging for adaptive interfaces.",
-      "label": "Background",
-      "prob": 0.9139968156814575
-    },
-    {
-      "sentence": "It is a robust and sample-efficient and well-suited for noisy, expensive-to-evaluate functions.",
-      "label": "Background",
-      "prob": 0.9139193296432495
-    },
-    {
-      "sentence": "A rule system must be developed that, on the one hand, covers conceivable conditions the system can enter and, on the other, can graciously resolve conflicts when multiple rules apply.",
-      "label": "Background",
-      "prob": 0.9121335744857788
-    },
-    {
-      "sentence": "Further, in a stochastic problem, the world is neither fully known nor under the control of the system.",
-      "label": "Background",
-      "prob": 0.911053478717804
-    },
-    {
-      "sentence": "No general solution has been proposed for autonomous adaptation that could not only move items to the top, but handle reorganisations more comprehensively.",
-      "label": "Background",
-      "prob": 0.9098182320594788
-    },
-    {
-      "sentence": "For example, in menu-based interaction, most systems still follow a heuristic approach, where adaptation is picked based on hand-written heuristics that exploit click frequency, visit duration, recency or other specific features that can be computed from observation data [21].",
-      "label": "Background",
-      "prob": 0.9097844362258911
-    },
-    {
-      "sentence": "Different computational approaches to this problem have been studied, among others, rule-based systems, heuristics, bandits, Bayesian optimisation, and supervised learning (see section 2).",
-      "label": "Background",
-      "prob": 0.9087070226669312
-    },
-    {
-      "sentence": "If not found at  , after incurring surprise penalty   , the user attempts local search , by randomly inspecting   items in the vicinity of location  .",
-      "label": "Background",
-      "prob": 0.9059115648269653
-    },
-    {
-      "sentence": "For instance, Fitts law [39] can be used to adapt the location and the size of an elements to minimise pointing time.",
-      "label": "Background",
-      "prob": 0.9046307802200317
-    },
-    {
-      "sentence": "Applications have been shown in human-in-the-loop design of interface features [15] and adaptation of low-dimensional design features [30].",
-      "label": "Background",
-      "prob": 0.9043293595314026
-    },
-    {
-      "sentence": "These approaches, in general, are feasible only when sensed input is highly predictive of the most appropriate adaptation.",
-      "label": "Background",
-      "prob": 0.9018999934196472
-    },
-    {
-      "sentence": "In our case, while the system can change the interface, it cannot change the human, which has its own latent processes.",
-      "label": "Background",
-      "prob": 0.9013283252716064
-    },
-    {
-      "sentence": "It is known that unexpected changes in menus can introduce a temporary performance drop, increase cognitive load, and potentially lead to the rejection of the adaption/techniques [4, 55].",
-      "label": "Background",
-      "prob": 0.9009914398193359
-    },
-    {
-      "sentence": "arrange icons on mobile homescreens, or reorganise application menus.",
-      "label": "Background",
-      "prob": 0.900883674621582
-    },
-    {
-      "sentence": "More specifically, the design  can encapsulate factors such as the arrangement of icons, their grouping or relationship to other icons, and other relevant features.",
-      "label": "Background",
-      "prob": 0.897982120513916
-    },
-    {
-      "sentence": "Conversely, the system can use invisible states to withhold presentation and combine multiple adaptations, such that the state is used only as a pathway to another state without being displayed.",
-      "label": "Background",
-      "prob": 0.897491991519928
-    },
-    {
-      "sentence": "Upon not finding the item, a surprise penalty   is incurred, and the user reverts to serial search under caution from the top of the menu.",
-      "label": "Background",
-      "prob": 0.896695613861084
-    },
-    {
-      "sentence": "Utility  in this case  refers to the usefulness of an adaptation to the user, or how it is perceived to benefit interaction when possible costs are taken into account.",
-      "label": "Background",
-      "prob": 0.8948816657066345
-    },
-    {
-      "sentence": "learn a good policy [50] This makes it poorly suitable for situations with very large state-action spaces.",
-      "label": "Background",
-      "prob": 0.8941469788551331
-    },
-    {
-      "sentence": "Target Item Position: Given the menu selection scenario, items near the top of the menu are typically faster to select than items that are near the bottom.",
-      "label": "Background",
-      "prob": 0.8917282223701477
-    },
-    {
-      "sentence": "To support recall, it is advantageous for an adaptive system to place frequently-encountered items at locations where they have been seen before.",
-      "label": "Background",
-      "prob": 0.8896269798278809
+      "prob": 0.9503563046455383
     },
     {
       "sentence": "While recent successes of reinforcement learning have created renewed enthusiasm toward this",
       "label": "Background",
-      "prob": 0.8890602588653564
+      "prob": 0.9429381489753723
     },
     {
-      "sentence": "Second, algorithm engineering is needed to deploy this approach to larger applications.",
+      "sentence": "However, given the varying length of menu sizes, running simulations with long horizons can be infeasible for online settings.",
       "label": "Background",
-      "prob": 0.8817810416221619
+      "prob": 0.9377498030662537
     },
     {
-      "sentence": "Invisibility can be exploited to plan multiple adaptations in a single turn.",
+      "sentence": "Generally, such models are available at least in the areas of pointing, menu interaction, and graphical layouts.",
       "label": "Background",
-      "prob": 0.8762860298156738
+      "prob": 0.9360825419425964
+    },
+    {
+      "sentence": "This complicates the problem: Any greedily chosen adaptation may lead to irreversibly poor interactions later on.",
+      "label": "Background",
+      "prob": 0.9341774582862854
+    },
+    {
+      "sentence": "An adaptation that is overfit to a novice could be impossible to recover from later on when the user is more experienced.",
+      "label": "Background",
+      "prob": 0.9339318871498108
+    },
+    {
+      "sentence": "This is computationally expensive given the large number of possible adaptations (breadth) and long horizons (depth) in adaptive interfaces.",
+      "label": "Background",
+      "prob": 0.9330963492393494
+    },
+    {
+      "sentence": "On the other hand, planning a long sequence of adaptations increases the size of search space, growing exponentially with the length of the planning horizon.",
+      "label": "Background",
+      "prob": 0.9321582913398743
+    },
+    {
+      "sentence": "In particular, presently, with our computing resources, problem sizes of up to 20 items are still within reach in the case of menu systems.",
+      "label": "Background",
+      "prob": 0.9301453828811646
+    },
+    {
+      "sentence": "Typically, a policy is learnt via trial-and-error that maximises future cumulative utility.",
+      "label": "Background",
+      "prob": 0.9283648133277893
+    },
+    {
+      "sentence": "A change that would make sense in the beginning when the user is novice with the design may be devastating for an experienced user.",
+      "label": "Background",
+      "prob": 0.9280739426612854
+    },
+    {
+      "sentence": "However, classic tree search algorithms often require expansion of the entire tree.",
+      "label": "Background",
+      "prob": 0.9262476563453674
+    },
+    {
+      "sentence": "Unlike bandits, reinforcement learning permits learning policies for sequences of actions where rewards are not immediately achievable.",
+      "label": "Background",
+      "prob": 0.9212027788162231
+    },
+    {
+      "sentence": "If not found at  , after incurring surprise penalty   , the user attempts local search , by randomly inspecting   items in the vicinity of location  .",
+      "label": "Background",
+      "prob": 0.9095691442489624
+    },
+    {
+      "sentence": "Adaptive user interfaces can autonomously change the content, layout, or style of an interface to improve their fit with the users capabilities and interests.",
+      "label": "Background",
+      "prob": 0.9083499312400818
+    },
+    {
+      "sentence": "So far we have assumed that such models are expressed as step-by-step computer simulations or mathematical models.",
+      "label": "Background",
+      "prob": 0.9045026302337646
+    },
+    {
+      "sentence": "In the beginning, best-case performance would be governed by foraging and serial search, but as experience accumulates, the (rational) user would shift to foraging based and recall-based strategies.",
+      "label": "Background",
+      "prob": 0.9042182564735413
+    },
+    {
+      "sentence": "Planning algorithms such as minimax and A-star, among others, utilise a tree representation of the search space.",
+      "label": "Background",
+      "prob": 0.9012943506240845
     },
     {
       "sentence": "That is, the skills and interests of the user evolve over time.",
       "label": "Background",
-      "prob": 0.8761038184165955
+      "prob": 0.897972822189331
     },
     {
-      "sentence": "Also, while predictive models have been used for oneshot design generation [42], design space exploration [53], and for selecting a single action in a myopic manner [27, 51], they have not been used for simulation-based planning in an adaptive system.",
+      "sentence": "It is a robust and sample-efficient and well-suited for noisy, expensive-to-evaluate functions.",
       "label": "Background",
-      "prob": 0.8743577003479004
+      "prob": 0.897612988948822
     },
     {
-      "sentence": "A related problem is that of drift : prediction errors can have a compounding, cumulative effect on planning performance.",
+      "sentence": "Further, in a stochastic problem, the world is neither fully known nor under the control of the system.",
       "label": "Background",
-      "prob": 0.8734304904937744
-    },
-    {
-      "sentence": "In contrast to game-playing applications, where a win/loss defines the terminal state, our case does not have a well-defined horizon.",
-      "label": "Background",
-      "prob": 0.8722390532493591
-    },
-    {
-      "sentence": "An item is either a word or a separator (used to create semantic groups).",
-      "label": "Background",
-      "prob": 0.8699137568473816
-    },
-    {
-      "sentence": "The main advantages of using neural networks for estimation are that they have high learning capacity, and can evaluate thousands of states in real-time without running expensive simulations.",
-      "label": "Background",
-      "prob": 0.8694682717323303
-    },
-    {
-      "sentence": "This is necessary for the acquisition rule to address the explorationexploitation trade-off.",
-      "label": "Background",
-      "prob": 0.8694130182266235
-    },
-    {
-      "sentence": "However, if  is after  (    ), surprise penalty   is imposed upon not finding the item as expected.",
-      "label": "Background",
-      "prob": 0.8688760995864868
-    },
-    {
-      "sentence": "Reinforcement learning (RL) is a class of machine learning methods appropriate for this type of problems.",
-      "label": "Background",
-      "prob": 0.8678531050682068
-    },
-    {
-      "sentence": "At the core of model-based RL is an understanding of how users behave and what makes a good design in given conditions.",
-      "label": "Background",
-      "prob": 0.8677170872688293
-    },
-    {
-      "sentence": "Here, a state  of the system consists of both the homescreen design  and latent state of the user  who is interacting with the device.",
-      "label": "Background",
-      "prob": 0.86204594373703
-    },
-    {
-      "sentence": "In the latter case, the problem can be approached as a supervised learning problem, where a mapping is learned between user data and suitable adaptations.",
-      "label": "Background",
-      "prob": 0.8604630827903748
-    },
-    {
-      "sentence": "MCTS can operate under uncertainty by analysing the most promising moves, and expanding tree nodes using random sampling based approaches.",
-      "label": "Background",
-      "prob": 0.8586164712905884
-    },
-    {
-      "sentence": "With regard to the user  , aspects such as expertise, interests, and abilities, can be considered.",
-      "label": "Background",
-      "prob": 0.8585208654403687
-    },
-    {
-      "sentence": "To support serial search, it is advantageous for an adaptive system to move frequently-used items towards the top.",
-      "label": "Background",
-      "prob": 0.8557856678962708
-    },
-    {
-      "sentence": "Other practical limitations include the size of stateaction space.",
-      "label": "Background",
-      "prob": 0.8541834950447083
-    },
-    {
-      "sentence": "Given a pair of menu designs and estimates of user expertise and interest, these models predict selection time for items for varying user strategies.",
-      "label": "Background",
-      "prob": 0.8524904251098633
-    },
-    {
-      "sentence": "We see several exciting topics for future research on model-based RL and its applications in HCI.",
-      "label": "Background",
-      "prob": 0.8523170351982117
-    },
-    {
-      "sentence": "Early work on this topic studied rule systems, heuristics, and logic as the basis of deciding what to adapt (see, e.g., [44]).",
-      "label": "Background",
-      "prob": 0.8515231013298035
-    },
-    {
-      "sentence": "We note that it is possible to plug in additional search strategies (e.g. Random search [40]) without modifying the general architecture of the algorithm.",
-      "label": "Background",
-      "prob": 0.8495568633079529
-    },
-    {
-      "sentence": "The tree consists of nodes, connected by branches, representing valid states and transitions between them.",
-      "label": "Background",
-      "prob": 0.8472703099250793
-    },
-    {
-      "sentence": "Outside of user interfaces, we find applications of model-based RL, for example in board games, robots, video games [29], as well as behaviour-change applications, such as in generating behavioural instructions for people with dementia [23].",
-      "label": "Background",
-      "prob": 0.8464692831039429
-    },
-    {
-      "sentence": "For example, in our application example later on, we optimise for performance improvements in menu selection tasks achievable over multiple sessions of interactions.",
-      "label": "Background",
-      "prob": 0.8434332013130188
-    },
-    {
-      "sentence": "In comparison with an alternative, the model-free approach, the model-based approach requires less training and better generalises across conditions [28, 50].",
-      "label": "Background",
-      "prob": 0.8412151336669922
-    },
-    {
-      "sentence": "The adaptive system must decide what to adapt, if anything, given its observations.",
-      "label": "Background",
-      "prob": 0.8396025896072388
+      "prob": 0.8936060667037964
     },
     {
       "sentence": "To support foraging search, it is desirable for an adaptive system to create groups of related items, or eliminate groups where items have no associations.",
       "label": "Background",
-      "prob": 0.8374968767166138
+      "prob": 0.8930136561393738
     },
     {
-      "sentence": "Future adaptive applications can benefit from our general approach by exploiting and extending predictive models of interaction.",
+      "sentence": "A well-known, inspiring application of MCTS is in AlphaGo [48], the computer program capable of playing the game of Go competitively against human players.",
       "label": "Background",
-      "prob": 0.8331382274627686
+      "prob": 0.8885977268218994
     },
     {
-      "sentence": "In our implementation,  is given by the designer as binary relationships by specifying lists of related items.",
+      "sentence": "These approaches, in general, are feasible only when sensed input is highly predictive of the most appropriate adaptation.",
       "label": "Background",
-      "prob": 0.8292109966278076
+      "prob": 0.8885111808776855
     },
     {
-      "sentence": "The anchor , or first element of a group, signals what is in the group.",
+      "sentence": "However, their application is conditioned on their accuracy: They should accurately predict short-term costs such as due to relearning as well as longer-term improvements to performance.",
       "label": "Background",
-      "prob": 0.8289363384246826
+      "prob": 0.8876128196716309
     },
     {
-      "sentence": "In non-ordered menus,  local is equal to 2 times the number of items in the Fovea.",
+      "sentence": "The two challenges can be relaxed, for example if user state is trivially known, or if the state is highly predictive of appropriate adaptation.",
       "label": "Background",
-      "prob": 0.8278191685676575
+      "prob": 0.8796462416648865
     },
     {
-      "sentence": "Importantly, a principled solution is offered to the exploration/exploitation problem.",
+      "sentence": "Another limitation is that writing a comprehensive and accurate rule system requires plenty of foresight.",
       "label": "Background",
-      "prob": 0.8269545435905457
+      "prob": 0.8784853219985962
     },
     {
-      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "sentence": "More specifically, the design  can encapsulate factors such as the arrangement of icons, their grouping or relationship to other icons, and other relevant features.",
       "label": "Background",
-      "prob": 0.8263400197029114
+      "prob": 0.8779295682907104
     },
     {
-      "sentence": "Instead, predictive HCI models can be used to build objective functions related to performance and re-learning costs.",
+      "sentence": "To support serial search, it is advantageous for an adaptive system to move frequently-used items towards the top.",
       "label": "Background",
-      "prob": 0.8261691331863403
-    },
-    {
-      "sentence": "Picking an adaptation can be considered a hypothesis on how useful it is for user.",
-      "label": "Background",
-      "prob": 0.8248258829116821
-    },
-    {
-      "sentence": "where   is the total reward for child state   ,   is the number of times   has been visited, and   is the number of times parent state   has been visited.",
-      "label": "Background",
-      "prob": 0.8239951133728027
-    },
-    {
-      "sentence": "Rewards from multiple models can be combined using any of the objective functions given in section 4.1.",
-      "label": "Background",
-      "prob": 0.8216077089309692
-    },
-    {
-      "sentence": "With certain conditions we outline here, the approach we outline is broadly useful across applications of adaptive interfaces.",
-      "label": "Background",
-      "prob": 0.8193526864051819
-    },
-    {
-      "sentence": "where  (   ) is the activation of  at  , and  is the cautious inspection cost constant when there is no activation.",
-      "label": "Background",
-      "prob": 0.816066324710846
-    },
-    {
-      "sentence": "menu, the target item  might have been encountered at several locations.",
-      "label": "Background",
-      "prob": 0.8158621191978455
-    },
-    {
-      "sentence": "All models simulate what would happen with that adaptation sequence and return an estimate of values over the whole window.",
-      "label": "Background",
-      "prob": 0.8154733777046204
-    },
-    {
-      "sentence": "But making the assumption that a user might  for reasons like lack of effort or interest  use a poor strategy allows us to define a conservative policy for adaptation that is unlikely to annoy them.",
-      "label": "Background",
-      "prob": 0.8119682669639587
-    },
-    {
-      "sentence": "In MCTS, the menu adapts after each block by planning adaptations; in Static, the menu does not adapt over time; in Freqency, the menu adapts based on the frequency of clicks on menu items.",
-      "label": "Background",
-      "prob": 0.8113195300102234
-    },
-    {
-      "sentence": "An adaptive system must decide what to adapt, and when  or when not  to make changes.",
-      "label": "Background",
-      "prob": 0.811301052570343
-    },
-    {
-      "sentence": "In place of rollouts, where simulations can be costly for longer horizons, a pretrained value network is used to directly obtain value estimates for unexplored states.",
-      "label": "Background",
-      "prob": 0.811237096786499
-    },
-    {
-      "sentence": "Note that this formulation does not take a stance on what is the right objective function.",
-      "label": "Background",
-      "prob": 0.8100454807281494
-    },
-    {
-      "sentence": "For example, it can be used to adapt the structure of webpages layouts,",
-      "label": "Background",
-      "prob": 0.8061736822128296
-    },
-    {
-      "sentence": "For example, humans learn and change interests.",
-      "label": "Background",
-      "prob": 0.8050445914268494
-    },
-    {
-      "sentence": "It should pick a sequence of adaptations in order to maximise their expected value to user over a longer window of interactions.",
-      "label": "Background",
-      "prob": 0.8036813139915466
-    },
-    {
-      "sentence": "6, 8, and 10  depicting a range of planning horizons, from short sequences to longer sequences.",
-      "label": "Background",
-      "prob": 0.7964887022972107
+      "prob": 0.8773727416992188
     },
     {
       "sentence": "Depending on the application, the goal or objective can differ and might include minimising selection time, increasing saliency, reducing cognitive load, increasing engagement, or a combination of them.",
       "label": "Background",
-      "prob": 0.7959986329078674
+      "prob": 0.8736793398857117
     },
     {
-      "sentence": "In our application, we further assume that the expanded state is either visible or invisible to the user.",
+      "sentence": "Recall (direct) search [5] relies on users memory, given by activations  , to directly glance at items without inspecting the entire menu.",
       "label": "Background",
-      "prob": 0.7920827865600586
+      "prob": 0.8736180663108826
     },
     {
-      "sentence": "The core computational problem we review here is how to pick an adaptation; we do not cover issues like prior elicitation, explainability, nor the design space of intelligent interaction techniques.",
+      "sentence": "Upon not finding the item, a surprise penalty   is incurred, and the user reverts to serial search under caution from the top of the menu.",
       "label": "Background",
-      "prob": 0.7894646525382996
+      "prob": 0.8709553480148315
     },
     {
-      "sentence": "any application case, a core aspect of our approach relies on HCI models [42] to sufficiently accurately capture the effects of these adaptations on the chosen goals.",
+      "sentence": "Target Item Position: Given the menu selection scenario, items near the top of the menu are typically faster to select than items that are near the bottom.",
       "label": "Background",
-      "prob": 0.7889128923416138
+      "prob": 0.8708999156951904
     },
     {
-      "sentence": "Our approach assumes that there are multiple predictive HCI models that bound the true behaviour, for example by offering best-case and (realistic) worst-case estimates.",
+      "sentence": "To support recall, it is advantageous for an adaptive system to place frequently-encountered items at locations where they have been seen before.",
       "label": "Background",
-      "prob": 0.7859556674957275
+      "prob": 0.8703952431678772
     },
     {
-      "sentence": "Alternatively, predictive models can be included to address multiple objectives, such as task completion time, cognitive load, and disruption [25].",
+      "sentence": "When considering a sequence of adaptations over a long horizon, the state space grows exponentially.",
       "label": "Background",
-      "prob": 0.7770116329193115
+      "prob": 0.8664391040802002
     },
     {
-      "sentence": "As menu adaptations, we only consider those modifying the position and grouping of items in the menus, leaving other presentation adaptations, such as highlighting and split menus, for future work.",
+      "sentence": "At the core of model-based RL is an understanding of how users behave and what makes a good design in given conditions.",
       "label": "Background",
-      "prob": 0.7769638895988464
+      "prob": 0.8661227822303772
     },
     {
-      "sentence": "When searching for a menu item   at an expected position  , serial search [5, 13, 40] consists of a top-tobottom inspection of the menu, until the item is reached.",
+      "sentence": "Thus, adaptations must be picked with a horizon of such developments in mind.",
       "label": "Background",
-      "prob": 0.7765933275222778
+      "prob": 0.8639236688613892
     },
     {
-      "sentence": "Although positive empirical results have been obtained (e.g., [4, 13, 17, 46, 49, 51, 52, 54]), known approaches have been criticised for being unpredictable and unreliable; they pick detrimental adaptations unacceptably often [16, 22, 33, 36, 56].",
+      "sentence": "However, non-stationarity makes planning challenging: considering only a short period of time (i.e. a short horizon) can result in suboptimal designs.",
       "label": "Background",
-      "prob": 0.7697514295578003
+      "prob": 0.8589213490486145
     },
     {
-      "sentence": "We believe that adaptive systems could provide greater benefits by planning sequences of adaptations that gracefully lead a user through gradual changes.",
+      "sentence": "It should pick a sequence of adaptations in order to maximise their expected value to user over a longer window of interactions.",
       "label": "Background",
-      "prob": 0.767695426940918
+      "prob": 0.8587340712547302
     },
     {
-      "sentence": "We can only estimate it through HCI models, where predictions provide us a belief about the user status (for the theoretical implications of this, see [2]).",
+      "sentence": "Utility  in this case  refers to the usefulness of an adaptation to the user, or how it is perceived to benefit interaction when possible costs are taken into account.",
       "label": "Background",
-      "prob": 0.7676830887794495
-    },
-    {
-      "sentence": "When  (   )   for a target   at location  , the user attempts recall search by inspecting the item at  (Equation 6).",
-      "label": "Background",
-      "prob": 0.7663867473602295
-    },
-    {
-      "sentence": "We thank all study participants for their time, and colleagues and reviewers for their helpful comments.",
-      "label": "Background",
-      "prob": 0.7634994387626648
-    },
-    {
-      "sentence": "Our general approach can be applied for various HCI applications, such as adaptive mobile homescreens, graphical layouts, and application menus.",
-      "label": "Background",
-      "prob": 0.762744665145874
-    },
-    {
-      "sentence": "Each of the  input parameters is treated as an independent model branch (head) that is eventually concatenated and passed to  independent model branches (tails).",
-      "label": "Background",
-      "prob": 0.7616732120513916
-    },
-    {
-      "sentence": "We picked common labels for menu items, where categories specified pairwise associations (e.g. animals, furniture, vegetables, clothing).",
-      "label": "Background",
-      "prob": 0.7587574124336243
-    },
-    {
-      "sentence": "A policy can be determined with much fewer trials, and if the model is good, at times directly.",
-      "label": "Background",
-      "prob": 0.7580505013465881
-    },
-    {
-      "sentence": "This prevents overfitting the model to the training data, improving generalisability to unseen data.",
-      "label": "Background",
-      "prob": 0.748763918876648
-    },
-    {
-      "sentence": "User interest (or prediction scheme [55]) is given by the frequency distribution of commands selected during the previous interaction session, containing  clicks.",
-      "label": "Background",
-      "prob": 0.7440539002418518
-    },
-    {
-      "sentence": "Two learning capabilities are needed: (1) inference , the capability to update assumptions about the user based on observations; and (2) decision-making , the capability to choose appropriate adaptation in the light of assumptions about the user [41].",
-      "label": "Background",
-      "prob": 0.7427850961685181
+      "prob": 0.8578582406044006
     },
     {
       "sentence": "While applications have been shown for example in crowdsourcing [14], dialogue systems [58], and gaze-based interactions [20], a known limitation with the prevailing model-free RL approach is still the extensive amount of poor attempts (or trials) that are required to",
       "label": "Background",
-      "prob": 0.7426601648330688
+      "prob": 0.8575383424758911
     },
     {
-      "sentence": "If all adaptations from the selected state   have been previously explored, then selection is repeated until a leaf state is selected with unexplored adaptations.",
+      "sentence": "Finally, at any given state, there is a large number of possible adaptations that can change the design.",
       "label": "Background",
-      "prob": 0.7378624677658081
+      "prob": 0.8572485446929932
     },
     {
-      "sentence": "We thus need to estimate a cumulative reward over a horizon of reasonable length.",
+      "sentence": "A related problem is that of drift : prediction errors can have a compounding, cumulative effect on planning performance.",
       "label": "Background",
-      "prob": 0.7367096543312073
+      "prob": 0.8562185764312744
     },
     {
-      "sentence": "Menu Designs and User Interest: We considered 3 menu sizes  5, 10, and 15 items  to address varying cases, from short contextual menus to longer application menus.",
+      "sentence": "Further, due to the lack of user feedback, computing reward is not straightforward.",
       "label": "Background",
-      "prob": 0.7365414500236511
+      "prob": 0.8497152924537659
     },
     {
-      "sentence": "Items labels were selected from common categories (e.g. animals, fruits, countries, etc.) to avoid prior biases.",
+      "sentence": "In the latter case, the problem can be approached as a supervised learning problem, where a mapping is learned between user data and suitable adaptations.",
       "label": "Background",
-      "prob": 0.731934666633606
+      "prob": 0.8455158472061157
     },
     {
-      "sentence": "To avoid confusion, there were no overlaps in item labels or categories between the menus for a participant.",
+      "sentence": "learn a good policy [50] This makes it poorly suitable for situations with very large state-action spaces.",
       "label": "Background",
-      "prob": 0.7311145663261414
+      "prob": 0.8429414629936218
     },
     {
-      "sentence": "The reward  then signifies the benefit an adaptation provides to the user by improving future interactions, for example, by reducing the time required to select an icon.",
+      "sentence": "For instance, Fitts law [39] can be used to adapt the location and the size of an elements to minimise pointing time.",
       "label": "Background",
-      "prob": 0.7308523654937744
+      "prob": 0.8423129320144653
     },
     {
-      "sentence": "First, MCTS-based planning consistently proposes adaptations that could improve predicted performance (Figure 9a).",
+      "sentence": "However, this selection time depends not only on the cursor movement distance, but also the users ability to search for items in the menu.",
       "label": "Background",
-      "prob": 0.7308273911476135
+      "prob": 0.838830292224884
     },
     {
-      "sentence": "Bayesian optimisation generalises bandit systems to the case of multiple interrelated decision variables [47].",
+      "sentence": "The main advantages of using neural networks for estimation are that they have high learning capacity, and can evaluate thousands of states in real-time without running expensive simulations.",
       "label": "Background",
-      "prob": 0.7307929992675781
+      "prob": 0.8381224274635315
     },
     {
-      "sentence": "Note that we decouple value estimations from objective functions (see above), leaving it up to the adaptive system to decide how to use information from multiple models.",
+      "sentence": "Given an initial homescreen design, with which the user has interacted, an adaptation  would result in a new design by, for example, changing the layout or ordering of icons.",
       "label": "Background",
-      "prob": 0.7245598435401917
+      "prob": 0.8362729549407959
     },
     {
-      "sentence": "Each input is treated as an independent model branch (head) that is eventually concatenated and passed to three independent model branches (tails), one for each output reward.",
+      "sentence": "While the true state of the design is fully observable, the system does not have access to the true state of the user.",
       "label": "Background",
-      "prob": 0.7239644527435303
+      "prob": 0.8358222246170044
     },
     {
-      "sentence": "Moreover, in adaptive interaction, utility is also non-stationary .",
+      "sentence": "An adaptive system must decide what to adapt, and when  or when not  to make changes.",
       "label": "Background",
-      "prob": 0.7212993502616882
+      "prob": 0.8357911109924316
     },
     {
-      "sentence": "Upon adaptation, the transition function  specifies how the internal state of the user (e.g. their expertise) changes along with the external design state.",
+      "sentence": "With regard to the user  , aspects such as expertise, interests, and abilities, can be considered.",
       "label": "Background",
-      "prob": 0.7196434140205383
+      "prob": 0.8341014385223389
     },
     {
-      "sentence": "Value estimates, along with state (design and user) information, are given as input samples to a deep neural network model.",
+      "sentence": "To improve performance beyond that, techniques for GPU computation and more efficient training will need attention.",
       "label": "Background",
-      "prob": 0.7183717489242554
+      "prob": 0.830219030380249
     },
     {
-      "sentence": "where  (   ) is the size of the group, and  (   ) is the location of the target item   within group   if it is located within the group,  otherwise.",
+      "sentence": "Invisibility can be exploited to plan multiple adaptations in a single turn.",
       "label": "Background",
-      "prob": 0.7170961499214172
+      "prob": 0.8264539241790771
     },
     {
-      "sentence": "Finally,  trail remains the constant pointing time when the mouse cursor trails the eye gaze.",
+      "sentence": "Here, a state  of the system consists of both the homescreen design  and latent state of the user  who is interacting with the device.",
       "label": "Background",
-      "prob": 0.7118925452232361
+      "prob": 0.8262555003166199
     },
     {
-      "sentence": "In addition, up to 8 separators were allowed for grouping, resulting in menus with up to 23 items.",
+      "sentence": "A rule system must be developed that, on the one hand, covers conceivable conditions the system can enter and, on the other, can graciously resolve conflicts when multiple rules apply.",
       "label": "Background",
-      "prob": 0.7104744911193848
+      "prob": 0.8193525075912476
     },
     {
-      "sentence": "This way, it is possible to learn adaptive responses via trial and error.",
+      "sentence": "Monte Carlo Tree Search (MCTS) has been successfully employed in various game-playing applications to plan a sequence of moves efficiently (see [9]).",
       "label": "Background",
-      "prob": 0.7077386379241943
+      "prob": 0.8192552924156189
     },
     {
-      "sentence": "Given prior data and new evidence on the measured success of an adaptation, bandits use Bayes theorem to update expectation.",
+      "sentence": "menu, the target item  might have been encountered at several locations.",
       "label": "Background",
-      "prob": 0.7063546776771545
+      "prob": 0.8171549439430237
     },
     {
-      "sentence": "Estimation of utility is required for selecting an adaptation.",
+      "sentence": "Menus have received extensive attention in HCI research because they are widely used, and adaptation has potential to improve usability [4, 55].",
       "label": "Background",
-      "prob": 0.7057501673698425
+      "prob": 0.8084144592285156
     },
     {
-      "sentence": "We support several ways for selecting adaptation that allows controlling for the trade-off between risk and gain.",
+      "sentence": "In non-ordered menus,  local is equal to 2 times the number of items in the Fovea.",
       "label": "Background",
-      "prob": 0.6984349489212036
+      "prob": 0.8081167340278625
+    },
+    {
+      "sentence": "arrange icons on mobile homescreens, or reorganise application menus.",
+      "label": "Background",
+      "prob": 0.8068945407867432
+    },
+    {
+      "sentence": "We believe that adaptive systems could provide greater benefits by planning sequences of adaptations that gracefully lead a user through gradual changes.",
+      "label": "Background",
+      "prob": 0.8031871914863586
+    },
+    {
+      "sentence": "Conversely, the system can use invisible states to withhold presentation and combine multiple adaptations, such that the state is used only as a pathway to another state without being displayed.",
+      "label": "Background",
+      "prob": 0.8017742037773132
+    },
+    {
+      "sentence": "First, one limitation to the applicability of the approach is the requirement for accurate models of shortand long-term consequences of adaptations.",
+      "label": "Background",
+      "prob": 0.7930970191955566
+    },
+    {
+      "sentence": "In contrast to game-playing applications, where a win/loss defines the terminal state, our case does not have a well-defined horizon.",
+      "label": "Background",
+      "prob": 0.7854675650596619
     },
     {
       "sentence": "Within a block, the two menus appeared in an alternating order, separated by short breaks (3 seconds).",
       "label": "Background",
-      "prob": 0.6972416639328003
+      "prob": 0.7847999930381775
     },
     {
-      "sentence": "The prevailing understanding is that learning is a key capability for adaptive systems [32].",
+      "sentence": "For example, for a menu with 15 items, and up to 8 separators, there are over 500 feasible adaptations.",
       "label": "Background",
-      "prob": 0.6968188285827637
+      "prob": 0.7819090485572815
     },
     {
-      "sentence": "Model-based RL uses a predictive model to simulate possibilities without first trying them out, which is useful for adaptive interfaces, because it significantly improves the efficiency of finding good solutions [28].",
+      "sentence": "No general solution has been proposed for autonomous adaptation that could not only move items to the top, but handle reorganisations more comprehensively.",
       "label": "Background",
-      "prob": 0.6908689141273499
+      "prob": 0.7814791202545166
     },
     {
-      "sentence": "Model-based reinforcement learning is here developed as a principled and effective approach to these issues.",
+      "sentence": "However, there is no reason why data-driven models (e.g. [59])  trained on larger datasets of user data  could not be used for this purpose, significantly expanding the scope of possible applications.",
       "label": "Background",
-      "prob": 0.6904033422470093
+      "prob": 0.7787966728210449
     },
     {
-      "sentence": "Our choice of the three models was made with the hypothesis that they would provide bounds for best-case and worst-case performance.",
+      "sentence": "Importantly, the adaptive system does not require explicit user input, but is still able to perform conservatively without disadvantageous or annoying changes (Figure 10).",
       "label": "Background",
-      "prob": 0.6883701682090759
+      "prob": 0.778024435043335
     },
     {
-      "sentence": "To address large problem sizes, we instantiate our general network architecture (Figure 3) for adaptive menus.",
+      "sentence": "A policy can be determined with much fewer trials, and if the model is good, at times directly.",
       "label": "Background",
-      "prob": 0.684829592704773
+      "prob": 0.7747085690498352
     },
     {
-      "sentence": "These models simulate consequences  benefits and costs  of possible adaptation sequences without actually executing them [28, 50].",
+      "sentence": "MCTS can operate under uncertainty by analysing the most promising moves, and expanding tree nodes using random sampling based approaches.",
       "label": "Background",
-      "prob": 0.6813462972640991
-    },
-    {
-      "sentence": "Following this, the user cautiously inspects the remaining items at a slower rate  .",
-      "label": "Background",
-      "prob": 0.6806765198707581
-    },
-    {
-      "sentence": "To avoid extensive trial-and-error with users in the loop, our deep learning models are trained offline using HCI models.",
-      "label": "Background",
-      "prob": 0.6784468293190002
-    },
-    {
-      "sentence": "A key insight here has been to incorporate neural networks to help predict which branches have highest expected value, and thereby deal with larger problem instances.",
-      "label": "Background",
-      "prob": 0.6737893223762512
-    },
-    {
-      "sentence": "Each item in the adapted menu is converted to a one-hot encoded vector, flattened, and then passed to a fully connected layer.",
-      "label": "Background",
-      "prob": 0.6724711060523987
-    },
-    {
-      "sentence": "Finland projects Human Automata and BAD, Agence Nationale de la Recherche (grant number ANR-16-CE33-0023), and HumaneAI Net (H2020 ICT 48 Network of Centers of Excellence).",
-      "label": "Background",
-      "prob": 0.6703687310218811
-    },
-    {
-      "sentence": "is an association matrix defining the semantic relatedness between menu items.",
-      "label": "Background",
-      "prob": 0.6703339219093323
-    },
-    {
-      "sentence": "The system observes user clicks on menu items to approximate a users expertise and interest .",
-      "label": "Background",
-      "prob": 0.6699729561805725
-    },
-    {
-      "sentence": "During planning, we balance between exploiting highreward adaptations and exploring others.",
-      "label": "Background",
-      "prob": 0.6689859628677368
-    },
-    {
-      "sentence": "During the study, participants were not informed about adaptations (if any) in advance.",
-      "label": "Background",
-      "prob": 0.6669356822967529
-    },
-    {
-      "sentence": "In machine learning terms, utility is latent .",
-      "label": "Background",
-      "prob": 0.6570128202438354
-    },
-    {
-      "sentence": "is a state of interaction; This consists of both the interface design (  ) and the user (  )",
-      "label": "Background",
-      "prob": 0.6518114805221558
-    },
-    {
-      "sentence": "We define a design    as a pair < , > where  is a nonhierarchical linear menu [40] containing an ordered list of items.",
-      "label": "Background",
-      "prob": 0.6506891846656799
-    },
-    {
-      "sentence": "For a target item  , if there are no activations   above a threshold  (we use 0.5), the user reverts to serial search (Equation 7).",
-      "label": "Background",
-      "prob": 0.6410318613052368
-    },
-    {
-      "sentence": "In semantic menus,  local is the number of items in the group.Inanadaptive",
-      "label": "Background",
-      "prob": 0.6403264403343201
-    },
-    {
-      "sentence": "This work was funded by the Department of Communications and Networking (Comnet), the Finnish Center for Artificial Intelligence (FCAI), Academy of",
-      "label": "Background",
-      "prob": 0.637355387210846
-    },
-    {
-      "sentence": "where  (   ) is the level of activation of item  at location  in the memory,  is the current time,  ,  is the time of the   selection of   , and  is a decay parameter equal to 0 .",
-      "label": "Background",
-      "prob": 0.636926531791687
-    },
-    {
-      "sentence": "Several predictive models explain how users search within linear menus [5, 10, 12, 24, 40].",
-      "label": "Background",
-      "prob": 0.6360336542129517
-    },
-    {
-      "sentence": "In a poorly organised menu, where the target item is not located within the expected group(s), a user first attempts foraging search by inspecting all anchors, and all items within related anchors (given by Equation 9).",
-      "label": "Background",
-      "prob": 0.6327266097068787
-    },
-    {
-      "sentence": "Participants took mandatory breaks (1 minute) between two consecutive blocks, and longer breaks (5 minutes) between conditions where they answered open-ended interview questions.",
-      "label": "Background",
-      "prob": 0.6316203474998474
-    },
-    {
-      "sentence": "Our empirical evaluation reveals that this approach can work even when starting from poor designs that would be hard to recover with approaches that do not consider planning.",
-      "label": "Background",
-      "prob": 0.6236320734024048
-    },
-    {
-      "sentence": "The user could keep interacting for years.",
-      "label": "Background",
-      "prob": 0.6220743060112
-    },
-    {
-      "sentence": "The concatenated inputs are passed to each network tail, which comprises two stacked fully connected layers.",
-      "label": "Background",
-      "prob": 0.6216733455657959
-    },
-    {
-      "sentence": "rest of the section, we focus on the general case, where both inference and decision-making are required and non-trivial.",
-      "label": "Background",
-      "prob": 0.6194230914115906
-    },
-    {
-      "sentence": "Methods like Thompson sampling can optimally balance between exploring actions, to learn about which actions work, and exploitation, to converge to good designs.",
-      "label": "Background",
-      "prob": 0.6190659999847412
-    },
-    {
-      "sentence": "We provide a general solution here considering linear menus with up to 20 items, which covers a wide number of menus typically found in common operating systems, applications, and websites [3, 4, 6].",
-      "label": "Background",
-      "prob": 0.6144033670425415
-    },
-    {
-      "sentence": "All participants reported frequent desktop or mobile, and web usage.",
-      "label": "Background",
-      "prob": 0.6108863949775696
-    },
-    {
-      "sentence": "For each participant, two menus were generated for each of the three conditions, resulting in six unique menus.",
-      "label": "Background",
-      "prob": 0.6094436645507812
-    },
-    {
-      "sentence": "Thus, items within related groups are inspected serially until the target is successfully found.",
-      "label": "Background",
-      "prob": 0.6077037453651428
-    },
-    {
-      "sentence": "To demonstrate the applicability of our approach, we tackle a challenging and open question in the field of adaptive interfaces: adaptive menus .",
-      "label": "Background",
-      "prob": 0.6017701625823975
-    },
-    {
-      "sentence": "State (  ): A state    gives information about the menu design and the user.",
-      "label": "Background",
-      "prob": 0.5986107587814331
-    },
-    {
-      "sentence": "Errors were logged, and participants had to select the target item to finish the trial.",
-      "label": "Background",
-      "prob": 0.5978235602378845
-    },
-    {
-      "sentence": "Through model-based planning, we can adapt menus that improve overall performance, as given by reduced selection time.",
-      "label": "Background",
-      "prob": 0.596635103225708
-    },
-    {
-      "sentence": "This is repeated for a fixed number of steps, given by the horizon  , and cumulative rewards are computed for each predictive model:",
-      "label": "Background",
-      "prob": 0.5955784320831299
-    },
-    {
-      "sentence": "Consider a menu where   is the number of groups,   (   ) is the location of the group that contains the target (   ), and  the expected target location within the group.",
-      "label": "Background",
-      "prob": 0.5875853896141052
-    },
-    {
-      "sentence": "If the anchor is unrelated to the target, the user skips the group.",
-      "label": "Background",
-      "prob": 0.587470293045044
-    },
-    {
-      "sentence": "The problem of adaptive interfaces is that of maximising expected cumulative discounted rewards  (   ,  ) from acting according to an optimal policy   (see e.g. [26]):",
-      "label": "Background",
-      "prob": 0.5857980251312256
-    },
-    {
-      "sentence": "For common words, it can be inferred using word embedding models [43].",
-      "label": "Background",
-      "prob": 0.5854621529579163
-    },
-    {
-      "sentence": "Elementary design and user features are parameterised with the neural network model.",
-      "label": "Background",
-      "prob": 0.5853411555290222
-    },
-    {
-      "sentence": "In particular, it (1) illuminates the decision problem, (2) links it to a body of theoretical results and practical approaches in AI and ML research, and (3) points toward appropriate algorithmic solutions.",
-      "label": "Background",
-      "prob": 0.5842592716217041
-    },
-    {
-      "sentence": "Here, the user attempts recall search at all locations    where  (   )   , until the target is found.",
-      "label": "Background",
-      "prob": 0.5832186937332153
-    },
-    {
-      "sentence": "Consider the case of adapting the homescreen layout of smartphones, consisting of a grid of application icons.",
-      "label": "Background",
-      "prob": 0.574734628200531
-    },
-    {
-      "sentence": "In the Static condition, participants could use their memory to directly access some items, but commented on the lack of proper grouping: the items were not consistent in their grouping, and they were not intuitively grouped (P11).",
-      "label": "Background",
-      "prob": 0.5739697813987732
-    },
-    {
-      "sentence": "In our work, we incorporate a value neural network to compute longer sequence cases faster.",
-      "label": "Background",
-      "prob": 0.5720548033714294
-    },
-    {
-      "sentence": "To conclude, we hope our work can be broadly appealing, and invite contributions from both the HCI and the machine learning community.",
-      "label": "Background",
-      "prob": 0.56611567735672
+      "prob": 0.7743778228759766
     },
     {
       "sentence": "The benefit of an MDP formulation is that it offers a rigorous and actionable understanding of the problem.",
       "label": "Background",
-      "prob": 0.5637074112892151
+      "prob": 0.7727904319763184
     },
     {
-      "sentence": "We conducted a technical evaluation with realistic and challenging scenarios, where the adaptive system must adapt menus for simulated users.",
+      "sentence": "However, if  is after  (    ), surprise penalty   is imposed upon not finding the item as expected.",
       "label": "Background",
-      "prob": 0.5632520318031311
+      "prob": 0.7717766761779785
     },
     {
-      "sentence": "This helps us form an adaptation policy that accounts for different user strategies and avoids adaptations that incur high costs to users.",
+      "sentence": "But making the assumption that a user might  for reasons like lack of effort or interest  use a poor strategy allows us to define a conservative policy for adaptation that is unlikely to annoy them.",
       "label": "Background",
-      "prob": 0.5560301542282104
+      "prob": 0.7670706510543823
     },
     {
-      "sentence": "In a well-organised menu, where the anchor of one of the groups is related to the target item, foraging search time is:",
+      "sentence": "They have found several applications (e.g. game-playing [8], circuit-routing [11], etc.).",
       "label": "Background",
-      "prob": 0.555063784122467
+      "prob": 0.7669327855110168
     },
     {
-      "sentence": "If the anchor is related, the user performs a serial search within this group.",
+      "sentence": "In place of rollouts, where simulations can be costly for longer horizons, a pretrained value network is used to directly obtain value estimates for unexplored states.",
       "label": "Background",
-      "prob": 0.5549706816673279
+      "prob": 0.764864444732666
     },
     {
-      "sentence": "designed to handle long-term dependencies, and is then passed to a fully connected layer.",
+      "sentence": "6, 8, and 10  depicting a range of planning horizons, from short sequences to longer sequences.",
       "label": "Background",
-      "prob": 0.5514550805091858
+      "prob": 0.7622690796852112
+    },
+    {
+      "sentence": "Given prior data and new evidence on the measured success of an adaptation, bandits use Bayes theorem to update expectation.",
+      "label": "Background",
+      "prob": 0.7569026947021484
+    },
+    {
+      "sentence": "User interest (or prediction scheme [55]) is given by the frequency distribution of commands selected during the previous interaction session, containing  clicks.",
+      "label": "Background",
+      "prob": 0.7520687580108643
+    },
+    {
+      "sentence": "Instead, predictive HCI models can be used to build objective functions related to performance and re-learning costs.",
+      "label": "Background",
+      "prob": 0.7517899870872498
     },
     {
       "sentence": "At the end of each tail, we use linear activation to predict each reward, since they are not bounded.",
       "label": "Background",
-      "prob": 0.548312246799469
+      "prob": 0.7483949661254883
     },
     {
-      "sentence": "In contrast, we observed (Figure 9b) that adaptations made through our approach could provide these benefits while avoiding costly changes that require relearning and cause annoyance.",
+      "sentence": "Moreover, in adaptive interaction, utility is also non-stationary .",
       "label": "Background",
-      "prob": 0.5467791557312012
+      "prob": 0.7457302808761597
     },
     {
-      "sentence": "(   ,  )  [ 0 , 1 ] specifies if   is associated to an anchor   .",
+      "sentence": "Model-based reinforcement learning is here developed as a principled and effective approach to these issues.",
       "label": "Background",
-      "prob": 0.5436272621154785
+      "prob": 0.7424650192260742
     },
     {
-      "sentence": "As illustrated in Figure 3, we propose an  -headed  -tailed architecture that is trained end-to-end with backpropagation.",
+      "sentence": "Bandit systems are one of the most successful probabilistic approaches to this problem, not only for recommendation systems but also for interface design and adaptation [38].",
       "label": "Background",
-      "prob": 0.5436031222343445
+      "prob": 0.7420337796211243
+    },
+    {
+      "sentence": "Different computational approaches to this problem have been studied, among others, rule-based systems, heuristics, bandits, Bayesian optimisation, and supervised learning (see section 2).",
+      "label": "Background",
+      "prob": 0.7413741946220398
+    },
+    {
+      "sentence": "This is necessary for the acquisition rule to address the explorationexploitation trade-off.",
+      "label": "Background",
+      "prob": 0.7263490557670593
+    },
+    {
+      "sentence": "where  (   ) is the activation of  at  , and  is the cautious inspection cost constant when there is no activation.",
+      "label": "Background",
+      "prob": 0.7232605814933777
+    },
+    {
+      "sentence": "Given a pair of menu designs and estimates of user expertise and interest, these models predict selection time for items for varying user strategies.",
+      "label": "Background",
+      "prob": 0.7180683016777039
+    },
+    {
+      "sentence": "The adaptive system must decide what to adapt, if anything, given its observations.",
+      "label": "Background",
+      "prob": 0.7168312668800354
+    },
+    {
+      "sentence": "Early work on this topic studied rule systems, heuristics, and logic as the basis of deciding what to adapt (see, e.g., [44]).",
+      "label": "Background",
+      "prob": 0.7163280248641968
+    },
+    {
+      "sentence": "The anchor , or first element of a group, signals what is in the group.",
+      "label": "Background",
+      "prob": 0.7078081369400024
+    },
+    {
+      "sentence": "Following this, the user cautiously inspects the remaining items at a slower rate  .",
+      "label": "Background",
+      "prob": 0.7038447260856628
+    },
+    {
+      "sentence": "Finding a policy to select adaptations can be challenging for adaptive interfaces.",
+      "label": "Background",
+      "prob": 0.7032850980758667
+    },
+    {
+      "sentence": "However, while bandits and BO have been successful in simpler adaptation problems, like recommendations and calibration of interface parameters, their intrinsic limitation is that they are myopic; that is, they do not plan over a series of changes  a capability we need in adaptive interaction.",
+      "label": "Background",
+      "prob": 0.6956958770751953
+    },
+    {
+      "sentence": "All models simulate what would happen with that adaptation sequence and return an estimate of values over the whole window.",
+      "label": "Background",
+      "prob": 0.694176971912384
+    },
+    {
+      "sentence": "Reinforcement learning (RL) is a class of machine learning methods appropriate for this type of problems.",
+      "label": "Background",
+      "prob": 0.6909322738647461
+    },
+    {
+      "sentence": "For example, humans learn and change interests.",
+      "label": "Background",
+      "prob": 0.6908486485481262
+    },
+    {
+      "sentence": "An item is either a word or a separator (used to create semantic groups).",
+      "label": "Background",
+      "prob": 0.6861364245414734
+    },
+    {
+      "sentence": "Our approach assumes that there are multiple predictive HCI models that bound the true behaviour, for example by offering best-case and (realistic) worst-case estimates.",
+      "label": "Background",
+      "prob": 0.6856790781021118
+    },
+    {
+      "sentence": "When searching for a menu item   at an expected position  , serial search [5, 13, 40] consists of a top-tobottom inspection of the menu, until the item is reached.",
+      "label": "Background",
+      "prob": 0.6823129057884216
+    },
+    {
+      "sentence": "Each of the  input parameters is treated as an independent model branch (head) that is eventually concatenated and passed to  independent model branches (tails).",
+      "label": "Background",
+      "prob": 0.6815231442451477
+    },
+    {
+      "sentence": "Future adaptive applications can benefit from our general approach by exploiting and extending predictive models of interaction.",
+      "label": "Background",
+      "prob": 0.6767844557762146
+    },
+    {
+      "sentence": "Each item in the adapted menu is converted to a one-hot encoded vector, flattened, and then passed to a fully connected layer.",
+      "label": "Background",
+      "prob": 0.6765264868736267
+    },
+    {
+      "sentence": "Rewards from multiple models can be combined using any of the objective functions given in section 4.1.",
+      "label": "Background",
+      "prob": 0.6731476187705994
+    },
+    {
+      "sentence": "Value estimates, along with state (design and user) information, are given as input samples to a deep neural network model.",
+      "label": "Background",
+      "prob": 0.6645076870918274
+    },
+    {
+      "sentence": "This way, it is possible to learn adaptive responses via trial and error.",
+      "label": "Background",
+      "prob": 0.6635300517082214
+    },
+    {
+      "sentence": "To avoid confusion, there were no overlaps in item labels or categories between the menus for a participant.",
+      "label": "Background",
+      "prob": 0.6616291403770447
+    },
+    {
+      "sentence": "In our application, we further assume that the expanded state is either visible or invisible to the user.",
+      "label": "Background",
+      "prob": 0.6606460809707642
+    },
+    {
+      "sentence": "In addition, up to 8 separators were allowed for grouping, resulting in menus with up to 23 items.",
+      "label": "Background",
+      "prob": 0.6538286209106445
+    },
+    {
+      "sentence": "In our case, while the system can change the interface, it cannot change the human, which has its own latent processes.",
+      "label": "Background",
+      "prob": 0.6506040692329407
+    },
+    {
+      "sentence": "Estimation of utility is required for selecting an adaptation.",
+      "label": "Background",
+      "prob": 0.6466742157936096
+    },
+    {
+      "sentence": "In particular, it (1) illuminates the decision problem, (2) links it to a body of theoretical results and practical approaches in AI and ML research, and (3) points toward appropriate algorithmic solutions.",
+      "label": "Background",
+      "prob": 0.6466374397277832
+    },
+    {
+      "sentence": "Our general approach can be applied for various HCI applications, such as adaptive mobile homescreens, graphical layouts, and application menus.",
+      "label": "Background",
+      "prob": 0.6433773636817932
+    },
+    {
+      "sentence": "Upon adaptation, the transition function  specifies how the internal state of the user (e.g. their expertise) changes along with the external design state.",
+      "label": "Background",
+      "prob": 0.6403279304504395
+    },
+    {
+      "sentence": "In MCTS, the menu adapts after each block by planning adaptations; in Static, the menu does not adapt over time; in Freqency, the menu adapts based on the frequency of clicks on menu items.",
+      "label": "Background",
+      "prob": 0.6317564249038696
+    },
+    {
+      "sentence": "If all adaptations from the selected state   have been previously explored, then selection is repeated until a leaf state is selected with unexplored adaptations.",
+      "label": "Background",
+      "prob": 0.6278119087219238
+    },
+    {
+      "sentence": "For example, it can be used to adapt the structure of webpages layouts,",
+      "label": "Background",
+      "prob": 0.6254172921180725
+    },
+    {
+      "sentence": "For example, in our application example later on, we optimise for performance improvements in menu selection tasks achievable over multiple sessions of interactions.",
+      "label": "Background",
+      "prob": 0.6169596910476685
+    },
+    {
+      "sentence": "Consider a menu where   is the number of groups,   (   ) is the location of the group that contains the target (   ), and  the expected target location within the group.",
+      "label": "Background",
+      "prob": 0.6151632070541382
+    },
+    {
+      "sentence": "The tree consists of nodes, connected by branches, representing valid states and transitions between them.",
+      "label": "Background",
+      "prob": 0.6139642000198364
+    },
+    {
+      "sentence": "With model-based simulations, predictive models are used during roll-outs to estimate rewards for each state.",
+      "label": "Background",
+      "prob": 0.610710859298706
+    },
+    {
+      "sentence": "These frequency distributions were then used to generate sequences of target items, to be presented as stimulus during the trials.",
+      "label": "Background",
+      "prob": 0.6073505282402039
+    },
+    {
+      "sentence": "During the study, participants were not informed about adaptations (if any) in advance.",
+      "label": "Background",
+      "prob": 0.6069523692131042
+    },
+    {
+      "sentence": "A key insight here has been to incorporate neural networks to help predict which branches have highest expected value, and thereby deal with larger problem instances.",
+      "label": "Background",
+      "prob": 0.6069350242614746
+    },
+    {
+      "sentence": "A key feature of these models is to take into account the implicit cost of adaptations.",
+      "label": "Background",
+      "prob": 0.6049724817276001
+    },
+    {
+      "sentence": "Consider the case of adapting the homescreen layout of smartphones, consisting of a grid of application icons.",
+      "label": "Background",
+      "prob": 0.601262092590332
+    },
+    {
+      "sentence": "In our implementation,  is given by the designer as binary relationships by specifying lists of related items.",
+      "label": "Background",
+      "prob": 0.6009323596954346
+    },
+    {
+      "sentence": "designed to handle long-term dependencies, and is then passed to a fully connected layer.",
+      "label": "Background",
+      "prob": 0.5970141887664795
+    },
+    {
+      "sentence": "rest of the section, we focus on the general case, where both inference and decision-making are required and non-trivial.",
+      "label": "Background",
+      "prob": 0.5964481830596924
     },
     {
       "sentence": "The approach can handle different types of adaptations including the presentation of the graphical elements (position, size, colour, etc.) or their behaviour (number of elements, animations, etc.).",
       "label": "Background",
-      "prob": 0.5420178174972534
+      "prob": 0.594662070274353
     },
     {
-      "sentence": "We define the adaptation problem as a stochastic sequential decision problem [7], where the adaptive system should plan a sequence of adaptations over a long horizon.",
+      "sentence": "While this approach has been successful for input techniques, such as gesture recognition [57], it is an open question if this scales up to adaptive interfaces, which must not only learn user state but flexibly decide how to intervene in the user interface.",
       "label": "Background",
-      "prob": 0.5416149497032166
+      "prob": 0.5940377712249756
     },
     {
-      "sentence": "We use a simplified version of the learning component from ACT-R [1] to compute user expertise for each menu item   in a menu with  items:",
+      "sentence": "where   is the total reward for child state   ,   is the number of times   has been visited, and   is the number of times parent state   has been visited.",
       "label": "Background",
-      "prob": 0.5354897975921631
+      "prob": 0.5873717069625854
     },
     {
-      "sentence": "The total serial search time for a target at expected location  is thus given by:",
+      "sentence": "Also, while predictive models have been used for oneshot design generation [42], design space exploration [53], and for selecting a single action in a myopic manner [27, 51], they have not been used for simulation-based planning in an adaptive system.",
       "label": "Background",
-      "prob": 0.5287923216819763
+      "prob": 0.5822811126708984
     },
     {
-      "sentence": "After each block, we asked them whether they noticed changes to menus during use, and their opinions about these changes (if any).",
+      "sentence": "When  (   )   for a target   at location  , the user attempts recall search by inspecting the item at  (Equation 6).",
       "label": "Background",
-      "prob": 0.5264338850975037
+      "prob": 0.5821237564086914
     },
     {
-      "sentence": "In a within-subject experimental design, each participant tested the three conditions (Static, Freqency, MCTS) sequentially.",
+      "sentence": "any application case, a core aspect of our approach relies on HCI models [42] to sufficiently accurately capture the effects of these adaptations on the chosen goals.",
       "label": "Background",
-      "prob": 0.5190005898475647
+      "prob": 0.5695053935050964
     },
     {
-      "sentence": "Finally, the discount factor  indicates to the adaptive system how immediate benefits and long-term improvements contribute towards the reward.",
+      "sentence": "This helps us form an adaptation policy that accounts for different user strategies and avoids adaptations that incur high costs to users.",
       "label": "Background",
-      "prob": 0.5161727666854858
+      "prob": 0.5668154358863831
     },
     {
-      "sentence": "Exploration constant  in our application is set to 1 / 2 following convention.",
+      "sentence": "We provide a general solution here considering linear menus with up to 20 items, which covers a wide number of menus typically found in common operating systems, applications, and websites [3, 4, 6].",
       "label": "Background",
-      "prob": 0.5161110162734985
+      "prob": 0.5596868991851807
     },
     {
-      "sentence": "Feasible Adaptations (  ): The set of possible adaptations  , through which a menu can be reorganised, includes (1) moving a menu item to a certain position, (2) swapping two items, (3) adding or removing a separator, (4) moving an entire group, (5) swapping two groups, and (6) not making any changes.",
+      "sentence": "Menu Designs and User Interest: We considered 3 menu sizes  5, 10, and 15 items  to address varying cases, from short contextual menus to longer application menus.",
       "label": "Background",
-      "prob": 0.515143096446991
+      "prob": 0.5528058409690857
     },
     {
-      "sentence": "Participation was compensated with a movie ticket voucher (approx. 12.00).",
+      "sentence": "We see several exciting topics for future research on model-based RL and its applications in HCI.",
       "label": "Background",
-      "prob": 0.5103386640548706
+      "prob": 0.5507060289382935
     },
     {
-      "sentence": "Where  trail is a constant pointing time assuming that the mouse cursor trails the eye-gaze (tracking strategy) during serial search [5, 10].",
+      "sentence": "In HCI, although previous work has explored the use of model-free RL (e.g., see [35]), model-based RL has not been explored in adaptive interfaces at large, as far as we know.",
       "label": "Background",
-      "prob": 0.5039244294166565
+      "prob": 0.5489700436592102
     },
     {
-      "sentence": "We have presented solutions to several consequent technical challenges, most notably:",
+      "sentence": "Other practical limitations include the size of stateaction space.",
       "label": "Background",
-      "prob": 0.4958156645298004
-    },
-    {
-      "sentence": "adapted menu, if the items new location  is before the expected location  (    ), the search time reduces following Equation 7.",
-      "label": "Background",
-      "prob": 0.4936860203742981
-    },
-    {
-      "sentence": "Our MCTS-based planning algorithm, and the predictive menu models, are implemented in Python 3.7.",
-      "label": "Background",
-      "prob": 0.493079274892807
-    },
-    {
-      "sentence": "In other parts, our solution follows standard implementations of MCTS (Figure 2):",
-      "label": "Background",
-      "prob": 0.4906380772590637
-    },
-    {
-      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan",
-      "label": "Background",
-      "prob": 0.47950607538223267
-    },
-    {
-      "sentence": "It is a global optimisation method that tries to find optimal adaptation by probing to a black box function; here, the user.",
-      "label": "Background",
-      "prob": 0.47903457283973694
-    },
-    {
-      "sentence": "We build on these models to define three search strategies, and use these to evaluate the utility of a menu design by simulating search tasks, illustrated in Figure 5:",
-      "label": "Background",
-      "prob": 0.4772898554801941
-    },
-    {
-      "sentence": "During offline training, model-based data is generated using MCTS roll-outs from randomly sampled initial states.",
-      "label": "Background",
-      "prob": 0.4710519015789032
-    },
-    {
-      "sentence": "We used a Zipfian distribution to reasonably model menu usage [13, 37].",
-      "label": "Background",
-      "prob": 0.4706279933452606
-    },
-    {
-      "sentence": "Transition function (  ): We use MCTS, where the probability of making an adaptation from state  0 to  1 is given by UCT (Equation 2).",
-      "label": "Background",
-      "prob": 0.46616610884666443
-    },
-    {
-      "sentence": "By simulating consequences of adaptations during roll-outs, we can estimate implications of design changes on user performance.",
-      "label": "Background",
-      "prob": 0.46616244316101074
-    },
-    {
-      "sentence": "If recall search fails (    or  ( , ) <  ), the user eventually reverts to serial search under caution (Equation 8).",
-      "label": "Background",
-      "prob": 0.4635603129863739
-    },
-    {
-      "sentence": "The loss function for all model tails is the mean squared error (MSE), which is computed as the average of the squared differences between the predicted and the actual values, which penalises large errors.",
-      "label": "Background",
-      "prob": 0.46060702204704285
-    },
-    {
-      "sentence": "The association matrices are diffed and passed to a long short-term memory (LSTM) layer, then passed to a fully connected layer.",
-      "label": "Background",
-      "prob": 0.45897525548934937
-    },
-    {
-      "sentence": "It can be observed that while selection time for the top-most items (lower target positions) is quite similar for the three conditions, with MCTS being the fastest, it increases more drastically for the Freqency condition, as compared to Static and MCTS.",
-      "label": "Background",
-      "prob": 0.45286065340042114
-    },
-    {
-      "sentence": "This resulted in 3  8  4 = 96 configurations, each assigned to a different simulated user.",
-      "label": "Background",
-      "prob": 0.4523991644382477
-    },
-    {
-      "sentence": "The above search models enable us to predict selection times for varying user strategies.",
-      "label": "Background",
-      "prob": 0.4520076811313629
-    },
-    {
-      "sentence": "Finally, while our work successfully used a value network, further improvements can be expected by implementing a policy network [48].",
-      "label": "Background",
-      "prob": 0.4509170353412628
-    },
-    {
-      "sentence": "The model outputs reward predictions for each of the three search models: serial, foraging, and recall.",
-      "label": "Background",
-      "prob": 0.44928160309791565
-    },
-    {
-      "sentence": "15 participants commented that they noticed changes in the Freqency condition, but only 2 participants noticed how these changes were occurring.",
-      "label": "Result",
-      "prob": 0.4572725296020508
-    },
-    {
-      "sentence": "In the following, we describe how these challenges are addressed via model-based RL.",
-      "label": "Background",
-      "prob": 0.4407177269458771
-    },
-    {
-      "sentence": "18 participants (10 masculine, 8 feminine, 0 others), aged 18 to 38 (mean 27.2), with varying educational backgrounds, were opportunistically recruited.",
-      "label": "Background",
-      "prob": 0.4375254511833191
-    },
-    {
-      "sentence": "The experiment began with an introductory briefing and participant consent.",
-      "label": "Background",
-      "prob": 0.4374580979347229
-    },
-    {
-      "sentence": "We believe that future applications can benefit from this approach to improve interactions.",
-      "label": "Background",
-      "prob": 0.43445727229118347
-    },
-    {
-      "sentence": "Each adaptation is modelled as an arm associated with a distribution describing expected gains.",
-      "label": "Background",
-      "prob": 0.43226826190948486
-    },
-    {
-      "sentence": "To get a better understanding of how the different conditions influenced performance, we further looked at how target item positions in the menu influence selection time.",
-      "label": "Background",
-      "prob": 0.4256833493709564
-    },
-    {
-      "sentence": "Finally, the click history is passed to an LSTM layer, which models sequential data and is",
-      "label": "Background",
-      "prob": 0.42245951294898987
-    },
-    {
-      "sentence": "While we consider linear menus with textual labels, our solution can be extended to address the problem of adaptive homescreens (introduced in section 3) by extending the menu search model to consider two-dimensional grids and graphical icons.",
-      "label": "Background",
-      "prob": 0.42239001393318176
-    },
-    {
-      "sentence": "For each menu size, we created 4 starting menu designs by randomly assigning labels to item positions.",
-      "label": "Method",
-      "prob": 0.4553892910480499
-    },
-    {
-      "sentence": "However, finding the best adaption  by assessing the value of each",
-      "label": "Background",
-      "prob": 0.4188772439956665
-    },
-    {
-      "sentence": "To assess the scalability of our solution, we compared computation time for model-based simulations vs. value network predictions.",
-      "label": "Background",
-      "prob": 0.41353434324264526
-    },
-    {
-      "sentence": ",  }   are chosen at random, and rewards are estimated using predictive HCI models.",
-      "label": "Method",
-      "prob": 0.42243391275405884
-    },
-    {
-      "sentence": "In the following section, we demonstrate our approach with an application in adaptive menus, and present a novel HCI model to predict selection time in menus.",
-      "label": "Background",
-      "prob": 0.41248226165771484
-    },
-    {
-      "sentence": "Timestamped cursor movements and clicks on menu items were recorded.",
-      "label": "Background",
-      "prob": 0.4122098386287689
-    },
-    {
-      "sentence": "For regularisation purposes, our architecture uses Dropout layers with drop rate 0 .",
-      "label": "Background",
-      "prob": 0.41124773025512695
-    },
-    {
-      "sentence": "To study and demonstrate the viability of the approach, we have applied it to the challenging case of adaptive menus by extending predictive models.",
-      "label": "Background",
-      "prob": 0.40636441111564636
-    },
-    {
-      "sentence": "Condition had a statistically significant effect on selection time ( 2 , 17 ) = 5.47,  < 0.05, with grand means Static = 2283 ms, Freqency = 2298 ms, and MCTS = 2162 ms (Figure 9a).",
-      "label": "Result",
-      "prob": 0.4388132691383362
-    },
-    {
-      "sentence": "When selecting an adaptation  to make on the current design  0 , resulting in a new design  1 , a greedy strategy is chosen:",
-      "label": "Background",
-      "prob": 0.4023660123348236
-    },
-    {
-      "sentence": "Selecting the next adaptation : Given these value estimates, the system can now choose the best adaptation (by setting  = 0 in Equation 2) to maximise expected utility for the user while avoiding costly changes.",
-      "label": "Background",
-      "prob": 0.4014837145805359
-    },
-    {
-      "sentence": "We exploit and extend multiple menu search models from literature to estimate the upper and lower bounds of the value of an adaptation as well as their change as the user learns.",
-      "label": "Method",
-      "prob": 0.4036458730697632
-    },
-    {
-      "sentence": "When we exclude the top-three target items, the difference in selection time between MCTS (mean = 2454 ms) and Freqency (mean = 2799 ms) is 344 ms (i.e. Freqency is about 15% slower).",
-      "label": "Result",
-      "prob": 0.4623926877975464
-    },
-    {
-      "sentence": "The above steps (14) are repeated several times to obtain value estimates for each adapted state.",
-      "label": "Method",
-      "prob": 0.45587030053138733
-    },
-    {
-      "sentence": "2. Expansion : The selected node   is next expanded by picking an adaptation    that results in a new state   + 1 .",
-      "label": "Background",
-      "prob": 0.3951976001262665
-    },
-    {
-      "sentence": "(or reading) cost for any item   is given by:",
-      "label": "Other",
-      "prob": 0.4694538414478302
-    },
-    {
-      "sentence": "During each trial, a combination of {menu size  user history  menu design  objective function  reward source} was selected, and given as input to the system.",
-      "label": "Method",
-      "prob": 0.4694177508354187
-    },
-    {
-      "sentence": "The model inputs are: (1) design head: adapted menu design, association matrices of the current and adapted menu; (2) user head: previous and current clicks distribution.",
-      "label": "Background",
-      "prob": 0.38883817195892334
-    },
-    {
-      "sentence": "The core of this approach considers planning: the selection of a sequence of adaptation with the goal of maximising utility to user.",
-      "label": "Objective",
-      "prob": 0.5074722170829773
-    },
-    {
-      "sentence": "For each model, the reward  then is the difference in average selection time, weighted by user interest.",
-      "label": "Background",
-      "prob": 0.3830929696559906
-    },
-    {
-      "sentence": "This paper looks at a foundational technical problem of adaptive interfaces that lies at the intersection of humancomputer interaction and machine learning research: How to select adaptations?",
-      "label": "Objective",
-      "prob": 0.5661563277244568
-    },
-    {
-      "sentence": "In summary, the design is: 18 participants  3 conditions  3 blocks  2 menus  20 selections = 6480 trials.",
-      "label": "Background",
-      "prob": 0.38145652413368225
-    },
-    {
-      "sentence": "Here, no user updates are applied.",
-      "label": "Background",
-      "prob": 0.3812520503997803
-    },
-    {
-      "sentence": "Here, semantic structure (grouping) is exploited to avoid wasting time inspecting groups that most likely do not contain the target item [4].",
-      "label": "Other",
-      "prob": 0.5200290083885193
-    },
-    {
-      "sentence": "We use Fitts law to estimate pointing time in menus:",
-      "label": "Background",
-      "prob": 0.3791930377483368
-    },
-    {
-      "sentence": "Upon clicking the target item, the menu was hidden, and a short break was provided.",
-      "label": "Background",
-      "prob": 0.3762841522693634
-    },
-    {
-      "sentence": "We define a successful trial as one where the predicted selection time is improved by adaptation.",
-      "label": "Background",
-      "prob": 0.37204498052597046
-    },
-    {
-      "sentence": "During each condition, the participant interacted with two different menus during 3 blocks.",
-      "label": "Background",
-      "prob": 0.36987003684043884
-    },
-    {
-      "sentence": "The study interface was implemented using HTML and Javascript, and was displayed in a browser window.",
-      "label": "Method",
-      "prob": 0.39256754517555237
-    },
-    {
-      "sentence": "If found at  , the user then performs a pointing task.",
-      "label": "Background",
-      "prob": 0.3679813742637634
-    },
-    {
-      "sentence": "5 before each of the fully connected layers.",
-      "label": "Background",
-      "prob": 0.36744454503059387
-    },
-    {
-      "sentence": "With model-based simulations, predictive models are used during roll-outs to estimate rewards for each state.",
-      "label": "Method",
-      "prob": 0.47826218605041504
+      "prob": 0.5426226258277893
     },
     {
       "sentence": "Participants began a trial by clicking on a confirm button, upon which the menu was displayed directly below.",
       "label": "Background",
-      "prob": 0.3664391338825226
+      "prob": 0.5422435998916626
     },
     {
-      "sentence": "A key feature of these models is to take into account the implicit cost of adaptations.",
-      "label": "Objective",
-      "prob": 0.5752469897270203
-    },
-    {
-      "sentence": "An Apple Magic Mouse with default tracking speed was used for selection tasks.",
-      "label": "Method",
-      "prob": 0.4265393614768982
-    },
-    {
-      "sentence": "In the MCTS condition, participants noticed that the categorisation of items into groups improved upon adaptation, and helped them in searching for related items: the items were organised under categories often  that helped select items (P18).",
-      "label": "Result",
-      "prob": 0.4868035912513733
-    },
-    {
-      "sentence": "Our work contributes to methods for adaptive interfaces designed to operate autonomously, that is without explicit feedback or training samples from user.",
-      "label": "Objective",
-      "prob": 0.5690121650695801
-    },
-    {
-      "sentence": "Unique frequency distributions",
-      "label": "Other",
-      "prob": 0.39286524057388306
-    },
-    {
-      "sentence": "To this end, we conducted a lab study where participants completed selection tasks in a within-subject design with three conditions (Static, Freqency, MCTS).",
+      "sentence": "Note that this formulation does not take a stance on what is the right objective function.",
       "label": "Background",
-      "prob": 0.3592097759246826
+      "prob": 0.535772979259491
     },
     {
-      "sentence": "Reward (  ): We extend predictive HCI models of menu use to obtain reward estimates.",
-      "label": "Method",
-      "prob": 0.4582591652870178
-    },
-    {
-      "sentence": "Combining value estimations from all models, we can implement different objective functions, such as:",
+      "sentence": "The reward  then signifies the benefit an adaptation provides to the user by improving future interactions, for example, by reducing the time required to select an icon.",
       "label": "Background",
-      "prob": 0.35867777466773987
+      "prob": 0.534349799156189
     },
     {
-      "sentence": "This is then used to predict value estimates for any given state in an online setting.",
-      "label": "Method",
-      "prob": 0.4552661180496216
+      "sentence": "adapted menu, if the items new location  is before the expected location  (    ), the search time reduces following Equation 7.",
+      "label": "Background",
+      "prob": 0.5333744883537292
+    },
+    {
+      "sentence": "Participants took mandatory breaks (1 minute) between two consecutive blocks, and longer breaks (5 minutes) between conditions where they answered open-ended interview questions.",
+      "label": "Background",
+      "prob": 0.5331757068634033
+    },
+    {
+      "sentence": "Timestamped cursor movements and clicks on menu items were recorded.",
+      "label": "Background",
+      "prob": 0.5314180254936218
+    },
+    {
+      "sentence": "After each block, we asked them whether they noticed changes to menus during use, and their opinions about these changes (if any).",
+      "label": "Background",
+      "prob": 0.5281310677528381
+    },
+    {
+      "sentence": "As menu adaptations, we only consider those modifying the position and grouping of items in the menus, leaving other presentation adaptations, such as highlighting and split menus, for future work.",
+      "label": "Background",
+      "prob": 0.5279597043991089
+    },
+    {
+      "sentence": "Importantly, a principled solution is offered to the exploration/exploitation problem.",
+      "label": "Background",
+      "prob": 0.5264909863471985
+    },
+    {
+      "sentence": "For each participant, two menus were generated for each of the three conditions, resulting in six unique menus.",
+      "label": "Background",
+      "prob": 0.5262312889099121
+    },
+    {
+      "sentence": "In the Static condition, participants could use their memory to directly access some items, but commented on the lack of proper grouping: the items were not consistent in their grouping, and they were not intuitively grouped (P11).",
+      "label": "Background",
+      "prob": 0.5255816578865051
+    },
+    {
+      "sentence": "The above search models enable us to predict selection times for varying user strategies.",
+      "label": "Background",
+      "prob": 0.5250429511070251
+    },
+    {
+      "sentence": "The association matrices are diffed and passed to a long short-term memory (LSTM) layer, then passed to a fully connected layer.",
+      "label": "Background",
+      "prob": 0.5227869749069214
+    },
+    {
+      "sentence": "To conclude, we hope our work can be broadly appealing, and invite contributions from both the HCI and the machine learning community.",
+      "label": "Background",
+      "prob": 0.5166417956352234
+    },
+    {
+      "sentence": "Upon clicking the target item, the menu was hidden, and a short break was provided.",
+      "label": "Background",
+      "prob": 0.5104581117630005
+    },
+    {
+      "sentence": "The model outputs reward predictions for each of the three search models: serial, foraging, and recall.",
+      "label": "Background",
+      "prob": 0.5035140514373779
+    },
+    {
+      "sentence": "The experiment began with an introductory briefing and participant consent.",
+      "label": "Background",
+      "prob": 0.5012651085853577
+    },
+    {
+      "sentence": "The system observes user clicks on menu items to approximate a users expertise and interest .",
+      "label": "Background",
+      "prob": 0.4963223338127136
+    },
+    {
+      "sentence": "All participants reported frequent desktop or mobile, and web usage.",
+      "label": "Background",
+      "prob": 0.49464964866638184
+    },
+    {
+      "sentence": "We define the adaptation problem as a stochastic sequential decision problem [7], where the adaptive system should plan a sequence of adaptations over a long horizon.",
+      "label": "Background",
+      "prob": 0.49273133277893066
+    },
+    {
+      "sentence": "Alternatively, predictive models can be included to address multiple objectives, such as task completion time, cognitive load, and disruption [25].",
+      "label": "Background",
+      "prob": 0.4891294240951538
+    },
+    {
+      "sentence": "We define a design    as a pair < , > where  is a nonhierarchical linear menu [40] containing an ordered list of items.",
+      "label": "Background",
+      "prob": 0.48902398347854614
+    },
+    {
+      "sentence": "Selecting the next adaptation : Given these value estimates, the system can now choose the best adaptation (by setting  = 0 in Equation 2) to maximise expected utility for the user while avoiding costly changes.",
+      "label": "Background",
+      "prob": 0.48754116892814636
+    },
+    {
+      "sentence": "We thus need to estimate a cumulative reward over a horizon of reasonable length.",
+      "label": "Background",
+      "prob": 0.4860159456729889
+    },
+    {
+      "sentence": "Picking an adaptation can be considered a hypothesis on how useful it is for user.",
+      "label": "Background",
+      "prob": 0.4857826828956604
+    },
+    {
+      "sentence": "Our MCTS-based planning algorithm, and the predictive menu models, are implemented in Python 3.7.",
+      "label": "Background",
+      "prob": 0.48540329933166504
+    },
+    {
+      "sentence": "With certain conditions we outline here, the approach we outline is broadly useful across applications of adaptive interfaces.",
+      "label": "Background",
+      "prob": 0.4840444326400757
+    },
+    {
+      "sentence": "This prevents overfitting the model to the training data, improving generalisability to unseen data.",
+      "label": "Background",
+      "prob": 0.48368901014328003
+    },
+    {
+      "sentence": "The study interface was implemented using HTML and Javascript, and was displayed in a browser window.",
+      "label": "Background",
+      "prob": 0.48223257064819336
+    },
+    {
+      "sentence": "State (  ): A state    gives information about the menu design and the user.",
+      "label": "Background",
+      "prob": 0.47993791103363037
+    },
+    {
+      "sentence": "Here, the user attempts recall search at all locations    where  (   )   , until the target is found.",
+      "label": "Background",
+      "prob": 0.4798077940940857
+    },
+    {
+      "sentence": "To avoid extensive trial-and-error with users in the loop, our deep learning models are trained offline using HCI models.",
+      "label": "Background",
+      "prob": 0.4787514805793762
     },
     {
       "sentence": "Copyrights for components of this work owned by others than ACM mustbehonored.Abstractingwithcreditispermitted.Tocopyotherwise,orrepublish,topostonserversortoredistributetolists,requirespriorspecificpermissionand/orafee.Requestpermissionsfrompermissions@acm.org.",
-      "label": "Other",
-      "prob": 0.6131060123443604
-    },
-    {
-      "sentence": "A grand obstacle for applications in adaptive systems is the model: where to get a good one?",
-      "label": "Other",
-      "prob": 0.5049948692321777
-    },
-    {
-      "sentence": "We use the RMSProp optimiser, a popular stochastic gradient descent algorithm with momentums.",
-      "label": "Method",
-      "prob": 0.5250478386878967
-    },
-    {
-      "sentence": "To address large problem sizes in online settings, where repeating a sufficient number of MCTS simulations to attain robust estimates is infeasible, we develop a deep neural network architecture that can efficiently provide predictions in real-time.",
       "label": "Background",
-      "prob": 0.3223012089729309
+      "prob": 0.4778166711330414
     },
     {
-      "sentence": "We observe that for depths  4, the value network does not provide much benefit.",
-      "label": "Result",
-      "prob": 0.6039891242980957
+      "sentence": "Although positive empirical results have been obtained (e.g., [4, 13, 17, 46, 49, 51, 52, 54]), known approaches have been criticised for being unpredictable and unreliable; they pick detrimental adaptations unacceptably often [16, 22, 33, 36, 56].",
+      "label": "Background",
+      "prob": 0.47767317295074463
     },
     {
-      "sentence": "Following the general formulation in section 3, we first define the adaptive menu problem.",
-      "label": "Method",
-      "prob": 0.3529306650161743
+      "sentence": "During offline training, model-based data is generated using MCTS roll-outs from randomly sampled initial states.",
+      "label": "Background",
+      "prob": 0.47547319531440735
     },
     {
-      "sentence": "Condition order was counterbalanced between participants using a 3  3 Latin square.",
-      "label": "Result",
-      "prob": 0.3582462966442108
+      "sentence": "We support several ways for selecting adaptation that allows controlling for the trade-off between risk and gain.",
+      "label": "Background",
+      "prob": 0.4744802713394165
     },
     {
-      "sentence": "Our RL approach is model-based as it uses predictive HCI models to estimate utility.",
-      "label": "Method",
-      "prob": 0.49024903774261475
+      "sentence": "The core computational problem we review here is how to pick an adaptation; we do not cover issues like prior elicitation, explainability, nor the design space of intelligent interaction techniques.",
+      "label": "Background",
+      "prob": 0.47252804040908813
     },
     {
-      "sentence": "The target item name was displayed at the top of the browser window.",
-      "label": "Result",
-      "prob": 0.34539008140563965
+      "sentence": "Our choice of the three models was made with the hypothesis that they would provide bounds for best-case and worst-case performance.",
+      "label": "Background",
+      "prob": 0.47026532888412476
     },
     {
-      "sentence": "In a constrained setting, the MCTS algorithm was allowed 400 iterations, and a shallow roll-out horizon of 4 steps, to build the search tree and find suitable adaptations.",
-      "label": "Method",
-      "prob": 0.564136266708374
+      "sentence": "In a poorly organised menu, where the target item is not located within the expected group(s), a user first attempts foraging search by inspecting all anchors, and all items within related anchors (given by Equation 9).",
+      "label": "Background",
+      "prob": 0.4687279164791107
     },
     {
-      "sentence": "When an adapted state is assumed to be displayed (visible) to the user, we simulate an interaction session (new clicks) based on user interest, and update expertise accordingly.",
-      "label": "Method",
-      "prob": 0.5408211350440979
+      "sentence": "Finally, the discount factor  indicates to the adaptive system how immediate benefits and long-term improvements contribute towards the reward.",
+      "label": "Background",
+      "prob": 0.4620596468448639
+    },
+    {
+      "sentence": "In machine learning terms, utility is latent .",
+      "label": "Background",
+      "prob": 0.46184012293815613
+    },
+    {
+      "sentence": "Additional statistical models of user interest and expertise [18, 19, 21, 51], can be plugged into our architecture.",
+      "label": "Background",
+      "prob": 0.4583744406700134
+    },
+    {
+      "sentence": "During each trial, a combination of {menu size  user history  menu design  objective function  reward source} was selected, and given as input to the system.",
+      "label": "Background",
+      "prob": 0.4419863820075989
+    },
+    {
+      "sentence": "Each adaptation is modelled as an arm associated with a distribution describing expected gains.",
+      "label": "Background",
+      "prob": 0.43902823328971863
+    },
+    {
+      "sentence": "18 participants (10 masculine, 8 feminine, 0 others), aged 18 to 38 (mean 27.2), with varying educational backgrounds, were opportunistically recruited.",
+      "label": "Background",
+      "prob": 0.43575963377952576
+    },
+    {
+      "sentence": "In the following section, we demonstrate our approach with an application in adaptive menus, and present a novel HCI model to predict selection time in menus.",
+      "label": "Background",
+      "prob": 0.4346536695957184
+    },
+    {
+      "sentence": "Through model-based planning, we can adapt menus that improve overall performance, as given by reduced selection time.",
+      "label": "Background",
+      "prob": 0.43234413862228394
     },
     {
       "sentence": "were generated for every participant, to consider variance in user interests.",
+      "label": "Background",
+      "prob": 0.43199747800827026
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Other",
+      "prob": 0.4592511057853699
+    },
+    {
+      "sentence": "(   ,  )  [ 0 , 1 ] specifies if   is associated to an anchor   .",
+      "label": "Background",
+      "prob": 0.42993807792663574
+    },
+    {
+      "sentence": "The concatenated inputs are passed to each network tail, which comprises two stacked fully connected layers.",
       "label": "Method",
-      "prob": 0.32563403248786926
+      "prob": 0.4391610324382782
     },
     {
-      "sentence": "We formulate the problem of adaptation as a stochastic sequential decision-making problem [7].",
+      "sentence": "It is known that unexpected changes in menus can introduce a temporary performance drop, increase cognitive load, and potentially lead to the rejection of the adaption/techniques [4, 55].",
       "label": "Other",
-      "prob": 0.5249234437942505
+      "prob": 0.4337235391139984
     },
     {
-      "sentence": "With value network predictions, our pre-trained network models are used to predict value estimates for each state.",
-      "label": "Method",
-      "prob": 0.46814072132110596
+      "sentence": "We picked common labels for menu items, where categories specified pairwise associations (e.g. animals, furniture, vegetables, clothing).",
+      "label": "Background",
+      "prob": 0.42627596855163574
     },
     {
-      "sentence": "The total recall search time for target   at adapted location  is given by:",
+      "sentence": "The user could keep interacting for years.",
+      "label": "Background",
+      "prob": 0.4241136610507965
+    },
+    {
+      "sentence": "This is then used to predict value estimates for any given state in an online setting.",
+      "label": "Background",
+      "prob": 0.42280033230781555
+    },
+    {
+      "sentence": "Participation was compensated with a movie ticket voucher (approx. 12.00).",
+      "label": "Background",
+      "prob": 0.42242494225502014
+    },
+    {
+      "sentence": "In semantic menus,  local is the number of items in the group.Inanadaptive",
+      "label": "Background",
+      "prob": 0.4207608997821808
+    },
+    {
+      "sentence": "When selecting an adaptation  to make on the current design  0 , resulting in a new design  1 , a greedy strategy is chosen:",
+      "label": "Background",
+      "prob": 0.41657018661499023
+    },
+    {
+      "sentence": "Applications have been shown in human-in-the-loop design of interface features [15] and adaptation of low-dimensional design features [30].",
       "label": "Other",
-      "prob": 0.3603755831718445
-    },
-    {
-      "sentence": "For each menu, 20 selection tasks (trials) were completed.",
-      "label": "Method",
-      "prob": 0.3551333546638489
-    },
-    {
-      "sentence": "The same frequency distribution was used for all three conditions within a participant.",
-      "label": "Result",
-      "prob": 0.4671866297721863
-    },
-    {
-      "sentence": "Figure 4 presents an exemplary illustration.",
-      "label": "Result",
-      "prob": 0.4225948452949524
-    },
-    {
-      "sentence": "In the following, we formulate this problem as a Markov decision process (MDP).",
-      "label": "Objective",
-      "prob": 0.3818820118904114
-    },
-    {
-      "sentence": "The experiment was conducted on a Macbook Pro, with a 15 Retina display.",
-      "label": "Result",
-      "prob": 0.4429522752761841
-    },
-    {
-      "sentence": "Figure 9b illustrates the linear increase in selection time with target position for the three conditions.",
-      "label": "Result",
-      "prob": 0.5564578175544739
-    },
-    {
-      "sentence": "Figure 8 illustrates computation time results for each depth level (for 400 MCTS iterations).",
-      "label": "Result",
-      "prob": 0.48855775594711304
-    },
-    {
-      "sentence": "For the experiment, linear menus with 15 item labels were randomly generated.",
-      "label": "Method",
-      "prob": 0.33937883377075195
-    },
-    {
-      "sentence": "A practical obstacle is how to obtain a dataset that describes the consequences of possible adaptations on possible users.Inthe",
-      "label": "Other",
-      "prob": 0.65205979347229
-    },
-    {
-      "sentence": "To apply this class of machine learning methods for selecting adaptations, we have proposed the use of predictive models in HCI for value estimation during planning.",
-      "label": "Method",
-      "prob": 0.5740734934806824
-    },
-    {
-      "sentence": "For each menu within a condition, a Zipfian distribution, known to accurately capture real-world command selections [13, 37], with shape  = 1.5 was used to control the frequency distribution of target items.",
-      "label": "Method",
-      "prob": 0.5484960675239563
-    },
-    {
-      "sentence": "However, as search depth increases, while the computation time with our value network remains constant (mean M = 7.77s, SD = 1.0), it drastically increases with simulations (from M = 7.9s, SD = 3.5s at depth 4 to M = 39.0s, SD = 7.4 at depth 10).",
-      "label": "Result",
-      "prob": 0.5625402331352234
-    },
-    {
-      "sentence": "Here, the visual search and pointing task are performed sequentially as eye movement is faster than mouse movement [5].",
-      "label": "Other",
-      "prob": 0.5957394242286682
-    },
-    {
-      "sentence": "In this paper, we approach the fundamental problem of selecting user interface adaptations by applying model-based RL, and exploiting predictive HCI models, to simulate and plan adaptations.",
-      "label": "Objective",
-      "prob": 0.6972891092300415
-    },
-    {
-      "sentence": "These frequency distributions were then used to generate sequences of target items, to be presented as stimulus during the trials.",
-      "label": "Method",
-      "prob": 0.4661165475845337
-    },
-    {
-      "sentence": "serial (   ) =  serial (   ) +   + (    )   +  pointing",
-      "label": "Other",
-      "prob": 0.5872439742088318
-    },
-    {
-      "sentence": "2021 Association for Computing Machinery.",
-      "label": "Other",
-      "prob": 0.6891599297523499
-    },
-    {
-      "sentence": "Notation Description   Target item  at location  model (  ) Search time for an item  with a given model  Constant for cautious inspection cost of an item   Constant surprise penalty when an item is not found as expected  trail Constant pointing time when the cursor trails eye gaze  (   ,  ) Boolean relationship between items   and   , from association matrix   (   ) Activation level for  at",
-      "label": "Result",
-      "prob": 0.28402459621429443
-    },
-    {
-      "sentence": "We train the model for 200 epochs at most, using early stopping (10 epochs patience) to retain the best model weights, and monitor its performance on a validation set comprising 20% of training data.",
-      "label": "Method",
-      "prob": 0.38475996255874634
-    },
-    {
-      "sentence": "To sum up, this paper makes three key contributions:",
-      "label": "Other",
-      "prob": 0.501623272895813
-    },
-    {
-      "sentence": "We sampled 8 different click histories by randomly assigning frequency to item labels.",
-      "label": "Method",
-      "prob": 0.3718385398387909
-    },
-    {
-      "sentence": "The value neural network is implemented with TensorFlow 2.0.0.",
-      "label": "Other",
-      "prob": 0.5331075191497803
-    },
-    {
-      "sentence": "Figure 7 shows an example result for a challenging case with a 15-item menu.",
-      "label": "Result",
-      "prob": 0.593683123588562
-    },
-    {
-      "sentence": "Our technical evaluation shows that our solution can tackle realistic problem sizes, and find favourable adaptations, on a commodity computer.",
-      "label": "Result",
-      "prob": 0.6628470420837402
-    },
-    {
-      "sentence": "To solve this computational problem in an online setting, we use a combination of Monte Carlo Tree Search (MCTS) for planning, and deep learning to boost performance.",
-      "label": "Method",
-      "prob": 0.6926024556159973
-    },
-    {
-      "sentence": "The two main questions we seek to answer are:",
-      "label": "Other",
-      "prob": 0.45322874188423157
-    },
-    {
-      "sentence": "In addition to the horizon of 4 steps used to evaluate success rate, we evaluated 3 other search depths",
-      "label": "Result",
-      "prob": 0.617889940738678
-    },
-    {
-      "sentence": "ACM ISBN 978-1-4503-8096-6/21/05..",
-      "label": "Other",
-      "prob": 0.7817044258117676
-    },
-    {
-      "sentence": "At this point,   + 1 ,  + 1 = 0.",
-      "label": "Other",
-      "prob": 0.6486659646034241
-    },
-    {
-      "sentence": "Figure 6 illustrates the model architecture.",
-      "label": "Result",
-      "prob": 0.5200208425521851
-    },
-    {
-      "sentence": "We demonstrate it specifically in the context of adaptive menus .",
-      "label": "Result",
-      "prob": 0.7131381034851074
-    },
-    {
-      "sentence": "3. Roll-outs and simulations : During one roll-out , as the tree has no value estimates to inform the selection of consequential states, adaptations {  0 , .",
-      "label": "Other",
-      "prob": 0.6324151158332825
-    },
-    {
-      "sentence": "We use learning rate  = 0 .",
-      "label": "Result",
-      "prob": 0.29655900597572327
-    },
-    {
-      "sentence": "9 for the optimiser.",
-      "label": "Other",
-      "prob": 0.5542951822280884
-    },
-    {
-      "sentence": "The total search time is:",
-      "label": "Other",
-      "prob": 0.43933987617492676
-    },
-    {
-      "sentence": "Our simulated and empirical evaluations suggest significant and practically valuable improvements to usability.",
-      "label": "Result",
-      "prob": 0.7709865570068359
-    },
-    {
-      "sentence": "Average Selection Time: We created a mixed-effect model for repeated measures analysis of variance (one-way ANOVA) with selection time (in ms) as dependent variable, conditions (Static, Freqency, MCTS) as fixed independent variable, and participant ID and menu design as random variables.",
-      "label": "Method",
-      "prob": 0.5150094032287598
-    },
-    {
-      "sentence": "As dependent variable, we measured success rate of finding beneficial adaptations.",
-      "label": "Result",
-      "prob": 0.6518809199333191
-    },
-    {
-      "sentence": "We have presented a model-based reinforcement learning method suitable for adaptive interactions.",
-      "label": "Method",
-      "prob": 0.6318263411521912
-    },
-    {
-      "sentence": "The method uses a surrogate model for approximating the model fit across the parameter space and quantify uncertainty.",
-      "label": "Method",
-      "prob": 0.6974995136260986
-    },
-    {
-      "sentence": "Reward Estimation: We compare two methods of estimating rewards: model-based simulations and value neural network predictions .",
-      "label": "Method",
-      "prob": 0.5539441704750061
-    },
-    {
-      "sentence": "Participants commented that the reordering was confusing, and prevented them from remembering item locations: I might skip down instead of checking the top, and then go back to the top. (P3).",
-      "label": "Other",
-      "prob": 0.48932909965515137
-    },
-    {
-      "sentence": "Inspection",
-      "label": "Other",
-      "prob": 0.7142334580421448
-    },
-    {
-      "sentence": "The key idea is to anticipate the rewards for a given menu adaptation taking into account the previous menu design and the user behaviour.",
-      "label": "Objective",
-      "prob": 0.8204621076583862
-    },
-    {
-      "sentence": "3 and   = 4 .",
-      "label": "Other",
-      "prob": 0.618782639503479
-    },
-    {
-      "sentence": "6.2.5 Procedure and design.",
-      "label": "Other",
-      "prob": 0.5726396441459656
+      "prob": 0.422516405582428
     },
     {
       "sentence": "The task is to adapt the interface by changing the arrangement and grouping of menu items (Figure 1), thus improving the menus usability.",
       "label": "Objective",
-      "prob": 0.8578067421913147
+      "prob": 0.4594874680042267
+    },
+    {
+      "sentence": "Errors were logged, and participants had to select the target item to finish the trial.",
+      "label": "Background",
+      "prob": 0.4143824279308319
+    },
+    {
+      "sentence": "Methods like Thompson sampling can optimally balance between exploring actions, to learn about which actions work, and exploitation, to converge to good designs.",
+      "label": "Background",
+      "prob": 0.4140516221523285
+    },
+    {
+      "sentence": "Items labels were selected from common categories (e.g. animals, fruits, countries, etc.) to avoid prior biases.",
+      "label": "Background",
+      "prob": 0.4093746840953827
+    },
+    {
+      "sentence": "We thank all study participants for their time, and colleagues and reviewers for their helpful comments.",
+      "label": "Background",
+      "prob": 0.40863969922065735
+    },
+    {
+      "sentence": "To get a better understanding of how the different conditions influenced performance, we further looked at how target item positions in the menu influence selection time.",
+      "label": "Background",
+      "prob": 0.40814241766929626
+    },
+    {
+      "sentence": "An Apple Magic Mouse with default tracking speed was used for selection tasks.",
+      "label": "Background",
+      "prob": 0.4070204198360443
+    },
+    {
+      "sentence": "The total serial search time for a target at expected location  is thus given by:",
+      "label": "Background",
+      "prob": 0.3982206881046295
+    },
+    {
+      "sentence": "With value network predictions, our pre-trained network models are used to predict value estimates for each state.",
+      "label": "Background",
+      "prob": 0.39578777551651
+    },
+    {
+      "sentence": "By simulating consequences of adaptations during roll-outs, we can estimate implications of design changes on user performance.",
+      "label": "Background",
+      "prob": 0.39541205763816833
+    },
+    {
+      "sentence": "A practical obstacle is how to obtain a dataset that describes the consequences of possible adaptations on possible users.Inthe",
+      "label": "Background",
+      "prob": 0.39303940534591675
+    },
+    {
+      "sentence": "For a target item  , if there are no activations   above a threshold  (we use 0.5), the user reverts to serial search (Equation 7).",
+      "label": "Background",
+      "prob": 0.39002472162246704
+    },
+    {
+      "sentence": "For each model, the reward  then is the difference in average selection time, weighted by user interest.",
+      "label": "Background",
+      "prob": 0.38989365100860596
+    },
+    {
+      "sentence": "Finally, the click history is passed to an LSTM layer, which models sequential data and is",
+      "label": "Background",
+      "prob": 0.385407418012619
+    },
+    {
+      "sentence": "During planning, we balance between exploiting highreward adaptations and exploring others.",
+      "label": "Background",
+      "prob": 0.3846158981323242
+    },
+    {
+      "sentence": "In a within-subject experimental design, each participant tested the three conditions (Static, Freqency, MCTS) sequentially.",
+      "label": "Background",
+      "prob": 0.3822300136089325
+    },
+    {
+      "sentence": "To address large problem sizes, we instantiate our general network architecture (Figure 3) for adaptive menus.",
+      "label": "Background",
+      "prob": 0.3793492019176483
+    },
+    {
+      "sentence": "We conducted a technical evaluation with realistic and challenging scenarios, where the adaptive system must adapt menus for simulated users.",
+      "label": "Background",
+      "prob": 0.3790457844734192
+    },
+    {
+      "sentence": "Here, the visual search and pointing task are performed sequentially as eye movement is faster than mouse movement [5].",
+      "label": "Background",
+      "prob": 0.3759380280971527
+    },
+    {
+      "sentence": "For example, in menu-based interaction, most systems still follow a heuristic approach, where adaptation is picked based on hand-written heuristics that exploit click frequency, visit duration, recency or other specific features that can be computed from observation data [21].",
+      "label": "Background",
+      "prob": 0.37478718161582947
+    },
+    {
+      "sentence": "Each input is treated as an independent model branch (head) that is eventually concatenated and passed to three independent model branches (tails), one for each output reward.",
+      "label": "Method",
+      "prob": 0.4181227684020996
+    },
+    {
+      "sentence": "To demonstrate the applicability of our approach, we tackle a challenging and open question in the field of adaptive interfaces: adaptive menus .",
+      "label": "Background",
+      "prob": 0.3735524117946625
+    },
+    {
+      "sentence": "The problem of adaptive interfaces is that of maximising expected cumulative discounted rewards  (   ,  ) from acting according to an optimal policy   (see e.g. [26]):",
+      "label": "Other",
+      "prob": 0.490130215883255
+    },
+    {
+      "sentence": "In a well-organised menu, where the anchor of one of the groups is related to the target item, foraging search time is:",
+      "label": "Other",
+      "prob": 0.4588373601436615
+    },
+    {
+      "sentence": "(or reading) cost for any item   is given by:",
+      "label": "Other",
+      "prob": 0.5186330080032349
+    },
+    {
+      "sentence": "where  (   ) is the level of activation of item  at location  in the memory,  is the current time,  ,  is the time of the   selection of   , and  is a decay parameter equal to 0 .",
+      "label": "Background",
+      "prob": 0.3706946074962616
+    },
+    {
+      "sentence": "where  (   ) is the size of the group, and  (   ) is the location of the target item   within group   if it is located within the group,  otherwise.",
+      "label": "Other",
+      "prob": 0.41686394810676575
+    },
+    {
+      "sentence": "The prevailing understanding is that learning is a key capability for adaptive systems [32].",
+      "label": "Other",
+      "prob": 0.528128445148468
+    },
+    {
+      "sentence": "If the anchor is unrelated to the target, the user skips the group.",
+      "label": "Background",
+      "prob": 0.36543071269989014
+    },
+    {
+      "sentence": "We have presented solutions to several consequent technical challenges, most notably:",
+      "label": "Result",
+      "prob": 0.42438754439353943
+    },
+    {
+      "sentence": "We use Fitts law to estimate pointing time in menus:",
+      "label": "Background",
+      "prob": 0.3640948534011841
+    },
+    {
+      "sentence": "For each menu within a condition, a Zipfian distribution, known to accurately capture real-world command selections [13, 37], with shape  = 1.5 was used to control the frequency distribution of target items.",
+      "label": "Background",
+      "prob": 0.3599853813648224
+    },
+    {
+      "sentence": "Elementary design and user features are parameterised with the neural network model.",
+      "label": "Method",
+      "prob": 0.4583686292171478
+    },
+    {
+      "sentence": "is a state of interaction; This consists of both the interface design (  ) and the user (  )",
+      "label": "Background",
+      "prob": 0.3511359393596649
+    },
+    {
+      "sentence": "is an association matrix defining the semantic relatedness between menu items.",
+      "label": "Background",
+      "prob": 0.3496725559234619
+    },
+    {
+      "sentence": "When an adapted state is assumed to be displayed (visible) to the user, we simulate an interaction session (new clicks) based on user interest, and update expertise accordingly.",
+      "label": "Method",
+      "prob": 0.417788565158844
+    },
+    {
+      "sentence": "We note that it is possible to plug in additional search strategies (e.g. Random search [40]) without modifying the general architecture of the algorithm.",
+      "label": "Background",
+      "prob": 0.3468172252178192
+    },
+    {
+      "sentence": "As illustrated in Figure 3, we propose an  -headed  -tailed architecture that is trained end-to-end with backpropagation.",
+      "label": "Objective",
+      "prob": 0.4197775423526764
+    },
+    {
+      "sentence": "Finally,  trail remains the constant pointing time when the mouse cursor trails the eye gaze.",
+      "label": "Result",
+      "prob": 0.46633389592170715
+    },
+    {
+      "sentence": "Exploration constant  in our application is set to 1 / 2 following convention.",
+      "label": "Background",
+      "prob": 0.3435477614402771
+    },
+    {
+      "sentence": "The key idea is to anticipate the rewards for a given menu adaptation taking into account the previous menu design and the user behaviour.",
+      "label": "Objective",
+      "prob": 0.5903130173683167
+    },
+    {
+      "sentence": "Transition function (  ): We use MCTS, where the probability of making an adaptation from state  0 to  1 is given by UCT (Equation 2).",
+      "label": "Method",
+      "prob": 0.38700708746910095
+    },
+    {
+      "sentence": "We can only estimate it through HCI models, where predictions provide us a belief about the user status (for the theoretical implications of this, see [2]).",
+      "label": "Result",
+      "prob": 0.40579041838645935
+    },
+    {
+      "sentence": "Our work contributes to methods for adaptive interfaces designed to operate autonomously, that is without explicit feedback or training samples from user.",
+      "label": "Objective",
+      "prob": 0.5001274347305298
+    },
+    {
+      "sentence": "Note that we decouple value estimations from objective functions (see above), leaving it up to the adaptive system to decide how to use information from multiple models.",
+      "label": "Background",
+      "prob": 0.33120882511138916
+    },
+    {
+      "sentence": "First, MCTS-based planning consistently proposes adaptations that could improve predicted performance (Figure 9a).",
+      "label": "Result",
+      "prob": 0.5013583302497864
+    },
+    {
+      "sentence": "Second, algorithm engineering is needed to deploy this approach to larger applications.",
+      "label": "Result",
+      "prob": 0.41891613602638245
+    },
+    {
+      "sentence": "This is repeated for a fixed number of steps, given by the horizon  , and cumulative rewards are computed for each predictive model:",
+      "label": "Method",
+      "prob": 0.3255349397659302
+    },
+    {
+      "sentence": "It can be observed that while selection time for the top-most items (lower target positions) is quite similar for the three conditions, with MCTS being the fastest, it increases more drastically for the Freqency condition, as compared to Static and MCTS.",
+      "label": "Result",
+      "prob": 0.581194281578064
+    },
+    {
+      "sentence": "The total recall search time for target   at adapted location  is given by:",
+      "label": "Other",
+      "prob": 0.4391815960407257
+    },
+    {
+      "sentence": "In contrast, we observed (Figure 9b) that adaptations made through our approach could provide these benefits while avoiding costly changes that require relearning and cause annoyance.",
+      "label": "Result",
+      "prob": 0.6045969724655151
+    },
+    {
+      "sentence": "The model inputs are: (1) design head: adapted menu design, association matrices of the current and adapted menu; (2) user head: previous and current clicks distribution.",
+      "label": "Background",
+      "prob": 0.31114596128463745
+    },
+    {
+      "sentence": ",  }   are chosen at random, and rewards are estimated using predictive HCI models.",
+      "label": "Method",
+      "prob": 0.4495643377304077
+    },
+    {
+      "sentence": "This paper looks at a foundational technical problem of adaptive interfaces that lies at the intersection of humancomputer interaction and machine learning research: How to select adaptations?",
+      "label": "Objective",
+      "prob": 0.5025116205215454
+    },
+    {
+      "sentence": "If found at  , the user then performs a pointing task.",
+      "label": "Result",
+      "prob": 0.3653907775878906
+    },
+    {
+      "sentence": "We use a simplified version of the learning component from ACT-R [1] to compute user expertise for each menu item   in a menu with  items:",
+      "label": "Background",
+      "prob": 0.30622801184654236
+    },
+    {
+      "sentence": "For the experiment, linear menus with 15 item labels were randomly generated.",
+      "label": "Result",
+      "prob": 0.4408033788204193
+    },
+    {
+      "sentence": "For each menu, 20 selection tasks (trials) were completed.",
+      "label": "Result",
+      "prob": 0.39658495783805847
+    },
+    {
+      "sentence": "The core of this approach considers planning: the selection of a sequence of adaptation with the goal of maximising utility to user.",
+      "label": "Objective",
+      "prob": 0.5921040177345276
+    },
+    {
+      "sentence": "Feasible Adaptations (  ): The set of possible adaptations  , through which a menu can be reorganised, includes (1) moving a menu item to a certain position, (2) swapping two items, (3) adding or removing a separator, (4) moving an entire group, (5) swapping two groups, and (6) not making any changes.",
+      "label": "Method",
+      "prob": 0.4634064733982086
+    },
+    {
+      "sentence": "To study and demonstrate the viability of the approach, we have applied it to the challenging case of adaptive menus by extending predictive models.",
+      "label": "Method",
+      "prob": 0.3352218568325043
+    },
+    {
+      "sentence": "To address large problem sizes in online settings, where repeating a sufficient number of MCTS simulations to attain robust estimates is infeasible, we develop a deep neural network architecture that can efficiently provide predictions in real-time.",
+      "label": "Objective",
+      "prob": 0.4204443395137787
+    },
+    {
+      "sentence": "In the following, we describe how these challenges are addressed via model-based RL.",
+      "label": "Objective",
+      "prob": 0.3490523099899292
+    },
+    {
+      "sentence": "We formulate the problem of adaptation as a stochastic sequential decision-making problem [7].",
+      "label": "Background",
+      "prob": 0.2773243188858032
+    },
+    {
+      "sentence": "This work was funded by the Department of Communications and Networking (Comnet), the Finnish Center for Artificial Intelligence (FCAI), Academy of",
+      "label": "Other",
+      "prob": 0.616794764995575
+    },
+    {
+      "sentence": "We demonstrate it specifically in the context of adaptive menus .",
+      "label": "Result",
+      "prob": 0.5532879829406738
+    },
+    {
+      "sentence": "In a constrained setting, the MCTS algorithm was allowed 400 iterations, and a shallow roll-out horizon of 4 steps, to build the search tree and find suitable adaptations.",
+      "label": "Method",
+      "prob": 0.4017839729785919
+    },
+    {
+      "sentence": "To this end, we conducted a lab study where participants completed selection tasks in a within-subject design with three conditions (Static, Freqency, MCTS).",
+      "label": "Result",
+      "prob": 0.3033524453639984
+    },
+    {
+      "sentence": "If the anchor is related, the user performs a serial search within this group.",
+      "label": "Result",
+      "prob": 0.3789096474647522
+    },
+    {
+      "sentence": "Thus, items within related groups are inspected serially until the target is successfully found.",
+      "label": "Result",
+      "prob": 0.556692898273468
+    },
+    {
+      "sentence": "The above steps (14) are repeated several times to obtain value estimates for each adapted state.",
+      "label": "Method",
+      "prob": 0.355771541595459
+    },
+    {
+      "sentence": "In our work, we incorporate a value neural network to compute longer sequence cases faster.",
+      "label": "Method",
+      "prob": 0.3374493420124054
+    },
+    {
+      "sentence": "We exploit and extend multiple menu search models from literature to estimate the upper and lower bounds of the value of an adaptation as well as their change as the user learns.",
+      "label": "Method",
+      "prob": 0.3340858221054077
+    },
+    {
+      "sentence": "Outside of user interfaces, we find applications of model-based RL, for example in board games, robots, video games [29], as well as behaviour-change applications, such as in generating behavioural instructions for people with dementia [23].",
+      "label": "Other",
+      "prob": 0.41301262378692627
+    },
+    {
+      "sentence": "Finally, while our work successfully used a value network, further improvements can be expected by implementing a policy network [48].",
+      "label": "Result",
+      "prob": 0.4302330017089844
+    },
+    {
+      "sentence": "This resulted in 3  8  4 = 96 configurations, each assigned to a different simulated user.",
+      "label": "Result",
+      "prob": 0.5559834837913513
+    },
+    {
+      "sentence": "The target item name was displayed at the top of the browser window.",
+      "label": "Result",
+      "prob": 0.5189412832260132
+    },
+    {
+      "sentence": "For each menu size, we created 4 starting menu designs by randomly assigning labels to item positions.",
+      "label": "Method",
+      "prob": 0.5226220488548279
+    },
+    {
+      "sentence": "In this paper, we approach the fundamental problem of selecting user interface adaptations by applying model-based RL, and exploiting predictive HCI models, to simulate and plan adaptations.",
+      "label": "Objective",
+      "prob": 0.5667151808738708
+    },
+    {
+      "sentence": "Several predictive models explain how users search within linear menus [5, 10, 12, 24, 40].",
+      "label": "Other",
+      "prob": 0.6247715353965759
+    },
+    {
+      "sentence": "Our empirical evaluation reveals that this approach can work even when starting from poor designs that would be hard to recover with approaches that do not consider planning.",
+      "label": "Result",
+      "prob": 0.6998081803321838
+    },
+    {
+      "sentence": "In the following, we formulate this problem as a Markov decision process (MDP).",
+      "label": "Objective",
+      "prob": 0.38095784187316895
+    },
+    {
+      "sentence": "Condition order was counterbalanced between participants using a 3  3 Latin square.",
+      "label": "Result",
+      "prob": 0.4993041455745697
+    },
+    {
+      "sentence": "To sum up, this paper makes three key contributions:",
+      "label": "Objective",
+      "prob": 0.28672510385513306
+    },
+    {
+      "sentence": "If recall search fails (    or  ( , ) <  ), the user eventually reverts to serial search under caution (Equation 8).",
+      "label": "Other",
+      "prob": 0.685658872127533
+    },
+    {
+      "sentence": "Here, no user updates are applied.",
+      "label": "Result",
+      "prob": 0.37994101643562317
+    },
+    {
+      "sentence": "We sampled 8 different click histories by randomly assigning frequency to item labels.",
+      "label": "Result",
+      "prob": 0.41698113083839417
+    },
+    {
+      "sentence": "2. Expansion : The selected node   is next expanded by picking an adaptation    that results in a new state   + 1 .",
+      "label": "Result",
+      "prob": 0.4585517942905426
+    },
+    {
+      "sentence": "For regularisation purposes, our architecture uses Dropout layers with drop rate 0 .",
+      "label": "Result",
+      "prob": 0.2941983640193939
+    },
+    {
+      "sentence": "Model-based RL uses a predictive model to simulate possibilities without first trying them out, which is useful for adaptive interfaces, because it significantly improves the efficiency of finding good solutions [28].",
+      "label": "Result",
+      "prob": 0.36221104860305786
+    },
+    {
+      "sentence": "We believe that future applications can benefit from this approach to improve interactions.",
+      "label": "Result",
+      "prob": 0.6073290109634399
+    },
+    {
+      "sentence": "In other parts, our solution follows standard implementations of MCTS (Figure 2):",
+      "label": "Result",
+      "prob": 0.4215840995311737
+    },
+    {
+      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan",
+      "label": "Other",
+      "prob": 0.7494847178459167
+    },
+    {
+      "sentence": "We build on these models to define three search strategies, and use these to evaluate the utility of a menu design by simulating search tasks, illustrated in Figure 5:",
+      "label": "Result",
+      "prob": 0.5157403945922852
+    },
+    {
+      "sentence": "During each condition, the participant interacted with two different menus during 3 blocks.",
+      "label": "Result",
+      "prob": 0.612001895904541
+    },
+    {
+      "sentence": "Bayesian optimisation generalises bandit systems to the case of multiple interrelated decision variables [47].",
+      "label": "Other",
+      "prob": 0.6892815828323364
+    },
+    {
+      "sentence": "Notation Description   Target item  at location  model (  ) Search time for an item  with a given model  Constant for cautious inspection cost of an item   Constant surprise penalty when an item is not found as expected  trail Constant pointing time when the cursor trails eye gaze  (   ,  ) Boolean relationship between items   and   , from association matrix   (   ) Activation level for  at",
+      "label": "Result",
+      "prob": 0.30402815341949463
+    },
+    {
+      "sentence": "Here, semantic structure (grouping) is exploited to avoid wasting time inspecting groups that most likely do not contain the target item [4].",
+      "label": "Other",
+      "prob": 0.704619288444519
+    },
+    {
+      "sentence": "However, finding the best adaption  by assessing the value of each",
+      "label": "Result",
+      "prob": 0.617602527141571
+    },
+    {
+      "sentence": "Combining value estimations from all models, we can implement different objective functions, such as:",
+      "label": "Result",
+      "prob": 0.37406253814697266
+    },
+    {
+      "sentence": "We use the RMSProp optimiser, a popular stochastic gradient descent algorithm with momentums.",
+      "label": "Method",
+      "prob": 0.5560400485992432
+    },
+    {
+      "sentence": "Average Selection Time: We created a mixed-effect model for repeated measures analysis of variance (one-way ANOVA) with selection time (in ms) as dependent variable, conditions (Static, Freqency, MCTS) as fixed independent variable, and participant ID and menu design as random variables.",
+      "label": "Method",
+      "prob": 0.47647449374198914
+    },
+    {
+      "sentence": "When we exclude the top-three target items, the difference in selection time between MCTS (mean = 2454 ms) and Freqency (mean = 2799 ms) is 344 ms (i.e. Freqency is about 15% slower).",
+      "label": "Result",
+      "prob": 0.7305643558502197
+    },
+    {
+      "sentence": "The same frequency distribution was used for all three conditions within a participant.",
+      "label": "Result",
+      "prob": 0.6077597737312317
+    },
+    {
+      "sentence": "To assess the scalability of our solution, we compared computation time for model-based simulations vs. value network predictions.",
+      "label": "Result",
+      "prob": 0.5152580142021179
+    },
+    {
+      "sentence": "5 before each of the fully connected layers.",
+      "label": "Result",
+      "prob": 0.3826063275337219
+    },
+    {
+      "sentence": "For common words, it can be inferred using word embedding models [43].",
+      "label": "Other",
+      "prob": 0.6488707661628723
+    },
+    {
+      "sentence": "We define a successful trial as one where the predicted selection time is improved by adaptation.",
+      "label": "Result",
+      "prob": 0.5769314169883728
+    },
+    {
+      "sentence": "Our RL approach is model-based as it uses predictive HCI models to estimate utility.",
+      "label": "Method",
+      "prob": 0.5162363648414612
+    },
+    {
+      "sentence": "Two learning capabilities are needed: (1) inference , the capability to update assumptions about the user based on observations; and (2) decision-making , the capability to choose appropriate adaptation in the light of assumptions about the user [41].",
+      "label": "Other",
+      "prob": 0.594883918762207
     },
     {
       "sentence": "With the above setup, we first evaluated whether our approach, and implementation, could successfully identify promising adaptations.",
       "label": "Result",
-      "prob": 0.6460332274436951
+      "prob": 0.612323522567749
     },
     {
-      "sentence": "https://doi.org/10.1145/3411764.3445497",
-      "label": "Other",
-      "prob": 0.8582967519760132
-    },
-    {
-      "sentence": "These results support our approach towards planning menu adaptations that can improve user performance.",
+      "sentence": "In addition to the horizon of 4 steps used to evaluate success rate, we evaluated 3 other search depths",
       "label": "Result",
-      "prob": 0.8059682846069336
+      "prob": 0.5566964149475098
     },
     {
-      "sentence": "We support adoption and further research efforts by providing an open code repository, with examples and instructions, on our project page: https://userinterfaces.aalto.fi/adaptive .",
-      "label": "Other",
-      "prob": 0.8695107102394104
-    },
-    {
-      "sentence": "Finally, we present results from an empirical evaluation where the approach compared favourably against a non-adaptive baseline design and a frequency-based adaptation policy.",
+      "sentence": "Figure 9b illustrates the linear increase in selection time with target position for the three conditions.",
       "label": "Result",
-      "prob": 0.8031420707702637
+      "prob": 0.6750012636184692
     },
     {
-      "sentence": "The primary goal of this evaluation is to test whether our planning approach (henceforth MCTS) applied to linear menus improves performance in comparison with static menus (Static), and with the well-known frequency-based adaptive approach (Freqency) as a baseline (e.g. as in [34]).",
-      "label": "Objective",
-      "prob": 0.7175770998001099
-    },
-    {
-      "sentence": "6.2.4 Stimulus and Task.",
-      "label": "Other",
-      "prob": 0.828967809677124
-    },
-    {
-      "sentence": "001 and decay factor  = 0 .",
-      "label": "Other",
-      "prob": 0.7681415677070618
-    },
-    {
-      "sentence": "We introduced this design to reflect the fact that (1) users perform several sessions of work in the real life (one session == 1 block), (2) users regularly switch between applications within a session, and thus use different menus [45]: we wanted to avoid undesirable effects due to repetitive selection within a single menu, and (3) each menu has a different selection frequency, given by two Zipfian distributions.",
+      "sentence": "We train the model for 200 epochs at most, using early stopping (10 epochs patience) to retain the best model weights, and monitor its performance on a validation set comprising 20% of training data.",
       "label": "Result",
-      "prob": 0.502175509929657
-    },
-    {
-      "sentence": "We validate our method, applied to adaptive menus, through technical and empirical evaluations.",
-      "label": "Method",
-      "prob": 0.6099103689193726
+      "prob": 0.5473868250846863
     },
     {
       "sentence": "The overall success rate with model-based simulation was 92.7%, indicating that in most cases an improvement was found.",
       "label": "Result",
-      "prob": 0.8699773550033569
+      "prob": 0.7370114922523499
     },
     {
-      "sentence": "Second, as search depth increases, our results indicate that value network is more efficient for estimating reward predictions.",
+      "sentence": "Finland projects Human Automata and BAD, Agence Nationale de la Recherche (grant number ANR-16-CE33-0023), and HumaneAI Net (H2020 ICT 48 Network of Centers of Excellence).",
+      "label": "Other",
+      "prob": 0.7404441237449646
+    },
+    {
+      "sentence": "Our simulated and empirical evaluations suggest significant and practically valuable improvements to usability.",
       "label": "Result",
-      "prob": 0.8569210171699524
+      "prob": 0.7417139410972595
+    },
+    {
+      "sentence": "Where  trail is a constant pointing time assuming that the mouse cursor trails the eye-gaze (tracking strategy) during serial search [5, 10].",
+      "label": "Other",
+      "prob": 0.7695657014846802
+    },
+    {
+      "sentence": "Our technical evaluation shows that our solution can tackle realistic problem sizes, and find favourable adaptations, on a commodity computer.",
+      "label": "Result",
+      "prob": 0.6805553436279297
+    },
+    {
+      "sentence": "These models simulate consequences  benefits and costs  of possible adaptation sequences without actually executing them [28, 50].",
+      "label": "Other",
+      "prob": 0.7118343114852905
+    },
+    {
+      "sentence": "In comparison with an alternative, the model-free approach, the model-based approach requires less training and better generalises across conditions [28, 50].",
+      "label": "Other",
+      "prob": 0.6513635516166687
+    },
+    {
+      "sentence": "The two main questions we seek to answer are:",
+      "label": "Other",
+      "prob": 0.3473154306411743
+    },
+    {
+      "sentence": "In summary, the design is: 18 participants  3 conditions  3 blocks  2 menus  20 selections = 6480 trials.",
+      "label": "Result",
+      "prob": 0.42620548605918884
+    },
+    {
+      "sentence": "Reward Estimation: We compare two methods of estimating rewards: model-based simulations and value neural network predictions .",
+      "label": "Result",
+      "prob": 0.4216533899307251
+    },
+    {
+      "sentence": "To solve this computational problem in an online setting, we use a combination of Monte Carlo Tree Search (MCTS) for planning, and deep learning to boost performance.",
+      "label": "Method",
+      "prob": 0.6186268329620361
+    },
+    {
+      "sentence": "The loss function for all model tails is the mean squared error (MSE), which is computed as the average of the squared differences between the predicted and the actual values, which penalises large errors.",
+      "label": "Result",
+      "prob": 0.7104438543319702
+    },
+    {
+      "sentence": "In the MCTS condition, participants noticed that the categorisation of items into groups improved upon adaptation, and helped them in searching for related items: the items were organised under categories often  that helped select items (P18).",
+      "label": "Result",
+      "prob": 0.5711756944656372
+    },
+    {
+      "sentence": "Reward (  ): We extend predictive HCI models of menu use to obtain reward estimates.",
+      "label": "Method",
+      "prob": 0.40095266699790955
+    },
+    {
+      "sentence": "Following the general formulation in section 3, we first define the adaptive menu problem.",
+      "label": "Method",
+      "prob": 0.5154675245285034
+    },
+    {
+      "sentence": "While we consider linear menus with textual labels, our solution can be extended to address the problem of adaptive homescreens (introduced in section 3) by extending the menu search model to consider two-dimensional grids and graphical icons.",
+      "label": "Method",
+      "prob": 0.5805438756942749
+    },
+    {
+      "sentence": "15 participants commented that they noticed changes in the Freqency condition, but only 2 participants noticed how these changes were occurring.",
+      "label": "Result",
+      "prob": 0.7690278887748718
+    },
+    {
+      "sentence": "To apply this class of machine learning methods for selecting adaptations, we have proposed the use of predictive models in HCI for value estimation during planning.",
+      "label": "Method",
+      "prob": 0.5227740406990051
+    },
+    {
+      "sentence": "The method uses a surrogate model for approximating the model fit across the parameter space and quantify uncertainty.",
+      "label": "Method",
+      "prob": 0.5446385741233826
+    },
+    {
+      "sentence": "The total search time is:",
+      "label": "Result",
+      "prob": 0.36563339829444885
+    },
+    {
+      "sentence": "The primary goal of this evaluation is to test whether our planning approach (henceforth MCTS) applied to linear menus improves performance in comparison with static menus (Static), and with the well-known frequency-based adaptive approach (Freqency) as a baseline (e.g. as in [34]).",
+      "label": "Objective",
+      "prob": 0.5261461734771729
+    },
+    {
+      "sentence": "We observe that for depths  4, the value network does not provide much benefit.",
+      "label": "Result",
+      "prob": 0.7666845321655273
+    },
+    {
+      "sentence": "6.2.5 Procedure and design.",
+      "label": "Result",
+      "prob": 0.34871456027030945
     },
     {
       "sentence": "Given this setting, the goal of the system is to find a suitable policy  that can be used to select adaptations that maximise the estimated cumulative reward.",
       "label": "Objective",
-      "prob": 0.8903505802154541
+      "prob": 0.8029624223709106
+    },
+    {
+      "sentence": "Unique frequency distributions",
+      "label": "Other",
+      "prob": 0.7069001793861389
+    },
+    {
+      "sentence": "Participants commented that the reordering was confusing, and prevented them from remembering item locations: I might skip down instead of checking the top, and then go back to the top. (P3).",
+      "label": "Other",
+      "prob": 0.656429648399353
+    },
+    {
+      "sentence": "The value neural network is implemented with TensorFlow 2.0.0.",
+      "label": "Other",
+      "prob": 0.41091519594192505
+    },
+    {
+      "sentence": "As dependent variable, we measured success rate of finding beneficial adaptations.",
+      "label": "Result",
+      "prob": 0.6931148171424866
+    },
+    {
+      "sentence": "It is a global optimisation method that tries to find optimal adaptation by probing to a black box function; here, the user.",
+      "label": "Method",
+      "prob": 0.6909687519073486
+    },
+    {
+      "sentence": "However, as search depth increases, while the computation time with our value network remains constant (mean M = 7.77s, SD = 1.0), it drastically increases with simulations (from M = 7.9s, SD = 3.5s at depth 4 to M = 39.0s, SD = 7.4 at depth 10).",
+      "label": "Result",
+      "prob": 0.7792236804962158
+    },
+    {
+      "sentence": "The experiment was conducted on a Macbook Pro, with a 15 Retina display.",
+      "label": "Result",
+      "prob": 0.6979129314422607
+    },
+    {
+      "sentence": "Second, as search depth increases, our results indicate that value network is more efficient for estimating reward predictions.",
+      "label": "Result",
+      "prob": 0.8022165894508362
+    },
+    {
+      "sentence": "Figure 4 presents an exemplary illustration.",
+      "label": "Result",
+      "prob": 0.6510853171348572
+    },
+    {
+      "sentence": "9 for the optimiser.",
+      "label": "Other",
+      "prob": 0.47847694158554077
     },
     {
       "sentence": "Similarly, with the value network, success rate was 89.6%.",
       "label": "Result",
-      "prob": 0.8579383492469788
+      "prob": 0.7730255126953125
     },
     {
-      "sentence": "8 according to [5].",
+      "sentence": "At this point,   + 1 ,  + 1 = 0.",
       "label": "Other",
-      "prob": 0.8707011342048645
+      "prob": 0.713046133518219
     },
     {
-      "sentence": "ACM Reference Format:",
+      "sentence": "6.2.4 Stimulus and Task.",
       "label": "Other",
-      "prob": 0.8979548215866089
+      "prob": 0.7151812314987183
     },
     {
-      "sentence": "5.2.1 Serial search .",
-      "label": "Other",
-      "prob": 0.8861207962036133
+      "sentence": "Figure 6 illustrates the model architecture.",
+      "label": "Result",
+      "prob": 0.5730411410331726
     },
     {
-      "sentence": "6.2.3 Apparatus.",
-      "label": "Other",
-      "prob": 0.8943400382995605
-    },
-    {
-      "sentence": "6.1.1 Tasks.",
-      "label": "Other",
-      "prob": 0.8870907425880432
-    },
-    {
-      "sentence": "5.2.2 Foraging search .",
-      "label": "Other",
-      "prob": 0.8975606560707092
-    },
-    {
-      "sentence": "6.1.3 Result: Success Rate.",
-      "label": "Other",
-      "prob": 0.5860018134117126
+      "sentence": "Figure 8 illustrates computation time results for each depth level (for 400 MCTS iterations).",
+      "label": "Result",
+      "prob": 0.7810532450675964
     },
     {
       "sentence": "After training, our model achieved remarkable performance: MSE  = 0 .",
       "label": "Result",
-      "prob": 0.6203569769859314
+      "prob": 0.6281312704086304
     },
     {
-      "sentence": "6.1.4 Result: Scalability.",
-      "label": "Other",
-      "prob": 0.5078441500663757
+      "sentence": "We have presented a model-based reinforcement learning method suitable for adaptive interactions.",
+      "label": "Method",
+      "prob": 0.5383239984512329
     },
     {
-      "sentence": "6.2.1 Materials.",
-      "label": "Other",
-      "prob": 0.8986337780952454
+      "sentence": "We validate our method, applied to adaptive menus, through technical and empirical evaluations.",
+      "label": "Method",
+      "prob": 0.47091126441955566
     },
     {
-      "sentence": "6.2.2 Participants.",
-      "label": "Other",
-      "prob": 0.8901204466819763
-    },
-    {
-      "sentence": "Further, results from our user study highlight benefits over a static and an adaptive baseline.",
+      "sentence": "Condition had a statistically significant effect on selection time ( 2 , 17 ) = 5.47,  < 0.05, with grand means Static = 2283 ms, Freqency = 2298 ms, and MCTS = 2162 ms (Figure 9a).",
       "label": "Result",
-      "prob": 0.9164294004440308
+      "prob": 0.6976704001426697
     },
     {
-      "sentence": "where   = 10 .",
-      "label": "Other",
-      "prob": 0.8743714690208435
+      "sentence": "Finally, we present results from an empirical evaluation where the approach compared favourably against a non-adaptive baseline design and a frequency-based adaptation policy.",
+      "label": "Result",
+      "prob": 0.8245803713798523
     },
     {
-      "sentence": "6.1.2 Implementation.",
+      "sentence": "We used a Zipfian distribution to reasonably model menu usage [13, 37].",
       "label": "Other",
-      "prob": 0.8949325084686279
-    },
-    {
-      "sentence": "408, MSE  = 0 .",
-      "label": "Other",
-      "prob": 0.8716926574707031
-    },
-    {
-      "sentence": "149, MSE  = 0 .",
-      "label": "Other",
-      "prob": 0.873828649520874
+      "prob": 0.711047351360321
     },
     {
       "sentence": "Post-hoc test using Tukey HSD revealed that MCTS (2162 ms) was significantly faster (lower selection time) than both Freqency (2298 ms) and Static (2283 ms); the difference between Static and Freqency was not statistically significant.",
       "label": "Result",
-      "prob": 0.905637264251709
+      "prob": 0.8780984282493591
+    },
+    {
+      "sentence": "6.1.2 Implementation.",
+      "label": "Other",
+      "prob": 0.5301982760429382
+    },
+    {
+      "sentence": "6.2.3 Apparatus.",
+      "label": "Other",
+      "prob": 0.6373350024223328
+    },
+    {
+      "sentence": "We support adoption and further research efforts by providing an open code repository, with examples and instructions, on our project page: https://userinterfaces.aalto.fi/adaptive .",
+      "label": "Other",
+      "prob": 0.8625379204750061
+    },
+    {
+      "sentence": "We introduced this design to reflect the fact that (1) users perform several sessions of work in the real life (one session == 1 block), (2) users regularly switch between applications within a session, and thus use different menus [45]: we wanted to avoid undesirable effects due to repetitive selection within a single menu, and (3) each menu has a different selection frequency, given by two Zipfian distributions.",
+      "label": "Result",
+      "prob": 0.5162376761436462
+    },
+    {
+      "sentence": "2021 Association for Computing Machinery.",
+      "label": "Other",
+      "prob": 0.8860682249069214
+    },
+    {
+      "sentence": "3. Roll-outs and simulations : During one roll-out , as the tree has no value estimates to inform the selection of consequential states, adaptations {  0 , .",
+      "label": "Other",
+      "prob": 0.7771517038345337
+    },
+    {
+      "sentence": "These results support our approach towards planning menu adaptations that can improve user performance.",
+      "label": "Result",
+      "prob": 0.850777268409729
+    },
+    {
+      "sentence": "Figure 7 shows an example result for a challenging case with a 15-item menu.",
+      "label": "Result",
+      "prob": 0.8320921659469604
+    },
+    {
+      "sentence": "serial (   ) =  serial (   ) +   + (    )   +  pointing",
+      "label": "Other",
+      "prob": 0.8738009333610535
+    },
+    {
+      "sentence": "Further, results from our user study highlight benefits over a static and an adaptive baseline.",
+      "label": "Result",
+      "prob": 0.86529541015625
+    },
+    {
+      "sentence": "Inspection",
+      "label": "Other",
+      "prob": 0.7808892130851746
+    },
+    {
+      "sentence": "ACM ISBN 978-1-4503-8096-6/21/05..",
+      "label": "Other",
+      "prob": 0.9147647023200989
+    },
+    {
+      "sentence": "5.2.2 Foraging search .",
+      "label": "Other",
+      "prob": 0.8654199242591858
     },
     {
       "sentence": "Results from our simulation-based evaluation offer evidence for our approach and technical solutions.",
       "label": "Result",
-      "prob": 0.9326319098472595
+      "prob": 0.8823950886726379
+    },
+    {
+      "sentence": "6.1.3 Result: Success Rate.",
+      "label": "Result",
+      "prob": 0.8036282062530518
+    },
+    {
+      "sentence": "6.1.4 Result: Scalability.",
+      "label": "Result",
+      "prob": 0.7512998580932617
+    },
+    {
+      "sentence": "3 and   = 4 .",
+      "label": "Other",
+      "prob": 0.6922875642776489
+    },
+    {
+      "sentence": "6.2.2 Participants.",
+      "label": "Other",
+      "prob": 0.7705641388893127
     },
     {
       "sentence": "5.2.3 Recall search .",
       "label": "Other",
-      "prob": 0.8920871615409851
+      "prob": 0.8046154975891113
+    },
+    {
+      "sentence": "https://doi.org/10.1145/3411764.3445497",
+      "label": "Other",
+      "prob": 0.9378292560577393
+    },
+    {
+      "sentence": "001 and decay factor  = 0 .",
+      "label": "Other",
+      "prob": 0.8614740371704102
+    },
+    {
+      "sentence": "5.2.1 Serial search .",
+      "label": "Other",
+      "prob": 0.8910627365112305
+    },
+    {
+      "sentence": "6.1.1 Tasks.",
+      "label": "Other",
+      "prob": 0.8461914658546448
+    },
+    {
+      "sentence": "We use learning rate  = 0 .",
+      "label": "Other",
+      "prob": 0.695438027381897
+    },
+    {
+      "sentence": "A grand obstacle for applications in adaptive systems is the model: where to get a good one?",
+      "label": "Other",
+      "prob": 0.9288502335548401
+    },
+    {
+      "sentence": "where   = 10 .",
+      "label": "Other",
+      "prob": 0.8511320948600769
     },
     {
       "sentence": "6.2.7 Qualitative Results.",
+      "label": "Result",
+      "prob": 0.852696418762207
+    },
+    {
+      "sentence": "8 according to [5].",
       "label": "Other",
-      "prob": 0.5876871943473816
+      "prob": 0.9256071448326111
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.9455322623252869
+    },
+    {
+      "sentence": "408, MSE  = 0 .",
+      "label": "Other",
+      "prob": 0.9088369011878967
+    },
+    {
+      "sentence": "149, MSE  = 0 .",
+      "label": "Other",
+      "prob": 0.9265857934951782
+    },
+    {
+      "sentence": "6.2.1 Materials.",
+      "label": "Other",
+      "prob": 0.9165019989013672
     }
   ]
 }
