@@ -12,6 +12,7 @@ from utils import (
     SSC_INPUT_DIR,
     SSC_OUTPUT_DIR,
     get_top_k_ssc_pred,
+    get_top_pred_by_block,
     make_spp_output_to_ssc_input,
 )
 
@@ -103,6 +104,7 @@ def main(args):
     rhetorical_units += azc.detect_contribution()
     rhetorical_units += azc.detect_novelty()
     rhetorical_units += azc.detect_objective()
+    rhetorical_units += azc.detect_method()
     rhetorical_units += azc.detect_result()
     rhetorical_units += azc.detect_conclusion()
     rhetorical_units += azc.detect_future_work()
@@ -110,16 +112,27 @@ def main(args):
     ## Next, we filter the output of the facet classifier with a facet-sensitive threhsold
     with open(ssc_output_file, "r") as f:
         ssc_preds = json.load(f)
-    top_preds = get_top_k_ssc_pred(ssc_preds, k=3)
-    top_preds["Method"] = get_top_k_ssc_pred(ssc_preds, label="Method", k=8)
-    top_preds["Result"] = get_top_k_ssc_pred(ssc_preds, label="Result", k=8)
+    # top_preds = get_top_k_ssc_pred(ssc_preds, k=3)
+    # top_preds["Method"] = get_top_k_ssc_pred(ssc_preds, label="Method", k=8)
+    # top_preds["Result"] = get_top_k_ssc_pred(ssc_preds, label="Result", k=8)
+
+    top_preds = {}
+    top_preds["Objective"] = get_top_pred_by_block(
+        ssc_preds, azc.paper.sent_block_map, "Objective", max_overall=3
+    )
+    top_preds["Method"] = get_top_pred_by_block(
+        ssc_preds, azc.paper.sent_block_map, "Method", max_per_block=2
+    )
+    top_preds["Result"] = get_top_pred_by_block(
+        ssc_preds, azc.paper.sent_block_map, "Result"
+    )
 
     for label, preds_for_label in top_preds.items():
         for pred_obj in preds_for_label:
             sentence = pred_obj["sentence"]
             label = pred_obj["label"]
             prob = pred_obj["prob"]
-            if label in ["Method", "Objective", "Result"]:
+            if label in ["Objective", "Method", "Result"]:
                 rhetorical_units.append(
                     azc.make_ssc_rhetoric_unit(sentence, label, prob)
                 )

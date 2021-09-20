@@ -39,3 +39,29 @@ def get_top_k_ssc_pred(data: Any, label: str = "", k: int = 5):
         return output
     else:
         return output[label]
+
+
+def get_top_pred_by_block(
+    data: Any,
+    sent_block_map: Any,
+    label: str,
+    max_per_block: int = 1,
+    max_overall: int = None,
+):
+    output = []
+    seen_block_counter = defaultdict(int)
+    assert len(data.keys()) == 1
+
+    # Take at most one sentence from each block, prioritized by classifier probs
+    for _, preds in data.items():
+        preds = [pred for pred in preds if pred["label"] == label]
+        preds_sorted = sorted(preds, key=lambda x: x["prob"], reverse=True)
+        for pred in preds_sorted:
+            block_idx = sent_block_map[pred["sentence"]]
+            seen_block_counter[block_idx] += 1
+            if seen_block_counter[block_idx] > max_per_block:
+                continue
+            if max_overall and len(seen_block_counter.keys()) >= max_overall:
+                break
+            output.append(pred)
+    return output

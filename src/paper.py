@@ -9,7 +9,14 @@ from typing import Dict, List
 
 import pysbd
 
-from bbox import Block, BoundingBox, SentenceWithBBoxes, _are_same_row, _bbox_to_json, _union_bboxes
+from bbox import (
+    Block,
+    BoundingBox,
+    SentenceWithBBoxes,
+    _are_same_row,
+    _bbox_to_json,
+    _union_bboxes,
+)
 
 SEGMENTER = pysbd.Segmenter(language="en", clean=False, char_span=True)
 
@@ -90,6 +97,7 @@ class SPPPaper:
 
         self.blocks = self._get_blocks()
         self.sentences = self._get_sentences()
+        self.sent_block_map = {s.text: s.block_idx for s in self.sentences}
         self.sent_bbox_map = {s.text: s.bboxes for s in self.sentences}
         self.sent_tokens_map = {s.text: s.tokens for s in self.sentences}
 
@@ -101,8 +109,10 @@ class SPPPaper:
 
     def _get_sentences(self):
         sentences = []
-        for block in self.blocks:
-            sentences.extend([sent for sent in block.sents])
+        for i, block in enumerate(self.blocks):
+            for sent in block.sents:
+                sent.block_idx = i
+                sentences.append(sent)
         for sent in sentences:
             sent.text = self._clean_sentence(sent.text)
         return sentences

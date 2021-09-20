@@ -157,6 +157,12 @@ class AZClassifier:
         aliases = ["result", "evaluation", "finding", "study", "experiment"]
         return any(a in section_found for a in aliases)
 
+    def _is_in_method(self, sentence: str):
+        section_found = self.paper.get_section_for_sentence(sentence)
+        section_found = section_found.lower()
+        aliases = ["method", "system"]
+        return any(a in section_found for a in aliases)
+
     def _is_in_expected_section(self, sentence: str, label: str):
         if label == "contribution":
             return self._is_in_introduction(sentence)
@@ -183,6 +189,13 @@ class AZClassifier:
                 or self._is_in_conclusion(sentence)
                 or self._is_in_discussion(sentence)
                 or self._is_in_future_work(sentence)
+            )
+        elif label == "method":
+            return not (
+                self._is_in_related_work(sentence)
+                or self._is_in_result(sentence)
+                or self._is_in_future_work(sentence)
+                or self._is_in_discussion(sentence)
             )
         else:
             return False
@@ -381,6 +394,40 @@ class AZClassifier:
             rhetoric_unit = RhetoricUnit(
                 text=sentence,
                 label="Future Work",
+                bboxes=bboxes,
+                section=section,
+                prob=None,
+                is_author_statement=is_author_statement,
+                is_in_expected_section=is_in_expected_section,
+            )
+            detected.append(rhetoric_unit)
+        return detected
+
+    def detect_method(self):
+        print("=== Method ===")
+        detected = []
+        seen_blocks = set()
+        for sent_bbox_obj in self.paper.sentences:
+            sentence = sent_bbox_obj.text
+            bboxes = sent_bbox_obj.bboxes
+            is_author_statement = (
+                len(self._sentence_contains_root_or_aliases(sentence, "we")) > 0
+            )
+            if not is_author_statement:
+                continue
+
+            block_idx = sent_bbox_obj.block_idx
+            if block_idx in seen_blocks:
+                continue
+
+            seen_blocks.add(sent_bbox_obj.block_idx)
+            section = self.paper.get_section_for_sentence(sentence)
+            is_in_expected_section = self._is_in_expected_section(
+                sentence, "method"
+            )
+            rhetoric_unit = RhetoricUnit(
+                text=sentence,
+                label="Method",
                 bboxes=bboxes,
                 section=section,
                 prob=None,
