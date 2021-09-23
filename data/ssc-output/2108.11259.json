@@ -1,0 +1,2209 @@
+{
+  "2108.11259": [
+    {
+      "sentence": "Such work has lead to distinctions between individual differences in humour style behavioural tendencies related to the uses or functions of humour in everyday life.",
+      "label": "Background",
+      "prob": 0.9435675740242004
+    },
+    {
+      "sentence": "Self-defeating humour is characterized by an excessive use of selfdisparaging humour, by which the user attempts to amuse others at their own expense.",
+      "label": "Background",
+      "prob": 0.9392293691635132
+    },
+    {
+      "sentence": "Research on humour in agents has also found the style and form to impact perception and interaction in various ways.",
+      "label": "Background",
+      "prob": 0.9359399676322937
+    },
+    {
+      "sentence": "Conversational agentsentities with some degree of intelligence and the capability of natural language discourseare becoming a prevalent tool for students within computer-mediated learning environments.",
+      "label": "Background",
+      "prob": 0.9330710172653198
+    },
+    {
+      "sentence": "These agents are based on learning-by-teaching; a widely studied and practiced technique within the education domain.",
+      "label": "Background",
+      "prob": 0.9236089587211609
+    },
+    {
+      "sentence": "In the field of personality research, humour as a part of an individuals character and the role it plays on the way they engage with others, has generated growing interest.",
+      "label": "Background",
+      "prob": 0.9218623638153076
+    },
+    {
+      "sentence": "Little research exists on the effects of humour in task-oriented human-computer interaction and its use by pedagogical agents.",
+      "label": "Background",
+      "prob": 0.9213444590568542
+    },
+    {
+      "sentence": "struggling learnerpossibly resulting in the enhanced effort, motivation, and commitment to the task seen in the humorous conditions.",
+      "label": "Background",
+      "prob": 0.9199259877204895
+    },
+    {
+      "sentence": "In general, as an addition to an enthusiastic and curious teachable agent, affiliative humour can increase motivation and effort.",
+      "label": "Background",
+      "prob": 0.9157484173774719
+    },
+    {
+      "sentence": "First, telling affiliative or self-defeating jokes too frequently may have negatively impacted participants experience while teaching.",
+      "label": "Background",
+      "prob": 0.9147363305091858
+    },
+    {
+      "sentence": "Little published research exists on using humour with social agents in learning contexts.",
+      "label": "Background",
+      "prob": 0.9041283130645752
+    },
+    {
+      "sentence": "Although there is a strong connection between humour and laughter, laughter can exist separate from humour.",
+      "label": "Background",
+      "prob": 0.9022948145866394
+    },
+    {
+      "sentence": "Therefore, in the context of learning-by-teaching, self-defeating jokes could negatively impact the benefits.",
+      "label": "Background",
+      "prob": 0.9014415740966797
+    },
+    {
+      "sentence": "In other words, participants with more of an aggressive humour style may be more likely to display behaviour reflecting lower motivation in teaching the agent.",
+      "label": "Background",
+      "prob": 0.8999117016792297
+    },
+    {
+      "sentence": "Persons with this humour style commonly tell jokes and funny stories for the amusement of others and to facilitate relationships.",
+      "label": "Background",
+      "prob": 0.8929648399353027
+    },
+    {
+      "sentence": "Prior work on question-asking has defined numerous schemas for classifying questions based on the effort it would require to find the answers.",
+      "label": "Background",
+      "prob": 0.8825975060462952
+    },
+    {
+      "sentence": "A humorous agent might actually be an answer, as the ability of self-defeating jokes to elicit sympathy might make these participants perceive the agent as less hostile and feel more empathetic towards the agent, and an affiliative humour style may reduce tension during the interaction.",
+      "label": "Background",
+      "prob": 0.8670891523361206
+    },
+    {
+      "sentence": "Affiliative humour is considered relatively benign and selfaccepting.",
+      "label": "Background",
+      "prob": 0.8655318021774292
+    },
+    {
+      "sentence": "In contrast, when interacting with an agent that also displays low self-esteem, they might feel more confident in teaching it, resulting in higher ratings of their own teaching abilities.",
+      "label": "Background",
+      "prob": 0.8623822927474976
+    },
+    {
+      "sentence": "Selfdefeating humour on the other hand, although increasing effort, does not result in as enjoyable an experience and may cause a decrease in learners own self-confidence.",
+      "label": "Background",
+      "prob": 0.861912190914154
+    },
+    {
+      "sentence": "However, the benefits of humour in education have long been alluded to as a result of humours psychological effects on learners.",
+      "label": "Background",
+      "prob": 0.8611462116241455
+    },
+    {
+      "sentence": "Unfortunately, tutee errors do not lead to more learning for the tutee [61] and thus teachable agents are able to capitalize on",
+      "label": "Background",
+      "prob": 0.8592926263809204
+    },
+    {
+      "sentence": "As such, when interacting with an agent with an affiliative humour style, these participants might feel less capable/worthy of correcting a seemingly confident agent and hence correct it less.",
+      "label": "Background",
+      "prob": 0.8570764064788818
+    },
+    {
+      "sentence": "The agent with an affiliative humour style therefore was designed to occasionally tell jokes throughout the interaction.",
+      "label": "Background",
+      "prob": 0.8408066034317017
+    },
+    {
+      "sentence": "Pedagogical agents have been designed for a number of purposes including tutoring (e.g., [63]), conversation practice for language",
+      "label": "Background",
+      "prob": 0.8371314406394958
+    },
+    {
+      "sentence": "In other words, the agents self-defeating jokes could lower participants own confidence and motivation as a teacher.",
+      "label": "Background",
+      "prob": 0.8273188471794128
+    },
+    {
+      "sentence": "The gender of Sigma was never specified nor implied throughout the entire interaction, and Sigma was represented by a static avatar.",
+      "label": "Background",
+      "prob": 0.826481282711029
+    },
+    {
+      "sentence": "This indicates that although effort in the task may increase, it is not accompanied by enjoyment of the learning experience.",
+      "label": "Background",
+      "prob": 0.8208048343658447
+    },
+    {
+      "sentence": "The higher empathy in participants with this humour style, might further give reason to their observed behaviours during teaching.",
+      "label": "Background",
+      "prob": 0.8159328699111938
+    },
+    {
+      "sentence": "The sentences in each article are linked to features necessary for classification (large or small crystals, layers, a glassy appearance, holes, sand or pebbles, fossils, and formation process).",
+      "label": "Background",
+      "prob": 0.8092761039733887
+    },
+    {
+      "sentence": "Thus, it appears that users are sensitive to an agents humour, but the impact on interactive behaviour varies depending on the nature of the task.",
+      "label": "Background",
+      "prob": 0.8087964057922363
+    },
+    {
+      "sentence": "The first is a self-defeating agent might cause participants to think less of their own competency as the agents teacher.",
+      "label": "Background",
+      "prob": 0.7975481748580933
+    },
+    {
+      "sentence": "As described previously, the Curiosity Notebook allowed participants to interact with the agent in various ways.",
+      "label": "Background",
+      "prob": 0.7944601774215698
+    },
+    {
+      "sentence": "by the humorous agents versus the non-humorous agent and the ability of participants to move through the procedure seamlessly without researcher involvement.",
+      "label": "Background",
+      "prob": 0.7911332249641418
+    },
+    {
+      "sentence": "It is possible that these participants in the affiliative condition were less likely to use the Check buttons, especially quizzing, and checking the agents notebook, because once they understood how the interface worked, they focused on other tasks.",
+      "label": "Background",
+      "prob": 0.7909187078475952
+    },
+    {
+      "sentence": "Participants answer by selecting a sentence and are sometimes prompted for an explanation in their own words.",
+      "label": "Background",
+      "prob": 0.7898389101028442
+    },
+    {
+      "sentence": "The study focused on only two types of verbal humour, while many more exist, e.g., non-verbal humour or humour styles known as detrimental to interpersonal relationships, as well as being limited to text comprehension and the topic of rock classification.",
+      "label": "Background",
+      "prob": 0.78803950548172
+    },
+    {
+      "sentence": "This human-likeness was hypothesized as a possible contributor to increasing motivation and effort.",
+      "label": "Background",
+      "prob": 0.778979480266571
+    },
+    {
+      "sentence": "Other research on alternative social expressions points to the possible usefulness of humour use in pedagogical agents.",
+      "label": "Background",
+      "prob": 0.7784318327903748
+    },
+    {
+      "sentence": "Third, prior research on associations between humour style and perceived personality applies to teachable conversational agents as well.",
+      "label": "Background",
+      "prob": 0.7733662128448486
+    },
+    {
+      "sentence": "Although participants can choose the type of interaction to have with the agent, the agent drives the conversation by asking questions and making statements.",
+      "label": "Background",
+      "prob": 0.7710057497024536
+    },
+    {
+      "sentence": "Previous studies have highlighted the usefulness of pedagogical agents that have socially-oriented conversations with students, e.g., reassuring them [27], initiating small-talk [26], and engaging in mutual self-disclosure [53], leading to more positive experiences and promoting learning gains.",
+      "label": "Background",
+      "prob": 0.7696536183357239
+    },
+    {
+      "sentence": "In other words, the benefits of having humour in an educational setting might diminish when the humour fails, and could explain the lack of learning gain observed in the studys humorous conditionshumour may only be effective for learning when perceived as funny.",
+      "label": "Background",
+      "prob": 0.7687641978263855
+    },
+    {
+      "sentence": "To our knowledge, there exists no systematic investigation into humour use by pedagogical agents, and, in particular, teachable agents.",
+      "label": "Background",
+      "prob": 0.7626928687095642
+    },
+    {
+      "sentence": "Everything taught to the agent is recorded in a notebook that can be viewed at any time (See Figure 1).",
+      "label": "Background",
+      "prob": 0.7598821520805359
+    },
+    {
+      "sentence": "the beneficial effects for students as peer tutors, while avoiding the detrimental ones of being a peer tutee.",
+      "label": "Background",
+      "prob": 0.7597377300262451
+    },
+    {
+      "sentence": "Prior work with pedagogical agents has shown that learning with an agent develops a deeper understanding (e.g., [39]).",
+      "label": "Background",
+      "prob": 0.7590418457984924
+    },
+    {
+      "sentence": "Measuring learning focused on retention rather than a deeper understanding, comprehension, or transfer.",
+      "label": "Background",
+      "prob": 0.7579742670059204
+    },
+    {
+      "sentence": "However, as a self-defeating agent has shown to cause many participants to not enjoy the teaching as much, paired with these participants higher self-esteem, may explain why they were more likely to rate such an agent as a worse student and less likable when compared to other participants and conditions, as well as rating themselves as worse teachers of a self-defeating agent.",
+      "label": "Background",
+      "prob": 0.7578929662704468
+    },
+    {
+      "sentence": "In this way, effort required for the Describe button was less than for the Explain and Compare buttons, which both required more effort.",
+      "label": "Background",
+      "prob": 0.7515818476676941
+    },
+    {
+      "sentence": "Across conditions, these participants were less likely to use the Entertain buttons, unless they were in the self-defeating condition in which they were more likely to use them; possibly because of their empathy towards this agents feelings of not being able to learn well and wanting to ease the agent into the topic.",
+      "label": "Background",
+      "prob": 0.7448855638504028
+    },
+    {
+      "sentence": "For example, Gulz, Haake, and Silvervarg [26] propose that positive learning outcomes after interacting with a teachable agent with off-task social conversational abilities may be due to the off-task social conversation providing an opportunity for cognitive rest, increasing engagement, providing memory cues, and promoting trust and rapport-building between the human and virtual agent.",
+      "label": "Background",
+      "prob": 0.7445144653320312
+    },
+    {
+      "sentence": "Although humour has been found to reduce anxiety in students [37], increase interest [64], and create a learning atmosphere in which they can pay more attention [2], little is known about how it can be used by pedagogical conversational agents.",
+      "label": "Background",
+      "prob": 0.7428827881813049
+    },
+    {
+      "sentence": "However, when interacting with an agent with an affiliative humour style they were observed to be less likely to use the Correct button.",
+      "label": "Background",
+      "prob": 0.7382038831710815
+    },
+    {
+      "sentence": "A chat window, through which participants could converse with the agent, was on the right-hand side of the screen.",
+      "label": "Background",
+      "prob": 0.7363033294677734
+    },
+    {
+      "sentence": "These findings can be particularly important in informing design decisions for learners with low school motivation, for example, in which maladaptive humour styles are more typical",
+      "label": "Background",
+      "prob": 0.7320998907089233
+    },
+    {
+      "sentence": "During the conversation they (as the agent) interject different types of humorous statements.",
+      "label": "Background",
+      "prob": 0.729410707950592
+    },
+    {
+      "sentence": "The sentences in the articles could be selected and taught to the agent at certain moments during the interaction.",
+      "label": "Background",
+      "prob": 0.7293800711631775
+    },
+    {
+      "sentence": "The Quiz button gives participants the opportunity to ask the agent to classify a rock to assess its knowledge state.",
+      "label": "Background",
+      "prob": 0.7290104627609253
+    },
+    {
+      "sentence": "was experienced by participants in the non-humorous condition, and participants in the self-defeating condition were in fact less likely to have enjoyed teaching their agent.",
+      "label": "Background",
+      "prob": 0.7288665175437927
+    },
+    {
+      "sentence": "All participants volunteered for the study by responding to posters and calls for participation on social media.",
+      "label": "Background",
+      "prob": 0.7284116744995117
+    },
+    {
+      "sentence": "The researchers describe two major subclasses of conversational agents that use humour during the dialogue: on-task and off-task.",
+      "label": "Background",
+      "prob": 0.725250244140625
+    },
+    {
+      "sentence": "However, self-defeating humour was not always viewed negatively.",
+      "label": "Background",
+      "prob": 0.7229819893836975
+    },
+    {
+      "sentence": "Participants in the self-defeating condition, did however put in more effort in giving the agent their own explanations.",
+      "label": "Background",
+      "prob": 0.7178730368614197
+    },
+    {
+      "sentence": "The humorous agents in our study were not rated more likeable, social, or funny than the non-humorous agent, but they were rated as having more of a sense of humour.",
+      "label": "Background",
+      "prob": 0.7168013453483582
+    },
+    {
+      "sentence": "our knowledge, there has been no previous research systematically investigating the use specifically in agents taking on the role of tutee.",
+      "label": "Background",
+      "prob": 0.7159905433654785
+    },
+    {
+      "sentence": "In other words, both self-defeating and affiliative humour styles in teachable agents showed signs of being able to increase the level of effort among those with more of an aggressive humour style.",
+      "label": "Background",
+      "prob": 0.7144320607185364
+    },
+    {
+      "sentence": "the fact that self-defeating humour is commonly linked to shyness [28], lower self-esteem [28, 31], and users are more likely to develop maladaptive social support networks [31].",
+      "label": "Background",
+      "prob": 0.7139617800712585
+    },
+    {
+      "sentence": "Importantly, there is a cyclic relationship between student achievement and teacher efficacy [50]; the agents self-defeating jokes might cause participants to teach less effectively due to their lowered confidence, for example, participants in the self-defeating condition were less likely to Correct or Quiz their agent than in the neutral condition.",
+      "label": "Background",
+      "prob": 0.7099494934082031
+    },
+    {
+      "sentence": "Self-Defeating Humour Style Participants with more of a selfdefeating humour style themselves were more likely to rate themselves as being better at teaching when interacting with a selfdefeating agent.",
+      "label": "Background",
+      "prob": 0.7070258855819702
+    },
+    {
+      "sentence": "These linked sentences are used as a ground truth to verify that participants select the correct sentence to teach the agent.",
+      "label": "Background",
+      "prob": 0.6997987627983093
+    },
+    {
+      "sentence": "They then filled in the demographics questionnaire which contained questions on age, gender, cultural background, education, and prior experience with conversational agents.",
+      "label": "Background",
+      "prob": 0.699170708656311
+    },
+    {
+      "sentence": "On the other hand, when participants knew they were conversing with a computer agent, the use of humour lead to participants being less social, smiling and laughing less, and feeling less similar to their conversation partner.",
+      "label": "Background",
+      "prob": 0.697996199131012
+    },
+    {
+      "sentence": "This is coupled with the fact that these participants were more likely to use the Entertain buttons across conditions, unless they were teaching the self-defeating agent, where the probability was reduced, i.e., possibly more effort was put into teaching than entertaining.",
+      "label": "Background",
+      "prob": 0.6976842880249023
+    },
+    {
+      "sentence": "This probability, however, was perceived as being too frequent by some participants.",
+      "label": "Background",
+      "prob": 0.6935639381408691
+    },
+    {
+      "sentence": "[15] reported that participants found a chatbot using puns in off-task conversation to be more natural, interesting, and easier to talk to than a non-humorous agent.",
+      "label": "Background",
+      "prob": 0.6901304125785828
+    },
+    {
+      "sentence": "This development over time, as it relates to humour, is worth investigating in the future.",
+      "label": "Background",
+      "prob": 0.6835765838623047
+    },
+    {
+      "sentence": "for the agent versus selecting a sentence, as well as the length of these explanations when typed, and amount of time spent teaching.",
+      "label": "Background",
+      "prob": 0.6778188943862915
+    },
+    {
+      "sentence": "All participants were undergraduate and graduate students of a research-based university and volunteered for the study by responding to posters.",
+      "label": "Background",
+      "prob": 0.6770977973937988
+    },
+    {
+      "sentence": "Each participant began by reading and signing the information letter and consent form.",
+      "label": "Background",
+      "prob": 0.6698822379112244
+    },
+    {
+      "sentence": "In the task, participants were told to imagine they were a conversational agent that is being taught about classifying rocks.",
+      "label": "Background",
+      "prob": 0.6651468276977539
+    },
+    {
+      "sentence": "In the Explain interaction, the agent asks why a rock is of a certain type or why it has certain features.",
+      "label": "Background",
+      "prob": 0.6634016633033752
+    },
+    {
+      "sentence": "Self-defeating jokes appear to evoke empathy and increase effort in learners with more aggressive, self-defeating, or affiliative humour styles, improved the confidence in teaching of learners with a selfdefeating humour style themselves, but negatively impacted the experience of learners with more of a self-enhancing humour style.",
+      "label": "Background",
+      "prob": 0.6509853601455688
+    },
+    {
+      "sentence": "An affiliative humour style similarly increased effort in learners with an aggressive or affiliative humour style, but negatively impacted the effort of learners with a self-enhancing or self-defeating humour style.",
+      "label": "Background",
+      "prob": 0.6497331857681274
+    },
+    {
+      "sentence": "The teaching interface of the Curiosity Notebook (Figure 2) consists of a reading panel on the left-hand side, with a number of articles and pictures about the topic to be taught divided into different categories.",
+      "label": "Background",
+      "prob": 0.6483985781669617
+    },
+    {
+      "sentence": "Within Check, Correct involved inspection of the agents notebook and an understanding of what was incorrect (at times requiring information from multiple sentences), and Quiz involved knowing whether the agents classification was correct or not (involving only a single sentence).",
+      "label": "Background",
+      "prob": 0.6460518836975098
+    },
+    {
+      "sentence": "This may include processes like identifying important passages (a11) and being able to find thesis sentences that would be good for base knowledge (a12).",
+      "label": "Background",
+      "prob": 0.6455559134483337
+    },
+    {
+      "sentence": "[43] suggest that agents should keep the student immersed in the experience by making teasing or joking face-threatening moves of their own following an incorrect assessment of their ability.",
+      "label": "Background",
+      "prob": 0.6431570649147034
+    },
+    {
+      "sentence": "Humour is an integral part of human communication and can be expressed verbally (produced by means of language or text, e.g., jokes, comics) and/or non-verbally (e.g., facial expression, gesture), intended to elicit responses such as laughter and mirth [36].",
+      "label": "Background",
+      "prob": 0.637878954410553
+    },
+    {
+      "sentence": "One study [62] had a virtual human tutor use humorous jokes and pictures in an e-learning interface.",
+      "label": "Background",
+      "prob": 0.6349097490310669
+    },
+    {
+      "sentence": "Lastly, s10 thought it would be nice if Sigma had a more outgoing and nicer personality when interacting.",
+      "label": "Background",
+      "prob": 0.6337410807609558
+    },
+    {
+      "sentence": "Once submitted, participants were shown a forty second video on how the Curiosity Notebook works and the task participants were expected to complete.",
+      "label": "Background",
+      "prob": 0.6277557015419006
+    },
+    {
+      "sentence": "In other words, participants perceived the content of self-defeating jokes as more reflective of the agents personality than the frequency of affiliative jokes.",
+      "label": "Background",
+      "prob": 0.6223340034484863
+    },
+    {
+      "sentence": "In other words, they needed less feedback and affirmation that the agent was learning what they were teaching, which others might do by repeatedly checking the agents notebook or quizzing",
+      "label": "Background",
+      "prob": 0.6210250854492188
+    },
+    {
+      "sentence": "Thus, it is essential to understand how best to design these agents to enhance learning experience and outcomes, while taking into account individual characteristics and differences.",
+      "label": "Background",
+      "prob": 0.6196022629737854
+    },
+    {
+      "sentence": "However, the distraction, or extraneous cognitive load, was not necessarily detrimental to affective outcomes, as has been proposed by some researchers [10].",
+      "label": "Background",
+      "prob": 0.6143385767936707
+    },
+    {
+      "sentence": "Affiliative Humour Style Similar to self-enhancing humour, affiliative humour is an adaptive form of humour and linked to increased empathy, however affiliative humour has been found to be more relevant to facilitating relationships and relational functioning [29].",
+      "label": "Background",
+      "prob": 0.6132575869560242
+    },
+    {
+      "sentence": "On the other hand, for the self-defeating condition, only two participants explicitly referred to the frequency of jokes.",
+      "label": "Background",
+      "prob": 0.6076493859291077
+    },
+    {
+      "sentence": "To select a sentence, the participant is required to navigate to the article of the appropriate rock and find the sentence that contains the answer.",
+      "label": "Background",
+      "prob": 0.6071473956108093
+    },
+    {
+      "sentence": "The Curiosity Notebook employs these different types of questions.",
+      "label": "Background",
+      "prob": 0.6020460724830627
+    },
+    {
+      "sentence": "Although adults in the same age category were used in the humour elicitation stage, this population may differ in terms of humour preference compared to younger children, or older adults, reducing generalizability of the results to these populations.",
+      "label": "Background",
+      "prob": 0.5903280973434448
+    },
+    {
+      "sentence": "Although fostering extrinsic motivation is useful in the short term, as tasks that educators set students are not usually inherently of interest to them [51], the goal of education is commonly to shift behaviour from extrinsically motivated to intrinsically motivated over time [19].",
+      "label": "Background",
+      "prob": 0.5901223421096802
+    },
+    {
+      "sentence": "Once the dialogue associated with a button finishes, participants can select another button, allowing them to take a break if needed, and decide what interaction to do next.",
+      "label": "Background",
+      "prob": 0.58989417552948
+    },
+    {
+      "sentence": "This supports prior work showing that agents that express more human-like qualities, such as relational behavior [3], abilities to build rapport [43], displays of enthusiasm [35], or sharing vulnerabilities [9, 56], can help develop trust and bond between human and agent, making the interaction more engaging and leading to increased motivation.",
+      "label": "Background",
+      "prob": 0.588781476020813
+    },
+    {
+      "sentence": "Participants were sent a link to the Curiosity Notebook, in which they completed all questionnaires as well as interacted with the agent.",
+      "label": "Background",
+      "prob": 0.5834977626800537
+    },
+    {
+      "sentence": "Within Teach, Describe requires little to no reasoning and the answer can be found in a single sentence in the text, Explain requires slightly more reasoning and the answer can be found in a single sentence (plus participants were sometimes given the opportunity to clarify, in their own words, the selected sentence), and Compare requires more reasoning and the answer is found in multiple sentences and articles.",
+      "label": "Background",
+      "prob": 0.5816256999969482
+    },
+    {
+      "sentence": "Expression of laughter (haha) was included in all three conditions for consistency but not as an expression of verbal humour.",
+      "label": "Background",
+      "prob": 0.5788578391075134
+    },
+    {
+      "sentence": "Future work could look at whether improving timing and amount of affiliative humour style jokes improves the learning experience when conversing with a teachable agent.",
+      "label": "Background",
+      "prob": 0.5747302174568176
+    },
+    {
+      "sentence": "Lastly, of the Entertain buttons, Fun Fact involved selection of a single sentence in the text (at times requiring an explanation of why the fact is fun or interesting) and the Tell Joke button involved no direct interaction with the text.",
+      "label": "Background",
+      "prob": 0.5746777057647705
+    },
+    {
+      "sentence": "The statements they were shown included those produced by the elicitation Upworkers, as well as control statements that did not contain humour, and should therefore be categorized as not belonging to a humour style.",
+      "label": "Background",
+      "prob": 0.5736310482025146
+    },
+    {
+      "sentence": "Pedagogical agents commonly take on the role of a tutor, co-learner, or novice [34].",
+      "label": "Background",
+      "prob": 0.5692844390869141
+    },
+    {
+      "sentence": "The style of humour used can impact the way in which a teacher is perceived.",
+      "label": "Background",
+      "prob": 0.5660359859466553
+    },
+    {
+      "sentence": "Thus, agent characteristics that enhance rapport with the teacher may promote the protg effect.",
+      "label": "Background",
+      "prob": 0.5627538561820984
+    },
+    {
+      "sentence": "When interacting with a self-defeating agent, participants with more of an affiliative humour style were more likely to have a lower article click rate.",
+      "label": "Background",
+      "prob": 0.5568459033966064
+    },
+    {
+      "sentence": "Aggressive Humour Style As a maladaptive form of humour, the aggressive humour style has been linked to decreased perspective taking empathy and empathetic concern [29].",
+      "label": "Background",
+      "prob": 0.5525941252708435
+    },
+    {
+      "sentence": "Using the Curiosity Notebook [33], participants taught a virtual agent, Sigma, how to classify rocks.",
+      "label": "Background",
+      "prob": 0.5501511693000793
+    },
+    {
+      "sentence": "In particular, humour made the agent be perceived less as a model student (n03) and instead give Sigma a personality (a03).",
+      "label": "Background",
+      "prob": 0.5493155121803284
+    },
+    {
+      "sentence": "Every rock is given a page in the notebook and the notebook updates live.",
+      "label": "Background",
+      "prob": 0.547946035861969
+    },
+    {
+      "sentence": "Describe involves the agent asking for the name of a rock, what rock type it belongs to, and selecting a sentence from the articles with information on what feature(s) or characteristic(s) help classify it.",
+      "label": "Background",
+      "prob": 0.5464770793914795
+    },
+    {
+      "sentence": "The Academic Motivation Scale (AMS) [58] was used to assess the type of motivation elicited by the interaction.",
+      "label": "Background",
+      "prob": 0.5448150634765625
+    },
+    {
+      "sentence": "learning (e.g., [38]), and promoting skills such as metacognition (e.g., [46]).",
+      "label": "Background",
+      "prob": 0.5384543538093567
+    },
+    {
+      "sentence": "The final set of humorous statements were selected by filtering out any that required prior cultural knowledge, were not on the topic of rocks, or were duplicates.",
+      "label": "Background",
+      "prob": 0.5271948575973511
+    },
+    {
+      "sentence": "It also uses this ground truth in answering quiz questions (described in more detail below).",
+      "label": "Background",
+      "prob": 0.5212358832359314
+    },
+    {
+      "sentence": "Correct therefore required more effort than Quiz to use.",
+      "label": "Background",
+      "prob": 0.5147084593772888
+    },
+    {
+      "sentence": "Second, the optimal joke frequency is likely different for each participant and dependent on the type of joke, since only six participants in each condition found the agent to be joking too frequently.",
+      "label": "Background",
+      "prob": 0.5140891075134277
+    },
+    {
+      "sentence": "Compare has the participant compare two rocks to each other focusing on what is similar or different depending on whether the two rocks chosen are from the same category or different.",
+      "label": "Background",
+      "prob": 0.5084826946258545
+    },
+    {
+      "sentence": "Participants were also asked a number of questions relating to experience of the task.",
+      "label": "Background",
+      "prob": 0.5080112218856812
+    },
+    {
+      "sentence": "In interactions with virtual agents, conversational and situation-specific jokes have been found to affect how cooperation is perceived in an agent [32], humour is proposed as a means of recovering from error situations while providing a pleasant user experience [42], and affiliative humour has been shown to significantly motivate healthy behaviours [44].",
+      "label": "Background",
+      "prob": 0.5054211616516113
+    },
+    {
+      "sentence": "Participants also perceived the self-defeating agent as being not arrogant at all (s06), attentive, smart, and friendly (s11), enthusiastic (s12), curious (s13,s15), and making the experience enjoyable and relaxing to read and teach (s14).",
+      "label": "Background",
+      "prob": 0.5041713118553162
+    },
+    {
+      "sentence": "Telling too many jokes was perceived as distracting (a17), tiresome (a15), wasted time (a08), and the agent being not very ... attentive (a13).",
+      "label": "Background",
+      "prob": 0.49617674946784973
+    },
+    {
+      "sentence": "The Fun Fact button has the agent ask the participant to provide a fun fact and occasionally ask for an explanation of why they thought it was interesting, and the Tell Joke button allows participants to tell the agent a joke.",
+      "label": "Background",
+      "prob": 0.4942191541194916
+    },
+    {
+      "sentence": "They then moved to the teaching interface and were told to set themselves a timer for 40 minutes, after which they should click on the Stop Teaching button.",
+      "label": "Background",
+      "prob": 0.4938827157020569
+    },
+    {
+      "sentence": "We chose to compare the two humour styles considered conducive to social well-being and enhancing interpersonal relationships: affiliative and self-defeating.",
+      "label": "Background",
+      "prob": 0.4900355041027069
+    },
+    {
+      "sentence": "Although prior work indicates the value of humour expression by pedagogical agents, to the best of",
+      "label": "Background",
+      "prob": 0.488513320684433
+    },
+    {
+      "sentence": "Participants were given a total time of 90 minutes to complete the sequence of surveys and teaching, and at the very end were shown a feedback letter.",
+      "label": "Background",
+      "prob": 0.4834049940109253
+    },
+    {
+      "sentence": "Ziv, Gorenstein, and Moris [66] found that students responded differently to a human teacher who used four different types of humour during a lecture: when using a combination of selfand other-disparaging (also known as self-defeating and aggressive) humour, the teacher was rated most appealing and original, when using only other-disparaging humour, the teacher was rated most powerful, and when the teacher did not use humour they were evaluated as having the most systematic teaching style.",
+      "label": "Background",
+      "prob": 0.48201316595077515
+    },
+    {
+      "sentence": "As s15 puts it, the agent had a lot of negative talk which was kind of hard to work with. I would have been more encouraged if they were more optimistic about their learning.",
+      "label": "Background",
+      "prob": 0.4805862009525299
+    },
+    {
+      "sentence": "For each humour style, they were given the definition, as well as an example interaction between human and agent, and asked to provide 10 statements of each type.",
+      "label": "Background",
+      "prob": 0.47362348437309265
+    },
+    {
+      "sentence": "Eight students took part in a pilot study and received a $15 Amazon Gift card upon completion.",
+      "label": "Background",
+      "prob": 0.4731532633304596
+    },
+    {
+      "sentence": "The Humour Styles Questionnaire (HSQ) [37], a self-report scale, was used to measure individual differences in participants style of humour.",
+      "label": "Background",
+      "prob": 0.4723588228225708
+    },
+    {
+      "sentence": "Prior work found humour to improve participants enjoyment of a task [41], however, in this scenario with a teachable agent, humour did not enhance enjoyment beyond what",
+      "label": "Background",
+      "prob": 0.4698110520839691
+    },
+    {
+      "sentence": "If the sentence selected does not match the feature or rock the agent asked about, the agent asks the participant to select another sentence that would better answer the question.",
+      "label": "Background",
+      "prob": 0.46395745873451233
+    },
+    {
+      "sentence": "Future work could investigate this further using different types of quiz questions to understand what type of learning, is happening.",
+      "label": "Background",
+      "prob": 0.4596618413925171
+    },
+    {
+      "sentence": "Humour and laughter have been shown to decrease stress and anxiety, and enhance self-esteem and self-motivation, leading to a more positive emotional and social environment in which students can pay better attention [2, 23].",
+      "label": "Background",
+      "prob": 0.4542868733406067
+    },
+    {
+      "sentence": "As noted earlier, participants had an 80% probability of being told a joke by the agent for each button clicked.",
+      "label": "Background",
+      "prob": 0.4523680806159973
+    },
+    {
+      "sentence": "We therefore set out to investigate how varying humour styles in a teachable agent affected participants perceptions of the agent, experience with the task, and teaching behaviour during the interaction.",
+      "label": "Background",
+      "prob": 0.4500109851360321
+    },
+    {
+      "sentence": "This is observed in the lower probability of Check type buttons (Quiz; Correct) being used by these participants, which could be explained as a lack of motivation to perform tasks other than teaching the agent.",
+      "label": "Result",
+      "prob": 0.45443105697631836
+    },
+    {
+      "sentence": "They also made more jokes and responded more socially.",
+      "label": "Background",
+      "prob": 0.44365349411964417
+    },
+    {
+      "sentence": "The baseline personality of the agent in all conditions was enthusiastic and curious, saying things like: I can always use more information about rocks, Yes please tell me more about rocks!, I want to understand how rocks are formed, and Good idea, lets compare some rocks.",
+      "label": "Background",
+      "prob": 0.437259703874588
+    },
+    {
+      "sentence": "The humorous agents were generally described as being more human-like than the non-humorous agent, almost life like (a04),",
+      "label": "Other",
+      "prob": 0.4641537368297577
+    },
+    {
+      "sentence": "This is especially important in settings where a (teachable) agent is to interact with users over longer periods of time, where having more of a personality can be helpful to increase users commitment to a task [40].",
+      "label": "Other",
+      "prob": 0.48831555247306824
+    },
+    {
+      "sentence": "Participant s04 felt that the agent should not say a joke after every lesson as it slows things down a little, and s12 stated the agent made too many lame jokes.",
+      "label": "Background",
+      "prob": 0.4265981912612915
+    },
+    {
+      "sentence": "58 participants took part in the main study and received a $15 Amazon Gift card upon completion.",
+      "label": "Background",
+      "prob": 0.42588484287261963
+    },
+    {
+      "sentence": "They state: we believe that the presence of humour is of higher importance in non-task-oriented agents, for their main purpose is to entertain human interlocutors and socialize with them during the conversation.",
+      "label": "Objective",
+      "prob": 0.4988102614879608
+    },
+    {
+      "sentence": "Regardless of condition, participants with more of a self-enhancing humour style rated the agent as being a good student compared to other participants, a sign of higher levels of empathy among them.",
+      "label": "Result",
+      "prob": 0.469543993473053
+    },
+    {
+      "sentence": "We begin with a discussion of the effects of the humorous agents across all participants, and then take a closer look at how a learners humour style can interact with that of the agent.",
+      "label": "Background",
+      "prob": 0.42465436458587646
+    },
+    {
+      "sentence": "When the participant is ready to teach, they select one of seven buttons split into Teach (Describe, Explain, or Compare), Check (Correct or Quiz) and Entertain (Fun Fact or Tell Joke) groupings, which initiates the agent to begin a conversation.",
+      "label": "Background",
+      "prob": 0.4208158850669861
+    },
+    {
+      "sentence": "Meanwhile, participants in the non-humorous condition mostly perceived the agent as a student that needed more human like responses (n07).",
+      "label": "Background",
+      "prob": 0.42060574889183044
+    },
+    {
+      "sentence": "We therefore conducted an examination of humour in a teachable agent context.",
+      "label": "Background",
+      "prob": 0.4111887812614441
+    },
+    {
+      "sentence": "It also made clear the importance of placing the HSQ towards the end of the session to counter-act possible priming effects, as well as having participants complete the post-study knowledge quiz at the very end, so as not to influence their evaluations of the agent based on how well they believe they did on the quiz.",
+      "label": "Background",
+      "prob": 0.41054484248161316
+    },
+    {
+      "sentence": "The Correct button allows participants to change information they had taught the agent.",
+      "label": "Background",
+      "prob": 0.4052170217037201
+    },
+    {
+      "sentence": "This paper focuses on agents in the novice role, also called teachable agentsthose with the ability to be taught.",
+      "label": "Objective",
+      "prob": 0.5486602783203125
+    },
+    {
+      "sentence": "his study focuses on the effect of verbal humour as expressed through humour styles.",
+      "label": "Objective",
+      "prob": 0.43467921018600464
+    },
+    {
+      "sentence": "Q1 : Does a teachable agents use of affiliative or self-defeating humour affect participants:  perception of the agent, i.e., perceived intelligence, likability, funniness, etc.,  attitudes toward the teaching task, i.e., enjoyment, pressure, motivation, effort etc., and  ability to recall material from the teaching task",
+      "label": "Background",
+      "prob": 0.38143390417099
+    },
+    {
+      "sentence": "Interaction effects were investigated, but only those related to participants humour style (affiliative, aggressive, self-defeating, and self-enhancing; measured by the HSQ [37]) are reported in this paper.",
+      "label": "Background",
+      "prob": 0.3757941722869873
+    },
+    {
+      "sentence": "Further, we explored whether individual characteristics of the learner (in terms of their own humour style) interacted with the humour style of the agent.",
+      "label": "Background",
+      "prob": 0.37505367398262024
+    },
+    {
+      "sentence": "When interacting with the agent that itself had an affiliative humour style, it is possible that the Similarity Attraction Hypothesis encouraged these participants to put in more effort when teaching, observed from the higher probability of checking the agents notes in the notebook and using the Compare button more frequently (requiring more effort than other button types), than other participants in the affiliative condition.",
+      "label": "Result",
+      "prob": 0.40510112047195435
+    },
+    {
+      "sentence": "Human-centered computing  Empirical studies in interaction design .",
+      "label": "Background",
+      "prob": 0.37096887826919556
+    },
+    {
+      "sentence": "In human-human tutoring, the tutor learns more when the tutee struggles with the material, most likely because it leads them to use reflection, selfexplanation, and reworking of the problem from multiple angles [61].",
+      "label": "Other",
+      "prob": 0.49414077401161194
+    },
+    {
+      "sentence": "They also spent less time on the task.",
+      "label": "Background",
+      "prob": 0.36734646558761597
+    },
+    {
+      "sentence": "These insights are of extra importance, since just as the aggressive style, the self-defeating style is typical among students with low school motivation [52].",
+      "label": "Other",
+      "prob": 0.5182191729545593
+    },
+    {
+      "sentence": "Teachable agents have the ability to be taught and are of particular interest in education, as learning-by-teaching can be a more enriching experience than learning by oneself [14].",
+      "label": "Other",
+      "prob": 0.5738546848297119
+    },
+    {
+      "sentence": "This explanation might again provide evidence for the Similarity Attraction Hypothesis for the case of the self-defeating humour style, and may also have implications for enhancing student self-efficacy.",
+      "label": "Result",
+      "prob": 0.5212507247924805
+    },
+    {
+      "sentence": "participants were asked to stop teaching after 40 minutes, it was up to them to finish the interaction after 40 minutes were over.",
+      "label": "Background",
+      "prob": 0.35155951976776123
+    },
+    {
+      "sentence": "experiencing of pleasurable sensations, EM externally regulated indicates the behaviour is motivated by reasons external to the task at hand, i.e., payment or rewards, EM introjected refers to actions motivated by pressure an individual puts on themselves, and EM identified describes behaviour that is motivated by the view that participation is important for personal growth [59].",
+      "label": "Other",
+      "prob": 0.4954536557197571
+    },
+    {
+      "sentence": "However, use of selfdisparaging humour was perceived as influencing appeal.",
+      "label": "Result",
+      "prob": 0.5266791582107544
+    },
+    {
+      "sentence": "Participants in the humorous conditions mentioned the agent gave some very human like responses ... more like a relative or peer I was teaching (s06) and was very personable (a12).",
+      "label": "Other",
+      "prob": 0.437494695186615
+    },
+    {
+      "sentence": "Six participants in the affiliative condition suggested less frequent jokes (a12) when asked what they would change about the agent.",
+      "label": "Result",
+      "prob": 0.5179439187049866
+    },
+    {
+      "sentence": "Participant s05 wanted less self-deprecation!, s15 thought the agent should be more confident and kind to their self, and s18 found it off-putting that Sigma made a lot of jokes at its own expense.",
+      "label": "Other",
+      "prob": 0.34090912342071533
+    },
+    {
+      "sentence": "Further, research has demonstrated the existence of the protg effect, by which students are found to try harder to learn for their agent than they do for themselves, and that the social nature of the interaction between student and teachable agent contributes to the effect [7].",
+      "label": "Other",
+      "prob": 0.4236220419406891
+    },
+    {
+      "sentence": "Based on prior literature from areas of Education, Psychology, Humour, and Conversational Agents, our investigation explores the following research questions:",
+      "label": "Objective",
+      "prob": 0.5025010108947754
+    },
+    {
+      "sentence": "Affiliative and self-defeating humour styles are considered conducive to social well-being and enhancing interpersonal relationships, whereas self-enhancing and aggressive humour are considered as detrimental to social relationships ([37] p.52).",
+      "label": "Other",
+      "prob": 0.5752676725387573
+    },
+    {
+      "sentence": "In terms of teaching, two participants noted the benefit of teaching as a good way for me to learn (n03) and that they get to learn something (n01).",
+      "label": "Result",
+      "prob": 0.37132349610328674
+    },
+    {
+      "sentence": "To generate the humorous statements, six creative writers were recruited through Upwork.",
+      "label": "Background",
+      "prob": 0.31838732957839966
+    },
+    {
+      "sentence": "These observations may be explained by",
+      "label": "Other",
+      "prob": 0.44516390562057495
+    },
+    {
+      "sentence": "02), across conditions, unless they were in the affiliative condition",
+      "label": "Other",
+      "prob": 0.438055157661438
+    },
+    {
+      "sentence": "IndependentKruskalWallis tests were conducted to examine the differences in the responses to the questions on sense of humour, social ability, and whether the agent was funny or not.",
+      "label": "Result",
+      "prob": 0.4231610596179962
+    },
+    {
+      "sentence": "In a preliminary experiment they found the humour to enhance learner motivation, performance, and ease emotions.",
+      "label": "Result",
+      "prob": 0.5177406072616577
+    },
+    {
+      "sentence": "Tamborini and Zillman [54] found no difference in rated intelligence when a college lecturer used sexual, other or self-disparaging humour.",
+      "label": "Result",
+      "prob": 0.5168701410293579
+    },
+    {
+      "sentence": "One of the most prominent contributions in the field distinguishes between four humour styles: affiliative (use of benign humour to enhance social relationships), self-defeating (use of humour to enhance relationships at ones own expense), selfenhancing (use of humour to enhance oneself), and aggressive (use of humour to enhance oneself at the expense of others) [37].",
+      "label": "Other",
+      "prob": 0.4871992766857147
+    },
+    {
+      "sentence": "This is supported by prior research that found affiliative humour to be more closely associated with relationship variables than with emotional well-being, while self-defeating humour is related to anxiety, depression, ...and negatively associated with self-esteem and optimism [49].",
+      "label": "Other",
+      "prob": 0.5071067214012146
+    },
+    {
+      "sentence": "Self-Enhancing Humour Style Research has linked people with a self-enhancing humour style to high self-esteem [49] and being more capable of perspective taking empathy [29].",
+      "label": "Other",
+      "prob": 0.5604801177978516
+    },
+    {
+      "sentence": "There are several possible reasons why.",
+      "label": "Other",
+      "prob": 0.5381764769554138
+    },
+    {
+      "sentence": "We find that, although on-topic, off-task humour was entertaining and motivating, it was also distracting for some participants and a high-frequency can lead to a loss of enjoyment in a learning-by-teaching scenario.",
+      "label": "Result",
+      "prob": 0.6413182616233826
+    },
+    {
+      "sentence": "Next, a different set of participants (five, also recruited through Upwork) categorized the statements produced by the previous set into the type of humour they felt it belonged.",
+      "label": "Result",
+      "prob": 0.54245924949646
+    },
+    {
+      "sentence": "Their higher amotivation score after interacting with the self-defeating agent also supports the possibility of these participants having lower levels of empathy for the agent.",
+      "label": "Result",
+      "prob": 0.6189627647399902
+    },
+    {
+      "sentence": "Teaching Experience Participants in the self-defeating condition explained: Sigma was a bit self-deprecating which wasnt a niceexperiencebeingon theteachingside(s10),theself-deprecation made me feel like I wasnt doing a good job (s15), and the agent kept making jokes about her own incompetence (s05).",
+      "label": "Other",
+      "prob": 0.32562947273254395
+    },
+    {
+      "sentence": "For example, social/conversational laughter can be distinguished from hilarious laughter, the latter being more directly associated with humour [13].",
+      "label": "Other",
+      "prob": 0.6294041872024536
+    },
+    {
+      "sentence": "Gruner [25] showed that speakers using self-disparaging humour were perceived as wittier than those not using humour.",
+      "label": "Result",
+      "prob": 0.5670456886291504
+    },
+    {
+      "sentence": "Participants in both humorous conditions noted the overuse of humour.",
+      "label": "Result",
+      "prob": 0.6274822354316711
+    },
+    {
+      "sentence": "In the present study, we focus on agent humour.",
+      "label": "Result",
+      "prob": 0.41317760944366455
+    },
+    {
+      "sentence": "This is inline with prior research that shows prior student achievement as a valid predictor of collective teacher efficacy [50]  the belief that a teachers efforts can help even the most difficult or unmotivated students [22].",
+      "label": "Other",
+      "prob": 0.6101719737052917
+    },
+    {
+      "sentence": "Humour and laughter have been shown to decrease stress and anxiety, and enhance self-esteem, self-motivation, and psychological well-being [20, 31, 37].",
+      "label": "Other",
+      "prob": 0.6251279711723328
+    },
+    {
+      "sentence": "The approach is inspired by the protg effect, which demonstrates that learning for the sake of teaching others is more beneficial than learning for ones own self [4].",
+      "label": "Other",
+      "prob": 0.3780469596385956
+    },
+    {
+      "sentence": "Overall, as the task put to participants was to teach the agent",
+      "label": "Result",
+      "prob": 0.419291615486145
+    },
+    {
+      "sentence": "Morkes, Kernal, and Nass [40] found that when participants communicated with a chatbot while working together on a task, but thought they were interacting with another human, the use of humour in on-task conversation lead participants to rate their conversation partner as more likable and reported greater cooperation with, and similarity to, their partner.",
+      "label": "Result",
+      "prob": 0.6274911761283875
+    },
+    {
+      "sentence": "The IMI and AMS scales were presented as a Likert scale from 1-7.",
+      "label": "Result",
+      "prob": 0.4664277136325836
+    },
+    {
+      "sentence": "Comparing Humour When asked about the agents personality traits, five participants in the self-defeating condition listed positive adjectives such as, optimistic and positive (s08), light hearted (s06), friendly (s06,s16,s11), and super adorable (s13).",
+      "label": "Result",
+      "prob": 0.4097825586795807
+    },
+    {
+      "sentence": "People with a higher preference of this humour style are also found to be more likely to feel dysphoria and assume others as being more hostile [49].",
+      "label": "Other",
+      "prob": 0.6247535943984985
+    },
+    {
+      "sentence": "Research also demonstrates that material taught with humour can lead to better retention and recall [6, 8, 21, 65] and humour can increase student interest and ability to engage in divergent thinking [12, 64, 65].",
+      "label": "Other",
+      "prob": 0.5186979174613953
+    },
+    {
+      "sentence": "For example, questions can be classified according to whether the answer can be found in a single, multiple or no sentences in the text [47] or the expected length of an answer and the amount of reasoning required to formulate the answer [24].",
+      "label": "Other",
+      "prob": 0.6050747632980347
+    },
+    {
+      "sentence": "We used a between-subjects experimental design, with three conditions: (1) Affiliative, (2) Self-defeating, and (3) Neutral (no verbal humour).",
+      "label": "Result",
+      "prob": 0.37912070751190186
+    },
+    {
+      "sentence": "Following this, they completed a pre-study knowledge quiz on rocks.",
+      "label": "Result",
+      "prob": 0.550098180770874
+    },
+    {
+      "sentence": "Although the affiliative jokes were sometimes perceived negatively, participants in this condition spent significantly more time teaching their agents indicating that the negative perception did not impact their willingness to spend time on the task.",
+      "label": "Result",
+      "prob": 0.6502072215080261
+    },
+    {
+      "sentence": "the agents jokes were a nice added touch :) while a16 enjoyed the",
+      "label": "Other",
+      "prob": 0.5285566449165344
+    },
+    {
+      "sentence": "If so, is it intrinsic motivation (IM; actions motivated by the pleasure and satisfaction from the process of engaging in an activity), extrinsic motivation (EM; actions motivated by attaining a goal separate from the process of engaging), or amotivation (AM; the absence of motivation which can co-occur with feelings of low competence)?",
+      "label": "Other",
+      "prob": 0.5658044815063477
+    },
+    {
+      "sentence": "Some researchers have stated that humour should not be used by agents in on-topic conversation as it can distract users and suggest that it only be used in off-topic dialogue [17, 18], while others have found evidence of the positive influence on learning experiences and outcomes of agents engaging in off-task conversation during learning tasks (e.g., [26]).",
+      "label": "Result",
+      "prob": 0.496131956577301
+    },
+    {
+      "sentence": "and teaching behaviour as the dependent factors.",
+      "label": "Result",
+      "prob": 0.34390151500701904
+    },
+    {
+      "sentence": "We adapted and customized the original interface and participant-agent dialogue to fit this studys research questions (For reference, the original layout and task format are described in [33]).",
+      "label": "Result",
+      "prob": 0.3694707155227661
+    },
+    {
+      "sentence": "The study also showed that students who possess a sense of humour are most appreciative of a teacher using humour.",
+      "label": "Result",
+      "prob": 0.6497547626495361
+    },
+    {
+      "sentence": "Four participants in the selfdefeating condition explicitly referred to the agents self-defeating jokes as positiveI like the jokes Sigma made in between... [the agent] made jokes ... to create a jolly atmosphere (s01), very positive responses, jokes around and eager to learn, a very easy to teach student (s03), he tried to lighten the mood with some jokes (s13), and Sigma was delightful and gave some very human like responses such as self-deprecating jokes that made him feel more like a relative or peer I was teaching rather than a robot (s06).",
+      "label": "Other",
+      "prob": 0.3574869632720947
+    },
+    {
+      "sentence": "As the Similarity Attraction Hypothesis suggests that humans like personalities similar to their own, we expected participants own humour styles to influence the results.",
+      "label": "Result",
+      "prob": 0.6334800124168396
+    },
+    {
+      "sentence": "Humour made the interaction more engaging and immersive, making it a desirable trait: it would be nice if sigma could tell jokes (n09).",
+      "label": "Other",
+      "prob": 0.6597950458526611
+    },
+    {
+      "sentence": "The final questionnaire was a post-knowledge quiz to measure their recall of the material.",
+      "label": "Result",
+      "prob": 0.5168006420135498
+    },
+    {
+      "sentence": "This was observed when participants found the agents jokes to be lame (s12) or corny (a10).",
+      "label": "Result",
+      "prob": 0.5062817931175232
+    },
+    {
+      "sentence": "Post interaction, selection of the Neutral pictogram to describe the participants own mood state was significantly different between conditions, in particular, participants in the self-defeating condition chose the Neutral mood more than participants in the other conditions.",
+      "label": "Result",
+      "prob": 0.7050456404685974
+    },
+    {
+      "sentence": "It is posted here for your personal use.",
+      "label": "Other",
+      "prob": 0.6629751920700073
+    },
+    {
+      "sentence": "Following the interaction, participants completed three questionnaires measuring their perception of the agent, their attitudes and motivation towards the teaching task, and their sense of humour (administered towards the end so as not to prime participants on the focus of humour in the study).",
+      "label": "Method",
+      "prob": 0.475618451833725
+    },
+    {
+      "sentence": "The agent expressing no verbal humour, Neutral , made statements related to its self-reflection of learning, e.g., This topic is quite interesting! or Haha Im enjoying this topic a lot.",
+      "label": "Other",
+      "prob": 0.6935334801673889
+    },
+    {
+      "sentence": "This provides a number of insights.",
+      "label": "Result",
+      "prob": 0.49093303084373474
+    },
+    {
+      "sentence": "It is possible that this indicates participants were spending more time reading each article to ensure they taught the agent the most important information in the hopes of improving the agents perceived sad mood.",
+      "label": "Result",
+      "prob": 0.6615827679634094
+    },
+    {
+      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan",
+      "label": "Other",
+      "prob": 0.7494847178459167
+    },
+    {
+      "sentence": "Although article clicks can be viewed as a measure of effort, since it can be considered too much reading (n01), a lower rate may in fact indicate effort as well: I read the articles carefully to pick the best response (s05).",
+      "label": "Other",
+      "prob": 0.4969378411769867
+    },
+    {
+      "sentence": "Figure 3(b) shows the average result of the Pick-a-Mood pictorial self-report scale for self, across conditions.",
+      "label": "Result",
+      "prob": 0.6765131950378418
+    },
+    {
+      "sentence": "Humour is successful when both speaker and listener have an obvious intention of amusing each other, whereas failed humour occurs when this intention is unidirectional and the recipient fails to perceive the humour [5].",
+      "label": "Other",
+      "prob": 0.713766872882843
+    },
+    {
+      "sentence": "In robots, four forms of humour (wit and an ice-breaker, corny jokes, subtle humour, and dry humour and self-deprecation) are suggested to enhance sociality of a robot [30], and innocent humour (riddles and punning jokes) was found to improve perception of task enjoyment, robot personality, and speaking style [41].",
+      "label": "Result",
+      "prob": 0.5817464590072632
+    },
+    {
+      "sentence": "Four other participants made more indirect references to the agents joke frequency.",
+      "label": "Result",
+      "prob": 0.6341167092323303
+    },
+    {
+      "sentence": "Each rock is given its own article.",
+      "label": "Other",
+      "prob": 0.39721059799194336
+    },
+    {
+      "sentence": "The AMS provides overall scores for each type of motivation, and each type is further distinguished into more specific motives: IM to know describes actions performed for the pleasure and satisfaction derived from the learning, exploring, or trying to understand something new from an activity, IM toward accomplishment relates to engaging in actions for the pleasure and satisfaction experienced when trying to achieve something new or beyond ones limits, IM to experience stimulation describes the motivation related to the",
+      "label": "Result",
+      "prob": 0.3741113245487213
+    },
+    {
+      "sentence": "We thank all participants for their contributions, and acknowledge the funding from NSERC Discovery Grant RGPIN-2015-0454 and University of Waterloo Interdisciplinary Trailblazer Fund for making this work possible.",
+      "label": "Result",
+      "prob": 0.3750240206718445
+    },
+    {
+      "sentence": "Participants in this study were adults between 18-35 years.",
+      "label": "Other",
+      "prob": 0.38151440024375916
+    },
+    {
+      "sentence": "2.3.1 Humour in Teachable Agents.",
+      "label": "Other",
+      "prob": 0.6338480114936829
+    },
+    {
+      "sentence": "According to the Similarity Attraction Hypothesis, people tend to like people they perceive as similar to themselves, and the Media Equation Hypothesis claims that this holds for artificial agents as well [48].",
+      "label": "Other",
+      "prob": 0.660403847694397
+    },
+    {
+      "sentence": "Lastly,participants in the neutral condition mostly referred to the agent as friendly (n04,n10,n14), eager (n06,n07,n10,n12,14) and curious (n03,n09,n18).",
+      "label": "Other",
+      "prob": 0.5962513089179993
+    },
+    {
+      "sentence": "71 = , p = 0.02, respectively, from the neutral condition.",
+      "label": "Result",
+      "prob": 0.5689677000045776
+    },
+    {
+      "sentence": "To measure effort, we recorded the number of total button clicks in the interface, and separated: Teach (Describe, Explain, Compare), Check (Correct, Quiz), and Entertain (Fun Fact, Tell Joke) button clicks, the number of article and category clicks, the frequency of typing out explanations",
+      "label": "Result",
+      "prob": 0.35583844780921936
+    },
+    {
+      "sentence": "Our results indicate that humour, in particular the two humour styles conducive to interpersonal relationships and social well-being, can both enhance, as well as detract from, the experience and outcomes of learners.",
+      "label": "Result",
+      "prob": 0.7673341035842896
+    },
+    {
+      "sentence": "These statements were always on-topic, i.e., the affiliative jokes were rock-related, the selfdefeating jokes were related to the agents learning about rocks, and the neutral statements were related to the agents learning about rocks.",
+      "label": "Result",
+      "prob": 0.6314247846603394
+    },
+    {
+      "sentence": "Notable observations regarding participants with certain humour styles are discussed below.",
+      "label": "Other",
+      "prob": 0.6232810616493225
+    },
+    {
+      "sentence": "The main aim of this style of humour is to achieve social acceptance and approval from others.",
+      "label": "Objective",
+      "prob": 0.7894096374511719
+    },
+    {
+      "sentence": "Participants were randomly placed into one of the conditions.",
+      "label": "Result",
+      "prob": 0.5767709612846375
+    },
+    {
+      "sentence": "Finally, to measure effort, we used: (1) the Effort/Importance subscale of the IMI [57], and (2) analysis of interaction behaviour while teaching the agent.",
+      "label": "Result",
+      "prob": 0.42282211780548096
+    },
+    {
+      "sentence": "More participants (nine) in the affiliative condition associated positive attributes, including cheerful (a01,a14), happy (a04), funny (a05,a06,a07,a09), a comedian (a11), brightens your mood (a01), and pleasant (a18).",
+      "label": "Other",
+      "prob": 0.48467838764190674
+    },
+    {
+      "sentence": "We collected data through pre-study and poststudy questionnaires, as well as by logging all user interactions on the Curiosity Notebook including, all button and article clicks, conversations between participant and agent, articles discussed, and notes recorded in the notebook.",
+      "label": "Result",
+      "prob": 0.46589452028274536
+    },
+    {
+      "sentence": "Lastly, we acknowledge that humour styles have been found to correlate highly with various other personality characteristics, e.g., empathy, self-esteem, optimism, social support, and social self-efficacy, thus we cannot rule out the possibility that we are capturing correlated characteristics (as touched on earlier in the Discussion).",
+      "label": "Result",
+      "prob": 0.6949887275695801
+    },
+    {
+      "sentence": "The agent with a self-defeating humour style interspersed self-disparaging humour throughout the conversation, e.g., You know that feeling when youre taught something and understand it right away?... Yeah, not me! Haha! or When youre a computer but cant learn things by yourself haha.",
+      "label": "Other",
+      "prob": 0.7147037386894226
+    },
+    {
+      "sentence": "Preand post-knowledge tests were used to measure recall of the material taught.",
+      "label": "Result",
+      "prob": 0.4788583517074585
+    },
+    {
+      "sentence": "02), i.e., the Sad mood was selected significantly more to describe the agent in the self-defeating condition than in the other two conditions (Figure 3(a)).",
+      "label": "Result",
+      "prob": 0.7378294467926025
+    },
+    {
+      "sentence": "34), across conditions.",
+      "label": "Result",
+      "prob": 0.4139711856842041
+    },
+    {
+      "sentence": "At the end of each interaction associated with a button, there was an 80% probability the agent would make an extra statement, reflecting the condition.",
+      "label": "Result",
+      "prob": 0.7875378131866455
+    },
+    {
+      "sentence": "02), unless they were in the self-defeating condition, and then it was more likely (  = 0 .",
+      "label": "Other",
+      "prob": 0.7263827323913574
+    },
+    {
+      "sentence": "The system was designed to move participants through each step automatically.",
+      "label": "Method",
+      "prob": 0.4270212948322296
+    },
+    {
+      "sentence": "We find that humour accentuates the human-likeness of an agent by giving it a personalitye.g., affiliative humour helped demonstrate happiness and intelligence, and self-defeating humour facilitated self-disclosure as the agent displays vulnerability as a",
+      "label": "Result",
+      "prob": 0.6707316040992737
+    },
+    {
+      "sentence": "The pilot provided us with some initial results; indicating a clear perception of humour used",
+      "label": "Result",
+      "prob": 0.7156960368156433
+    },
+    {
+      "sentence": "When asked what, if anything, they would change about the agent, participants in the affiliative condition referred directly to the frequency of jokes (e.g., Less frequent jokes! (a12)), whereas participants in the self-defeating condition referred more to the agents personality (e.g., More confident and kind to their self (s15)).",
+      "label": "Result",
+      "prob": 0.46418944001197815
+    },
+    {
+      "sentence": "To measure participants attitudes towards the agent we used the Likeability and Perceived Intelligence subscales of the Godspeed questionnaire [1], as well as questions on sense of humour, social",
+      "label": "Result",
+      "prob": 0.6726019978523254
+    },
+    {
+      "sentence": "The questions and results are shown in Figure 4 and analyzed with cumulative link models (CLM).",
+      "label": "Result",
+      "prob": 0.7075479626655579
+    },
+    {
+      "sentence": "Our study highlights the benefits of humour expression by pedagogical conversational agents, especially in the role of a tutee, but also the necessity for more research to investigate the best timing, context, style, and fit so as to make learners relate more to an agent (i.e., via self-defeating humour) and enhance the experience (i.e., via affiliative humour), what effects aggressive and self-enhancing humour styles have, and how combinations of different humour styles may influence learning experiences and outcomes further.",
+      "label": "Result",
+      "prob": 0.39584559202194214
+    },
+    {
+      "sentence": "64 ) , but some weak evidence of a difference in EM (  ( 2 , 50 ) = 2 .",
+      "label": "Other",
+      "prob": 0.68116694688797
+    },
+    {
+      "sentence": "The interaction with the agent was short (one session, of approximately 40 minutes); therefore results could differ for longer exposure.",
+      "label": "Result",
+      "prob": 0.8289594054222107
+    },
+    {
+      "sentence": "In education contexts, this effect creates a more positive emotional and social environment in which students can pay better attention [2, 23].",
+      "label": "Other",
+      "prob": 0.7650066018104553
+    },
+    {
+      "sentence": "The protocol was conducted entirely online.",
+      "label": "Other",
+      "prob": 0.46640628576278687
+    },
+    {
+      "sentence": "Tukeys HSD indicated a significant difference between the self-defeating condition and the neutral condition at p = 0.04, with participants in the self-defeating condition choosing to type out their own explanations significantly more often than selecting a sentence from the articles.",
+      "label": "Result",
+      "prob": 0.7838841676712036
+    },
+    {
+      "sentence": "Three participants reflected positively to the teaching process itself, with n06 stating it was fun to try to teach Sigma as much as possible in a short period of time, n10 explaining I enjoyed the task of teaching with the goal of Sigmas success, and n11 saying it was fun trying to decide the best way/which information to teach, plus it was fun learning about rocks in the process.",
+      "label": "Result",
+      "prob": 0.6281870603561401
+    },
+    {
+      "sentence": "Participants in the affiliative condition decided to spend significantly more time teaching their agents than participants in the other two conditions (  = 8 .",
+      "label": "Other",
+      "prob": 0.7221872806549072
+    },
+    {
+      "sentence": "In a follow-up study, the researchers also found that the humorous agent was rated as more human-like, funny, and likeable than the non-humorous agent [17].",
+      "label": "Other",
+      "prob": 0.6390852928161621
+    },
+    {
+      "sentence": "We collected both qualitative and quantitative data from each participant.",
+      "label": "Result",
+      "prob": 0.6765500903129578
+    },
+    {
+      "sentence": "about classifying rocks, we would expect more effort to involve usage of the buttons as follows: Teach > Check > Entertain, and Compare|Explain > Describe > Correct > Fun Fact > Quiz > Tell Joke.Although",
+      "label": "Other",
+      "prob": 0.46318769454956055
+    },
+    {
+      "sentence": "ability, and funniness (all presented as semantic differential scales from 1-5), and the Pick-a-Mood pictorial self-report scale for agents [11].",
+      "label": "Other",
+      "prob": 0.7877349257469177
+    },
+    {
+      "sentence": "2021 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.8625428676605225
+    },
+    {
+      "sentence": "Similar to prior work (e.g., [44]), our results illuminate the importance of the users personality characteristics and how they interact with the agentsindicating that care must be taken in the design of teachable agents, with a one-size-fits-all not always being the most successful when it comes to humour, but can lead to enhanced learning experience and outcomes when matched appropriately.",
+      "label": "Result",
+      "prob": 0.7997960448265076
+    },
+    {
+      "sentence": "The key contributions of this work are:",
+      "label": "Other",
+      "prob": 0.7717267274856567
+    },
+    {
+      "sentence": "31) buttons separately.",
+      "label": "Other",
+      "prob": 0.7048475742340088
+    },
+    {
+      "sentence": "Participants in the affiliative condition, on the other hand, reflected more positively on the teaching experience in general, with sixparticipantsreferringtoitasbeingfun(a01,a06,a07,a13,a17,a18)andacoolexperience(a14).",
+      "label": "Other",
+      "prob": 0.8227046728134155
+    },
+    {
+      "sentence": "The text in the articles is adapted from https://geology.com.",
+      "label": "Other",
+      "prob": 0.8636922240257263
+    },
+    {
+      "sentence": "Therefore:",
+      "label": "Other",
+      "prob": 0.5647149085998535
+    },
+    {
+      "sentence": "In particular, we noticed that participants (a = affiliative; s = self-defeating; n = neutral) in the humorous conditions perceived the agent to have more of a sense of humour (e.g., Sigma had a good sense of humor, which I observed from the jokes they told (a16) and Humour, expressed through self deprecating jokes (s06)), than the neutral condition (e.g., it would be nice if sigma could tell jokes (n09)).",
+      "label": "Other",
+      "prob": 0.43026202917099
+    },
+    {
+      "sentence": "To measure participants attitudes towards the teaching task we used the Pick-a-Mood pictorial self-report scale for self [11], and the Interest/Enjoyment and Pressure/Tensions subscales of the Intrinsic Motivation Inventory (IMI) [57].",
+      "label": "Other",
+      "prob": 0.5093473792076111
+    },
+    {
+      "sentence": "The CLM model shows that compared to the other conditions, participants assigned to the self-defeating condition are less likely to have enjoyed teaching the agent (  =  1 .",
+      "label": "Other",
+      "prob": 0.6832754015922546
+    },
+    {
+      "sentence": "In summary, we predict that humour will enhance the relationship between participant and agent, and decrease stress and anxiety, motivating participants to make more of an effort to teach their agents, and result in a positive effect on learning experience and outcomes.",
+      "label": "Result",
+      "prob": 0.8014952540397644
+    },
+    {
+      "sentence": "Indeed, participants with more of an aggressive humour style were significantly more likely to use the Check buttons when they interacted with the self-defeating agent, and when interacting with the agent with an affiliative humour style, these participants had a higher probability of using the Compare and Correct buttons.",
+      "label": "Result",
+      "prob": 0.8614426851272583
+    },
+    {
+      "sentence": "To investigate this question we used the AMS questionnaire.",
+      "label": "Result",
+      "prob": 0.5893004536628723
+    },
+    {
+      "sentence": "Dunn test for multiple comparisons showed both the self-defeating and affiliative conditions differed significantly at  = 2 .",
+      "label": "Other",
+      "prob": 0.4944712519645691
+    },
+    {
+      "sentence": "03 ) , with Tukeys HSD showing participants in the affiliative condition rating their motivation in the task as externally regulated more highly than participants in the other two conditions (self-defeating-affiliative at  = 0 . 03; and some evidence of significance between affiliativeneutral at  = 0 . 08).",
+      "label": "Result",
+      "prob": 0.7929998636245728
+    },
+    {
+      "sentence": "Similar results on an overuse of humour being perceived as distracting have previously been found [45, 55], and prior work with conversational agents has investigated the timing of jokes, showing that an agent with appropriately timed humour makes the conversation more interesting than a non-humour-equipped one [16].",
+      "label": "Other",
+      "prob": 0.5083308219909668
+    },
+    {
+      "sentence": "Indeed, our results show that participants in the affiliative condition rated their motivation as externally regulated more highly than participants in the self-defeating condition, suggesting they were more motivated by the agent than themselves (externally regulated) because of the connection made.",
+      "label": "Result",
+      "prob": 0.8597652912139893
+    },
+    {
+      "sentence": "This style is found to be common among students with low school motivation [52].",
+      "label": "Other",
+      "prob": 0.6982818245887756
+    },
+    {
+      "sentence": "For the numerous measures the following analyses were carried out: ANOVA, Kruskal-Wallis, linear model, cumulative link model, and stepwise selection method, with condition and demographics (age, humour style, etc.) as the independent factors, and Godspeed, Pick-a-Mood (for self and agent), IMI, AMS,",
+      "label": "Result",
+      "prob": 0.5204037427902222
+    },
+    {
+      "sentence": "05) unless they were in the self-defeating condition where the probability increased (  = 0 .",
+      "label": "Other",
+      "prob": 0.8008308410644531
+    },
+    {
+      "sentence": "Looking at the Entertain buttons separately, the Tell Joke button was not used significantly differently between conditions (  ( 2 , 50 ) = 1 .",
+      "label": "Other",
+      "prob": 0.7687044739723206
+    },
+    {
+      "sentence": "Twoparticipantspointedouttheirpositiveopinionsoftheagentshumour.Participanta04expressed",
+      "label": "Other",
+      "prob": 0.8499652743339539
+    },
+    {
+      "sentence": "In contrast, participants with a higher self-reported self-enhancing humour style were less likely to use the Entertain buttons (  =  0 .",
+      "label": "Other",
+      "prob": 0.8157148957252502
+    },
+    {
+      "sentence": "04) unless they were in the self-defeating condition where the probability was reduced (  =  0 .",
+      "label": "Other",
+      "prob": 0.8142566680908203
+    },
+    {
+      "sentence": "There was a significant difference found between condition means for the Perceived Intelligence subscale of the Godspeed questionnaire as determined by one-way ANOVA ( F (2,50) = 3.74, p = 0.03).",
+      "label": "Result",
+      "prob": 0.5831878781318665
+    },
+    {
+      "sentence": "This is the authors version of the work.",
+      "label": "Other",
+      "prob": 0.8483813405036926
+    },
+    {
+      "sentence": "The jokes were most often conundrum riddlesquestions that rely on a play on words in either the question or answer for comedic effect, e.g., Whats a rocks worst enemy? Paper, haha! or Ive got a joke! What did the one volcano say to the other?... I lava you!.",
+      "label": "Other",
+      "prob": 0.8555567264556885
+    },
+    {
+      "sentence": "Looking at the use of the Check buttons separately: participants assigned to the affiliative condition with a higher self-reported selfenhancing humour style were less likely to use the Quiz button as frequently (  =  0 .",
+      "label": "Other",
+      "prob": 0.7754406332969666
+    },
+    {
+      "sentence": "3.2.1 Conditions.",
+      "label": "Other",
+      "prob": 0.6775851249694824
+    },
+    {
+      "sentence": "56) or Explain (  ( 2 , 50 ) = 1 .",
+      "label": "Other",
+      "prob": 0.8499775528907776
+    },
+    {
+      "sentence": "Similarly, Ogan et al.",
+      "label": "Other",
+      "prob": 0.8878936767578125
+    },
+    {
+      "sentence": "These two styles were chosen because: (1) learning from a teacher can be considered a social, interpersonal collaboration between teacher and learner [60], and (2) learning-by-teaching is predicted to be effective as a result of the sense of responsibility the tutor feels for their tutee [7] and we hypothesize that enhancement of the human-agent relationship through humour will increase the sense of responsibility.",
+      "label": "Result",
+      "prob": 0.7240687012672424
+    },
+    {
+      "sentence": "04, respectively).",
+      "label": "Other",
+      "prob": 0.7074747085571289
+    },
+    {
+      "sentence": "3.2.5 Measures.",
+      "label": "Other",
+      "prob": 0.5965408086776733
+    },
+    {
+      "sentence": "23), nor was the Fun Fact button (  ( 2 , 50 ) = 0 .",
+      "label": "Other",
+      "prob": 0.8316845893859863
+    },
+    {
+      "sentence": "There was no significant difference between conditions in the average number of words in explanations written by participants ( F (2,40) = 0.06, p = 0.95), however, there was a significant difference between conditions in whether participants chose to write an explanation in their own words or select a sentence from the articles ( F (2,50) = 3.56, p = 0.04).",
+      "label": "Result",
+      "prob": 0.7540739178657532
+    },
+    {
+      "sentence": "01), or self-defeating condition (  =  0 .",
+      "label": "Other",
+      "prob": 0.8643503785133362
+    },
+    {
+      "sentence": "Not for redistribution.",
+      "label": "Other",
+      "prob": 0.8975870609283447
+    },
+    {
+      "sentence": "3.2.3 Humorous Statements.",
+      "label": "Other",
+      "prob": 0.8592342734336853
+    },
+    {
+      "sentence": "results showing significantly different effects of affiliative, self-defeating, and no humour on participants perception and effort in teaching an agent, and  a discussion of the effects of interactions between the agents humour style and the participants own humour style.",
+      "label": "Result",
+      "prob": 0.873572826385498
+    },
+    {
+      "sentence": "[4 women, 4 men; age range: 20-27 years, mean: 23.1, median: 23].",
+      "label": "Other",
+      "prob": 0.8707188367843628
+    },
+    {
+      "sentence": "Overall, although participants with a higher self-enhancing humour style are significantly more likely to think that the agent was a good student (  = 0 .",
+      "label": "Other",
+      "prob": 0.8407318592071533
+    },
+    {
+      "sentence": "004), but participants in this condition with a higher aggressive or affiliative humour style, were more likely to use it (  = 0 .",
+      "label": "Other",
+      "prob": 0.810434877872467
+    },
+    {
+      "sentence": "05), whereas those in the same condition with a higher self-reported self-enhancing humour style were less likely to check it (  =  0 .",
+      "label": "Other",
+      "prob": 0.7759994864463806
+    },
+    {
+      "sentence": "There werenostatisticallysignificantdifferencesbetweenconditionmeansfortheLikeabilitysubscaleoftheGodspeedquestionnaire( F (2,15) = 0.25, p = 0.78).",
+      "label": "Other",
+      "prob": 0.728272020816803
+    },
+    {
+      "sentence": "Check Participants in the self-defeating condition were significantly less likely to use the Check buttons (Correct & Quiz) as frequently as participants in the neutral condition (  =  0 .",
+      "label": "Other",
+      "prob": 0.802432656288147
+    },
+    {
+      "sentence": "Furthermore, participants with a higher self-reported aggressive humour style in the affiliative condition were more likely to use the Correct button more frequently (  = 0 .",
+      "label": "Other",
+      "prob": 0.8053144812583923
+    },
+    {
+      "sentence": "24), nor the Describe (  ( 2 , 50 ) = 0 .",
+      "label": "Other",
+      "prob": 0.8522512912750244
+    },
+    {
+      "sentence": "Data from 5 participants was removed prior to analysis due to non-compliance with study instructions; therefore results are from N =53 ( n =17 neutral; n =18 self-defeating; n =18 affiliative).",
+      "label": "Result",
+      "prob": 0.5096680521965027
+    },
+    {
+      "sentence": "Average scores on the Pressure/Tension, Interest/Enjoyment, and Effort subscales of the IMI questionnaire across conditions had no statistically significant differences between condition means as determined by one-way ANOVA (pressure: F (2,50) = 0.83, p = 0.44; interest: F (2,50) = 0.99, p = 0.38; effort: F (2,50) = 0.33, p = 0.72).",
+      "label": "Result",
+      "prob": 0.644890546798706
+    },
+    {
+      "sentence": "Participantsintheaffiliativeconditionwithahigher self-reported affiliative humour style themselves, were more likely to check the agents notebook (  = 0 .",
+      "label": "Other",
+      "prob": 0.8607088327407837
+    },
+    {
+      "sentence": "Conversely, Dybala et al.",
+      "label": "Other",
+      "prob": 0.9020010828971863
+    },
+    {
+      "sentence": "[35 women, 21 men, 2 non-binary; age range: 18-35 years, mean: 24.4, median: 25].",
+      "label": "Other",
+      "prob": 0.8765985369682312
+    },
+    {
+      "sentence": "Further, participants in the self-defeating condition with a higher self-enhancing humour style felt significantly worse at teaching the agent (  =  0 .",
+      "label": "Other",
+      "prob": 0.813530683517456
+    },
+    {
+      "sentence": "44 ) and AM (  ( 2 , 50 ) = 0 .",
+      "label": "Other",
+      "prob": 0.8496803045272827
+    },
+    {
+      "sentence": "5.1.1 Arethehumorousagentsmorehumorous?",
+      "label": "Other",
+      "prob": 0.9152418375015259
+    },
+    {
+      "sentence": "Entertain Across conditions, participants with a higher selfreported affiliative humour style were more likely to use the buttons (  = 0 .",
+      "label": "Other",
+      "prob": 0.8604310154914856
+    },
+    {
+      "sentence": "5.2.1 Did the humorous agents reduce stress/anxiety, and enhance interest and subjective effort?",
+      "label": "Other",
+      "prob": 0.861826479434967
+    },
+    {
+      "sentence": "03), whereas participants in the same condition with a higher self-reported self-defeating humour style were significantly less likely to use it (  =  0 .",
+      "label": "Other",
+      "prob": 0.7792331576347351
+    },
+    {
+      "sentence": "However, participants in the affiliative condition were significantly less likely to use the Compare button as frequently as those in the neutral condition (  =  0 .",
+      "label": "Other",
+      "prob": 0.8661215305328369
+    },
+    {
+      "sentence": "However, there was some evidence that as the participants self-reported self-enhancing humour style increases, the likeability subscale decreases significantly among those assigned to the self-defeating condition (  =  0 .",
+      "label": "Other",
+      "prob": 0.8183566331863403
+    },
+    {
+      "sentence": "3.2.4 Procedure.",
+      "label": "Other",
+      "prob": 0.7591983675956726
+    },
+    {
+      "sentence": "01), this probability is reduced significantly when the participants are assigned to the affiliative (  =  0 .",
+      "label": "Other",
+      "prob": 0.8579060435295105
+    },
+    {
+      "sentence": "6.1.2 Experience.",
+      "label": "Other",
+      "prob": 0.8801926970481873
+    },
+    {
+      "sentence": "The rate of article clicks was significantly lower for participants with a higher self-reported affiliative humour style in the self-defeating condition (  =  0 .",
+      "label": "Other",
+      "prob": 0.7894617319107056
+    },
+    {
+      "sentence": "Publication rights licensed to ACM.",
+      "label": "Other",
+      "prob": 0.9333989024162292
+    },
+    {
+      "sentence": "The definitive Version of Record was published in CHI Conference on Human Factors in Computing Systems (CHI 21), May 813, 2021, Yokohama, Japan , https://doi.org/10.1145/3411764.3445068.",
+      "label": "Other",
+      "prob": 0.935430109500885
+    },
+    {
+      "sentence": "002), whereas those with a self-defeating humour style themselves in this condition felt better at teaching the agent (  = 0 .",
+      "label": "Other",
+      "prob": 0.8526057600975037
+    },
+    {
+      "sentence": "00008 , ( 36 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9021607041358948
+    },
+    {
+      "sentence": "35, p = 0.03 and  = 2 .",
+      "label": "Other",
+      "prob": 0.8054175972938538
+    },
+    {
+      "sentence": "The amount the Sad mood pictogram was selected from the Pick-a-Mood pictorial self-report scale to describe the agents mood and personality was significantly different between conditions (  ( 50 ) = 0 .",
+      "label": "Other",
+      "prob": 0.8003473877906799
+    },
+    {
+      "sentence": "Lastly, participants with a higher self-reported aggressive humour style were also less likely to use the button (  =  0 .",
+      "label": "Other",
+      "prob": 0.8448584675788879
+    },
+    {
+      "sentence": "There was a significant difference in the average EM external regulation subscale score between conditions (  ( 2 , 50 ) = 3 .",
+      "label": "Other",
+      "prob": 0.8249098658561707
+    },
+    {
+      "sentence": "Teach There was no significant difference between conditions found in the rate of use of all Teach buttons together (  ( 2 , 50 ) = 1 .",
+      "label": "Other",
+      "prob": 0.819406270980835
+    },
+    {
+      "sentence": "The question then, is how can an agent be designed to increase their motivation?",
+      "label": "Other",
+      "prob": 0.8789897561073303
+    },
+    {
+      "sentence": "Compared to those assigned to the neutral condition, participants with a higher self-reported self-enhancing humour style in the affiliative condition were also less likely to use the buttons (  =  0 .",
+      "label": "Other",
+      "prob": 0.7570170164108276
+    },
+    {
+      "sentence": "4.2.2 Data Preparation.",
+      "label": "Other",
+      "prob": 0.7997502684593201
+    },
+    {
+      "sentence": "Average AM score was higher for participants with a higher self-reported aggressive humour style in the selfdefeating condition (  = 0 .",
+      "label": "Other",
+      "prob": 0.8830116391181946
+    },
+    {
+      "sentence": "6.1.1 Learning.",
+      "label": "Other",
+      "prob": 0.9113968014717102
+    },
+    {
+      "sentence": "6.1.3 Motivation.",
+      "label": "Other",
+      "prob": 0.9008254408836365
+    },
+    {
+      "sentence": "5.2.3 How does agent humour affect effort during teaching?",
+      "label": "Other",
+      "prob": 0.9212368726730347
+    },
+    {
+      "sentence": "Q2 : Is there an interaction between participant characteristics (i.e., humour style) and the use of humour by a teachable agent, on the above measures?",
+      "label": "Other",
+      "prob": 0.8849931955337524
+    },
+    {
+      "sentence": "0001 , ( 15 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9053696393966675
+    },
+    {
+      "sentence": "0004 , ( 24 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9052641987800598
+    },
+    {
+      "sentence": "0004 , ( 24 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9052641987800598
+    },
+    {
+      "sentence": "One-way ANOVA showed no significant differences between conditions in the high-level categories of IM (  ( 2 , 50 ) = 0 .",
+      "label": "Other",
+      "prob": 0.8858113884925842
+    },
+    {
+      "sentence": "Furthermore, participants with a higher selfreported aggressive humour style were significantly less likely to use the Check buttons (  = 0 .",
+      "label": "Other",
+      "prob": 0.8626918792724609
+    },
+    {
+      "sentence": "supporting previous work [17].",
+      "label": "Other",
+      "prob": 0.884533166885376
+    },
+    {
+      "sentence": "0002 , ( 24 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9038496017456055
+    },
+    {
+      "sentence": "0002 , ( 36 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9052873253822327
+    },
+    {
+      "sentence": "0002 , ( 36 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9052873253822327
+    },
+    {
+      "sentence": "0002 , ( 36 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9052873253822327
+    },
+    {
+      "sentence": "0001 , ( 15 ) =  4 .",
+      "label": "Other",
+      "prob": 0.9075742363929749
+    },
+    {
+      "sentence": "0003 , ( 36 ) = 3 .",
+      "label": "Other",
+      "prob": 0.9051188230514526
+    },
+    {
+      "sentence": "Tukeys honestly significant difference (HSD) post-hoc test showed that both humorous conditions differed significantly at p = 0.02; the neutral condition was not significantly different from the humorous conditions.",
+      "label": "Result",
+      "prob": 0.9156132936477661
+    },
+    {
+      "sentence": "35 , ( 31 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9114634394645691
+    },
+    {
+      "sentence": "0001 , ( 36 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9052203297615051
+    },
+    {
+      "sentence": "0001 , ( 36 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9052203297615051
+    },
+    {
+      "sentence": "0001 , ( 36 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9052203297615051
+    },
+    {
+      "sentence": "0001 , ( 36 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9052203297615051
+    },
+    {
+      "sentence": "0001 , ( 36 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9052203297615051
+    },
+    {
+      "sentence": "0001 , ( 36 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9052203297615051
+    },
+    {
+      "sentence": "31 , ( 21 ) = 1 .",
+      "label": "Other",
+      "prob": 0.9199104309082031
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.9455322623252869
+    },
+    {
+      "sentence": "23 , ( 31 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9175902009010315
+    },
+    {
+      "sentence": "10 , ( 15 ) =  1 .",
+      "label": "Other",
+      "prob": 0.9061278104782104
+    },
+    {
+      "sentence": "Although quiz scores increased post-interaction in all conditions, one-way ANOVA showed no significant difference in change in quiz scores from pre to post interaction (  ( 2 , 50 ) = 1 .",
+      "label": "Other",
+      "prob": 0.7309246063232422
+    },
+    {
+      "sentence": "38 , ( 31 ) =  3 .",
+      "label": "Other",
+      "prob": 0.9144031405448914
+    },
+    {
+      "sentence": "64 , ( 21 ) =  3 .",
+      "label": "Other",
+      "prob": 0.9134384989738464
+    },
+    {
+      "sentence": "3.2.2 Research Questions.",
+      "label": "Other",
+      "prob": 0.9027172327041626
+    },
+    {
+      "sentence": "5.1.2 How do participants feel about the agents personality?",
+      "label": "Other",
+      "prob": 0.9310282468795776
+    },
+    {
+      "sentence": "18 , ( 36 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9134871959686279
+    },
+    {
+      "sentence": "007 , ( 36 ) =  3 .",
+      "label": "Other",
+      "prob": 0.9116814732551575
+    },
+    {
+      "sentence": "003 , ( 15 ) =  2 .",
+      "label": "Other",
+      "prob": 0.9128028750419617
+    },
+    {
+      "sentence": "No significant differences between the three conditions were found on social ability (  2 ( 2 ,  = 53 ) = 0.16, p = 0.93) and funniness (  2 ( 2 ,  = 53 ) = 3.97, p = 0.14), but a significant difference (  2 ( 2 ,  = 53 ) = 8.60, p = 0.01) was found in rating of sense of humour.",
+      "label": "Result",
+      "prob": 0.9007470011711121
+    },
+    {
+      "sentence": "5.2.2 Does agent humour use affect user motivation?",
+      "label": "Other",
+      "prob": 0.9297278523445129
+    },
+    {
+      "sentence": "18 , ( 49 ) = 2 .",
+      "label": "Other",
+      "prob": 0.9203698635101318
+    },
+    {
+      "sentence": "04 and  = 0 .",
+      "label": "Other",
+      "prob": 0.8820867538452148
+    },
+    {
+      "sentence": "25 , ( 48 ) =  1 .",
+      "label": "Other",
+      "prob": 0.9182854294776917
+    },
+    {
+      "sentence": "The rates at which the buttons were clicked calculated as number of button clicks divided by the time spent teaching were analyzed using linear models, where the set of independent variables that can best explain the variance of each measure was selected through stepwise model selection method.",
+      "label": "Method",
+      "prob": 0.8571050763130188
+    },
+    {
+      "sentence": "60 , = 0 .",
+      "label": "Other",
+      "prob": 0.9308633208274841
+    },
+    {
+      "sentence": "45 , = 0 .",
+      "label": "Other",
+      "prob": 0.9291925430297852
+    },
+    {
+      "sentence": "21 , = 0 .",
+      "label": "Other",
+      "prob": 0.9346151351928711
+    },
+    {
+      "sentence": "10 , = 0 .",
+      "label": "Other",
+      "prob": 0.9195890426635742
+    },
+    {
+      "sentence": "10 , = 0 .",
+      "label": "Other",
+      "prob": 0.9195890426635742
+    },
+    {
+      "sentence": "02 , = 0 .",
+      "label": "Other",
+      "prob": 0.9325588941574097
+    },
+    {
+      "sentence": "26 , = 0 .",
+      "label": "Other",
+      "prob": 0.9324113130569458
+    },
+    {
+      "sentence": "12 , = 0 .",
+      "label": "Other",
+      "prob": 0.9303408265113831
+    },
+    {
+      "sentence": "12 , = 0 .",
+      "label": "Other",
+      "prob": 0.9303407669067383
+    },
+    {
+      "sentence": "38 , = 0 .",
+      "label": "Other",
+      "prob": 0.9345117211341858
+    },
+    {
+      "sentence": "3.1.1 Interaction.",
+      "label": "Other",
+      "prob": 0.924384355545044
+    },
+    {
+      "sentence": "85 , = 0 .",
+      "label": "Other",
+      "prob": 0.9345658421516418
+    },
+    {
+      "sentence": "17 , = 0 .",
+      "label": "Other",
+      "prob": 0.9354360699653625
+    },
+    {
+      "sentence": "01 , ( 36 ) =  3 .",
+      "label": "Other",
+      "prob": 0.912958025932312
+    },
+    {
+      "sentence": "59 , = 0 .",
+      "label": "Other",
+      "prob": 0.9377691149711609
+    },
+    {
+      "sentence": "58 , = 0 .",
+      "label": "Other",
+      "prob": 0.9359806776046753
+    },
+    {
+      "sentence": "46 , = 0 .",
+      "label": "Other",
+      "prob": 0.9354890584945679
+    },
+    {
+      "sentence": "46 , = 0 .",
+      "label": "Other",
+      "prob": 0.9354890584945679
+    },
+    {
+      "sentence": "01 , = 0 .",
+      "label": "Other",
+      "prob": 0.9336774349212646
+    },
+    {
+      "sentence": "47 , = 0 .",
+      "label": "Other",
+      "prob": 0.9381465315818787
+    },
+    {
+      "sentence": "05 , = 0 .",
+      "label": "Other",
+      "prob": 0.9216909408569336
+    },
+    {
+      "sentence": "27 , = 0 .",
+      "label": "Other",
+      "prob": 0.9344652891159058
+    },
+    {
+      "sentence": "29 , = 0 .",
+      "label": "Other",
+      "prob": 0.9374650716781616
+    },
+    {
+      "sentence": "98 , = 0 .",
+      "label": "Other",
+      "prob": 0.942768931388855
+    },
+    {
+      "sentence": "09 , = 0 .",
+      "label": "Other",
+      "prob": 0.9356459975242615
+    },
+    {
+      "sentence": "34 , = 0 .",
+      "label": "Other",
+      "prob": 0.9345788955688477
+    },
+    {
+      "sentence": "04 , = 0 .",
+      "label": "Other",
+      "prob": 0.9319709539413452
+    },
+    {
+      "sentence": "24 , = 0 .",
+      "label": "Other",
+      "prob": 0.9302276968955994
+    },
+    {
+      "sentence": "07 , = 0 .",
+      "label": "Other",
+      "prob": 0.9372001886367798
+    },
+    {
+      "sentence": "19 , = 0 .",
+      "label": "Other",
+      "prob": 0.9366735816001892
+    },
+    {
+      "sentence": "67 , = 0 .",
+      "label": "Other",
+      "prob": 0.9356804490089417
+    },
+    {
+      "sentence": "52 , = 0 .",
+      "label": "Other",
+      "prob": 0.9354793429374695
+    },
+    {
+      "sentence": "52 , = 0 .",
+      "label": "Other",
+      "prob": 0.9354793429374695
+    },
+    {
+      "sentence": "23 , = 0 .",
+      "label": "Other",
+      "prob": 0.9365474581718445
+    },
+    {
+      "sentence": "49 , = 0 .",
+      "label": "Other",
+      "prob": 0.9369015693664551
+    },
+    {
+      "sentence": "892 , = 0 .",
+      "label": "Other",
+      "prob": 0.9437556266784668
+    },
+    {
+      "sentence": "03 , = 0 .",
+      "label": "Other",
+      "prob": 0.9345232844352722
+    },
+    {
+      "sentence": "03 , = 0 .",
+      "label": "Other",
+      "prob": 0.9345232844352722
+    },
+    {
+      "sentence": "84 , = 0 .",
+      "label": "Other",
+      "prob": 0.9371066689491272
+    },
+    {
+      "sentence": "92 , = 0 .",
+      "label": "Other",
+      "prob": 0.9397050738334656
+    },
+    {
+      "sentence": "92 , = 0 .",
+      "label": "Other",
+      "prob": 0.9397050738334656
+    },
+    {
+      "sentence": "4.2.1 Participants.",
+      "label": "Other",
+      "prob": 0.9221498370170593
+    }
+  ]
+}

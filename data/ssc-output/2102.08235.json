@@ -1,0 +1,3039 @@
+{
+  "2102.08235": [
+    {
+      "sentence": "People in earlier stages of their relationship or without established communication practices with each other may use the app in different ways.",
+      "label": "Background",
+      "prob": 0.9388018846511841
+    },
+    {
+      "sentence": "As part of existing platforms, biosignals would primarily function as a means to augment communication as opposed to acting as standalone messages like in Significant Otter.",
+      "label": "Background",
+      "prob": 0.9315663576126099
+    },
+    {
+      "sentence": "Thus, despite sensed states being inherently more personal and intimate, they could potentially prompt less personal ways of communicating if the system has more agency than the user.",
+      "label": "Background",
+      "prob": 0.9300171732902527
+    },
+    {
+      "sentence": "Like other forms of AI-mediated communication, AI-recommended states through biosignals could impact key aspects of communication.",
+      "label": "Background",
+      "prob": 0.9258576035499573
+    },
+    {
+      "sentence": "Upon viewing the senders biosignals, a receiver can become aware of the senders state.",
+      "label": "Background",
+      "prob": 0.9229263067245483
+    },
+    {
+      "sentence": "A breadth of HCI research has explored technologies that can support significant others, including those that integrate biosignals.",
+      "label": "Background",
+      "prob": 0.920987069606781
+    },
+    {
+      "sentence": "People may have a more developed understanding about their heart rate given its accessibility, including in fitness trackers and watches, or simply being able to feel when ones own heart beats faster.",
+      "label": "Background",
+      "prob": 0.9185875654220581
+    },
+    {
+      "sentence": "For example, biosignals could become new types of emojis or integrate with existing emojis by suggesting specific emojis or limiting the available options.",
+      "label": "Background",
+      "prob": 0.9181124567985535
+    },
+    {
+      "sentence": "According to Slovk and colleagues, expressive biosignals may promote connectedness between people in two ways.",
+      "label": "Background",
+      "prob": 0.9173581004142761
+    },
+    {
+      "sentence": "Exercising is detected solely from heart rate changes, and is presented during high or very high arousal.",
+      "label": "Background",
+      "prob": 0.9163851737976074
+    },
+    {
+      "sentence": "As vivid emotional expressions from our bodies, they may be perceived as more authentic and intimate disclosures of our internal experiences, leading to greater feelings of connection.",
+      "label": "Background",
+      "prob": 0.9161316752433777
+    },
+    {
+      "sentence": "For instance, excited and angry states are available when people are in high arousal, while the calm and sad states are available when they are in low arousal.",
+      "label": "Background",
+      "prob": 0.9142351746559143
+    },
+    {
+      "sentence": "Receivers may subsequently respond with feedback based on their understanding of the senders emotions.",
+      "label": "Background",
+      "prob": 0.9083723425865173
+    },
+    {
+      "sentence": "Notifications are time-based and thus appear regardless of whether the users state changed.",
+      "label": "Background",
+      "prob": 0.9056105613708496
+    },
+    {
+      "sentence": "Existing literature on expressive biosignals have primarily explored their potential for supporting how we communicate and connect with each other.",
+      "label": "Background",
+      "prob": 0.9048380851745605
+    },
+    {
+      "sentence": "Instead, the animations became meaningful on their own, where participants understood them as simply representative of their own or their partners current state.",
+      "label": "Background",
+      "prob": 0.9030461311340332
+    },
+    {
+      "sentence": "These discrepancies in perceptions of accuracy appear to stem from participants different lay understanding of emotions and how they relate to heart rate.",
+      "label": "Background",
+      "prob": 0.9023972153663635
+    },
+    {
+      "sentence": "With the integration of biosignals, Significant Otter similarly incorporates physicalness, expressivity, and awareness to support intimate communication.",
+      "label": "Background",
+      "prob": 0.901731014251709
+    },
+    {
+      "sentence": "Today, we rely heavily on digital technology to connect with others.",
+      "label": "Background",
+      "prob": 0.8993101119995117
+    },
+    {
+      "sentence": "However, researchers have not yet described the role that biosignals play in communication.",
+      "label": "Background",
+      "prob": 0.8965745568275452
+    },
+    {
+      "sentence": "This is a limitation of the Apple Watch OS, which restricts when and how often apps can send push notifications.",
+      "label": "Background",
+      "prob": 0.8951581120491028
+    },
+    {
+      "sentence": "By integrating biosignals into existing platforms, people could benefit from centralized communication with their partners while expressing themselves in more authentic ways through the sensed states.",
+      "label": "Background",
+      "prob": 0.8926060199737549
+    },
+    {
+      "sentence": "Although these prior works suggest the potential for biosignals to support communication and connection, they have not illustrated the value of expressive biosignals.",
+      "label": "Background",
+      "prob": 0.8918637037277222
+    },
+    {
+      "sentence": "On the other extreme, a few participants described blindly trusting the system and sending their otter from the sensed state notifications even if they did not know which animation they were sending.",
+      "label": "Background",
+      "prob": 0.8874197006225586
+    },
+    {
+      "sentence": "ranged in their definition of accuracy, which affected their ability to send their own otter and understand their partners otter.",
+      "label": "Background",
+      "prob": 0.8873447179794312
+    },
+    {
+      "sentence": "Reacts are not sensed in order to explore peoples decisions around responding to their partners states.",
+      "label": "Background",
+      "prob": 0.887315034866333
+    },
+    {
+      "sentence": "However, this communication was also limited because a simple animation could mean multiple things or required more detail.",
+      "label": "Background",
+      "prob": 0.8866973519325256
+    },
+    {
+      "sentence": "Significant Otter is an Apple Watch and iPhone app that enables two people to send animated otter characters to each other based on their biosignals.",
+      "label": "Background",
+      "prob": 0.8846111297607422
+    },
+    {
+      "sentence": "However, unlike prior systems, Significant Otter recommends a set of heart rate-driven avatars, rather than a single number or avatar, in order to further explore biosignals in AI-mediated communication.",
+      "label": "Background",
+      "prob": 0.883915364742279
+    },
+    {
+      "sentence": "However, despite these benefits, biosignals also introduced new concerns around accuracy and agency over the message, where some participants felt the system was overly suggestive on how they were feeling or what to communicate to their partner.",
+      "label": "Background",
+      "prob": 0.8795809149742126
+    },
+    {
+      "sentence": "As a system that recommends a users current state, Significant Otter with sensing ON experienced challenges in how participants perceived and trusted the sensed states.",
+      "label": "Background",
+      "prob": 0.8792083859443665
+    },
+    {
+      "sentence": "In fact, a few people did focus solely on the one recommendation in the notification, ignoring the list of in-app states.",
+      "label": "Background",
+      "prob": 0.8774535059928894
+    },
+    {
+      "sentence": "However, these works did not test in real-world dyadic communication, instead focusing on perceptions of a target other in controlled laboratory settings.",
+      "label": "Background",
+      "prob": 0.8772674202919006
+    },
+    {
+      "sentence": "Limitations of the Apple Watch OS also affected whether the app worked as intended for all participants, where some participants received no notifications while others felt that they received too many.",
+      "label": "Background",
+      "prob": 0.8770860433578491
+    },
+    {
+      "sentence": "Thus, their otter became more representative of them and was easier to send to their partner.",
+      "label": "Background",
+      "prob": 0.8752303719520569
+    },
+    {
+      "sentence": "With sensing OFF, participants assigned various meanings to the otter animations, including those that they were not originally designed for, such as suggestions and needs.",
+      "label": "Background",
+      "prob": 0.8727037310600281
+    },
+    {
+      "sentence": "At least one affection or greeting state is always included in the sensed state list, as described above.",
+      "label": "Background",
+      "prob": 0.8691239356994629
+    },
+    {
+      "sentence": "watch and are primarily included for usability, as a lightweight way to respond without viewing the full animation.",
+      "label": "Background",
+      "prob": 0.8690306544303894
+    },
+    {
+      "sentence": "On the other hand, less accessible biosignals such as skin conductance or brain activity may be less understood or produce different lay interpretations (e.g., associating the brain with cognitive functions), which could potentially affect peoples willingness to accept the systems state recommendations.",
+      "label": "Background",
+      "prob": 0.868247389793396
+    },
+    {
+      "sentence": "Self-disclosure is crucial for people to connect with each other, where it can improve the quality of interactions",
+      "label": "Background",
+      "prob": 0.867861270904541
+    },
+    {
+      "sentence": "Biosignals, such as heart rate and skin conductance, are well known to change according to our physical and emotional responses, and can be revealed in everyday interactions using wearable sensor technologies.",
+      "label": "Background",
+      "prob": 0.8636349439620972
+    },
+    {
+      "sentence": "can support easier and more authentic communication, while eliciting concerns around accuracy and agency over the communication content based on participants diverse understandings of emotions.",
+      "label": "Background",
+      "prob": 0.8628354668617249
+    },
+    {
+      "sentence": "Researchers and designers of communication platforms could explore how biosignals could augment various types of communication content, such as images, videos, or emojis, and new interaction patterns that may emerge.",
+      "label": "Background",
+      "prob": 0.861547589302063
+    },
+    {
+      "sentence": "Eating and sleeping are time-based activities, inferred from heart rate changes during specific times.",
+      "label": "Background",
+      "prob": 0.8607156872749329
+    },
+    {
+      "sentence": "Given the intimate nature of physiological data [26], people feel most comfortable sharing them with close others [41], who may also be the most interested and equipped to understand them as limited contextual cues.",
+      "label": "Background",
+      "prob": 0.8604440689086914
+    },
+    {
+      "sentence": "These are not sensed, as people may want to show affection at any moment.",
+      "label": "Background",
+      "prob": 0.8551509976387024
+    },
+    {
+      "sentence": "Recruitment took place from late March to early April 2020, during the COVID-19 stay-at-home orders for many US states.",
+      "label": "Background",
+      "prob": 0.8545225858688354
+    },
+    {
+      "sentence": "Additionally, the app had hard-coded times set for certain states, which may not have matched peoples typical patterns.",
+      "label": "Background",
+      "prob": 0.8537715077400208
+    },
+    {
+      "sentence": "For example, applications like Pulsoid or Onbeat 1 explore this possibility through livestreams of heart rate during gameplay or exercise.",
+      "label": "Background",
+      "prob": 0.8527058362960815
+    },
+    {
+      "sentence": "Instead, the app rotates availability with the affection animations such that one can always convey either hi or thinking of you to their partner.",
+      "label": "Background",
+      "prob": 0.8499035835266113
+    },
+    {
+      "sentence": "People can scroll to view and send other possible states, using the Apple Watch crown or swiping up/down on the phone.",
+      "label": "Background",
+      "prob": 0.8456343412399292
+    },
+    {
+      "sentence": "This motivated a few participants to be more thoughtful and responsive in their reactions to their partner, such as reacting more quickly or deliberately.",
+      "label": "Background",
+      "prob": 0.8434584736824036
+    },
+    {
+      "sentence": "For example, life circumstances, or general decline in the novelty or motivation to use the app.",
+      "label": "Background",
+      "prob": 0.8433535099029541
+    },
+    {
+      "sentence": "At the same time, participants experienced challenges in using the app to communicate what they wanted to their partner.",
+      "label": "Background",
+      "prob": 0.8420347571372986
+    },
+    {
+      "sentence": "With sensing OFF, people can send otter animations from a list of random states, randomly selected by the system.",
+      "label": "Background",
+      "prob": 0.8404154181480408
+    },
+    {
+      "sentence": "People can share their otter state through the main screen of Significant Otter on their watch or phone.",
+      "label": "Background",
+      "prob": 0.8400211334228516
+    },
+    {
+      "sentence": "When participants viewed the notifications without opening the app, participants simply made yes or no decisions to share their otter rather than scrolling through emoji-like options or even thinking to send their otter on their own.",
+      "label": "Background",
+      "prob": 0.8395792245864868
+    },
+    {
+      "sentence": "Oneparticipantwarnedagainstthis power ofsuggestion,where the system could influence them into thinking they felt a certain way.",
+      "label": "Background",
+      "prob": 0.8384355306625366
+    },
+    {
+      "sentence": "People can also react through quick reacts, selecting from one of four possible reacts shown in the notification they receive to respond without opening the app.",
+      "label": "Background",
+      "prob": 0.8379186987876892
+    },
+    {
+      "sentence": "This is not sensed, as people may want to greet their partner at any moment.",
+      "label": "Background",
+      "prob": 0.8359423875808716
+    },
+    {
+      "sentence": "More granular data collection would also help to capture and further understand the differences in participants usage, such as the number of notifications that influenced sending a state or participants perceptions of each sent state.",
+      "label": "Background",
+      "prob": 0.8359120488166809
+    },
+    {
+      "sentence": "People can send states to initiate communication, and use reacts to respond to their partners states.",
+      "label": "Background",
+      "prob": 0.8336751461029053
+    },
+    {
+      "sentence": "These include excited, angry, calm, sad, surprised, bored, and neutral otter animations.",
+      "label": "Background",
+      "prob": 0.8314869999885559
+    },
+    {
+      "sentence": "In the different stages of communication, biosignals sent as a message could be a more vivid way to express ourselves emotionally, understand those expressions directly from the body, and subsequently provide improved feedback.",
+      "label": "Background",
+      "prob": 0.8304755687713623
+    },
+    {
+      "sentence": "By setting adaptive thresholds for each person based on their past heart rate and motion data, Significant Otter intelligently suggests animations that match their current emotional and physical state.",
+      "label": "Background",
+      "prob": 0.8286968469619751
+    },
+    {
+      "sentence": "as well as ongoing research on emotion detection, designers need to consider how to present and incorporate sensing technology both in its current and future levels of accuracy.",
+      "label": "Background",
+      "prob": 0.8269090056419373
+    },
+    {
+      "sentence": "Participants would even send animations with no intended meaning, just to send one to their partner.",
+      "label": "Background",
+      "prob": 0.826103150844574
+    },
+    {
+      "sentence": "This is due to limitations of the Apple Watch, which does not enable real-time heart rate sensing (outside of a fitness tracking session) necessary for recording in-the-moment state changes.",
+      "label": "Background",
+      "prob": 0.8225419521331787
+    },
+    {
+      "sentence": "Therefore, the system has low autonomy [25], where the states that people send are partially automated and partially determined by the user.",
+      "label": "Background",
+      "prob": 0.8210128545761108
+    },
+    {
+      "sentence": "Future systems should consider providing options for people to set their typical meal or sleeping times, or sense additional signals such as location to better predict their state.",
+      "label": "Background",
+      "prob": 0.819158136844635
+    },
+    {
+      "sentence": "This could help people navigate the ever growing list of emojis, as well as clarify potentially ambiguous emojis.",
+      "label": "Background",
+      "prob": 0.8189741373062134
+    },
+    {
+      "sentence": "With sensing OFF, some participants described following-up over verbal conversation to clarify the animations they sent, or struggling to interpret and respond to the animations they received, subsequently resorting to safe otter reacts.",
+      "label": "Background",
+      "prob": 0.8166133165359497
+    },
+    {
+      "sentence": "Finally, people can choose not to react by selecting Dont react in the app after viewing the animation, or dismissing the notification.",
+      "label": "Background",
+      "prob": 0.80966717004776
+    },
+    {
+      "sentence": "Thus, it is crucial that we understand the value and consequences of integrating them into our existing means of communicating.",
+      "label": "Background",
+      "prob": 0.8060438632965088
+    },
+    {
+      "sentence": "These animations represent daily activities, including eating, sleeping, walking, running, and exercising.",
+      "label": "Background",
+      "prob": 0.8049402832984924
+    },
+    {
+      "sentence": "About half of the couples were not living together, including one couple in a long-distance relationship.",
+      "label": "Background",
+      "prob": 0.8042928576469421
+    },
+    {
+      "sentence": "Significant Otter determines different ranges of heart rate based on peoples historical data, including their min, max, walking, and resting heart rates from HealthKit, which Apple updates daily.",
+      "label": "Background",
+      "prob": 0.8042733669281006
+    },
+    {
+      "sentence": "With sensing ON, the available state is randomly selected from the list of sensed states (not including greetings or affection).",
+      "label": "Background",
+      "prob": 0.8042247891426086
+    },
+    {
+      "sentence": "Some participants were accepting of the systems small set of possible sensed states, and gave the app room for error.",
+      "label": "Background",
+      "prob": 0.8001828193664551
+    },
+    {
+      "sentence": "With sensing ON, people can send otter animations from a list of sensed states, suggested based on their biosignals.",
+      "label": "Background",
+      "prob": 0.7983042597770691
+    },
+    {
+      "sentence": "Suggested emojis could be annotated in order to designate them as sensed states (e.g., a heart symbol, beats per minute, or special effect or badge attached to the image).",
+      "label": "Background",
+      "prob": 0.7982227802276611
+    },
+    {
+      "sentence": "in situ watches for use in their everyday lives, in order to achieve high ecological validity.",
+      "label": "Background",
+      "prob": 0.7974578142166138
+    },
+    {
+      "sentence": "This facilitated sending state animations, because participants no longer had to think about what they could mean and, like in prior work [41], sent them primarily to share their current state.",
+      "label": "Background",
+      "prob": 0.7969041466712952
+    },
+    {
+      "sentence": "The study versions of the app contain a subset of the animations available in the public version, in order to focus on states that could be interpreted from biosignals.",
+      "label": "Background",
+      "prob": 0.7953759431838989
+    },
+    {
+      "sentence": "Reacts are the same between both study versions of the app in order to explore potential differences in how people react to their partners sensed or randomized state.",
+      "label": "Background",
+      "prob": 0.7932099103927612
+    },
+    {
+      "sentence": "REACT otters are the ones on the Tap to React screen that you can send to your partner to respond to their otter.",
+      "label": "Background",
+      "prob": 0.7926192283630371
+    },
+    {
+      "sentence": "The icons are designed to act as short-form representations for the larger animations, such that people can glance to see their state otter without opening the app.",
+      "label": "Background",
+      "prob": 0.791655957698822
+    },
+    {
+      "sentence": "Copyrights for third-party components of this work must be honored.",
+      "label": "Background",
+      "prob": 0.7854674458503723
+    },
+    {
+      "sentence": "Stay-at-home orders required that people stay in their residences except for essential trips, such as for daily food and supplies or if they were essential workers (e.g., life-sustaining occupations, including employees in healthcare, food retail, and public transportation).",
+      "label": "Background",
+      "prob": 0.7846867442131042
+    },
+    {
+      "sentence": "When people receive their partners otter, they have the option to react within the app.",
+      "label": "Background",
+      "prob": 0.7846007943153381
+    },
+    {
+      "sentence": "This also facilitated understanding and responding to those animations, because they could appropriately react when they understood what they meant, such as by agreeing, reciprocating, or showing concern for their partners state.",
+      "label": "Background",
+      "prob": 0.7843411564826965
+    },
+    {
+      "sentence": "People are notified when their partner reacts to a state that they sent.",
+      "label": "Background",
+      "prob": 0.7836549878120422
+    },
+    {
+      "sentence": "Participants described using their Apple Watch for a variety of reasons, predominantly fitness tracking, but also music, news, weather, short texting, and checking notifications.",
+      "label": "Background",
+      "prob": 0.7836380004882812
+    },
+    {
+      "sentence": "Now were going to talk about the otters you received from your partner, and may or may not have reacted to.",
+      "label": "Background",
+      "prob": 0.7826300263404846
+    },
+    {
+      "sentence": "They appreciated the readily available, unintrusive messages that helped them quickly communicate back and forth with their partner without having to use words.",
+      "label": "Background",
+      "prob": 0.7823299765586853
+    },
+    {
+      "sentence": "Hancock and colleagues define AI-mediated communication as mediated communication between people in which a computational agent operates on behalf of a communicator by modifying, augmenting, or generating messages to accomplish communication or interpersonal goals.",
+      "label": "Background",
+      "prob": 0.78102707862854
+    },
+    {
+      "sentence": "biosignals can facilitate each stage of communication ( RQ1 ), where sending, understanding, and responding to the state animations were easier with sensing ON than with sensing OFF, because the app curated more straightforward messages for them to send, distilled to participants sensed states as opposed to user-prescribed meanings.",
+      "label": "Background",
+      "prob": 0.7776461243629456
+    },
+    {
+      "sentence": "An emerging area of research in HCI has explored a novel social cue for improving the way we interact over technology: our biosignals.",
+      "label": "Background",
+      "prob": 0.7710559964179993
+    },
+    {
+      "sentence": "By providing a limited set of other possible states, people can reflect on their subjective emotions alongside the apps suggestions, and then select one of the recommended states.",
+      "label": "Background",
+      "prob": 0.7702178359031677
+    },
+    {
+      "sentence": "Significant Otter can simulate physicalness through shared heart rate representing the bodys physical state.",
+      "label": "Background",
+      "prob": 0.7674126625061035
+    },
+    {
+      "sentence": "There are four types of state animations: emotions, activities, greetings, and affection.",
+      "label": "Background",
+      "prob": 0.7658560276031494
+    },
+    {
+      "sentence": "Rather than relying on relationship context, people would reference the augmented communication content to interpret the biosignals (e.g., text in mobile messaging [18, 41]).",
+      "label": "Background",
+      "prob": 0.7634124159812927
+    },
+    {
+      "sentence": "Overall, participants viewed both versions of Significant Otter as a lightweight communication channel that enabled them to easily to keep in touch with their partner and let each other know how they are doing.",
+      "label": "Background",
+      "prob": 0.7626487612724304
+    },
+    {
+      "sentence": "People already increasingly need to navigate multiple communication apps, which can cause expression breakdowns when they are unable to consistently express themselves across those apps [13].",
+      "label": "Background",
+      "prob": 0.7537930011749268
+    },
+    {
+      "sentence": "People can then view their otter on their watch or phone, and scroll through the list of animated states to send one to their partner.",
+      "label": "Background",
+      "prob": 0.7503976225852966
+    },
+    {
+      "sentence": "Participants had various jobs, including students, healthcare professionals, personal trainers, technicians, restaurant workers, and analysts.",
+      "label": "Background",
+      "prob": 0.7469094395637512
+    },
+    {
+      "sentence": "Thus, we were unable to capture how people that did not match these criteria might use the app outside of these unusual circumstances.",
+      "label": "Background",
+      "prob": 0.7464633584022522
+    },
+    {
+      "sentence": "Significant Otter presents an interpreted representation for biosignals: animated avatars that correspond to different emotional and physical states.",
+      "label": "Background",
+      "prob": 0.7455117702484131
+    },
+    {
+      "sentence": "Participants installed bug fixes by uninstalling and reinstalling the app through TestFlight.",
+      "label": "Background",
+      "prob": 0.7400267124176025
+    },
+    {
+      "sentence": "People can enter the main screen through notification prompts to view their otter (explained in section 3.5 below), or by opening the app on their own.",
+      "label": "Background",
+      "prob": 0.737028181552887
+    },
+    {
+      "sentence": "Participants could freely use Significant Otter as little or as much as they wanted during the study.",
+      "label": "Background",
+      "prob": 0.7365949749946594
+    },
+    {
+      "sentence": "Additionally, they felt the sensed otters were more representative of them and their partner, conveying a sense of their bodys physical responses.",
+      "label": "Background",
+      "prob": 0.7353415489196777
+    },
+    {
+      "sentence": "The four available quick reacts are fixed and selected based on the most frequently used reacts in the public version of the app (love, nodding, handholding, and hugging).",
+      "label": "Background",
+      "prob": 0.7318459749221802
+    },
+    {
+      "sentence": "We used icons for the notifications such that people can glance at the state they received and dismiss or quick react, if desired.",
+      "label": "Background",
+      "prob": 0.7285497784614563
+    },
+    {
+      "sentence": "On the other hand, P14, quoted above, felt his heart was an indicator of how he truly felt, as opposed to how he thought he felt in his mind.",
+      "label": "Background",
+      "prob": 0.7281454801559448
+    },
+    {
+      "sentence": "STATE otters are the otters you see on your main app screen that you can send to your partner to initiate an interaction.",
+      "label": "Background",
+      "prob": 0.7266898155212402
+    },
+    {
+      "sentence": "The rest of the couples were living together with at least one person working outside as an essential worker.",
+      "label": "Background",
+      "prob": 0.7260071635246277
+    },
+    {
+      "sentence": "The couples we recruited were diverse in several dimensions, including their backgrounds, careers, demographics, and length of relationship.",
+      "label": "Background",
+      "prob": 0.723774254322052
+    },
+    {
+      "sentence": "This further illustrates the tensions in AI-recommended versus subjectively interpreted emotions found in prior work [19, 22], particularly due to variations in lay understanding or confidence around ones own emotions.",
+      "label": "Background",
+      "prob": 0.7217261791229248
+    },
+    {
+      "sentence": "For example, onboarding steps could detail the systems approach to emotion (e.g., its relationship to the bodys physiological state, why the system might suggest multiple possible emotions), or provide adjustable settings that match ones personal understanding of their own state.",
+      "label": "Background",
+      "prob": 0.7167712450027466
+    },
+    {
+      "sentence": "For the former, we focused on emotional support, or expressing caring and concern, as other types of support typically require more information [5, 27, 45], which would not be suitable for a lightweight platform.",
+      "label": "Background",
+      "prob": 0.7118139863014221
+    },
+    {
+      "sentence": "This aligns with prior work by Hollis and colleagues [19], which suggests that people may overly trust emotion sensing systems and be influenced by the systems interpretations of their emotions.",
+      "label": "Background",
+      "prob": 0.7067393064498901
+    },
+    {
+      "sentence": "Human-centered computing  Empirical studies in HCI ; Empirical studies in collaborative and social computing ; Empirical studies in ubiquitous and mobile computing .",
+      "label": "Background",
+      "prob": 0.7055690884590149
+    },
+    {
+      "sentence": "Another participant noticed that by simply accepting and sharing the systems recommendation, he put less thought into curating a message to send to his partner.",
+      "label": "Background",
+      "prob": 0.7046975493431091
+    },
+    {
+      "sentence": "This also helped to control differences in the notifications between the two versions of the app, as the app with sensing OFF cannot record state changes.",
+      "label": "Background",
+      "prob": 0.7011579871177673
+    },
+    {
+      "sentence": "Finally, researchers should consider how peoples understanding of their state and expectations for the system may be affected by different types of expressive biosignals.",
+      "label": "Background",
+      "prob": 0.7004127502441406
+    },
+    {
+      "sentence": "People are notified when their partner sends them their state otter.",
+      "label": "Background",
+      "prob": 0.6937264800071716
+    },
+    {
+      "sentence": "Since expressive biosignals can elicit concerns around privacy [41, 57], cognitive load [40], and accuracy [22, 42, 47], it is crucial that we understand the value they add to existing modes of expression.",
+      "label": "Background",
+      "prob": 0.6917070150375366
+    },
+    {
+      "sentence": "working from home); therefore, we recruited couples who were living apart or living together with one or both of them spending most of their time elsewhere.",
+      "label": "Background",
+      "prob": 0.6916296482086182
+    },
+    {
+      "sentence": "Additionally, several participants had issues receiving the app notifications, where they may not have received any during the first or second half of the study.",
+      "label": "Background",
+      "prob": 0.6850919127464294
+    },
+    {
+      "sentence": "The screening survey also included several questions about participants circumstances concerning COVID-19, including their living situation with their partner.",
+      "label": "Background",
+      "prob": 0.6848559379577637
+    },
+    {
+      "sentence": "open codes for each category based on a subset of transcripts, labeling them according to similarities in participants responses.",
+      "label": "Background",
+      "prob": 0.6840150952339172
+    },
+    {
+      "sentence": "Expressive biosignal systems recommend a users current state as part of interpersonal communication.",
+      "label": "Background",
+      "prob": 0.6821759939193726
+    },
+    {
+      "sentence": "Unfortunately, our sample was not diverse in sexual orientation, where most couples were heterosexual.",
+      "label": "Background",
+      "prob": 0.682023823261261
+    },
+    {
+      "sentence": "Biosignals also supported feelings of connection between romantic partners ( RQ2 ), where participants described feeling compelled to share honest emotions through the sensed state animations, rather than put up a front.",
+      "label": "Background",
+      "prob": 0.6783303022384644
+    },
+    {
+      "sentence": "(a) Bob is presented with a set of otters to react to Alices state otter.",
+      "label": "Background",
+      "prob": 0.6775628924369812
+    },
+    {
+      "sentence": "Sensing ON requires people to accept HealthKit 4 and Motion & Fitness 5 permissions to access sensed heart rate and activity data from the watch.",
+      "label": "Background",
+      "prob": 0.675174355506897
+    },
+    {
+      "sentence": "While having a separate platform like Significant Otter dedicated to sharing states can create an intimate experience for couples, the sensed otter animations could easily integrate with existing platforms as enhanced emojis.",
+      "label": "Background",
+      "prob": 0.6734382510185242
+    },
+    {
+      "sentence": "This category shows animations where the couples two otters are interacting, including hugging and holding hands.",
+      "label": "Background",
+      "prob": 0.6729387640953064
+    },
+    {
+      "sentence": "Future work could also explore how to involve people in system recommendations, such that they can have more control over what they are feeling and how they share those feelings.",
+      "label": "Background",
+      "prob": 0.6713098883628845
+    },
+    {
+      "sentence": "The smartwatch prompted participants with notifications that became personalized suggestions about how they were feeling with sensing ON, rather than dismissable nudges to use the app with sensing OFF.",
+      "label": "Background",
+      "prob": 0.6691877841949463
+    },
+    {
+      "sentence": "Seeing their own sensed state also encouraged them to reflect on how they were feeling, and be more honest with both themselves and their partner by sharing it with them.",
+      "label": "Background",
+      "prob": 0.6673493385314941
+    },
+    {
+      "sentence": "These participants also described typically being satisfied with at least one state in the list of suggested states, and did not mind if the other states did not fully match them.",
+      "label": "Background",
+      "prob": 0.6603841781616211
+    },
+    {
+      "sentence": "The pilot informed ways to address possible COVID-19 circumstances that would affect the study.",
+      "label": "Background",
+      "prob": 0.6579706072807312
+    },
+    {
+      "sentence": "With sensing OFF, the list is restricted to two to five random states to match the possible sizes of the sensed state list.",
+      "label": "Background",
+      "prob": 0.6561665534973145
+    },
+    {
+      "sentence": "For example, sending an otter and then mentioning it in another app, or your partner receiving your otter and then commenting on it in another app.",
+      "label": "Background",
+      "prob": 0.6543349623680115
+    },
+    {
+      "sentence": "For both versions, the app prompts people to name their otter and pair with the partner.",
+      "label": "Background",
+      "prob": 0.6522113680839539
+    },
+    {
+      "sentence": "In their baseline usage of the app with sensing OFF, participants felt the otter animations were an easy way to communicate without words, using them to convey their current state and suggest activities.",
+      "label": "Background",
+      "prob": 0.6507532596588135
+    },
+    {
+      "sentence": "Now were going to talk about the state otters you sent to your partner, that they may or may not have reacted to.",
+      "label": "Background",
+      "prob": 0.6479306221008301
+    },
+    {
+      "sentence": "However, digital communication is well-known to be challenging due to limited access to important nonverbal cues, such as our body movements and facial expressions [32, 60, 63].",
+      "label": "Background",
+      "prob": 0.6460204720497131
+    },
+    {
+      "sentence": "This flexibility in the otter animations aligns with the flexibility of emojis, where an emoji can be used to convey numerous possible messages [49, 68], and are thus known to be expressive yet ambiguous even when used in textual contexts [48].",
+      "label": "Background",
+      "prob": 0.6454575657844543
+    },
+    {
+      "sentence": "This could encourage people to engage in more effort and meaning-making with their partner, and enhance the authenticity of the AI-recommended message.",
+      "label": "Background",
+      "prob": 0.6451717019081116
+    },
+    {
+      "sentence": "We include all possible reacts in order to understand peoples preferences and decisions in reacting with certain animations.",
+      "label": "Background",
+      "prob": 0.6447405815124512
+    },
+    {
+      "sentence": "Some couples noted that even if they are fairly open with each other, they appreciated knowing that their partners state was backed by data and that their partner was not just putting up a front.",
+      "label": "Background",
+      "prob": 0.6433777809143066
+    },
+    {
+      "sentence": "Specifically, we explore communication in which people choose between shareable states suggested by the AI, rather than the AI providing only one possible state.",
+      "label": "Background",
+      "prob": 0.6388908624649048
+    },
+    {
+      "sentence": "watch, people can open the app through the app complication 7 on their watch face, which will show an otter icon, similar to an emoji, of one of their currently available states.",
+      "label": "Background",
+      "prob": 0.6385646462440491
+    },
+    {
+      "sentence": "Instead, these animations randomly rotate with greetings, as described above.",
+      "label": "Background",
+      "prob": 0.6293314695358276
+    },
+    {
+      "sentence": "Designers of these systems should clearly and carefully introduce how sensing in the system works.",
+      "label": "Background",
+      "prob": 0.6289519667625427
+    },
+    {
+      "sentence": "Conversely, participants who perceived the app as inaccurate tended to expect exactly one accurate state, giving less flexibility for the app to suggest other states that may not match their feelings.",
+      "label": "Background",
+      "prob": 0.6275082230567932
+    },
+    {
+      "sentence": "app with their partner (e.g., when and why they sent their own otter, what they thought of their partners otter and how they responded, if at all).",
+      "label": "Background",
+      "prob": 0.6275053024291992
+    },
+    {
+      "sentence": "Each couple completed a 30 minute onboarding session with one of the researchers over a video call.",
+      "label": "Background",
+      "prob": 0.6237658858299255
+    },
+    {
+      "sentence": "their mental model of the app with sensing OFF and expected it to work the same way.",
+      "label": "Background",
+      "prob": 0.6231985688209534
+    },
+    {
+      "sentence": "Despite using the sensing ON version less, 30 out of 40 participants preferred it over sensing OFF for enhancing their ability to communicate and connect with their partner.",
+      "label": "Background",
+      "prob": 0.6228554248809814
+    },
+    {
+      "sentence": "To investigate our research questions, we created two study versions 3 of the Significant Otter app: sensing ON and sensing OFF, where biosignals are either sensed or not sensed, respectively.",
+      "label": "Background",
+      "prob": 0.6215072870254517
+    },
+    {
+      "sentence": "People can send two types of animations to their partner: states and reacts .",
+      "label": "Background",
+      "prob": 0.6202055215835571
+    },
+    {
+      "sentence": "4. In our last interview, you talked about how you sometimes expected certain reactions from your partner, both within and outside of the app.",
+      "label": "Background",
+      "prob": 0.6194128394126892
+    },
+    {
+      "sentence": "It is also possible that our participants would engage with the app differently outside of these circumstances, as many had to adjust to changes in their daily routine during the study.",
+      "label": "Background",
+      "prob": 0.6185203194618225
+    },
+    {
+      "sentence": "five random states, expecting a wider and more expressive variety, while others appreciated that they did not need to look through hundreds of options for a specific one.",
+      "label": "Background",
+      "prob": 0.6182138323783875
+    },
+    {
+      "sentence": "Moreover, work on AI-mediated communication suggests that systems that generate messages for communication, such as Significant Otters sensed state animations, can affect perceptions of authenticity [51] and trustworthiness [25] in the sender of the message.",
+      "label": "Background",
+      "prob": 0.6155411005020142
+    },
+    {
+      "sentence": "Thus, while our qualitative findings present a variety of interesting communication patterns that stem from participants diverse usage, studies with greater levels of control or larger sample sizes are necessary to clarify potential causal effects that biosignals have on communication.",
+      "label": "Background",
+      "prob": 0.6132410168647766
+    },
+    {
+      "sentence": "In particular, their emotionally expressive ability may already be achieved verbally and nonverbally through emojis and stickers [44, 59].",
+      "label": "Background",
+      "prob": 0.6125659346580505
+    },
+    {
+      "sentence": "People are notified periodically during the day (at least 45 minutes apart, to minimize invasiveness) with a Message from your otter notification (see Figure 6(b)).",
+      "label": "Background",
+      "prob": 0.6060358881950378
+    },
+    {
+      "sentence": "For example, the system could allow people to provide feedback on their state in order to improve the system and feel involved in the systems suggestions, or prompt them to interpret the suggested state before sharing it with their partner.",
+      "label": "Background",
+      "prob": 0.6055666208267212
+    },
+    {
+      "sentence": "We also ran this pilot during the early stages of the COVID-19 stay-at-home orders for many states in the United States.",
+      "label": "Background",
+      "prob": 0.6032686233520508
+    },
+    {
+      "sentence": "While perceptions of inaccuracy were a barrier for some participants, participants",
+      "label": "Background",
+      "prob": 0.6031915545463562
+    },
+    {
+      "sentence": "The recommendation can be used to augment communication, such as by providing emotional context for text messages [17, 41] and joint activities in mixed reality [55], or to generate new messages in communication, such as emoji-like animations [42].",
+      "label": "Background",
+      "prob": 0.6022144556045532
+    },
+    {
+      "sentence": "Though most participants felt that their sensed otter accurately reflected their feelings and activities, six participants were skeptical of the systems ability to sense states and disagreed with the suggestions they saw.",
+      "label": "Background",
+      "prob": 0.5983138084411621
+    },
+    {
+      "sentence": "Two weeks after their mid-study session, each participant individually completed a 30-60 minute exit session over video call.",
+      "label": "Background",
+      "prob": 0.597024142742157
+    },
+    {
+      "sentence": "Finally, while we recruited a diverse sample of participants from different backgrounds, participants were self-selected and may have shown a greater interest in wearable and couple-specific technologies.",
+      "label": "Background",
+      "prob": 0.5961781144142151
+    },
+    {
+      "sentence": "The app has been publicly available since November 2019, and over 59 thousand people have installed it as of January 2021.",
+      "label": "Background",
+      "prob": 0.5942971110343933
+    },
+    {
+      "sentence": "Once it [sensed] what you were doing throughout the day, it [became] a more personal experience...because its sensing what youre wanting to say throughout the day.",
+      "label": "Background",
+      "prob": 0.5890175104141235
+    },
+    {
+      "sentence": "Expressive biosignals may also impact social connection, or a persons subjective sense of having close and positively experienced relationships with others in the social world [56].",
+      "label": "Background",
+      "prob": 0.584301769733429
+    },
+    {
+      "sentence": "In their review on technology-mediated intimacy, Hassenzahl and colleagues described different strategies for supporting important aspects of intimacy [16].",
+      "label": "Background",
+      "prob": 0.5786556601524353
+    },
+    {
+      "sentence": "Following the interaction model of communication [65], these works suggest that biosignals can support the key stages of communication: sending a message, receiving and understanding that message, and responding to it with feedback.",
+      "label": "Background",
+      "prob": 0.5786313414573669
+    },
+    {
+      "sentence": "In the following section, we recommend future research directions and system designs to explore how to reconcile this tension.",
+      "label": "Background",
+      "prob": 0.5766412019729614
+    },
+    {
+      "sentence": "Participants described feeling more connected to both their own and their partners otter because they were tied to their bodies physical states, as if they were the otters themselves.",
+      "label": "Background",
+      "prob": 0.5700579285621643
+    },
+    {
+      "sentence": "Furthermore, with the global COVID-19 pandemic diminishing in-person social contact, technology-mediated communication is more prominent than ever before [35].",
+      "label": "Background",
+      "prob": 0.5686805844306946
+    },
+    {
+      "sentence": "ing...its almost as if you could go through the phone yourself and wave or something like that....",
+      "label": "Background",
+      "prob": 0.5673314929008484
+    },
+    {
+      "sentence": "[With sensing OFF, it] could have just been a sticker app, an iMessage where youre just sending from a collection of animated stickers.",
+      "label": "Background",
+      "prob": 0.5648428201675415
+    },
+    {
+      "sentence": "Since we were unable to address this issue, participants received notifications at different frequencies.",
+      "label": "Background",
+      "prob": 0.564429759979248
+    },
+    {
+      "sentence": "Given stay-at-home orders, we also restricted recruitment to people who were living apart from their partner or living together if one or both of them were essential workers.",
+      "label": "Background",
+      "prob": 0.5609604120254517
+    },
+    {
+      "sentence": "Six were unemployed or furloughed due to COVID-19.",
+      "label": "Background",
+      "prob": 0.5594442486763
+    },
+    {
+      "sentence": "Tapping on the icon opens the app to play their partners state animation, and then enter the in-app react mode.",
+      "label": "Background",
+      "prob": 0.5569216012954712
+    },
+    {
+      "sentence": "Moreover, the removal of sensing as a feature in a counterbalanced study could disrupt participants mental model of the app, as opposed to a feature update when switching from sensing OFF to ON.",
+      "label": "Background",
+      "prob": 0.5568314790725708
+    },
+    {
+      "sentence": "There was a slight non-significant drop in usage from sensing OFF to sensing ON, which participants attributed to COVID-19-related changes to their life circumstances (e.g., changes in their work schedule or ability to meet their partner).",
+      "label": "Background",
+      "prob": 0.556611180305481
+    },
+    {
+      "sentence": "That is, even if the system claims to be accurate based on the users physical state, the detected emotion may conflict with how the user subjectively believes they feel [42] or overly influence their feelings [19, 22].",
+      "label": "Background",
+      "prob": 0.5531794428825378
+    },
+    {
+      "sentence": "their inner state, which they can send to their partner.",
+      "label": "Background",
+      "prob": 0.5515472888946533
+    },
+    {
+      "sentence": "They did not expect the sensed states to be 100% accurate and reasoned why the app would suggest states that did not quite match them, based on their knowledge of their heart rate or physical state.",
+      "label": "Background",
+      "prob": 0.5491958260536194
+    },
+    {
+      "sentence": "Tapping on the icon opens the app to play the animation of the react otter, alongside an icon representing the state to which their partner is reacting.",
+      "label": "Background",
+      "prob": 0.5491892099380493
+    },
+    {
+      "sentence": "We intentionally did not counterbalance the order of the versions, as our research questions focused on the shift from the status quo of communicating without biosignals to communicating with biosignals.",
+      "label": "Background",
+      "prob": 0.5484837889671326
+    },
+    {
+      "sentence": "Two weeks after their onboarding session, each participant individually completed a 30-60 minute midstudy session over video call.",
+      "label": "Background",
+      "prob": 0.5470422506332397
+    },
+    {
+      "sentence": "With sensing OFF, participants scrolled through the list of state animations as if they were scrolling through a shorter emoji/sticker/GIF keyboard.",
+      "label": "Background",
+      "prob": 0.5424501299858093
+    },
+    {
+      "sentence": "Given the time and effort involved in filling out a survey every day, we required participants to fill out a minimum of three daily surveys per week.",
+      "label": "Background",
+      "prob": 0.5414299964904785
+    },
+    {
+      "sentence": "Though our findings elucidate the value of expressive biosignals in communication, there are several limitations to this work.",
+      "label": "Background",
+      "prob": 0.5413610935211182
+    },
+    {
+      "sentence": "Though the reduced effort made keeping in touch easier, effort is an important quality of communication that contributes to meaningful connection and close relationships [30, 31].",
+      "label": "Background",
+      "prob": 0.541336178779602
+    },
+    {
+      "sentence": "Most participants perceived sensing ON as a feature update that enhanced their use of the app; however, a few were strongly influenced by",
+      "label": "Background",
+      "prob": 0.5411157608032227
+    },
+    {
+      "sentence": "The interview included questions about participants overall thoughts and perceptions about the app and its different features (e.g., reactions to the notifications), and how they used the",
+      "label": "Background",
+      "prob": 0.5408200621604919
+    },
+    {
+      "sentence": "We conducted a one-month study deploying Significant Otter in the wild with couples who were Apple Watch users.",
+      "label": "Background",
+      "prob": 0.5407243967056274
+    },
+    {
+      "sentence": "The sensed states were also restrictive, where the participants believed they were less likely to find an animation they wanted to send, while randomization presented equal probability of seeing all states.",
+      "label": "Background",
+      "prob": 0.5394838452339172
+    },
+    {
+      "sentence": "Sharing a sensed otter was also less ambiguous than sharing a randomized otter.",
+      "label": "Background",
+      "prob": 0.5376410484313965
+    },
+    {
+      "sentence": "After opening the app, people can simply tap on their otter to send it to their partner, and their partner can view the otters animated state on their own device (see Figure 1).",
+      "label": "Background",
+      "prob": 0.5351943373680115
+    },
+    {
+      "sentence": "With sensing OFF, the available state is randomly selected from the list of random states.",
+      "label": "Background",
+      "prob": 0.5308783650398254
+    },
+    {
+      "sentence": "We removed reacts that elicited interpretations that did not suit the available states or were overly ambiguous.",
+      "label": "Background",
+      "prob": 0.530439019203186
+    },
+    {
+      "sentence": "Participants felt that sharing from sensed state suggestions was easier than sharing from a randomized list of animations.",
+      "label": "Background",
+      "prob": 0.5302644968032837
+    },
+    {
+      "sentence": "To explore the design of expressive biosignals as AI-mediated communication, we incorporate AI-recommended sets of shareable sensed states.",
+      "label": "Background",
+      "prob": 0.5291944742202759
+    },
+    {
+      "sentence": "We describe these opportunities and challenges for integrating biosignals into communication in more detail below.",
+      "label": "Background",
+      "prob": 0.5264334082603455
+    },
+    {
+      "sentence": "In prior studies where people shared their biosignals in conversation or sporadically during the day, receivers often acknowledged, provided support for, or discussed the meaning of the senders biosignals [21, 22, 42].",
+      "label": "Background",
+      "prob": 0.5207228064537048
+    },
+    {
+      "sentence": "Future directions in this area should investigate new ways for expressive biosignals systems to collaborate with peoples subjective understanding of their own state.",
+      "label": "Background",
+      "prob": 0.520226001739502
+    },
+    {
+      "sentence": "Each person has an animated otter that reflects",
+      "label": "Background",
+      "prob": 0.518913745880127
+    },
+    {
+      "sentence": "Some participants continued to be skeptical of the suggested states, having strong beliefs about how they are feeling, while others were confused by our design, believing that they should see only one recommendation.",
+      "label": "Background",
+      "prob": 0.5185177326202393
+    },
+    {
+      "sentence": "For example, researchers could explore systems that support different lay theories of emotions and how they affect perceptions of the systems accuracy, such as whether the user interprets emotions based on external contextual cues or internal physiological experiences [62, 69].",
+      "label": "Background",
+      "prob": 0.5181514024734497
+    },
+    {
+      "sentence": "He pointed out that while the message itself was personalized to himself, he no longer took the time and effort to consider what to send:",
+      "label": "Background",
+      "prob": 0.5144018530845642
+    },
+    {
+      "sentence": "By sharing their biosignals as a message, a sender can express both emotions and daily activities, such as texting ones heart rate to convey feeling down or taking a walk [41].",
+      "label": "Background",
+      "prob": 0.508981466293335
+    },
+    {
+      "sentence": "For example, P31, who tended to not respond immediately to her partners state with sensing OFF, felt more urgency to respond with sensing ON:",
+      "label": "Background",
+      "prob": 0.5062215328216553
+    },
+    {
+      "sentence": "After a user views a react, the app will return to the main screen with the list of states.",
+      "label": "Background",
+      "prob": 0.49720636010169983
+    },
+    {
+      "sentence": "To help participants recall their experiences, we showed GIFs of the top states and reacts that they sent and received.",
+      "label": "Background",
+      "prob": 0.48928630352020264
+    },
+    {
+      "sentence": "For example, in their deployment of Ripple, a shirt that displayed a wearers skin conductance, Howell and colleagues found that people granted the system high degrees of authority over their feelings and, therefore, the feelings they conveyed to others [22].",
+      "label": "Background",
+      "prob": 0.48829174041748047
+    },
+    {
+      "sentence": "happening, I wouldnt think too much about it anymore as far as opening up the app and seeing if it was the otter I wanted to send or anything like that.",
+      "label": "Background",
+      "prob": 0.4821856617927551
+    },
+    {
+      "sentence": "On the other hand, Liu and colleagues showed that some people may strongly disagree with an AI-recommended state, and subsequently fail to use the system to communicate meaningfully with others [42].",
+      "label": "Background",
+      "prob": 0.480267733335495
+    },
+    {
+      "sentence": "While couples used both versions of the app to keep in touch with each others current state, they felt that sensing ON enabled a more personal experience with each other because it was backed by data.",
+      "label": "Background",
+      "prob": 0.47530481219291687
+    },
+    {
+      "sentence": "Though the sensing feature was not intended to be highly accurate, these participants felt the system knew their feelings better than they did, and helped them to convey those feelings to their partner.",
+      "label": "Background",
+      "prob": 0.47368934750556946
+    },
+    {
+      "sentence": "1. Heres an example of a state otter you sent to your partner on (time).",
+      "label": "Background",
+      "prob": 0.4681389331817627
+    },
+    {
+      "sentence": "Since multiple participants expressed interest in continuing to use the app, we provided links to the public version, which participants could freely download.",
+      "label": "Background",
+      "prob": 0.46766749024391174
+    },
+    {
+      "sentence": "The first pilot tested peoples understanding of the sensing ON version, to ensure that people would recognize that their heart rate is sensed and tied to the animations.",
+      "label": "Background",
+      "prob": 0.4667218327522278
+    },
+    {
+      "sentence": "Walking and running are motion-based activities, classified by Apples Core Motion 6 .",
+      "label": "Background",
+      "prob": 0.4622930586338043
+    },
+    {
+      "sentence": "Taken together, our results describe the role of biosignals in dyadic communication, distinct from system features such as the smartwatch or animated avatars [42], as promoting easier and more authentic communication.",
+      "label": "Background",
+      "prob": 0.46047356724739075
+    },
+    {
+      "sentence": "Participants felt that sharing sensed otter animations enabled more open and genuine communication with their partner.",
+      "label": "Background",
+      "prob": 0.4584994614124298
+    },
+    {
+      "sentence": "P36, who frequently used the quick reacts with sensing OFF, used them less with sensing ON.",
+      "label": "Background",
+      "prob": 0.45759281516075134
+    },
+    {
+      "sentence": "People cannot react to a react animation.",
+      "label": "Background",
+      "prob": 0.4560948610305786
+    },
+    {
+      "sentence": "Expressivity describes expressing feelings through a language unique to the couple, such as mutual affection through on-off signals [29] or couple-specific symbols [36].",
+      "label": "Background",
+      "prob": 0.4550195634365082
+    },
+    {
+      "sentence": "In the present work, we expand on expressive biosignals literature by demonstrating the effects of shifting from communication without biosignals to communication with biosignals.",
+      "label": "Background",
+      "prob": 0.4547973871231079
+    },
+    {
+      "sentence": "Like these works, we focus on heart rate due to its wide availability on consumergrade wearables compared to other biosignals, representing the data as an animated avatar.",
+      "label": "Background",
+      "prob": 0.45380645990371704
+    },
+    {
+      "sentence": "The final versions of the study app and study design are described in the following sections.",
+      "label": "Background",
+      "prob": 0.4530860483646393
+    },
+    {
+      "sentence": "Three coders validated the subsequent codebook by independently coding another subset of transcripts, meeting frequently to discuss the codes and ensure high inter-rater reliability.",
+      "label": "Background",
+      "prob": 0.4524444043636322
+    },
+    {
+      "sentence": "Tapping on the icon allows the user to view the animation in the",
+      "label": "Background",
+      "prob": 0.45078691840171814
+    },
+    {
+      "sentence": "Given the differences in participants lifestyles, especially during the COVID-19 pandemic, as well as tendencies towards different devices (e.g., participants with large hands experiencing difficulty interacting with the watch app interface), participants naturally had diverse experiences with the app.",
+      "label": "Background",
+      "prob": 0.4487406611442566
+    },
+    {
+      "sentence": "1. Heres an example of a state otter you received from your partner on (time).",
+      "label": "Background",
+      "prob": 0.44699278473854065
+    },
+    {
+      "sentence": "All participants used the app with sensing OFF for the first two weeks and with sensing ON for the latter two weeks.",
+      "label": "Background",
+      "prob": 0.4440953731536865
+    },
+    {
+      "sentence": "This included being in an exclusive romantic relationship, living in the US, being able to participate in onboarding and interview sessions via video call, and owning an Apple Watch Series 3 or above that they used for at least two weeks, to ensure familiarity with the watch.",
+      "label": "Background",
+      "prob": 0.44226330518722534
+    },
+    {
+      "sentence": "People can also directly send from the notification using the Share button.",
+      "label": "Background",
+      "prob": 0.4402436316013336
+    },
+    {
+      "sentence": "Given peoples own subjective understanding of their state",
+      "label": "Background",
+      "prob": 0.4374232888221741
+    },
+    {
+      "sentence": "5. (if mentioned) You mentioned in your daily surveys that your partner reacted to your otter outside of the app as well, for example, (describe their survey response).",
+      "label": "Background",
+      "prob": 0.43405601382255554
+    },
+    {
+      "sentence": "For all other uses, contact the owner/author(s).",
+      "label": "Background",
+      "prob": 0.43279722332954407
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Other",
+      "prob": 0.4596655070781708
+    },
+    {
+      "sentence": "In particular, as cues that are sensed and recommended by systems, they present a new form of AI-mediated communication that could shape our interactions in unintended ways [25].",
+      "label": "Other",
+      "prob": 0.49543485045433044
+    },
+    {
+      "sentence": "1. You mentioned in some of the daily surveys that youve noticed notifications such (describe notifications they mentioned).",
+      "label": "Background",
+      "prob": 0.4235953986644745
+    },
+    {
+      "sentence": "We included 14 different reacts to cover a variety of responses people could have to their partners state.",
+      "label": "Background",
+      "prob": 0.42337214946746826
+    },
+    {
+      "sentence": "We took these differences into consideration during both our interviews and analyses; however, future work should consider a between-subjects design or longer longitudinal study to reduce potential order or novelty effects.",
+      "label": "Background",
+      "prob": 0.422973096370697
+    },
+    {
+      "sentence": "At the end of the interview, we asked participants to uninstall Significant Otter.",
+      "label": "Background",
+      "prob": 0.4220470190048218
+    },
+    {
+      "sentence": "As a relatively new area of research, much of the AI-mediated communication work has focused on text, such as AI-recommended wording in emails [4] and AI-generated profiles on sites like AirBnB [25].",
+      "label": "Other",
+      "prob": 0.46433550119400024
+    },
+    {
+      "sentence": "To test Significant Otter, we deployed the sensing OFF and ON versions of the app in a one-month field study.",
+      "label": "Background",
+      "prob": 0.4205344319343567
+    },
+    {
+      "sentence": "Agency and effort in communicating feelings.",
+      "label": "Background",
+      "prob": 0.4176856577396393
+    },
+    {
+      "sentence": "Specifically, we suggest that the app with sensing OFF functioned similar to emojis, stickers, and GIFs, while sensing ON introduced a new, enhanced form of communication.",
+      "label": "Result",
+      "prob": 0.45357808470726013
+    },
+    {
+      "sentence": "The present work expands on this research by exploring AI-mediated communication through expressive biosignals.",
+      "label": "Objective",
+      "prob": 0.46978312730789185
+    },
+    {
+      "sentence": "After they view their partners state animation, the app will enter the react mode, where they can scroll through all 14 possible reacts (using the watch crown or swiping up/down on the phone) and tap on one to send it as a response to their partner.",
+      "label": "Background",
+      "prob": 0.4157390594482422
+    },
+    {
+      "sentence": "These participants stated that they would have preferred a list of states with more variety to choose from.",
+      "label": "Background",
+      "prob": 0.4129098057746887
+    },
+    {
+      "sentence": "We also adjusted how we explained the sensing ON version and added related comprehension questions to the daily surveys, since some participants expressed confusion around how sensing worked (e.g., whether opening the app triggered sensing).",
+      "label": "Result",
+      "prob": 0.4220941960811615
+    },
+    {
+      "sentence": "The notification includes an otter icon representing their partners state otter as well as the four quick reacts (see Figure 6(a)).",
+      "label": "Background",
+      "prob": 0.4126422703266144
+    },
+    {
+      "sentence": "The first daily survey included comprehension questions to ensure that participants understood how to use Significant Otter.",
+      "label": "Background",
+      "prob": 0.41175976395606995
+    },
+    {
+      "sentence": "Participants were recruited through Reddit posts on the SampleSize and AppleWatch subreddits, recruitment posts for about 30 US cities on Craigslist (including major cities in different areas of the US to account for differences in state responses to COVID-19), and snowball sampling (social media posts).",
+      "label": "Background",
+      "prob": 0.4109306335449219
+    },
+    {
+      "sentence": "For example, physicalness represents the physical aspect of intimacy, and has been simulated through mediated touch [15] and gestures [12, 52], as well as feeling someone elses heartbeat [64].",
+      "label": "Other",
+      "prob": 0.4174925684928894
+    },
+    {
+      "sentence": "In lightweight communication, defined by quick exchanges [8] through minimal interaction or content generation, even minimal messages between close partners can convey meaning like thinking of you [7, 28].",
+      "label": "Other",
+      "prob": 0.4905518889427185
+    },
+    {
+      "sentence": "After validating the codebook, the three coders divided and coded the rest of the segments.",
+      "label": "Background",
+      "prob": 0.404923677444458
+    },
+    {
+      "sentence": "So for that reason I felt like my reactions were more consistent.",
+      "label": "Background",
+      "prob": 0.40357643365859985
+    },
+    {
+      "sentence": "6.2 Design Implications and Future Directions 6.2.1 Sharing sensed states on existing platforms.",
+      "label": "Background",
+      "prob": 0.4028550386428833
+    },
+    {
+      "sentence": "For instance, P1 was confident in knowing her own feelings better than the app, while P15 was conflicted on whether to follow his body (what the app suggested to him) or mind (how he thinks he feels).",
+      "label": "Background",
+      "prob": 0.4011559784412384
+    },
+    {
+      "sentence": "Our records indicate that you received the following state otter animation from your partner today around (time).",
+      "label": "Background",
+      "prob": 0.4004630744457245
+    },
+    {
+      "sentence": "The sensed state otters [with sensing ON] hit closer to home than [with sensing OFF], where they were just",
+      "label": "Other",
+      "prob": 0.4981613755226135
+    },
+    {
+      "sentence": "We ran this pilot for three weeks with three couples (employees of the same technology company and their significant others).",
+      "label": "Background",
+      "prob": 0.39596399664878845
+    },
+    {
+      "sentence": "After updating to sensing ON, participants perceived that the state list was personalized to them, where the sensed states were more accurate to how they were feeling or what they were doing than the randomized states.",
+      "label": "Result",
+      "prob": 0.4461941123008728
+    },
+    {
+      "sentence": "2. You mentioned in our last interview that V1 of the app was (describe what they said about how it compared to the other ways they communicate in the mid-study interview).",
+      "label": "Background",
+      "prob": 0.3925912380218506
+    },
+    {
+      "sentence": "(a) Message from your otter notification on my WATCH.",
+      "label": "Background",
+      "prob": 0.3922341763973236
+    },
+    {
+      "sentence": "During the study, we made updates to the app and some study materials to address issues that emerged as participants used the app.",
+      "label": "Background",
+      "prob": 0.39152970910072327
+    },
+    {
+      "sentence": "(c) I opened the app on my PHONE and saw it.",
+      "label": "Background",
+      "prob": 0.38923054933547974
+    },
+    {
+      "sentence": "After the session, participants were given a $75 Amazon gift card as mid-point compensation.",
+      "label": "Background",
+      "prob": 0.38836729526519775
+    },
+    {
+      "sentence": "Subjective understandings of sensing and emotions.",
+      "label": "Background",
+      "prob": 0.38770997524261475
+    },
+    {
+      "sentence": "The notification includes an icon representing their partners react otter.",
+      "label": "Background",
+      "prob": 0.38482946157455444
+    },
+    {
+      "sentence": "This was reinforced by the smartwatch, which participants were more compelled to use in the latter half of the study in order for the sensing feature to work.",
+      "label": "Result",
+      "prob": 0.5101865530014038
+    },
+    {
+      "sentence": "We build on this work through our comparison of participants usage of Significant Otter with sensing OFF and ON.",
+      "label": "Background",
+      "prob": 0.37840381264686584
+    },
+    {
+      "sentence": "45 participants interpreted characteristics of each react (e.g., extent of emotional support it provides), gave an example text message that would prompt them to use it as a response, and wrote the response that they believed it conveyed in words (see supplemental materials).",
+      "label": "Background",
+      "prob": 0.37670430541038513
+    },
+    {
+      "sentence": "For most participants, Significant Otter with sensing ON mitigated some of the issues with sensing OFF and enhanced participants ability to connect with each other.",
+      "label": "Result",
+      "prob": 0.5399510860443115
+    },
+    {
+      "sentence": "(or not react) 2. Here are some examples of the state otters you received from your partner over the past two weeks (show slide of top 5), and some examples of react otters you sent to them.",
+      "label": "Background",
+      "prob": 0.37357789278030396
+    },
+    {
+      "sentence": "We show multiple shareable states due to limitations in detecting emotions from signals available on the watch (e.g., low granularity of heart rate, determining valence), as well as recommendations from prior work [42] to explore systems that collaborate with the user to determine their state.",
+      "label": "Background",
+      "prob": 0.3733269274234772
+    },
+    {
+      "sentence": "The pilot included seven couples (employees of a technology company and their significant others) who used the app freely for one week and were asked about their usage and perceptions of the app.",
+      "label": "Background",
+      "prob": 0.37024757266044617
+    },
+    {
+      "sentence": "Categories were the same for the mid-study and exit interviews, with the addition of categories for the exit interview specific to sensing (e.g., how sensing worked) and external factors that affected usage (e.g., novelty effects, COVID-19-related changes).",
+      "label": "Background",
+      "prob": 0.3664454221725464
+    },
+    {
+      "sentence": "2. You mentioned for V1, that you sent your state otter when (describe instances they sent them from the mid-study interview).",
+      "label": "Other",
+      "prob": 0.38152557611465454
+    },
+    {
+      "sentence": "In order to capture participants perceptions of the app and behaviors throughout the study, we asked participants via email to complete brief daily surveys about how they used the app that day (see supplemental materials).",
+      "label": "Background",
+      "prob": 0.36548975110054016
+    },
+    {
+      "sentence": "1. Please describe any instances in which you and your partner talked about the app.",
+      "label": "Other",
+      "prob": 0.3738706707954407
+    },
+    {
+      "sentence": "For the purposes of this study, we focus on communication between romantic couples.",
+      "label": "Background",
+      "prob": 0.3643302917480469
+    },
+    {
+      "sentence": "We designed Significant Otter to provide a playful way for couples to communicate.",
+      "label": "Background",
+      "prob": 0.3611336648464203
+    },
+    {
+      "sentence": "Now I want to ask you about your communication more generally.",
+      "label": "Other",
+      "prob": 0.5233430862426758
+    },
+    {
+      "sentence": "We designed, developed, and deployed Significant Otter, an Apple Watch and iPhone app that enables romantic couples to send heart rate-driven otter animations as messages to each other.",
+      "label": "Background",
+      "prob": 0.3597757816314697
+    },
+    {
+      "sentence": "Our records indicate that you sent the following state otter animation today, around (time).",
+      "label": "Background",
+      "prob": 0.35884889960289
+    },
+    {
+      "sentence": "We explore these possibilities by comparing communication with and without biosignals.",
+      "label": "Background",
+      "prob": 0.3581297993659973
+    },
+    {
+      "sentence": "We selected the final set of reacts to cover diverse possible responses to the Significant Otter states.",
+      "label": "Background",
+      "prob": 0.3547579348087311
+    },
+    {
+      "sentence": "To understand the effects of biosignals-based recommendations, we compare peoples perceptions of their communication when they can share from a set of random versus sensed states, described in more detail in Section 3.",
+      "label": "Background",
+      "prob": 0.3534984886646271
+    },
+    {
+      "sentence": "Participants used the app daily even after novelty effects wore off, sending an average of 1.66 states and 0.71 reacts per day with sensing OFF (week 2) and an average of 1.54 states and 0.54 reacts with sensing ON (week 4).",
+      "label": "Result",
+      "prob": 0.358109712600708
+    },
+    {
+      "sentence": "Participants took a screening survey to ensure that they met the study requirements.",
+      "label": "Background",
+      "prob": 0.3523789346218109
+    },
+    {
+      "sentence": "She explained that since her partner was sharing his emotions with her, she should put more effort into reacting:",
+      "label": "Other",
+      "prob": 0.4250766634941101
+    },
+    {
+      "sentence": "(b) I opened the app on my WATCH and saw it.",
+      "label": "Background",
+      "prob": 0.3516332507133484
+    },
+    {
+      "sentence": "Note that these are not necessarily matched up with each other.",
+      "label": "Other",
+      "prob": 0.3680955767631531
+    },
+    {
+      "sentence": "We present qualitative results from interviews during the study and discuss opportunities and challenges for biosignals in communication.",
+      "label": "Result",
+      "prob": 0.4045220613479614
+    },
+    {
+      "sentence": "Our results suggest that biosignals helped reduce this ambiguity, where participants no longer assigned different meanings to the animations.",
+      "label": "Result",
+      "prob": 0.5165271759033203
+    },
+    {
+      "sentence": "We ran a survey on Mechanical Turk to understand how people perceive the react animations in order to select the most relevant ones.",
+      "label": "Background",
+      "prob": 0.341117262840271
+    },
+    {
+      "sentence": "1. Please describe one noteworthy experience you had with the app today (e.g.,whether you noticed anything new, learned a new function, used the app in a new way).",
+      "label": "Background",
+      "prob": 0.3406006097793579
+    },
+    {
+      "sentence": "To our knowledge, only a few studies have compared the presence and absence of biosignals in social contexts [9, 26, 43, 46].",
+      "label": "Other",
+      "prob": 0.5675896406173706
+    },
+    {
+      "sentence": "Note that these are not necessarily matched with each other.",
+      "label": "Other",
+      "prob": 0.4223555028438568
+    },
+    {
+      "sentence": "Biosignals are personal and private data that require careful design and consideration [20, 22, 26, 41].",
+      "label": "Other",
+      "prob": 0.5986243486404419
+    },
+    {
+      "sentence": "Sensing ON also shows a heart icon to indicate that the state is selected from the sensed list.",
+      "label": "Result",
+      "prob": 0.44452688097953796
+    },
+    {
+      "sentence": "Results from the second pilot study suggested that people are less likely to engage with the app when collocated with their partner (e.g., if they were both",
+      "label": "Other",
+      "prob": 0.4496573507785797
+    },
+    {
+      "sentence": "Then, we instructed them on using the app, and asked them to test it during the session to ensure that it was installed and working correctly.",
+      "label": "Method",
+      "prob": 0.40235674381256104
+    },
+    {
+      "sentence": "They suggest that AI-mediated communication systems may have important effects on interpersonal dynamics, including self-presentation and disclosure, and subsequently, meaningful and intimate relationships [25].",
+      "label": "Other",
+      "prob": 0.5561349391937256
+    },
+    {
+      "sentence": "Opening the notification shows an icon of an available state animation.",
+      "label": "Result",
+      "prob": 0.388385146856308
+    },
+    {
+      "sentence": "During the installation, participants completed a short questionnaire about their background and relationship with their partner.",
+      "label": "Result",
+      "prob": 0.40501540899276733
+    },
+    {
+      "sentence": "Significant Otter initially had 22 react animations, which were designed based on social support literature and existing react systems [61].",
+      "label": "Other",
+      "prob": 0.49402520060539246
+    },
+    {
+      "sentence": "10. There are lots of reasons why participation in the study may have changed since the update.",
+      "label": "Result",
+      "prob": 0.5174007415771484
+    },
+    {
+      "sentence": "We designed Significant Otter based on prior expressive biosignals systems tested in everyday contexts [41, 42].",
+      "label": "Other",
+      "prob": 0.5464036464691162
+    },
+    {
+      "sentence": "We ran a month-long within-subjects field study on Significant Otter, an Apple Watch and iPhone app that enables biosignals sharing through animated otter messages, to explore the role of biosignals in communication.",
+      "label": "Background",
+      "prob": 0.3131868243217468
+    },
+    {
+      "sentence": "Many participants also described getting used to the app during the second half of the study.",
+      "label": "Result",
+      "prob": 0.5419518947601318
+    },
+    {
+      "sentence": "However, some participants were frustrated with access to only two to",
+      "label": "Other",
+      "prob": 0.5789961814880371
+    },
+    {
+      "sentence": "First, we ran a non-counterbalanced within-subjects study in order to reduce confusion in participants mental model of the app, where sensing was a feature update rather than a feature being removed.",
+      "label": "Method",
+      "prob": 0.38472792506217957
+    },
+    {
+      "sentence": "After completing the interview, participants installed and were given instructions on the sensing ON version of the app.",
+      "label": "Result",
+      "prob": 0.38774561882019043
+    },
+    {
+      "sentence": "Specifically, we investigate communication and social connection between couples who shift from a sensing OFF version, with no biosignals, to sensing ON, with biosignals.",
+      "label": "Result",
+      "prob": 0.40893399715423584
+    },
+    {
+      "sentence": "To limit the number of available states according to our pilot results, we included only a few greeting and affection states such that we could cover a sufficient number of sensed states (emotions and activities) to address our research questions.",
+      "label": "Result",
+      "prob": 0.47869816422462463
+    },
+    {
+      "sentence": "We then performed axial coding by grouping similar codes together and analyzing them to form cross-cutting themes.",
+      "label": "Method",
+      "prob": 0.4489296078681946
+    },
+    {
+      "sentence": "3. You mentioned for V1, that you sent a react otter when (describe instances/reasons for sending them described in mid-study interview).",
+      "label": "Other",
+      "prob": 0.4080592095851898
+    },
+    {
+      "sentence": "Second, Slovk and colleagues suggest that biosignals indicate a persons physical being as a representation of the daily physiological workings of our heart and other organs, thereby creating feelings of presence [57], which can lead to feelings of connectedness [24].",
+      "label": "Other",
+      "prob": 0.3504922389984131
+    },
+    {
+      "sentence": "First, we segmented the transcripts into high-level categories according to our interview protocol, which highlighted the different aspects of communication (e.g., content of what they sent, thoughts about their partners sent state, feedback provided, etc.).",
+      "label": "Result",
+      "prob": 0.3394472002983093
+    },
+    {
+      "sentence": "2. Here are some examples of the state otters youve sent over the past two weeks (show slide of top 5), and some examples of the react otters your partner sent to you.",
+      "label": "Result",
+      "prob": 0.3570388853549957
+    },
+    {
+      "sentence": "In platforms such as texting and mobile messaging, they could also could easily start new conversations about the states they share, a common pattern we observed in our study.",
+      "label": "Result",
+      "prob": 0.600144624710083
+    },
+    {
+      "sentence": "We recruited 21 romantic couples; however, one couple was removed at the start of the study due to failing to meet the minimum participation requirement (explained in the Procedure below).",
+      "label": "Result",
+      "prob": 0.42244186997413635
+    },
+    {
+      "sentence": "So that was a pretty safe response.",
+      "label": "Other",
+      "prob": 0.4835105240345001
+    },
+    {
+      "sentence": "4. You mentioned for V1, that you sent react otters that (describe the way they matched react otters in the mid-study interview).",
+      "label": "Other",
+      "prob": 0.4402114748954773
+    },
+    {
+      "sentence": "They reacted with (describe any react otters).",
+      "label": "Other",
+      "prob": 0.4538439214229584
+    },
+    {
+      "sentence": "We include these notifications to encourage people to share their current state with their partner.",
+      "label": "Result",
+      "prob": 0.374341756105423
+    },
+    {
+      "sentence": "RQ2: How does shifting from sensing OFF to sensing",
+      "label": "Other",
+      "prob": 0.32637494802474976
+    },
+    {
+      "sentence": "To address these issues, we explore the design of an expressive biosignal system with a lower level of autonomy , i.e., the degree of control it has over messages [25].",
+      "label": "Result",
+      "prob": 0.40208855271339417
+    },
+    {
+      "sentence": "We compared participants usage of Significant Otter with and without biosignals.",
+      "label": "Result",
+      "prob": 0.4652593731880188
+    },
+    {
+      "sentence": "We provide insights on the opportunities and challenges around integrating biosignals into communication and make recommendations for future research and design, including applying biosignals to existing communication platforms to promote open communication as enhanced emojis, and exploring greater user involvement in AI-recommended states.",
+      "label": "Method",
+      "prob": 0.30600324273109436
+    },
+    {
+      "sentence": "During the call, we conducted a semi-structured interview about participants experiences with the sensing OFF version of the app (see supplemental materials).",
+      "label": "Result",
+      "prob": 0.3293987512588501
+    },
+    {
+      "sentence": "First, they suggest that expressive biosignals are a form of emotional self-disclosure, as they can represent our internal emotional reactions during personal experiences [57].",
+      "label": "Other",
+      "prob": 0.5836774110794067
+    },
+    {
+      "sentence": "Overall, participants sent a total of 2,474 states and 987 reacts during the study.",
+      "label": "Result",
+      "prob": 0.5870189070701599
+    },
+    {
+      "sentence": "During the call, we conducted a semi-structured interview about participants experiences with the sensing ON version of the app.",
+      "label": "Result",
+      "prob": 0.3004743754863739
+    },
+    {
+      "sentence": "<GIF of the state animation sent> Please answer the questions below about this animation.",
+      "label": "Other",
+      "prob": 0.47496652603149414
+    },
+    {
+      "sentence": "I was just trying to say no hostility as well, cause I didnt",
+      "label": "Other",
+      "prob": 0.632623553276062
+    },
+    {
+      "sentence": "Participants similarly felt that their partner was conveying their honest state with them.",
+      "label": "Result",
+      "prob": 0.522172749042511
+    },
+    {
+      "sentence": "Please answer the questions below about viewing your partners state otter animation.",
+      "label": "Other",
+      "prob": 0.44541293382644653
+    },
+    {
+      "sentence": "The interview was similar to the mid-study interview, with the addition of questions about how they understood and perceived sensing in the app (see supplemental materials).",
+      "label": "Other",
+      "prob": 0.3703107535839081
+    },
+    {
+      "sentence": "For Significant Otter, we lowered the autonomy of the system [25], where the app suggested both a single state in notifications and a list of possible states within the app.",
+      "label": "Result",
+      "prob": 0.6181094646453857
+    },
+    {
+      "sentence": "After the session, participants were compensated with another $75 Amazon gift card for completing the study.",
+      "label": "Result",
+      "prob": 0.5133313536643982
+    },
+    {
+      "sentence": "We made this decision based on prior work [41], which shows that raw data is less engaging and requires additional contextual clarification that may not be feasible on a lightweight smartwatch communication app.",
+      "label": "Result",
+      "prob": 0.5210744142532349
+    },
+    {
+      "sentence": "That would be the otter that I was trying to send anyway...so once I realized that thats what was",
+      "label": "Other",
+      "prob": 0.6640065312385559
+    },
+    {
+      "sentence": "The states are randomized every 10 minutes to match the frequency of sensing states with sensing ON.",
+      "label": "Result",
+      "prob": 0.4734558165073395
+    },
+    {
+      "sentence": "13 participants identified as Hispanic, Latino or Spanish, 11 as White/Caucasian, 9 as Asian, 4 as Black/African-American, 1 as Native Hawaiian or other Pacific Islander, 1 as Asian/Hispanic, and 1 as Biracial.",
+      "label": "Other",
+      "prob": 0.4136824905872345
+    },
+    {
+      "sentence": "5. You mentioned for V1, that you reacted on (describe other platforms they used to react stated in the mid-study interview).",
+      "label": "Other",
+      "prob": 0.4409477710723877
+    },
+    {
+      "sentence": "That is, the system determines an interpretation for a users heart rate by mapping it to multiple possible states, as opposed to presenting raw biosignals data (e.g., a heart rate number) [17].",
+      "label": "Other",
+      "prob": 0.6340135335922241
+    },
+    {
+      "sentence": "For instance, couples can interpret work breaks or distance from home based how many steps their partner has made [14].",
+      "label": "Other",
+      "prob": 0.6787394881248474
+    },
+    {
+      "sentence": "It can support expressivity by providing an emotional language for couples through otter animations embedded with heart rate, which communication partners can use to create emotional meaning together [41].",
+      "label": "Other",
+      "prob": 0.6233087182044983
+    },
+    {
+      "sentence": "We chose emotion and activity animations according to expressions through biosignals shown in prior work [41].",
+      "label": "Other",
+      "prob": 0.4851468503475189
+    },
+    {
+      "sentence": "A recent controlled study also showed that biosignals increase emotional perspectivetaking, or imagining someone elses emotions, in the context of a narrative story [43].",
+      "label": "Other",
+      "prob": 0.5435908436775208
+    },
+    {
+      "sentence": "In this section, we describe how participants used Significant Otter during the study and provide detailed insights around the reasons behind their usage for both versions of the app.",
+      "label": "Result",
+      "prob": 0.4520326554775238
+    },
+    {
+      "sentence": "The number of sent messages dropped by 605 messages between the first and second week of using sensing OFF, compared to a drop of 77 messages between the first and second week of using sensing ON.",
+      "label": "Result",
+      "prob": 0.5881288647651672
+    },
+    {
+      "sentence": "This included emotions (similar to states), acknowledging the senders state or receipt of their state (e.g., I agree or OK), showing caring and affection for the sender (e.g., Im here for you or I love you), and indicating a desire for followup on a different platform (e.g., Call me ASAP).",
+      "label": "Other",
+      "prob": 0.4282146692276001
+    },
+    {
+      "sentence": "Quick reacts are only featured on the",
+      "label": "Other",
+      "prob": 0.5265063047409058
+    },
+    {
+      "sentence": "We included greeting and affection animations to represent minimal expressions of mutual affection [16], which prior work suggests are common use cases (hello, thinking of you) on similar apps [42].",
+      "label": "Other",
+      "prob": 0.5086801648139954
+    },
+    {
+      "sentence": "Our records indicate that your partner reacted to the state otter above with this react otter.",
+      "label": "Result",
+      "prob": 0.6160487532615662
+    },
+    {
+      "sentence": "Finally, the apps heart rate animations can enable awareness by providing contextual cues that display presence, activities, and mood [17, 42].",
+      "label": "Other",
+      "prob": 0.6346385478973389
+    },
+    {
+      "sentence": "During this session, participants installed Significant Otter with sensing OFF on their iPhone and Apple Watch through Apples TestFlight 8 and added the app as a complication on their watch.",
+      "label": "Result",
+      "prob": 0.6357896327972412
+    },
+    {
+      "sentence": "Eating is detected based on common meal times in the US (11AM-2PM and 5PM-8PM) [38] and neutral or high arousal [54], while sleeping is detected based on common bedtimes and hours slept in the US (10PM-8AM) [33] and low or neutral arousal [37].",
+      "label": "Other",
+      "prob": 0.4811898171901703
+    },
+    {
+      "sentence": "4.2.5 Adjustments and Issues During the Study.",
+      "label": "Result",
+      "prob": 0.3702394366264343
+    },
+    {
+      "sentence": "So knowing that he actually felt that way and [was] probably a P37",
+      "label": "Other",
+      "prob": 0.710516095161438
+    },
+    {
+      "sentence": "We developed Significant Otter as a watch-first app, since smartwatches can be an unobtrusive and lightweight platform for communicating biosignals [42], but we included a phone version due to Apples watch app requirements at the time.",
+      "label": "Result",
+      "prob": 0.5051421523094177
+    },
+    {
+      "sentence": "This category simply contains waving.",
+      "label": "Other",
+      "prob": 0.5253982543945312
+    },
+    {
+      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan",
+      "label": "Other",
+      "prob": 0.7494847178459167
+    },
+    {
+      "sentence": "Hassib and colleagues showed that when accessing someones heart rate on a mobile messaging app, people can recognize when that person is angry or on their way home [17].",
+      "label": "Other",
+      "prob": 0.6928601264953613
+    },
+    {
+      "sentence": "Awareness of ones partner has been explored in systems that display a partners presence, activities, and mood through availability [6, 10] or sensed contextual information like location [2, 66], motion [3, 67], and heart rate [17], or a combination of these data [14].",
+      "label": "Other",
+      "prob": 0.5311435461044312
+    },
+    {
+      "sentence": "Im pretty open with my feelings overall in life and with my partner, [but with Significant Otter] Im more open to be like, honest, I guess, like totally 100% honest compared to 95% honest...the 5% can sometimes make a big difference.... I would send the [stressed otter] instead of being like, Oh, I dont want to look weak right now by showing that I am stressed. P14 I feel like [with sensing OFF]...I wouldnt know if that was actually how he was feeling or if he just picked [a smiley one]...just to send something nice.",
+      "label": "Other",
+      "prob": 0.6128434538841248
+    },
+    {
+      "sentence": "This aligns with prior work [42], which similarly showed that people can easily keep in touch through sharing biosignals-driven animated shapes on their smartwatch.",
+      "label": "Result",
+      "prob": 0.6910927891731262
+    },
+    {
+      "sentence": "With [sensing ON] it was like always asking yourself whether or not you really felt that way before sending it. And so I dont know if sometimes that would influence you to send it anyways or influence you to maybe feel that way. Yeah so, I do prefer [sensing OFF,] that way whatever youre feeling...youre able to just think of it on your own and just send it. P18",
+      "label": "Other",
+      "prob": 0.542811393737793
+    },
+    {
+      "sentence": "Based on feedback from the first pilot study, we reduced the number of reacts to increase usability.",
+      "label": "Result",
+      "prob": 0.49156948924064636
+    },
+    {
+      "sentence": "Based on their responses, we iterated on the app to improve its usability.",
+      "label": "Result",
+      "prob": 0.3846661150455475
+    },
+    {
+      "sentence": "The ranges are shown in Figure 2, and were determined through empirical testing within the research team.",
+      "label": "Result",
+      "prob": 0.6199327111244202
+    },
+    {
+      "sentence": "We explained that with sensing ON, the app displays state animations based on heart rate using Health data from the Apple Watch 9 .",
+      "label": "Result",
+      "prob": 0.473296195268631
+    },
+    {
+      "sentence": "This enabled us to analyze similar concepts together.",
+      "label": "Result",
+      "prob": 0.4486558437347412
+    },
+    {
+      "sentence": "We address this gap through a field study with couples who used two versions of Significant Otter, an expressive biosignals app.",
+      "label": "Other",
+      "prob": 0.5117414593696594
+    },
+    {
+      "sentence": "For instance, Howell and colleagues showed that listening to someones heartbeat on a bench can elicit a sense of being alive and connected to another living person [23].",
+      "label": "Other",
+      "prob": 0.7303268313407898
+    },
+    {
+      "sentence": "When I was sending the message, my intent behind it wasnt, Oh, Im reminding you to do something. Im sharing my mood with you...[sensing OFF] was just more inclined to him and [sensing ON] was more inclined to me. P36 I think its different insofar that I felt like she really wasnt sending random ones.",
+      "label": "Other",
+      "prob": 0.5666439533233643
+    },
+    {
+      "sentence": "Our results suggest that sharing sensed states can promote efficient and personal communication between couples, and help them feel connected with each other.",
+      "label": "Result",
+      "prob": 0.7060641646385193
+    },
+    {
+      "sentence": "Researchers have shown that expressive biosignals , or biosignals displayed as a social cue, have the potential to facilitate communication as a means to recognize and express our emotions and physical being [21, 23, 26, 4043, 50, 55, 57].",
+      "label": "Other",
+      "prob": 0.6869663000106812
+    },
+    {
+      "sentence": "They achieved fuzzy Fleiss kappas [34] above 0.7.",
+      "label": "Other",
+      "prob": 0.5248449444770813
+    },
+    {
+      "sentence": "We analyzed transcripts of the mid-study and exit interviews using a grounded theory approach [58], focused on how participants perceptions and behaviors shifted between the two versions of the app.",
+      "label": "Result",
+      "prob": 0.5745250582695007
+    },
+    {
+      "sentence": "So it narrowed it down better.",
+      "label": "Other",
+      "prob": 0.5040512084960938
+    },
+    {
+      "sentence": "know what the other otter was doing.",
+      "label": "Other",
+      "prob": 0.6380767226219177
+    },
+    {
+      "sentence": "Moreover, Liu and colleagues suggest that remote interactants can feel present with each other when sharing their biosignals over smartwatches [42].",
+      "label": "Other",
+      "prob": 0.740118682384491
+    },
+    {
+      "sentence": "CHI 21, May 813, 2021, Yokohama, Japan  2021 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.8070082068443298
+    },
+    {
+      "sentence": "P14 noted that the sensing feature gave him a reason to use his watch:",
+      "label": "Other",
+      "prob": 0.5417432188987732
+    },
+    {
+      "sentence": "The first two or three times [that I got the sensed notifications] they were on target as far as...the way I was feeling....",
+      "label": "Other",
+      "prob": 0.7494668364524841
+    },
+    {
+      "sentence": "Before the session, participants completed a mid-study questionnaire similar to the onboarding questionnaire, with the addition of questions about COVID-19-related changes they experienced since the start of the study.",
+      "label": "Result",
+      "prob": 0.6996520161628723
+    },
+    {
+      "sentence": "We describe the full Significant Otter system in Section 3.",
+      "label": "Result",
+      "prob": 0.45271745324134827
+    },
+    {
+      "sentence": "6.2.2 Addressing user expectations for sensing.",
+      "label": "Other",
+      "prob": 0.5293559432029724
+    },
+    {
+      "sentence": "The second pilot tested transitioning from sensing OFF to sensing ON.",
+      "label": "Result",
+      "prob": 0.709086000919342
+    },
+    {
+      "sentence": "Table 3 summarizes the demographic information per couple.",
+      "label": "Result",
+      "prob": 0.6036497950553894
+    },
+    {
+      "sentence": "Research suggests several possibilities for expressive biosignals to improve how we interact today, drawing from their potential to validate feelings as objective cues [22, 41, 55].",
+      "label": "Other",
+      "prob": 0.6775417923927307
+    },
+    {
+      "sentence": "Because it knows exactly how youre feeling versus like me having to look through it and kinda of tick something. Because sometimes I dont even know how Im feeling...you dont really think about how youre feeling until you have to...sit and think about it. P9",
+      "label": "Other",
+      "prob": 0.7578651905059814
+    },
+    {
+      "sentence": "We found that varying perceptions of accuracy and agency over the animations affected participants ability to use the sensing ON version of the app.",
+      "label": "Result",
+      "prob": 0.7161795496940613
+    },
+    {
+      "sentence": "The sensing ON version senses these states using heart rate data extracted from HealthKit.",
+      "label": "Result",
+      "prob": 0.5105869174003601
+    },
+    {
+      "sentence": "The study consisted of the following sessions:",
+      "label": "Result",
+      "prob": 0.406777024269104
+    },
+    {
+      "sentence": "based on what she was doing.",
+      "label": "Other",
+      "prob": 0.6355963349342346
+    },
+    {
+      "sentence": "The results confirmed that people viewed sensing ON as a feature update that included biosignals, and provided initial insights that informed the development of the study materials.",
+      "label": "Result",
+      "prob": 0.7601094245910645
+    },
+    {
+      "sentence": "We are also grateful to David Lin for his help with our qualitative analysis, and Sven Kratz for his feedback on our paper submission.",
+      "label": "Other",
+      "prob": 0.6768686771392822
+    },
+    {
+      "sentence": "We detail our system in the following section.",
+      "label": "Result",
+      "prob": 0.4717608094215393
+    },
+    {
+      "sentence": "Before the session, participants completed a questionnaire identical to the mid-study questionnaire.",
+      "label": "Result",
+      "prob": 0.6701010465621948
+    },
+    {
+      "sentence": "Moreover, novelty effects were much stronger for sensing OFF than for sensing ON.",
+      "label": "Result",
+      "prob": 0.7812014818191528
+    },
+    {
+      "sentence": "We ran two pilot studies as initial tests for Significant Otter.",
+      "label": "Result",
+      "prob": 0.6739834547042847
+    },
+    {
+      "sentence": "Since valence cannot be determined from the heart rate data, the system suggests states according to arousal levels determined from the data [11].",
+      "label": "Other",
+      "prob": 0.6613190770149231
+    },
+    {
+      "sentence": "Additionally, the shortest relationship length among participants was 11 months.",
+      "label": "Result",
+      "prob": 0.7401568293571472
+    },
+    {
+      "sentence": "Like that walking otter...she might [react with a] thumbs up, but that doesnt necessarily mean that...shes understanding that the walking otter means that I would like to go for a walk...the thumbs up could be, yes, I want to go for a walk too. It could be like, walking is good. So I mean, theres not a lot of clarity with just having the simplistic reaction. P38 I was confused about that otter...out of my confusion I replied with him because he looked pretty chill....",
+      "label": "Other",
+      "prob": 0.7081184983253479
+    },
+    {
+      "sentence": "For instance, we determined the final list of animations based on the pilot results, which suggested that we should include states that people typically relate to heart rate (e.g., exercise), as well as limit the number of available animations for usability.",
+      "label": "Result",
+      "prob": 0.7687345743179321
+    },
+    {
+      "sentence": "Notifications",
+      "label": "Other",
+      "prob": 0.7039777636528015
+    },
+    {
+      "sentence": "Notifications",
+      "label": "Other",
+      "prob": 0.7039777636528015
+    },
+    {
+      "sentence": "3.2.1 State animations.",
+      "label": "Other",
+      "prob": 0.6505790948867798
+    },
+    {
+      "sentence": "4.2.2 Daily Usage of Significant Otter.",
+      "label": "Other",
+      "prob": 0.7567746043205261
+    },
+    {
+      "sentence": "Less ambiguity.",
+      "label": "Other",
+      "prob": 0.7195087671279907
+    },
+    {
+      "sentence": "little bit happy...was good.",
+      "label": "Other",
+      "prob": 0.7650021910667419
+    },
+    {
+      "sentence": "Seattle, WA, USA ttsai@snap.com",
+      "label": "Other",
+      "prob": 0.8555569052696228
+    },
+    {
+      "sentence": "In a one-month within-subjects field study, we investigate how couples behaviors and perceptions are affected when shifting from a sensing OFF version of the app, with no biosignals sensed, to a sensing ON version, with biosignals sensed.",
+      "label": "Result",
+      "prob": 0.6418274641036987
+    },
+    {
+      "sentence": "Next, we developed",
+      "label": "Result",
+      "prob": 0.4196869134902954
+    },
+    {
+      "sentence": "Chunjong Park University of Washington Seattle, WA, USA cjparkuw@cs.washington.edu",
+      "label": "Other",
+      "prob": 0.8674651980400085
+    },
+    {
+      "sentence": "P35 It was interesting that both of our bodys responses were being recorded. Thats what I mean by feeling connected like were not physically together, but youre still able to get a sense of their actual bodily responses through the app, like through technology, and that was cool. P31",
+      "label": "Other",
+      "prob": 0.628855288028717
+    },
+    {
+      "sentence": "The core contributions of this work are: (1) Significant Otter 2 , a novel smartwatch and phone app that promotes communication and connection between romantic partners through animated avatars recommended based on heart rate; (2) an empirical study with 20 couples who used Significant Otter with sensing OFF and ON that demonstrates the value of biosignals as a lightweight and authentic social cue; (3) design implications and future directions for expressive biosignals research, including suggestions for integration into social platforms as a form of AI-mediated communication.",
+      "label": "Result",
+      "prob": 0.6059757471084595
+    },
+    {
+      "sentence": "For both app versions, we observed novelty effects in the first week after installation (weeks 1 and 3) 10 .",
+      "label": "Other",
+      "prob": 0.5119869112968445
+    },
+    {
+      "sentence": "I think with [sensing ON] it was me sending stuff based on what I think the watch read that I felt. So it wasnt me taking the time and going through and saying, yeah, this is the one. It was like, the watch said this is how I feel. So I guess this is how I feel. Let me send it. [It] was almost more impersonal, even though it was reading off of my data. P2",
+      "label": "Other",
+      "prob": 0.575688898563385
+    },
+    {
+      "sentence": "and closeness in relationships [1, 39].",
+      "label": "Other",
+      "prob": 0.8332551717758179
+    },
+    {
+      "sentence": "3.2.2 React animations.",
+      "label": "Other",
+      "prob": 0.7169109582901001
+    },
+    {
+      "sentence": "2. How has using the app been similar or different to other ways in which you communicate with your partner?",
+      "label": "Other",
+      "prob": 0.8615293502807617
+    },
+    {
+      "sentence": "Finally, we refined these themes according to our research questions.",
+      "label": "Result",
+      "prob": 0.6773247718811035
+    },
+    {
+      "sentence": "I feel like [the otters] a way of him reaching out. So for me to just wait [to] respond and not really think much of it, it feels rude not to validate whatever he sent out, because that is...like a virtual extension of him. So I felt like I needed to respond to it as soon as I saw. P31",
+      "label": "Other",
+      "prob": 0.802119791507721
+    },
+    {
+      "sentence": "Greetings.",
+      "label": "Other",
+      "prob": 0.830849826335907
+    },
+    {
+      "sentence": "ACM ISBN 978-1-4503-8096-6/21/05.",
+      "label": "Other",
+      "prob": 0.8739150166511536
+    },
+    {
+      "sentence": "Our records indicate that you reacted with the following animation: <GIF of the react animation sent>",
+      "label": "Other",
+      "prob": 0.7441908121109009
+    },
+    {
+      "sentence": "Thus, we target the closest partners: significant others.",
+      "label": "Result",
+      "prob": 0.5876802206039429
+    },
+    {
+      "sentence": "3.5.3 Users own state otter.",
+      "label": "Other",
+      "prob": 0.8325653672218323
+    },
+    {
+      "sentence": "Receiving your Partners State Otter",
+      "label": "Other",
+      "prob": 0.8472978472709656
+    },
+    {
+      "sentence": "f. (if they sent a react otter) How did you decide which otter to react with?",
+      "label": "Other",
+      "prob": 0.8793880343437195
+    },
+    {
+      "sentence": "If yes, why did you decide not to send those state otters?",
+      "label": "Other",
+      "prob": 0.8727421164512634
+    },
+    {
+      "sentence": "Seattle, WA, USA yujiang@snap.com",
+      "label": "Other",
+      "prob": 0.8929089307785034
+    },
+    {
+      "sentence": "1. What has your experience with the app been like overall so far?",
+      "label": "Other",
+      "prob": 0.877168595790863
+    },
+    {
+      "sentence": "Sharing Behavior",
+      "label": "Other",
+      "prob": 0.756057858467102
+    },
+    {
+      "sentence": "RQ1: How does shifting from sensing OFF to sensing ON affect the stages of communication (sending, understanding, responding) between couples?",
+      "label": "Other",
+      "prob": 0.852613627910614
+    },
+    {
+      "sentence": "We would like to thank John Tang and Mayank Goel for their early suggestions that helped shape our study design, as well as their feedback on our results.",
+      "label": "Result",
+      "prob": 0.8080966472625732
+    },
+    {
+      "sentence": "Results showed that biosignals",
+      "label": "Result",
+      "prob": 0.7323122024536133
+    },
+    {
+      "sentence": "4. Did you ever use the app in conjunction with other communication channels, such as in conversation or with any of the apps you just mentioned?",
+      "label": "Other",
+      "prob": 0.8839481472969055
+    },
+    {
+      "sentence": "<GIF of the state animation received>",
+      "label": "Other",
+      "prob": 0.8404333591461182
+    },
+    {
+      "sentence": "Im not really super attached to this watch compared to my phone.... So I think having a reason to want to use the watch for this app and its sensing my vitals and things like that is...a good thing to include in this type of app. P14",
+      "label": "Other",
+      "prob": 0.8183295130729675
+    },
+    {
+      "sentence": "5. Were there any times you saw a state otter that did match your mood that you decided not to send?",
+      "label": "Other",
+      "prob": 0.8703758716583252
+    },
+    {
+      "sentence": "React Behavior",
+      "label": "Other",
+      "prob": 0.8127994537353516
+    },
+    {
+      "sentence": "React Behavior",
+      "label": "Other",
+      "prob": 0.8127995133399963
+    },
+    {
+      "sentence": "I feel like they were more",
+      "label": "Other",
+      "prob": 0.8614908456802368
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:729)(cid:730)(cid:738)(cid:740)(cid:739)(cid:744)(cid:745)(cid:743)(cid:726)(cid:745)(cid:730)(cid:744)(cid:3) (cid:726)(cid:735)(cid:738)(cid:742)(cid:728)(cid:737)(cid:728)(cid:742)(cid:742)(cid:3)(cid:667)(cid:732)(cid:673)(cid:728)(cid:673)(cid:671)(cid:3)(cid:732)(cid:737)(cid:743)(cid:732)(cid:736)(cid:724)(cid:726)(cid:748)(cid:3)(cid:724)(cid:737)(cid:727) (cid:729)(cid:724)(cid:736)(cid:732)(cid:735)(cid:732)(cid:724)(cid:741)(cid:732)(cid:743)(cid:748)(cid:668)(cid:3)(cid:743)(cid:738)(cid:746)(cid:724)(cid:741)(cid:727)(cid:742)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)(cid:3)(cid:739)(cid:724)(cid:741)(cid:743)(cid:737)(cid:728)(cid:741) (cid:692)",
+      "label": "Other",
+      "prob": 0.8737561702728271
+    },
+    {
+      "sentence": "(cid:694)(cid:739)(cid:744)(cid:748)(cid:730)(cid:743)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3)(cid:731)(cid:740)(cid:737)(cid:737)(cid:740)(cid:748)(cid:734)(cid:739)(cid:732)(cid:3)(cid:742)(cid:746)(cid:730)(cid:744)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744)(cid:3)(cid:731)(cid:740)(cid:743)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3) (cid:741)(cid:728)(cid:724)(cid:726)(cid:743)(cid:732)(cid:738)(cid:737)(cid:3)(cid:724)(cid:737)(cid:732)(cid:736)(cid:724)(cid:743)(cid:732)(cid:738)(cid:737) (cid:673)(cid:3)(cid:744)(cid:730)(cid:739)(cid:745)(cid:3)(cid:734)(cid:739)(cid:3)(cid:743)(cid:730)(cid:744)(cid:741)(cid:740)(cid:739)(cid:744)(cid:730)(cid:3)(cid:745)(cid:740)(cid:3)(cid:726)(cid:3)(cid:728)(cid:737)(cid:740)(cid:744)(cid:730) (cid:741)(cid:726)(cid:743)(cid:745)(cid:739)(cid:730)(cid:743)(cid:673)(cid:3)(cid:727)(cid:730)(cid:737)(cid:740)(cid:748) (cid:687)",
+      "label": "Other",
+      "prob": 0.8623918294906616
+    },
+    {
+      "sentence": "(cid:694)(cid:739)(cid:744)(cid:748)(cid:730)(cid:743)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3)(cid:731)(cid:740)(cid:737)(cid:737)(cid:740)(cid:748)(cid:734)(cid:739)(cid:732)(cid:3)(cid:742)(cid:746)(cid:730)(cid:744)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744)(cid:3)(cid:731)(cid:740)(cid:743)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3) (cid:741)(cid:728)(cid:724)(cid:726)(cid:743)(cid:732)(cid:738)(cid:737)(cid:3)(cid:724)(cid:737)(cid:732)(cid:736)(cid:724)(cid:743)(cid:732)(cid:738)(cid:737) (cid:673)(cid:3)(cid:744)(cid:730)(cid:739)(cid:745)(cid:3)(cid:734)(cid:739)(cid:3)(cid:743)(cid:730)(cid:744)(cid:741)(cid:740)(cid:739)(cid:744)(cid:730)(cid:3)(cid:745)(cid:740)(cid:3)(cid:726)(cid:3)(cid:728)(cid:737)(cid:740)(cid:744)(cid:730) (cid:741)(cid:726)(cid:743)(cid:745)(cid:739)(cid:730)(cid:743)(cid:673)(cid:3)(cid:727)(cid:730)(cid:737)(cid:740)(cid:748) (cid:687)",
+      "label": "Other",
+      "prob": 0.8623918294906616
+    },
+    {
+      "sentence": "Although [quick reacts were] very convenient, I just felt more of a responsibility this time to [open the app]. Just because I felt like my partner was sending me state otters off his emotion. [Doing] a quick react otter...it was kind of dismissing the notification in a sense. Opening up the app and scrolling through all reacts so I could choose the right one made me feel like I was more connected with my partner in the interaction. P36",
+      "label": "Other",
+      "prob": 0.6286696791648865
+    },
+    {
+      "sentence": "Our results show that",
+      "label": "Result",
+      "prob": 0.7906333804130554
+    },
+    {
+      "sentence": "<GIF of the react animation received>",
+      "label": "Other",
+      "prob": 0.847524881362915
+    },
+    {
+      "sentence": "of 20 couples (N=40).",
+      "label": "Other",
+      "prob": 0.8362225890159607
+    },
+    {
+      "sentence": "4. Were there any otter animations, provided in the app or not, that you wish you could have used to react to your partner?",
+      "label": "Other",
+      "prob": 0.8653011918067932
+    },
+    {
+      "sentence": "4. What kind of reaction to this animation were you expecting from your partner, if any?",
+      "label": "Other",
+      "prob": 0.8963121771812439
+    },
+    {
+      "sentence": "Whenever it would send something I would usually get the same otters. So I wish when it was sensing something I would be able to get a variety of otters at different times...compared to just one all the time. P29",
+      "label": "Other",
+      "prob": 0.8834974765777588
+    },
+    {
+      "sentence": "This left a total",
+      "label": "Other",
+      "prob": 0.7375205755233765
+    },
+    {
+      "sentence": "4.2.3 Mid-Study Session.",
+      "label": "Other",
+      "prob": 0.6999721527099609
+    },
+    {
+      "sentence": "3. Were there any state otter animations, provided in the app or not, that you wish you could have sent to your partner?",
+      "label": "Other",
+      "prob": 0.8793546557426453
+    },
+    {
+      "sentence": "Carnegie Mellon University Pittsburgh, PA, USA dabbish@cs.cmu.edu Geoff Kaufman Carnegie Mellon Pittsburgh, PA, gfk@cs.cmu.edu",
+      "label": "Other",
+      "prob": 0.9102818965911865
+    },
+    {
+      "sentence": "3. Do you find youre communicating similar or different things with the app versus other ways you communicate?",
+      "label": "Other",
+      "prob": 0.8856536149978638
+    },
+    {
+      "sentence": "3.5.2 Partners react otter.",
+      "label": "Other",
+      "prob": 0.8412078619003296
+    },
+    {
+      "sentence": "b. When did you decide to open them, vs dismiss or ignore them?",
+      "label": "Other",
+      "prob": 0.8992311358451843
+    },
+    {
+      "sentence": "3. In the examples you described, were there any ways you wish you could have reacted to your partner, but werent able to within the app?",
+      "label": "Other",
+      "prob": 0.8772978782653809
+    },
+    {
+      "sentence": "3. Were there any state otters you saw, either in notifications or in the app, but did not send?",
+      "label": "Other",
+      "prob": 0.8850383162498474
+    },
+    {
+      "sentence": "(d) Other: (please describe)",
+      "label": "Other",
+      "prob": 0.8471072912216187
+    },
+    {
+      "sentence": "(cid:702)(cid:738)(cid:726)(cid:732)(cid:734)(cid:739)(cid:730)(cid:3)(cid:726)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:743)(cid:730)(cid:728)(cid:730)(cid:734)(cid:747)(cid:730)(cid:729)(cid:756) (cid:729)(cid:741)(cid:738)(cid:736)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)(cid:3)(cid:739)(cid:724)(cid:741)(cid:743)(cid:737)(cid:728)(cid:741) (cid:754) (cid:745)(cid:733)(cid:726)(cid:745)(cid:3)(cid:748)(cid:740)(cid:746)(cid:737)(cid:729)(cid:3)(cid:741)(cid:743)(cid:740)(cid:738)(cid:741)(cid:745)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:745)(cid:740)(cid:3)(cid:743)(cid:730)(cid:744)(cid:741)(cid:740)(cid:739)(cid:729) (cid:748)(cid:734)(cid:745)(cid:733)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:675)(cid:3)(cid:709)(cid:737)(cid:730)(cid:726)(cid:744)(cid:730)(cid:3)(cid:729)(cid:730)(cid:744)(cid:728)(cid:743)(cid:734)(cid:727)(cid:730)(cid:3)(cid:745)(cid:733)(cid:726)(cid:745)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:675)",
+      "label": "Other",
+      "prob": 0.8710086941719055
+    },
+    {
+      "sentence": "(cid:702)(cid:738)(cid:726)(cid:732)(cid:734)(cid:739)(cid:730)(cid:3)(cid:726)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:743)(cid:730)(cid:728)(cid:730)(cid:734)(cid:747)(cid:730)(cid:729)(cid:756) (cid:729)(cid:741)(cid:738)(cid:736)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)(cid:3)(cid:739)(cid:724)(cid:741)(cid:743)(cid:737)(cid:728)(cid:741) (cid:754) (cid:745)(cid:733)(cid:726)(cid:745)(cid:3)(cid:748)(cid:740)(cid:746)(cid:737)(cid:729)(cid:3)(cid:741)(cid:743)(cid:740)(cid:738)(cid:741)(cid:745)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:745)(cid:740)(cid:3)(cid:743)(cid:730)(cid:744)(cid:741)(cid:740)(cid:739)(cid:729) (cid:748)(cid:734)(cid:745)(cid:733)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:675)(cid:3)(cid:709)(cid:737)(cid:730)(cid:726)(cid:744)(cid:730)(cid:3)(cid:729)(cid:730)(cid:744)(cid:728)(cid:743)(cid:734)(cid:727)(cid:730)(cid:3)(cid:745)(cid:733)(cid:726)(cid:745)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:675)",
+      "label": "Other",
+      "prob": 0.8710086941719055
+    },
+    {
+      "sentence": "Authenticity.",
+      "label": "Other",
+      "prob": 0.8203156590461731
+    },
+    {
+      "sentence": "c. What do you think they were trying to convey to you?",
+      "label": "Other",
+      "prob": 0.906617283821106
+    },
+    {
+      "sentence": "Easier sharing.",
+      "label": "Other",
+      "prob": 0.7694607377052307
+    },
+    {
+      "sentence": "6. Have there been any changes to the way you communicate with your partner since the start of the study?",
+      "label": "Other",
+      "prob": 0.9009305834770203
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:743)(cid:730)(cid:742)(cid:746)(cid:730)(cid:744)(cid:745)(cid:744)(cid:3) (cid:729)(cid:738)(cid:735)(cid:735)(cid:738)(cid:746)(cid:672)(cid:744)(cid:739)(cid:3)(cid:724)(cid:726)(cid:743)(cid:732)(cid:738)(cid:737) (cid:756) (cid:667)(cid:724)(cid:729)(cid:743)(cid:728)(cid:741)(cid:3)(cid:748)(cid:738)(cid:744)(cid:666)(cid:745)(cid:728)",
+      "label": "Other",
+      "prob": 0.8944603800773621
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:743)(cid:730)(cid:742)(cid:746)(cid:730)(cid:744)(cid:745)(cid:744)(cid:3) (cid:729)(cid:738)(cid:735)(cid:735)(cid:738)(cid:746)(cid:672)(cid:744)(cid:739)(cid:3)(cid:724)(cid:726)(cid:743)(cid:732)(cid:738)(cid:737) (cid:756) (cid:667)(cid:724)(cid:729)(cid:743)(cid:728)(cid:741)(cid:3)(cid:748)(cid:738)(cid:744)(cid:666)(cid:745)(cid:728)",
+      "label": "Other",
+      "prob": 0.8944603800773621
+    },
+    {
+      "sentence": "(cid:716)(cid:730)(cid:3)(cid:726)(cid:743)(cid:730)(cid:3)(cid:728)(cid:743)(cid:730)(cid:726)(cid:745)(cid:734)(cid:739)(cid:732)(cid:3)(cid:726)(cid:3)(cid:739)(cid:730)(cid:748)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:734)(cid:739)(cid:732)(cid:3)(cid:726)(cid:741)(cid:741)(cid:3)(cid:731)(cid:740)(cid:743)(cid:3)(cid:728)(cid:740)(cid:746)(cid:741)(cid:737)(cid:730)(cid:744)(cid:673)(cid:3)(cid:734)(cid:739)(cid:3)(cid:748)(cid:733)(cid:734)(cid:728)(cid:733)(cid:3)(cid:746)(cid:744)(cid:730)(cid:743)(cid:744)(cid:3)(cid:728)(cid:726)(cid:739)(cid:3)(cid:744)(cid:730)(cid:739)(cid:729)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744) (cid:726)(cid:744)(cid:3)(cid:744)(cid:745)(cid:726)(cid:739)(cid:729)(cid:726)(cid:737)(cid:740)(cid:739)(cid:730)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:744)(cid:3)(cid:745)(cid:740)(cid:3)(cid:730)(cid:726)(cid:728)(cid:733)(cid:3)(cid:740)(cid:745)(cid:733)(cid:730)(cid:743)(cid:675)(cid:3)(cid:701)(cid:730)(cid:743)(cid:730)(cid:3)(cid:726)(cid:743)(cid:730)(cid:3)(cid:744)(cid:740)(cid:738)(cid:730)(cid:3)(cid:730)(cid:749)(cid:726)(cid:738)(cid:741)(cid:737)(cid:730)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:744)(cid:3)(cid:726)(cid:3)(cid:746)(cid:744)(cid:730)(cid:743)(cid:673) (cid:743)(cid:730)(cid:741)(cid:743)(cid:730)(cid:744)(cid:730)(cid:739)(cid:745)(cid:730)(cid:729)(cid:3)(cid:727)(cid:750)(cid:3)(cid:726)(cid:3)(cid:737)(cid:734)(cid:732)(cid:733)(cid:745)(cid:3)(cid:727)(cid:743)(cid:740)(cid:748)(cid:739)(cid:3)(cid:740)(cid:745)(cid:745)(cid:730)(cid:743)(cid:673)(cid:3)(cid:738)(cid:734)(cid:732)(cid:733)(cid:745)(cid:3)(cid:744)(cid:730)(cid:739)(cid:729)(cid:687)",
+      "label": "Other",
+      "prob": 0.8759021759033203
+    },
+    {
+      "sentence": "random otters.",
+      "label": "Other",
+      "prob": 0.876878023147583
+    },
+    {
+      "sentence": "Why or why not?",
+      "label": "Other",
+      "prob": 0.9168580770492554
+    },
+    {
+      "sentence": "Why or why not?",
+      "label": "Other",
+      "prob": 0.9168580770492554
+    },
+    {
+      "sentence": "Phone vs Watch",
+      "label": "Other",
+      "prob": 0.8551633954048157
+    },
+    {
+      "sentence": "b. Can you give me a few examples of those times?",
+      "label": "Other",
+      "prob": 0.921432614326477
+    },
+    {
+      "sentence": "b. Can you give me a few examples of those times?",
+      "label": "Other",
+      "prob": 0.921432614326477
+    },
+    {
+      "sentence": "We chose these states to represent each quadrant of the valence-arousal model of emotion [53].",
+      "label": "Other",
+      "prob": 0.7746707797050476
+    },
+    {
+      "sentence": "Activities.",
+      "label": "Other",
+      "prob": 0.6545438766479492
+    },
+    {
+      "sentence": "4.2.4 Exit Session.",
+      "label": "Other",
+      "prob": 0.8061429858207703
+    },
+    {
+      "sentence": "(cid:75)(cid:87)(cid:87)(cid:83)(cid:86)(cid:29)(cid:18)(cid:18)(cid:86)(cid:81)(cid:68)(cid:83)(cid:75)(cid:70)(cid:76)(cid:17)(cid:70)(cid:82)(cid:20)(cid:17)(cid:84)(cid:88)(cid:68)(cid:79)(cid:87)(cid:85)(cid:76)(cid:70)(cid:86)(cid:17)(cid:70)(cid:82)(cid:80)(cid:18)(cid:52)(cid:18)(cid:40)(cid:71)(cid:76)(cid:87)(cid:54)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81)(cid:18)(cid:37)(cid:79)(cid:82)(cid:70)(cid:78)(cid:86)(cid:18)(cid:36)(cid:77)(cid:68)(cid:91)(cid:18)(cid:42)(cid:72)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:51)(cid:85)(cid:76)(cid:81)(cid:87)(cid:51)(cid:85)(cid:72)(cid:89)(cid:76)(cid:72)(cid:90)(cid:34)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:44)(cid:39)(cid:32)(cid:54)(cid:57)(cid:66)(cid:27)(cid:88)(cid:48)(cid:92)(cid:68)(cid:21)(cid:20)(cid:45)(cid:49)(cid:41)(cid:19)(cid:44)(cid:42)(cid:49)(cid:73)(cid:9)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:47)(cid:76)(cid:69)(cid:85)(cid:68)(cid:85)(cid:92)(cid:44)(cid:39)(cid:32)(cid:56)(cid:53)(cid:66)(cid:23)(cid:49)(cid:48)(cid:86)(cid:81)(cid:22)(cid:171) (cid:25)(cid:18)(cid:24)(cid:19)",
+      "label": "Other",
+      "prob": 0.8919926881790161
+    },
+    {
+      "sentence": "1. What has your experience with the second version been like overall?",
+      "label": "Other",
+      "prob": 0.8930448889732361
+    },
+    {
+      "sentence": "b. Why did you decide to send that react otter?",
+      "label": "Other",
+      "prob": 0.9160367846488953
+    },
+    {
+      "sentence": "If yes, please explain.",
+      "label": "Other",
+      "prob": 0.8663514256477356
+    },
+    {
+      "sentence": "If yes, please explain.",
+      "label": "Other",
+      "prob": 0.8663514256477356
+    },
+    {
+      "sentence": "4.2.1 Onboarding Session.",
+      "label": "Other",
+      "prob": 0.8765323162078857
+    },
+    {
+      "sentence": "(cid:75)(cid:87)(cid:87)(cid:83)(cid:86)(cid:29)(cid:18)(cid:18)(cid:86)(cid:81)(cid:68)(cid:83)(cid:75)(cid:70)(cid:76)(cid:17)(cid:70)(cid:82)(cid:20)(cid:17)(cid:84)(cid:88)(cid:68)(cid:79)(cid:87)(cid:85)(cid:76)(cid:70)(cid:86)(cid:17)(cid:70)(cid:82)(cid:80)(cid:18)(cid:52)(cid:18)(cid:40)(cid:71)(cid:76)(cid:87)(cid:54)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81)(cid:18)(cid:37)(cid:79)(cid:82)(cid:70)(cid:78)(cid:86)(cid:18)(cid:36)(cid:77)(cid:68)(cid:91)(cid:18)(cid:42)(cid:72)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:51)(cid:85)(cid:76)(cid:81)(cid:87)(cid:51)(cid:85)(cid:72)(cid:89)(cid:76)(cid:72)(cid:90)(cid:34)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:44)(cid:39)(cid:32)(cid:54)(cid:57)(cid:66)(cid:27)(cid:88)(cid:48)(cid:92)(cid:68)(cid:21)(cid:20)(cid:45)(cid:49)(cid:41)(cid:19)(cid:44)(cid:42)(cid:49)(cid:73)(cid:9)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:47)(cid:76)(cid:69)(cid:85)(cid:68)(cid:85)(cid:92)(cid:44)(cid:39)(cid:32)(cid:56)(cid:53)(cid:66)(cid:23)(cid:49)(cid:48)(cid:86)(cid:81)(cid:22)(cid:171) (cid:23)(cid:18)(cid:24)(cid:19)",
+      "label": "Other",
+      "prob": 0.8908566236495972
+    },
+    {
+      "sentence": "(cid:75)(cid:87)(cid:87)(cid:83)(cid:86)(cid:29)(cid:18)(cid:18)(cid:86)(cid:81)(cid:68)(cid:83)(cid:75)(cid:70)(cid:76)(cid:17)(cid:70)(cid:82)(cid:20)(cid:17)(cid:84)(cid:88)(cid:68)(cid:79)(cid:87)(cid:85)(cid:76)(cid:70)(cid:86)(cid:17)(cid:70)(cid:82)(cid:80)(cid:18)(cid:52)(cid:18)(cid:40)(cid:71)(cid:76)(cid:87)(cid:54)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81)(cid:18)(cid:37)(cid:79)(cid:82)(cid:70)(cid:78)(cid:86)(cid:18)(cid:36)(cid:77)(cid:68)(cid:91)(cid:18)(cid:42)(cid:72)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:51)(cid:85)(cid:76)(cid:81)(cid:87)(cid:51)(cid:85)(cid:72)(cid:89)(cid:76)(cid:72)(cid:90)(cid:34)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:44)(cid:39)(cid:32)(cid:54)(cid:57)(cid:66)(cid:27)(cid:88)(cid:48)(cid:92)(cid:68)(cid:21)(cid:20)(cid:45)(cid:49)(cid:41)(cid:19)(cid:44)(cid:42)(cid:49)(cid:73)(cid:9)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:47)(cid:76)(cid:69)(cid:85)(cid:68)(cid:85)(cid:92)(cid:44)(cid:39)(cid:32)(cid:56)(cid:53)(cid:66)(cid:23)(cid:49)(cid:48)(cid:86)(cid:81)(cid:22)(cid:171) (cid:21)(cid:18)(cid:24)(cid:19)",
+      "label": "Other",
+      "prob": 0.8964901566505432
+    },
+    {
+      "sentence": "(cid:75)(cid:87)(cid:87)(cid:83)(cid:86)(cid:29)(cid:18)(cid:18)(cid:86)(cid:81)(cid:68)(cid:83)(cid:75)(cid:70)(cid:76)(cid:17)(cid:70)(cid:82)(cid:20)(cid:17)(cid:84)(cid:88)(cid:68)(cid:79)(cid:87)(cid:85)(cid:76)(cid:70)(cid:86)(cid:17)(cid:70)(cid:82)(cid:80)(cid:18)(cid:52)(cid:18)(cid:40)(cid:71)(cid:76)(cid:87)(cid:54)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81)(cid:18)(cid:37)(cid:79)(cid:82)(cid:70)(cid:78)(cid:86)(cid:18)(cid:36)(cid:77)(cid:68)(cid:91)(cid:18)(cid:42)(cid:72)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:51)(cid:85)(cid:76)(cid:81)(cid:87)(cid:51)(cid:85)(cid:72)(cid:89)(cid:76)(cid:72)(cid:90)(cid:34)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:44)(cid:39)(cid:32)(cid:54)(cid:57)(cid:66)(cid:27)(cid:88)(cid:48)(cid:92)(cid:68)(cid:21)(cid:20)(cid:45)(cid:49)(cid:41)(cid:19)(cid:44)(cid:42)(cid:49)(cid:73)(cid:9)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:47)(cid:76)(cid:69)(cid:85)(cid:68)(cid:85)(cid:92)(cid:44)(cid:39)(cid:32)(cid:56)(cid:53)(cid:66)(cid:23)(cid:49)(cid:48)(cid:86)(cid:81)(cid:22)(cid:171) (cid:24)(cid:18)(cid:24)(cid:19)",
+      "label": "Other",
+      "prob": 0.8967362642288208
+    },
+    {
+      "sentence": "4. Did you react to your partners state at all outside of app (e.g., through other apps, in-person conversation, etc.)?",
+      "label": "Other",
+      "prob": 0.9132267832756042
+    },
+    {
+      "sentence": "Communication Behavio r",
+      "label": "Other",
+      "prob": 0.9151324033737183
+    },
+    {
+      "sentence": "3.5.1 Partners state otter visit.",
+      "label": "Other",
+      "prob": 0.8969151377677917
+    },
+    {
+      "sentence": "Yu Jiang Tham",
+      "label": "Other",
+      "prob": 0.9163280725479126
+    },
+    {
+      "sentence": "Can you talk about what you thought when you received this otter from your partner?",
+      "label": "Other",
+      "prob": 0.9134268760681152
+    },
+    {
+      "sentence": "How did this compare to the times you reacted to your partner in the second half of the study?",
+      "label": "Other",
+      "prob": 0.9048520922660828
+    },
+    {
+      "sentence": "2. How did knowing (if they knew) that you were viewing your partners sensed state affect the way you reacted to your partner, if at all?",
+      "label": "Other",
+      "prob": 0.9027466177940369
+    },
+    {
+      "sentence": "a. Can you talk about what was happening when you sent it?",
+      "label": "Other",
+      "prob": 0.9201099276542664
+    },
+    {
+      "sentence": "(cid:75)(cid:87)(cid:87)(cid:83)(cid:86)(cid:29)(cid:18)(cid:18)(cid:86)(cid:81)(cid:68)(cid:83)(cid:75)(cid:70)(cid:76)(cid:17)(cid:70)(cid:82)(cid:20)(cid:17)(cid:84)(cid:88)(cid:68)(cid:79)(cid:87)(cid:85)(cid:76)(cid:70)(cid:86)(cid:17)(cid:70)(cid:82)(cid:80)(cid:18)(cid:52)(cid:18)(cid:40)(cid:71)(cid:76)(cid:87)(cid:54)(cid:72)(cid:70)(cid:87)(cid:76)(cid:82)(cid:81)(cid:18)(cid:37)(cid:79)(cid:82)(cid:70)(cid:78)(cid:86)(cid:18)(cid:36)(cid:77)(cid:68)(cid:91)(cid:18)(cid:42)(cid:72)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:51)(cid:85)(cid:76)(cid:81)(cid:87)(cid:51)(cid:85)(cid:72)(cid:89)(cid:76)(cid:72)(cid:90)(cid:34)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:44)(cid:39)(cid:32)(cid:54)(cid:57)(cid:66)(cid:27)(cid:88)(cid:48)(cid:92)(cid:68)(cid:21)(cid:20)(cid:45)(cid:49)(cid:41)(cid:19)(cid:44)(cid:42)(cid:49)(cid:73)(cid:9)(cid:38)(cid:82)(cid:81)(cid:87)(cid:72)(cid:91)(cid:87)(cid:47)(cid:76)(cid:69)(cid:85)(cid:68)(cid:85)(cid:92)(cid:44)(cid:39)(cid:32)(cid:56)(cid:53)(cid:66)(cid:23)(cid:49)(cid:48)(cid:86)(cid:81)(cid:22)(cid:171) (cid:27)(cid:18)(cid:24)(cid:19)",
+      "label": "Other",
+      "prob": 0.9013215899467468
+    },
+    {
+      "sentence": "a. Do you recall seeing these state otters from your partner?",
+      "label": "Other",
+      "prob": 0.9226875305175781
+    },
+    {
+      "sentence": "3. Were there any other ways you wish you could have reacted to your partners state otter (e.g., other animations or messaging options)?",
+      "label": "Other",
+      "prob": 0.9144116044044495
+    },
+    {
+      "sentence": "Did you notice any differences in your participation in the study, including your use of the app, as the study went on?",
+      "label": "Other",
+      "prob": 0.8828942775726318
+    },
+    {
+      "sentence": "1. What did you think about seeing your partners sensed state otter in V2?",
+      "label": "Other",
+      "prob": 0.9115782380104065
+    },
+    {
+      "sentence": "How did your expectations for your partners reactions compare when you sent your sensed state otters in V2, if you had any?",
+      "label": "Other",
+      "prob": 0.9213247895240784
+    },
+    {
+      "sentence": "9. Aside from the app changing, was there anything different about your circumstances from the first half of the study (e.g., your location, your job, ways you and your partner communicated)?",
+      "label": "Other",
+      "prob": 0.9075889587402344
+    },
+    {
+      "sentence": "a. Was this on your phone or watch?",
+      "label": "Other",
+      "prob": 0.9238397479057312
+    },
+    {
+      "sentence": "2. Did your partner react to your state otter above in any other way through the app or outside of the app (e.g., through other apps, in-person conversation)?",
+      "label": "Other",
+      "prob": 0.9032388925552368
+    },
+    {
+      "sentence": "Tsung-Yu Tsai Snap Inc.",
+      "label": "Other",
+      "prob": 0.9388750195503235
+    },
+    {
+      "sentence": "1. What did you think about the notifications in the second half of the study?",
+      "label": "Other",
+      "prob": 0.904639482498169
+    },
+    {
+      "sentence": "3. Did you ever look at the app on your own, without first seeing a notification?",
+      "label": "Other",
+      "prob": 0.9117665886878967
+    },
+    {
+      "sentence": "(cid:729)(cid:724)(cid:736)(cid:732)(cid:735)(cid:732)(cid:724)(cid:741)(cid:732)(cid:743)(cid:748)(cid:668)(cid:3)(cid:743)(cid:738)(cid:746)(cid:724)(cid:741)(cid:727)(cid:742)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)(cid:3)(cid:739)(cid:724)(cid:741)(cid:743)(cid:737)(cid:728)(cid:741) (cid:692)",
+      "label": "Other",
+      "prob": 0.9218659996986389
+    },
+    {
+      "sentence": "(cid:742)(cid:728)(cid:737)(cid:743)(cid:3)(cid:743)(cid:731)(cid:728)(cid:3)(cid:724)(cid:737)(cid:732)(cid:736)(cid:724)(cid:743)(cid:732)(cid:738)(cid:737)(cid:668)(cid:3)(cid:729)(cid:741)(cid:738)(cid:736)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)(cid:3)(cid:739)(cid:724)(cid:741)(cid:743)(cid:737)(cid:728)(cid:741) (cid:692)",
+      "label": "Other",
+      "prob": 0.9218659996986389
+    },
+    {
+      "sentence": "1. How did knowing (if they knew) that the app sensed your state affect the way you sent your otter to your partner, if at all?",
+      "label": "Other",
+      "prob": 0.9128872156143188
+    },
+    {
+      "sentence": "1. What did you think of this react otter, if you recall seeing it?",
+      "label": "Other",
+      "prob": 0.906733512878418
+    },
+    {
+      "sentence": "1. Did you and your partner talk about the new version of the app at all?",
+      "label": "Other",
+      "prob": 0.9109873175621033
+    },
+    {
+      "sentence": "1. What did you think of your partners state otter animation when you received it?",
+      "label": "Other",
+      "prob": 0.9105387926101685
+    },
+    {
+      "sentence": "2. What message were you trying to convey with this reaction?",
+      "label": "Other",
+      "prob": 0.9045311212539673
+    },
+    {
+      "sentence": "2. How did they compare to the notifications in the first half?",
+      "label": "Other",
+      "prob": 0.8930603861808777
+    },
+    {
+      "sentence": "When and why?",
+      "label": "Other",
+      "prob": 0.9291587471961975
+    },
+    {
+      "sentence": "3. What message you were trying to convey with this animation to your partner?",
+      "label": "Other",
+      "prob": 0.901945173740387
+    },
+    {
+      "sentence": "e. Why did you react in this way?",
+      "label": "Other",
+      "prob": 0.9326521158218384
+    },
+    {
+      "sentence": "Affection.",
+      "label": "Other",
+      "prob": 0.8749144673347473
+    },
+    {
+      "sentence": "(cid:718)(cid:740)(cid:746)(cid:3)(cid:748)(cid:734)(cid:737)(cid:737)(cid:3)(cid:743)(cid:726)(cid:745)(cid:730)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3)(cid:728)(cid:733)(cid:726)(cid:743)(cid:726)(cid:728)(cid:745)(cid:730)(cid:743)(cid:734)(cid:744)(cid:745)(cid:734)(cid:728)(cid:744)(cid:3)(cid:740)(cid:731)(cid:3)(cid:678)(cid:684)(cid:3)(cid:729)(cid:734)(cid:731)(cid:731)(cid:730)(cid:743)(cid:730)(cid:739)(cid:745)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744)(cid:3)(cid:731)(cid:740)(cid:743)(cid:3)(cid:726)(cid:3)(cid:739)(cid:730)(cid:748)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:734)(cid:739)(cid:732)(cid:3)(cid:726)(cid:741)(cid:741)(cid:3)(cid:731)(cid:740)(cid:743) (cid:728)(cid:740)(cid:746)(cid:741)(cid:737)(cid:730)(cid:744)(cid:675)(cid:3)(cid:713)(cid:733)(cid:734)(cid:744)(cid:3)(cid:744)(cid:746)(cid:743)(cid:747)(cid:730)(cid:750)(cid:3)(cid:744)(cid:733)(cid:740)(cid:746)(cid:737)(cid:729)(cid:3)(cid:745)(cid:726)(cid:736)(cid:730)(cid:3)(cid:726)(cid:727)(cid:740)(cid:746)(cid:745)(cid:3)(cid:678)(cid:682)(cid:674)(cid:679)(cid:677)(cid:3)(cid:738)(cid:734)(cid:739)(cid:746)(cid:745)(cid:730)(cid:744)(cid:675)",
+      "label": "Other",
+      "prob": 0.901794970035553
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:729)(cid:730)(cid:738)(cid:740)(cid:739)(cid:744)(cid:745)(cid:743)(cid:726)(cid:745)(cid:730)(cid:744)(cid:3) (cid:726)(cid:735)(cid:738)(cid:742)(cid:728)(cid:737)(cid:728)(cid:742)(cid:742)(cid:3)(cid:667)(cid:732)(cid:673)(cid:728)(cid:673)(cid:671)(cid:3)(cid:732)(cid:737)(cid:743)(cid:732)(cid:736)(cid:724)(cid:726)(cid:748)(cid:3)(cid:724)(cid:737)(cid:727)",
+      "label": "Other",
+      "prob": 0.9017950892448425
+    },
+    {
+      "sentence": "Table 3: Participant couples.",
+      "label": "Other",
+      "prob": 0.6286603808403015
+    },
+    {
+      "sentence": "https://doi.org/10.1145/3411764.3445200",
+      "label": "Other",
+      "prob": 0.9452233910560608
+    },
+    {
+      "sentence": "1. Did you find yourself using the app more on your phone or your watch?",
+      "label": "Other",
+      "prob": 0.9077388644218445
+    },
+    {
+      "sentence": "1. Why did you react in this way?",
+      "label": "Other",
+      "prob": 0.9122833609580994
+    },
+    {
+      "sentence": "6. Did you notice any differences in the way the app worked?",
+      "label": "Other",
+      "prob": 0.8917526006698608
+    },
+    {
+      "sentence": "3. Have there been any changes to the way you communicate with your partner in the last two weeks?",
+      "label": "Other",
+      "prob": 0.9106742143630981
+    },
+    {
+      "sentence": "2. Did you use the quick react or share button features?",
+      "label": "Other",
+      "prob": 0.9115070104598999
+    },
+    {
+      "sentence": "d. What did you think about the way they reacted?",
+      "label": "Other",
+      "prob": 0.9366284012794495
+    },
+    {
+      "sentence": "a. What did you think of these notifications?",
+      "label": "Other",
+      "prob": 0.9366424083709717
+    },
+    {
+      "sentence": "g. What were you trying to convey to your partner?",
+      "label": "Other",
+      "prob": 0.935407280921936
+    },
+    {
+      "sentence": "1. How did you first notice this state otter animation?",
+      "label": "Other",
+      "prob": 0.9163241982460022
+    },
+    {
+      "sentence": "ON affect social connection between couples?",
+      "label": "Other",
+      "prob": 0.9361382126808167
+    },
+    {
+      "sentence": "5. What did you think about the heart rate sensing?",
+      "label": "Other",
+      "prob": 0.9131271839141846
+    },
+    {
+      "sentence": "How did this compare to the times you reacted with react otters with V2?",
+      "label": "Other",
+      "prob": 0.9175816178321838
+    },
+    {
+      "sentence": "What did you talk about?",
+      "label": "Other",
+      "prob": 0.9319191575050354
+    },
+    {
+      "sentence": "3. What was your understanding of what the update was?",
+      "label": "Other",
+      "prob": 0.9237808585166931
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:744)(cid:733)(cid:740)(cid:748)(cid:744)(cid:3)(cid:745)(cid:733)(cid:726)(cid:745)(cid:3) (cid:748)(cid:738)(cid:744)(cid:741)(cid:3)(cid:739)(cid:724)(cid:741)(cid:743)(cid:737)(cid:728)(cid:741)(cid:3)(cid:732)(cid:742) (cid:3) (cid:745)(cid:724)(cid:735)(cid:744)(cid:728)(cid:727)",
+      "label": "Other",
+      "prob": 0.9249373078346252
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:729)(cid:730)(cid:738)(cid:740)(cid:739)(cid:744)(cid:745)(cid:743)(cid:726)(cid:745)(cid:730)(cid:744)(cid:3) (cid:744)(cid:737)(cid:727)(cid:728)(cid:741)(cid:742)(cid:743)(cid:724)(cid:737)(cid:727)(cid:732)(cid:737)(cid:730) (cid:3) (cid:738)(cid:729)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)",
+      "label": "Other",
+      "prob": 0.9151870608329773
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:729)(cid:730)(cid:738)(cid:740)(cid:739)(cid:744)(cid:745)(cid:743)(cid:726)(cid:745)(cid:730)(cid:744)(cid:3) (cid:744)(cid:737)(cid:727)(cid:728)(cid:741)(cid:742)(cid:743)(cid:724)(cid:737)(cid:727)(cid:732)(cid:737)(cid:730) (cid:3) (cid:738)(cid:729)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)",
+      "label": "Other",
+      "prob": 0.9151870608329773
+    },
+    {
+      "sentence": "(cid:699)(cid:740)(cid:743)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3)(cid:731)(cid:740)(cid:737)(cid:737)(cid:740)(cid:748)(cid:734)(cid:739)(cid:732)(cid:3)(cid:742)(cid:746)(cid:730)(cid:744)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744)(cid:673)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:748)(cid:734)(cid:737)(cid:737)(cid:3)(cid:743)(cid:726)(cid:745)(cid:730)(cid:3)(cid:678)(cid:684)(cid:756) (cid:741)(cid:728)(cid:724)(cid:726)(cid:743)(cid:732)(cid:738)(cid:737)(cid:3)(cid:724)(cid:737)(cid:732)(cid:736)(cid:724)(cid:743)(cid:732)(cid:738)(cid:737)(cid:742) (cid:675)(cid:3)(cid:702)(cid:738)(cid:726)(cid:732)(cid:734)(cid:739)(cid:730)(cid:3)(cid:746)(cid:744)(cid:734)(cid:739)(cid:732)(cid:3)(cid:745)(cid:733)(cid:730) (cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:744)(cid:730)(cid:730)(cid:3)(cid:726)(cid:744)(cid:3)(cid:726)(cid:3)(cid:744)(cid:745)(cid:726)(cid:739)(cid:729)(cid:726)(cid:737)(cid:740)(cid:739)(cid:730)(cid:756) (cid:741)(cid:728)(cid:724)(cid:726)(cid:743)(cid:732)(cid:738)(cid:737) (cid:756)(cid:745)(cid:740)(cid:3)(cid:726)(cid:739)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:730)(cid:729)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:3)(cid:745)(cid:733)(cid:726)(cid:745)(cid:3)(cid:726)(cid:3)(cid:728)(cid:737)(cid:740)(cid:744)(cid:730) (cid:741)(cid:726)(cid:743)(cid:745)(cid:739)(cid:730)(cid:743)(cid:3)(cid:744)(cid:730)(cid:739)(cid:745)(cid:3)(cid:669)(cid:730)(cid:675)(cid:732)(cid:675)(cid:673)(cid:3)(cid:744)(cid:734)(cid:732)(cid:739)(cid:734)(cid:990)(cid:728)(cid:726)(cid:739)(cid:745)(cid:3)(cid:740)(cid:745)(cid:733)(cid:730)(cid:743)(cid:673)(cid:3)(cid:727)(cid:730)(cid:744)(cid:745)(cid:3)(cid:731)(cid:743)(cid:734)(cid:730)(cid:739)(cid:729)(cid:673)(cid:3)(cid:731)(cid:726)(cid:738)(cid:734)(cid:737)(cid:750)(cid:3)(cid:738)(cid:730)(cid:738)(cid:727)(cid:730)(cid:743)(cid:670)(cid:673)(cid:3)(cid:726)(cid:744)(cid:3)(cid:729)(cid:730)(cid:744)(cid:728)(cid:743)(cid:734)(cid:727)(cid:730)(cid:729)(cid:3)(cid:740)(cid:739)(cid:3)(cid:745)(cid:733)(cid:730) (cid:741)(cid:743)(cid:730)(cid:747)(cid:734)(cid:740)(cid:746)(cid:744)(cid:3)(cid:741)(cid:726)(cid:732)(cid:730)(cid:675)(cid:3)(cid:702)(cid:739)(cid:3)(cid:744)(cid:740)(cid:738)(cid:730)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744)(cid:673)(cid:3)(cid:750)(cid:740)(cid:746)(cid:743)(cid:3)(cid:741)(cid:726)(cid:743)(cid:745)(cid:739)(cid:730)(cid:743)(cid:3)(cid:748)(cid:734)(cid:737)(cid:737)(cid:3)(cid:727)(cid:730)(cid:3)(cid:743)(cid:730)(cid:741)(cid:743)(cid:730)(cid:744)(cid:730)(cid:739)(cid:745)(cid:730)(cid:729)(cid:3)(cid:727)(cid:750)(cid:3)(cid:726)(cid:3)(cid:737)(cid:734)(cid:732)(cid:733)(cid:745)(cid:3)(cid:727)(cid:743)(cid:740)(cid:748)(cid:739) (cid:740)(cid:745)(cid:745)(cid:730)(cid:743)(cid:675)(cid:3)(cid:709)(cid:737)(cid:730)(cid:726)(cid:744)(cid:730)(cid:3)(cid:726)(cid:739)(cid:744)(cid:748)(cid:730)(cid:743)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3)(cid:742)(cid:746)(cid:730)(cid:744)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744)(cid:3)(cid:727)(cid:726)(cid:744)(cid:730)(cid:729)(cid:3)(cid:740)(cid:739)(cid:3)(cid:750)(cid:740)(cid:746)(cid:743)(cid:3)(cid:990)(cid:743)(cid:744)(cid:745)(cid:3)(cid:734)(cid:739)(cid:744)(cid:745)(cid:734)(cid:739)(cid:728)(cid:745)(cid:675)",
+      "label": "Other",
+      "prob": 0.8886363506317139
+    },
+    {
+      "sentence": "(cid:707)(cid:730)(cid:746)(cid:745)(cid:743)(cid:726)(cid:737)",
+      "label": "Other",
+      "prob": 0.9412863254547119
+    },
+    {
+      "sentence": "How did you talk about it?",
+      "label": "Other",
+      "prob": 0.9344109296798706
+    },
+    {
+      "sentence": "a. Do you recall sending these state otters?",
+      "label": "Other",
+      "prob": 0.9462424516677856
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.9455322623252869
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:744)(cid:733)(cid:740)(cid:748)(cid:744)(cid:3)(cid:745)(cid:733)(cid:726)(cid:745)(cid:3) (cid:748)(cid:738)(cid:744)(cid:741)(cid:3)(cid:739)(cid:724)(cid:741)(cid:743)(cid:737)(cid:728)(cid:741)(cid:3)(cid:732)(cid:742) (cid:3) (cid:745)(cid:724)(cid:735)(cid:744)(cid:728)(cid:727) (cid:692)",
+      "label": "Other",
+      "prob": 0.9129435420036316
+    },
+    {
+      "sentence": "7. Did you notice any differences in the way you used this version, compared to the first version?",
+      "label": "Other",
+      "prob": 0.8761721253395081
+    },
+    {
+      "sentence": "Could you describe this in more detail?",
+      "label": "Other",
+      "prob": 0.9353711605072021
+    },
+    {
+      "sentence": "How did V2 compare to the way you communicated with V1?",
+      "label": "Other",
+      "prob": 0.9261128306388855
+    },
+    {
+      "sentence": "(cid:695)(cid:726)(cid:728)(cid:736)(cid:732)(cid:743)(cid:740)(cid:746)(cid:739)(cid:729)",
+      "label": "Other",
+      "prob": 0.9258714914321899
+    },
+    {
+      "sentence": "(cid:695)(cid:726)(cid:728)(cid:736)(cid:732)(cid:743)(cid:740)(cid:746)(cid:739)(cid:729)",
+      "label": "Other",
+      "prob": 0.9258714914321899
+    },
+    {
+      "sentence": "How did this compare to the way you reacted with react otters with V2?",
+      "label": "Other",
+      "prob": 0.9214611053466797
+    },
+    {
+      "sentence": "4. Did you have any expectations for this update?",
+      "label": "Other",
+      "prob": 0.9246869087219238
+    },
+    {
+      "sentence": "2. How did you feel about using one vs the other?",
+      "label": "Other",
+      "prob": 0.9183202981948853
+    },
+    {
+      "sentence": "2. What did you think about the app update after the mid-study interview?",
+      "label": "Other",
+      "prob": 0.9041251540184021
+    },
+    {
+      "sentence": "How did this compare to the times you sent your state otter with V2?",
+      "label": "Other",
+      "prob": 0.9213716387748718
+    },
+    {
+      "sentence": "(cid:702)(cid:739)(cid:745)(cid:743)(cid:740)(cid:729)(cid:746)(cid:728)(cid:745)(cid:734)(cid:740)(cid:739)",
+      "label": "Other",
+      "prob": 0.8970845341682434
+    },
+    {
+      "sentence": "(cid:702)(cid:707)(cid:712)(cid:713)(cid:711)(cid:714)(cid:696)(cid:713)(cid:702)(cid:708)(cid:707)(cid:712)",
+      "label": "Other",
+      "prob": 0.8970845341682434
+    },
+    {
+      "sentence": "(cid:709)(cid:737)(cid:730)(cid:726)(cid:744)(cid:730)(cid:3)(cid:748)(cid:743)(cid:734)(cid:745)(cid:730)(cid:3)(cid:740)(cid:739)(cid:730)(cid:3)(cid:741)(cid:740)(cid:744)(cid:744)(cid:734)(cid:727)(cid:737)(cid:730)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:3)(cid:745)(cid:733)(cid:726)(cid:745)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:728)(cid:740)(cid:739)(cid:747)(cid:730)(cid:750)(cid:744)(cid:3)(cid:734)(cid:739)(cid:3)(cid:748)(cid:740)(cid:743)(cid:729)(cid:744)(cid:675)",
+      "label": "Other",
+      "prob": 0.8970845341682434
+    },
+    {
+      "sentence": "(cid:709)(cid:737)(cid:730)(cid:726)(cid:744)(cid:730)(cid:3)(cid:748)(cid:743)(cid:734)(cid:745)(cid:730)(cid:3)(cid:740)(cid:739)(cid:730)(cid:3)(cid:741)(cid:740)(cid:744)(cid:744)(cid:734)(cid:727)(cid:737)(cid:730)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:3)(cid:745)(cid:733)(cid:726)(cid:745)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:728)(cid:740)(cid:739)(cid:747)(cid:730)(cid:750)(cid:744)(cid:3)(cid:734)(cid:739)(cid:3)(cid:748)(cid:740)(cid:743)(cid:729)(cid:744)(cid:675)",
+      "label": "Other",
+      "prob": 0.8970845341682434
+    },
+    {
+      "sentence": "(cid:702)(cid:739)(cid:744)(cid:745)(cid:743)(cid:746)(cid:728)(cid:745)(cid:734)(cid:740)(cid:739)(cid:744)",
+      "label": "Other",
+      "prob": 0.8970845341682434
+    },
+    {
+      "sentence": "(cid:52)(cid:88)(cid:68)(cid:79)(cid:87)(cid:85)(cid:76)(cid:70)(cid:86)(cid:3)(cid:54)(cid:88)(cid:85)(cid:89)(cid:72)(cid:92)(cid:3)(cid:54)(cid:82)(cid:73)(cid:87)(cid:90)(cid:68)(cid:85)(cid:72)",
+      "label": "Other",
+      "prob": 0.8970845341682434
+    },
+    {
+      "sentence": "(cid:701)(cid:726)(cid:739)(cid:729)(cid:3)(cid:701)(cid:740)(cid:737)(cid:729)(cid:734)(cid:739)(cid:732)",
+      "label": "Other",
+      "prob": 0.8970845341682434
+    },
+    {
+      "sentence": "d. How did you react, if at all?",
+      "label": "Other",
+      "prob": 0.9413941502571106
+    },
+    {
+      "sentence": "b. What did you think of your partners reaction?",
+      "label": "Other",
+      "prob": 0.9390522241592407
+    },
+    {
+      "sentence": "(cid:709)(cid:730)(cid:743)(cid:744)(cid:740)(cid:739)(cid:3)(cid:695)(cid:3)(cid:669)(cid:743)(cid:730)(cid:741)(cid:743)(cid:730)(cid:744)(cid:730)(cid:739)(cid:745)(cid:730)(cid:729)(cid:3)(cid:727)(cid:750)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3)(cid:729)(cid:726)(cid:743)(cid:736)(cid:3)(cid:727)(cid:743)(cid:740)(cid:748)(cid:739)(cid:3)(cid:740)(cid:745)(cid:745)(cid:730)(cid:743)(cid:670)(cid:3)(cid:738)(cid:726)(cid:750)(cid:3)(cid:743)(cid:730)(cid:744)(cid:741)(cid:740)(cid:739)(cid:729)(cid:3)(cid:748)(cid:734)(cid:745)(cid:733)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3)(cid:731)(cid:740)(cid:737)(cid:737)(cid:740)(cid:748)(cid:734)(cid:739)(cid:732)(cid:3) (cid:741)(cid:728)(cid:724)(cid:726)(cid:743)(cid:732)(cid:738)(cid:737)",
+      "label": "Other",
+      "prob": 0.9227326512336731
+    },
+    {
+      "sentence": "2. What were you doing when you noticed this animation?",
+      "label": "Other",
+      "prob": 0.9257080554962158
+    },
+    {
+      "sentence": "REFERENCES",
+      "label": "Other",
+      "prob": 0.9412382245063782
+    },
+    {
+      "sentence": "3. Were there any differences in how you used it on the watch vs the phone?",
+      "label": "Other",
+      "prob": 0.8802294731140137
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:744)(cid:733)(cid:740)(cid:748)(cid:744)(cid:3) (cid:726)(cid:724)(cid:741)(cid:732)(cid:737)(cid:730) (cid:3) (cid:724)(cid:737)(cid:727) (cid:3) (cid:726)(cid:738)(cid:737)(cid:726)(cid:728)(cid:741)(cid:737) (cid:3) (cid:743)(cid:738)(cid:746)(cid:724)(cid:741)(cid:727)(cid:742)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)",
+      "label": "Other",
+      "prob": 0.8585551977157593
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:744)(cid:733)(cid:740)(cid:748)(cid:744)(cid:3) (cid:726)(cid:724)(cid:741)(cid:732)(cid:737)(cid:730) (cid:3) (cid:724)(cid:737)(cid:727) (cid:3) (cid:726)(cid:738)(cid:737)(cid:726)(cid:728)(cid:741)(cid:737) (cid:3) (cid:743)(cid:738)(cid:746)(cid:724)(cid:741)(cid:727)(cid:742)(cid:3)(cid:748)(cid:738)(cid:744)(cid:741)",
+      "label": "Other",
+      "prob": 0.8585551381111145
+    },
+    {
+      "sentence": "8. Which version do you prefer?",
+      "label": "Other",
+      "prob": 0.9424092173576355
+    },
+    {
+      "sentence": "3. You mentioned for V1, that you sent your state otter because (describe reasons they sent them from the mid-study interview) How did this compare to the reasons you sent your state otter with V2?",
+      "label": "Other",
+      "prob": 0.9033017158508301
+    },
+    {
+      "sentence": "c. How did your partner react?",
+      "label": "Other",
+      "prob": 0.9419531226158142
+    },
+    {
+      "sentence": "(cid:714)(cid:744)(cid:730)(cid:743)(cid:744)(cid:3)(cid:728)(cid:726)(cid:739)(cid:3)(cid:743)(cid:730)(cid:744)(cid:741)(cid:740)(cid:739)(cid:729)(cid:3)(cid:745)(cid:740)(cid:3)(cid:738)(cid:730)(cid:744)(cid:744)(cid:726)(cid:732)(cid:730)(cid:744)(cid:3)(cid:745)(cid:733)(cid:730)(cid:750)(cid:3)(cid:743)(cid:730)(cid:728)(cid:730)(cid:734)(cid:747)(cid:730)(cid:3)(cid:731)(cid:743)(cid:740)(cid:738)(cid:3)(cid:745)(cid:733)(cid:730)(cid:734)(cid:743)(cid:3)(cid:741)(cid:726)(cid:743)(cid:745)(cid:739)(cid:730)(cid:743)(cid:3)(cid:746)(cid:744)(cid:734)(cid:739)(cid:732)(cid:3) (cid:741)(cid:728)(cid:724)(cid:726)(cid:743)(cid:732)(cid:738)(cid:737) (cid:724)(cid:737)(cid:732)(cid:736)(cid:724)(cid:743)(cid:732)(cid:738)(cid:737)(cid:742) (cid:673)(cid:754) (cid:699)(cid:740)(cid:743)(cid:3)(cid:730)(cid:749)(cid:726)(cid:738)(cid:741)(cid:737)(cid:730)(cid:673)(cid:3)(cid:709)(cid:730)(cid:743)(cid:744)(cid:740)(cid:739)(cid:3)(cid:694)(cid:3)(cid:669)(cid:743)(cid:730)(cid:741)(cid:743)(cid:730)(cid:744)(cid:730)(cid:739)(cid:745)(cid:730)(cid:729)(cid:3)(cid:727)(cid:750)(cid:3)(cid:745)(cid:733)(cid:730)(cid:3)(cid:737)(cid:734)(cid:732)(cid:733)(cid:745)(cid:3)(cid:727)(cid:743)(cid:740)(cid:748)(cid:739)(cid:3)(cid:740)(cid:745)(cid:745)(cid:730)(cid:743)(cid:670)(cid:3)(cid:738)(cid:726)(cid:750)(cid:3)(cid:744)(cid:730)(cid:739)(cid:729)(cid:3)(cid:745)(cid:733)(cid:730) (cid:731)(cid:740)(cid:737)(cid:737)(cid:740)(cid:748)(cid:734)(cid:739)(cid:732)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:745)(cid:740)(cid:3)(cid:745)(cid:733)(cid:730)(cid:734)(cid:743)(cid:3)(cid:741)(cid:726)(cid:743)(cid:745)(cid:739)(cid:730)(cid:743)(cid:673)(cid:3)(cid:709)(cid:730)(cid:743)(cid:744)(cid:740)(cid:739)(cid:3)(cid:695)(cid:687)",
+      "label": "Other",
+      "prob": 0.9120884537696838
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:730)(cid:749)(cid:741)(cid:743)(cid:730)(cid:744)(cid:744)(cid:730)(cid:744)(cid:3)(cid:726)(cid:3) (cid:737)(cid:728)(cid:730)(cid:724)(cid:743)(cid:732)(cid:745)(cid:728) (cid:3)(cid:747)(cid:730)(cid:743)(cid:744)(cid:746)(cid:744)(cid:3) (cid:739)(cid:738)(cid:742)(cid:732)(cid:743)(cid:732)(cid:745)(cid:728) (cid:743)(cid:730)(cid:726)(cid:728)(cid:745)(cid:734)(cid:740)(cid:739)(cid:692)",
+      "label": "Other",
+      "prob": 0.8598505258560181
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:730)(cid:749)(cid:741)(cid:743)(cid:730)(cid:744)(cid:744)(cid:730)(cid:744)(cid:3)(cid:726)(cid:3) (cid:737)(cid:728)(cid:730)(cid:724)(cid:743)(cid:732)(cid:745)(cid:728) (cid:3)(cid:747)(cid:730)(cid:743)(cid:744)(cid:746)(cid:744)(cid:3) (cid:739)(cid:738)(cid:742)(cid:732)(cid:743)(cid:732)(cid:745)(cid:728) (cid:743)(cid:730)(cid:726)(cid:728)(cid:745)(cid:734)(cid:740)(cid:739)(cid:692)",
+      "label": "Other",
+      "prob": 0.8598505258560181
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:730)(cid:749)(cid:741)(cid:743)(cid:730)(cid:744)(cid:744)(cid:730)(cid:744)(cid:3)(cid:726)(cid:3) (cid:735)(cid:738)(cid:746)(cid:3)(cid:728)(cid:737)(cid:728)(cid:741)(cid:730)(cid:748) (cid:3) (cid:747)(cid:730)(cid:743)(cid:744)(cid:746)(cid:744)(cid:3) (cid:731)(cid:732)(cid:730)(cid:731)(cid:3)(cid:728)(cid:737)(cid:728)(cid:741)(cid:730)(cid:748) (cid:743)(cid:730)(cid:726)(cid:728)(cid:745)(cid:734)(cid:740)(cid:739)(cid:692)",
+      "label": "Other",
+      "prob": 0.9284898638725281
+    },
+    {
+      "sentence": "(cid:713)(cid:740)(cid:3)(cid:748)(cid:733)(cid:726)(cid:745)(cid:3)(cid:730)(cid:749)(cid:745)(cid:730)(cid:739)(cid:745)(cid:3)(cid:729)(cid:740)(cid:3)(cid:750)(cid:740)(cid:746)(cid:3)(cid:727)(cid:730)(cid:737)(cid:734)(cid:730)(cid:747)(cid:730)(cid:3)(cid:745)(cid:733)(cid:734)(cid:744)(cid:3)(cid:726)(cid:739)(cid:734)(cid:738)(cid:726)(cid:745)(cid:734)(cid:740)(cid:739)(cid:3)(cid:730)(cid:749)(cid:741)(cid:743)(cid:730)(cid:744)(cid:744)(cid:730)(cid:744)(cid:3)(cid:726)(cid:3) (cid:735)(cid:738)(cid:746)(cid:3)(cid:728)(cid:737)(cid:728)(cid:741)(cid:730)(cid:748) (cid:3) (cid:747)(cid:730)(cid:743)(cid:744)(cid:746)(cid:744)(cid:3) (cid:731)(cid:732)(cid:730)(cid:731)(cid:3)(cid:728)(cid:737)(cid:728)(cid:741)(cid:730)(cid:748) (cid:743)(cid:730)(cid:726)(cid:728)(cid:745)(cid:734)(cid:740)(cid:739)(cid:692)",
+      "label": "Other",
+      "prob": 0.9284898638725281
+    }
+  ]
+}
