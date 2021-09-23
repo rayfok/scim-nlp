@@ -4,6 +4,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
+from functools import cmp_to_key
 from string import punctuation
 from typing import Dict, List
 
@@ -43,6 +44,20 @@ class RhetoricUnit:
 @dataclass
 class MediaUnit:
     type: str
+    text: str
+    bbox: BoundingBox
+
+    def to_json(self) -> Dict:
+        out = self.__dict__
+        out["bbox"] = _bbox_to_json(self.bbox)
+        return out
+
+    def __repr__(self):
+        self.to_json()
+
+
+@dataclass
+class SectionUnit:
     text: str
     bbox: BoundingBox
 
@@ -105,7 +120,11 @@ class SPPPaper:
         self.sections = list(set(self.sent_sect_map.values()))
 
     def _get_blocks(self):
-        return Block.build_blocks_from_spp_json(self.json_file_path)
+        paragraph_blocks = Block.build_blocks_from_spp_json(
+            self.json_file_path, type="paragraph"
+        )
+        list_blocks = Block.build_blocks_from_spp_json(self.json_file_path, type="list")
+        return paragraph_blocks + list_blocks
 
     def _get_sentences(self):
         sentences = []
@@ -151,101 +170,76 @@ class SPPPaper:
             title = " ".join(title_chunks)
         return title
 
-    def _normalize_section_headers(self, section_data):
-        top_level_sections = {}
-        for section in section_data["sections"]:
-            header = section.get("header", None)
-            if header:
-                section_number_list = re.findall(r"[-+]?\d*\.\d+|\d+", header)
-                if (
-                    len(section_number_list) == 1
-                ):  # Make sure there's only one section number per header
-                    section_number = section_number_list[0]
-                    if (
-                        "." not in section_number
-                    ):  # no decimal point means top level section
-                        top_level_sections[section_number] = header
-        # For all non top level section headers, append top level section header
-        for section in section_data["sections"]:
-            header = section.get("header", None)
-            if header:
-                section_number_list = re.findall(r"[-+]?\d*\.\d+|\d+", header)
-                if len(section_number_list) == 1:
-                    section_number = section_number_list[0]
-                    if "." in section_number:
-                        top_level_section_number = section_number.split(".")[0]
-                        top_level_section_header = top_level_sections.get(
-                            top_level_section_number, None
-                        )
-                        if top_level_section_header:
-                            section[
-                                "header"
-                            ] = f"{top_level_section_header} {section['header']}"
+    def _sort_bbox_objs(self, b1, b2):
+        # { type: str, bbox: BoundingBox, entity: SectionUnit | SentenceWithBBoxes }
+        horizontal_delta = 0.05
+        b1_bbox = b1["bbox"]
+        b2_bbox = b2["bbox"]
+        if b1_bbox.page < b2_bbox.page:
+            return -1
+        elif b1_bbox.page > b2_bbox.page:
+            return 1
+        else:
+            if abs(b1_bbox.left - b2_bbox.left) < horizontal_delta:
+                return -1 if b1_bbox.top < b2_bbox.top else 1
+            else:
+                return -1 if b1_bbox.left < b2_bbox.left else 1
 
     def _make_sent_sect_map(self):
-        SECTIONS_DIR = "data/sections"
-        with open(f"{SECTIONS_DIR}/{self.id}.json", "r") as f:
-            section_data = json.load(f)
-        self._normalize_section_headers(section_data)
+        sent_sect_map = {}
 
-        sent_to_sect = {}
-        for section in section_data["sections"]:
-            header = section.get("header", None)
-            if not header:
-                continue
-            body = section.get("body", None)
-            sents = [span.sent.strip() for span in SEGMENTER.segment(body)]
-            for sent in sents:
-                sent_to_sect[sent] = header
-
+        sents_and_sects = [
+            {
+                "type": "section",
+                "bbox": b.bbox,
+                "entity": SectionUnit(text=b.text, bbox=b.bbox),
+            }
+            for b in self.get_section_bboxes()
+        ]
         for sent in self.sentences:
-            cands = difflib.get_close_matches(sent.text, sent_to_sect.keys())
-            num_close_matches = len(cands)
+            if not sent.bboxes:
+                continue
+            repr_bbox = sorted(
+                [{"bbox": bbox} for bbox in sent.bboxes],
+                key=cmp_to_key(self._sort_bbox_objs),
+            )[0]["bbox"]
+            sents_and_sects.append(
+                {"type": "sentence", "bbox": repr_bbox, "entity": sent}
+            )
 
-            # If there's exactly one close match, use it for the section label
-            if num_close_matches == 1:
-                section = sent_to_sect[cands[0]]
+        sents_and_sects = sorted(sents_and_sects, key=cmp_to_key(self._sort_bbox_objs))
 
-            # If there's no close match, give the sentence a None section label
-            elif num_close_matches == 0:
-                section = ""
-
-            # If there's more than one close match:
-            #   - If all close matches have the same section label, use that label
-            #   - If there are multiple, use the label of the closest match
+        all_sections = {}  # { <section number>: <section text> }
+        current_section = ""
+        for x in sents_and_sects:
+            if x["type"] == "sentence":
+                sent_sect_map[x["entity"].text] = current_section
             else:
-                cand_sections = list(set([sent_to_sect[c] for c in cands]))
-                if len(cand_sections) == 1:
-                    section = cand_sections[0]
-                else:
-                    section = ""
-            sent_to_sect[sent.text] = section
+                current_section = x["entity"].text
+                match = re.search(r"[-+]?\d*\.\d+|\d+", current_section)
+                if match:
+                    sect_number = match.group()
+                    all_sections[sect_number] = current_section
 
-        # For unlabeled sentences, if the previous and following labeled sentences
-        # have the same label, use that label for the unlabeled sentence as well.
-        for i, sent in enumerate(self.sentences):
-            if sent_to_sect[sent.text] == "":
-                prev_label = ""
-                j = i - 1
-                while j >= 0:
-                    cand_prev_label = sent_to_sect[self.sentences[j].text]
-                    if cand_prev_label != "":
-                        prev_label = cand_prev_label
-                        break
-                    j = j - 1
+        for sent, sect in sent_sect_map.items():
+            match = re.search(r"[-+]?\d*\.\d+|\d+", sect)
+            if match:
+                sect_number = match.group()
+            sect_number_parts = sect_number.split(".")
 
-                next_label = ""
-                j = i + 1
-                while j < len(self.sentences):
-                    cand_next_label = sent_to_sect[self.sentences[j].text]
-                    if cand_next_label != "":
-                        next_label = cand_next_label
-                        break
-                    j = j + 1
-                if prev_label == next_label:
-                    sent_to_sect[sent] = next_label
+            if len(sect_number_parts) == 3:
+                first_level_header = all_sections.get(sect_number_parts[0], "")
+                second_level_header = all_sections.get(
+                    ".".join(sect_number_parts[:2]), ""
+                )
+                sent_sect_map[
+                    sent
+                ] = f"{first_level_header} @@ {second_level_header} @@ {sect}"
+            elif len(sect_number_parts) == 2:
+                first_level_header = all_sections.get(sect_number_parts[0], "")
+                sent_sect_map[sent] = f"{first_level_header} @@ {sect}"
 
-        return sent_to_sect
+        return sent_sect_map
 
     def get_section_for_sentence(self, sentence: str):
         return self.sent_sect_map[sentence]
@@ -321,6 +315,11 @@ class SPPPaper:
     def get_caption_bboxes(self):
         return Block.build_blocks_from_spp_json(
             infile=self.json_file_path, type="caption"
+        )
+
+    def get_section_bboxes(self):
+        return Block.build_blocks_from_spp_json(
+            infile=self.json_file_path, type="section"
         )
 
     def get_first_sentences(self) -> List[SentenceWithBBoxes]:

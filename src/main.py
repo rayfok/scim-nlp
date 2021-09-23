@@ -4,6 +4,7 @@ import os
 from pprint import pprint
 
 from detect_rhetorical_classes import AZClassifier
+from paper import *
 from paper import RhetoricUnit
 from run_spp import get_parsed_arxiv_pdf
 from run_ssc import run_ssc
@@ -16,17 +17,21 @@ from utils import (
     make_spp_output_to_ssc_input,
 )
 
-from paper import *
-
 OUTPUT_ROOT_DIR = "output"
 
 
 def main(args):
     output_path = f"{OUTPUT_ROOT_DIR}/facets"
+    sections_output_path = f"{OUTPUT_ROOT_DIR}/sections"
     captions_output_path = f"{OUTPUT_ROOT_DIR}/captions"
     sentences_output_path = f"{OUTPUT_ROOT_DIR}/sentences"
 
-    paths = [output_path, captions_output_path, sentences_output_path]
+    paths = [
+        output_path,
+        sections_output_path,
+        captions_output_path,
+        sentences_output_path,
+    ]
     if all(os.path.exists(f"{p}/{args.arxiv_id}.json") for p in paths):
         return
 
@@ -78,21 +83,44 @@ def main(args):
         serialized = [m.to_json() for m in media_units]
         json.dump(serialized, out, indent=2)
 
-    ## Next, we get all first sentences and their bboxes.
+    # Next, we get all sections and their bboxes.
+    section_units = []
+    for section_block in azc.paper.get_section_bboxes():
+        section_units.append(
+            SectionUnit(text=section_block.text, bbox=section_block.bbox)
+        )
+    with open(f"{sections_output_path}/{args.arxiv_id}.json", "w") as out:
+        serialized = [s.to_json() for s in section_units]
+        json.dump(serialized, out, indent=2)
+
+    # Next, we get all first sentences and their bboxes.
     with open(f"{sentences_output_path}/{args.arxiv_id}.json", "w") as out:
         serialized = [s.to_json() for s in azc.paper.get_first_sentences()]
         json.dump(serialized, out, indent=2)
 
     ## Next, we get author statements (i.e., clauses including "we", "our", "this paper")
-    author_statements = azc.get_short_author_statements()
+    # author_statements = azc.get_short_author_statements()
+    # for author_statement in author_statements:
+    #     short, full = author_statement[0], author_statement[1]
+    #     bboxes = azc.paper.get_bboxes_for_span(short, full.text)
+    #     rhetorical_units.append(
+    #         RhetoricUnit(
+    #             text=short,
+    #             label="Author",
+    #             bboxes=bboxes,
+    #             section=None,
+    #             prob=None,
+    #             is_author_statement=True,
+    #             is_in_expected_section=True,
+    #         )
+    #     )
+    author_statements = azc.get_author_statements()
     for author_statement in author_statements:
-        short, full = author_statement[0], author_statement[1]
-        bboxes = azc.paper.get_bboxes_for_span(short, full)
         rhetorical_units.append(
             RhetoricUnit(
-                text=short,
+                text=author_statement.text,
                 label="Author",
-                bboxes=bboxes,
+                bboxes=author_statement.bboxes,
                 section=None,
                 prob=None,
                 is_author_statement=True,
@@ -143,11 +171,23 @@ def main(args):
         json.dump(serialized, out, indent=2)
 
 
+def test(args):
+    spp_output_file = f"{SPP_OUTPUT_DIR}/{args.arxiv_id}.json"
+    azc = AZClassifier(spp_output_file, dataset="spp")
+    for sent, sect in azc.paper.sent_sect_map.items():
+        print(sent[:50], sect)
+        print()
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--arxiv_id", type=str, required=True,
     )
+    parser.add_argument("--test", action="store_true")
     args = parser.parse_args()
 
-    main(args)
+    if args.test:
+        test(args)
+    else:
+        main(args)
