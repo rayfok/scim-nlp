@@ -478,14 +478,14 @@ class AZClassifier:
         author_statements = []
         for sentence in self.paper.sentences:
             if self._sentence_contains_root_or_aliases(sentence.text, "we"):
-                author_statements.append(sentence.text)
+                author_statements.append(sentence)
         return author_statements
 
     def get_short_author_statements(self):
         short_statements = []
         author_statements = self.get_author_statements()
         for sent in author_statements:
-            doc = nlp(sent.lower())
+            doc = nlp(sent.text.lower())
             clause_tokens = []
             pron_found = False
             verb_found = False
