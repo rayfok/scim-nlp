@@ -211,10 +211,6 @@ class SPPPaper:
     def _make_sent_sect_map(self):
         sent_sect_map = {}
 
-        # Give "abstract" section for each sentence in the abstract
-        for abstract_sent in self.abstract:
-            sent_sect_map[abstract_sent.text] = "abstract"
-
         # Determine section for each sentence in the body
         sents_and_sects = [
             {
@@ -266,6 +262,10 @@ class SPPPaper:
             elif len(sect_number_parts) == 2:
                 first_level_header = all_sections.get(sect_number_parts[0], "")
                 sent_sect_map[sent] = f"{first_level_header} @@ {sect}"
+
+        # Give "abstract" section for each sentence in the abstract
+        for abstract_sent in self.abstract:
+            sent_sect_map[abstract_sent.text] = "Abstract"
 
         return sent_sect_map
 
