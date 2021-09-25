@@ -1,0 +1,44 @@
+{
+  "2102.00593": [
+    {
+      "sentence": "Decision support tools (DSTs) embodying machine learning models may help improve the treatment selection process, but often fail in clinical practice due to poor system integration.",
+      "label": "Background",
+      "prob": 0.9285722970962524
+    },
+    {
+      "sentence": "While many antidepressant medications are available, few clinical guidelines support choosing among them.",
+      "label": "Background",
+      "prob": 0.8963396549224854
+    },
+    {
+      "sentence": "Major depressive disorder is a debilitating disease affecting 264 million people worldwide.",
+      "label": "Background",
+      "prob": 0.7675274610519409
+    },
+    {
+      "sentence": "We identify ways in which DSTs need to engage with the healthcare sociotechnical system, including clinical processes, patient preferences, resource constraints, and domain knowledge.",
+      "label": "Background",
+      "prob": 0.5271534323692322
+    },
+    {
+      "sentence": "We use an iterative, co-design process to investigate clinicians perceptions of using DSTs in antidepressant treatment decisions.",
+      "label": "Background",
+      "prob": 0.4400816261768341
+    },
+    {
+      "sentence": "Through this work, we demonstrate how current trends in explainable AI may be inappropriate for clinical environments and consider paths towards designing these tools for real-world medical systems.",
+      "label": "Background",
+      "prob": 0.3391100764274597
+    },
+    {
+      "sentence": "Our results suggest that clinical DSTs should be designed as multi-user systems that support patient-provider collaboration and offer on-demand explanations that address discrepancies between predictions and current standards of care.",
+      "label": "Result",
+      "prob": 0.6347765922546387
+    },
+    {
+      "sentence": "decision support tools, healthcare, major depressive disorder",
+      "label": "Other",
+      "prob": 0.6674591302871704
+    }
+  ]
+}

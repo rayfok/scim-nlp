@@ -9,10 +9,13 @@ import numpy as np
 from allennlp.models.archival import load_archive
 from allennlp.predictors.predictor import Predictor
 from sequential_sentence_classification.sequential_sentence_classification import (
-    dataset_reader, model, predictor)
+    dataset_reader,
+    model,
+    predictor,
+)
 from tqdm import tqdm
 
-from utils import SSC_OUTPUT_DIR
+from utils import SSC_OUTPUT_DIR, SSC_ABSTRACT_OUTPUT_DIR
 
 
 def run_ssc(model_path: str, test_jsonl_file: str, output_json_file: str):
@@ -115,7 +118,6 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    os.makedirs(SSC_OUTPUT_DIR, exist_ok=True)
     if args.output_file:
         output_filename = args.output_file
     else:

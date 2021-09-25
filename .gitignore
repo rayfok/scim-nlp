@@ -11,6 +11,8 @@ data/*
 !data/sections
 !data/spp-output
 !data/ssc-input
+!data/ssc-input-abstract
 !data/ssc-output
+!data/ssc-output-abstract
 
 sequential_sentence_classification/src

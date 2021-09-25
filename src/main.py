@@ -12,6 +12,8 @@ from utils import (
     SPP_OUTPUT_DIR,
     SSC_INPUT_DIR,
     SSC_OUTPUT_DIR,
+    SSC_ABSTRACT_INPUT_DIR,
+    SSC_ABSTRACT_OUTPUT_DIR,
     get_top_k_ssc_pred,
     get_top_pred_by_block,
     make_spp_output_to_ssc_input,
@@ -25,12 +27,14 @@ def main(args):
     sections_output_path = f"{OUTPUT_ROOT_DIR}/sections"
     captions_output_path = f"{OUTPUT_ROOT_DIR}/captions"
     sentences_output_path = f"{OUTPUT_ROOT_DIR}/sentences"
+    abstract_output_path = f"{OUTPUT_ROOT_DIR}/abstract"
 
     paths = [
         output_path,
         sections_output_path,
         captions_output_path,
         sentences_output_path,
+        abstract_output_path,
     ]
     if all(os.path.exists(f"{p}/{args.arxiv_id}.json") for p in paths):
         return
@@ -47,13 +51,19 @@ def main(args):
         with open(spp_output_file, "w") as out:
             json.dump(layout, out, indent=2)
 
+    azc = AZClassifier(spp_output_file, dataset="spp")  # initialize classifier
+
     # Convert scienceparseplus output into a data format for sequential-sentence-classification
     ssc_input_file = f"{SSC_INPUT_DIR}/{args.arxiv_id}.jsonl"
-    if not os.path.exists(ssc_input_file):
+    ssc_abstract_input_file = f"{SSC_ABSTRACT_INPUT_DIR}/{args.arxiv_id}.jsonl"
+    if not os.path.exists(ssc_input_file) or not os.path.exists(
+        ssc_abstract_input_file
+    ):
         make_spp_output_to_ssc_input(args.arxiv_id)
 
     # Run sequential-sentence-classification to classify each sentence into one of
     # five categories: Background, Objective, Method, Result, Other.
+    os.makedirs(SSC_OUTPUT_DIR, exist_ok=True)
     ssc_output_file = f"{SSC_OUTPUT_DIR}/{args.arxiv_id}.json"
     if not os.path.exists(ssc_output_file):
         model_path = "sequential_sentence_classification/model.tar.gz"
@@ -62,6 +72,30 @@ def main(args):
             test_jsonl_file=ssc_input_file,
             output_json_file=ssc_output_file,
         )
+
+    os.makedirs(SSC_ABSTRACT_OUTPUT_DIR, exist_ok=True)
+    ssc_abstract_output_file = f"{SSC_ABSTRACT_OUTPUT_DIR}/{args.arxiv_id}.json"
+    if not os.path.exists(ssc_abstract_output_file):
+        model_path = "sequential_sentence_classification/model.tar.gz"
+        run_ssc(
+            model_path=model_path,
+            test_jsonl_file=ssc_abstract_input_file,
+            output_json_file=ssc_abstract_output_file,
+        )
+    with open(ssc_abstract_output_file, "r") as f:
+        ssc_abstract_preds = json.load(f)
+    abstract_units = []
+    for pred_obj in ssc_abstract_preds[args.arxiv_id]:
+        sentence = pred_obj["sentence"]
+        label = pred_obj["label"]
+        prob = pred_obj["prob"]
+        if label in ["Objective", "Method", "Result"]:
+            abstract_units.append(azc.make_ssc_rhetoric_unit(sentence, label, prob))
+    with open(f"{abstract_output_path}/{args.arxiv_id}.json", "w") as out:
+        serialized = [r.to_json() for r in abstract_units]
+        json.dump(serialized, out, indent=2)
+
+    return
 
     # Extract rhetorical classes with heuristics
     azc = AZClassifier(spp_output_file, dataset="spp")
@@ -140,9 +174,6 @@ def main(args):
     ## Next, we filter the output of the facet classifier with a facet-sensitive threhsold
     with open(ssc_output_file, "r") as f:
         ssc_preds = json.load(f)
-    # top_preds = get_top_k_ssc_pred(ssc_preds, k=3)
-    # top_preds["Method"] = get_top_k_ssc_pred(ssc_preds, label="Method", k=8)
-    # top_preds["Result"] = get_top_k_ssc_pred(ssc_preds, label="Result", k=8)
 
     top_preds = {}
     top_preds["Objective"] = get_top_pred_by_block(

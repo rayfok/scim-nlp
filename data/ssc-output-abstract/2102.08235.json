@@ -1,0 +1,44 @@
+{
+  "2102.08235": [
+    {
+      "sentence": "With the growing ubiquity of wearable devices, sensed physiological responses provide new means to connect with others.",
+      "label": "Background",
+      "prob": 0.9429890513420105
+    },
+    {
+      "sentence": "However, the addition of biosignals introduced concerns about autonomy and agency over the messages they sent.",
+      "label": "Background",
+      "prob": 0.9330630302429199
+    },
+    {
+      "sentence": "While recent research demonstrates the expressive potential for biosignals, the value of sharing these personal data remains unclear.",
+      "label": "Background",
+      "prob": 0.8854116797447205
+    },
+    {
+      "sentence": "computer-mediated communication, biosignals, interpersonal communication, social connection, smartwatches, heart rate, couples",
+      "label": "Background",
+      "prob": 0.6266940236091614
+    },
+    {
+      "sentence": "In a one-month study with 20 couples, participants used Significant Otter with biosignals sensing OFF and ON.",
+      "label": "Background",
+      "prob": 0.490937739610672
+    },
+    {
+      "sentence": "We discuss design implications and future directions for communication systems that recommend messages based on biosignals.",
+      "label": "Background",
+      "prob": 0.452892929315567
+    },
+    {
+      "sentence": "We found that while sensing OFF enabled couples to keep in touch, sensing ON enabled easier and more authentic communication that fostered social connection.",
+      "label": "Background",
+      "prob": 0.4424879252910614
+    },
+    {
+      "sentence": "To understand their role in communication, we created Significant Otter, an Apple Watch/iPhone app that enables romantic partners to share and respond to each others biosignals in the form of animated otter avatars.",
+      "label": "Background",
+      "prob": 0.43699756264686584
+    }
+  ]
+}

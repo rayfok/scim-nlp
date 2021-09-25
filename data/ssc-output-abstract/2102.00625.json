@@ -1,0 +1,39 @@
+{
+  "2102.00625": [
+    {
+      "sentence": "How to attribute responsibility for autonomous artificial intelligence (AI) systems actions has been widely debated across the humanities and social science disciplines.",
+      "label": "Background",
+      "prob": 0.952176034450531
+    },
+    {
+      "sentence": "We discuss policy and HCI implications of these findings, such as the need for explainable AI in high-stakes scenarios.",
+      "label": "Background",
+      "prob": 0.5979416966438293
+    },
+    {
+      "sentence": "AI, Moral Responsibility, Responsibility, Moral Judgment, Blame, Liability, COMPAS, Bail Decision-Making",
+      "label": "Background",
+      "prob": 0.5057668089866638
+    },
+    {
+      "sentence": "However, there was a meaningful difference in how people perceived these agents moral responsibility; human agents were ascribed to a higher degree of present-looking and forward-looking notions of responsibility than AI agents.",
+      "label": "Result",
+      "prob": 0.47170689702033997
+    },
+    {
+      "sentence": "We also found that people expect both AI and human decision-makers and advisors to justify their decisions regardless of their nature.",
+      "label": "Result",
+      "prob": 0.5620381832122803
+    },
+    {
+      "sentence": "This work presents two experiments (  =200 each) that measure peoples perceptions of eight different notions of moral responsibility concerning AI and human agents in the context of bail decision-making.",
+      "label": "Background",
+      "prob": 0.34034499526023865
+    },
+    {
+      "sentence": "Using reallife adapted vignettes, our experiments show that AI agents are held causally responsible and blamed similarly to human agents for an identical task.",
+      "label": "Result",
+      "prob": 0.6879555583000183
+    }
+  ]
+}

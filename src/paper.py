@@ -112,9 +112,14 @@ class SPPPaper:
 
         self.blocks = self._get_blocks()
         self.sentences = self._get_sentences()
-        self.sent_block_map = {s.text: s.block_idx for s in self.sentences}
-        self.sent_bbox_map = {s.text: s.bboxes for s in self.sentences}
-        self.sent_tokens_map = {s.text: s.tokens for s in self.sentences}
+        self.abstract = self._get_abstract()
+        self.sent_block_map = {
+            s.text: s.block_idx for s in self.sentences + self.abstract
+        }
+        self.sent_bbox_map = {s.text: s.bboxes for s in self.sentences + self.abstract}
+        self.sent_tokens_map = {
+            s.text: s.tokens for s in self.sentences + self.abstract
+        }
 
         self.sent_sect_map = self._make_sent_sect_map()
         self.sections = list(set(self.sent_sect_map.values()))
@@ -135,6 +140,24 @@ class SPPPaper:
         for sent in sentences:
             sent.text = self._clean_sentence(sent.text)
         return sentences
+
+    def _get_abstract(self):
+        abstract_sents = []
+        abstract_blocks = Block.build_blocks_from_spp_json(
+            infile=self.json_file_path, type="abstract"
+        )
+        for i, block in enumerate(abstract_blocks):
+            for sent in block.sents:
+                sent.block_idx = i
+                sent.text = self._clean_sentence(sent.text)
+                abstract_sents.append(sent)
+
+        # Filter certain key phrases that don't belong in the abstract
+        blocklist = ["CCS Concepts", "Additional Key Words and Phrases"]
+        abstract_sents = [
+            s for s in abstract_sents if not any(x in s.text for x in blocklist)
+        ]
+        return abstract_sents
 
     def _get_tokens_for_sentence(self):
         sent_token_map = {}
@@ -188,6 +211,11 @@ class SPPPaper:
     def _make_sent_sect_map(self):
         sent_sect_map = {}
 
+        # Give "abstract" section for each sentence in the abstract
+        for abstract_sent in self.abstract:
+            sent_sect_map[abstract_sent.text] = "abstract"
+
+        # Determine section for each sentence in the body
         sents_and_sects = [
             {
                 "type": "section",

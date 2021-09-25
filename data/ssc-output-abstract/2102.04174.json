@@ -1,0 +1,49 @@
+{
+  "2102.04174": [
+    {
+      "sentence": "Informed by user performance, the psychologist component updates its beliefs about each users memory state for each item.",
+      "label": "Background",
+      "prob": 0.744242250919342
+    },
+    {
+      "sentence": "Whereas previous work has focused on either personalization of teaching or optimization of teaching intervention sequences, the proposed individualized model-based planning approach represents convergence of these two lines of research.",
+      "label": "Background",
+      "prob": 0.6619350910186768
+    },
+    {
+      "sentence": "The approach is novel in its use of a cognitive model that can account for several key individualand material-specific characteristics related to recall/forgetting, along with a planning technique that considers users practice schedules.",
+      "label": "Background",
+      "prob": 0.5194849371910095
+    },
+    {
+      "sentence": "Model-based planning picks the best interventions via interactive learning of a user memory models parameters.",
+      "label": "Background",
+      "prob": 0.4282682240009308
+    },
+    {
+      "sentence": "The paper presents a novel model-based method for intelligent tutoring, with particular emphasis on the problem of selecting teaching interventions in interaction with humans.",
+      "label": "Background",
+      "prob": 0.3553033173084259
+    },
+    {
+      "sentence": "To predict the consequences of particular candidate sequences for the human learner, the planner component consults the psychologist; then, the planner chooses the teaching intervention that maximizes the potential for meeting the learning objective.",
+      "label": "Objective",
+      "prob": 0.42618751525878906
+    },
+    {
+      "sentence": "We propose a model-based planning approach for intelligent tutoring that combines parameter inference and sequence planning.",
+      "label": "Objective",
+      "prob": 0.43500685691833496
+    },
+    {
+      "sentence": "Taking a rule-based approach as a baseline, the authors evaluated the methods benefits in a controlled study of artificial teaching in second-language vocabulary learning (  = 53).",
+      "label": "Result",
+      "prob": 0.6921930909156799
+    },
+    {
+      "sentence": "Fig. 1.",
+      "label": "Other",
+      "prob": 0.48296502232551575
+    }
+  ]
+}

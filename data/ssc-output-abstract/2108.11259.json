@@ -1,0 +1,39 @@
+{
+  "2108.11259": [
+    {
+      "sentence": "While all agents were curious and enthusiastic, the style of humour was manipulated such that the agent either expressed an affiliative style, a self-defeating style, or no humour.",
+      "label": "Background",
+      "prob": 0.7274823188781738
+    },
+    {
+      "sentence": "Previous studies have highlighted the benefits of pedagogical conversational agents using socially-oriented conversation with students.",
+      "label": "Background",
+      "prob": 0.7214733362197876
+    },
+    {
+      "sentence": "In this work, we examine the effects of a conversational agents use of affiliative and self-defeating humour  considered conducive to social well-being and enhancing interpersonal relationships  on learners perception of the agent and attitudes towards the task.",
+      "label": "Background",
+      "prob": 0.34847891330718994
+    },
+    {
+      "sentence": "Conversational Agent, Education, Motivation, Learning Experience, Learning Outcomes, Humour",
+      "label": "Other",
+      "prob": 0.46725204586982727
+    },
+    {
+      "sentence": "Using a between-subjects protocol, 58 participants taught a conversational agent about rock classification using a learning-by-teaching platform, the Curiosity Notebook.",
+      "label": "Background",
+      "prob": 0.2969474792480469
+    },
+    {
+      "sentence": "Results demonstrate that affiliative humour can significantly increase motivation and effort, while self-defeating humour, although enhancing effort, negatively impacts enjoyment.",
+      "label": "Result",
+      "prob": 0.7673843502998352
+    },
+    {
+      "sentence": "Findings further highlight the importance of understanding learner characteristics when using humour.",
+      "label": "Result",
+      "prob": 0.782508909702301
+    }
+  ]
+}

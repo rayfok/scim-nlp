@@ -1,0 +1,49 @@
+{
+  "2102.09087": [
+    {
+      "sentence": "With phone form factor as auxiliary information, TapNet can jointly learn from data across devices and simultaneously recognize multiple tap properties, including tap direction and tap location.",
+      "label": "Background",
+      "prob": 0.8429444432258606
+    },
+    {
+      "sentence": "Along with the datasets, codebase 1 , and extensive experiments, TapNet establishes a new technical foundation for off-screen mobile input.",
+      "label": "Background",
+      "prob": 0.5071479678153992
+    },
+    {
+      "sentence": "We present the design, training, implementation and applications of TapNet, a multi-task network that detects tapping on the smartphone.",
+      "label": "Background",
+      "prob": 0.42259061336517334
+    },
+    {
+      "sentence": "We developed two datasets consisting of over 135K training samples, 38K testing samples, and 32 participants in total.",
+      "label": "Background",
+      "prob": 0.4062401056289673
+    },
+    {
+      "sentence": "Back-of-device, gesture recognition, IMU",
+      "label": "Other",
+      "prob": 0.5678095817565918
+    },
+    {
+      "sentence": "Human-centered computing  Gestural input .",
+      "label": "Other",
+      "prob": 0.499292254447937
+    },
+    {
+      "sentence": "To make off-screen interaction without specialized hardware practical, we investigate using deep learning methods to process the common built-in IMU sensor (accelerometers and gyroscopes) on mobile phones into a useful set of one-handed interaction events.",
+      "label": "Method",
+      "prob": 0.5682372450828552
+    },
+    {
+      "sentence": "Experimental evaluation demonstrated the effectiveness of the TapNet design and its significant improvement over the state of the art.",
+      "label": "Result",
+      "prob": 0.800118625164032
+    },
+    {
+      "sentence": "KEYWORDS",
+      "label": "Other",
+      "prob": 0.9414592385292053
+    }
+  ]
+}

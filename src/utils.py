@@ -9,20 +9,31 @@ from paper import SPPPaper
 DATA_ROOT = "data"
 SPP_OUTPUT_DIR = f"{DATA_ROOT}/spp-output"
 SSC_INPUT_DIR = f"{DATA_ROOT}/ssc-input"
+SSC_ABSTRACT_INPUT_DIR = f"{DATA_ROOT}/ssc-input-abstract"
 SSC_OUTPUT_DIR = f"{DATA_ROOT}/ssc-output"
+SSC_ABSTRACT_OUTPUT_DIR = f"{DATA_ROOT}/ssc-output-abstract"
 
 
-def make_ssc_input(id: str, sentences: List[str]) -> None:
-    os.makedirs(SSC_INPUT_DIR, exist_ok=True)
-    with jsonlines.open(f"{SSC_INPUT_DIR}/{id}.jsonl", "w") as out:
+def make_ssc_input(id: str, output_file: str, sentences: List[str]) -> None:
+    with jsonlines.open(output_file, "w") as out:
         out.write({"paper_id": id, "sentences": sentences})
 
 
 def make_spp_output_to_ssc_input(arxiv_id: str):
     p = SPPPaper(f"{SPP_OUTPUT_DIR}/{arxiv_id}.json")
+
+    # Process sentences in the body
     sentences = [s.text for s in p.sentences]
     sentences = [s for s in sentences if len(s) >= 10]
-    make_ssc_input(arxiv_id, sentences)
+    os.makedirs(SSC_INPUT_DIR, exist_ok=True)
+    output_file = f"{SSC_INPUT_DIR}/{arxiv_id}.jsonl"
+    make_ssc_input(arxiv_id, output_file, sentences)
+
+    # Process sentences in the abstract
+    sentences = [s.text for s in p.abstract]
+    os.makedirs(SSC_ABSTRACT_INPUT_DIR, exist_ok=True)
+    output_file = f"{SSC_ABSTRACT_INPUT_DIR}/{arxiv_id}.jsonl"
+    make_ssc_input(arxiv_id, output_file, sentences)
 
 
 def get_top_k_ssc_pred(data: Any, label: str = "", k: int = 5):

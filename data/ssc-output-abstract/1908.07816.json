@@ -1,0 +1,34 @@
+{
+  "1908.07816": [
+    {
+      "sentence": "However, they do not explicitly learn the subtle emotional interactions captured in human dialogs.",
+      "label": "Background",
+      "prob": 0.8810749650001526
+    },
+    {
+      "sentence": "chatbots, affective computing, deep learning, natural language processing",
+      "label": "Other",
+      "prob": 0.4732831120491028
+    },
+    {
+      "sentence": "In this paper, we propose a multi-turn dialog system aimed at learning and generating emotional responses that so far only humans know how to do.",
+      "label": "Objective",
+      "prob": 0.5824331045150757
+    },
+    {
+      "sentence": "Open-domain dialog systems (also known as chatbots) have increasingly drawn attention in natural language processing. Some of the recent work aims at incorporating affect information into sequence-to-sequence neural dialog modeling, making the response emotionally richer, while others use hand-crafted rules to determine the desired emotion response.",
+      "label": "Objective",
+      "prob": 0.6561979651451111
+    },
+    {
+      "sentence": "Further human evaluations confirm that our chatbot can keep track of the conversation context and generate emotionally more appropriate responses while performing equally well on grammar.",
+      "label": "Result",
+      "prob": 0.7647748589515686
+    },
+    {
+      "sentence": "Compared with two baseline models, offline experiments show that our method performs the best in perplexity scores.",
+      "label": "Result",
+      "prob": 0.7503337264060974
+    }
+  ]
+}

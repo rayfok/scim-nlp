@@ -1,0 +1,44 @@
+{
+  "2103.06807": [
+    {
+      "sentence": "However, effects on users are hard to predict as they depend on factors that are latent and evolve over the course of interaction.",
+      "label": "Background",
+      "prob": 0.9498826861381531
+    },
+    {
+      "sentence": "A carelessly picked adaptation may impose high costs to the user  for example, due to surprise or relearning effort  or trap the process to a suboptimal design immaturely.",
+      "label": "Background",
+      "prob": 0.946113109588623
+    },
+    {
+      "sentence": "Adapting an interface requires taking into account both the positive and negative effects that changes may have on the user.",
+      "label": "Background",
+      "prob": 0.860236406326294
+    },
+    {
+      "sentence": "We propose a novel approach for adaptive user interfaces that yields a conservative adaptation policy: It finds beneficial changes when there are such and avoids changes when there are none.",
+      "label": "Background",
+      "prob": 0.42967489361763
+    },
+    {
+      "sentence": "Adaptive User Interfaces; Reinforcement Learning; Predictive Models; Monte Carlo Tree Search",
+      "label": "Background",
+      "prob": 0.42384225130081177
+    },
+    {
+      "sentence": "Our model-based reinforcement learning",
+      "label": "Result",
+      "prob": 0.40687987208366394
+    },
+    {
+      "sentence": "method plans sequences of adaptations and consults predictive HCI models to estimate their effects.",
+      "label": "Method",
+      "prob": 0.6694847941398621
+    },
+    {
+      "sentence": "We present empirical and simulation results from the case of adaptive menus, showing that the method outperforms both a non-adaptive and a frequency-based policy.",
+      "label": "Result",
+      "prob": 0.696153998374939
+    }
+  ]
+}

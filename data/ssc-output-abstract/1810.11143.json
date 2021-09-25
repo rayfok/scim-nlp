@@ -1,0 +1,49 @@
+{
+  "1810.11143": [
+    {
+      "sentence": "Communities who suffer from poor air quality often rely on experts to identify pollution sources due to the lack of accessible tools.",
+      "label": "Background",
+      "prob": 0.9554718136787415
+    },
+    {
+      "sentence": "Urban air pollution has been linked to various human health considerations, including cardiopulmonary diseases.",
+      "label": "Background",
+      "prob": 0.8492742776870728
+    },
+    {
+      "sentence": "These reports are also sent to the local health department and visualized on a map along with air quality data from monitoring stations.",
+      "label": "Background",
+      "prob": 0.6662141680717468
+    },
+    {
+      "sentence": "Taking this into account, we developed Smell Pittsburgh , a system that enables community members to report odors and track where these odors are frequently concentrated.",
+      "label": "Background",
+      "prob": 0.5592308044433594
+    },
+    {
+      "sentence": "Additionally, with these reports and air quality data, we developed a model to predict upcoming smell events and send push notifications to inform communities.",
+      "label": "Background",
+      "prob": 0.4032613933086395
+    },
+    {
+      "sentence": "Citizen science, smell, air quality, sustainable HCI, machine learning, community empowerment",
+      "label": "Other",
+      "prob": 0.47939833998680115
+    },
+    {
+      "sentence": "This visualization provides a comprehensive overview of the local pollution landscape.",
+      "label": "Result",
+      "prob": 0.5223193168640137
+    },
+    {
+      "sentence": "Our evaluation of this system demonstrates that engaging residents in documenting their experiences with pollution odors can help identify local air pollution patterns, and can empower communities to advocate for better air quality.",
+      "label": "Result",
+      "prob": 0.7549203634262085
+    },
+    {
+      "sentence": "All smell report data are publicly accessible online.",
+      "label": "Other",
+      "prob": 0.8184800744056702
+    }
+  ]
+}
