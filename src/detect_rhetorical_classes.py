@@ -447,7 +447,7 @@ class AZClassifier:
             "Result": "result",
         }
         is_in_expected_section = self._is_in_expected_section(
-            sentence, ssc_rhetoric_unit_label_map[label]
+            sentence, ssc_rhetoric_unit_label_map.get(label, "")
         )
         return RhetoricUnit(
             text=sentence,

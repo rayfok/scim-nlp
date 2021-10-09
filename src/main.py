@@ -86,16 +86,14 @@ def main(args):
         ssc_abstract_preds = json.load(f)
     abstract_units = []
     for pred_obj in ssc_abstract_preds[args.arxiv_id]:
-        sentence = pred_obj["sentence"]
-        label = pred_obj["label"]
-        prob = pred_obj["prob"]
-        if label in ["Objective", "Method", "Result"]:
-            abstract_units.append(azc.make_ssc_rhetoric_unit(sentence, label, prob))
+        abstract_units.append(
+            azc.make_ssc_rhetoric_unit(
+                pred_obj["sentence"], pred_obj["label"], pred_obj["prob"]
+            )
+        )
     with open(f"{abstract_output_path}/{args.arxiv_id}.json", "w") as out:
         serialized = [r.to_json() for r in abstract_units]
         json.dump(serialized, out, indent=2)
-
-    return
 
     # Extract rhetorical classes with heuristics
     azc = AZClassifier(spp_output_file, dataset="spp")
