@@ -1,0 +1,2044 @@
+{
+  "uist-8": [
+    {
+      "sentence": "However, a hand-held device may constitute an additional input device rather than being a primary input device for the glasses users due to carriage load.",
+      "label": "Background",
+      "prob": 0.9383405447006226
+    },
+    {
+      "sentence": "Because the keyboard layouts were not typical, a novice user may spend a lot of time to discover a key.",
+      "label": "Background",
+      "prob": 0.9378395676612854
+    },
+    {
+      "sentence": "[44], in-air typing performance may deteriorate, subject to the quality of the hand tracker.",
+      "label": "Background",
+      "prob": 0.9321713447570801
+    },
+    {
+      "sentence": "HWDs generally exploit the gaze input modality, not only for text entry, as these devices can sense the gaze input.",
+      "label": "Background",
+      "prob": 0.927830159664154
+    },
+    {
+      "sentence": "Conversely, the number of sub-keyboards must be increased with the reducing number of touch gestures.",
+      "label": "Background",
+      "prob": 0.9248923659324646
+    },
+    {
+      "sentence": "It is a challenging problem owing to the limited input space of smart glasses, which is generally a small and oblong touchpad on the temple.",
+      "label": "Background",
+      "prob": 0.9234181046485901
+    },
+    {
+      "sentence": "In fact, the virtual reality environment and the smart glass-based environment may differ from each other.",
+      "label": "Background",
+      "prob": 0.922074019908905
+    },
+    {
+      "sentence": "Further, it may be accurate initially, but becomes inaccurate over time owing to the slippage of the HWD.",
+      "label": "Background",
+      "prob": 0.9192479252815247
+    },
+    {
+      "sentence": "Additionally, the on-frame touchpad is perpendicular to the display of the glasses; therefore, the mapping between the touchpad and the display is often confusing.",
+      "label": "Background",
+      "prob": 0.9181904196739197
+    },
+    {
+      "sentence": "Some also felt stress and nervousness caused by out-of-control movement of the eye cursor due to drift problem over time.",
+      "label": "Background",
+      "prob": 0.912882924079895
+    },
+    {
+      "sentence": "The eye cursor can provide a sense of control for the eye input; however, it may distract a user or occlude a key.",
+      "label": "Background",
+      "prob": 0.911806583404541
+    },
+    {
+      "sentence": "To enter text, voice input is a natural and fast technique [3]; however, its use is limited because",
+      "label": "Background",
+      "prob": 0.9114808440208435
+    },
+    {
+      "sentence": "Thus, explicit eye movement to select a sub-keyboard will occur more frequently.",
+      "label": "Background",
+      "prob": 0.9113506078720093
+    },
+    {
+      "sentence": "In addition, considering the usage environment of smart glasses, it may require minimized visual representation of the keyboard.",
+      "label": "Background",
+      "prob": 0.9048334956169128
+    },
+    {
+      "sentence": "is difcult and inefcient because of the narrow input space.",
+      "label": "Background",
+      "prob": 0.9041992425918579
+    },
+    {
+      "sentence": "a harmonized usage of the gaze and touch inputs to discretely compensate for the limited expression of the input modalities.",
+      "label": "Background",
+      "prob": 0.9037245512008667
+    },
+    {
+      "sentence": "If the eye cursor always moves to a gaze position, an activated sub-keyboard can be changed accidentally before entering a key.",
+      "label": "Background",
+      "prob": 0.8995323777198792
+    },
+    {
+      "sentence": "In addition, looking at a key before entering the key is a relatively natural behavior; therefore, a user is not required to spent time on accommodating the gaze input.",
+      "label": "Background",
+      "prob": 0.8843224048614502
+    },
+    {
+      "sentence": "They mentioned that eye-only and GAT techniques required a focus on eye movements; further, errors often occurred because of unintentional eye movements.",
+      "label": "Background",
+      "prob": 0.8799619674682617
+    },
+    {
+      "sentence": "Even though it is not a smart glass, it was effective for simulating the wearable context of the smart glass.",
+      "label": "Background",
+      "prob": 0.8687929511070251
+    },
+    {
+      "sentence": "While selecting a key with a touch input, owing to eye jitter and target key searching behavior, the eyes of the user are not stable during a keystroke.",
+      "label": "Background",
+      "prob": 0.8658959865570068
+    },
+    {
+      "sentence": "Further, it is easy to confuse the forward and backward directions because the display and the touchpad are placed perpendicularly.",
+      "label": "Background",
+      "prob": 0.8630792498588562
+    },
+    {
+      "sentence": "The on-body touch input is a possible option for a larger and more comfortable touch input space than on-glasses input, without carrying a hand-held device.",
+      "label": "Background",
+      "prob": 0.8591086268424988
+    },
+    {
+      "sentence": "Owing to the touch cursor, a novice user can enter a key in a touch-adjust-release manner; however, an expert user can enter a key with a swipe or tap gesture.",
+      "label": "Background",
+      "prob": 0.8564422130584717
+    },
+    {
+      "sentence": "State-of-the-art eye tracking technologies use a 3D eyeball model and track both eyes.",
+      "label": "Background",
+      "prob": 0.8509034514427185
+    },
+    {
+      "sentence": "Mid-air gesture techniques have to consider arm fatigue [13] and social acceptance [14].",
+      "label": "Background",
+      "prob": 0.8433725833892822
+    },
+    {
+      "sentence": "However, according to a previous study [33], the inaccuracy of a mobile eye tracker is still problematic for text entry.",
+      "label": "Background",
+      "prob": 0.8430306911468506
+    },
+    {
+      "sentence": "3) voice input can raise privacy issues, which may be dependent on the applications.",
+      "label": "Background",
+      "prob": 0.82673180103302
+    },
+    {
+      "sentence": "Considering the recent developments in mobile eye tracking technology (Pupil-labs 1 and Tobii Pro Glasses 2 2 ), eye input is a promising option to overcome the limitations of the touchpad-based typing methods.",
+      "label": "Background",
+      "prob": 0.8246317505836487
+    },
+    {
+      "sentence": "This is because it was not only slow, but also difcult to perform the touch gestures.",
+      "label": "Background",
+      "prob": 0.8157187700271606
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than ACM must be honored.",
+      "label": "Background",
+      "prob": 0.8063931465148926
+    },
+    {
+      "sentence": "However, the original SwipeZone did not have the delete, space, and enter keys.",
+      "label": "Background",
+      "prob": 0.8054124116897583
+    },
+    {
+      "sentence": "Early studies on the dwell-click method achieved low efciency (5 to 10 wpm [22]) owing to the relatively long dwell time (typically 400 to 1000 ms).",
+      "label": "Background",
+      "prob": 0.7959615588188171
+    },
+    {
+      "sentence": "Considering these optimal values, the value of SWITCH is still far from an optimal level, even in the VGC (0.8, 1.0, and 1.0 for GAT3, GAT6, and GAT9, respectively).",
+      "label": "Background",
+      "prob": 0.7928677201271057
+    },
+    {
+      "sentence": "typing task was completed when the eye cursor continued to respond to eye movement; consequently, a user experienced more fatigue.",
+      "label": "Background",
+      "prob": 0.7867629528045654
+    },
+    {
+      "sentence": "GAT is a complementary combination of eye-gazeand touchpad-based approaches.",
+      "label": "Background",
+      "prob": 0.7828647494316101
+    },
+    {
+      "sentence": "Gaze typing can overcome the ambiguous mapping problem of the touchpad-based typing.",
+      "label": "Background",
+      "prob": 0.7733480334281921
+    },
+    {
+      "sentence": "They felt that the use of eye input methods was unnatural; moreover, the touch-only technique became familiar by the second day.",
+      "label": "Background",
+      "prob": 0.7670857906341553
+    },
+    {
+      "sentence": "To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specic permission and/or a fee.",
+      "label": "Background",
+      "prob": 0.7615485191345215
+    },
+    {
+      "sentence": "Because it is commonly considered outperformed than xed dwell time technique.",
+      "label": "Background",
+      "prob": 0.7608329057693481
+    },
+    {
+      "sentence": "Some also suffered from inaccuracy of eye tracking when they looked at a key in the peripheral region, such as \"q\" and \"p\".",
+      "label": "Background",
+      "prob": 0.7452113628387451
+    },
+    {
+      "sentence": "Furthermore, it can provide a wider input space considering the recent trend of increasing the eld-of-view (FoV).",
+      "label": "Background",
+      "prob": 0.7428311109542847
+    },
+    {
+      "sentence": "A total of 56 tasks for the eye-only technique was either discarded or not completed.",
+      "label": "Background",
+      "prob": 0.7390788197517395
+    },
+    {
+      "sentence": "We thought that GAT with a lesser number of touch gestures may require less effort of touch input by eliminating difcult gestures, i.e. , diagonal swipe gestures [11] and vertical swipe gestures.",
+      "label": "Background",
+      "prob": 0.7345263361930847
+    },
+    {
+      "sentence": "To select a sub-keyboard, a user merely looks at it as shown in Figure 1(b).",
+      "label": "Background",
+      "prob": 0.7331214547157288
+    },
+    {
+      "sentence": "When compared to the eye-only text entry, the required delity of the eye tracker is expected to be lower than that of eye-only methods.",
+      "label": "Background",
+      "prob": 0.7287288904190063
+    },
+    {
+      "sentence": "If a user experienced a mismatch in the eye cursor position, we recalibrated the eye tracker and discarded the task in progress.",
+      "label": "Background",
+      "prob": 0.7263093590736389
+    },
+    {
+      "sentence": "To minimize distraction and to avoid occlusion, the y position of the eye cursor is xed below the keys.",
+      "label": "Background",
+      "prob": 0.7197983860969543
+    },
+    {
+      "sentence": "However, when compared to eye-only typing, the typing speed may be questionable as the previous studies were conducted in a desk-based environment.",
+      "label": "Background",
+      "prob": 0.7184462547302246
+    },
+    {
+      "sentence": "The sub-keyboard size for all variations was 6.85  6.85; however, if the eye cursor out of boundary of the keyboard, a closest sub-keyboard will be activated.",
+      "label": "Background",
+      "prob": 0.7178247570991516
+    },
+    {
+      "sentence": "However, gaze typing also has limitations.",
+      "label": "Background",
+      "prob": 0.7175795435905457
+    },
+    {
+      "sentence": "After dwelling time over the dwell, the key is inputted and the color of the entire key set to blue.",
+      "label": "Background",
+      "prob": 0.715788722038269
+    },
+    {
+      "sentence": "When compared to touch-only, the participants experienced less physical fatigue owing to the lesser number of keystrokes per character.",
+      "label": "Background",
+      "prob": 0.7099008560180664
+    },
+    {
+      "sentence": "Specialized hand-held keyboards are also viable options for fast text entry, such as the mini-qwerty [7] or the chord keyboard [20].",
+      "label": "Background",
+      "prob": 0.7014817595481873
+    },
+    {
+      "sentence": "Even though the learning curve of GAT was steeper than A-Dwell, a longitudinal study was required to compare both techniques after long-term training.",
+      "label": "Background",
+      "prob": 0.6999003887176514
+    },
+    {
+      "sentence": "Conversely, if a user taps on the backward-positioned region, the sub-keyboard including \"a s d\" is activated.",
+      "label": "Background",
+      "prob": 0.6984442472457886
+    },
+    {
+      "sentence": "In addition, the Midas touch [15] problem in smart glasses should be considered more seriously because a user always has to see the display while s/he sees the \"real world\" over the display.",
+      "label": "Background",
+      "prob": 0.6972537040710449
+    },
+    {
+      "sentence": "They did not want to use the touchpad on the head and felt no fatigue of both the arm and eyes.",
+      "label": "Background",
+      "prob": 0.6949683427810669
+    },
+    {
+      "sentence": "It was also easy to use because GAT does not use vertical swipe gestures and there was no requirement to distinguish a touched region on the touchpad for selecting a sub-keyboard.",
+      "label": "Background",
+      "prob": 0.6917445063591003
+    },
+    {
+      "sentence": "A SWITCH is counted whenever the eye cursor moved from a sub-keyboard, except when there was no eye xation on the sub-keyboard.",
+      "label": "Background",
+      "prob": 0.6889999508857727
+    },
+    {
+      "sentence": "However, four participants could not complete all tasks for the eye-only technique owing to a time constraint.",
+      "label": "Background",
+      "prob": 0.6880415081977844
+    },
+    {
+      "sentence": "The target acquisition (approaching a target) may be above accuracy (AA) or below accuracy (BA), and the target action (selecting a target) may be a discrete action (DA) or a continuous manipulation (CM).",
+      "label": "Background",
+      "prob": 0.6831276416778564
+    },
+    {
+      "sentence": "The most basic design option of GAT is the number of sections (sub-keyboards).",
+      "label": "Background",
+      "prob": 0.6781419515609741
+    },
+    {
+      "sentence": "Five of twelve experienced more eye fatigue while using GAT because they had to pay more attention to the eye movement; however, another one said that M-SwipeBoard was more tiring owing to the long usage time.",
+      "label": "Background",
+      "prob": 0.6744970679283142
+    },
+    {
+      "sentence": "In our design, the left and right directions on the screen were mapped in the backward and forward directions on the touchpad, respectively.",
+      "label": "Background",
+      "prob": 0.673528254032135
+    },
+    {
+      "sentence": "The space and backspace keys were mapped to two-nger forward and backward swipe gestures.",
+      "label": "Background",
+      "prob": 0.665780246257782
+    },
+    {
+      "sentence": "In fact, typing with eye gaze was shown to be an effective option in virtual reality environment (9.36 wpm [33]).",
+      "label": "Background",
+      "prob": 0.6620572209358215
+    },
+    {
+      "sentence": "Regardless, we chose GAT9 to compare the other variations because GAT6 cannot use a QWERTY-like layout, which may be more familiar to users, and GAT3 requires complicated touch gestures.",
+      "label": "Background",
+      "prob": 0.6572598814964294
+    },
+    {
+      "sentence": "Thus, when a nger touches the touchpad, the touch cursor is rst placed at the center of the selected sub-keyboard, regardless of the position of placement.",
+      "label": "Background",
+      "prob": 0.6544936895370483
+    },
+    {
+      "sentence": "2) a user sometimes wants to enter text without other people noticing, and",
+      "label": "Background",
+      "prob": 0.6508510708808899
+    },
+    {
+      "sentence": "Although Exp 2 was conducted with a VR HWD rather than with an augmented reality (AR) glasses, it was effective",
+      "label": "Background",
+      "prob": 0.6500677466392517
+    },
+    {
+      "sentence": "Conversely, GAT belongs to the BA + DA category because it chose BA to overcome the inaccuracy of a mobile eye tracker, and DA to overcome the limited gesture space of the oblong touchpad.",
+      "label": "Background",
+      "prob": 0.6468720436096191
+    },
+    {
+      "sentence": "On the other hand, T1 increased and T4 decreased as the number of sub-keyboards increased.",
+      "label": "Background",
+      "prob": 0.6394134163856506
+    },
+    {
+      "sentence": "These techniques improved the dwell-based eye typing; however, a user can practice to create an optimal dwell time.",
+      "label": "Background",
+      "prob": 0.6392318606376648
+    },
+    {
+      "sentence": "All of them are right-handed and non-native English speakers.",
+      "label": "Background",
+      "prob": 0.6353498697280884
+    },
+    {
+      "sentence": "The background of a subkeyboard, which contains a target key, was highlighted in blue, and the target key was highlighted in orange.",
+      "label": "Background",
+      "prob": 0.6330737471580505
+    },
+    {
+      "sentence": "The main differences between VR and AR may be in the visual delity of the environment.",
+      "label": "Background",
+      "prob": 0.6264945864677429
+    },
+    {
+      "sentence": "Seven out of eighteen participants reported eye fatigue for GAT9, because they needed to move their eyes more to select or to nd a key, than the other layouts.",
+      "label": "Background",
+      "prob": 0.625064492225647
+    },
+    {
+      "sentence": "They also experienced more wrist and/or nger fatigue than while using GAT.",
+      "label": "Background",
+      "prob": 0.6161733269691467
+    },
+    {
+      "sentence": "By considering the study of perceived eye exertion [26], a range of  15 round of gaze direction was determined to be tolerable for use.",
+      "label": "Background",
+      "prob": 0.6149216294288635
+    },
+    {
+      "sentence": "In fact, Gaze + Gesture interaction have been used not only for text entry but also for many other interactions [30, 31, 47], e.g., pointing, object manipulation, menu selection, etc .",
+      "label": "Background",
+      "prob": 0.6133726835250854
+    },
+    {
+      "sentence": "For both GAT6 and GAT9, the eye cursor movement along the y-axis moved discretely at a xed position below the keys.",
+      "label": "Background",
+      "prob": 0.610499918460846
+    },
+    {
+      "sentence": "It is a marginally usable size for the smart glasses, such as Moverio BT-350 (23) and is also suitable for HWDs with large FoV such as Hololens (30).",
+      "label": "Background",
+      "prob": 0.6088436841964722
+    },
+    {
+      "sentence": "However, M-SwipeBoard consists of three sub-keyboards and the key selection utilized nine touch gestures, similar to GAT.",
+      "label": "Background",
+      "prob": 0.6080999970436096
+    },
+    {
+      "sentence": "The built-in eye tracker can track the gaze direction vector of both eyes at 120 Hz.",
+      "label": "Background",
+      "prob": 0.6077108979225159
+    },
+    {
+      "sentence": "The others said that they had to observe the keyboard in the same manner for both techniques; therefore, they could not feel any difference in the eye fatigue.",
+      "label": "Background",
+      "prob": 0.6046545505523682
+    },
+    {
+      "sentence": "When the eye cursor selected a sub-keyboard along the x-axis, the sub-keyboard is activated as shown in Figure 2.",
+      "label": "Background",
+      "prob": 0.604020893573761
+    },
+    {
+      "sentence": "When using M-SwipeBoard, a user can select a sub-keyboard with one of the three touch gestures  forward, backward swipe gestures, and tap  to select the right, left, and center positioned sub-keyboards.",
+      "label": "Background",
+      "prob": 0.5896710157394409
+    },
+    {
+      "sentence": "If the travel length was under 107 px (  3 mm), the gesture was distinguished as a tap gesture.",
+      "label": "Background",
+      "prob": 0.5861803293228149
+    },
+    {
+      "sentence": "Considering the on-skin touch, kinesthetic sense and haptic feedback also help a user to accurately input [18].",
+      "label": "Background",
+      "prob": 0.5793132185935974
+    },
+    {
+      "sentence": "All of them were different from the previous studies, right-handed, non-native English speakers, with no experience in using a smart glasses or eye tracker.",
+      "label": "Background",
+      "prob": 0.5782328844070435
+    },
+    {
+      "sentence": "The participants were instructed to enter the text as fast and accurately as possible.",
+      "label": "Background",
+      "prob": 0.5773593187332153
+    },
+    {
+      "sentence": "Another approach to avoid dwell time is to use the clickalternative rather than the dwell-click.",
+      "label": "Background",
+      "prob": 0.573185920715332
+    },
+    {
+      "sentence": "It uses three touch gestures  upper and lower directional swipe gestures, and tap gesture  on the discretized region of the touchpad, which is divided into three regions to select one of the nine sub-keyboards.",
+      "label": "Background",
+      "prob": 0.5622068643569946
+    },
+    {
+      "sentence": "We instructed the participants to memorize a target phrase for 15 s before starting the task, but, the target phrase was not erased while performing the task.",
+      "label": "Background",
+      "prob": 0.5564686059951782
+    },
+    {
+      "sentence": "There were at least 15second breaks between tasks and blocks, and at least 3-minute breaks between sessions.",
+      "label": "Background",
+      "prob": 0.5562188029289246
+    },
+    {
+      "sentence": "In addition, the backward and forward directions of the touchpad matched the display in reverse from the original, to prevent confusion regarding the gestures for deletion and adding a space; thus, the matched direction same as GAT.",
+      "label": "Background",
+      "prob": 0.5561041235923767
+    },
+    {
+      "sentence": "presented a menu selection technique called Orbits, that utilizes the smooth pursuit of eye movement for a smartwatch utilizing mobile eye tracker [9].",
+      "label": "Background",
+      "prob": 0.5557877421379089
+    },
+    {
+      "sentence": "The keyboard for GAT consists of several sections, and each section contains several keys.",
+      "label": "Background",
+      "prob": 0.5527077317237854
+    },
+    {
+      "sentence": "Certain researchers focused on optimizing the dwell time (adjustable dwell time: 19.9 wpm after 10 days of usage [22] and dynamic cascading: 13.7 wpm after 8 sessions of usage [28]).",
+      "label": "Background",
+      "prob": 0.5507670044898987
+    },
+    {
+      "sentence": "For accurate and less exhausting eye input, the keyboard size was considered.",
+      "label": "Background",
+      "prob": 0.550258994102478
+    },
+    {
+      "sentence": "With this combination, we can use larger targets for the eye gaze and a set of simpler touchpad operations.",
+      "label": "Background",
+      "prob": 0.5463124513626099
+    },
+    {
+      "sentence": "Consequently, the text entry efciencies were not different from each other.",
+      "label": "Background",
+      "prob": 0.5380978584289551
+    },
+    {
+      "sentence": "For example, for a word, \"the\", while using GAT3 (Figure 6(a)), \"t\" and \"h\" are on different sub-keyboards; therefore, one sub-keyboard switch is required; however, \"h\" and \"e\" are on the same sub-keyboard; hence, no sub-keyboard switch is required.",
+      "label": "Background",
+      "prob": 0.532475471496582
+    },
+    {
+      "sentence": "To enter a key using GAT, initially, a user selects one of the sections of the keyboard, called a sub-keyboard, using a gaze input.",
+      "label": "Background",
+      "prob": 0.5323680639266968
+    },
+    {
+      "sentence": "However, in a previous study [22], A-Dwell achieved 20 wpm over 10 days of training.",
+      "label": "Background",
+      "prob": 0.5285855531692505
+    },
+    {
+      "sentence": "This study was conducted to demonstrate the effect of trade-off between the number of touch gestures and the number of subkeyboards, rather than the keyboard layout familiarity.",
+      "label": "Background",
+      "prob": 0.5283079147338867
+    },
+    {
+      "sentence": "The guide disappeared when a user started the touch input, and reappeared for the next target key once the key input was performed.",
+      "label": "Background",
+      "prob": 0.5276007652282715
+    },
+    {
+      "sentence": "Thus, we placed the keys in an alphabetical order to minimize the memorability effect of the key placement.",
+      "label": "Background",
+      "prob": 0.5268275737762451
+    },
+    {
+      "sentence": "The FOVE headset has 100 FoV and a resolution of the display is 2560  1440 pixels.",
+      "label": "Background",
+      "prob": 0.5263172388076782
+    },
+    {
+      "sentence": "Previous researchers designed text entry techniques to overcome the limited input space of the touchpad on the frame of the glasses.",
+      "label": "Background",
+      "prob": 0.5212933421134949
+    },
+    {
+      "sentence": "To use the eye-only methods, at least 26 independent areas should be distinguished by eye input; conversely, in GAT, the area to be distinguished (the number of subkeyboards) is divided by the number of touch gestures (N).",
+      "label": "Background",
+      "prob": 0.5189933180809021
+    },
+    {
+      "sentence": "After the selection, the user can enter a key with the nine touch gestures similar to GAT, as described previously",
+      "label": "Background",
+      "prob": 0.5177791118621826
+    },
+    {
+      "sentence": "When compared to early smart glasses, such as Google Glass (15 of FoV), recent smart glasses or head-worn displays (HWDs) have a wider display, such as Moverio BT-350 (23) and Hololens2, with a twofold wider FoV when compared to its previous version (Hololens: 30).",
+      "label": "Background",
+      "prob": 0.5175526738166809
+    },
+    {
+      "sentence": "If a user performed a tap gesture on the middle-positioned region, the centrallypositioned sub-keyboard, which includes \"f g h\", is activated.",
+      "label": "Background",
+      "prob": 0.5106801986694336
+    },
+    {
+      "sentence": "GAT9 was designed to eliminate both the diagonal and vertical swipe gestures; therefore, each sub-keyboard has three keys for the three touch gestures, and the keyboard has nine sub-keyboards as shown in Figure 6",
+      "label": "Background",
+      "prob": 0.504586398601532
+    },
+    {
+      "sentence": "In this study, we attempted to achieve a more usable on-glass text entry, primarily in terms of speed.",
+      "label": "Background",
+      "prob": 0.4968445897102356
+    },
+    {
+      "sentence": "This is expected to cause more eye fatigue.",
+      "label": "Background",
+      "prob": 0.4931789040565491
+    },
+    {
+      "sentence": "We set the FoV of the smart glass display to 100, 85  85 cm sized display placed at a distance of 50 cm from the eyes.",
+      "label": "Background",
+      "prob": 0.49274274706840515
+    },
+    {
+      "sentence": "A user completed tasks in two different conditions: normal condition (NC) and visual guidance condition (VGC).",
+      "label": "Background",
+      "prob": 0.48837098479270935
+    },
+    {
+      "sentence": "However, text entry on the on-frame touchpad",
+      "label": "Background",
+      "prob": 0.4840223491191864
+    },
+    {
+      "sentence": "4) Feel natural eye movements while entering text ( Eye feels natural )  using a ve-point Likert scale.",
+      "label": "Background",
+      "prob": 0.4834148585796356
+    },
+    {
+      "sentence": "The eye cursor follows the gaze position of the user on the x-axis.",
+      "label": "Background",
+      "prob": 0.48269280791282654
+    },
+    {
+      "sentence": "If we consider that the eye-tracking accuracy may affect the performance of GAT variations, the results of Exp 1 may differ in the wearable context, because a wearable eye tracker may be less accurate than a stationary one.",
+      "label": "Background",
+      "prob": 0.4817422032356262
+    },
+    {
+      "sentence": "Three participants had previous experience in using a smart glass and/or an eye tracker; however, none of them were regular users.",
+      "label": "Background",
+      "prob": 0.4793059229850769
+    },
+    {
+      "sentence": "Thus, we concluded that T1 increased with more sub-keyboards because with the larger number of sub-keyboards, a user might have been exploring other sub-keyboards to nd a target key.",
+      "label": "Background",
+      "prob": 0.4754570722579956
+    },
+    {
+      "sentence": "The enter key was mapped to three-nger long touch gesture (500 ms).",
+      "label": "Background",
+      "prob": 0.4731917083263397
+    },
+    {
+      "sentence": "In our study, we considered rst the input modalities for the conventional gesture input and nalized on a touchpad.",
+      "label": "Background",
+      "prob": 0.47001132369041443
+    },
+    {
+      "sentence": "Each sub-keyboard size is 10  7 in the viewing angle.",
+      "label": "Background",
+      "prob": 0.4691116213798523
+    },
+    {
+      "sentence": "Thus, to enter \"c\" in Figure 1(c), a user performed the lower-forward direction swipe gesture.",
+      "label": "Background",
+      "prob": 0.4690314531326294
+    },
+    {
+      "sentence": "Our future work will handle such environmental validity issues using an eyetracking AR glasses which can meet the requirements of GAT.",
+      "label": "Background",
+      "prob": 0.46584588289260864
+    },
+    {
+      "sentence": "2) were conducted with the stationary eye tracker in a desk-based environment and the wearable eye tracker in a VR environment, respectively.",
+      "label": "Background",
+      "prob": 0.4647308886051178
+    },
+    {
+      "sentence": "Remote text entry techniques can be used for smart glasses.",
+      "label": "Background",
+      "prob": 0.46468809247016907
+    },
+    {
+      "sentence": "To implement a complete mobile gaze tracking system on smart glasses, we attempted to use an eye tracker from Pupil Labs and Tobii Pro Glasses",
+      "label": "Background",
+      "prob": 0.46046361327171326
+    },
+    {
+      "sentence": "We used a within-subject design with one factor, i.e. , technique: M-SwipeBoard and GAT.",
+      "label": "Background",
+      "prob": 0.4595499336719513
+    },
+    {
+      "sentence": "When compared to the complex gesture approach (1D Handwriting [46]), a user is not required to memorize the number of gestures corresponding to the 26 unistroke gestures.",
+      "label": "Background",
+      "prob": 0.45478925108909607
+    },
+    {
+      "sentence": "After inputting by touch, the eye cursor follows the gaze position again.",
+      "label": "Background",
+      "prob": 0.44673463702201843
+    },
+    {
+      "sentence": "presented a gaze assisted translation system for smart glasses [37] using a mobile eye tracker from SMI.",
+      "label": "Background",
+      "prob": 0.44658172130584717
+    },
+    {
+      "sentence": "The rst approach utilized a two-step input to enter a character because of the small input space.",
+      "label": "Background",
+      "prob": 0.44393715262413025
+    },
+    {
+      "sentence": "There was a break of at least a minute between blocks and 15-second breaks between tasks.",
+      "label": "Background",
+      "prob": 0.44101518392562866
+    },
+    {
+      "sentence": "We controlled the interval of sessions to approximately 24 h as much as possible (from 15 to 41 h; mean = 23.58,  = 4.12).",
+      "label": "Background",
+      "prob": 0.440499484539032
+    },
+    {
+      "sentence": "All participants were different from those at the preliminary study, were right-handed, non-native English speakers, with no experience in using a smart glass or an eye tracker.",
+      "label": "Background",
+      "prob": 0.43790262937545776
+    },
+    {
+      "sentence": "T2 is the time from the end of T1 to the start of the last xation ( < 50 /s) before a touch gesture started.",
+      "label": "Background",
+      "prob": 0.4369127154350281
+    },
+    {
+      "sentence": "2. However, there were slippage problems (Pupil Labs) and latency issues (Tobii, over 70 ms).",
+      "label": "Background",
+      "prob": 0.4344868063926697
+    },
+    {
+      "sentence": "However, the gesture input for GAT can be performed by not only other touch input devices, such as smartwatch, handheld touchpad, or on-body touch input techniques, but also using freehand gestures, such as mid-air nger gesture [19] or wrist tilting gestures [10]; this incorporates more subtle gestures, considering the social context and/or utilizing more comfortable postures rather than raising a hand to the glasses.",
+      "label": "Background",
+      "prob": 0.4305365979671478
+    },
+    {
+      "sentence": "According to the taxonomy, the gaze input is used in the target acquisition phase and the gesture input is used in the target action phase.",
+      "label": "Background",
+      "prob": 0.4301289916038513
+    },
+    {
+      "sentence": "An intentional eye movement of the user may occur before starting the touch input; therefore, we xed the eye cursor once a user started the touch input.",
+      "label": "Background",
+      "prob": 0.42531558871269226
+    },
+    {
+      "sentence": "The experiment consisted of three sessions per day; the participants participated for two days in sequence.",
+      "label": "Background",
+      "prob": 0.4221916198730469
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for prot or commercial advantage and that copies bear this notice and the full citation on the rst page.",
+      "label": "Other",
+      "prob": 0.48021334409713745
+    },
+    {
+      "sentence": "Thus, we decided to use 21 as the length of the square bound, tted in the  15 round.",
+      "label": "Background",
+      "prob": 0.42048993706703186
+    },
+    {
+      "sentence": "However, four out of these six participants mentioned that the vertical swipe was easy to use in GAT6 owing to zero conict between diagonal and vertical swipe gestures.",
+      "label": "Result",
+      "prob": 0.44503283500671387
+    },
+    {
+      "sentence": "investigated various multimodal two-step pointing techniques [17] by using an eye tracker from Pupil Labs.",
+      "label": "Background",
+      "prob": 0.41317903995513916
+    },
+    {
+      "sentence": "We used the within-subject design, with the layout as a factor, i.e. , GAT3, GAT6, and GAT9.",
+      "label": "Background",
+      "prob": 0.41312211751937866
+    },
+    {
+      "sentence": "Then, the user can enter a key, in the section, with the touch input.",
+      "label": "Background",
+      "prob": 0.4112176299095154
+    },
+    {
+      "sentence": "In addition, the Midas touch problem of an eye-gaze-based method can be avoided.",
+      "label": "Background",
+      "prob": 0.4090096056461334
+    },
+    {
+      "sentence": "For selection, we provided a cross-hair-shaped eye cursor on the keyboard.",
+      "label": "Background",
+      "prob": 0.404327929019928
+    },
+    {
+      "sentence": "We presented the concept of GAT and the rst adaptation of a complementary combination of the gaze and touch input modalities for wearable text entry.",
+      "label": "Background",
+      "prob": 0.40254881978034973
+    },
+    {
+      "sentence": "We recruited 18 participants (8 females, 10 males, mean age: 20.72, from 17 to 24 years) from our university.",
+      "label": "Background",
+      "prob": 0.40201765298843384
+    },
+    {
+      "sentence": "Conversely, the target sub-keyboard reaching time ( T1 ) decreased with the increasing number of touch gestures, corresponding to the increasing frequency of the sub-keyboard change.",
+      "label": "Result",
+      "prob": 0.5134998559951782
+    },
+    {
+      "sentence": "T4 is the duration of the touch gesture, from touch to release.",
+      "label": "Background",
+      "prob": 0.39702364802360535
+    },
+    {
+      "sentence": "We recruited 12 participants (4 females and 8 males, mean age: 22.58, from 19 to 30 years) from our university.",
+      "label": "Background",
+      "prob": 0.3926204741001129
+    },
+    {
+      "sentence": "We demonstrated that GAT can ensure faster on-glass text entry when compared to the touch-only text entry.",
+      "label": "Result",
+      "prob": 0.4562716782093048
+    },
+    {
+      "sentence": "The swipe direction was distinguished by the direction of a vector.",
+      "label": "Background",
+      "prob": 0.3890078067779541
+    },
+    {
+      "sentence": "and socially acceptable [1, 34] than the on-glass touch input.",
+      "label": "Background",
+      "prob": 0.3875373303890228
+    },
+    {
+      "sentence": "In addition, a ninepoint calibration process was performed again if required.",
+      "label": "Background",
+      "prob": 0.38537660241127014
+    },
+    {
+      "sentence": "T3 is the time from the end of T2 to the moment a touch gesture started.",
+      "label": "Background",
+      "prob": 0.38498184084892273
+    },
+    {
+      "sentence": "Text entry on smart glasses is an important subject considered by several recent studies [1, 11, 14, 39, 41, 46].",
+      "label": "Other",
+      "prob": 0.5303597450256348
+    },
+    {
+      "sentence": "When compared to the touch-only text entry, GAT can achieve better input speed than SwipeBoard [11] owing to the higher eye movement speed.",
+      "label": "Result",
+      "prob": 0.5078282952308655
+    },
+    {
+      "sentence": "We designed three variations of GAT: GAT3, GAT6, and GAT9.",
+      "label": "Background",
+      "prob": 0.3821447789669037
+    },
+    {
+      "sentence": "The order of the sessions was counterbalanced with a full factorial within subjects.",
+      "label": "Background",
+      "prob": 0.3815948963165283
+    },
+    {
+      "sentence": "The order of sessions was counter balanced with a full factorial within subjects.",
+      "label": "Background",
+      "prob": 0.3795255422592163
+    },
+    {
+      "sentence": "There were at least 3-minute breaks between sessions, 1-minute breaks between blocks, and 15second breaks between tasks.",
+      "label": "Result",
+      "prob": 0.40846991539001465
+    },
+    {
+      "sentence": "In each block, a participant completed four tasks sequentially.",
+      "label": "Background",
+      "prob": 0.3766768276691437
+    },
+    {
+      "sentence": "We used the within-subject design with the technique as a factor; touch-only (SwipeZone), eye-only (A-Dwell), and GAT.",
+      "label": "Background",
+      "prob": 0.37163475155830383
+    },
+    {
+      "sentence": "adapted SwipeBoard [5], which was designed for a smartwatch, to smart glasses [11]; SwipeBoard and SwipeZone, achieved 7.1 wpm and 8.7 wpm, respectively.",
+      "label": "Result",
+      "prob": 0.3785059154033661
+    },
+    {
+      "sentence": "We recruited 12 participants (3 females, 9 males, mean age: 22.33, from 18 to 28 years) from our university.",
+      "label": "Result",
+      "prob": 0.39464619755744934
+    },
+    {
+      "sentence": "Initially, a user can select one of the sections with the gaze input.",
+      "label": "Method",
+      "prob": 0.3729075491428375
+    },
+    {
+      "sentence": "In the subsequent section, we review the literature concerning possible text entry methods for smart glasses that can be used in a general mobile environment.",
+      "label": "Background",
+      "prob": 0.35825833678245544
+    },
+    {
+      "sentence": "In Experiment 1, GAT3, GAT6, and GAT9 were equally effective; however, GAT6 was the most preferred.",
+      "label": "Result",
+      "prob": 0.5255432724952698
+    },
+    {
+      "sentence": "To calculate a gaze position, we used gaze direction vectors of both eyes, provided by FOVE software development kit.",
+      "label": "Method",
+      "prob": 0.4715666174888611
+    },
+    {
+      "sentence": "There were few options for the touch-only typing baseline for smart glasses.",
+      "label": "Result",
+      "prob": 0.4056355059146881
+    },
+    {
+      "sentence": "We presented a touch cursor for M-SwipeBoard to guide the nger movements of the user to reduce the input error for swipe gestures, same as GAT (Figure 2(b)).",
+      "label": "Background",
+      "prob": 0.3380957245826721
+    },
+    {
+      "sentence": "We analyzed the key input time to better understand the typing skills of users utilizing GAT, with only characters that were not erased and typed correctly (27,383 key entries).",
+      "label": "Result",
+      "prob": 0.3470366299152374
+    },
+    {
+      "sentence": "After a users eye dwelling on a key over 30% of the dwell time, boundary of the key change its color to blue.",
+      "label": "Result",
+      "prob": 0.5307307243347168
+    },
+    {
+      "sentence": "In the GAT session, if a user identied a mismatch in the position of the eye cursor, we recalibrated the eye tracker and discarded the task in progress.",
+      "label": "Method",
+      "prob": 0.37063100934028625
+    },
+    {
+      "sentence": "GAT6 was designed to eliminate the four diagonal swipe gestures; thus, each sub-keyboard has ve keys for the ve touch gestures, and the keyboard has six sub-keyboards (Figure 6",
+      "label": "Background",
+      "prob": 0.3321543335914612
+    },
+    {
+      "sentence": "We also used a Google Glass Enterprise Edition to use the built-in touchpad on the glasses.",
+      "label": "Method",
+      "prob": 0.398292601108551
+    },
+    {
+      "sentence": "We used plain QWERTY layout for the eye only typing as shown in gure 13 (d).",
+      "label": "Background",
+      "prob": 0.3266376256942749
+    },
+    {
+      "sentence": "In each session, by using one of the three layouts, a participant completed three blocks in NC; then, completed a block in VGC.",
+      "label": "Method",
+      "prob": 0.3471115827560425
+    },
+    {
+      "sentence": "3. The GP3 eye tracker captures both eyes of the user at 150 Hz.",
+      "label": "Result",
+      "prob": 0.3798239231109619
+    },
+    {
+      "sentence": "To examine our expectation, we designed and evaluated three variations of GAT with varying number of touch gestures.",
+      "label": "Background",
+      "prob": 0.3201325535774231
+    },
+    {
+      "sentence": "One of them is 1D Handwriting (letter input of 4.67 words per minute (wpm)), which uses unistroke gestures [46].",
+      "label": "Other",
+      "prob": 0.5508642196655273
+    },
+    {
+      "sentence": "Consequently, in each block, a participant completed ve tasks.",
+      "label": "Result",
+      "prob": 0.5108580589294434
+    },
+    {
+      "sentence": "If the highest/lowest score was not the only one, we asked the participants to choose the best/worst technique along with the reason for this choice.",
+      "label": "Background",
+      "prob": 0.31554582715034485
+    },
+    {
+      "sentence": "Because we varied the number of touch gestures, the keyboard layouts were correspondingly varied.",
+      "label": "Result",
+      "prob": 0.528250515460968
+    },
+    {
+      "sentence": "We also asked the participants to correct errors only found within 3 or 4 letters.",
+      "label": "Result",
+      "prob": 0.40355852246284485
+    },
+    {
+      "sentence": "Subsequently, s/he enters a letter on the sub-keyboard using the touch gesture input as shown in Figure 1",
+      "label": "Other",
+      "prob": 0.3255921006202698
+    },
+    {
+      "sentence": "To verify GAT, initially, we demonstrate the net effect of introducing gaze modality with a minimum expression of the eye input.",
+      "label": "Result",
+      "prob": 0.46878886222839355
+    },
+    {
+      "sentence": "The original SwipeBoard [11], consists of nine sub-keyboards; moreover, the key selection utilized three easyto-use touch gestures to reduce the input error at the key selection.",
+      "label": "Method",
+      "prob": 0.35044097900390625
+    },
+    {
+      "sentence": "designed a unistroke gesture technique [46] and showed that 1D Handwriting (4.7 wpm) outperformed the selection-based text entry technique, i.e., 1Line-Keyboard (4.2 wpm).",
+      "label": "Result",
+      "prob": 0.5104252099990845
+    },
+    {
+      "sentence": "As shown in Figure 13(c), SwipeZone is nearly the same as the original.",
+      "label": "Result",
+      "prob": 0.5796695351600647
+    },
+    {
+      "sentence": "The experiment was conducted for approximately two hours per day, and participants utilized 53 min, 49 min, and 41 min for eye-only, touch-only, and GAT, respectively, which included the break times between tasks and blocks.",
+      "label": "Result",
+      "prob": 0.4582294225692749
+    },
+    {
+      "sentence": "Thus, we removed the boundary of sub-keyboards, and displayed the visualization to notify the sub-keyboard activation as shown in Figure 6.",
+      "label": "Result",
+      "prob": 0.44975051283836365
+    },
+    {
+      "sentence": "The most crucial reason was eye fatigue.",
+      "label": "Result",
+      "prob": 0.4268476963043213
+    },
+    {
+      "sentence": "The optimal values of SWITCH for each layout are as follows: GAT3: 0.19, GAT6: 0.42, and GAT9: 0.58.",
+      "label": "Other",
+      "prob": 0.38495296239852905
+    },
+    {
+      "sentence": "In the eye-only technique, four participants did not complete all the blocks.",
+      "label": "Result",
+      "prob": 0.5746533870697021
+    },
+    {
+      "sentence": "We also provided audio feedback for key entered, it is same to the other techniques.",
+      "label": "Method",
+      "prob": 0.32175788283348083
+    },
+    {
+      "sentence": "At the start of VGC, we explained the reason to the participants.",
+      "label": "Result",
+      "prob": 0.39064013957977295
+    },
+    {
+      "sentence": "To demonstrate the net effect, we modied the SwipeBoard design to be similar to our GAT design; we called this MSwipeBoard.",
+      "label": "Result",
+      "prob": 0.33350419998168945
+    },
+    {
+      "sentence": "After that, a participant entered all 26 letters of the English alphabet in sequence for training; then, participants completed three blocks in a session, and in each block, a participant completed ve tasks sequentially.",
+      "label": "Method",
+      "prob": 0.36498335003852844
+    },
+    {
+      "sentence": "Ten out of twelve had at least one experience in using a VR HWD.",
+      "label": "Result",
+      "prob": 0.4163576662540436
+    },
+    {
+      "sentence": "GAT is two-step input approach for entering a character.",
+      "label": "Method",
+      "prob": 0.293315589427948
+    },
+    {
+      "sentence": "Mid-air text entry was widely explored by early researchers using techniques such as mimicking typing on a standard keyboard [8, 14, 29, 45], key-stroke gesture input [35], and word-stroke gesture input [12, 25].",
+      "label": "Other",
+      "prob": 0.5269091725349426
+    },
+    {
+      "sentence": "The order of the sessions was counter balanced within the subjects.",
+      "label": "Result",
+      "prob": 0.4664226770401001
+    },
+    {
+      "sentence": "Its performance depends signicantly on eye-tracking accuracy, which varies for different users [33].",
+      "label": "Other",
+      "prob": 0.5207746028900146
+    },
+    {
+      "sentence": "For the \"Prefer to use\" question, we asked the reason for the highest/lowest rating.",
+      "label": "Result",
+      "prob": 0.3315267860889435
+    },
+    {
+      "sentence": "However, nine out of twelve chose eye-only as the worst.",
+      "label": "Result",
+      "prob": 0.42157164216041565
+    },
+    {
+      "sentence": "for simulating the wearable computing context of the smart glasses.",
+      "label": "Background",
+      "prob": 0.2784678041934967
+    },
+    {
+      "sentence": "The size of each key is 5.5 x 7 , and the gap between the key is 0.5.",
+      "label": "Result",
+      "prob": 0.4422833025455475
+    },
+    {
+      "sentence": "Thus, we choose SwipeBoard as a baseline technique in this study, to demonstrate the net effect of replacing an input step with gaze input.",
+      "label": "Method",
+      "prob": 0.37412410974502563
+    },
+    {
+      "sentence": "Figure 4 shows the text entry speed of GAT and MSwipeBoard.",
+      "label": "Result",
+      "prob": 0.4743829071521759
+    },
+    {
+      "sentence": "The literature presents several text entry methods using the on-frame touchpad.",
+      "label": "Method",
+      "prob": 0.3408927917480469
+    },
+    {
+      "sentence": "At the end of the last session, we surveyed a questionnaire with four questions  1) Easy to learn ; 2) Easy to use ; 3) Prefer to use ; and",
+      "label": "Result",
+      "prob": 0.3256741166114807
+    },
+    {
+      "sentence": "GAT was signicantly faster than M-SwipeBoard in every block, i.e. , t 11 = 4.700, p < 0.01; t 11 = 5.894, p < 0.01; and t 11 = 6.740, p < 0.01 for block 1, 2, and 3, respectively.",
+      "label": "Result",
+      "prob": 0.5024859309196472
+    },
+    {
+      "sentence": "GAT3 has three sub-keyboards with nine keys for each, similar to the preliminary study.",
+      "label": "Result",
+      "prob": 0.5846211314201355
+    },
+    {
+      "sentence": "The simulated data were generated by normal distribution of the mean and standard deviation from the top three performers, in terms of typing speed of the eye-only technique for each missing block.",
+      "label": "Result",
+      "prob": 0.37280118465423584
+    },
+    {
+      "sentence": "Another approach utilized complex gestures to enter a character.",
+      "label": "Method",
+      "prob": 0.5373203158378601
+    },
+    {
+      "sentence": "SwipeZone is a two-step key selection method, similar to SwipeBoard, but using different sub-keyboard selection gestures.",
+      "label": "Method",
+      "prob": 0.6749954223632812
+    },
+    {
+      "sentence": "1) environmental noise can hamper recognition accuracy,",
+      "label": "Result",
+      "prob": 0.3482941687107086
+    },
+    {
+      "sentence": "As shown in Figure 11, T1 and SWITCH are highly correlated.",
+      "label": "Result",
+      "prob": 0.6455420851707458
+    },
+    {
+      "sentence": "Thus, we used the multinger swipe gestures for the keys, which are same as GAT.",
+      "label": "Result",
+      "prob": 0.4550992548465729
+    },
+    {
+      "sentence": "We also provided an audio feedback from the glasses for the touch input.",
+      "label": "Result",
+      "prob": 0.4095339775085449
+    },
+    {
+      "sentence": "For VGC, the layout effects were not signicant in either measurement.",
+      "label": "Result",
+      "prob": 0.6098504066467285
+    },
+    {
+      "sentence": "For NC, a two-way RM-ANOVA with ART analysis indicated that all the effects and interaction were not signicant.",
+      "label": "Result",
+      "prob": 0.6071980595588684
+    },
+    {
+      "sentence": "We set a X to 11 ( Dwell = 600 ms ) as a default value.",
+      "label": "Result",
+      "prob": 0.42583468556404114
+    },
+    {
+      "sentence": "we conducted one additional block with VGC to simulate users who are familiar with each keyboard layout.",
+      "label": "Method",
+      "prob": 0.43854111433029175
+    },
+    {
+      "sentence": "For gaze-based text entry, several studies focused on solving the Midas touch problem [15].",
+      "label": "Other",
+      "prob": 0.6220840215682983
+    },
+    {
+      "sentence": "Moreover, in our pilot study, we also observed that users were inclined to not blink until a",
+      "label": "Result",
+      "prob": 0.6509550213813782
+    },
+    {
+      "sentence": "Five out of twelve were wearing contact lenses.",
+      "label": "Result",
+      "prob": 0.4926958978176117
+    },
+    {
+      "sentence": "The experiment required approximately 60 min per participant.",
+      "label": "Result",
+      "prob": 0.5293979048728943
+    },
+    {
+      "sentence": "However, according to a previous study that used FOVE to evaluate dwell-based eye typing [33], its mean accuracy was approximately 4.",
+      "label": "Result",
+      "prob": 0.4736698567867279
+    },
+    {
+      "sentence": "To determine the best choice, we conducted Experiment 1, where we varied the precision requirement of eye tracking and the touch gesture set size.",
+      "label": "Result",
+      "prob": 0.35732412338256836
+    },
+    {
+      "sentence": "Then, we used a center position of the ray-casted positions of both eyes as the gaze position on the plane.",
+      "label": "Method",
+      "prob": 0.5367642045021057
+    },
+    {
+      "sentence": "On hand-held device input",
+      "label": "Other",
+      "prob": 0.6015681028366089
+    },
+    {
+      "sentence": "In a TV viewing environment, a user can enter text at 8.5 wpm without a learning effort by using a touchpad with a hover tracking feature [6].",
+      "label": "Other",
+      "prob": 0.6558017134666443
+    },
+    {
+      "sentence": "Touch-only technique got signicantly better ratings than both eye-only and GAT for Eye fatigue : Z= -2.850 and -2.165, p < 0.01 and 0.05, respectively.",
+      "label": "Result",
+      "prob": 0.42332762479782104
+    },
+    {
+      "sentence": "To understand the observation on T1 , we calculated the average number of sub-keyboard switches per letter inputted ( SWITCH , Figure 11(e)).",
+      "label": "Result",
+      "prob": 0.4042147099971771
+    },
+    {
+      "sentence": "In this 2 x 2 taxonomy, the existing Gaze + Gesture text entry methods belong either to the AA + DA category (the click-alternative methods) or the BA + CM category (MAGIC-based method).",
+      "label": "Method",
+      "prob": 0.5316548347473145
+    },
+    {
+      "sentence": "[31] also presented the concept of complementary combination of eye and touch text entry by adapting the manual and gaze inputted cascading (MAGIC) pointing technique [47].",
+      "label": "Other",
+      "prob": 0.6333900094032288
+    },
+    {
+      "sentence": "However, three out of twelve chose touch-only as the worst.",
+      "label": "Result",
+      "prob": 0.5379892587661743
+    },
+    {
+      "sentence": "Fifteen of the eighteen participants faced difculty in using the diagonal gestures and six out of these fteen also faced difculty in using the vertical swipe for GAT3.",
+      "label": "Result",
+      "prob": 0.5885974168777466
+    },
+    {
+      "sentence": "The accuracy of the tracker is less than 1 in specication.",
+      "label": "Result",
+      "prob": 0.645764172077179
+    },
+    {
+      "sentence": "Thus, we used the GP3 eye tracker 3 with a laptop as shown in gure",
+      "label": "Result",
+      "prob": 0.335386723279953
+    },
+    {
+      "sentence": "UIST 19, October 20-23, 2019, New Orleans, LA, USA.",
+      "label": "Other",
+      "prob": 0.742790162563324
+    },
+    {
+      "sentence": "The RM-ANOVA with ART analysis on UER showed that both the effects and the interaction were not signicant.",
+      "label": "Result",
+      "prob": 0.6651859879493713
+    },
+    {
+      "sentence": "The only difference between GAT and M-SwipeBoard is the sub-keyboard selection method.",
+      "label": "Method",
+      "prob": 0.6178158521652222
+    },
+    {
+      "sentence": "It is more accurate and also robust against the slippage problem when compared to the early techniques (2D pupil position tracking method) [23].",
+      "label": "Other",
+      "prob": 0.33707907795906067
+    },
+    {
+      "sentence": "All participants received $44 USD as compensation.",
+      "label": "Other",
+      "prob": 0.5933442711830139
+    },
+    {
+      "sentence": "To reduce the typing error by confusing the swipe direction, we provided a visual feedback (touch cursor in Figure 2(b)) for the touch position to permit adjustments in the swipe direction before the swipe gesture is nalized.",
+      "label": "Method",
+      "prob": 0.5408702492713928
+    },
+    {
+      "sentence": "For the minimum expression of the eye input, we used the nine touch gestures for key selection.",
+      "label": "Result",
+      "prob": 0.38662949204444885
+    },
+    {
+      "sentence": "Consequently, Experiment 2 was conducted, which demonstrated that GAT causes less eye fatigue and is sufciently more robust than the eye-only text entry when considering the inaccuracy of eye tracker; consequently, it can be used with a wearable eye tracker.",
+      "label": "Result",
+      "prob": 0.6294530630111694
+    },
+    {
+      "sentence": "The task was same as that of the previous studies.",
+      "label": "Result",
+      "prob": 0.5787248015403748
+    },
+    {
+      "sentence": "For VGC, the layout effect also was not signicant.",
+      "label": "Result",
+      "prob": 0.6535938382148743
+    },
+    {
+      "sentence": "At the start of the session, we instructed a user on the process of entering text using a given technique and we calibrated the eye tracker with a ve-point calibration.",
+      "label": "Method",
+      "prob": 0.5346853137016296
+    },
+    {
+      "sentence": "Each session lasted approximately 30 min.",
+      "label": "Result",
+      "prob": 0.4860908091068268
+    },
+    {
+      "sentence": "We chose the Adjustable dwell time selection method [22] as the eye only typing baseline, i.e. , A-Dwell.",
+      "label": "Result",
+      "prob": 0.48496273159980774
+    },
+    {
+      "sentence": "For dwell-free eye typing, gesture-based eye typing approaches were thoroughly explored: Examples include a keystroke gesture approach (EyeWrite [43]: 4.9 wpm), continuous gesture approach (Dasher: 17.26 wpm [40], and wordstroke gesture approach (EyeSwipe [16]: 11.7 wpm).",
+      "label": "Result",
+      "prob": 0.27164754271507263
+    },
+    {
+      "sentence": "In Experiment 2, GAT outperformed an eye-typing method, A-Dwell (8.81 wpm, after 50 min of usage), when using the mobile eye tracker after 40 min of use.",
+      "label": "Result",
+      "prob": 0.5876569747924805
+    },
+    {
+      "sentence": "After we validated that GAT can improve touchpad typing, we attempted to optimize the GAT.",
+      "label": "Result",
+      "prob": 0.3233244717121124
+    },
+    {
+      "sentence": "To reduce the jitter, we also used an average lter.",
+      "label": "Method",
+      "prob": 0.535217821598053
+    },
+    {
+      "sentence": "Further, we explored the variations in the number of touch gestures.",
+      "label": "Result",
+      "prob": 0.5117374062538147
+    },
+    {
+      "sentence": "The task provided was a memorizing and transcription task with the Mackenzie and Soukoreff phrase set [21].",
+      "label": "Other",
+      "prob": 0.6974367499351501
+    },
+    {
+      "sentence": "Nevertheless, mimicking of standard keyboard typing (ATK [45]: 29.2 wpm, an hour of usage, and VISAR [8]: 17.8 wpm, 8 days of usage) and word-stroke gestures (Vulture [25]: 20.6 wpm, 10 days of usage, and RotoSwipe [12]: 14.8 wpm, 5 days of usage) demonstrated high input speeds; however, according to Yeo et al.",
+      "label": "Other",
+      "prob": 0.5732011795043945
+    },
+    {
+      "sentence": "To avoid the issues, we simulated the environment instead of using a mobile eye tracker.",
+      "label": "Method",
+      "prob": 0.5524033308029175
+    },
+    {
+      "sentence": "It may be more physically accessible [24]",
+      "label": "Other",
+      "prob": 0.758934497833252
+    },
+    {
+      "sentence": "Subsequently, we simulated an optimal SWITCH for each layout with a used phrase set [21].",
+      "label": "Result",
+      "prob": 0.38677096366882324
+    },
+    {
+      "sentence": "To achieve this goal, we focused on the gaze input modality.",
+      "label": "Objective",
+      "prob": 0.718773603439331
+    },
+    {
+      "sentence": "The dwell-click methods were extensively used to avoid this problem.",
+      "label": "Method",
+      "prob": 0.4269034266471863
+    },
+    {
+      "sentence": "We used dwell time feedback as similar to in the implementation of Dynamic cascading [28].",
+      "label": "Other",
+      "prob": 0.49348345398902893
+    },
+    {
+      "sentence": "Owing to the differences in remote and wearable eye tracking environments, and the slippage and HWD wobbling problems of wearable eye trackers, we conducted Experiment 2 utilizing an eye-trackable HWD, FOVE VR 4 .",
+      "label": "Result",
+      "prob": 0.3510410785675049
+    },
+    {
+      "sentence": "The effect of the block and the interaction were not signicant.",
+      "label": "Result",
+      "prob": 0.5829044580459595
+    },
+    {
+      "sentence": "The experiment consisted of two sessions with a different technique for each session.",
+      "label": "Result",
+      "prob": 0.42584168910980225
+    },
+    {
+      "sentence": "A target phrase was randomly presented at each trial.",
+      "label": "Result",
+      "prob": 0.5715838074684143
+    },
+    {
+      "sentence": "We increased the keyboard size to more than that of Experiment 1 considering the mean accuracy of FOVE.",
+      "label": "Result",
+      "prob": 0.668529748916626
+    },
+    {
+      "sentence": "For both CER and UER, the post-hoc tests revealed that all differences between the techniques on each block were not signicant.",
+      "label": "Result",
+      "prob": 0.7220519185066223
+    },
+    {
+      "sentence": "also presented gaze assisted object recognition methods for museum guide systems [36].",
+      "label": "Other",
+      "prob": 0.41704943776130676
+    },
+    {
+      "sentence": "We constructed a VR environment that was similar to the smart glass-based environment.",
+      "label": "Result",
+      "prob": 0.5256376266479492
+    },
+    {
+      "sentence": "As far as text entry methods are considered, however, gazeassisted typing (GAT) is distinguished from the prior works as we consider a taxonomy for Gaze + Gesture combinations that was presented by Chatterjee et al.",
+      "label": "Other",
+      "prob": 0.583807647228241
+    },
+    {
+      "sentence": "At the start of each session, we calibrated the eye tracker as same to preliminary study.",
+      "label": "Result",
+      "prob": 0.39591753482818604
+    },
+    {
+      "sentence": "Thus, the dimensions of the GAT keyboard are 30  21; however, the required minimum FoV is 23  16 considering blank space as shown in Figure 13",
+      "label": "Result",
+      "prob": 0.4809825122356415
+    },
+    {
+      "sentence": "We also conducted post-hoc tests to compare both techniques in each block; paired sample t-tests on WPM and CER with a Bonferroni correction.",
+      "label": "Result",
+      "prob": 0.460315078496933
+    },
+    {
+      "sentence": "The effect of the technique and the interaction were not signicant.",
+      "label": "Result",
+      "prob": 0.6161038279533386
+    },
+    {
+      "sentence": "The other two participants chose eye-only as the best.",
+      "label": "Result",
+      "prob": 0.6831738352775574
+    },
+    {
+      "sentence": "Touch-only typing: SwipeZone",
+      "label": "Other",
+      "prob": 0.7324701547622681
+    },
+    {
+      "sentence": "Given instruction for the task was also the same as NC.",
+      "label": "Other",
+      "prob": 0.44132155179977417
+    },
+    {
+      "sentence": "GAT (mean: 11.04 wpm, from 9.10 to 14.13 wpm, individually) was 29.4% faster than touchonly (mean: 8.53 wpm, from 5.24 to 11.01 wpm) and 25.5% faster than eye-only (mean: 8.81 wpm, from 6.27 to 11.85 wpm) techniques at the last block.",
+      "label": "Result",
+      "prob": 0.6587732434272766
+    },
+    {
+      "sentence": "Different wearable eye trackers have different problems; consequently, for studies conducted with a particular tracker, the results would be dependent on the specic problems of that tracker.",
+      "label": "Result",
+      "prob": 0.7922788262367249
+    },
+    {
+      "sentence": "Three of the ve participants chose touch-only as the best technique.",
+      "label": "Result",
+      "prob": 0.6897674202919006
+    },
+    {
+      "sentence": "Tasks for the NC and VGC were the same as in the preliminary study.",
+      "label": "Result",
+      "prob": 0.7200624346733093
+    },
+    {
+      "sentence": "At the start of each session, we calibrated the eye tracker with the default calibration method of FOVE.",
+      "label": "Method",
+      "prob": 0.5781197547912598
+    },
+    {
+      "sentence": "In each session, three blocks were performed using one of the three techniques.",
+      "label": "Method",
+      "prob": 0.537702202796936
+    },
+    {
+      "sentence": "We demonstrated that GAT (11.04 wpm, after 40 min of usage) is faster than SwipeZone (8.53 wpm, after 50 min of usage) in Experiment 2.",
+      "label": "Result",
+      "prob": 0.7168091535568237
+    },
+    {
+      "sentence": "At third block, GAT was 51% faster than M-SwipeBoard.",
+      "label": "Result",
+      "prob": 0.6730493903160095
+    },
+    {
+      "sentence": "Methods such as SwipeBoard (7.14 wpm) and SwipeZone (8.73 wpm) [11] use a two-step scheme to enter a character.",
+      "label": "Method",
+      "prob": 0.6498486995697021
+    },
+    {
+      "sentence": "It is the rst adaptation of",
+      "label": "Other",
+      "prob": 0.4691741168498993
+    },
+    {
+      "sentence": "We used an average lter to reduce jitter.",
+      "label": "Result",
+      "prob": 0.40789881348609924
+    },
+    {
+      "sentence": "Considering swipe gestures are slower than tap gesture [11], T4 may decreased as the number of swipe gestures decreased, e.g., GAT3 use eight out of nine touch gestures are swipe gestures, otherwise, GAT9 use two out of three touch gestures are swipe gestures (Figure 6).",
+      "label": "Result",
+      "prob": 0.662759006023407
+    },
+    {
+      "sentence": "We were also uncertain of how fast a user will get used to the layout.",
+      "label": "Result",
+      "prob": 0.6870003342628479
+    },
+    {
+      "sentence": "After completing the experiment, we asked the user to compare the eye fatigue for both techniques.",
+      "label": "Result",
+      "prob": 0.48679491877555847
+    },
+    {
+      "sentence": "We rst conducted a preliminary study to validate the effect of introducing eye input modality to a two-step touch-only text entry with a minimal load on eye input.",
+      "label": "Result",
+      "prob": 0.5327445268630981
+    },
+    {
+      "sentence": "To distinguish the touch gestures, we used a vector from the placement to release positions.",
+      "label": "Method",
+      "prob": 0.6966213583946228
+    },
+    {
+      "sentence": "When compared to eye-only, GAT required less eye movements and demonstrated better accuracy.",
+      "label": "Result",
+      "prob": 0.8187397718429565
+    },
+    {
+      "sentence": "For VGC, we used one-way RM-ANOVA with a layout factor, and also conducted three post-hoc tests, similar to the NC.",
+      "label": "Result",
+      "prob": 0.6778079271316528
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.8195109367370605
+    },
+    {
+      "sentence": "Seven out of twelve participants chose GAT as the best technique because it was the fastest.",
+      "label": "Result",
+      "prob": 0.7298742532730103
+    },
+    {
+      "sentence": "Reasons for Preference",
+      "label": "Other",
+      "prob": 0.73945152759552
+    },
+    {
+      "sentence": "The analysis methods were nearly the same as those for Experiment 1; however, we conducted three post-hoc tests only in the last block, and we used a one-tailed assumption for the tests because we assumed that GAT outperforms the others.",
+      "label": "Result",
+      "prob": 0.5756829977035522
+    },
+    {
+      "sentence": "This research was supported by Basic Science ResearchProgram through the National Research Foundation of Korea (NRF) funded by the Ministry of Education (NRF2015R1D1A1A01058992).",
+      "label": "Other",
+      "prob": 0.7399626970291138
+    },
+    {
+      "sentence": "Figure 5 illustrates the CER and UER.",
+      "label": "Result",
+      "prob": 0.6394346952438354
+    },
+    {
+      "sentence": "Figure 11 shows the average of the four parts in each block.",
+      "label": "Result",
+      "prob": 0.6947587132453918
+    },
+    {
+      "sentence": "According to our micro analysis results, the gesture completion time ( T4 ) increased with the number of touch gestures.",
+      "label": "Result",
+      "prob": 0.7644515633583069
+    },
+    {
+      "sentence": "Friedman tests did not show signicant effects on the other two questions.",
+      "label": "Result",
+      "prob": 0.7399365901947021
+    },
+    {
+      "sentence": "They received $22 USD as compensation.",
+      "label": "Other",
+      "prob": 0.7347680330276489
+    },
+    {
+      "sentence": "They received $9 USD as compensation.",
+      "label": "Other",
+      "prob": 0.7367414832115173
+    },
+    {
+      "sentence": "We decomposed the key input time into four parts considering eyeand touch input phase; Eye movement data was logged every 30 ms. T1 is the time from the moment the previous key was entered to the moment the eye cursor entered a target sub-keyboard containing a target key.",
+      "label": "Result",
+      "prob": 0.5451981425285339
+    },
+    {
+      "sentence": "The on-body input is usually achieved by using additional wearable devices, such as a nger-attached touch sensor for the on-nger input (DigiTouch [41]; 16.0 wpm), a wrist-worn sensor for on-palm input (PalmType [39]; 4.6 wpm), or a smartwatch for on-wrist input (SwipeBoard and HoldBoard [1]; 9.1 wpm and 10.2 wpm, respectively).",
+      "label": "Other",
+      "prob": 0.3448787331581116
+    },
+    {
+      "sentence": "We gathered 18 participants  3 layouts  (3 blocks of NC + 1 block of VGC)  5 tasks = 1,080 phrases of text entry results.",
+      "label": "Result",
+      "prob": 0.5031223297119141
+    },
+    {
+      "sentence": "The sessions were split across three days.",
+      "label": "Result",
+      "prob": 0.682392418384552
+    },
+    {
+      "sentence": "To help a user distinguish between the regions, we attached two strips of tape on the backward and forward regions of the touchpad to provide a tactile feedback, similar to the original Swipezone.",
+      "label": "Result",
+      "prob": 0.4298577904701233
+    },
+    {
+      "sentence": "Thus, we argue that further reduction of T1 after long-term utilization and/or incorporation of an optimized key placement that requires less SWITCH , can make GAT better.",
+      "label": "Result",
+      "prob": 0.8111094236373901
+    },
+    {
+      "sentence": "At the end of the last session, we surveyed a questionnaire with ve questions using a ve-point Likert scale; four of the questions were same to Experiment 1; and, the fth option was Eye fatigue .",
+      "label": "Result",
+      "prob": 0.6724767684936523
+    },
+    {
+      "sentence": "The analysis methods for NC were almost similar to those of the preliminary study.",
+      "label": "Result",
+      "prob": 0.7638213634490967
+    },
+    {
+      "sentence": "The experiment consisted of three sessions.",
+      "label": "Result",
+      "prob": 0.5902618765830994
+    },
+    {
+      "sentence": "To conduct statistical tests, we simulated the missing data.",
+      "label": "Result",
+      "prob": 0.5134443640708923
+    },
+    {
+      "sentence": "Thus, the required number of sub-keyboard switches is one and the word length is three; therefore, the optimal SWITCH for \"the\" using GAT3 is 1/3 = 0.3.",
+      "label": "Other",
+      "prob": 0.6148501038551331
+    },
+    {
+      "sentence": "To overcome the problems of the touchpadand eye-gazebased methods, we propose the gaze-assisted typing (GAT).",
+      "label": "Method",
+      "prob": 0.6226657629013062
+    },
+    {
+      "sentence": "The post-hoc tests showed that GAT is signicantly faster than both touch-only (t 11 = 6.919, p < 0.01) and eye-only (t 11 = 3.882, p < 0.01) techniques.",
+      "label": "Result",
+      "prob": 0.6946559548377991
+    },
+    {
+      "sentence": "We chose the fastest letter-wise text entry method, i.e. , SwipeZone [11].",
+      "label": "Other",
+      "prob": 0.6936032176017761
+    },
+    {
+      "sentence": "GAT9 also got a signicantly higher rating than GAT3 for the Easy to use option (Z = -2.967, p < 0.01); however, for the option of Eye feels natural , GAT9 got a lower rating than GAT3 (Z = -2.423, p < 0.05).",
+      "label": "Result",
+      "prob": 0.7227213382720947
+    },
+    {
+      "sentence": "The click-alternative can be classied into two categories: monomodal (context switching [27] and eye blinking [2]) and multimodal clickalternatives (foot input [32], facial action [38], button click [33], etc. ) Pfeuffer et al.",
+      "label": "Other",
+      "prob": 0.7730454206466675
+    },
+    {
+      "sentence": "To select a key, a user can perform one of the nine touch gestures, similar to SwipeBoard [11], to enter a key as shown in Figure 1(c), i.e. , a tap gesture to select a center-positioned key on the sub-keyboard, and one of the eight directional swipe gestures to select a key corresponding to the swipe direction from the center-positioned key as shown in Figure 1(c).",
+      "label": "Method",
+      "prob": 0.434969425201416
+    },
+    {
+      "sentence": "ies in interaction design;",
+      "label": "Other",
+      "prob": 0.7734973430633545
+    },
+    {
+      "sentence": "The RM-ANOVA analysis on CER showed signicant effects of block (F ( 5 , 55 ) = 3.260, p < 0.05); however, the effects of technique and interaction were not signicant.",
+      "label": "Result",
+      "prob": 0.815356433391571
+    },
+    {
+      "sentence": "Owing to the target-agnostic features of swipe gestures, the nine touch gestures consisted of eight directional swipe gestures and one tap gesture, similar to SwipeBoard [11].",
+      "label": "Other",
+      "prob": 0.7286064028739929
+    },
+    {
+      "sentence": "The apparatus was the same as that of the preliminary study.",
+      "label": "Result",
+      "prob": 0.7189369201660156
+    },
+    {
+      "sentence": "(a) shows the presented layout for GAT.",
+      "label": "Result",
+      "prob": 0.6998785138130188
+    },
+    {
+      "sentence": "Finally, to demonstrate that the GAT method with larger keys for eye selection and simpler touchpad gestures would lead to improved performance and usability benets over eye-only and touch-only typing methods, we conducted Experiment 2.",
+      "label": "Method",
+      "prob": 0.5835129618644714
+    },
+    {
+      "sentence": "Friedman tests showed signicant effects of the layouts on all of the four questions: Easy to learn , Easy to use , Prefer to use , and Eye feels natural : p < 0.05, 0.01, 0.01, and 0.01; and,  ( 22 ) = 8.561, 15.524, 9.660, and 13.661, respectively.",
+      "label": "Result",
+      "prob": 0.6355046629905701
+    },
+    {
+      "sentence": "Finally, we gathered 12 participants  2 techniques  3 blocks  5 tasks = 360 phrases.",
+      "label": "Result",
+      "prob": 0.6432615518569946
+    },
+    {
+      "sentence": "No one chose GAT as the worst.",
+      "label": "Other",
+      "prob": 0.5423697829246521
+    },
+    {
+      "sentence": "Therefore, we conducted post-hoc Wilcoxon signed-rank tests with Bonferroni correction.",
+      "label": "Result",
+      "prob": 0.6491422653198242
+    },
+    {
+      "sentence": "We analyzed the text entry speed, corrected error rate (CER), and uncorrected error rate (UER) statistically using a two-way (2 techniques  3 blocks) repeated measure ANOVA (RMANOVA) on each.",
+      "label": "Result",
+      "prob": 0.5198350548744202
+    },
+    {
+      "sentence": "For the CER, RMANOVA analysis showed a signicant effect of the block (F ( 2 , 22 ) = 5.854, p < 0.01).",
+      "label": "Result",
+      "prob": 0.7116988897323608
+    },
+    {
+      "sentence": "However, three out of six Wilcoxon signedrank tests represent medium effect sizes (r > 0.3) as following: GAT received more positive ratings on Easy to use than both touch-only (Z= -2.280, r= 0.33) and eye-only (Z= -2.095, r= 0.30).",
+      "label": "Other",
+      "prob": 0.43335315585136414
+    },
+    {
+      "sentence": "Visual Guidance Condition",
+      "label": "Other",
+      "prob": 0.5773895978927612
+    },
+    {
+      "sentence": "The UER violated normality assumption; therefore, we performed an aligned rank transform (ART) [42] on the UER before conducting RM-ANOVA.",
+      "label": "Result",
+      "prob": 0.5764380693435669
+    },
+    {
+      "sentence": "Friedman tests showed signicant effects of the technique on Easy to learn , Prefer to use , and Eye fatigue :  ( 22 ) = 8.667, 6.826, and 18.050, p < 0.05, 0.05, and 0.01, respectively.",
+      "label": "Result",
+      "prob": 0.6252081394195557
+    },
+    {
+      "sentence": "Five participants were wearing glasses.",
+      "label": "Result",
+      "prob": 0.5554764270782471
+    },
+    {
+      "sentence": "Five participants were wearing glasses.",
+      "label": "Result",
+      "prob": 0.5554763078689575
+    },
+    {
+      "sentence": "As the results show, T2 and T3 were not dependent on the layout.",
+      "label": "Result",
+      "prob": 0.8323380351066589
+    },
+    {
+      "sentence": "To validate that GAT has better usability than the monomodal text entry methods, we compared GAT to eye-only typing (adjustable dwell time [22]) and touch-only typing (SwipeZone [11]) utilizing eye-trackable HWD.",
+      "label": "Method",
+      "prob": 0.6685924530029297
+    },
+    {
+      "sentence": "Participants",
+      "label": "Other",
+      "prob": 0.4659233093261719
+    },
+    {
+      "sentence": "Eye-only: A-Dwell",
+      "label": "Other",
+      "prob": 0.8307762742042542
+    },
+    {
+      "sentence": "Finally, we gathered 12 participants  2 days  3 sessions (techniques)  3 blocks  4 tasks = 864 phrases.",
+      "label": "Other",
+      "prob": 0.5856664776802063
+    },
+    {
+      "sentence": "Thus the dimension of the keyboard is 60 x 29.",
+      "label": "Other",
+      "prob": 0.7601727247238159
+    },
+    {
+      "sentence": "For the UER, RM-ANOVA analysis with ART showed a signicant effect of technique (F ( 1 , 11 ) = 5.309, p < 0.05).",
+      "label": "Result",
+      "prob": 0.7809209823608398
+    },
+    {
+      "sentence": "We conducted the experiments in simulated environments.",
+      "label": "Result",
+      "prob": 0.6912708878517151
+    },
+    {
+      "sentence": "We analyzed the results statistically for both NC and VGC, separately.",
+      "label": "Result",
+      "prob": 0.8097468614578247
+    },
+    {
+      "sentence": "We follow dwell time adjust fomula used in the original [22], Dwell = 300  EXP ( X / 12 )  150, where as X, from 1 to 20, can be adjust in a digit (gure 13 (e)).",
+      "label": "Result",
+      "prob": 0.5004227161407471
+    },
+    {
+      "sentence": "Figure 7 shows a visual guidance.",
+      "label": "Result",
+      "prob": 0.6955816745758057
+    },
+    {
+      "sentence": "Eye+Touch typing: GAT9",
+      "label": "Other",
+      "prob": 0.8789460062980652
+    },
+    {
+      "sentence": "Finally, we demonstrated that GAT outperformed the single input methods in the HWD environment as GAT (11.04 wpm) was 25.4% faster than the eye-only typing technique (8.81 wpm) and 29.4% faster than the touch-only typing method (8.53 wpm); moreover, it was the most preferred technique.",
+      "label": "Result",
+      "prob": 0.6566933989524841
+    },
+    {
+      "sentence": "Assuming the stationary setup might have been favorable to GAT9 than the others, the main results of Exp 1 would have remained essentially the same if a wearable setup had been used.",
+      "label": "Result",
+      "prob": 0.8861883878707886
+    },
+    {
+      "sentence": "Error rate",
+      "label": "Other",
+      "prob": 0.782700777053833
+    },
+    {
+      "sentence": "GAT got signicantly better ratings than touch-only for Easy to learn (Z= -2.565, p < 0.05), and better ratings than eyeonly for Prefer to use (Z= -2.280, p< 0.05) and Eye fatigue (Z= -2.980, p < 0.01).",
+      "label": "Result",
+      "prob": 0.6373711824417114
+    },
+    {
+      "sentence": "Implementation",
+      "label": "Other",
+      "prob": 0.4804862141609192
+    },
+    {
+      "sentence": "Touch only technique received more positive ratings on Eye feels natural than eye-only: Z= -2.420, r= 0.35.",
+      "label": "Other",
+      "prob": 0.8646655082702637
+    },
+    {
+      "sentence": "RM-ANOVA demonstrated signicant effects on the technique (F ( 1 , 11 ) = 42.763, p < 0.01) and the block (F ( 2 , 22 ) = 53.962, p < 0.01); however, the interaction was not signicant.",
+      "label": "Result",
+      "prob": 0.8516501784324646
+    },
+    {
+      "sentence": "1) and 2 (Exp",
+      "label": "Other",
+      "prob": 0.8205038905143738
+    },
+    {
+      "sentence": "Dynamic cascading (cascading, 13.70 wpm after eight days training; over 12 wpm on the second day) also outperformed A-Dwell (12.08 wpm after eight days; 10 wpm on the second day) [28].",
+      "label": "Other",
+      "prob": 0.7687579393386841
+    },
+    {
+      "sentence": "Wilcoxon-signed rank tests with Bonferroni correction showed that GAT6 got signicantly higher ratings than GAT3 for the different options; i.e. , Easy to learn (Z = -2.449, p < 0.05), Easy to use (Z = -3.372, p < 0.01), Prefer to use (Z = -2.864, p < 0.05).",
+      "label": "Result",
+      "prob": 0.6479145288467407
+    },
+    {
+      "sentence": "Copyright  2019 Association of Computing Machinery.",
+      "label": "Other",
+      "prob": 0.9040467143058777
+    },
+    {
+      "sentence": "GAZE-ASSISTED TYPING, \"GAT\"",
+      "label": "Other",
+      "prob": 0.8903759717941284
+    },
+    {
+      "sentence": "Request permissions from permissions@acm.org.",
+      "label": "Other",
+      "prob": 0.9176303744316101
+    },
+    {
+      "sentence": "ACM ISBN 978-1-4503-6816-2/19/10 ...$15.00.",
+      "label": "Other",
+      "prob": 0.920787513256073
+    },
+    {
+      "sentence": "http://dx.doi.org/10.1145/3332165.3347883",
+      "label": "Other",
+      "prob": 0.9247431755065918
+    },
+    {
+      "sentence": "Human-centered computing  Text input; Empirical stud-",
+      "label": "Other",
+      "prob": 0.9004470705986023
+    },
+    {
+      "sentence": "We also followed the recommendation of Kito et al.",
+      "label": "Other",
+      "prob": 0.8598849773406982
+    },
+    {
+      "sentence": "Eye + Touch: GAT",
+      "label": "Other",
+      "prob": 0.8749912977218628
+    },
+    {
+      "sentence": "3 https://www.gazept.com/product/gp3hd/",
+      "label": "Other",
+      "prob": 0.9320250749588013
+    },
+    {
+      "sentence": "However, we determined that the performances of GAT9 in the stationary setup (Exp 1, ve tasks/block) and in the wearable setup (Exp 2, four tasks/block) were consistent in terms of both speed (9.3 wpm vs. 9.0 wpm, respectively, at the 3rd block) and accuracy (CER: 6.3% vs. 7.4% and UER: 0.3% vs. 0.9%).",
+      "label": "Result",
+      "prob": 0.8683506846427917
+    },
+    {
+      "sentence": "Grossman et al .",
+      "label": "Other",
+      "prob": 0.9196903705596924
+    },
+    {
+      "sentence": "The RM-ANOVA analysis on text entry speed showed significant effects of the technique (F ( 2 , 22 ) = 11.020, p < 0.01) and block (F ( 2 . 696 , 29 . 654 ) = 48.822, p < 0.01).",
+      "label": "Result",
+      "prob": 0.8005924820899963
+    },
+    {
+      "sentence": "The interaction effect was also signicant (F ( 4 . 351 , 47 . 865 ) = 3.055, p < 0.05).",
+      "label": "Other",
+      "prob": 0.6275525689125061
+    },
+    {
+      "sentence": "2 https://www.tobiipro.com/product-listing/tobii-pro-glasses-2/",
+      "label": "Other",
+      "prob": 0.939388632774353
+    },
+    {
+      "sentence": "Kito et al .",
+      "label": "Other",
+      "prob": 0.9214613437652588
+    },
+    {
+      "sentence": "Toyama et al .",
+      "label": "Other",
+      "prob": 0.9241144061088562
+    },
+    {
+      "sentence": "Toyama et al .",
+      "label": "Other",
+      "prob": 0.9241144061088562
+    },
+    {
+      "sentence": "The result of SwipeZone was comparable to a previous study (8.73 wpm, after 80 min of usage) [11].",
+      "label": "Other",
+      "prob": 0.6790505051612854
+    },
+    {
+      "sentence": "Our proposed approach is a two-step method using a combination of gaze and touch gesture for text entry.",
+      "label": "Method",
+      "prob": 0.8111849427223206
+    },
+    {
+      "sentence": "Esteves et al .",
+      "label": "Other",
+      "prob": 0.9252709150314331
+    },
+    {
+      "sentence": "1 https://pupil-labs.com/",
+      "label": "Other",
+      "prob": 0.9474629759788513
+    },
+    {
+      "sentence": "For NC, two-way (the technique and the block) RM-ANOVA analysis on text entry speed and on CER showed signicant effects of the block (Speed: F ( 2 , 34 ) = 156.903, p < 0.01, CER: F ( 2 , 34 ) = 20.775, p < 0.01); however, the effects of layout and interaction were not signicant.",
+      "label": "Result",
+      "prob": 0.8847801685333252
+    },
+    {
+      "sentence": "ACKNOWLEDGMENTS",
+      "label": "Other",
+      "prob": 0.8630120158195496
+    },
+    {
+      "sentence": "4 https://www.getfove.com/",
+      "label": "Other",
+      "prob": 0.9538827538490295
+    },
+    {
+      "sentence": "Yu et al .",
+      "label": "Other",
+      "prob": 0.9353528022766113
+    },
+    {
+      "sentence": "Experiment 1 (Exp",
+      "label": "Other",
+      "prob": 0.9041540026664734
+    },
+    {
+      "sentence": "Author Keywords",
+      "label": "Other",
+      "prob": 0.9486260414123535
+    }
+  ]
+}

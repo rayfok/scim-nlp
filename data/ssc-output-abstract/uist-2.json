@@ -1,0 +1,49 @@
+{
+  "uist-2": [
+    {
+      "sentence": "However, where handheld phones present challenges, head-worn displays (HWDs) could further communication through privately transcribed text, handsfree use, improved mobility, and socially acceptable interactions.",
+      "label": "Background",
+      "prob": 0.8965640068054199
+    },
+    {
+      "sentence": "Mobile solutions can help transform speech and sound into visual representations for people who are deaf or hard-ofhearing (DHH).",
+      "label": "Background",
+      "prob": 0.8370268940925598
+    },
+    {
+      "sentence": "Wearable Subtitles is a lightweight 3D-printed proof-ofconcept HWD that explores augmenting communication through sound transcription for a full workday.",
+      "label": "Background",
+      "prob": 0.7926464080810547
+    },
+    {
+      "sentence": "Our studies and prior research identify critical challenges for the adoption of HWDs which we address through extended battery life, lightweight and balanced mechanical design (54 g), fitting options, and form factors that are compatible with current social norms.",
+      "label": "Background",
+      "prob": 0.4517780840396881
+    },
+    {
+      "sentence": "Using a lowpower microcontroller architecture, we enable up to 15 hours of continuous use.",
+      "label": "Background",
+      "prob": 0.32815003395080566
+    },
+    {
+      "sentence": "technologies ; HCI; Mobile Computing; User Studies",
+      "label": "Other",
+      "prob": 0.6247522830963135
+    },
+    {
+      "sentence": "We describe a large survey (n=501) and three user studies with 24 deaf/hard-of-hearing participants which inform our development and help us refine our prototypes.",
+      "label": "Result",
+      "prob": 0.7320784330368042
+    },
+    {
+      "sentence": "Human-centered computing~Accessibility",
+      "label": "Other",
+      "prob": 0.8462778925895691
+    },
+    {
+      "sentence": "CSS Concepts",
+      "label": "Other",
+      "prob": 0.7828208208084106
+    }
+  ]
+}

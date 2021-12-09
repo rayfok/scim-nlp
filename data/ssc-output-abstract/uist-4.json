@@ -1,0 +1,29 @@
+{
+  "uist-4": [
+    {
+      "sentence": "Lip-Interact repurposes the front camera to capture the users mouth movements and recognize the issued commands with an end-to-end deep learning model.",
+      "label": "Background",
+      "prob": 0.74391770362854
+    },
+    {
+      "sentence": "We present Lip-Interact, an interaction technique that allows users to issue commands on their smartphone through silent speech.",
+      "label": "Background",
+      "prob": 0.5667060017585754
+    },
+    {
+      "sentence": "Our system supports 44 commands for accessing both system-level functionalities (launching apps, changing system settings, and handling pop-up windows) and application-level functionalities (integrated operations for two apps).",
+      "label": "Background",
+      "prob": 0.4839771091938019
+    },
+    {
+      "sentence": "We verify the feasibility of Lip-Interact with three user experiments: evaluating the recognition accuracy, comparing with touch on input efciency, and comparing with voiced commands with regards to personal privacy and social norms.",
+      "label": "Result",
+      "prob": 0.5588720440864563
+    },
+    {
+      "sentence": "We demonstrate that Lip-Interact can help users access functionality efciently in one step, enable one-handed input when the other hand is occupied, and assist touch to make interactions more uent.",
+      "label": "Result",
+      "prob": 0.6878758072853088
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "uist-8": [
+    {
+      "sentence": "Text entry is expected to be a common task for smart glass users, which is generally performed using a touchpad on the temple or by a promising approach using eye tracking.",
+      "label": "Background",
+      "prob": 0.8098876476287842
+    },
+    {
+      "sentence": "Text entry; Smart glasses; Gaze and Touch, Multi-modal input",
+      "label": "Background",
+      "prob": 0.5530502796173096
+    },
+    {
+      "sentence": "For more efcient text entry, we present the concept of gaze-assisted typing (GAT), which uses both a touchpad and eye tracking.",
+      "label": "Background",
+      "prob": 0.4802558720111847
+    },
+    {
+      "sentence": "However, each approach has its own limitations.",
+      "label": "Background",
+      "prob": 0.43163543939590454
+    },
+    {
+      "sentence": "We initially examined GAT with a minimal eye input load, and demonstrated that the GAT technology was 51% faster than a two-step touch input typing method ( i.e. ,M-SwipeBoard: 5.85 words per minute (wpm) and GAT: 8.87 wpm).",
+      "label": "Result",
+      "prob": 0.40916359424591064
+    },
+    {
+      "sentence": "Finally, we compared GAT with touch-only typing (SwipeZone) and eye-only typing (adjustable dwell) using an eye-trackable head-worn display.",
+      "label": "Method",
+      "prob": 0.41956189274787903
+    },
+    {
+      "sentence": "The results showed that a GAT requiring ve different touch gestures was the most preferred, although all GAT techniques were equally efcient.",
+      "label": "Result",
+      "prob": 0.8001009225845337
+    },
+    {
+      "sentence": "We also compared GAT methods with varying numbers of touch gestures.",
+      "label": "Result",
+      "prob": 0.623153030872345
+    },
+    {
+      "sentence": "The results demonstrate that the most preferred technique, GAT, was 25.4% faster than the eye-only typing and 29.4% faster than the touch-only typing (GAT: 11.04 wpm, eye-only typing: 8.81 wpm, and touch-only typing: 8.53 wpm).",
+      "label": "Result",
+      "prob": 0.8713722825050354
+    }
+  ]
+}

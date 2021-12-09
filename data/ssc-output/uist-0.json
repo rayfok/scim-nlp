@@ -1,0 +1,1989 @@
+{
+  "uist-0": [
+    {
+      "sentence": "Upon leaving the location, these photos become high fdelity prototypesthe photographer is more committed to these photos as potential changes are limited and more expensive.",
+      "label": "Background",
+      "prob": 0.9554716348648071
+    },
+    {
+      "sentence": "However, changes that can be made at the editing stages are limited, and often many mistakes cannot be fxed without returning to the photo location.",
+      "label": "Background",
+      "prob": 0.9511933326721191
+    },
+    {
+      "sentence": "Clutter in an image can greatly detract from the power of an image both in terms of efective communication and in terms of visual appeal.",
+      "label": "Background",
+      "prob": 0.9490453600883484
+    },
+    {
+      "sentence": "Moving the camera instead of the objects in the scene was often more practical because the objects could not be moved.",
+      "label": "Background",
+      "prob": 0.9403613209724426
+    },
+    {
+      "sentence": "A range of contextual in-camera guidance exists both in research and in commercial cameras.",
+      "label": "Background",
+      "prob": 0.927636981010437
+    },
+    {
+      "sentence": "Amateurs frequently make the mistake of taking too few photos in the moment, relying on editing to improve their photos.",
+      "label": "Background",
+      "prob": 0.92692631483078
+    },
+    {
+      "sentence": "Additionally, they all sufer from potentially jarring artifacts since they rely on pixel manipulation rather than adjusting the real physical objects in the image.",
+      "label": "Background",
+      "prob": 0.9258411526679993
+    },
+    {
+      "sentence": "Much of the efort photographers put into designing a photo is to help more clearly communicate their intended story.",
+      "label": "Background",
+      "prob": 0.919475257396698
+    },
+    {
+      "sentence": "Designers have long known the benefts of quickly testing many ideas.",
+      "label": "Background",
+      "prob": 0.911205530166626
+    },
+    {
+      "sentence": "On the other hand, contrast in other regions especially the border of the image, will distract, causing the eye to be attracted away from the focal subject.",
+      "label": "Background",
+      "prob": 0.9004273414611816
+    },
+    {
+      "sentence": "While these aesthetics evaluation algorithms may consider clutter, they provide limited information to the user for interpreting these quality measures.",
+      "label": "Background",
+      "prob": 0.8957432508468628
+    },
+    {
+      "sentence": "However, it can be easy for photographers to miss this clutter in the moment while paying attention to details in the subject.",
+      "label": "Background",
+      "prob": 0.8934362530708313
+    },
+    {
+      "sentence": "The creativity in decluttering comes at the stage of determining how to address the clutter.",
+      "label": "Background",
+      "prob": 0.8928601741790771
+    },
+    {
+      "sentence": "Similarly while taking photos, it is cheap to iterate and generate more prototypes or photos in the moment.",
+      "label": "Background",
+      "prob": 0.8852997422218323
+    },
+    {
+      "sentence": "The photographer can test out ideas just by moving the camera around in space, or by taking photos and immediately reviewing them, and similarly notice any issues like unexpected clutter.",
+      "label": "Background",
+      "prob": 0.8832751512527466
+    },
+    {
+      "sentence": "In fact, it is desirable for the photo to leave a gap in the narrative such that certain aspects are left up to the viewers imagination.",
+      "label": "Background",
+      "prob": 0.8702263832092285
+    },
+    {
+      "sentence": "As a result, people still made mistakes even while being aware of specifc clutter to consider and carefully refning their photos.",
+      "label": "Background",
+      "prob": 0.8695645332336426
+    },
+    {
+      "sentence": "Two important factors to telling a clear story are picking a strong subject, and keeping visual distractions to a minimum.",
+      "label": "Background",
+      "prob": 0.8650052547454834
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than the author(s) must be honored.",
+      "label": "Background",
+      "prob": 0.8468316793441772
+    },
+    {
+      "sentence": "We see similarities in this photographic process and the design processphotographers are essentially iterating on their design (or image) in the camera as they consider these diferent aspects of photography and storytelling.",
+      "label": "Background",
+      "prob": 0.8465414643287659
+    },
+    {
+      "sentence": "The presence of many cyan edges suggests there might be noise and clutter near the image border that could also take attention away from the subject.",
+      "label": "Background",
+      "prob": 0.8398057222366333
+    },
+    {
+      "sentence": "In a few cases, they chose to change orientation from portrait to landscape (6) to achieve a decluttered composition that they preferred.",
+      "label": "Background",
+      "prob": 0.8397016525268555
+    },
+    {
+      "sentence": "Several (5) even discovered that zooming in by moving closer to the subject allows them to more easily remove/block clutter and focus on the subject, a technique often taught in photography resources.",
+      "label": "Background",
+      "prob": 0.839286208152771
+    },
+    {
+      "sentence": "A sketch on the other hand is a selective representation, an abstracted view of the idea or concept being explored.",
+      "label": "Background",
+      "prob": 0.838735044002533
+    },
+    {
+      "sentence": "Rather than being tied to a single concept, the process of decluttering an image can involve solutions that touch on several photographic concepts (e.g. composition, lighting, color).",
+      "label": "Background",
+      "prob": 0.8355299830436707
+    },
+    {
+      "sentence": "Abstracting the image can help them view the image as a whole rather than focus on perfecting the subjects pose or expression.",
+      "label": "Background",
+      "prob": 0.8339428901672363
+    },
+    {
+      "sentence": "Having unwanted background clutter is one such mistake that can be harder to fx without more signifcant changes, and can be particularly frustrating as they distract from the main focus of the image.",
+      "label": "Background",
+      "prob": 0.8330401182174683
+    },
+    {
+      "sentence": "On the other hand, experienced photographers tend to capture many photos of a given scene: they know how to consider diferent options (e.g., composition, lighting, or pose), and recognize the challenges of not having the option to physically move the camera or elements in the image at edit-time.",
+      "label": "Background",
+      "prob": 0.8310811519622803
+    },
+    {
+      "sentence": "These are especially helpful if the main subject is incorrectly identifed by the saliency algorithm.",
+      "label": "Background",
+      "prob": 0.8196316957473755
+    },
+    {
+      "sentence": "One signifcant diference between sketching ideas and trying them out in the camera is this level of fdelity.",
+      "label": "Background",
+      "prob": 0.8182142972946167
+    },
+    {
+      "sentence": "Removing these low-level details allow the designer to more quickly explore a broad range of high-level concepts.",
+      "label": "Background",
+      "prob": 0.8139477372169495
+    },
+    {
+      "sentence": "Storytelling is an important aspect of photography.",
+      "label": "Background",
+      "prob": 0.8118103742599487
+    },
+    {
+      "sentence": "As we described earlier, photographers will sometimes use a grayscale display in their current practice, to help emphasize contrast in order to consider overall clarity and decluttering.",
+      "label": "Background",
+      "prob": 0.7993195056915283
+    },
+    {
+      "sentence": "Designers use sketching to externalize ideas that are still vague in their minds.",
+      "label": "Background",
+      "prob": 0.7945261001586914
+    },
+    {
+      "sentence": "To achieve the most contrast, the photographer should place light objects on a dark background, or dark objects on a light background.",
+      "label": "Background",
+      "prob": 0.7920252680778503
+    },
+    {
+      "sentence": "As the user refnes the image, they can reduce the opacity or bring in more edges to draw attention to lower level details.",
+      "label": "Background",
+      "prob": 0.7916519045829773
+    },
+    {
+      "sentence": "Nonetheless, these arent intended to train the user to be more aware of background clutter while they are taking photos.",
+      "label": "Background",
+      "prob": 0.7905193567276001
+    },
+    {
+      "sentence": "These algorithms can run for a little longer without having too much of an impact on the overall interaction.",
+      "label": "Background",
+      "prob": 0.7866072058677673
+    },
+    {
+      "sentence": "However, similar to a lot of other existing feedback in commercial cameras, the focus of this feature is more to assist users to more quickly arrive at the appropriate camera settings.",
+      "label": "Background",
+      "prob": 0.785203218460083
+    },
+    {
+      "sentence": "He decided that since the large scale task shouldnt have a single focal subject, the lack of yellow aligned with the expectations of this goal.",
+      "label": "Background",
+      "prob": 0.777466356754303
+    },
+    {
+      "sentence": "For either of these interpretations, the tool has given the participant another perspective from which to consider what it means to clearly capture a subject.",
+      "label": "Background",
+      "prob": 0.7754845023155212
+    },
+    {
+      "sentence": "It communicates that it is hard to identify a subject, and in many cases infuenced the users interpretation of the photo (see Section 5).",
+      "label": "Background",
+      "prob": 0.768769383430481
+    },
+    {
+      "sentence": "However, even this incorrect information can be informative to the user.",
+      "label": "Background",
+      "prob": 0.764384925365448
+    },
+    {
+      "sentence": "Along with the videos would be 3 rows of still frames from the video to allow participants to compare the overlays across a few frames.",
+      "label": "Background",
+      "prob": 0.7628694176673889
+    },
+    {
+      "sentence": "In both cases, in removing clutter, the participant is also more intentional about framing the elements that are key to the story aspects of the image.",
+      "label": "Background",
+      "prob": 0.7625546455383301
+    },
+    {
+      "sentence": "can be used for promoting exploration of creative concepts and understanding how to apply higher level photography principles.",
+      "label": "Background",
+      "prob": 0.7619670629501343
+    },
+    {
+      "sentence": "Since the saliency maps were object-based, they try to identify entire objects rather than general regions of visual attention.",
+      "label": "Background",
+      "prob": 0.7614641785621643
+    },
+    {
+      "sentence": "To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specifc permission and/or a fee.",
+      "label": "Background",
+      "prob": 0.7597097754478455
+    },
+    {
+      "sentence": "In the frst case, contrast is goodso it should be subdued to guarantee the contrast is still clear without details.",
+      "label": "Background",
+      "prob": 0.7591314315795898
+    },
+    {
+      "sentence": "A solid and defned yellow outline of the subject would mean that there is likely good SBS.",
+      "label": "Background",
+      "prob": 0.7522162199020386
+    },
+    {
+      "sentence": "The user takes a photo before seeing the overlay, and the process of reviewing (with or without) the overlay can infuence the photographic process.",
+      "label": "Background",
+      "prob": 0.7513605356216431
+    },
+    {
+      "sentence": "Many have taken the approach of trying to realize them as approximate image illustrations with strokes and colored regions, employing a",
+      "label": "Background",
+      "prob": 0.7501477003097534
+    },
+    {
+      "sentence": "While still at the scene, the photographer has many more options to reframe the image to clarify the subject and remove distractors, helping to improve these images and better direct viewers eyes.",
+      "label": "Background",
+      "prob": 0.749155580997467
+    },
+    {
+      "sentence": "However, rather than focusing on accuracy and refnement of camera settings, we are interested in understanding how similar overlays",
+      "label": "Background",
+      "prob": 0.7483684420585632
+    },
+    {
+      "sentence": "Considering the two decluttering principles of SBS and IBF, they also are somewhat unique in that there is a more defned good and bad (unless the photographer is choosing to intentionally blend the subject into the background or have a very cluttered",
+      "label": "Background",
+      "prob": 0.7440157532691956
+    },
+    {
+      "sentence": "The participant would then be given an opportunity to take a new photo of the scene or stick with their current one.",
+      "label": "Background",
+      "prob": 0.7351138591766357
+    },
+    {
+      "sentence": "Therefore she tries to fnd a diferent way to capture this room with a more clear subject.",
+      "label": "Background",
+      "prob": 0.731162428855896
+    },
+    {
+      "sentence": "Since we did not yet need these to work directly on a camera, these proposals were prototyped in Python.",
+      "label": "Background",
+      "prob": 0.7310916185379028
+    },
+    {
+      "sentence": "focused on the primary subject of a photo and miss objects immediately surrounding it in the background.",
+      "label": "Background",
+      "prob": 0.7285976409912109
+    },
+    {
+      "sentence": "They can also turn of the visualization by holding a fnger down anywhere on the screen or using the toggle at the bottom right.",
+      "label": "Background",
+      "prob": 0.7268504500389099
+    },
+    {
+      "sentence": "Depth of feld can enable some blurring of the background, but each pixel of the image is pigmented, every object in the frame is captured.",
+      "label": "Background",
+      "prob": 0.7241989374160767
+    },
+    {
+      "sentence": "There also are a range of segmentation algorithms that could provide additional location context.",
+      "label": "Background",
+      "prob": 0.7181999087333679
+    },
+    {
+      "sentence": "For instance, how they might consider the context from the users process to determine when each might be most relevant to show.",
+      "label": "Background",
+      "prob": 0.7111662030220032
+    },
+    {
+      "sentence": "Participants were quite thorough in their explanations of their interpretations of the components of these proposed overlays.",
+      "label": "Background",
+      "prob": 0.7095329761505127
+    },
+    {
+      "sentence": "The defnition of story in this sense of the word is often very open.",
+      "label": "Background",
+      "prob": 0.7029336094856262
+    },
+    {
+      "sentence": "Specifically in photography, it can be easy for a photographer to be too",
+      "label": "Background",
+      "prob": 0.6960548758506775
+    },
+    {
+      "sentence": "Gaps along this edge might signal a lack of contrastthis could mean that the subject is blending into the background, or there are objects directly around the subject that are interfering with the clarity of the subject border.",
+      "label": "Background",
+      "prob": 0.6930227875709534
+    },
+    {
+      "sentence": "We fnd decluttering particularly of interest because it starts to draw on the storytelling aspects of photography.",
+      "label": "Background",
+      "prob": 0.686886191368103
+    },
+    {
+      "sentence": "Our fnal design uses object-based saliency and edge detection to highlight contrast along subject and image borders, outlining potential distractors in these regions.",
+      "label": "Background",
+      "prob": 0.6868013143539429
+    },
+    {
+      "sentence": "[19] take a non-edge based approach to fnding distractors that better captures what humans annotate as being distractors than most edge detection algorithms.",
+      "label": "Background",
+      "prob": 0.6852550506591797
+    },
+    {
+      "sentence": "again reconsidered this intended composition and rotated the camera to landscape to further emphasize the of-centeredness of the composition.",
+      "label": "Background",
+      "prob": 0.6811329126358032
+    },
+    {
+      "sentence": "Thus upon capturing the fnal photo, she has intentionally refned some details that were brought to her attention by the overlay, and is therefore more confdent that this photo achieves her goals.",
+      "label": "Background",
+      "prob": 0.6698649525642395
+    },
+    {
+      "sentence": "It is good practice to have this contrast around the subject as it will help make the subject distinct from the background.",
+      "label": "Background",
+      "prob": 0.6648104786872864
+    },
+    {
+      "sentence": "Participants were asked to stage a scene of a person (for convenience, this was often one of the experimenters) interacting with an object of their choice, in order to have a more direct concept of story in the photos.",
+      "label": "Background",
+      "prob": 0.6627482175827026
+    },
+    {
+      "sentence": "In her second photo, she focused on capturing the intended composition, shifting the camera to the left to frame a less centered composition.",
+      "label": "Background",
+      "prob": 0.6621780395507812
+    },
+    {
+      "sentence": "Two experimenters were involved in the prototype testing, and when possible, both were present.",
+      "label": "Background",
+      "prob": 0.661838948726654
+    },
+    {
+      "sentence": "After reading the document, we asked that the participants briefy describe the principles in their own words to confrm understanding.",
+      "label": "Background",
+      "prob": 0.661628007888794
+    },
+    {
+      "sentence": "In all but one case, participants noticed clutter in the background upon seeing their photo with the abstracted overlay.",
+      "label": "Background",
+      "prob": 0.6613026261329651
+    },
+    {
+      "sentence": "often used in computer science with regards to edge detection and identifying segments of sharp discontinuities [7, 11].",
+      "label": "Background",
+      "prob": 0.6604374647140503
+    },
+    {
+      "sentence": "We hoped to gain some understanding of whether or not they had a general feeling of which overlays were helpful (maybe for diferent scenarios and considerations), and why.",
+      "label": "Background",
+      "prob": 0.6580623984336853
+    },
+    {
+      "sentence": "Its more about capturing a moment or invoking an emotion, perhaps a sense of tension or inspirationin general, it is just about capturing what caught the photographers eye, e.g., a subject performing an action in their current environment.",
+      "label": "Background",
+      "prob": 0.6572163701057434
+    },
+    {
+      "sentence": "In the one case where the participant did not make adjustments to address clutter, a whiteboard mostly flled up the background of the image, and was involved in the action in the image and therefore did not clutter the image, but instead helped tell the intended story.",
+      "label": "Background",
+      "prob": 0.6559018492698669
+    },
+    {
+      "sentence": "However, we had yet to try these overlays in an interactive manner.",
+      "label": "Background",
+      "prob": 0.650170624256134
+    },
+    {
+      "sentence": "In our in-camera app implementation, users also have the option to toggle on all edges (see Figure 7).",
+      "label": "Background",
+      "prob": 0.6474599838256836
+    },
+    {
+      "sentence": "study [17], with questions adapted to highlight decluttering principles rather than composition.",
+      "label": "Background",
+      "prob": 0.6462681889533997
+    },
+    {
+      "sentence": "These each had the darkened image with selective color-coded line drawing based on their location context in the image.",
+      "label": "Background",
+      "prob": 0.6441648602485657
+    },
+    {
+      "sentence": "The video would automatically loop, but participants also had controls to pause and play.",
+      "label": "Background",
+      "prob": 0.6328009963035583
+    },
+    {
+      "sentence": "However, notice how through this process, this choice became much more intentional as she was aware of the alternative options she had in this space and decided that this best suited her preferences.",
+      "label": "Background",
+      "prob": 0.6280825138092041
+    },
+    {
+      "sentence": "They can use the toggle to bring in the remaining edges in the subject and background.",
+      "label": "Background",
+      "prob": 0.6164514422416687
+    },
+    {
+      "sentence": "Note that while these participants behaviors matched what we hoped for, there were limitations to our study design such that they cannot be directly mapped to how a user might respond to seeing this style of overlay interactively in the camera.",
+      "label": "Background",
+      "prob": 0.6158807873725891
+    },
+    {
+      "sentence": "They were told that following these guidelines would be helpful in telling a clear story in their photos, but also that these guidelines are just to provide some possible perspectives to consider and that participants are by no means required to follow them (e.g., if communicating their story involved intentionally having the subject blend into the background they should do so).",
+      "label": "Background",
+      "prob": 0.6122685670852661
+    },
+    {
+      "sentence": "To allow participants to focus solely on creating decluttered compositions during the user study, this app has just a camera shutter button and no other camera functionality.",
+      "label": "Background",
+      "prob": 0.609717071056366
+    },
+    {
+      "sentence": "both the pilot and larger summative study were compensated $15 for around an hour of their time.",
+      "label": "Background",
+      "prob": 0.6076118350028992
+    },
+    {
+      "sentence": "However, we want to be able to determine the relevant context in order to focus on edges related to SBS and IBF.",
+      "label": "Background",
+      "prob": 0.6068172454833984
+    },
+    {
+      "sentence": "E et al. begins to tackle this for overall photo composition by interactively highlighting the perceived composition.",
+      "label": "Background",
+      "prob": 0.6061861515045166
+    },
+    {
+      "sentence": "Participants were presented with some training describing the two decluttering principles (see Section 3.2.1).",
+      "label": "Background",
+      "prob": 0.6006627678871155
+    },
+    {
+      "sentence": "In fact, we would be interested in comparing how such an interface might compare to other grid-based composition guidance [17], as well as understanding how these diferent camera interfaces",
+      "label": "Background",
+      "prob": 0.597769558429718
+    },
+    {
+      "sentence": "We would be interested in running a similar design survey asking participants to select overlays based on which best assisted in understanding the overall composition and seeing if reactions signifcantly difered from our survey focused on decluttering.",
+      "label": "Background",
+      "prob": 0.5962197780609131
+    },
+    {
+      "sentence": "Both color fattening and image darkening made the image less clear, so we wanted our fnal overlay to only have one of these components.",
+      "label": "Background",
+      "prob": 0.592565655708313
+    },
+    {
+      "sentence": "Participants tended to either adjust the camera position/angle (17) such that the clutter was no longer in frame, or move the clutter (3) out of the scene (or a mix of both).",
+      "label": "Background",
+      "prob": 0.5913156867027283
+    },
+    {
+      "sentence": "For a video, participants would see a concatenated video including the original video side-by-side with the set of overlays applied.",
+      "label": "Background",
+      "prob": 0.5899184346199036
+    },
+    {
+      "sentence": "In designing our overlays, we were somewhat limited in the methods that we used in order to produce something that could be computed interactively.",
+      "label": "Background",
+      "prob": 0.5888149738311768
+    },
+    {
+      "sentence": "In one situation the participant positioned the subjects head to block the unwanted clutter.",
+      "label": "Background",
+      "prob": 0.587068498134613
+    },
+    {
+      "sentence": "Our proposed technical approach was more a means of enabling the interaction of interest and not a core contribution.",
+      "label": "Background",
+      "prob": 0.5852639079093933
+    },
+    {
+      "sentence": "In particular, we wondered how we might be able to bring some of these benefts of sketching to photography to promote this behavior of intentional exploration, and if that might help users notice unexpected mistakes, such as unwanted clutter in their photos.",
+      "label": "Background",
+      "prob": 0.5837806463241577
+    },
+    {
+      "sentence": "Users experienced two diferent conditions of the tool: a baseline grayscale overlay, and our tool highlighting edges along the subject and image borders.",
+      "label": "Background",
+      "prob": 0.576467752456665
+    },
+    {
+      "sentence": "We use subjectbackground separation in our work to make it easier to relate the concept to more familiar terms.",
+      "label": "Background",
+      "prob": 0.5701921582221985
+    },
+    {
+      "sentence": "Human-centered computing  Graphical user interfaces  Computing methodologies  Graphics systems and interfaces ; Computational photography .",
+      "label": "Background",
+      "prob": 0.5698385238647461
+    },
+    {
+      "sentence": "In this case, the participant actually ends up using the same background as she started with and still includes the edge that she identifed as clutter.",
+      "label": "Background",
+      "prob": 0.5697811841964722
+    },
+    {
+      "sentence": "Photographers recommend a number of methods to be able to more easily see the contrast in an image (see Figure 4).",
+      "label": "Background",
+      "prob": 0.565506100654602
+    },
+    {
+      "sentence": "So if an overlay draws outlines of those objects or lights them up, then theyre easier to notice (P10).",
+      "label": "Background",
+      "prob": 0.5630251169204712
+    },
+    {
+      "sentence": "Lines are color-coded to help users more easily interpret the edges.",
+      "label": "Background",
+      "prob": 0.5574089884757996
+    },
+    {
+      "sentence": "to remove the stove, but notices the dark panel in the background, which she doesnt want.",
+      "label": "Background",
+      "prob": 0.553085446357727
+    },
+    {
+      "sentence": "A photographer can also choose to segment out the foreground of a portrait to place on a dramatic black or custom backdrop [31], a feature also available directly in-camera on some commercial phones (i.e., Stage Light in iPhones Portrait mode).",
+      "label": "Background",
+      "prob": 0.5521171689033508
+    },
+    {
+      "sentence": "See accompanying video fgures for more specifc examples from the user studies (including those described here).",
+      "label": "Background",
+      "prob": 0.5476464629173279
+    },
+    {
+      "sentence": "We can imagine instead of the interactive guidance, having an overlay that is shown upon reviewing previously captured photos (similar to our low-fdelity prototype interaction).",
+      "label": "Background",
+      "prob": 0.5473588109016418
+    },
+    {
+      "sentence": "Thus, these maps directly served as a mask of the regions corresponding to salient subjects in the image.",
+      "label": "Background",
+      "prob": 0.5429741144180298
+    },
+    {
+      "sentence": "We ended the study with open-ended interviews asking about what they liked/disliked about the tool and how the interaction infuenced their thought process as they took photos.",
+      "label": "Background",
+      "prob": 0.5401285886764526
+    },
+    {
+      "sentence": "It is an active method employed by photographers and thus in some ways does encourage novices to see the image in the ways that expert photographers do.",
+      "label": "Background",
+      "prob": 0.5363290905952454
+    },
+    {
+      "sentence": "From the default state, the user can adjust the slider at the top to adjust the opacity of the black layer, bringing in more or less of the image color.",
+      "label": "Background",
+      "prob": 0.5339451432228088
+    },
+    {
+      "sentence": "In this case, we could imagine having the interface give specifc guidance such as rotating the phone, removing an object from the scene, or moving the camera closer to the subject.",
+      "label": "Background",
+      "prob": 0.5332628488540649
+    },
+    {
+      "sentence": "Therefore we see that while participants are more confdent in their ability to take clear photos, and found the tool helpful for achieving their favorite resulting photos, they didnt necessarily fnd that their photos were better with regard to their personal preferences or the decluttering principles.",
+      "label": "Background",
+      "prob": 0.5295425057411194
+    },
+    {
+      "sentence": "However, they also noted that outlining everything can be noisy (9), and especially did not want too many lines within the subject (6).",
+      "label": "Background",
+      "prob": 0.5286678075790405
+    },
+    {
+      "sentence": "If they were using the tool condition frst, they were additionally provided with a brief tutorial describing the overlay.",
+      "label": "Background",
+      "prob": 0.5229107737541199
+    },
+    {
+      "sentence": "Participants were provided with a document describing the two decluttering principles (see Section 3.2.1 as training for how to think about decluttering their photo compositions).",
+      "label": "Background",
+      "prob": 0.5209620594978333
+    },
+    {
+      "sentence": "In their studies, they defne two sets of 3 tasks of increasing scale.",
+      "label": "Background",
+      "prob": 0.5173051953315735
+    },
+    {
+      "sentence": "Combining concepts from these two abstraction ideas, we have three components in total to consider: line drawing, location context, and color fattening.",
+      "label": "Background",
+      "prob": 0.5161287784576416
+    },
+    {
+      "sentence": "She is watching the hook on the top left, making sure it doesnt end up in her shot.",
+      "label": "Background",
+      "prob": 0.5050259828567505
+    },
+    {
+      "sentence": "In the second case, contrast is badso it should be emphasized to make sure the photographer realizes its presence and has a chance to remove it from the frame.",
+      "label": "Background",
+      "prob": 0.5010828971862793
+    },
+    {
+      "sentence": "However, a few (3) noted that this fattening caused blurring that made the subject unclear.",
+      "label": "Background",
+      "prob": 0.4989967942237854
+    },
+    {
+      "sentence": "Participants came up with a range of tactics for adjusting the camera to address clutter.",
+      "label": "Background",
+      "prob": 0.49779096245765686
+    },
+    {
+      "sentence": "To do so, we needed an implementation that would run interactively on a phone.",
+      "label": "Background",
+      "prob": 0.4974308907985687
+    },
+    {
+      "sentence": "Our design survey (Section 3.2.3) provided us with a lot of interesting insight on how participants might imagine an abstraction overlay to assist with decluttering.",
+      "label": "Background",
+      "prob": 0.4862804412841797
+    },
+    {
+      "sentence": "Again, this is better known as edge ficker, but we chose to specify image border to diferentiate it from the term edge, as edge is",
+      "label": "Background",
+      "prob": 0.4845750629901886
+    },
+    {
+      "sentence": "She turns the camera back towards the white wall, but notices the high contrast object at the top left entering her shot.",
+      "label": "Background",
+      "prob": 0.48417773842811584
+    },
+    {
+      "sentence": "We choose the most abstracted form of the overlay (solid black, minimal edges) as the default as we imagine users starting in a more",
+      "label": "Background",
+      "prob": 0.4809388220310211
+    },
+    {
+      "sentence": "Since the locations were all diferent, here we just counterbalanced condition to avoid biases from learning efects.",
+      "label": "Background",
+      "prob": 0.47874176502227783
+    },
+    {
+      "sentence": "In particular, we need to identify a border around the subject.",
+      "label": "Background",
+      "prob": 0.47766849398612976
+    },
+    {
+      "sentence": "The additional white lines help to complement either yellow or cyan lines.",
+      "label": "Background",
+      "prob": 0.4717332720756531
+    },
+    {
+      "sentence": "We would also like to thank all of our participants for their time and feedback.",
+      "label": "Background",
+      "prob": 0.470722496509552
+    },
+    {
+      "sentence": "For each favorited photo per task, we asked participants to self-assess them based on subject-background separation and image border ficker.",
+      "label": "Background",
+      "prob": 0.4673808813095093
+    },
+    {
+      "sentence": "We are interested in designing camera interfaces that can encourage users to incorporate these exploratory stages of the design process into their photographic process.",
+      "label": "Background",
+      "prob": 0.4658931791782379
+    },
+    {
+      "sentence": "We looked at diferent approaches to executing this concept as one potential direction to pursue for our abstraction overlay.",
+      "label": "Background",
+      "prob": 0.4630144536495209
+    },
+    {
+      "sentence": "Our fnal annotation design involves color-coded edge highlighting (very similar to the focus peaking feature that can be found on a number of commercial cameras [2, 32]) focused on regions around the subject(s) and image borders where clutter can be most distracting.",
+      "label": "Background",
+      "prob": 0.4611717462539673
+    },
+    {
+      "sentence": "In fact, a few participants observed that the goals difered between fnding clear separation between the subject and background and fnding distracting constrast in the background/along the image border.",
+      "label": "Background",
+      "prob": 0.4586949646472931
+    },
+    {
+      "sentence": "Given this saliency map, we segment the image into regions describing the subject, subject border, image border, and remaining background.",
+      "label": "Background",
+      "prob": 0.4585450291633606
+    },
+    {
+      "sentence": "One participant very clearly summarized the potential reasoning for this: if the most important thing for subject background separation is the contrast, then the overlays should try to mute lines as much as possible.",
+      "label": "Background",
+      "prob": 0.4583423435688019
+    },
+    {
+      "sentence": "Additionally, some are already somewhat familiar with selective outlining of edges from focus peaking features in commercial cameras, which selectively highlight edges in the image that are in focus [2, 32].",
+      "label": "Background",
+      "prob": 0.4565669000148773
+    },
+    {
+      "sentence": "This participant (P15) notices an unwanted edge at the bottom of the plant from the stove top, so she tries out diferent camera angles",
+      "label": "Background",
+      "prob": 0.45626792311668396
+    },
+    {
+      "sentence": "We contextualize our work of designing an abstraction-based camera overlay within the most relevant work in image manipulation and camera guidance.",
+      "label": "Background",
+      "prob": 0.455039918422699
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for proft or commercial advantage and that copies bear this notice and the full citation on the frst page.",
+      "label": "Other",
+      "prob": 0.4622964560985565
+    },
+    {
+      "sentence": "We chose to also include a few videos to show the process of making adjustments while framing a photo, to mimic how the overlay might appear if being used in the camera.",
+      "label": "Background",
+      "prob": 0.4507218599319458
+    },
+    {
+      "sentence": "Edges along the subject borders are colored in yellow, edges along the image borders are colored in cyan, other edges are hidden by default.",
+      "label": "Background",
+      "prob": 0.449092835187912
+    },
+    {
+      "sentence": "Participation was voluntary and no compensation was given.",
+      "label": "Background",
+      "prob": 0.4464438557624817
+    },
+    {
+      "sentence": "Participation was voluntary and no compensation was given.",
+      "label": "Background",
+      "prob": 0.4464438557624817
+    },
+    {
+      "sentence": "We describe the implementation and evaluation of a capture-time tool that interactively displays these overlays and fnd that the tool is helpful for making users more confdent in their ability to take decluttered photos that clearly convey their intended story.",
+      "label": "Background",
+      "prob": 0.44581878185272217
+    },
+    {
+      "sentence": "To test the interactive experience, we needed to fnd a way to automatically generate these overlays.",
+      "label": "Background",
+      "prob": 0.44384363293647766
+    },
+    {
+      "sentence": "We havent seen work that focuses on helping users declutter their compositions in the camera.",
+      "label": "Background",
+      "prob": 0.442596435546875
+    },
+    {
+      "sentence": "We encouraged them to explore the process of framing the image, but to limit each task to around 1-2 minutes.",
+      "label": "Background",
+      "prob": 0.44145190715789795
+    },
+    {
+      "sentence": "was also captured as we asked participants to think aloud as they captured photos for each task.",
+      "label": "Background",
+      "prob": 0.4388473629951477
+    },
+    {
+      "sentence": "This app requires iOS 13.0 or higher.",
+      "label": "Background",
+      "prob": 0.43851304054260254
+    },
+    {
+      "sentence": "We look to extend this idea by designing visual overlays that help the user identify clutter.",
+      "label": "Background",
+      "prob": 0.43794921040534973
+    },
+    {
+      "sentence": "At any point in time, a photo has complete detail.",
+      "label": "Background",
+      "prob": 0.4367840886116028
+    },
+    {
+      "sentence": "Photographers employ a wide range of visual techniques to communicate their intended story or narrative to a viewer [8, 9, 21, 27].",
+      "label": "Other",
+      "prob": 0.49397706985473633
+    },
+    {
+      "sentence": "In this section, I describe our fnal interface along with the implementation and algorithm to enable it.",
+      "label": "Background",
+      "prob": 0.43173491954803467
+    },
+    {
+      "sentence": "As a result, the participant has more clearly considered the concept of telling the story of their subject in this space.",
+      "label": "Result",
+      "prob": 0.45847785472869873
+    },
+    {
+      "sentence": "By providing these forms of feedback (e.g., the light meter which helps measure overall exposure, or zebra stripes which help determine if regions of the image are overexposed), the user can more quickly evaluate their decisions.",
+      "label": "Background",
+      "prob": 0.424348384141922
+    },
+    {
+      "sentence": "However, since (d) was the most popular based on overall counts, we decided to go with a hybrid approach for our fnal abstraction overlay, enabling participants to switch back and forth between showing all lines, including those within the subject and background for additional context, and hiding these extra lines for minimal distraction.",
+      "label": "Background",
+      "prob": 0.423507422208786
+    },
+    {
+      "sentence": "Some existing work assists users in guiding users towards better lighting for their portraits [16, 24].",
+      "label": "Other",
+      "prob": 0.463325172662735
+    },
+    {
+      "sentence": "The experimenter would return the phone and ask the participant to review the photo with the overlay.",
+      "label": "Background",
+      "prob": 0.4197707176208496
+    },
+    {
+      "sentence": "In this paper, we have described a type of annotation-based guidance.",
+      "label": "Background",
+      "prob": 0.4176560342311859
+    },
+    {
+      "sentence": "For each photo task, we asked participants to focus on the overall clarity of the story.",
+      "label": "Background",
+      "prob": 0.4167652428150177
+    },
+    {
+      "sentence": "We liked how the diference in scale resulted in a range of complexity while composing.",
+      "label": "Result",
+      "prob": 0.4983881413936615
+    },
+    {
+      "sentence": "If theres no contrast, then your eye doesnt notice objects on the border.",
+      "label": "Background",
+      "prob": 0.41322118043899536
+    },
+    {
+      "sentence": "Additionally to prep for the study, we confrmed beforehand that the participant had a phone running iOS 13 or higher (or found a way to drop of a device in a socially distant manner outdoors).",
+      "label": "Result",
+      "prob": 0.4600149393081665
+    },
+    {
+      "sentence": "This initial photo featured the subject standing at the center of a portrait photo, soda in hand.",
+      "label": "Background",
+      "prob": 0.3934580087661743
+    },
+    {
+      "sentence": "(b) is just the color fattening (or region smoothing) component.",
+      "label": "Background",
+      "prob": 0.39128297567367554
+    },
+    {
+      "sentence": "Following both conditions, they were asked to favorite a single photo per task (for a total of 6), and asked to rate these based on each of the two decluttering principles as well as whether or not they liked the photo in general.",
+      "label": "Background",
+      "prob": 0.3912588953971863
+    },
+    {
+      "sentence": "In doing so, they can spot potential unexpected issues and refne or be spurred to explore new ideas based on these observations [23, 34].",
+      "label": "Other",
+      "prob": 0.5322037935256958
+    },
+    {
+      "sentence": "The survey consisted of 12 pieces of visual media (8 photos, 4 videos) shown with the set of diferent abstractions overlaid.",
+      "label": "Background",
+      "prob": 0.3885895907878876
+    },
+    {
+      "sentence": "Overall, almost all (23) participants expressed interest in some form of line drawing.",
+      "label": "Background",
+      "prob": 0.3878539204597473
+    },
+    {
+      "sentence": "Given these principles, we wondered what annotation methods photographers currently used for highlighting clutter.",
+      "label": "Result",
+      "prob": 0.4126272201538086
+    },
+    {
+      "sentence": "Adjusting these parameters, we designed and implemented a range of potential overlay proposals.",
+      "label": "Background",
+      "prob": 0.3862873315811157
+    },
+    {
+      "sentence": "To implement this, our fnal camera tool has 3 layers: the camera view, a black layer of varying degrees of opacity, and a color-coded outlines layer.",
+      "label": "Background",
+      "prob": 0.3837052285671234
+    },
+    {
+      "sentence": "The contrast will clarify the story and declutter the overall image.",
+      "label": "Background",
+      "prob": 0.37977758049964905
+    },
+    {
+      "sentence": "Upon reviewing this second image and overlay, she",
+      "label": "Background",
+      "prob": 0.3762464225292206
+    },
+    {
+      "sentence": "We note that while this overlay is helpful for identifying potential issues along the subject-background boundary, it does not help to draw any attention towards potential clutter to address along image borders.",
+      "label": "Result",
+      "prob": 0.49694013595581055
+    },
+    {
+      "sentence": "One participant (P1) observed that the tool jumps back and forth in its highlighting of a subject, She interprets this to mean that there is no clear subject in her photo, and confrms that this is consistent with her own perception.",
+      "label": "Result",
+      "prob": 0.49708548188209534
+    },
+    {
+      "sentence": "We demonstrated this capture-time tool and how it encourages users to explore creative options to address the concept of decluttering.",
+      "label": "Background",
+      "prob": 0.37321239709854126
+    },
+    {
+      "sentence": "The image border was a fxed pixel width border along the outer borders of the image, and the remaining background was anything between the subject border and this image border.",
+      "label": "Result",
+      "prob": 0.4373873770236969
+    },
+    {
+      "sentence": "Thus, participants actually suggested using a mixed visualization where regions around the subject used color fattening and distractors near the edge are highlighted through line drawings.",
+      "label": "Result",
+      "prob": 0.43747857213020325
+    },
+    {
+      "sentence": "If we remove the requirement of our camera guidance running interactively, there are further approaches that can be considered both for identifying objects in the scene for location context and for generating line drawings.",
+      "label": "Background",
+      "prob": 0.367702841758728
+    },
+    {
+      "sentence": "We describe our process towards designing an abstracted annotation of a photo and study how that infuences how users address capturing decluttered photos.",
+      "label": "Objective",
+      "prob": 0.3987385034561157
+    },
+    {
+      "sentence": "(d)(f) especially helpful for identifying IBF, whereas (a)(c) were overall more helpful for identifying SBS.",
+      "label": "Result",
+      "prob": 0.4904339611530304
+    },
+    {
+      "sentence": "While there isnt necessarily a clear defnition of failure, the main failure case with our current algorithm is when the main subject is not properly captured in the saliency map.",
+      "label": "Result",
+      "prob": 0.5123031139373779
+    },
+    {
+      "sentence": "Further discussing the latter observation that (a)(c) were more helpful for SBS, several (8) participants specifcally noted that the color fattening was helpful for noticing SBS.",
+      "label": "Result",
+      "prob": 0.45319080352783203
+    },
+    {
+      "sentence": "We would like to thank Grifn Dietz for her assistance in transitioning to virtual user studies, Mitchell Gordon for his feedback and insightful discussions, and Matthew Cong and Charlene Seto Kung for their help with fgure photos.",
+      "label": "Background",
+      "prob": 0.35308846831321716
+    },
+    {
+      "sentence": "On the other hand, another participant (P18) had a slightly different interpretation of the lack of a consistent subject or in this case, no identifed subject.",
+      "label": "Result",
+      "prob": 0.44207727909088135
+    },
+    {
+      "sentence": "After getting the participants consent, we started by walking through having them install TestFlight and subsequently our guidance tool.",
+      "label": "Method",
+      "prob": 0.3796199858188629
+    },
+    {
+      "sentence": "In doing so, participants additionally changed the overall compositions of the images.",
+      "label": "Result",
+      "prob": 0.39925050735473633
+    },
+    {
+      "sentence": "In particular, it indeed showed promise as assistance for decluttering.",
+      "label": "Result",
+      "prob": 0.558472216129303
+    },
+    {
+      "sentence": "We additionally were inspired by a line of research in nonphotorealistic rendering to generate stylized image abstractions [15, 22, 36].",
+      "label": "Other",
+      "prob": 0.4828782379627228
+    },
+    {
+      "sentence": "We are inspired by the iterative loop of testing and evaluating that these forms of feedback encourage.",
+      "label": "Result",
+      "prob": 0.3568287193775177
+    },
+    {
+      "sentence": "As a reminder, the lines are color-coded such that lines within and immediately around the subject are yellow, lines along the image border are cyan, and remaining lines in the background are white.",
+      "label": "Result",
+      "prob": 0.3572602868080139
+    },
+    {
+      "sentence": "Focus peaking is relevant to our work due to its methods of visualizationit similarly highlights subsets of edges in the images, but instead for the purpose of highlighting regions that are in focus [2, 32].",
+      "label": "Background",
+      "prob": 0.3275330066680908
+    },
+    {
+      "sentence": "Note that this fnal implementation is separate from those used for the prototype overlays for the design survey in Section 3.2.3.",
+      "label": "Background",
+      "prob": 0.32565706968307495
+    },
+    {
+      "sentence": "might be able to play together.",
+      "label": "Other",
+      "prob": 0.42086148262023926
+    },
+    {
+      "sentence": "Figure 6 shows a set of these overlays for a video as they were presented in the survey.",
+      "label": "Result",
+      "prob": 0.44302499294281006
+    },
+    {
+      "sentence": "Specifcally, since we knew our goal would be to display the overlay interactively in the camera, we focused on Winnemller et al.",
+      "label": "Other",
+      "prob": 0.3308403491973877
+    },
+    {
+      "sentence": "Many (10) participants also mentioned that the darkening of the image was particularly helpful for seeing the lines due to the contrast, but with the caveat that it made the original image harder to see.",
+      "label": "Result",
+      "prob": 0.49882960319519043
+    },
+    {
+      "sentence": "These segmentations are used to classify and color code the edges: yellow designates edges within and around the subject, cyan for edges around the image border, and white for the remaining background edges.",
+      "label": "Method",
+      "prob": 0.3505761921405792
+    },
+    {
+      "sentence": "For determining appropriate parameters for the edge detection [3], we iteratively tested parameters to achieve a balance between having enough defnition in the edges and having too much noise.",
+      "label": "Method",
+      "prob": 0.45234909653663635
+    },
+    {
+      "sentence": "We merge these to form two edge-based overlays: one showing all edges color-coded, and the other only showing the relevant edges around the subject and image borders.",
+      "label": "Result",
+      "prob": 0.3538101613521576
+    },
+    {
+      "sentence": "In order to realize the proposed interaction, we additionally present a proposal of an algorithm for visually annotating potential clutter by highlighting relevant edges around salient objects and around the image border.",
+      "label": "Method",
+      "prob": 0.3719342350959778
+    },
+    {
+      "sentence": "In this paper, we walked through the design process behind our abstraction overlay and guidance tool.",
+      "label": "Background",
+      "prob": 0.3119461238384247
+    },
+    {
+      "sentence": "Graphics researchers have taken a nonphotorealistic rendering lens on designing algorithms to create stylized image abstractions [15, 22, 36].",
+      "label": "Other",
+      "prob": 0.5703243017196655
+    },
+    {
+      "sentence": "After capturing a frst photo, one of the two experimenters drew the abstraction in dry erase marker(s) on a transparency and taped it to the phone (see Figure 3).",
+      "label": "Result",
+      "prob": 0.3330807387828827
+    },
+    {
+      "sentence": "However through the design prototyping and user studies, weve noticed that decluttering seems difcult for people to address, perhaps because it is a new and unfamiliar concept.",
+      "label": "Result",
+      "prob": 0.6128290891647339
+    },
+    {
+      "sentence": "Aiming to capture visual and conceptual diversity in the overlays, we narrowed down the set of overlay options to the 6 in Figure 6 to study further:",
+      "label": "Background",
+      "prob": 0.3101423978805542
+    },
+    {
+      "sentence": "In particular, in running our pilot, we also wanted to understand if a no guidance interface was a reasonable baseline to compare our tool against.",
+      "label": "Result",
+      "prob": 0.5224911570549011
+    },
+    {
+      "sentence": "Video demonstration of the tool can be found in the accompanying video fgure.",
+      "label": "Result",
+      "prob": 0.4892809987068176
+    },
+    {
+      "sentence": "We ran these user studies over Zoom, asking the participant to adjust the webcam when possible to keep their photographing within view.",
+      "label": "Method",
+      "prob": 0.34723901748657227
+    },
+    {
+      "sentence": "The tool can also perform calculations in the background as the user is focused on taking a series of photos.",
+      "label": "Method",
+      "prob": 0.33383896946907043
+    },
+    {
+      "sentence": "Additionally, we found in our low-fdelity prototype that the abstraction also encouraged participants to be more aware of composition.",
+      "label": "Result",
+      "prob": 0.5478787422180176
+    },
+    {
+      "sentence": "These abstraction overlays took shape as rough outlines of the objects in the scene, mostly approximated by basic 2D geometric primitives (see Figure 2 for a few examples).",
+      "label": "Result",
+      "prob": 0.5815954804420471
+    },
+    {
+      "sentence": "Bill Buxton describes the benefts of ideating through sketching due to its fexibility enabl[ing] ideas to be explored quickly and cheaply [10].",
+      "label": "Other",
+      "prob": 0.6090065836906433
+    },
+    {
+      "sentence": "Participants (4) mentioned that color-coding was helpful, particularly accentuated in videos (P29).",
+      "label": "Other",
+      "prob": 0.43633919954299927
+    },
+    {
+      "sentence": "For a single photo, participants would see a row of images, frst the original photo and then the 6 overlays applied.",
+      "label": "Result",
+      "prob": 0.5546093583106995
+    },
+    {
+      "sentence": "We considered this in our design and tried to design the visualization to be robust to this case by providing the option of showing all lines.",
+      "label": "Method",
+      "prob": 0.30141520500183105
+    },
+    {
+      "sentence": "The evaluation shows that the tool was helpful for making users more confdent in their ability to take a clear and uncluttered photo.",
+      "label": "Result",
+      "prob": 0.5761016011238098
+    },
+    {
+      "sentence": "subject is still well separated, then you know you have the contrast.",
+      "label": "Other",
+      "prob": 0.3472210764884949
+    },
+    {
+      "sentence": "Therefore we wonder if it is ok to have a slightly more opinionated interface (at least for some training) as is suggested by one of our design survey participants: Making it very clear about the distinction between whether the overlay is used to indicate if the two properties are good, bad, or both would be very helpful (P18).",
+      "label": "Result",
+      "prob": 0.35169631242752075
+    },
+    {
+      "sentence": "We informally tested our low-fdelity prototype with 19 participants (9 male, 10 female), 18 to 41 years old (  = 24).",
+      "label": "Result",
+      "prob": 0.40555039048194885
+    },
+    {
+      "sentence": "As additional preparation, we also stepped through using the iPhone screen recording functionality with the microphone to ensure sound",
+      "label": "Result",
+      "prob": 0.4026610255241394
+    },
+    {
+      "sentence": "For edge ficker, it almost seems like the opposite.",
+      "label": "Result",
+      "prob": 0.4018133878707886
+    },
+    {
+      "sentence": "On top of this, we implemented our camera overlays and added the necessary UI elements to adjust settings on our overlay.",
+      "label": "Method",
+      "prob": 0.5130977630615234
+    },
+    {
+      "sentence": "We would then apply a new transparency and draw the corresponding abstraction overlay for the new photo for the participant to review.",
+      "label": "Method",
+      "prob": 0.43385955691337585
+    },
+    {
+      "sentence": "In this paper, we will refer to this as subject-background separation (SBS) In art, this is more commonly referred to as the fgure-ground relationship, a Gestalt Psychology principle [20].",
+      "label": "Other",
+      "prob": 0.5824307799339294
+    },
+    {
+      "sentence": "Giving the phone even more authority, one could imagine integrating Fried et al.",
+      "label": "Other",
+      "prob": 0.6582009196281433
+    },
+    {
+      "sentence": "Due to the modular nature of our implementation, better object detection or object-centric saliency methods methods can be used in the future.",
+      "label": "Result",
+      "prob": 0.3613877594470978
+    },
+    {
+      "sentence": "Image Abstraction and Simplifcation.",
+      "label": "Other",
+      "prob": 0.38159292936325073
+    },
+    {
+      "sentence": "We additionally give ourselves line color (for the purposes of color-coding lines based on their location context), and image darkening (to provide more contrast against the line drawings) as parameters to consider in designing abstraction overlays.",
+      "label": "Method",
+      "prob": 0.48222896456718445
+    },
+    {
+      "sentence": "Due to the COVID-19 pandemic, we had to run our studies remotely.",
+      "label": "Result",
+      "prob": 0.5712999701499939
+    },
+    {
+      "sentence": "Image processing methods also enable removing clutter in post using a variety of techniques.",
+      "label": "Method",
+      "prob": 0.49977704882621765
+    },
+    {
+      "sentence": "The goal of this line of work tends to be to serve one of two purposes, generating an artistic result, or reducing data for visual communication [22].",
+      "label": "Objective",
+      "prob": 0.6501716375350952
+    },
+    {
+      "sentence": "In this section, we describe the steps we took to design our abstraction interface for decluttering images.",
+      "label": "Objective",
+      "prob": 0.3382411599159241
+    },
+    {
+      "sentence": "Based on our learnings from the design survey (Section 3.2.3), we chose to go with a design inspired by a combination of overlay options (d) and (f).",
+      "label": "Method",
+      "prob": 0.388090580701828
+    },
+    {
+      "sentence": "DeCarlo and Santella consider visual perception through tracking eye movement to determine a structural hierarchy of the image for understanding the importance of diferent lines in the simplifcation process [15].",
+      "label": "Other",
+      "prob": 0.6464425921440125
+    },
+    {
+      "sentence": "These papers break down the abstraction process",
+      "label": "Other",
+      "prob": 0.4317476749420166
+    },
+    {
+      "sentence": "We hypothesized that abstracting an image could help evenly spread the photographers attention across the image, efectively drawing the photographers attention away from the details of the main subject to other areas of the image.",
+      "label": "Result",
+      "prob": 0.6273934245109558
+    },
+    {
+      "sentence": "One participant noted that the frst overlay made her realize that she hadnt achieved the composition she intended to because she was focused on other aspects of staging the scene.",
+      "label": "Result",
+      "prob": 0.611934244632721
+    },
+    {
+      "sentence": "Thus, even though we did not fnd signifcant changes in CSI, we decided that we should compare against a baseline that provided a little more assistance.",
+      "label": "Result",
+      "prob": 0.5922802686691284
+    },
+    {
+      "sentence": "Figure 11 shows how an unexpected edge highlight encourages the participant to explore diferent backgrounds and compositions.",
+      "label": "Result",
+      "prob": 0.4896065294742584
+    },
+    {
+      "sentence": "Others help the user navigate and position their cameras to achieve better compositions [6, 12, 26], or displaying preferred view proposals [25, 28].",
+      "label": "Other",
+      "prob": 0.5796235799789429
+    },
+    {
+      "sentence": "Our eyes are drawn to regions of high contrast.",
+      "label": "Result",
+      "prob": 0.5393251776695251
+    },
+    {
+      "sentence": "Inspired by this idea of using outlines to highlight contrast and the lack of contrast, we hoped to recreate this outlining as an overlay directly in the camera (see Figure 5), while also extending it to contrast along the image borders.",
+      "label": "Result",
+      "prob": 0.3214755356311798
+    },
+    {
+      "sentence": "Specifcally in this paper, we contribute:",
+      "label": "Other",
+      "prob": 0.3757381737232208
+    },
+    {
+      "sentence": "We ran a pilot study (n = 5) to test this study design in a remote setting.",
+      "label": "Result",
+      "prob": 0.39304211735725403
+    },
+    {
+      "sentence": "We show edges within the subject(s) also in yellow and background edges not within the subject(s) and image borders in white (see Figure 1).",
+      "label": "Result",
+      "prob": 0.5336337685585022
+    },
+    {
+      "sentence": "Our overlay tool is build on top of a basic iOS camera app.",
+      "label": "Method",
+      "prob": 0.35956212878227234
+    },
+    {
+      "sentence": "In particular, we saw that the abstraction overlay seemed most helpful for the purposes of noticing unwanted clutter in an image, so we decided that we would target designing an abstraction overlay that provides decluttering guidance.",
+      "label": "Result",
+      "prob": 0.5214235782623291
+    },
+    {
+      "sentence": "(d) darkened image + line drawing (color-coded: yellow is subject, white is background, cyan is image border)",
+      "label": "Other",
+      "prob": 0.46559327840805054
+    },
+    {
+      "sentence": "Therefore we decided line drawing should be part of our fnal overlay design.",
+      "label": "Result",
+      "prob": 0.5663052797317505
+    },
+    {
+      "sentence": "Other work more generally guides the user by interactively displaying a measure of aesthetic quality [25, 29, 33].",
+      "label": "Other",
+      "prob": 0.6718311905860901
+    },
+    {
+      "sentence": "Figure 5 shows two examples of images that do not satisfy the decluttering principles, along with approximations of Glovers suggested outlining to emphasize contrast around the subject [20].",
+      "label": "Other",
+      "prob": 0.4950381815433502
+    },
+    {
+      "sentence": "Figure 9 shows a few example images to demonstrate the scale of images chosen by the participants.",
+      "label": "Result",
+      "prob": 0.562312662601471
+    },
+    {
+      "sentence": "For example, we saw the potential benefts of color fattening especially for SBS.",
+      "label": "Result",
+      "prob": 0.7092025279998779
+    },
+    {
+      "sentence": "For example in Figure 10, this participant (P7) refnes the camera angle until the edges in the overlay look the way she wants.",
+      "label": "Result",
+      "prob": 0.4273318946361542
+    },
+    {
+      "sentence": "Since many participants specifcally noted that the darkening was crucial for benefting from the line drawing, we chose the image darkening component over color fattening for our abstraction overlay implementation.",
+      "label": "Result",
+      "prob": 0.36928752064704895
+    },
+    {
+      "sentence": "They mentioned the smoothing of colors being helpful because it essentially simplifes the image and makes it easier to analyze the major color contrasts (P27) and noting that it helped in being able to dissociate the images from what I expect to see into what the colors actually are (P24).",
+      "label": "Result",
+      "prob": 0.3759997487068176
+    },
+    {
+      "sentence": "Thus, participants completed 6 photo tasks: 3 at each of 2 locations of their choosing, using the baseline condition at one location and the abstraction guidance at the second.",
+      "label": "Result",
+      "prob": 0.4276755154132843
+    },
+    {
+      "sentence": "They are also informed of our overall goalto determine which overlay is best for evaluating images based on the two decluttering guidelines.",
+      "label": "Objective",
+      "prob": 0.6274114847183228
+    },
+    {
+      "sentence": "A photographer can choose to drag a slider to incrementally remove automatically detected distractors [19], or select a region with clutter to be automatically flled based on the surrounding content [5].",
+      "label": "Other",
+      "prob": 0.4748288691043854
+    },
+    {
+      "sentence": "s real-time and temporally coherent implementation of image abstraction [36].",
+      "label": "Other",
+      "prob": 0.7178270220756531
+    },
+    {
+      "sentence": "However, even with just 5 participants we were seeing signifcant results suggesting that our tool was preferable to no guidance for these photo tasks.",
+      "label": "Result",
+      "prob": 0.6936449408531189
+    },
+    {
+      "sentence": "From our WoZ prototype studies, we saw promising signs that the participants in fact noticed high level",
+      "label": "Result",
+      "prob": 0.6594366431236267
+    },
+    {
+      "sentence": "We ran the study using the iPhones default Camera and Photos apps.",
+      "label": "Result",
+      "prob": 0.37152808904647827
+    },
+    {
+      "sentence": "changes to make to their photograph.",
+      "label": "Other",
+      "prob": 0.41430118680000305
+    },
+    {
+      "sentence": "We aimed to design feedback through such annotations directly in the camera.",
+      "label": "Objective",
+      "prob": 0.5116541981697083
+    },
+    {
+      "sentence": "We wanted to study how users would react to our abstraction guidance tool.",
+      "label": "Result",
+      "prob": 0.3979901969432831
+    },
+    {
+      "sentence": "Photography books describe that contrast is key to directing attention [20].",
+      "label": "Other",
+      "prob": 0.7641313672065735
+    },
+    {
+      "sentence": "Both of these conclusions were also supported by the qualitative feedback from participants general impressions.",
+      "label": "Result",
+      "prob": 0.7017031311988831
+    },
+    {
+      "sentence": "Both are useful for our goal of designing visual overlays that are friendly for users to process interactively.",
+      "label": "Objective",
+      "prob": 0.7700191140174866
+    },
+    {
+      "sentence": "Given the elements supported by the qualitative feedback, (f) appeared to be the best candidate for our overlayit included the color-coded line drawings to help defne the subject and possible distractors along the borders, while being less noisy than showing all outlines.",
+      "label": "Result",
+      "prob": 0.6700519323348999
+    },
+    {
+      "sentence": "Jose Echevarria echevarr@adobe.com James A. Landay landay@stanford.edu Stanford University",
+      "label": "Other",
+      "prob": 0.7773990631103516
+    },
+    {
+      "sentence": "(d)(f) were more popular at 21.3%, 20.4%, and 19.2% of total overlay selections made, respectively.",
+      "label": "Result",
+      "prob": 0.41948580741882324
+    },
+    {
+      "sentence": "Photography instructors often give feedback through annotations on the photo [20].",
+      "label": "Other",
+      "prob": 0.7641646862030029
+    },
+    {
+      "sentence": "Results of both steps of our design prototyping process made us hopeful of the potential of an abstraction-based overlay.",
+      "label": "Result",
+      "prob": 0.679302990436554
+    },
+    {
+      "sentence": "The goal in pursuing this design is to give the user creative fexibility and avoiding having the system express its opinion on how the fnal image should look [17].",
+      "label": "Objective",
+      "prob": 0.4623331129550934
+    },
+    {
+      "sentence": "Overall, we approximately followed the fnal study design of E et al. for their capture-time composition guidance tool [17] and modify the design for work in remote settings.",
+      "label": "Result",
+      "prob": 0.6510527729988098
+    },
+    {
+      "sentence": "Most similar to our work is the focus peaking feature in commercial cameras and the work of E et al.",
+      "label": "Other",
+      "prob": 0.6999313235282898
+    },
+    {
+      "sentence": "(f) e with white lines removed",
+      "label": "Other",
+      "prob": 0.40808653831481934
+    },
+    {
+      "sentence": "To test out the concept of abstraction guidance, we started with a low-fdelity Wizard-of-Oz (WoZ) prototype [14] where experimenters manually drew abstraction overlays.",
+      "label": "Method",
+      "prob": 0.5082190632820129
+    },
+    {
+      "sentence": "Thus, our fnal abstraction overlay is a contextaware line drawing.",
+      "label": "Result",
+      "prob": 0.6980423927307129
+    },
+    {
+      "sentence": "As shown in Figure 7, by default the black layer is opaque (opacity is 1.0) and only the edges most relevant to our two decluttering principles (Section 3.2.1), subject-background separation and image border ficker, are visible.",
+      "label": "Result",
+      "prob": 0.6605743765830994
+    },
+    {
+      "sentence": "While we didnt ask if they wanted to take another photo after this review step, occasionally (6) participants would ask if they could take a third photo and we would repeat the process above, presenting them with a third overlay.",
+      "label": "Result",
+      "prob": 0.5383312702178955
+    },
+    {
+      "sentence": "Participants (3 male, 2 female) were 23 to 31 years old (  = 29).",
+      "label": "Other",
+      "prob": 0.5094692707061768
+    },
+    {
+      "sentence": "Our research is supported by the Brown Institute for Media Innovation, Adobe Research, the Microsoft Research Dissertation Grant, and the Hasso Plattner Institute Design Thinking Research Program.",
+      "label": "Other",
+      "prob": 0.6674913167953491
+    },
+    {
+      "sentence": "We conducted a small formative pilot study to inform our summative user study design.",
+      "label": "Result",
+      "prob": 0.461281955242157
+    },
+    {
+      "sentence": "s method performs at interactive speeds and produces temporal results, making it appropriate for interactive use on a live camera feed [36].",
+      "label": "Result",
+      "prob": 0.4264228045940399
+    },
+    {
+      "sentence": "Another participant described that the external representation provided by the interface assisted in the process of exploring the scene and quickly evaluating diferent options: It caused me to experiment more... didnt see it as a rule that I needed to minimize lines, but the tool made it easy to move around and check by that metric, how good it was (P9).",
+      "label": "Result",
+      "prob": 0.4447346031665802
+    },
+    {
+      "sentence": "(If you dont have a preference between a few similar overlays, feel free to pick up to 3)  (Optional) You will be asked to explain your preferences at the end of the survey, but feel free to explain any specifc thoughts you have based on this image/video here.",
+      "label": "Other",
+      "prob": 0.5673109889030457
+    },
+    {
+      "sentence": "3.2.1 Declutering Principles.",
+      "label": "Other",
+      "prob": 0.7488453984260559
+    },
+    {
+      "sentence": "We ran remote studies over Zoom with 18 participants (6 male, 10 female), 24 to 32 years old (  = 29), to understand if the tool would help users declutter photos, and if users felt creative while using the tool.",
+      "label": "Result",
+      "prob": 0.40477198362350464
+    },
+    {
+      "sentence": "An interaction that we didnt expect that emerged from the studies was that participants used the tools ability to identify subjects to assess how someone might view their photos.",
+      "label": "Result",
+      "prob": 0.7834793329238892
+    },
+    {
+      "sentence": "We then handed them the phone to frame and take a photo of the scene.",
+      "label": "Method",
+      "prob": 0.49140921235084534
+    },
+    {
+      "sentence": "(a) color fattening + line drawing (in black)",
+      "label": "Other",
+      "prob": 0.6459373831748962
+    },
+    {
+      "sentence": "We then used simple morphological operations to obtain a subject border mask specifcally, we subtracted a slightly eroded version of this mask from a dilated version to capture the boundary between the subject(s) and the background immediately surrounding.",
+      "label": "Method",
+      "prob": 0.5604557991027832
+    },
+    {
+      "sentence": "abstraction to recognize clutter.",
+      "label": "Other",
+      "prob": 0.48862019181251526
+    },
+    {
+      "sentence": "We quickly walked all participants through the basic (no guidance) camera app.",
+      "label": "Result",
+      "prob": 0.48481979966163635
+    },
+    {
+      "sentence": "We ran an informal design survey through Qualtrics with 29 participants (demographics information not collected) to try to understand if these overlay visualizations were interpretable by novice photographers, and if there were strong preferences between the overlay options.",
+      "label": "Result",
+      "prob": 0.6362000107765198
+    },
+    {
+      "sentence": "Given an image, our tool detects edges throughout the image for the line drawing [3].",
+      "label": "Result",
+      "prob": 0.4210861921310425
+    },
+    {
+      "sentence": "To modify this task design to work for remote studies, we decided to keep the structure of having 3 tasks per condition at diferent scales (small, medium, and large), but instead of specifying the subjects, we asked that participants choose their own subjects to photograph.",
+      "label": "Method",
+      "prob": 0.4681261479854584
+    },
+    {
+      "sentence": "zhai@gmail.com Air, Inc Brooklyn, NY, US",
+      "label": "Other",
+      "prob": 0.8194295763969421
+    },
+    {
+      "sentence": "To generate the overlays, the edge detections (for line drawings) and saliency maps (for determining location context) of the current camera image are continuously computed in the background using existing Apple libraries [3, 4].",
+      "label": "Other",
+      "prob": 0.4139426052570343
+    },
+    {
+      "sentence": "In this work, our main focus is on the design process and the prototype appour goal is not to propose an exact abstraction interface, but to understand how this style of in-camera interaction might infuence users photographic process, specifcally with regards to decluttering.",
+      "label": "Objective",
+      "prob": 0.7329835295677185
+    },
+    {
+      "sentence": "For each of the 12 photos/videos, participants were asked:",
+      "label": "Result",
+      "prob": 0.42392849922180176
+    },
+    {
+      "sentence": "(e) d without lines within subject",
+      "label": "Other",
+      "prob": 0.5144606232643127
+    },
+    {
+      "sentence": "It additionally could be interesting to experiment more thoroughly with diferent types of edge detection to see which would best match what humans actually perceive as noisee.g., in our user studies, we often found that textures like carpet ended up appearing as a lot of noise.",
+      "label": "Result",
+      "prob": 0.8052585124969482
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.8195109367370605
+    },
+    {
+      "sentence": "We found that overall, this study design worked reasonably well in the Zoom environment.",
+      "label": "Result",
+      "prob": 0.773962140083313
+    },
+    {
+      "sentence": "Materials for the study can be found in supplemental materials.",
+      "label": "Result",
+      "prob": 0.4885910451412201
+    },
+    {
+      "sentence": "Materials for the study can be found in supplemental materials.",
+      "label": "Result",
+      "prob": 0.4885910451412201
+    },
+    {
+      "sentence": "We therefore use grayscale as our baseline condition.",
+      "label": "Result",
+      "prob": 0.6140095591545105
+    },
+    {
+      "sentence": "(c) line drawing (in white)",
+      "label": "Other",
+      "prob": 0.6636792421340942
+    },
+    {
+      "sentence": "(b) color fattening",
+      "label": "Other",
+      "prob": 0.3708076775074005
+    },
+    {
+      "sentence": "(a) features the full image abstraction from Winnemller et al. and",
+      "label": "Other",
+      "prob": 0.7256267666816711
+    },
+    {
+      "sentence": "To answer our questions on how to design an abstraction overlay for decluttering, we looked to existing literature to better understand how photographers think about directing the viewers attention for efective storytelling [9, 20, 30].",
+      "label": "Other",
+      "prob": 0.5762027502059937
+    },
+    {
+      "sentence": "Counts show that the participants found",
+      "label": "Result",
+      "prob": 0.6415405869483948
+    },
+    {
+      "sentence": "Capture-time Guidance.",
+      "label": "Other",
+      "prob": 0.7322837710380554
+    },
+    {
+      "sentence": "We used both algorithms of the shelf.",
+      "label": "Result",
+      "prob": 0.46744245290756226
+    },
+    {
+      "sentence": "We additionally found a simpler algorithm was easier to explain to users when describing the tool for studies, and that users could interpret the visualizations in diferent contexts more easily.",
+      "label": "Result",
+      "prob": 0.8469750881195068
+    },
+    {
+      "sentence": "Figure 2 shows two such examples.",
+      "label": "Result",
+      "prob": 0.6588996052742004
+    },
+    {
+      "sentence": "However, overall",
+      "label": "Other",
+      "prob": 0.47267448902130127
+    },
+    {
+      "sentence": "number of edge detection algorithms for extracting lines for the strokes [7, 11], and smoothing flters or superpixel algorithms for quantizing the color [1, 18, 35].",
+      "label": "Other",
+      "prob": 0.7289304137229919
+    },
+    {
+      "sentence": "We realized we could estimate the image subjects using object-based saliency maps [4].",
+      "label": "Result",
+      "prob": 0.5092534422874451
+    },
+    {
+      "sentence": "Additionally, while these methods focus on generating output from existing media, Winnemller et al.",
+      "label": "Other",
+      "prob": 0.5782614946365356
+    },
+    {
+      "sentence": "We distributed the app using TestFlight.",
+      "label": "Result",
+      "prob": 0.5172408223152161
+    },
+    {
+      "sentence": "For these pilots, we compared our tool to a no guidance baseline condition.",
+      "label": "Result",
+      "prob": 0.7001140713691711
+    },
+    {
+      "sentence": "Image Declutering.",
+      "label": "Other",
+      "prob": 0.7239348888397217
+    },
+    {
+      "sentence": "2021 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.8625428676605225
+    },
+    {
+      "sentence": "Note: overlay",
+      "label": "Other",
+      "prob": 0.5997793078422546
+    },
+    {
+      "sentence": "Again these aspects of the study matched that of the E et al. composition",
+      "label": "Other",
+      "prob": 0.7592769861221313
+    },
+    {
+      "sentence": "In particular, contrast near the border of the image can draw the viewers attention outwards rather than within the imagewe call this image border ficker (IBF) [20].",
+      "label": "Other",
+      "prob": 0.8299806714057922
+    },
+    {
+      "sentence": "Figure 8 walks through our algorithm for generating our abstraction overlay.",
+      "label": "Result",
+      "prob": 0.6020647287368774
+    },
+    {
+      "sentence": "[17] for highlighting composition.",
+      "label": "Other",
+      "prob": 0.7040148973464966
+    },
+    {
+      "sentence": "into two components as well: a method of color fattening to smooth out detailed regions, and a method of line drawing.",
+      "label": "Method",
+      "prob": 0.8477948904037476
+    },
+    {
+      "sentence": "We also did not fnd signifcant diferences in CSI, but did fnd support for the increased confdence and descriptions of how the tool encouraged participants to explore more in the qualitative feedback.",
+      "label": "Result",
+      "prob": 0.8543130159378052
+    },
+    {
+      "sentence": "Adobe Research San Francisco, CA, US",
+      "label": "Other",
+      "prob": 0.8647900819778442
+    },
+    {
+      "sentence": "and (2) What is the right visualization to use for a photo abstraction to best invoke this type of awareness?",
+      "label": "Other",
+      "prob": 0.8524128198623657
+    },
+    {
+      "sentence": "In addition to encouraging more confdence, we found that the tool further encouraged creativity through exploring the space in new ways: It was really helpful with how I take photos because normally its more just snap and done. This one was more like, can I move things out of the background, can I move the subject to frame it to not have a distracting background? Another thing that I dont normally do is pivot the camera and usually just move within a fat plane (P12).",
+      "label": "Other",
+      "prob": 0.6987715363502502
+    },
+    {
+      "sentence": "Inspired by the use of sketching in design to capture higher level structure, our goal was to bring some of the benefts of the abstraction in a sketch-like representation to photography.",
+      "label": "Objective",
+      "prob": 0.871626079082489
+    },
+    {
+      "sentence": "s method for automatically remove clutter from the scene [19] directly into the phone.",
+      "label": "Method",
+      "prob": 0.6106480360031128
+    },
+    {
+      "sentence": "This concept leads us to two components: a method of line drawing to determine the potential outline, and a method for considering location context relative to the subject/image frame to determine which lines in the image are relevant to the decluttering principles (e.g., if they are along the subject-background boundary, along the image border, or neither).",
+      "label": "Method",
+      "prob": 0.7361224889755249
+    },
+    {
+      "sentence": "What might our abstraction overlay look like if our focus were instead exploring composition overall rather than decluttering?",
+      "label": "Other",
+      "prob": 0.8794334530830383
+    },
+    {
+      "sentence": "These range from squinting at the image to better focus on the contrast with low-level details blurred, to viewing the image in grayscale to better focus on contrast in the absence of color, to explicitly outlining boundaries along which there is clear contrast between the subject and background [9, 20, 30].",
+      "label": "Other",
+      "prob": 0.7275772094726562
+    },
+    {
+      "sentence": "If so, how does this make them change how they capture the scene?",
+      "label": "Other",
+      "prob": 0.8895894885063171
+    },
+    {
+      "sentence": "Again we saw that the tool made the participants more confdent in their ability to address the decluttering principles of subject-background separation and image border ficker (Mdn = 6, IQR = 5-7), versus no guidance (Mdn = 5, IQR = 4-6) [ V = 8, p = . 03].",
+      "label": "Result",
+      "prob": 0.44496917724609375
+    },
+    {
+      "sentence": "For example, Fried et al.",
+      "label": "Other",
+      "prob": 0.87929767370224
+    },
+    {
+      "sentence": "Participants for",
+      "label": "Other",
+      "prob": 0.6649268865585327
+    },
+    {
+      "sentence": "The results do not show a clear-cut best overlay design.",
+      "label": "Result",
+      "prob": 0.8568102717399597
+    },
+    {
+      "sentence": "What should such a visualization look like, and how might we implement them?",
+      "label": "Other",
+      "prob": 0.8899116516113281
+    },
+    {
+      "sentence": "Request permissions from permissions@acm.org.",
+      "label": "Other",
+      "prob": 0.9176304936408997
+    },
+    {
+      "sentence": "UIST 21, October 1014, 2021, Virtual Event, USA https://doi.org/10.1145/3472749.3474755",
+      "label": "Other",
+      "prob": 0.9239452481269836
+    },
+    {
+      "sentence": "ACM ISBN 978-1-4503-8635-7/21/10..",
+      "label": "Other",
+      "prob": 0.923339307308197
+    },
+    {
+      "sentence": "Participants described feeling like they could take fewer photos, because they could be more confdent in each photo they took: Usually when I take photos, I take a ton at once, but didnt do that here. I didnt need to because I was being so precise. I noticed myself reconsidering the composition more: e.g. should I have these things in the edges? (P15).",
+      "label": "Other",
+      "prob": 0.8336614370346069
+    },
+    {
+      "sentence": "Finally at the end of the survey, we asked participants to summarize their choices: Please provide a brief explanation for your choices why did you fnd these overlays most helpful? Are there specifc characteristics of the overlays that you like (e.g., line drawing, color fattening, image darkening, or color)?",
+      "label": "Other",
+      "prob": 0.739382266998291
+    },
+    {
+      "sentence": "Table 1 presents the results from our design survey.",
+      "label": "Result",
+      "prob": 0.8423430323600769
+    },
+    {
+      "sentence": "exploratory stage.",
+      "label": "Other",
+      "prob": 0.6536818742752075
+    },
+    {
+      "sentence": "Kevin Y. Zhai kevin.y.",
+      "label": "Other",
+      "prob": 0.9250152111053467
+    },
+    {
+      "sentence": "After each condition, participants were asked to complete surveys with a number of Likert questions (on a 7-point scale) about their experience using the tool along with the Creativity Support Index (CSI) questions (0 to 100) [13].",
+      "label": "Other",
+      "prob": 0.7257384061813354
+    },
+    {
+      "sentence": "3.2.3 Design Survey.",
+      "label": "Other",
+      "prob": 0.8381440043449402
+    },
+    {
+      "sentence": "3.2.2 Abstraction Visualization Options.",
+      "label": "Other",
+      "prob": 0.835008978843689
+    },
+    {
+      "sentence": "Ohad Fried",
+      "label": "Other",
+      "prob": 0.8879267573356628
+    },
+    {
+      "sentence": "Though we actually did not see a signifcant improvement in overall self-assessed quality in terms of these principles, participants did believe that the tool was helpful for the task of capturing clear and decluttered images (Mdn = 6, IQR = 5-6), versus no guidance (Mdn = 4, IQR = 4-6) [ V = 134, p = . 003].",
+      "label": "Result",
+      "prob": 0.6118932366371155
+    },
+    {
+      "sentence": "Publication rights licensed to ACM.",
+      "label": "Other",
+      "prob": 0.9333989024162292
+    },
+    {
+      "sentence": "When evaluating their favorited photos per task, participants did believe that the photos captured using our tool had better subjectbackground separation (Mdn = 6, IQR = 4-5), than those captured using the no guidance baseline (Mdn = 4, IQR = 2-5) [ V = 0, p = . 003].",
+      "label": "Other",
+      "prob": 0.45543381571769714
+    },
+    {
+      "sentence": "background).",
+      "label": "Other",
+      "prob": 0.7841007709503174
+    },
+    {
+      "sentence": "3.2.4 Design Survey Insights.",
+      "label": "Other",
+      "prob": 0.8618517518043518
+    },
+    {
+      "sentence": "5.3.1 Summative Study Results.",
+      "label": "Result",
+      "prob": 0.8350251317024231
+    },
+    {
+      "sentence": "Subject Identifcation.",
+      "label": "Other",
+      "prob": 0.9147822260856628
+    },
+    {
+      "sentence": "5.2.1 Pilot Study Results.",
+      "label": "Result",
+      "prob": 0.808192253112793
+    },
+    {
+      "sentence": "In terms of the tools infuence on the process, participants felt more confdent in their ability to capture a clear photo using the abstraction overlay (Mdn = 5, IQR = 5-6), versus no guidance (Mdn = 4, IQR = 4-4) [Wilcoxon signed-rank test V = 0, p < . 05].",
+      "label": "Other",
+      "prob": 0.6179805994033813
+    },
+    {
+      "sentence": "Given the observations from our low-fdelity prototype, we were motivated to continue with this concept and move onto the step of answering the second question: What is an abstraction of a photo?",
+      "label": "Other",
+      "prob": 0.8155239224433899
+    },
+    {
+      "sentence": "CCS CONCEPTS",
+      "label": "Other",
+      "prob": 0.9145587086677551
+    },
+    {
+      "sentence": "Confdence.",
+      "label": "Other",
+      "prob": 0.9306087493896484
+    },
+    {
+      "sentence": "5.3.2 Summative Study Discussion.",
+      "label": "Other",
+      "prob": 0.7774559259414673
+    },
+    {
+      "sentence": "Through our design process, we aimed to answer two questions: (1) Will an abstracted visualization be efective in encouraging the user to see parts of the image outside of the main subject?",
+      "label": "Other",
+      "prob": 0.7540472149848938
+    },
+    {
+      "sentence": "Participants noted that the edges helped to defne objects (18) and that they were helpful for noticing edges around the image border (5), supporting the observation shown by the overall counts on (d)(f) being more useful for addressing IBF.",
+      "label": "Result",
+      "prob": 0.9319215416908264
+    },
+    {
+      "sentence": "(If you dont have a preference between a few similar overlays, feel free to pick up to 3)  Which overlay helps you to best determine if the image has good image border ficker ?",
+      "label": "Other",
+      "prob": 0.9148349165916443
+    },
+    {
+      "sentence": "ACM Reference Format:",
+      "label": "Other",
+      "prob": 0.9455322623252869
+    },
+    {
+      "sentence": "3.1.1 Prototype Insights.",
+      "label": "Other",
+      "prob": 0.9056055545806885
+    },
+    {
+      "sentence": "Which overlay helps you to best determine if the image has good subject-background separation ?",
+      "label": "Other",
+      "prob": 0.925655722618103
+    },
+    {
+      "sentence": "our design process for determining what an abstraction overlay for decluttering might look like,  an interactive in-camera app that shows this edge highlighting overlay to users as decluttering guidance, and  a user evaluation comparing this overlay to a grayscale overlay, a baseline method that many photographers currently employ for decluttering photos.",
+      "label": "Method",
+      "prob": 0.8822916150093079
+    },
+    {
+      "sentence": "They also liked their photos more when using the guidance tool (no guidance: Mdn = 5, IQR = 3-5; tool: Mdn = 6, IQR = 5-7) [ V = 0, p = . 003].",
+      "label": "Other",
+      "prob": 0.8410131335258484
+    },
+    {
+      "sentence": "Exploration.",
+      "label": "Other",
+      "prob": 0.8630540370941162
+    },
+    {
+      "sentence": "Participants found that the tool helped them achieve these more clear photos (no guidance: Mdn = 4, IQR = 2-4; tool: Mdn = 5, IQR = 5-5) [ V = 0, p = . 001].",
+      "label": "Other",
+      "prob": 0.7807822227478027
+    }
+  ]
+}

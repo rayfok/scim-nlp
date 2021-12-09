@@ -1,0 +1,39 @@
+{
+  "1602.06979": [
+    {
+      "sentence": "Empath draws connotations between words and phrases by deep learning a neural embedding across more than 1.8 billion words of modern ction.",
+      "label": "Background",
+      "prob": 0.8841196894645691
+    },
+    {
+      "sentence": "Human language is colored by a broad range of topics, but existing text analysis tools only focus on a small number of them.",
+      "label": "Background",
+      "prob": 0.8725820779800415
+    },
+    {
+      "sentence": "Empath also analyzes text across 200 built-in, pre-validated categories we have generated from common topics in our web dataset, like neglect , government , and social media .",
+      "label": "Background",
+      "prob": 0.5809584856033325
+    },
+    {
+      "sentence": "We present Empath , a tool that can generate and validate new lexical categories on demand from a small set of seed terms (like bleed and punch to generate the category violence ).",
+      "label": "Background",
+      "prob": 0.49230965971946716
+    },
+    {
+      "sentence": "Given a small set of seed words that characterize a category, Empath uses its neural embedding to discover new related terms, then validates the category with a crowd-powered lter.",
+      "label": "Method",
+      "prob": 0.36605095863342285
+    },
+    {
+      "sentence": "We show that Empaths data-driven, human validated categories are highly correlated (r=0.906) with similar categories in LIWC.",
+      "label": "Result",
+      "prob": 0.7136130928993225
+    },
+    {
+      "sentence": "social computing, computational social science, ction",
+      "label": "Other",
+      "prob": 0.7817838788032532
+    }
+  ]
+}

@@ -1,0 +1,2249 @@
+{
+  "uist-6": [
+    {
+      "sentence": "The most widespread and accessible techniques are either resistive or capacitive, and can use a discrete or a matrix layout.",
+      "label": "Background",
+      "prob": 0.9650546312332153
+    },
+    {
+      "sentence": "Skin has a wide range of mechanoreceptors used conjointly to detect touch and deformations.",
+      "label": "Background",
+      "prob": 0.9547041058540344
+    },
+    {
+      "sentence": "Typically, pressure-based interaction can be difcult to control since rigid surfaces cannot communicate apparent stiffness to users.",
+      "label": "Background",
+      "prob": 0.9544538259506226
+    },
+    {
+      "sentence": "Resistive touch technology usually relies on resistance that varies when a mechanical pressure is",
+      "label": "Background",
+      "prob": 0.9487087726593018
+    },
+    {
+      "sentence": "Emotional reactions and social acceptance of new form factors may change quickly, and they also depend on various aspects.",
+      "label": "Background",
+      "prob": 0.9476613402366638
+    },
+    {
+      "sentence": "Black or White colors (representative of usual device colors) might be more relevant for communicating interactivity.",
+      "label": "Background",
+      "prob": 0.9361615180969238
+    },
+    {
+      "sentence": "Larger surfaces introduce technical challenges as there is a trade-off between the acuity and the responsiveness of the interface.",
+      "label": "Background",
+      "prob": 0.9327629804611206
+    },
+    {
+      "sentence": "Articial skin is however usually designed with aesthetic and safety requirements in mind, rather than for harvesting interactive properties of the skin that are specically useful for human-computer interaction.",
+      "label": "Background",
+      "prob": 0.9325375556945801
+    },
+    {
+      "sentence": "Such sensors detect pressure but the foam is hardly stretchable and prevent more complex gestures such as stretching or twisting.",
+      "label": "Background",
+      "prob": 0.9298642873764038
+    },
+    {
+      "sentence": "Skin-on interfaces can also serve for improving small mobile devices such as smartwatches or connected objects.",
+      "label": "Background",
+      "prob": 0.9204531908035278
+    },
+    {
+      "sentence": "A slap is characterized by the presence of a large blob for a very short amount of time.",
+      "label": "Background",
+      "prob": 0.917755663394928
+    },
+    {
+      "sentence": "In those cases, the materials used are still rigid and do not allow for complex gestures such as stretching or pressure.",
+      "label": "Background",
+      "prob": 0.917589545249939
+    },
+    {
+      "sentence": "It also hosts receptors for pain and temperature, as well as veins, hair bulbs and sweat glands.",
+      "label": "Background",
+      "prob": 0.917345404624939
+    },
+    {
+      "sentence": "Similarly, the texture of the skin could change (sweat or goosebumps) to convey disgust or frustration.",
+      "label": "Background",
+      "prob": 0.9167389869689941
+    },
+    {
+      "sentence": "However, in practice , there are too many dimensions to investigate, which requires making design choices at each iteration.",
+      "label": "Background",
+      "prob": 0.9161125421524048
+    },
+    {
+      "sentence": "Capacitive touch sensing relies on capacitance change, which occurs when the body gets close to the electrode and changes the local electric eld.",
+      "label": "Background",
+      "prob": 0.9092351198196411
+    },
+    {
+      "sentence": "Touch gestures on Skin-On can convey expressive messages for computer mediated communication with humans or virtual characters.",
+      "label": "Background",
+      "prob": 0.9061800241470337
+    },
+    {
+      "sentence": "It is a crucial vector to keep the interaction going on, so that participants continue exchanging information and establishing trustworthy relationship.",
+      "label": "Background",
+      "prob": 0.904333233833313
+    },
+    {
+      "sentence": "The skin texture depends on the size of the pores and the wrinkles which also vary between individuals (age, gender) and body locations.",
+      "label": "Background",
+      "prob": 0.8991044759750366
+    },
+    {
+      "sentence": "Uncanny valley has been principally a no-go zone in HCI [8], and our work challenges this.",
+      "label": "Background",
+      "prob": 0.8929263949394226
+    },
+    {
+      "sentence": "For instance, users can perform a stroke to convey their sympathy, small repeated taps to convey happiness, etc.",
+      "label": "Background",
+      "prob": 0.8891786336898804
+    },
+    {
+      "sentence": "PEDOT:PSS [51], which is a conductive ink, is more and more mainstream in fabrication research.",
+      "label": "Background",
+      "prob": 0.8890763521194458
+    },
+    {
+      "sentence": "Using articial skin on a device may create similar effects, and could change the engagement or affection that we have towards inanimate objects such as interactive devices.",
+      "label": "Background",
+      "prob": 0.8888025283813477
+    },
+    {
+      "sentence": "Paint or makeup can be added to shade the articial skin with eshlike tonal variation, thus increasing anthropomorphism.",
+      "label": "Background",
+      "prob": 0.8884561061859131
+    },
+    {
+      "sentence": "Skin-On interfaces consist of augmenting interactive systems with articial skin, e.g. by replacing their rigid cover.",
+      "label": "Background",
+      "prob": 0.8850429654121399
+    },
+    {
+      "sentence": "Embodied Conversational Agents (ECAs) are virtual human-like gures designed to communicate with individuals.",
+      "label": "Background",
+      "prob": 0.8823681473731995
+    },
+    {
+      "sentence": "For instance, when users are pinching or stretching a virtual image (Figure 13a), they physically pinch and stretch the skin.",
+      "label": "Background",
+      "prob": 0.8817170262336731
+    },
+    {
+      "sentence": "Moreover, once users discover the skin metaphor (either by themselves or after communicating with others), they may be more inclined to explore additional gestures and discover new controls.",
+      "label": "Background",
+      "prob": 0.879641592502594
+    },
+    {
+      "sentence": "However, the electrical resistance increases drastically after every stretch [103], which makes it impossible to build an efcient deformable sensor.",
+      "label": "Background",
+      "prob": 0.8768957853317261
+    },
+    {
+      "sentence": "In contrast, Skin-On interfaces have a much smaller stiffness, providing a higher level of control.",
+      "label": "Background",
+      "prob": 0.8724136352539062
+    },
+    {
+      "sentence": "For instance, a stroke is characterized by a simultaneous swipe contact of at least three ngers along all the surface and a tickling is characterized by repeated fast nger swipes in the same direction.",
+      "label": "Background",
+      "prob": 0.8698683977127075
+    },
+    {
+      "sentence": "Physical interaction metaphors can be be useful in games, thereby providing a sense of realism.",
+      "label": "Background",
+      "prob": 0.8698031902313232
+    },
+    {
+      "sentence": "Cutaneous receptors, which are part of the somatosensory system, include cutaneous mechanoreceptors (pressure and vibration), nociceptors (pain) and thermoreceptors (temperature).",
+      "label": "Background",
+      "prob": 0.8668808341026306
+    },
+    {
+      "sentence": "This approach is often used for smart textiles [17] but requires large electrodes (>1cm), which does not t with our requirement of spacial acuity.",
+      "label": "Background",
+      "prob": 0.8549278974533081
+    },
+    {
+      "sentence": "In Robotics, an  articial sensitive skin  [55] imitates the sensing capabilities of human skin.",
+      "label": "Background",
+      "prob": 0.854106605052948
+    },
+    {
+      "sentence": "Articial skin can act as a mediated embodiment of the virtual character.",
+      "label": "Background",
+      "prob": 0.851581871509552
+    },
+    {
+      "sentence": "It is also unclear which texture , and which thickness is the most appropriate for interaction (as users may prefer interacting with thick viscous layers).",
+      "label": "Background",
+      "prob": 0.8515138030052185
+    },
+    {
+      "sentence": "Rather than pressing on a at plane, the hypodermis layer provide another level of haptic feedback.",
+      "label": "Background",
+      "prob": 0.8510687947273254
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than the author(s) must be honored.",
+      "label": "Background",
+      "prob": 0.8468317985534668
+    },
+    {
+      "sentence": "Many researchers have explored the design of exible input although these studies did not use human skin as inspiration.",
+      "label": "Background",
+      "prob": 0.8456835150718689
+    },
+    {
+      "sentence": "These overlays sense touch [41], multi-touch [59] or pressure [4] but can only be placed on top of the skin, and have not been designed for a repeated amount of stretch and strain.",
+      "label": "Background",
+      "prob": 0.8455233573913574
+    },
+    {
+      "sentence": "Advanced gestures differ from multi-touch gestures by their specic dynamic and/or the number and size of the contact area (radius larger than 1cm).",
+      "label": "Background",
+      "prob": 0.8440561294555664
+    },
+    {
+      "sentence": "Other techniques to sense input on a stretchable surface also include Electro-Impedence-Tomography [81] or Time Domain Reectometry [105], which are other techniques for detecting stretch and touch.",
+      "label": "Background",
+      "prob": 0.8433316349983215
+    },
+    {
+      "sentence": "Similarly, the sides of an interactive table could have a higher resolution than its center, as more interactions occur in the vicinity of the user position.",
+      "label": "Background",
+      "prob": 0.842200517654419
+    },
+    {
+      "sentence": "The hypodermis is the thicker part of the skin located between the skin and the muscles and is principally used for storing fat.",
+      "label": "Background",
+      "prob": 0.8410866260528564
+    },
+    {
+      "sentence": "The spacing between holes varies depending on the desired size of the interface and the spacial acuity.",
+      "label": "Background",
+      "prob": 0.8329614996910095
+    },
+    {
+      "sentence": "However we do not focus on interacting directly on human skin but rather aim at mimicking its properties to augment interactive devices.",
+      "label": "Background",
+      "prob": 0.831548273563385
+    },
+    {
+      "sentence": "This list is not exhaustive and only represent gestures that are most often considered in the literature .",
+      "label": "Background",
+      "prob": 0.8278266191482544
+    },
+    {
+      "sentence": "It is also used in the movie industry to create props and special esh-like prosthetic effects for its texture and pigmentation.",
+      "label": "Background",
+      "prob": 0.826704204082489
+    },
+    {
+      "sentence": "It is also worth mentioning that some researchers have proposed to augment everyday life objects (particularly non-interactive ones) [109, 110, 27] but these objects are rigid.",
+      "label": "Background",
+      "prob": 0.8259386420249939
+    },
+    {
+      "sentence": "The articial skin sensors generally have a high spatial resolution (1 mm  4 mm ) but cover only small surfaces ( 2 cm ).",
+      "label": "Background",
+      "prob": 0.824238657951355
+    },
+    {
+      "sentence": "the skin to pinch or twist it, a gesture that users would not naturally perform on rigid touchpads.",
+      "label": "Background",
+      "prob": 0.8166921734809875
+    },
+    {
+      "sentence": "This allows users to benet fully from the haptic properties of the skin even if the tracking is less accurate than with a thin sensing overlay.",
+      "label": "Background",
+      "prob": 0.813694953918457
+    },
+    {
+      "sentence": "Skin-On interfaces augment interactive systems (e.g. smartphones) with an articial skin.",
+      "label": "Background",
+      "prob": 0.8119571805000305
+    },
+    {
+      "sentence": "Any conductive electrode with an unusual shape or using unusual material can be used for sensing and transmitting.",
+      "label": "Background",
+      "prob": 0.8108528852462769
+    },
+    {
+      "sentence": "For instance, the back of a mobile device could be covered with articial skin that can sense novel user gestures (e.g. grab, twist, scratch, etc.) and provide tactile and kinesthetic feedback in order to enhance user expressiveness and user experience for mediated communication or interface control.",
+      "label": "Background",
+      "prob": 0.8105115294456482
+    },
+    {
+      "sentence": "For instance, the color of the skin could change (using thermochromatic ink) to inform about a new message or to communicate the emotional state",
+      "label": "Background",
+      "prob": 0.809607982635498
+    },
+    {
+      "sentence": "Gestures with similar characteristics to conventional multi-touch devices and traditional input paradigms suggest that users transpose conventional multitouch gestures onto other interactive surfaces, like articial skin.",
+      "label": "Background",
+      "prob": 0.8083518743515015
+    },
+    {
+      "sentence": "For example, a simple touch by the user can indicate she is paying attention to the ECA speech.",
+      "label": "Background",
+      "prob": 0.7992865443229675
+    },
+    {
+      "sentence": "In summary, like On-Skin interfaces, Skin-On interfaces also aim to use the affordances of human skin.",
+      "label": "Background",
+      "prob": 0.7980871796607971
+    },
+    {
+      "sentence": "There are various ways to lay out sensors to detect gestures.",
+      "label": "Background",
+      "prob": 0.7970555424690247
+    },
+    {
+      "sentence": "By mimicking real human skin, SkinOn interfaces can also better communicate the interactivity of these systems and facilitate the discoverability of gestures, which in turn enhances interaction.",
+      "label": "Background",
+      "prob": 0.7882817387580872
+    },
+    {
+      "sentence": "It provides both visual and tactile feedback (typically pigmentation and texture).",
+      "label": "Background",
+      "prob": 0.7878095507621765
+    },
+    {
+      "sentence": "A 1:1:1 ratio ensured a proper consistency for coating over stencil, and an even distribution of the carbon black allowed conductivity and stretch.",
+      "label": "Background",
+      "prob": 0.7868414521217346
+    },
+    {
+      "sentence": "Skin-on interfaces allow a wide range of interactions.",
+      "label": "Background",
+      "prob": 0.7867829203605652
+    },
+    {
+      "sentence": "As the threads are thin, the thickness of the sensing layer can be similar to the humans dermis and even smaller.",
+      "label": "Background",
+      "prob": 0.7848343849182129
+    },
+    {
+      "sentence": "In summary, designing articial skin has thus been largely studied in the eld of Robotic, but with a focus in reproducing the sensing capability of the skin [14] or its visual aspects [62] for safety, sensing or cosmetic aspects.",
+      "label": "Background",
+      "prob": 0.7828890681266785
+    },
+    {
+      "sentence": "Thus, the orientation of the articial skin should be preferably chosen in such a way that frequent stretch gestures are performed on the diagonal of the grid.",
+      "label": "Background",
+      "prob": 0.7827011346817017
+    },
+    {
+      "sentence": "In summary, there have been some research aiming at creating deformable sensors, but none has looked at the skin for inspiration; moreover the gestures these sensors can detect are limited to particular ones (e.g. bending but no stretching, stretching with no pressure, or pressure deformation but no stretching etc.).",
+      "label": "Background",
+      "prob": 0.7819947600364685
+    },
+    {
+      "sentence": "For example it is possible that replicating the exact color of human skin may not be ideal because the human likeness is tight to the Uncanny Valley effect [56] and can elicit feelings of eeriness and revulsion in observers.",
+      "label": "Background",
+      "prob": 0.7749409675598145
+    },
+    {
+      "sentence": "Skin-On interfaces allow users to perform advanced gestures with a higher degree of control.",
+      "label": "Background",
+      "prob": 0.77439945936203
+    },
+    {
+      "sentence": "All these questions sparked our interest in understanding how to adapt articial skin to our interactive context.",
+      "label": "Background",
+      "prob": 0.7710266709327698
+    },
+    {
+      "sentence": "For instance, the detection of the palm of the hand has a very large surface area ( > 50 mm 2 ).",
+      "label": "Background",
+      "prob": 0.765619695186615
+    },
+    {
+      "sentence": "It hosts multiple layers of renewed cells, with a turnover time in the order",
+      "label": "Background",
+      "prob": 0.7627127170562744
+    },
+    {
+      "sentence": "To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specic permission and/or a fee.",
+      "label": "Background",
+      "prob": 0.7615484595298767
+    },
+    {
+      "sentence": "It is thus crucial to rst understand the biology of the human skin to identify its unique properties.",
+      "label": "Background",
+      "prob": 0.759029746055603
+    },
+    {
+      "sentence": "skin pigmentation provides a higher level of anthropomorphism than the other colors.",
+      "label": "Background",
+      "prob": 0.7518582940101624
+    },
+    {
+      "sentence": "To go further in the direction of deformable material, some works use silicone or PDMS layers.",
+      "label": "Background",
+      "prob": 0.7487400770187378
+    },
+    {
+      "sentence": "While Silicone is the best available approximation of human skin, it is unclear, in an interaction context, whether similarity to human skin is the most important factor.",
+      "label": "Background",
+      "prob": 0.7463166117668152
+    },
+    {
+      "sentence": "Humans have a biological predisposition to form attachment with social partners, and even inanimate objects, especially mobile devices [45].",
+      "label": "Background",
+      "prob": 0.7459417581558228
+    },
+    {
+      "sentence": "Skin-On interfaces leverage physical interaction by providing haptic feedback in line with gesture input.",
+      "label": "Background",
+      "prob": 0.7453674077987671
+    },
+    {
+      "sentence": "When selecting an icon, a light touch opens a document, a medium touch shares it, and a strong one deletes it.",
+      "label": "Background",
+      "prob": 0.738563060760498
+    },
+    {
+      "sentence": "While our paper focuses on common interactive systems (PC, smartphones, smartwatches), Skin-On interfaces could also be useful in a wide range of setups, including robots and connected objects, or for extending the capabilities of everyday life objects.",
+      "label": "Background",
+      "prob": 0.7380741238594055
+    },
+    {
+      "sentence": "However, different areas could have different acuity, as it is the case with the human body.",
+      "label": "Background",
+      "prob": 0.7324908375740051
+    },
+    {
+      "sentence": "The users can then perform social touch gestures on the skin, that is, on the virtual character, as they would normally do in human-to-human interaction.",
+      "label": "Background",
+      "prob": 0.7292069792747498
+    },
+    {
+      "sentence": "This contribution enables DIY fabrication of multi-touch interfaces on nonconventional surfaces such as human skin [59], walls [110] or, as in our case, exible silicone.",
+      "label": "Background",
+      "prob": 0.7270278334617615
+    },
+    {
+      "sentence": "There are then several specialized mechanoreceptors focusing on the perception of roughness (Merkel corpuscle), stretch (Rufni corpuscle), utter and slip (Meissner corpuscle) or high frequency vibration (Pacinian corpuscle).",
+      "label": "Background",
+      "prob": 0.7224735021591187
+    },
+    {
+      "sentence": "However, the most frequent gestures were pulling the skin (pinching), stroking and slapping, which are skin-specic gestures.",
+      "label": "Background",
+      "prob": 0.7194397449493408
+    },
+    {
+      "sentence": "The main nding is that an appropriate skin-like texture seems important both for the comfort of interaction and human-likeness perception.",
+      "label": "Background",
+      "prob": 0.7143646478652954
+    },
+    {
+      "sentence": "For instance, taking advantage of the elasticity of the skin, users can perform a shear gesture to execute a slingshot in the Angrybird game.",
+      "label": "Background",
+      "prob": 0.7133496403694153
+    },
+    {
+      "sentence": "Showing, perceiving, adapting to each other emotion are important cues of engagement.",
+      "label": "Background",
+      "prob": 0.713029146194458
+    },
+    {
+      "sentence": "By exploiting the deformability of the skin, Skin-On interfaces provide novel input capabilities and haptic feedback that the users are familiar with.",
+      "label": "Background",
+      "prob": 0.7099395394325256
+    },
+    {
+      "sentence": "Capacitive sensors can be made thin and allow one to infer pressure information.",
+      "label": "Background",
+      "prob": 0.7098544836044312
+    },
+    {
+      "sentence": "The touch controller can transmit the raw electrodes data or 5 multi-touch coordinates via i2C, to any micro-controller.",
+      "label": "Background",
+      "prob": 0.7013509273529053
+    },
+    {
+      "sentence": "A discrete layout means that the sensor is made of individual cells spaced out on the surface of the sensor.",
+      "label": "Background",
+      "prob": 0.6943243741989136
+    },
+    {
+      "sentence": "The wristband is connected to a computer that processes the data and sends back the events to the smartwatch via WiFi.",
+      "label": "Background",
+      "prob": 0.6937364339828491
+    },
+    {
+      "sentence": "Because of its thickness, this layer enables new gestures (e.g. squeeze) and provides kinaesthetic feedback.",
+      "label": "Background",
+      "prob": 0.6936652064323425
+    },
+    {
+      "sentence": "[64] demonstrate that it is possible to detect different touch pressures by using resisting fabric materials [75], but their surface texture does not look or feel like skin, which impairs visual and tactile perception.",
+      "label": "Background",
+      "prob": 0.686677873134613
+    },
+    {
+      "sentence": "[22, 31] use exible substrate such as Silicone or PDMS to provide a malleable input surface that can be used to detect stretching, bending and twisting using capacitive sensors.",
+      "label": "Background",
+      "prob": 0.6850332617759705
+    },
+    {
+      "sentence": "We thus believe that our anthropomorphic approach can inspire other researchers and lead to a novel generation of devices with an input system closer to nature.",
+      "label": "Background",
+      "prob": 0.6826075911521912
+    },
+    {
+      "sentence": "For instance the Skin-On wristband (Figure 1-b) can allow performing all the one-dimensional interactions (along the wristband) proposed in [65], plus some additional interactions such as 2D scrolling or continuous rotations on the wristband, e.g. to change the volume of the music, navigate in applications or send simple gestural messages to others.",
+      "label": "Background",
+      "prob": 0.6824420094490051
+    },
+    {
+      "sentence": "For instance, the Skin-On Smartphone supports back-of-device interaction [47], which let users interact with the device without occluding the screen.",
+      "label": "Background",
+      "prob": 0.6799331307411194
+    },
+    {
+      "sentence": "However, previous studies on articial skin did not consider the hypodermis layer (fat).",
+      "label": "Background",
+      "prob": 0.6768986582756042
+    },
+    {
+      "sentence": "Silicone has been proven to be a well suited material to reproduce the three layers of the skin (Figure 2).",
+      "label": "Background",
+      "prob": 0.6758544445037842
+    },
+    {
+      "sentence": "Other gestures are detected because of their large surface area.",
+      "label": "Background",
+      "prob": 0.6735060811042786
+    },
+    {
+      "sentence": "The electrode pattern can only have a limited number of electric lines, but this technique remains the fastest to fabricate and requires few material which makes it appropriate considering our requirements.",
+      "label": "Background",
+      "prob": 0.667413055896759
+    },
+    {
+      "sentence": "The selected gestures are representative of the capabilities of our device: they leverage skin depth, allow multi-touch interaction, and are not a combination of basic gestures.",
+      "label": "Background",
+      "prob": 0.6646730303764343
+    },
+    {
+      "sentence": "It provides depth and resistance when human interacts with the skin, thus providing kinesthetic feedback.",
+      "label": "Background",
+      "prob": 0.6633291840553284
+    },
+    {
+      "sentence": "For a permanent xation on a device, either silicone glue or acetone can be used, to smoothly blend the silicone with the underneath surface.",
+      "label": "Background",
+      "prob": 0.6604149341583252
+    },
+    {
+      "sentence": "The wristband (10cm x 2.5cm, thickness of 5mm) illustrates how wearable devices can benet from Skin-On interfaces.",
+      "label": "Background",
+      "prob": 0.6599992513656616
+    },
+    {
+      "sentence": "The challenge of OnSkin technologies is to maintain the physiological functions (e.g. thermal regulation) and interactive properties (e.g. strechability) of the end-user skin.",
+      "label": "Background",
+      "prob": 0.6598138809204102
+    },
+    {
+      "sentence": "Participants demonstrated gestures such as pointing or rotating with two ngers, gestures similar to regular interfaces.",
+      "label": "Background",
+      "prob": 0.6511451005935669
+    },
+    {
+      "sentence": "First, it would be interesting to consider larger surfaces, such as interactive tables or, as one participant spontaneously mentioned, a SkinOn wall.",
+      "label": "Background",
+      "prob": 0.6490620970726013
+    },
+    {
+      "sentence": "A common approach is to use cPDMS, a silicone material lled with carbon powder or nanotubes [52].",
+      "label": "Background",
+      "prob": 0.6485294103622437
+    },
+    {
+      "sentence": "The threads can be positioned with a specic pattern, and electrical insulation allows superposing multiple electrodes while keeping the layer sufciently thin.",
+      "label": "Background",
+      "prob": 0.6470311880111694
+    },
+    {
+      "sentence": "The skin is about 1.7 m 2 in area and approximately 4 kg in weight, thus accounting for about 5.5% of body mass.",
+      "label": "Background",
+      "prob": 0.6456353068351746
+    },
+    {
+      "sentence": "Silicone thus appears as a promising material to reproduce skin properties within Skin-on interfaces.",
+      "label": "Background",
+      "prob": 0.6447548866271973
+    },
+    {
+      "sentence": "Building skin-equivalent sensors, raises two technical challenges: (1) choosing the sensing technique and the overall electrode pattern, and then (2) choosing electrodes material compatible with articial skins properties to not hinder its deformability.",
+      "label": "Background",
+      "prob": 0.6391217708587646
+    },
+    {
+      "sentence": "We are not aware of any research looking at exploiting realistic articial skin as a new input method for interactive devices.",
+      "label": "Background",
+      "prob": 0.6371852159500122
+    },
+    {
+      "sentence": "Several exhaustive surveys of state-of-the-art in articial sensitive skin have been presented [82, 48, 5, 94, 13] that clustered applications for articial skin into two main categories.",
+      "label": "Background",
+      "prob": 0.6333248019218445
+    },
+    {
+      "sentence": "This material is for example used to create skin simulators for medical training [40, 86, 12] because of its mechanical properties.",
+      "label": "Background",
+      "prob": 0.627815842628479
+    },
+    {
+      "sentence": "The high electrical resistance of the electrodes make it unsuitable for mutual capacitance sensing.",
+      "label": "Background",
+      "prob": 0.6270531415939331
+    },
+    {
+      "sentence": "The interface communicates via WiFi with the Android device and the hardware (sensing breakout, battery and communication component) is self-contained within the case (Figure 11).",
+      "label": "Background",
+      "prob": 0.6259862780570984
+    },
+    {
+      "sentence": "It can also sense how users are grabbing the device to enable additional applications or context detection [18, 19] as the skin covers both the back and the side of the smartphone.",
+      "label": "Background",
+      "prob": 0.6222054958343506
+    },
+    {
+      "sentence": "Accessibility : we want to use accessible technologies, i.e. the process should be easy to reproduce by HCI practitioners with affordable material and without high-end equipment.",
+      "label": "Background",
+      "prob": 0.6112734079360962
+    },
+    {
+      "sentence": "When the user performs a pinch with two ngers, circular blobs merge into a single ellipse with a large eccentricity.",
+      "label": "Background",
+      "prob": 0.6086333990097046
+    },
+    {
+      "sentence": "Skin is a fundamental biological interface to sense the world and communicate with others [33].",
+      "label": "Background",
+      "prob": 0.6054421663284302
+    },
+    {
+      "sentence": "They also conrm that the two realistic samples are perceived more alike skin than the two others both tactically (p<0.05) and visually (p<0.05).",
+      "label": "Background",
+      "prob": 0.6051257848739624
+    },
+    {
+      "sentence": "Authors wish also thank C. Bourget and C. Honnet for their help and constructive feedback.",
+      "label": "Background",
+      "prob": 0.6020360589027405
+    },
+    {
+      "sentence": "However, we argue that the benets of human skin should not only be used for Onskin interfaces but also for what we call Skin-On interfaces.",
+      "label": "Background",
+      "prob": 0.6012126207351685
+    },
+    {
+      "sentence": "We envision interaction scenarios where SkinOn and On-Skin interfaces co-exist in a complementary way: the continuity of interaction across existing devices (mobile, desktop and skin-worn) would be maintained through similar skin-based interaction paradigms.",
+      "label": "Background",
+      "prob": 0.5944020748138428
+    },
+    {
+      "sentence": "These applications are divided into two categories: interface control and emotional communication.",
+      "label": "Background",
+      "prob": 0.5903784036636353
+    },
+    {
+      "sentence": "Figure 3 illustrates the ve types of pigmentation compared: beige and brown colors representative of realistic human skin colors; white and black colors representative of usual device colors; green color to suggest something organic, but not necessarily human (e.g. alien or reptilian).",
+      "label": "Background",
+      "prob": 0.5795941948890686
+    },
+    {
+      "sentence": "In contrast, a matrix layout uses a grid of perpendicular lines intercepting at multiple points on the surface.",
+      "label": "Background",
+      "prob": 0.5788028240203857
+    },
+    {
+      "sentence": "In this paper, we share the same vision than On-skin interaction, which builds on the advantages of the skin to increase interaction bandwidth.",
+      "label": "Background",
+      "prob": 0.5783101320266724
+    },
+    {
+      "sentence": "In particular, the orientation of stretch gestures seems to impact the maximum strength that can be applied.",
+      "label": "Background",
+      "prob": 0.57784503698349
+    },
+    {
+      "sentence": "We interpret this result as subtle interaction effects between visual and haptic perception regarding skin perception, which also depends on a combination of factors (including the duration of the interaction, the degree of realism of the device, etc.).",
+      "label": "Background",
+      "prob": 0.5777778625488281
+    },
+    {
+      "sentence": "Using fabric material can alleviate this drawback and allow for detecting stretching [23].",
+      "label": "Background",
+      "prob": 0.5764919519424438
+    },
+    {
+      "sentence": "Similarly, users can perform micro-gestures [77] with a higher level of accuracy or control a 3D joystick by performing in-place rotations of the nger (Figure 13-b).",
+      "label": "Background",
+      "prob": 0.5761896371841431
+    },
+    {
+      "sentence": "The task consisted of freely touching and manipulating each sample such as it was the skin of someone else.",
+      "label": "Background",
+      "prob": 0.5756099820137024
+    },
+    {
+      "sentence": "We believe our work extends the boundary of traditional interactive devices by opening up the user experience to anthropomorphic interfaces and to new familiar organic interaction between humans and machines.",
+      "label": "Background",
+      "prob": 0.5729255676269531
+    },
+    {
+      "sentence": "Our approach shares similar goals, seeking to reproduce the sensing capabilities of biological skin, but it also goes beyond the typical bio-inspired approach by focusing on interactive aspects, which we believe are crucial for human-computer interfaces:",
+      "label": "Background",
+      "prob": 0.5719746351242065
+    },
+    {
+      "sentence": "Pie menu whose location depends on the handedness of the phone grasp.",
+      "label": "Background",
+      "prob": 0.570380687713623
+    },
+    {
+      "sentence": "Skin-On interfaces provide natural physical affordances.",
+      "label": "Background",
+      "prob": 0.5650664567947388
+    },
+    {
+      "sentence": "The interface must not be touched during this period (Figure 12-b).",
+      "label": "Background",
+      "prob": 0.562504768371582
+    },
+    {
+      "sentence": "Moving on to reproducing the properties of the skin described above, we looked at common material used in other elds of research.",
+      "label": "Background",
+      "prob": 0.5593641996383667
+    },
+    {
+      "sentence": "We particularly look at the pigmentation , texture and strain/thickness in three studies, that helped guiding the design of our articial skin.",
+      "label": "Background",
+      "prob": 0.5589754581451416
+    },
+    {
+      "sentence": "These studies rely on using a relatively thin layer for sensing deformations and some other researchers have proposed to add thickness to sensors to enrich the vocabulary of gestures.",
+      "label": "Background",
+      "prob": 0.551285982131958
+    },
+    {
+      "sentence": "[32], or pinch to convey annoyance (Figure 14-b).",
+      "label": "Background",
+      "prob": 0.5512487888336182
+    },
+    {
+      "sentence": "The order of presentation of the samples was counter-balanced between participants using a Latin-Square design and a session lasted around 10 minutes.",
+      "label": "Background",
+      "prob": 0.5501634478569031
+    },
+    {
+      "sentence": "Another example is to convey that one is listening to what the ECA is saying.",
+      "label": "Background",
+      "prob": 0.5443141460418701
+    },
+    {
+      "sentence": "One approach consists of using thin epidermal overlays (< 50 ) [29, 42] embedding resistive [99] or capacitive sensors.",
+      "label": "Background",
+      "prob": 0.53774094581604
+    },
+    {
+      "sentence": "This technique only requires two orthogonal arrays of electrodes separated by a dielectric layer and few instrumentation.",
+      "label": "Background",
+      "prob": 0.5318979024887085
+    },
+    {
+      "sentence": "Another drawback of this approach is that connecting the electrodes to cPDMS is challenging to ensure a durable prototype [103].",
+      "label": "Background",
+      "prob": 0.5268871188163757
+    },
+    {
+      "sentence": "While preliminary studies indicate that we can recognize 8 touch gestures and multi-touch ones, taking individual variability into account and using better recognition algorithms (typically relying on machine learning) would improve the recognition rate and allow distinguishing variations of these gestures (e.g. soft grab vs. hard grab).",
+      "label": "Background",
+      "prob": 0.5257830023765564
+    },
+    {
+      "sentence": "We excluded properties related to biological features out of scope of this work such as the semi-impermeable barrier (useful for both uid excretion and absorption), the anatomical barrier (preventing pathogens or preventing external damage), heat regulation, and storage (e.g. for vitamin D synthesis).",
+      "label": "Background",
+      "prob": 0.5255266427993774
+    },
+    {
+      "sentence": "Given these variations, it is not surprising to nd a large variation in the elastic modulus 1 reported in the literature (between 0.02 MPa to 57 MPa [16]).",
+      "label": "Background",
+      "prob": 0.519494891166687
+    },
+    {
+      "sentence": "SKIN-ON INTERFACES: A BIO-DRIVEN APPROACH",
+      "label": "Background",
+      "prob": 0.5163832306861877
+    },
+    {
+      "sentence": "Its electrical resistance is high and increases when stretched.",
+      "label": "Background",
+      "prob": 0.5027146935462952
+    },
+    {
+      "sentence": "The breakout is composed of a FT5316DME controller, which allows for connecting 12 sensing electrodes and 21 transmitting electrodes.",
+      "label": "Background",
+      "prob": 0.5006807446479797
+    },
+    {
+      "sentence": "The characteristics of the material can motivate users to spontaneously explore the interface and discover novel controls.",
+      "label": "Background",
+      "prob": 0.5000668168067932
+    },
+    {
+      "sentence": "We also only focused on input rather than output (e.g. self-lubrication, actuation of hair follicles or temperature) that we discuss in the future work section.",
+      "label": "Background",
+      "prob": 0.49834945797920227
+    },
+    {
+      "sentence": "We use this knowledge to propose a series of gestures that are desirable for Skin-on interfaces (e.g. multitouch touch, pressure and complex gestures such as strokes, stretching or grabbing).",
+      "label": "Background",
+      "prob": 0.4979386329650879
+    },
+    {
+      "sentence": "We excluded solutions that rely on complex machinery or a complex fabrication process to t with our accessible requirement.",
+      "label": "Background",
+      "prob": 0.48689666390419006
+    },
+    {
+      "sentence": "It hosts most of the sensory receptors responding to tactile and kinesthetic feedbacks that compose touch [44].",
+      "label": "Background",
+      "prob": 0.4862287938594818
+    },
+    {
+      "sentence": "The distant user can then receive these emoticons visually, or haptically, for example using an interface like those proposed in [92].",
+      "label": "Background",
+      "prob": 0.48484528064727783
+    },
+    {
+      "sentence": "Our work relates to on-skin interfaces in HCI, articial skin in robotics and exible input sensors.",
+      "label": "Background",
+      "prob": 0.4818402826786041
+    },
+    {
+      "sentence": "a) Leveraging physical interaction (pinch and stretch),",
+      "label": "Background",
+      "prob": 0.47990313172340393
+    },
+    {
+      "sentence": "So, we decided to build on the gestures illustrated in Figure 9 to dene the sensing capabilities of Skin-On interfaces.",
+      "label": "Background",
+      "prob": 0.4759535491466522
+    },
+    {
+      "sentence": "Our approach augments I/O capabilities of interactive systems with new gestures and rich kinesthetic feedback.",
+      "label": "Background",
+      "prob": 0.4734628200531006
+    },
+    {
+      "sentence": "In the visual phase the task was similar except that participants could only rely on the visual modality.",
+      "label": "Background",
+      "prob": 0.4728912115097046
+    },
+    {
+      "sentence": "Several studies on interactive stuffed animals and robots have shown that they increase human engagement [106, 107].",
+      "label": "Background",
+      "prob": 0.47137096524238586
+    },
+    {
+      "sentence": "We choose to use a matrix layout because it is easier to fabricate and requires less components and apparatus.",
+      "label": "Background",
+      "prob": 0.4690799415111542
+    },
+    {
+      "sentence": "The center and radius of an ellipsoid dene respectively the location and strength (or pressure) of the touch point (Fig. 12-top).",
+      "label": "Background",
+      "prob": 0.46221113204956055
+    },
+    {
+      "sentence": "The process pipeline relies on OpenCV to convert the mutual capacitance readings to touch coordinates.",
+      "label": "Background",
+      "prob": 0.4599691927433014
+    },
+    {
+      "sentence": "Resistance on a 2D sensor can be read from orthogonal electrodes with a piezoresitive material between them.",
+      "label": "Background",
+      "prob": 0.45560142397880554
+    },
+    {
+      "sentence": "We also contribute a DIY fabrication method and offer an open-hardware tool enabling easy reproduction by other researchers and practitioners.",
+      "label": "Background",
+      "prob": 0.45503705739974976
+    },
+    {
+      "sentence": "Since pores are relatively small, wrinkles, in combination with skin pigmentation, is the main factor that determines the visual realism of the skin [6].",
+      "label": "Background",
+      "prob": 0.4510311186313629
+    },
+    {
+      "sentence": "Each individual cross-point corresponds to the capacitance reading at a location on the sensor grid.",
+      "label": "Background",
+      "prob": 0.44678550958633423
+    },
+    {
+      "sentence": "In particular, we use DragonSkin Pro-FX [84] platinum cured silicone to create the epidermis and dermis layers.",
+      "label": "Background",
+      "prob": 0.4367477595806122
+    },
+    {
+      "sentence": "We expected that the black and white colors would be perceived as more interactive because of their similarity with devices, but natural skin pigmentation was associated to a higher degree of interactivity.",
+      "label": "Result",
+      "prob": 0.475580096244812
+    },
+    {
+      "sentence": "Anthropomorphism and attachment to machines .",
+      "label": "Background",
+      "prob": 0.43385499715805054
+    },
+    {
+      "sentence": "For the following, we keep the beige pigmentation and study different textures to investigate whether it can change the opinion of users regarding comfort.",
+      "label": "Background",
+      "prob": 0.4318476915359497
+    },
+    {
+      "sentence": "In theory , the different parameters of the skin should be investigated altogether.",
+      "label": "Background",
+      "prob": 0.4260408580303192
+    },
+    {
+      "sentence": "Our next step in the design of the articial skin was to identify the types of gestures which are desirable for Skin-On interfaces.",
+      "label": "Objective",
+      "prob": 0.44119513034820557
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for prot or commercial advantage and that copies bear this notice and the full citation on the rst page.",
+      "label": "Other",
+      "prob": 0.48021334409713745
+    },
+    {
+      "sentence": "Accuracy : we want to build accurate sensors that can reproduce the human skin sensing acuity and detect the gestures dened previously.",
+      "label": "Background",
+      "prob": 0.41989368200302124
+    },
+    {
+      "sentence": "The epidermis layer is built by pouring DragonSkin silicone with beige pigments on a skin-like texture mold (Figure 10-1).",
+      "label": "Background",
+      "prob": 0.4192987382411957
+    },
+    {
+      "sentence": "A thin-lm applicator is used to achieve the desired thickness (about 0.6mm).",
+      "label": "Background",
+      "prob": 0.41831934452056885
+    },
+    {
+      "sentence": "The sample with the thicker hypodermis layer was perceived as the less human like, as this value is usually present in body location not accessible for social touch, such as the belly (p<0.05).",
+      "label": "Background",
+      "prob": 0.4168572723865509
+    },
+    {
+      "sentence": "The raw image of the transformed cross-points values is then converted into a binary image with a threshold of 55%.",
+      "label": "Background",
+      "prob": 0.4143269956111908
+    },
+    {
+      "sentence": "The weaving structure of the material makes it durable, very conductive (<1  / cm 2 ), and an increased strain reduces its electrical resistance.",
+      "label": "Result",
+      "prob": 0.436549574136734
+    },
+    {
+      "sentence": "We also asked participants to rate their impressions about the samples according to the following scales: fake/natural , machinelike/humanlike , articial/lifelike , which are often used to assess anthropomorphism [9].",
+      "label": "Other",
+      "prob": 0.4455206096172333
+    },
+    {
+      "sentence": "The brain then integrates these various forms of information to perceive shape.",
+      "label": "Background",
+      "prob": 0.4115942120552063
+    },
+    {
+      "sentence": "We study the impact of the strain/thickness on easiness and comfort of interaction, as well as human-likeness.",
+      "label": "Background",
+      "prob": 0.4111430048942566
+    },
+    {
+      "sentence": "On-Skin or Skin-worn interfaces harness the human skin properties to create new forms of on-body interactions [50, 30, 28]",
+      "label": "Other",
+      "prob": 0.4649283289909363
+    },
+    {
+      "sentence": "This is the case of Stretchis [103], which provides a fabrication process of a highly stretchable interface with stretch sensing.",
+      "label": "Result",
+      "prob": 0.4230710566043854
+    },
+    {
+      "sentence": "However, its thickness was 0.8mm (about the same as the fabric thickness), which is over the size of the dermis thickness when using multiple layers (two layers are needed, plus the dielectric, which would make the sensor more than 1.2mm thick).",
+      "label": "Background",
+      "prob": 0.39535513520240784
+    },
+    {
+      "sentence": "Another approach is to use conductive threads that are sealed in a thin layer of silicone.",
+      "label": "Background",
+      "prob": 0.39248180389404297
+    },
+    {
+      "sentence": "Indeed, the grid layout of the electrodes facilitates the stretch in diagonal directions, where the stretch is greater than 50% while it is limited to 30% on the horizontal and vertical axes.",
+      "label": "Result",
+      "prob": 0.5010061860084534
+    },
+    {
+      "sentence": "There is a long history of research into the design of articial skin in the eld of Robotics, either to help with environment exploration, or to endow robots with human-like sensing capabilities [5, 13, 48, 94].",
+      "label": "Other",
+      "prob": 0.5010552406311035
+    },
+    {
+      "sentence": "To determine and track the position of multiple points over time, we use the contour points (stored in a k-d tree), and nd the closest blob position in O(log n ).",
+      "label": "Method",
+      "prob": 0.395550012588501
+    },
+    {
+      "sentence": "Overall, our data processing algorithm provides a spacial acuity of 2mm with an electrode spacing of 4mm.",
+      "label": "Result",
+      "prob": 0.4042622745037079
+    },
+    {
+      "sentence": "We also plan to study the factors (e.g.the number of repetitions, gesture strength, etc.) that alter the sensing capabilities and the mechanical properties of the articial skin.",
+      "label": "Background",
+      "prob": 0.3803676962852478
+    },
+    {
+      "sentence": "(b) skin of the back with small pores and no wrinkles, and",
+      "label": "Background",
+      "prob": 0.37908869981765747
+    },
+    {
+      "sentence": "One challenge we faced was to conciliate an holistic approach and an iterative design.",
+      "label": "Background",
+      "prob": 0.377846360206604
+    },
+    {
+      "sentence": "We implemented a messaging application where users can express rich tactile emoticons on the articial skin.",
+      "label": "Background",
+      "prob": 0.3768758475780487
+    },
+    {
+      "sentence": "We also built a Skin-On interface for built-in and external touchpads.",
+      "label": "Background",
+      "prob": 0.37664851546287537
+    },
+    {
+      "sentence": "In doing this we aimed to rene our specication for the design of the sensing aspect of the skin.",
+      "label": "Objective",
+      "prob": 0.48567500710487366
+    },
+    {
+      "sentence": "The second type of application is to use articial skin to cover the surface of a robot to improve motion guidance and environment sensing [5] as a means to increase human likeness, as well as to encourage contact with end-users [3] or to replicate the camouaging capabilities of natural cephalopods [66, 76].",
+      "label": "Background",
+      "prob": 0.3701653778553009
+    },
+    {
+      "sentence": "Dielectric elastomers, which are elastic parallel-plate capacitors, can act as deformable sensors for measuring human body motion [60].",
+      "label": "Other",
+      "prob": 0.4735218286514282
+    },
+    {
+      "sentence": "A strong grip conveys anger while tickling the skin displays a laughing emoji (Figure 14-a) and tapping creates a surprised emoji.",
+      "label": "Background",
+      "prob": 0.36732539534568787
+    },
+    {
+      "sentence": "Because these properties have a large range of values, we choose to look at the question under a different angle: how to reproduce the skin so it is valuable for interaction as well.",
+      "label": "Background",
+      "prob": 0.3662985861301422
+    },
+    {
+      "sentence": "We now discuss future directions regarding the implementation, the concept and the approach.",
+      "label": "Background",
+      "prob": 0.3622066378593445
+    },
+    {
+      "sentence": "In such cases, the goal is to replicate the sensing capability of the human ngertip [35, 108, 104].",
+      "label": "Background",
+      "prob": 0.3597484827041626
+    },
+    {
+      "sentence": "(c) skin of the hand with small pores and wrinkles.",
+      "label": "Background",
+      "prob": 0.35749247670173645
+    },
+    {
+      "sentence": "It removes the background noise and tracks the users points of contact with the surface.",
+      "label": "Background",
+      "prob": 0.35488706827163696
+    },
+    {
+      "sentence": "1. From a sensory point of view, we study how to reproduce the visual, tactile and kinesthetic aspects of the human skin.",
+      "label": "Objective",
+      "prob": 0.36825037002563477
+    },
+    {
+      "sentence": "also shows that samples with a thicker layer are perceived slightly more comfortable and easier to interact or manipulate although this was not signicantly different.",
+      "label": "Result",
+      "prob": 0.5447407960891724
+    },
+    {
+      "sentence": "We are particularly focused on sensing layer of thickness below 1.2mm to match human dermis thickness.",
+      "label": "Result",
+      "prob": 0.5080541968345642
+    },
+    {
+      "sentence": "The electrodes are then connected, i.e. they are soldered to the hardware sensing platform (Figure 10-4).",
+      "label": "Background",
+      "prob": 0.3499895930290222
+    },
+    {
+      "sentence": "e.g. we observed that it was difcult to study the color of the skin independently from its texture.",
+      "label": "Result",
+      "prob": 0.5354794859886169
+    },
+    {
+      "sentence": "In particular, we follow a bio-driven approach where we take inspiration from the human skin to design this new type of interfaces.",
+      "label": "Method",
+      "prob": 0.4048430025577545
+    },
+    {
+      "sentence": "We also considered two less realistic samples: (a) very smooth skin without any pores and wrinkles, and (d) skin with exaggerated pores size and wrinkles.",
+      "label": "Result",
+      "prob": 0.38552752137184143
+    },
+    {
+      "sentence": "Pigmentation (visual) varies between individuals and body locations and informs on the perception of age, attractiveness, mood, ethnicity or health [21].",
+      "label": "Other",
+      "prob": 0.5801054239273071
+    },
+    {
+      "sentence": "Shapechanging mechanisms such as air cavity [22] [1] could be used to stiffen some parts of the skin (e.g. veins, muscles) to modify the relief of the skin epidermis, thus the gesture performed on the skin.",
+      "label": "Background",
+      "prob": 0.3406224250793457
+    },
+    {
+      "sentence": "The experiment was divided into two phases: in the haptic phase, the task consisted of touching lightly the different samples without seeing them to avoid any bias of the beige pigmentation.",
+      "label": "Background",
+      "prob": 0.34017273783683777
+    },
+    {
+      "sentence": "We presented a bio-driven approach which is singular in HCI.",
+      "label": "Background",
+      "prob": 0.3315424919128418
+    },
+    {
+      "sentence": "We also fabricated a Skin-On wristband to alleviate the limited input and output capabilities of smartwatches [65] (Figure 1-c).",
+      "label": "Result",
+      "prob": 0.3396967053413391
+    },
+    {
+      "sentence": "material by pouring a thin layer of silicone on top of the conductive textile.",
+      "label": "Method",
+      "prob": 0.3933703303337097
+    },
+    {
+      "sentence": "To improve the visual appearance of the interface, the excess of silicone can be trimmed before being folded around the side of the hypodermis layer and glued with silicone glue (Figure 10-5).",
+      "label": "Result",
+      "prob": 0.34471365809440613
+    },
+    {
+      "sentence": "The Datastretch conductive threads [93] are then placed in a perpendicular grid on top of the articial epidermis to form the electrodes.",
+      "label": "Method",
+      "prob": 0.5049647688865662
+    },
+    {
+      "sentence": "An API is provided to share touch points and gesture events using Unity3d.",
+      "label": "Method",
+      "prob": 0.4971051812171936
+    },
+    {
+      "sentence": "First, we prepared a cPDMS mixing carbon black, EcoFlex 00-30 silicone and D5 solvent.",
+      "label": "Method",
+      "prob": 0.3969782590866089
+    },
+    {
+      "sentence": "c) which varied both in term of the size of the pores and the depth of the wrinkles and looked like:",
+      "label": "Other",
+      "prob": 0.3413228988647461
+    },
+    {
+      "sentence": "The electrodes are read 16 times per second and the data processing takes 4ms in average.",
+      "label": "Result",
+      "prob": 0.4225578308105469
+    },
+    {
+      "sentence": "2. From a gestural point of view, we explore how gestures naturally performed on skin can be transposed to Skin-On interfaces.",
+      "label": "Objective",
+      "prob": 0.3269682824611664
+    },
+    {
+      "sentence": "To understand the reasons behind this choice we need to explain the different techniques that can be used.",
+      "label": "Background",
+      "prob": 0.3177374005317688
+    },
+    {
+      "sentence": "Strain/thickness : we want to reproduce the deformability of the skin as described earlier.",
+      "label": "Background",
+      "prob": 0.3134377896785736
+    },
+    {
+      "sentence": "Once cured, the top layer is positioned on a pane, with the texture facing down.",
+      "label": "Method",
+      "prob": 0.349893718957901
+    },
+    {
+      "sentence": "The last part of our exploration focuses on the reproduction of the human skin sensing acuity.",
+      "label": "Result",
+      "prob": 0.34884023666381836
+    },
+    {
+      "sentence": "We prepare a rectangular mold of the size of the desired articial skin and place it on top of",
+      "label": "Method",
+      "prob": 0.3141323924064636
+    },
+    {
+      "sentence": "After, we pour an even layer of Ecoex Gel, and let it cool at room temperature for 2 hours before removing the sample from its mold.",
+      "label": "Method",
+      "prob": 0.3622454106807709
+    },
+    {
+      "sentence": "This work also brings technical challenges that are worth deepening and that are not covered in this paper, including the impact of curvature on spatial sensing acuity and signal to noise ratio.",
+      "label": "Objective",
+      "prob": 0.5931363105773926
+    },
+    {
+      "sentence": "We now present the steps needed to fabricate our articial skin (Figure 10).",
+      "label": "Background",
+      "prob": 0.3028488755226135
+    },
+    {
+      "sentence": "In this paper we considered one aspect (skin) but we hope our work will inspire researchers to investigate how interfaces can be designed to integrate elements from nature.",
+      "label": "Objective",
+      "prob": 0.32504168152809143
+    },
+    {
+      "sentence": "where users interact with their own skin.",
+      "label": "Other",
+      "prob": 0.39974895119667053
+    },
+    {
+      "sentence": "Further investigations are needed to provide clearer guidelines to follow a bio-driven approach in HCI, and we believe that exploring synergies with other elds such as Material engineering or Robotics will be a powerful means to further the development of advanced interactive devices [68].",
+      "label": "Other",
+      "prob": 0.47988227009773254
+    },
+    {
+      "sentence": "Its rotation informs on the rotation and",
+      "label": "Result",
+      "prob": 0.29956236481666565
+    },
+    {
+      "sentence": "Once set, the silicone is cured a 90  for 5 minutes with a heat gun.",
+      "label": "Method",
+      "prob": 0.32147297263145447
+    },
+    {
+      "sentence": "We also had the opportunity to observe that users spontaneously performed these gestures during the studies.",
+      "label": "Result",
+      "prob": 0.4753994047641754
+    },
+    {
+      "sentence": "We study different surface textures to mimic wrinkles of different body locations.",
+      "label": "Result",
+      "prob": 0.3072017431259155
+    },
+    {
+      "sentence": "Strain is a measure of deformation and is dependent to material thickness which, in skin, varies between individuals (age, gender) and body locations ( epidermis from 0.3mm to 1mm [37] dermis 0.9mm to 2.5mm [46, 73]; hypodermis from 1.9mm to 12mm [37]).",
+      "label": "Result",
+      "prob": 0.29652008414268494
+    },
+    {
+      "sentence": "This prototype has a dimension of 8cm x 15cm and could easily be extended to tablets.",
+      "label": "Result",
+      "prob": 0.5668013095855713
+    },
+    {
+      "sentence": "Using the data read (in serial or wireless) from the sensing and transmitting electrodes, we build a 2D image of 12x21 pixels.",
+      "label": "Method",
+      "prob": 0.3640366196632385
+    },
+    {
+      "sentence": "Texture (visual and cutaneous haptic) .",
+      "label": "Other",
+      "prob": 0.486904501914978
+    },
+    {
+      "sentence": "We motivate our use of silicone to mimic the skin deformability with reference to relevant literature.",
+      "label": "Background",
+      "prob": 0.28660503029823303
+    },
+    {
+      "sentence": "For instance in study 3 we saw several users spontaneously pulling",
+      "label": "Result",
+      "prob": 0.46526986360549927
+    },
+    {
+      "sentence": "Our work contributes towards this direction.",
+      "label": "Result",
+      "prob": 0.32529982924461365
+    },
+    {
+      "sentence": "We used a Silver plated stretchable conductive fabric (stretch-width:65%, stretch-length:100%) to create a composite fabric + silicone",
+      "label": "Result",
+      "prob": 0.3361970782279968
+    },
+    {
+      "sentence": "After the board is detected, we create a calibration matrix, by averaging the individual value of each coordinate 10 times.",
+      "label": "Method",
+      "prob": 0.4559709429740906
+    },
+    {
+      "sentence": "The fabrication of each sample follows the same process: A preparation of pigmented silicone is poured in a textured mold (80x40mm) with an even thickness.",
+      "label": "Result",
+      "prob": 0.3909637928009033
+    },
+    {
+      "sentence": "UIST '19, October 2023, 2019, New Orleans, LA, USA",
+      "label": "Other",
+      "prob": 0.6847819685935974
+    },
+    {
+      "sentence": "This material allows a stretch up to 60% before breaking.",
+      "label": "Result",
+      "prob": 0.5250518321990967
+    },
+    {
+      "sentence": "Bio-inspired research is common in elds such as Robotics or Material Engineering, where it aims to abstract principles and structures from nature (e.g. mechanical abilities) to create new materials [63, 14].",
+      "label": "Objective",
+      "prob": 0.4491594433784485
+    },
+    {
+      "sentence": "Incoming capacitive data is transformed by the calibration matrix (Figure 12-b), and the values are normalized and stored in an image le.",
+      "label": "Result",
+      "prob": 0.44960817694664
+    },
+    {
+      "sentence": "We present the implementation of our hardware and software toolkit and demonstrate its gesture recognition algorithm, which can detect gestures proposed in the previous section of this paper.",
+      "label": "Result",
+      "prob": 0.2845837473869324
+    },
+    {
+      "sentence": "Multi-touch point detection.",
+      "label": "Other",
+      "prob": 0.4165022671222687
+    },
+    {
+      "sentence": "We use different silicone products from Smooth-On Inc to reproduce the skin properties listed above.",
+      "label": "Result",
+      "prob": 0.4038446545600891
+    },
+    {
+      "sentence": "The hypodermis viscous silicone layer of Ecoex Gel is poured inside the mold to reach the desired fat thickness, i.e. 10mm in this example (Figure 10-3).",
+      "label": "Result",
+      "prob": 0.49742352962493896
+    },
+    {
+      "sentence": "Examples of applications for emotional communication.",
+      "label": "Other",
+      "prob": 0.43727999925613403
+    },
+    {
+      "sentence": "Bio-driven approach .",
+      "label": "Other",
+      "prob": 0.2972768247127533
+    },
+    {
+      "sentence": "Our design space (Figure 9) summarizes the gestures relevant for Skin-On interfaces.",
+      "label": "Result",
+      "prob": 0.5522774457931519
+    },
+    {
+      "sentence": "Similarly, a twist gesture can be used to manipulate a tangible knob: the amplitude of the twist rotation controls the volume of a music player (Figure 1-b).",
+      "label": "Result",
+      "prob": 0.5637373924255371
+    },
+    {
+      "sentence": "Once the electrode grid is positioned, we pour another thin layer of silicone to seal it in place.",
+      "label": "Method",
+      "prob": 0.5443034768104553
+    },
+    {
+      "sentence": "Wrinkles are also responsible for the haptic cutaneous (or tactile) perception of the smoothness of the skin (along with the self-lubrication and the hair, which increases friction) [69].",
+      "label": "Other",
+      "prob": 0.5985252857208252
+    },
+    {
+      "sentence": "Our goal is to replicate the three layers of the human skin: The epidermis layer provides both visual and tactile perception (e.g. texture); The dermis layer is the sensory layer embedding nerves to detect mechanical contact; The hypodermis layer provides kinesthetic feedback due to its soft mechanical properties (viscosity, thickness, etc.).",
+      "label": "Method",
+      "prob": 0.3748762011528015
+    },
+    {
+      "sentence": "They also conrm that beige and brown pigmentation signicantly (p<0.05) increases the skin human-likeness in comparison with the other samples.",
+      "label": "Result",
+      "prob": 0.6749312281608582
+    },
+    {
+      "sentence": "The ECA then detects the touch gesture, interprets it and reacts accordingly.",
+      "label": "Method",
+      "prob": 0.4912797808647156
+    },
+    {
+      "sentence": "We calculate the relative surface of each blob area and the nearest tting ellipsoid to get its center and orientation (Figure 12-d).",
+      "label": "Result",
+      "prob": 0.38548675179481506
+    },
+    {
+      "sentence": "We focus here on how embedding the sensing layer impacts the fabrication process.",
+      "label": "Result",
+      "prob": 0.37983238697052
+    },
+    {
+      "sentence": "Skin-On interfaces with output abilities .",
+      "label": "Other",
+      "prob": 0.4738979637622833
+    },
+    {
+      "sentence": "The intensity of the touch controls the size of the emojis.",
+      "label": "Result",
+      "prob": 0.5589669942855835
+    },
+    {
+      "sentence": "This accuracy is comparable to the acuity of the human skin on the forearm.",
+      "label": "Result",
+      "prob": 0.6422240734100342
+    },
+    {
+      "sentence": "To inform our choices we have a series of requirements:",
+      "label": "Result",
+      "prob": 0.373226135969162
+    },
+    {
+      "sentence": "Resistive or capacitive .",
+      "label": "Other",
+      "prob": 0.6386045217514038
+    },
+    {
+      "sentence": "We now explain how we detect touch contact, then more complex gestures.",
+      "label": "Method",
+      "prob": 0.31843841075897217
+    },
+    {
+      "sentence": "We used conductive insulated Datastretch thread [93], which allows a strain up to 30%, is 0.2mm thick, and has a conductivity of 4.2  /m.",
+      "label": "Result",
+      "prob": 0.47349151968955994
+    },
+    {
+      "sentence": "To support accurate spacial interpolation, we upscale the image 5x using the Lanczos-4 algorithm (Figure 12-c).",
+      "label": "Method",
+      "prob": 0.5276324152946472
+    },
+    {
+      "sentence": "c) Grab detection to display an adaptive pie menu,",
+      "label": "Method",
+      "prob": 0.29048171639442444
+    },
+    {
+      "sentence": "We used both an Arduino Pro Micro board for sending the data via serial communication to a laptop, and a Wemos D1 mini for transmitting the information wirelessly to the mobile device.",
+      "label": "Method",
+      "prob": 0.49102896451950073
+    },
+    {
+      "sentence": "The epidermis is the outermost layer.",
+      "label": "Other",
+      "prob": 0.38288208842277527
+    },
+    {
+      "sentence": "We then use this knowledge to dene the most suitable material for creating articial skin.",
+      "label": "Method",
+      "prob": 0.3650933504104614
+    },
+    {
+      "sentence": "To implement the electrode pattern described above, we need a conductive material that ts our requirements.",
+      "label": "Method",
+      "prob": 0.44589781761169434
+    },
+    {
+      "sentence": "We recruited 15 participants (10 males, mean age 21) from our university to test each sample.",
+      "label": "Result",
+      "prob": 0.6161109209060669
+    },
+    {
+      "sentence": "We think this would merit a qualitative study of its own.",
+      "label": "Result",
+      "prob": 0.4485127627849579
+    },
+    {
+      "sentence": "We combine it with Silc pig pigments for the pigmentation and mould strategies (using Mold Start) for generating specic textures.",
+      "label": "Method",
+      "prob": 0.520754337310791
+    },
+    {
+      "sentence": "The participants did not propose additional new gestures.",
+      "label": "Result",
+      "prob": 0.5267654657363892
+    },
+    {
+      "sentence": "More generally, our work explores the intersection between man and machine (human augmentation) from a new and radical perspective: instead of augmenting the human with parts of machines, we demonstrate how machines can be augmented with parts of human.",
+      "label": "Method",
+      "prob": 0.30022236704826355
+    },
+    {
+      "sentence": "They express their socio-emotional states through verbal and non-verbal behaviour, such as facial expressions [111, 72, 71].",
+      "label": "Other",
+      "prob": 0.7411065101623535
+    },
+    {
+      "sentence": "We apply a threshold to remove points under 0.1%, that we consider as background noise.",
+      "label": "Result",
+      "prob": 0.45926785469055176
+    },
+    {
+      "sentence": "We present an exploration of the design space of Skin-On interfaces.",
+      "label": "Result",
+      "prob": 0.4717942774295807
+    },
+    {
+      "sentence": "Discrete or matrix .",
+      "label": "Other",
+      "prob": 0.7110002636909485
+    },
+    {
+      "sentence": "We recruited 16 participants (10 males, mean age 22) from our university.",
+      "label": "Result",
+      "prob": 0.6075244545936584
+    },
+    {
+      "sentence": "This work also explores the intersection between man and machine (human augmentation) from a new perspective: Instead of augmenting the human with parts of machines, we demonstrate how machines can be augmented with parts of human.",
+      "label": "Method",
+      "prob": 0.2903573215007782
+    },
+    {
+      "sentence": "We address these points in the following section through three user studies.",
+      "label": "Result",
+      "prob": 0.573649525642395
+    },
+    {
+      "sentence": "Applications for interface control.",
+      "label": "Other",
+      "prob": 0.5484538078308105
+    },
+    {
+      "sentence": "It is less stretchable than conductive textile or cPDMS, but 30% is sufcient compared to the skin maximum strain, which is approximately of 40% [7, 24].",
+      "label": "Other",
+      "prob": 0.6620810627937317
+    },
+    {
+      "sentence": "We rst describe the implementation of three Skin-on interface prototypes with different form factors shown in Figure 1.",
+      "label": "Result",
+      "prob": 0.4157312214374542
+    },
+    {
+      "sentence": "Additionally, bio-driven approaches are not mainstream in HCI research, and this study presents a new research method to create devices with novel form factors that could be suitable for areas of research such as Shape Changing Interfaces [2] [43] or Organic User Interfaces [34].",
+      "label": "Result",
+      "prob": 0.39861443638801575
+    },
+    {
+      "sentence": "UIST 19 , October 2023, 2019, New Orleans, LA, USA",
+      "label": "Other",
+      "prob": 0.7627217173576355
+    },
+    {
+      "sentence": "Skin-On smartphones",
+      "label": "Other",
+      "prob": 0.6597644686698914
+    },
+    {
+      "sentence": "We present different sensing techniques and discuss which ones are more adapted to mimic human skin.",
+      "label": "Method",
+      "prob": 0.4696391522884369
+    },
+    {
+      "sentence": "Choosing an electrode pattern",
+      "label": "Other",
+      "prob": 0.5126858949661255
+    },
+    {
+      "sentence": "We used a similar design than previous studies.",
+      "label": "Result",
+      "prob": 0.540782630443573
+    },
+    {
+      "sentence": "We recruited 16 participants (10 male, mean age 21) from our university.",
+      "label": "Result",
+      "prob": 0.613761842250824
+    },
+    {
+      "sentence": "Non-parametric Friedman tests were conducted followed by post hoc comparison tests for the questions asked.",
+      "label": "Result",
+      "prob": 0.5728728175163269
+    },
+    {
+      "sentence": "The second silicone tested is a commercially available conductive silicone, Elastosil LR3162 by Wacker [26].",
+      "label": "Other",
+      "prob": 0.7141048312187195
+    },
+    {
+      "sentence": "We ran a preliminary study with 8 participants on a subset of 8 gestures.",
+      "label": "Result",
+      "prob": 0.5578734278678894
+    },
+    {
+      "sentence": "Once cured, we laser cut it to the desired pattern and sealed it into another silicone layer.",
+      "label": "Method",
+      "prob": 0.4855283200740814
+    },
+    {
+      "sentence": "For instance, Figure 13-c shows an adaptive",
+      "label": "Result",
+      "prob": 0.5535476207733154
+    },
+    {
+      "sentence": "The participants then indicated their level of agreement about this afrmation: This surface looks like human skin.",
+      "label": "Result",
+      "prob": 0.6309725046157837
+    },
+    {
+      "sentence": "For instance, some studies proposed to sense bending deformations in exible interactive devices [79, 53, 70, 89].",
+      "label": "Other",
+      "prob": 0.7297735810279846
+    },
+    {
+      "sentence": "Our exploration into simulating human skin properties starts with the replication of its sensory properties.",
+      "label": "Result",
+      "prob": 0.489788293838501
+    },
+    {
+      "sentence": "On the opposite, a grab gesture (Fig. 12-bottom) is characterized by a large blob on a side of the surface (palm) and four ellipses with large eccentricity at the center of the surface (ngers) (Fig. 12-d).",
+      "label": "Result",
+      "prob": 0.647406280040741
+    },
+    {
+      "sentence": "We created two interfaces with two different sizes and thicknesses (9cm x 12cm and 10cm x 14.5cm, thickness 7mm) that can be connected to a device via USB (Figure ?? -top).",
+      "label": "Result",
+      "prob": 0.3980295956134796
+    },
+    {
+      "sentence": "The participants performed 3 practice trials, then 5 test trials, for a total of 8*8*5= 320 tested gestures.",
+      "label": "Result",
+      "prob": 0.6075257062911987
+    },
+    {
+      "sentence": "In a pilot study, we dened the maximum radius (5mm) that a single nger press can have on this surface (Fig. 12-c).",
+      "label": "Result",
+      "prob": 0.6504942178726196
+    },
+    {
+      "sentence": "Strain/Thickness (kinestetic haptic) .",
+      "label": "Other",
+      "prob": 0.6391538977622986
+    },
+    {
+      "sentence": "The results (Figure 6) suggest that the exaggerated sample is less comfortable than the three others (p<0.05).",
+      "label": "Result",
+      "prob": 0.6753222942352295
+    },
+    {
+      "sentence": "It is divided into three primary layers [20]:",
+      "label": "Result",
+      "prob": 0.3709779381752014
+    },
+    {
+      "sentence": "Our rst experiment aims at understanding the impact of pigmentation on the perception of skin human-likeness and comfort, but also at detecting possible negative anthropomorphic effects.",
+      "label": "Objective",
+      "prob": 0.7586227655410767
+    },
+    {
+      "sentence": "We choose this approach for all these reasons.",
+      "label": "Result",
+      "prob": 0.4562433660030365
+    },
+    {
+      "sentence": "We compare their effect on comfort as well as the perception of skin human-likeness.",
+      "label": "Result",
+      "prob": 0.6499096751213074
+    },
+    {
+      "sentence": "Human-centered computing  Interaction devices;  Hardware  Emerging interfaces;",
+      "label": "Other",
+      "prob": 0.7706544399261475
+    },
+    {
+      "sentence": "Then, through three user studies, we investigate how visual factors (color) and haptic factors (texture and thickness) impact user experience, and the perception of realism.",
+      "label": "Result",
+      "prob": 0.4604014456272125
+    },
+    {
+      "sentence": "Next, we explain how we used this material to fabricate our articial skin.",
+      "label": "Method",
+      "prob": 0.3504909574985504
+    },
+    {
+      "sentence": "The result of the anthropomorphism questionnaire (Figure 4-bottom) indicates that beige and brown",
+      "label": "Result",
+      "prob": 0.6711980700492859
+    },
+    {
+      "sentence": "To design the articial skin, we propose a bio-driven approach (illustrated in Figure 2) aiming to replicate the main properties of the human skin.",
+      "label": "Objective",
+      "prob": 0.4170849621295929
+    },
+    {
+      "sentence": "It has a theoretical conductivity of 2  / cm when mixing manually, but we could not get a conductivity under 10k  / cm .",
+      "label": "Result",
+      "prob": 0.7200828194618225
+    },
+    {
+      "sentence": "One of the main uses of smartphones is mediated communication, using text, voice, video, or a combination of them [78, 95].",
+      "label": "Other",
+      "prob": 0.7800728678703308
+    },
+    {
+      "sentence": "We aim to study Skin-On interfaces as an output modality.",
+      "label": "Objective",
+      "prob": 0.6172446608543396
+    },
+    {
+      "sentence": "This work was supported by the Engineering and Physical Sciences Research Council (grant number EPSRC EP/P004342/1, EP/M021882/1, EP/R02961X/1) and the Agence Nationale de la Recherche (ANR-17-CE33-0006 SocialTouch, ANR-16CE330023 GESTURE).",
+      "label": "Other",
+      "prob": 0.6745717525482178
+    },
+    {
+      "sentence": "We apply contour detection to separate distinct elements on the image as blobs .",
+      "label": "Method",
+      "prob": 0.43232569098472595
+    },
+    {
+      "sentence": "Participants naturally compared the 5mm and 10mm with their own skin (respectively hand and forearm) suggesting that these surfaces are the most successful at replicating these skin thickness.",
+      "label": "Result",
+      "prob": 0.8063369393348694
+    },
+    {
+      "sentence": "Non-parametric Friedman tests were conducted followed by post hoc comparison tests for all the questions asked.",
+      "label": "Result",
+      "prob": 0.6383479237556458
+    },
+    {
+      "sentence": "We ensure that the total interface is under 1.2mm.",
+      "label": "Result",
+      "prob": 0.6072442531585693
+    },
+    {
+      "sentence": "Some other work use foam to provide additional thickness to the sensor [83, 58, 10].",
+      "label": "Other",
+      "prob": 0.7040467262268066
+    },
+    {
+      "sentence": "The dermis is the middle layer.",
+      "label": "Result",
+      "prob": 0.4386870563030243
+    },
+    {
+      "sentence": "More generally, our goal is to further explore various types of anthropomorphism towards human-like devices.",
+      "label": "Objective",
+      "prob": 0.8259490132331848
+    },
+    {
+      "sentence": "The nal step is to detect users gestures.",
+      "label": "Method",
+      "prob": 0.5319761633872986
+    },
+    {
+      "sentence": "a) Tactile expression for mediated communication,",
+      "label": "Other",
+      "prob": 0.4988093078136444
+    },
+    {
+      "sentence": "For instance, the perception of our participants changed from Study 1 (visual condition only) to Study 2 (visual and tactile perception) although the same interfaces were used.",
+      "label": "Result",
+      "prob": 0.7603424191474915
+    },
+    {
+      "sentence": "The rst type of application is to use articial skin to augment robot end-effectors to explore objects or interact with them [96, 90].",
+      "label": "Other",
+      "prob": 0.772759199142456
+    },
+    {
+      "sentence": "b) Virtual joystick with micro-interactions,",
+      "label": "Other",
+      "prob": 0.5083969831466675
+    },
+    {
+      "sentence": "For instance, nger tips (2.3mm) are more sensitive than the calf (45mm) [102].",
+      "label": "Other",
+      "prob": 0.7717860341072083
+    },
+    {
+      "sentence": "While, so far, we have focused on conveying different types of information with Skin-On interfaces, our future aim is to perceive affect through articial skin to reinforce engagement between interaction partners.",
+      "label": "Objective",
+      "prob": 0.7903719544410706
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.8195109367370605
+    },
+    {
+      "sentence": "Virtual agent embodiment .",
+      "label": "Other",
+      "prob": 0.7159234285354614
+    },
+    {
+      "sentence": "Once dry, the conductivity was about 500k  / cm .",
+      "label": "Result",
+      "prob": 0.48250827193260193
+    },
+    {
+      "sentence": "Study 1: Replicating pigmentation",
+      "label": "Other",
+      "prob": 0.5253220796585083
+    },
+    {
+      "sentence": "Choosing the electrodes material",
+      "label": "Other",
+      "prob": 0.5712032318115234
+    },
+    {
+      "sentence": "In the next experiment, we use the texture with small pores.",
+      "label": "Result",
+      "prob": 0.5094910860061646
+    },
+    {
+      "sentence": "Additional Skin-On interfaces form factors .",
+      "label": "Other",
+      "prob": 0.4883851706981659
+    },
+    {
+      "sentence": "We assemble the insights from these three steps and present the implementation of several Skin-On interfaces and applications to demonstrate the added value of our approach (see Figure 1 for examples).",
+      "label": "Result",
+      "prob": 0.5533137321472168
+    },
+    {
+      "sentence": "To better understand which are the desirable properties of the human skin to reproduce within articial skin, we looked through the Biology literature [20, 36, 38] and gathered information about the visual, haptic and sensing properties of the skin (described below).",
+      "label": "Method",
+      "prob": 0.514478325843811
+    },
+    {
+      "sentence": "Thus, we discarded this solution.",
+      "label": "Result",
+      "prob": 0.5274077653884888
+    },
+    {
+      "sentence": "Another approach to implement On-skin interfaces without the need for additional overlays is to use optical tracking to detect gestures directly on the user skin [15, 30, 101, 87, 97, 28, 50, 61].",
+      "label": "Other",
+      "prob": 0.7686067819595337
+    },
+    {
+      "sentence": "To ensure an even spacing between the electrodes, we laser cut guide holes on the edge of the acrylic plate and then sew the thread, following the holes (Figure 10-2).",
+      "label": "Method",
+      "prob": 0.45922330021858215
+    },
+    {
+      "sentence": "We also tested the solutions described below before choosing to use conductive thread.",
+      "label": "Result",
+      "prob": 0.5767825841903687
+    },
+    {
+      "sentence": "We see several directions to investigate other form factors.",
+      "label": "Result",
+      "prob": 0.700441837310791
+    },
+    {
+      "sentence": "Mobile tactile expression.",
+      "label": "Other",
+      "prob": 0.7567891478538513
+    },
+    {
+      "sentence": "We thus discarded this solution.",
+      "label": "Result",
+      "prob": 0.5539061427116394
+    },
+    {
+      "sentence": "Finally, the results did not suggest that the two human skin colors are perceived signicantly looking less comfortable than the other colors.",
+      "label": "Result",
+      "prob": 0.7989982962608337
+    },
+    {
+      "sentence": "We developed an Open Source and Open Hardware multitouch controller 1 with a total cost of $4.",
+      "label": "Other",
+      "prob": 0.5601575970649719
+    },
+    {
+      "sentence": "Skin-On Wristband",
+      "label": "Other",
+      "prob": 0.7442002892494202
+    },
+    {
+      "sentence": "In particular, we excluded solutions such as depositing of hard conductive particles or liquid conductive metal in a microuidic channel [57, 54].",
+      "label": "Other",
+      "prob": 0.7585307955741882
+    },
+    {
+      "sentence": "Our results suggest that users tend to transpose the interactions they are doing with real skin to articial skin, and that articial skin leverages the expressive gestures and tactile expressions of pro-social emotions.",
+      "label": "Result",
+      "prob": 0.8490935564041138
+    },
+    {
+      "sentence": "b) Communication with a virtual agent.",
+      "label": "Result",
+      "prob": 0.46239805221557617
+    },
+    {
+      "sentence": "The two-point discrimination threshold of our prototype is 10mm, which is better, in average, than with the human skin [102].",
+      "label": "Other",
+      "prob": 0.685920238494873
+    },
+    {
+      "sentence": "Uncanny Valley .",
+      "label": "Other",
+      "prob": 0.8335988521575928
+    },
+    {
+      "sentence": "We implemented a pressure-based menu.",
+      "label": "Method",
+      "prob": 0.5138163566589355
+    },
+    {
+      "sentence": "Non-parametric Friedman tests were conducted followed by post hoc comparison tests for all the questions asked and found a main effect on the look alike question (chi-square = 7.4, p<0.05).",
+      "label": "Result",
+      "prob": 0.7030746936798096
+    },
+    {
+      "sentence": "We choose to implement our sensor using a matrix layout sensing mutual capacitance.",
+      "label": "Method",
+      "prob": 0.4665643274784088
+    },
+    {
+      "sentence": "on these receptors, the skin spatial acuity varies from 2.3 mm inside the palm, 7mm on the forearm up to 15mm on the thigh [102, 96, 88].",
+      "label": "Other",
+      "prob": 0.795996904373169
+    },
+    {
+      "sentence": "To minimize the background noise, we perform an initial calibration.",
+      "label": "Method",
+      "prob": 0.4916882812976837
+    },
+    {
+      "sentence": "They can also detect multi-touch gestures, using for instance mutual capacitance sensing [59, 110].",
+      "label": "Other",
+      "prob": 0.8314242959022522
+    },
+    {
+      "sentence": "2019 Copyright held by the owner/author(s).",
+      "label": "Other",
+      "prob": 0.8682994246482849
+    },
+    {
+      "sentence": "Advanced gesture detection.",
+      "label": "Other",
+      "prob": 0.7515106797218323
+    },
+    {
+      "sentence": "Further tests are needed to evaluate the robustness of our system.",
+      "label": "Result",
+      "prob": 0.7489903569221497
+    },
+    {
+      "sentence": "Conductive threads .",
+      "label": "Other",
+      "prob": 0.36541929841041565
+    },
+    {
+      "sentence": "1. Creating the top textured layer .",
+      "label": "Result",
+      "prob": 0.38447892665863037
+    },
+    {
+      "sentence": "2. Positioning the electrodes .",
+      "label": "Result",
+      "prob": 0.4687880575656891
+    },
+    {
+      "sentence": "An effect was found for each: comfortable (Chi-square = 21.8, p<0.05); feels like human (Chi-square = 12.3, p<0.05); and looks like human (Chi-square = 18.6, p<0.05).",
+      "label": "Result",
+      "prob": 0.699255645275116
+    },
+    {
+      "sentence": "Conductive fabric.",
+      "label": "Other",
+      "prob": 0.48615744709968567
+    },
+    {
+      "sentence": "We then present our fabrication method and nish by presenting our hardware/software open toolkit that enables controlling the sensing layer, and demonstrate how we can detect the previously dened gestures.",
+      "label": "Result",
+      "prob": 0.4449327886104584
+    },
+    {
+      "sentence": "Engagement in a social interaction can be dened as \"the value that a participant in an interaction attributes to the goal of being together with the other participant(s) and of continuing the interaction\" [67].",
+      "label": "Other",
+      "prob": 0.8598790764808655
+    },
+    {
+      "sentence": "We tested two conductive silicones.",
+      "label": "Result",
+      "prob": 0.6151939034461975
+    },
+    {
+      "sentence": "We considered two realistic human skin samples (Fig.",
+      "label": "Result",
+      "prob": 0.42320650815963745
+    },
+    {
+      "sentence": "the sensing layer.",
+      "label": "Result",
+      "prob": 0.40132224559783936
+    },
+    {
+      "sentence": "Skin-On devices form factors",
+      "label": "Other",
+      "prob": 0.7372503280639648
+    },
+    {
+      "sentence": "An effect was found on the following questions: interactive (Chi-square = 13.6, p<0.05) and looks like human (Chi-square = 36, p<0.05).",
+      "label": "Result",
+      "prob": 0.7408784031867981
+    },
+    {
+      "sentence": "3. From a sensing point of view, we analyze different fabrication methods to create a silicone layer that can track the previously dened gestures with a spatial acuity comparable to human skin.",
+      "label": "Result",
+      "prob": 0.5508719682693481
+    },
+    {
+      "sentence": "We use Ecoex Gel [85] for the hypodermis layer where we can manipulate its thickness and strain, a highly soft and exible silicone presenting mechanical properties close to human fat [98, 25].",
+      "label": "Other",
+      "prob": 0.6516491174697876
+    },
+    {
+      "sentence": "We built a Skin-On smartphone case (Figure ?? -bottom) providing advanced input and output capabilities on the back and side of a mobile device [47, 11, 80].",
+      "label": "Other",
+      "prob": 0.7271434664726257
+    },
+    {
+      "sentence": "ndings corroborate with the gestures proposed in existing literature surveys [100, 33, 32].",
+      "label": "Other",
+      "prob": 0.7478125095367432
+    },
+    {
+      "sentence": "We then present the applications we developed for these prototypes.",
+      "label": "Result",
+      "prob": 0.6257522106170654
+    },
+    {
+      "sentence": "Although preliminary, these results are promising and demonstrate the feasibility of our approach.",
+      "label": "Result",
+      "prob": 0.8291643261909485
+    },
+    {
+      "sentence": "4. Connecting the electronics.",
+      "label": "Other",
+      "prob": 0.5916318297386169
+    },
+    {
+      "sentence": "Our sensory exploration let us to form a series of guidelines for mimicking human skin for an interactive setup: for the pigmentation using a skin-like color; for the texture using a realistic skin pore and wrinkle structure; for the thickness , using a fat layer of 5mm to 10mm and a dermis of 1.2mm.",
+      "label": "Method",
+      "prob": 0.6657529473304749
+    },
+    {
+      "sentence": "The design was similar to study 1.",
+      "label": "Result",
+      "prob": 0.693628191947937
+    },
+    {
+      "sentence": "We also explored conductive fabric, which is used in the DIY wearable community [17].",
+      "label": "Other",
+      "prob": 0.5561158657073975
+    },
+    {
+      "sentence": "The results suggest that the two human skin colors (beige and brown) better communicate interactivity than the others (p<0.05), in particular the usual white/black device pigmentation.",
+      "label": "Result",
+      "prob": 0.8875380158424377
+    },
+    {
+      "sentence": "Conductive silicone .",
+      "label": "Other",
+      "prob": 0.7408607006072998
+    },
+    {
+      "sentence": "Technical evaluations .",
+      "label": "Result",
+      "prob": 0.5782451629638672
+    },
+    {
+      "sentence": "Its properties (e.g. size, stretchability, etc.) motivated HCI researchers to develop OnSkin technologies to allow users to interact directly with their own skin [30, 59, 101].",
+      "label": "Other",
+      "prob": 0.8441484570503235
+    },
+    {
+      "sentence": "For example Follmer et al.",
+      "label": "Other",
+      "prob": 0.8820331692695618
+    },
+    {
+      "sentence": "Conductive ink .",
+      "label": "Other",
+      "prob": 0.6923615336418152
+    },
+    {
+      "sentence": "of the user.",
+      "label": "Other",
+      "prob": 0.718708336353302
+    },
+    {
+      "sentence": "d) a pressure menu",
+      "label": "Other",
+      "prob": 0.655147135257721
+    },
+    {
+      "sentence": "ISBN 978-1-4503-6816-2/19/10..",
+      "label": "Other",
+      "prob": 0.9152526259422302
+    },
+    {
+      "sentence": "strength of twist.",
+      "label": "Other",
+      "prob": 0.6786341667175293
+    },
+    {
+      "sentence": "Request permissions from permissions@acm.org.",
+      "label": "Other",
+      "prob": 0.9176304936408997
+    },
+    {
+      "sentence": "The results are illustrated on Figure 4-top.",
+      "label": "Result",
+      "prob": 0.8086934089660645
+    },
+    {
+      "sentence": "of a month.",
+      "label": "Other",
+      "prob": 0.6187559366226196
+    },
+    {
+      "sentence": "Figure 13.",
+      "label": "Result",
+      "prob": 0.5157054662704468
+    },
+    {
+      "sentence": "Study 2: Replicating texture",
+      "label": "Other",
+      "prob": 0.5520581603050232
+    },
+    {
+      "sentence": "Figure 14.",
+      "label": "Result",
+      "prob": 0.5468920469284058
+    },
+    {
+      "sentence": "Figure 5 illustrates the four samples of texture we compared.",
+      "label": "Result",
+      "prob": 0.8110579252243042
+    },
+    {
+      "sentence": "Results of study 2",
+      "label": "Result",
+      "prob": 0.6927782297134399
+    },
+    {
+      "sentence": "We found that the human skin affords two main types of gestures: gestures of mediated communication between individuals from the social literature [33, 32] and traditional 2D multi-touch gestures, for interface control though extracted from On-Skin literature [100].",
+      "label": "Other",
+      "prob": 0.6695787310600281
+    },
+    {
+      "sentence": "The overall recognition rate was 85% (Light Press: 100%, Hard Press: 100%, Sustained Hand Contact: 88%, Stretch: 83%, Pinch: 80%, Stroke: 80%, Tickling: 78%, Slap: 73%).",
+      "label": "Result",
+      "prob": 0.6604912281036377
+    },
+    {
+      "sentence": "Acuity (sensing) .",
+      "label": "Other",
+      "prob": 0.876785933971405
+    },
+    {
+      "sentence": "Touch accuracy.",
+      "label": "Other",
+      "prob": 0.5678432583808899
+    },
+    {
+      "sentence": "The thickness of the top layers (epidermis+dermis) is 1.2mm as it is the average value of the dermis over the body [49, 91].",
+      "label": "Other",
+      "prob": 0.8113657832145691
+    },
+    {
+      "sentence": "3. Adding the hypodermis.",
+      "label": "Other",
+      "prob": 0.4422045648097992
+    },
+    {
+      "sentence": "For the hypodermis thickness, we considered four values corresponding to different body areas: 2mm (face [74]), 5mm , 10mm (forearm [37]), 17mm (mean body [39]).",
+      "label": "Other",
+      "prob": 0.7505477666854858
+    },
+    {
+      "sentence": "Figure 7 illustrates the four different skin thicknesses we compared.",
+      "label": "Result",
+      "prob": 0.8326056599617004
+    },
+    {
+      "sentence": "For each sample, participants indicated their levels of agreement regarding the three following afrmations, using a 5-point Likert scale: This interface looks like an interactive device ; This surface looks like human skin ; It looks comfortable touching this surface .",
+      "label": "Result",
+      "prob": 0.7999869585037231
+    },
+    {
+      "sentence": "After each, participants indicated their level of agreement regarding the following afrmations with a 5-point Likert Scale: It was comfortable doing gestures on this sample ; It was easy doing gestures on this sample ; This surface feels like human skin .",
+      "label": "Result",
+      "prob": 0.7624013423919678
+    },
+    {
+      "sentence": "Publication rights licensed to ACM.",
+      "label": "Other",
+      "prob": 0.9333989024162292
+    },
+    {
+      "sentence": "Figure 8 illustrates the results.",
+      "label": "Result",
+      "prob": 0.8358173370361328
+    },
+    {
+      "sentence": "Gesture detection pilot study.",
+      "label": "Other",
+      "prob": 0.5717219710350037
+    },
+    {
+      "sentence": "Parzer et al.",
+      "label": "Other",
+      "prob": 0.9222177863121033
+    },
+    {
+      "sentence": "CCS Concepts",
+      "label": "Other",
+      "prob": 0.9145587086677551
+    },
+    {
+      "sentence": "5. Shaping the Skin-On.",
+      "label": "Other",
+      "prob": 0.5661606192588806
+    },
+    {
+      "sentence": "After each sample, participants indicated their level of agreement about the two following afrmations using a 5-point Likert scale: Touching this surface feels comfortable ; This surface feels like human skin .",
+      "label": "Result",
+      "prob": 0.8862485289573669
+    },
+    {
+      "sentence": "ACKNOWLEDGEMENT",
+      "label": "Other",
+      "prob": 0.8979446887969971
+    },
+    {
+      "sentence": "Author Keywords",
+      "label": "Other",
+      "prob": 0.9486260414123535
+    }
+  ]
+}

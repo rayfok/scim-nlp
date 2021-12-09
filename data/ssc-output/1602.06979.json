@@ -1,0 +1,1684 @@
+{
+  "1602.06979": [
+    {
+      "sentence": "As social computing and computational social science researchers have gained access to large textual datasets, they have increasingly adopted analyses that cover a wide range of textual signal.",
+      "label": "Background",
+      "prob": 0.9437336921691895
+    },
+    {
+      "sentence": "Further, many potentially useful categories like violence or social media dont exist in current lexicons, requiring the ad hoc curation and validation of new gold standard word lists.",
+      "label": "Background",
+      "prob": 0.9339616298675537
+    },
+    {
+      "sentence": "Two lexicons can be statistically similar on the basis of word counts, and yet one might be easier to interpret than the other, offer more representative words, or present fewer false positives or negatives.",
+      "label": "Background",
+      "prob": 0.9245753288269043
+    },
+    {
+      "sentence": "Other work in human-computer interaction has relied upon text analysis tools to build new interactive systems.",
+      "label": "Background",
+      "prob": 0.9191182255744934
+    },
+    {
+      "sentence": "For example, Holms method and FDR are often used in statistical genomics to test thousands of hypotheses.",
+      "label": "Background",
+      "prob": 0.9117428064346313
+    },
+    {
+      "sentence": "For instance, uglyness is 1.4 times more likely to appear in a negative review, swear words are 1.3 times more likely, and pain is 1.3 times more likely.",
+      "label": "Background",
+      "prob": 0.9102292060852051
+    },
+    {
+      "sentence": "Empaths ability to generate lexical categories on demand potentially enables new interactive systems, cued on nuanced emotional signals like jealousy , or diverse topics that t the new domain.",
+      "label": "Background",
+      "prob": 0.9089885354042053
+    },
+    {
+      "sentence": "While EmoLex and GI are commonly regarded as gold standards, they correlate imperfectly with LIWC.",
+      "label": "Background",
+      "prob": 0.906575083732605
+    },
+    {
+      "sentence": "But like other popular lexicons, LIWC is small: it has only 40 topical and emotional categories, many of which contain fewer than 100 words.",
+      "label": "Background",
+      "prob": 0.8950213193893433
+    },
+    {
+      "sentence": "Empath, like any data-driven system, is ultimately at the mercy of its data  garbage in, garbage out.",
+      "label": "Background",
+      "prob": 0.8948423266410828
+    },
+    {
+      "sentence": "Empath takes advantage of recent advances in deep learning to discover category terms in an unsupervised fashion (Figure 3).",
+      "label": "Background",
+      "prob": 0.8939443826675415
+    },
+    {
+      "sentence": "At scale, the cost of crowdsourcing new lexicons is expensive.",
+      "label": "Background",
+      "prob": 0.8849394917488098
+    },
+    {
+      "sentence": "Further, Empath itself captures a set of relations on the topical and emotional connotations of words.",
+      "label": "Background",
+      "prob": 0.8813471794128418
+    },
+    {
+      "sentence": "Other categories may benet from updating with modern terms like paypal for money or sele for leisure .",
+      "label": "Background",
+      "prob": 0.874523401260376
+    },
+    {
+      "sentence": "In sum, Empath shares high correlation with gold standard lexicons, yet it also offers analyses over a broad and dynamic set of categories.",
+      "label": "Background",
+      "prob": 0.8730089664459229
+    },
+    {
+      "sentence": "This corpus contains more than 1.8 billion words of ction written by hundreds of thousands of authors.",
+      "label": "Background",
+      "prob": 0.8708230257034302
+    },
+    {
+      "sentence": "As we gain access to ever larger and more diverse datasets, it becomes important to scale our ability to conduct such analyses with breadth and accuracy.",
+      "label": "Background",
+      "prob": 0.8683823347091675
+    },
+    {
+      "sentence": "However, Empath covers a broader set of categories than other tools, and users can generate and validate new categories with a few seed words.",
+      "label": "Background",
+      "prob": 0.8579568862915039
+    },
+    {
+      "sentence": "For the liars interactions seem to be more evocative, involving death (1.6 odds) or partying (1.3 odds).",
+      "label": "Background",
+      "prob": 0.8560027480125427
+    },
+    {
+      "sentence": "For example, death is seeded with the words bury, cofn, kill, and corpse.",
+      "label": "Background",
+      "prob": 0.8530181050300598
+    },
+    {
+      "sentence": "Fiction may suffer from the overly fanciful plot events and motifs that surround death (e.g. suffocation, torture), but it captures more relevant words around most categories.",
+      "label": "Background",
+      "prob": 0.8505853414535522
+    },
+    {
+      "sentence": "And like LIWC (but unlike other machine learning models), Empaths contents are validated by humans.",
+      "label": "Background",
+      "prob": 0.846309244632721
+    },
+    {
+      "sentence": "out of gloveboxes, for example, does not mean the two should be strongly connected in Empaths categories.",
+      "label": "Background",
+      "prob": 0.8455744981765747
+    },
+    {
+      "sentence": "Empaths design decisions suggest a set of limitations, many of which we hope to address in future work.",
+      "label": "Background",
+      "prob": 0.8439760804176331
+    },
+    {
+      "sentence": "In the case of regression analysis, it is likewise important not to do so-called garbage can regressions that include every possible predictor.",
+      "label": "Background",
+      "prob": 0.8432779908180237
+    },
+    {
+      "sentence": "This may speak to the limited inuence of ction bias.",
+      "label": "Background",
+      "prob": 0.8366299271583557
+    },
+    {
+      "sentence": "imaginatively, use less concrete language, and incorporate less spatial information into their lies.",
+      "label": "Background",
+      "prob": 0.8356284499168396
+    },
+    {
+      "sentence": "Empath combines modern NLP techniques with the benets of handmade lexicons: its categories are transparent word lists, easily extended and fast.",
+      "label": "Background",
+      "prob": 0.835594117641449
+    },
+    {
+      "sentence": "At a higher level, the number and kinds of categories available in Empath present a related concern.",
+      "label": "Background",
+      "prob": 0.8341983556747437
+    },
+    {
+      "sentence": "While ction allows Empath to learn an approximation of the gold-standard categories that dene tools like LIWC, its data-driven reasoning may succeed less well on corner cases of analysis and connotation.",
+      "label": "Background",
+      "prob": 0.833737313747406
+    },
+    {
+      "sentence": "For example, when a researcher provides shirt and hat as seed words, ConceptNet tells us shirts and hats are articles of clothing .",
+      "label": "Background",
+      "prob": 0.8328359723091125
+    },
+    {
+      "sentence": "From a small seed of words, Empath can gather hundreds of terms related to a given category, and then use these terms for textual analysis.",
+      "label": "Background",
+      "prob": 0.8296644687652588
+    },
+    {
+      "sentence": "Positive reviews tend to co-occur with the deeper organizing principals of human life, like politics (1.4 odds), philosophy (1.4 odds), and law (1.3 odds)  possibly indicating the interests of lm reviewers.",
+      "label": "Background",
+      "prob": 0.8265954256057739
+    },
+    {
+      "sentence": "High quality lexicons allow us to analyze language at scale and across a broad range of signals.",
+      "label": "Background",
+      "prob": 0.8244785666465759
+    },
+    {
+      "sentence": "Truth-tellers use more spatial language, for example, the room that we originally were in had a huge square cut out of the wall that had exposed pipes, bricks, dirt and dust.",
+      "label": "Background",
+      "prob": 0.8193564414978027
+    },
+    {
+      "sentence": "For example, researchers have learned sentiment models from the relationships between words [14], classied the polarity of reviews in an unsupervised fashion",
+      "label": "Background",
+      "prob": 0.8181871771812439
+    },
+    {
+      "sentence": "Mining an online fashion forum, for example, might allow Empath to learn a more comprehensive sense of style , or Hacker News might give it a more nuanced view of technology and startups .",
+      "label": "Background",
+      "prob": 0.8145120739936829
+    },
+    {
+      "sentence": "Finally, while ction provides a powerful model for generating lexical categories, we have also seen that, for certain topics (e.g. death in Google News), other corpora may have even greater potential.",
+      "label": "Background",
+      "prob": 0.812067449092865
+    },
+    {
+      "sentence": "Fortunately, LIWC has been extensively validated by researchers [33], so we can use it to benchmark Empaths predictions across the categories that they share in common.",
+      "label": "Background",
+      "prob": 0.8101551532745361
+    },
+    {
+      "sentence": "In depth, its user-dened categories provide a exible means by which researchers can ask domain-specic questions.",
+      "label": "Background",
+      "prob": 0.806645929813385
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than ACM must be honored.",
+      "label": "Background",
+      "prob": 0.8063931465148926
+    },
+    {
+      "sentence": "Truthful reviews, on the other hand, display higher odds ratios for none of Empaths emotional categories.",
+      "label": "Background",
+      "prob": 0.8043175339698792
+    },
+    {
+      "sentence": "For example, the word self-harming shares high cosine similarity with the categories depressed and pain .",
+      "label": "Background",
+      "prob": 0.8015125393867493
+    },
+    {
+      "sentence": "the terms in its categories  word lists that, for example, relate scream and war to the emotion anger .",
+      "label": "Background",
+      "prob": 0.7989376187324524
+    },
+    {
+      "sentence": "Text analysis via dictionary categories has a long history in academic research.",
+      "label": "Background",
+      "prob": 0.7967500686645508
+    },
+    {
+      "sentence": "For exploratory research questions, Empath provides a highlevel view over many potential categories, some of which a researcher may not have thought to investigate.",
+      "label": "Background",
+      "prob": 0.7940657734870911
+    },
+    {
+      "sentence": "looks like a rather fatty side of cheap ank steak, or anything to avoid this painful movie.",
+      "label": "Background",
+      "prob": 0.7863416075706482
+    },
+    {
+      "sentence": "Because Empath expands the number of categories available for analysis, it is important to consider the risk of a scientist analyzing so many categories that one of them, through sheer randomness, appears to be elevated in the text.",
+      "label": "Background",
+      "prob": 0.7736652493476868
+    },
+    {
+      "sentence": "context C of a word is determined by a sliding window over the document, of a size typically in (0,7).",
+      "label": "Background",
+      "prob": 0.7652267217636108
+    },
+    {
+      "sentence": "To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specic permission and/or a fee.",
+      "label": "Background",
+      "prob": 0.7615484595298767
+    },
+    {
+      "sentence": "In aggregate, liars are not as apt in these concrete details.",
+      "label": "Background",
+      "prob": 0.7606157064437866
+    },
+    {
+      "sentence": "Even more surprisingly, the crowd does not always improve agreement at the level of individual categories.",
+      "label": "Background",
+      "prob": 0.7584682703018188
+    },
+    {
+      "sentence": "When we removed kill from the death s seed list, Empath lost the adversarial aspects of death (embodied in words like war, execute, or murder) and fell to 0.82 correlation with LIWC for that category.",
+      "label": "Background",
+      "prob": 0.7567626237869263
+    },
+    {
+      "sentence": "On thresholds above weakly related, Turkers tended to discard many more terms, increasing category precision at the cost of much lower recall and hurting overall performance.",
+      "label": "Background",
+      "prob": 0.7555434703826904
+    },
+    {
+      "sentence": "Work in sentiment analysis, in combination with deep learning, has developed powerful techniques to classify text across positive and negative polarity [39], but has also beneted from simpler, transparent models and rules [15].",
+      "label": "Background",
+      "prob": 0.753141462802887
+    },
+    {
+      "sentence": "Given a set of seed terms, Empath learns from a large corpus of text to predict and validate hundreds of similar categorical terms.",
+      "label": "Background",
+      "prob": 0.7503966093063354
+    },
+    {
+      "sentence": "On the other hand, replacing seeds with alternative forms or synonyms (e.g., hate to hatred, or kill to murder) usually had little impact on Empaths correlations with LIWC.",
+      "label": "Background",
+      "prob": 0.7486736178398132
+    },
+    {
+      "sentence": "In breadth, Empath offers hundreds of predened lenses through which researchers can analyze text.",
+      "label": "Background",
+      "prob": 0.7347450256347656
+    },
+    {
+      "sentence": "The previous sentence, for example, conveys connotations of wealth (rich), cleverness (subtle), communication (language, signals), and positive sentiment (rich).",
+      "label": "Background",
+      "prob": 0.7338786721229553
+    },
+    {
+      "sentence": "LIWC offers many advantages: it is fast, easy to interpret, and extensively validated.",
+      "label": "Background",
+      "prob": 0.7313007712364197
+    },
+    {
+      "sentence": "Empath contributes a different perspective, that ction can be an appropriate tool for learning a breadth of topical and emotional categories, to the benet of social science.",
+      "label": "Background",
+      "prob": 0.7295185923576355
+    },
+    {
+      "sentence": "The General Inquirer (GI) is another human curated dictionary that operates over a broader set of topics than LIWC",
+      "label": "Background",
+      "prob": 0.729365885257721
+    },
+    {
+      "sentence": "For example, lust is dened by desire, passion, and infatuation, so these",
+      "label": "Background",
+      "prob": 0.728836715221405
+    },
+    {
+      "sentence": "For example, the network might learn that death predicts a nearby occurrence of the word carrion, but not of incest.",
+      "label": "Background",
+      "prob": 0.7184054851531982
+    },
+    {
+      "sentence": "Fiction is lled with emotion and description  it is what gives novels their appeal.",
+      "label": "Background",
+      "prob": 0.7177731990814209
+    },
+    {
+      "sentence": "Human-validated categories can ensure that accidental terms do not slip into a lexicon.",
+      "label": "Background",
+      "prob": 0.7120444178581238
+    },
+    {
+      "sentence": "The open source library 4 is written in Python and similarly returns document counts across Empaths built-in validated categories.",
+      "label": "Background",
+      "prob": 0.7104150652885437
+    },
+    {
+      "sentence": "Empath inherits from a rich ecosystem of tools and applications for text analysis, and draws on the insights of prior work in data mining and unsupervised language modeling.",
+      "label": "Background",
+      "prob": 0.7050501108169556
+    },
+    {
+      "sentence": "Empath allows researchers to generate and validate new lexical categories on demand, using a combination of deep learning and crowdsourcing.",
+      "label": "Background",
+      "prob": 0.701980471611023
+    },
+    {
+      "sentence": "Empath generates these category terms by querying a vector space model (VSM) trained by a neural network on a large corpus of text.",
+      "label": "Background",
+      "prob": 0.6998115181922913
+    },
+    {
+      "sentence": "VSMs encode concepts as vectors, where each dimension of the vector v  R n conveys a feature relevant to the concept.",
+      "label": "Background",
+      "prob": 0.6985161900520325
+    },
+    {
+      "sentence": "A large body of prior work has investigated unsupervised language modeling.",
+      "label": "Background",
+      "prob": 0.6950141787528992
+    },
+    {
+      "sentence": "This mixed corpus contains more than 2 million words in total across 4500 individual documents.",
+      "label": "Background",
+      "prob": 0.6897671222686768
+    },
+    {
+      "sentence": "For example, no matter how shiny the supercial sheen is, this is still trash , and, like all garbage , it stinks , or a punchdrunk mess of a movie, or no free popcorn coupon can ever restore to us the time weve spent or wash the awful images from our mind.",
+      "label": "Background",
+      "prob": 0.6893736124038696
+    },
+    {
+      "sentence": "Just because ctional characters often pull guns",
+      "label": "Background",
+      "prob": 0.6881406903266907
+    },
+    {
+      "sentence": "Similarly, positive reviews are associated with more positively charged categories: beauty is 1.8 times more likely to appear in a positive review, joy is 1.5 times more likely, and pride is 1.4 times more likely.",
+      "label": "Background",
+      "prob": 0.6875734925270081
+    },
+    {
+      "sentence": "To validate 200 categories naively over 5,000 words would cost $21,000, assuming 14 cents a task.",
+      "label": "Background",
+      "prob": 0.684508740901947
+    },
+    {
+      "sentence": "After enough training, the network learns a deep representation of each word that is predictive of its context.",
+      "label": "Background",
+      "prob": 0.6797329187393188
+    },
+    {
+      "sentence": "For example, given the topic WAR, the words sword andtank would be strongly related , the word government would be related , the word tactics would be weakly related , and the words house and desk would be unrelated .",
+      "label": "Background",
+      "prob": 0.6766815185546875
+    },
+    {
+      "sentence": "Like LIWC and other dictionary-based tools, it counts category terms in a text document.",
+      "label": "Background",
+      "prob": 0.6712334752082825
+    },
+    {
+      "sentence": "In doing so, it provides both broader and deeper forms of text analysis than existing tools.",
+      "label": "Background",
+      "prob": 0.6706710457801819
+    },
+    {
+      "sentence": "The original paper shows a low of negative sentiment in the morning that rises over the rest of the day.",
+      "label": "Background",
+      "prob": 0.6697271466255188
+    },
+    {
+      "sentence": "In general, Empath allows researchers to perform text analyses over a broader set of topical and emotional categories than existing tools, and also to create and validate new categories on demand.",
+      "label": "Background",
+      "prob": 0.6696460843086243
+    },
+    {
+      "sentence": "Empath : a text analysis tool that allows users to construct and validate new categories on demand using a few seed terms.",
+      "label": "Background",
+      "prob": 0.6667726039886475
+    },
+    {
+      "sentence": "The truthtellers more often discuss concrete ideas and phenomena like the ocean (1.6 odds,), vehicles (1.7 odds) or noises (1.7 odds), for example It seemed like a nice enough place with reasonably close beach access or they took forever to Valet our car .",
+      "label": "Background",
+      "prob": 0.6635164618492126
+    },
+    {
+      "sentence": "For example, researchers often use LIWC (Linguistic Inquiry and Word Count) to analyze social media posts, counting words in lexical categories like sadness , health , and positive emotion [33].",
+      "label": "Background",
+      "prob": 0.6614411473274231
+    },
+    {
+      "sentence": "For emotional analyses, Empath likewise draws upon the hierarchy of emotions introduced by Parrott [36], in which emotions are dened by other emotions.",
+      "label": "Background",
+      "prob": 0.6598756313323975
+    },
+    {
+      "sentence": "To do so, we tell Empath to seed the category with the terms big, small, and circular.",
+      "label": "Background",
+      "prob": 0.6588975191116333
+    },
+    {
+      "sentence": "These questions are ever changing, as is our use of language.",
+      "label": "Background",
+      "prob": 0.6561270356178284
+    },
+    {
+      "sentence": "In this case, models that penalize complexity (e.g., non-zero coefcients) are most appropriate, for example LASSO or logistic regression with an L1 penalty.",
+      "label": "Background",
+      "prob": 0.65181964635849
+    },
+    {
+      "sentence": "It also covers a broad, pre-validated set of 200 emotional and topical categories.",
+      "label": "Background",
+      "prob": 0.651523768901825
+    },
+    {
+      "sentence": "This VSM allows Empath to examine the similarity between words across many dimensions of meaning.",
+      "label": "Background",
+      "prob": 0.6447781920433044
+    },
+    {
+      "sentence": "For each of these words, workers select a relationship on a four point scale: not related, weakly related, related, and strongly related.",
+      "label": "Background",
+      "prob": 0.6444517970085144
+    },
+    {
+      "sentence": "The party that keeps you awake will not be your favorite band practicing for their next concert .",
+      "label": "Background",
+      "prob": 0.6428160667419434
+    },
+    {
+      "sentence": "For example, given seed words like facebook and twitter, Empath nds related terms like pinterest and sele.",
+      "label": "Background",
+      "prob": 0.6370987296104431
+    },
+    {
+      "sentence": "For example, a wonderfully expressive speaking voice full of youthful vigor, and gorgeous singing voice, or its the triumph of Secrets & Lies, then, that it goes beyond gestures of sympathy for the common people.",
+      "label": "Background",
+      "prob": 0.6265334486961365
+    },
+    {
+      "sentence": "Empath also analyzes text across 200 builtin, pre-validated categories drawn from existing knowledge bases and literature on human emotions, like neglect (deprive, refusal), government (embassy, democrat), strength (tough, forceful), and technology (ipad, android).",
+      "label": "Background",
+      "prob": 0.6256260275840759
+    },
+    {
+      "sentence": "Where v is the embedding function, c is the name a category, and S is a set of seed words that belong to the category.",
+      "label": "Background",
+      "prob": 0.619320809841156
+    },
+    {
+      "sentence": "We prefer this approach to a purely manual one as it can potentially scale to thousands of other new categories.",
+      "label": "Background",
+      "prob": 0.6188390254974365
+    },
+    {
+      "sentence": "The broad reach of our dataset allows Empath to classify documents among a large number of categories.",
+      "label": "Background",
+      "prob": 0.6179450750350952
+    },
+    {
+      "sentence": "The network uses a hidden layer of 150 neurons (which denes the dimensionality of the embedding space), a sliding window size of ve, a minimum word count of thirty (i.e., a word must occur at least thirty times to appear in the training set), negative sampling, and down-sampling of frequent terms.",
+      "label": "Background",
+      "prob": 0.6149110794067383
+    },
+    {
+      "sentence": "Language is rich in subtle signals.",
+      "label": "Background",
+      "prob": 0.6016227602958679
+    },
+    {
+      "sentence": "The dependency relationships in ConceptNet provide a hierarchy of information and facts that act as a source of category names and seed words for Empath (e.g., war is a form of conict , running is a form of exercise ).",
+      "label": "Background",
+      "prob": 0.6005723476409912
+    },
+    {
+      "sentence": "Other tools like EmoLex, ANEW, and SentiWordNet are designed to analyze larger sets of emotional categories [27, 3, 9].",
+      "label": "Background",
+      "prob": 0.5937877893447876
+    },
+    {
+      "sentence": "Alternatively, negative reviews adopt what appear to be metaphorical connections to animals (1.5 odds), cleaning (1.3 odds), smell (1.2 odds) and alcohol (1.2 odds).",
+      "label": "Background",
+      "prob": 0.5892041325569153
+    },
+    {
+      "sentence": "We dene and ignore stopwords as words with logadjusted probability greater than -8, according to the spaCy NLP toolkit.",
+      "label": "Background",
+      "prob": 0.5870352983474731
+    },
+    {
+      "sentence": "Human inspection and crowd ltering of Empaths categories (Table 2) provide some evidence, but ideally we would like to answer this question in a more quantitative way.",
+      "label": "Background",
+      "prob": 0.5830161571502686
+    },
+    {
+      "sentence": "For example, Branagh has concentrated on serious issues: morality , philosophy and human elements of the story, or for all of the idealism , it makes me feel good.",
+      "label": "Background",
+      "prob": 0.580303966999054
+    },
+    {
+      "sentence": "For example, the word semester appears in LIWCs work category, but the crowd removed it from Empath.",
+      "label": "Background",
+      "prob": 0.5747711658477783
+    },
+    {
+      "sentence": "Empaths unsupervised accuracy allows us to validate the same size categories with far fewer crowdsourcing tasks.",
+      "label": "Background",
+      "prob": 0.5704780220985413
+    },
+    {
+      "sentence": "The liars more often use language that is tormented (2.5 odds) or joyous (2.3 odds), for example it was torture hearing the sounds of the elevator which just would never stop or I got a great deal and I am so happy that I stayed here.",
+      "label": "Background",
+      "prob": 0.5694700479507446
+    },
+    {
+      "sentence": "We draw on some of this knowledge, like the ConceptNet hierarchy, when seeding Empaths categories.",
+      "label": "Background",
+      "prob": 0.5680358409881592
+    },
+    {
+      "sentence": "Over another, we replaced one term from each category with a similar alternative (e.g., church to chapel, or kill to murder).",
+      "label": "Background",
+      "prob": 0.5629713535308838
+    },
+    {
+      "sentence": "name of that category (if it exists in the space), to all the vectors that correspond with its seed terms:",
+      "label": "Background",
+      "prob": 0.5592439770698547
+    },
+    {
+      "sentence": "Not all of the words rejected by majority vote are necessarily unrelated to a category, and in fact 36% of them had a worker cast a minority vote for relevance.",
+      "label": "Background",
+      "prob": 0.5567451119422913
+    },
+    {
+      "sentence": "Finally, Empath also benets from prior work in commonsense knowledge representation.",
+      "label": "Background",
+      "prob": 0.5337793827056885
+    },
+    {
+      "sentence": "Empaths VSM selects member terms for its categories (e.g., social media, violence, shame) by using cosine similarity  a similarity measure over vector spaces  to nd nearby terms in the space.",
+      "label": "Background",
+      "prob": 0.5337617993354797
+    },
+    {
+      "sentence": "Using normalized means of the category counts for each group, we then computed odds ratios and p-values for the categories most likely to appear in deceptive and truthful reviews.",
+      "label": "Background",
+      "prob": 0.5336163640022278
+    },
+    {
+      "sentence": "First, while Empath reports high Pearson correlations with LIWCs categories, it is possible that other more qualitative properties are important to lexical categories.",
+      "label": "Background",
+      "prob": 0.5330532193183899
+    },
+    {
+      "sentence": "Empath also takes inspiration from techniques for mining human patterns from data.",
+      "label": "Background",
+      "prob": 0.5314303040504456
+    },
+    {
+      "sentence": "On the other hand, amateur ction tends to be explicit about both scenesetting and emotion, with a higher density of adjective descriptors (e.g., the broken vending machine perplexed her.).",
+      "label": "Background",
+      "prob": 0.5311305522918701
+    },
+    {
+      "sentence": "Empath analyzes text across hundreds of topics and emotions.",
+      "label": "Background",
+      "prob": 0.5309177041053772
+    },
+    {
+      "sentence": "In other research communities, systems have used unsupervised models to capture emergent practice in open source code [11] or design [20].",
+      "label": "Background",
+      "prob": 0.5280943512916565
+    },
+    {
+      "sentence": "Empath draws on the complementary strengths of these ideas, using the power of unsupervised deep learning to create humaninterpretable feature sets for the analysis of text.",
+      "label": "Background",
+      "prob": 0.5275762677192688
+    },
+    {
+      "sentence": "In our case, VSMs allow Empath to discover member terms for categories.",
+      "label": "Background",
+      "prob": 0.5251927971839905
+    },
+    {
+      "sentence": "Special thanks to our reviewers and colleagues at Stanford for their helpful feedback.",
+      "label": "Background",
+      "prob": 0.5233321189880371
+    },
+    {
+      "sentence": "An approach to generating and validating word classication dictionaries using a combination of deep learning and microtask crowdsourcing.",
+      "label": "Background",
+      "prob": 0.5225570201873779
+    },
+    {
+      "sentence": "Empath is a living lexicon  able to keep up with each.",
+      "label": "Background",
+      "prob": 0.5223533511161804
+    },
+    {
+      "sentence": "Empath demonstrates an approach that crosses traditional text analysis metaphors with advances in deep learning.",
+      "label": "Background",
+      "prob": 0.5205789804458618
+    },
+    {
+      "sentence": "This is an unsupervised learning task where the basic idea is to teach a neural network to predict co-occurring words in a corpus.",
+      "label": "Background",
+      "prob": 0.5166081190109253
+    },
+    {
+      "sentence": "To address these problems, we present Empath : a living lexicon mined from modern text on the web.",
+      "label": "Background",
+      "prob": 0.5103270411491394
+    },
+    {
+      "sentence": "I ran the shower for ten minutes without ever receiving any hot water.",
+      "label": "Background",
+      "prob": 0.5075771808624268
+    },
+    {
+      "sentence": "While Empath presents an approach that can be trained on any text corpora, in this paper we use 1.8 billion words of modern amateur ction.",
+      "label": "Background",
+      "prob": 0.5060580372810364
+    },
+    {
+      "sentence": "In our case, when the crowd lters out a common word shared by LIWC (like semester), this causes overall agreement across the corpus to decrease (through additional false negatives), despite the appropriate removal of many other less common words.",
+      "label": "Background",
+      "prob": 0.5013602375984192
+    },
+    {
+      "sentence": "An acceptance score of 96% allows us to efciently collect validated words for Empaths categories.",
+      "label": "Background",
+      "prob": 0.4980453550815582
+    },
+    {
+      "sentence": "To build Empath, we extend a deep learning skip-gram network to capture words in a neural embedding [23].",
+      "label": "Background",
+      "prob": 0.49438685178756714
+    },
+    {
+      "sentence": "Empaths model uses these seed words to generate a candidate set of member terms for its categories, which we validate through paid crowdsourcing.",
+      "label": "Background",
+      "prob": 0.4921550750732422
+    },
+    {
+      "sentence": "More formally, for word w and context C in a network with negative sampling, a skip-gram network will learn weights that maximize the dot product w  w c and minimize w  w n for w c  C and w n sampled randomly from the vocabulary.",
+      "label": "Background",
+      "prob": 0.49158498644828796
+    },
+    {
+      "sentence": "To validate each of Empaths categories, we have created a crowdsourcing pipeline on Amazon Mechanical Turk.",
+      "label": "Background",
+      "prob": 0.47974127531051636
+    },
+    {
+      "sentence": "As we have discussed, each of Empaths categories is dened by seed words (e.g., lust : desire, passion; clothing : shirt, hat; social media : facebook, twitter).",
+      "label": "Background",
+      "prob": 0.47811391949653625
+    },
+    {
+      "sentence": "This embedding learns associations between words and their context, providing a model of connotation.",
+      "label": "Background",
+      "prob": 0.47751492261886597
+    },
+    {
+      "sentence": "A growing body of work in humancomputer interaction, computational social science and social computing uses tools to identify these signals: for example, detecting emotional contagion in status updates [19], linguistic correlates of deception [31], or conversational signs of betrayal [30].",
+      "label": "Background",
+      "prob": 0.4716600477695465
+    },
+    {
+      "sentence": "We ran Empaths full set of categories over the truthful and deceptive reviews, and produced aggregate statistics for each.",
+      "label": "Background",
+      "prob": 0.4716019928455353
+    },
+    {
+      "sentence": "Each of these analyses builds a model of the categories that represent their constructs of interest, or uses a word-category dictionary such as LIWC.",
+      "label": "Background",
+      "prob": 0.46808668971061707
+    },
+    {
+      "sentence": "This dataset contains 2000 movie reviews, divided evenly across positive and negative sentiment.",
+      "label": "Background",
+      "prob": 0.46578049659729004
+    },
+    {
+      "sentence": "We divide the total number of words to be ltered across many separate tasks, where each task consists of twenty words to be rated for a given category.",
+      "label": "Background",
+      "prob": 0.4520508348941803
+    },
+    {
+      "sentence": "Our experience conrms the ndings of prior work that category construction is somewhat subjective.",
+      "label": "Background",
+      "prob": 0.4478660821914673
+    },
+    {
+      "sentence": "We can then use similarity comparisons in the resulting vector space to map a vocabulary of 59,690 words onto Empaths 200 categories (and beyond, onto user-dened categories).",
+      "label": "Background",
+      "prob": 0.4462392032146454
+    },
+    {
+      "sentence": "This work is supported by a NSF Graduate Fellowship and a NIH and Stanford Medical Scientist Training Grant.",
+      "label": "Background",
+      "prob": 0.4405939280986786
+    },
+    {
+      "sentence": "Similar relationships hold for the other primary and secondary emotions in Parrotts hierarchy, which we use to bootstrap Empaths base set of 32 emotional categories.",
+      "label": "Background",
+      "prob": 0.44050055742263794
+    },
+    {
+      "sentence": "words become its seed terms in Empath.",
+      "label": "Background",
+      "prob": 0.43993210792541504
+    },
+    {
+      "sentence": "This dataset contains 3200 truthful hotel reviews mined from TripAdvisor.com and deceptive reviews created by workers on Amazon Mechanical Turk, split among positive and negative ratings.",
+      "label": "Background",
+      "prob": 0.4388734996318817
+    },
+    {
+      "sentence": "The signals reported by Empath and LIWC over each hour are strongly correlated (r=0.90).",
+      "label": "Background",
+      "prob": 0.43818870186805725
+    },
+    {
+      "sentence": "We can then borrow these representations, called neural embeddings, to map words onto a vector space.",
+      "label": "Background",
+      "prob": 0.4376218020915985
+    },
+    {
+      "sentence": "blazer, vest, sweater, sleeveless, blouse, plaid, tights, undershirt, wearing, jacket, buttondown, longsleeve, skirt, singlet, buttonup, longsleeved, hoody, tanktop, leggings, ...",
+      "label": "Background",
+      "prob": 0.4325241148471832
+    },
+    {
+      "sentence": "We limit tasks to Masters workers to ensure quality [26] and we aggregate crowdworker feedback by majority vote.",
+      "label": "Background",
+      "prob": 0.431109756231308
+    },
+    {
+      "sentence": "For Empath, each vector v is a word, and each of its dimensions denes the weight of its connection to one of the hidden layer neurons (the neural embeddings).",
+      "label": "Background",
+      "prob": 0.42975398898124695
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for prot or commercial advantage and that copies bear this notice and the full citation on the rst page.",
+      "label": "Other",
+      "prob": 0.48021334409713745
+    },
+    {
+      "sentence": "While Empaths analyses are similarly driven by dictionary-based word counts, Empath operates over a more extensive set of categories, and can generate and validate new categories on demand using unsupervised language modeling.",
+      "label": "Background",
+      "prob": 0.42088544368743896
+    },
+    {
+      "sentence": "On average, adding a crowd lter to Empath improves its correlations with LIWC by 0.006.",
+      "label": "Background",
+      "prob": 0.41958481073379517
+    },
+    {
+      "sentence": "General web text suffers from sparsity when learning categories focused on the human internal states (e.g., remorse ) or the physical world, for example connecting circular and boxy to the topic shape and size [16, 10].",
+      "label": "Other",
+      "prob": 0.46792104840278625
+    },
+    {
+      "sentence": "While Empaths topical and emotional categories stem from different sources of knowledge, we generate member terms for both kinds of categories in the same way.",
+      "label": "Background",
+      "prob": 0.4127362370491028
+    },
+    {
+      "sentence": "So, Empath can create and validate a clothing category, using shirt and hat as seed words:",
+      "label": "Background",
+      "prob": 0.412525475025177
+    },
+    {
+      "sentence": "[43], discovered patterns of narrative in text [4], and (more recently) used neural networks to model word meanings in a vector space [23, 24].",
+      "label": "Other",
+      "prob": 0.49528825283050537
+    },
+    {
+      "sentence": "Prior work suggests that category construction is subjective, often resulting in low agreement among humans [41, 27].",
+      "label": "Other",
+      "prob": 0.48123884201049805
+    },
+    {
+      "sentence": "Removing death s other seed words did not have nearly so strong an affect.",
+      "label": "Background",
+      "prob": 0.4090017080307007
+    },
+    {
+      "sentence": "This disagreement highlights the inherent ambiguity of constructing lexicons.",
+      "label": "Background",
+      "prob": 0.40656760334968567
+    },
+    {
+      "sentence": "Augur likewise mines ction, but it does so to learn human activities for interactive systems [10].",
+      "label": "Other",
+      "prob": 0.5338005423545837
+    },
+    {
+      "sentence": "Prior work in human-validated category construction has typically relied upon less efcient approaches, for example using crowd workers to annotate the 10,000 most common dictionary words with scores over all categories in question [27].",
+      "label": "Other",
+      "prob": 0.4902116656303406
+    },
+    {
+      "sentence": "For example, using the seed terms twitter and facebook, we can generate and validate a category for social media .",
+      "label": "Background",
+      "prob": 0.39873477816581726
+    },
+    {
+      "sentence": "For example, researchers have automatically generated audio transitions for interviews, cued by signals of mood in the transcripts [34], dynamically generated soundtracks for novels using an emotional lexicon [6], or mapped ambiguous natural language onto its visual meaning [12].",
+      "label": "Background",
+      "prob": 0.3937452435493469
+    },
+    {
+      "sentence": "Concretely, cosine similarity is a scaled version of the dot product between two vectors, dened as:",
+      "label": "Other",
+      "prob": 0.43399307131767273
+    },
+    {
+      "sentence": "When analyzing textual data, researchers collectively engage with many possible linguistic categories.",
+      "label": "Result",
+      "prob": 0.48283514380455017
+    },
+    {
+      "sentence": "For example, oh Bacon glistens when he gets wet all right and",
+      "label": "Other",
+      "prob": 0.49126768112182617
+    },
+    {
+      "sentence": "In Empath, we adapt these techniques to mine natural language for its relation to emotional and topical categories.",
+      "label": "Method",
+      "prob": 0.416332483291626
+    },
+    {
+      "sentence": "To motivate the opportunities that Empath creates, we rst present three example analyses that illustrate its breadth and exibility.",
+      "label": "Background",
+      "prob": 0.3693956434726715
+    },
+    {
+      "sentence": "Results that suggest Empath can generate categories extremely similar to categories that have been hand-tuned and psychometrically validated by humans (average Pearson correlation of 0.906), even without a crowd lter (0.90).",
+      "label": "Result",
+      "prob": 0.45080024003982544
+    },
+    {
+      "sentence": "Example 3: Mood on Twitter and time of day",
+      "label": "Other",
+      "prob": 0.3961450457572937
+    },
+    {
+      "sentence": "Using Empath, we can generate a new set of human validated terms that capture this idea, creating a new spatial category.",
+      "label": "Background",
+      "prob": 0.3452633023262024
+    },
+    {
+      "sentence": "For example, Empath reveals that 13 emotional categories are elevated in the language of liars, suggesting a novel result that liars tend to use more evocative language.",
+      "label": "Result",
+      "prob": 0.6027743816375732
+    },
+    {
+      "sentence": "We can also search the vector spaces on multiple terms by querying on the vector sum of those terms  a kind of reasoning by analogy.",
+      "label": "Background",
+      "prob": 0.32985740900039673
+    },
+    {
+      "sentence": "Empath then discovers a series of related terms and uses the crowd to validate them, producing the cluster:",
+      "label": "Background",
+      "prob": 0.3285662829875946
+    },
+    {
+      "sentence": "For some categories we added additional seed terms to better represent the concept, resulting in a nal set of two to ve seed terms for each category.",
+      "label": "Result",
+      "prob": 0.41926252841949463
+    },
+    {
+      "sentence": "The Google News embeddings performed better after signicance testing on only one category, death (0.91), and much worse on several of the others, including religion (0.78) and work (0.69).",
+      "label": "Result",
+      "prob": 0.5254401564598083
+    },
+    {
+      "sentence": "One of Empaths goals is to embed modern NLP techniques in a way that offers the transparency of dictionaries like LIWC.",
+      "label": "Objective",
+      "prob": 0.5988931059837341
+    },
+    {
+      "sentence": "Information Interfaces and Presentation: Group and Organization Interfaces",
+      "label": "Other",
+      "prob": 0.5240353941917419
+    },
+    {
+      "sentence": "Beyond these obviously polarized categories, we nd interesting trends in the topics associated with positive and negative reviews.",
+      "label": "Result",
+      "prob": 0.572016179561615
+    },
+    {
+      "sentence": "For example, researchers have investigated the publics response to major holidays and news events [2], how conversational partners mirror each others [18], the topical and emotional content of blogs [27, 16, 29], and whether one persons writing may inuence her friends when she posts to social media like Facebook [19] or Twitter [7].",
+      "label": "Other",
+      "prob": 0.376381516456604
+    },
+    {
+      "sentence": "Some aspects of these connotations may be mineable from social media, if they are of the sort that people are likely to advertise on Twitter [17].",
+      "label": "Other",
+      "prob": 0.6454050540924072
+    },
+    {
+      "sentence": "Second, we have not tested how well Empaths categories generalize beyond the core set it shares with LIWC.",
+      "label": "Result",
+      "prob": 0.5351861119270325
+    },
+    {
+      "sentence": "The movie review dataset reveals, unsurprisingly, a strong correlation between negative reviews and negatively charged categories (Figure 5).",
+      "label": "Result",
+      "prob": 0.5934415459632874
+    },
+    {
+      "sentence": "The correlation between tools was most strongly affected when we dropped seeds that added a unique meaning to a category.",
+      "label": "Result",
+      "prob": 0.553628146648407
+    },
+    {
+      "sentence": "We then manually rened this list, eliminating redundant or sparse categories.",
+      "label": "Method",
+      "prob": 0.32592150568962097
+    },
+    {
+      "sentence": "Here we compare the predictions of Empath and LIWC over 12 shared categories: sadness , anger , positive emotion , negative emotion , sexual , money , death , achievement , home , religion , work , and health .",
+      "label": "Result",
+      "prob": 0.48609068989753723
+    },
+    {
+      "sentence": "The movie dataset also allows us to demonstrate convergent validity between Empath and gold standard tools like LIWC.",
+      "label": "Result",
+      "prob": 0.5183881521224976
+    },
+    {
+      "sentence": "By ltering Empaths categories through the crowd, we offer the benets of both modern NLP and human validation: increasing category precision, and more carefully validating category contents.",
+      "label": "Result",
+      "prob": 0.3589678108692169
+    },
+    {
+      "sentence": "While Empath can be trained on any text corpus, for the analyses in this paper we use a dataset of modern ction from Wattpad, 1 a community of amateur writers.",
+      "label": "Result",
+      "prob": 0.3571099638938904
+    },
+    {
+      "sentence": "In our experiment, these correlations speak to how well one tool approximates another.",
+      "label": "Result",
+      "prob": 0.543569028377533
+    },
+    {
+      "sentence": "In the movie review dataset, we nd positive reviews are more strongly connected with intellectual categories like philosophy, politics, and law.",
+      "label": "Result",
+      "prob": 0.6364542245864868
+    },
+    {
+      "sentence": "In permuting Empaths seed terms, we found it retained high unsupervised agreement with LIWC (between 0.82 and 0.88).",
+      "label": "Result",
+      "prob": 0.5762056112289429
+    },
+    {
+      "sentence": "To generate the query vector for one of Empaths categories, we add the vector corresponding to the",
+      "label": "Result",
+      "prob": 0.3534300625324249
+    },
+    {
+      "sentence": "In this paper, we used Bonferroni correction to handle the issue, but there are more mature methods available.",
+      "label": "Method",
+      "prob": 0.4099583923816681
+    },
+    {
+      "sentence": "We suggest that crowd validation offers the qualitative benet of removing false positives from analyses, while on the whole performing almost identically to (and usually slightly better than) the unltered version of Empath.",
+      "label": "Result",
+      "prob": 0.61064612865448
+    },
+    {
+      "sentence": "Finally, to test the importance of choosing seed terms, we re-ran our evaluation while permuting the seed words in Empaths categories.",
+      "label": "Result",
+      "prob": 0.36478927731513977
+    },
+    {
+      "sentence": "Specically, to generate Empaths category names and seed terms, we selected 200 common dependency relationships in ConceptNet, conditioned on 10,000 common words in our corpus.",
+      "label": "Result",
+      "prob": 0.3340234160423279
+    },
+    {
+      "sentence": "On average over 200 categories, workers rated 96% of the words generated by Empath as related to its categories, and agreed among themselves (voting unanimously with unrelated or related scores) at a rate of 81%.",
+      "label": "Result",
+      "prob": 0.39939576387405396
+    },
+    {
+      "sentence": "Augurs evaluation indicated that with regard to low-level behaviors such as actions, ction provides a surprisingly accurate mirror of human behavior.",
+      "label": "Result",
+      "prob": 0.6642745137214661
+    },
+    {
+      "sentence": "For each word, tell us how strongly it relates to the topic.",
+      "label": "Result",
+      "prob": 0.39404988288879395
+    },
+    {
+      "sentence": "circular, small, big, large, huge, gigantic, tiny, rectangular, rectangle, massive, giant, enormous, smallish, rounded, middle, oval, sized, size, miniature, circle, colossal, center, triangular, shape, boxy, round, shaped, decorative, ...",
+      "label": "Other",
+      "prob": 0.4335818588733673
+    },
+    {
+      "sentence": "The space is M ( n  h ) where n is the size of our vocabulary (40,000), and h the number of hidden nodes in the network (150).",
+      "label": "Result",
+      "prob": 0.3226011097431183
+    },
+    {
+      "sentence": "We created crowd ltered versions of these categories as described in the previous section.",
+      "label": "Result",
+      "prob": 0.35105589032173157
+    },
+    {
+      "sentence": "While Empaths categories are all generated and validated in the same way, we have seen though our evaluation that choice of seed words can be important.",
+      "label": "Result",
+      "prob": 0.6243283152580261
+    },
+    {
+      "sentence": "Finally, to help researchers analyze text over new kinds of categories, we have released Empath as a web service and open source library.",
+      "label": "Result",
+      "prob": 0.3156388998031616
+    },
+    {
+      "sentence": "To choose these parameters, we divided our mixed text dataset into a training corpus of 900 documents and a test corpus of 3500 documents.",
+      "label": "Method",
+      "prob": 0.3707526624202728
+    },
+    {
+      "sentence": "In future work, we hope to investigate these questions more closely.",
+      "label": "Objective",
+      "prob": 0.5008801221847534
+    },
+    {
+      "sentence": "As we see in our results, this scenario does not happen often, and when it does happen the effect size is small.",
+      "label": "Result",
+      "prob": 0.6550796031951904
+    },
+    {
+      "sentence": "Existing databases of linguistic and commonsense knowledge provide networks of facts that computers should know about the world [21, 25, 9].",
+      "label": "Other",
+      "prob": 0.6993377208709717
+    },
+    {
+      "sentence": "We use the neural embeddings created by our skip-gram network to construct a vector space model (VSM).",
+      "label": "Method",
+      "prob": 0.49357497692108154
+    },
+    {
+      "sentence": "We chose this lower threshold for term inclusion as it showed the highest agreement with LIWC in our benchmarks.",
+      "label": "Result",
+      "prob": 0.6151658892631531
+    },
+    {
+      "sentence": "For example, social scientists study the networks of conversations that surround depression on Twitter [38], psychologists the role of self-presentation in online dating communities [42], or digital humanists the role of femininity in greek literature [44].",
+      "label": "Other",
+      "prob": 0.6250814199447632
+    },
+    {
+      "sentence": "To anchor this analysis, we collected benchmark Pearson correlations against LIWC for GI and EmoLex (two existing human validated lexicons).",
+      "label": "Result",
+      "prob": 0.45517393946647644
+    },
+    {
+      "sentence": "Our evaluation validates Empath by comparing its analyses against LIWC, a lexicon of gold standard categories that have been psychometrically validated.",
+      "label": "Result",
+      "prob": 0.6283825039863586
+    },
+    {
+      "sentence": "2 These techniques reect current best practices in deep learning for language models [24].",
+      "label": "Other",
+      "prob": 0.501119077205658
+    },
+    {
+      "sentence": "Next we selected two parameters for Empath: the minimum cosine similarity for category inclusion and the seed words for each category (we xed the size of each category at a maximum of 200 words).",
+      "label": "Method",
+      "prob": 0.41184762120246887
+    },
+    {
+      "sentence": "If two of three workers believe a word is at least weakly related to the category, then Empath will keep the word, otherwise we remove it from the category.",
+      "label": "Method",
+      "prob": 0.37024688720703125
+    },
+    {
+      "sentence": "We nd the correlation between Empath and LIWC across a mixed-corpus dataset is high (r=0.906), and remains high even without the crowd lter (0.90), which suggests Empaths data-driven word counts are very similar to those made by a heavily validated dictionary.",
+      "label": "Result",
+      "prob": 0.7014033198356628
+    },
+    {
+      "sentence": "While the original study provided some evidence that liars use less spatially descriptive language, it wasnt able to test the theory directly.",
+      "label": "Result",
+      "prob": 0.6866369843482971
+    },
+    {
+      "sentence": "For example, to generate the terms for clothing :",
+      "label": "Other",
+      "prob": 0.433205783367157
+    },
+    {
+      "sentence": "These scores indicate that Empath and LIWC are strongly correlated  similar to the correlation between LIWC and other published and validated tools.",
+      "label": "Result",
+      "prob": 0.7052928805351257
+    },
+    {
+      "sentence": "We borrow from the last of these approaches in constructing of Empaths unsupervised model.",
+      "label": "Method",
+      "prob": 0.4827876389026642
+    },
+    {
+      "sentence": "Through Empath, we aim to empower researchers with the ability to generate and validate these categories.",
+      "label": "Objective",
+      "prob": 0.5860717296600342
+    },
+    {
+      "sentence": "Researchers can easily inspect and modify",
+      "label": "Other",
+      "prob": 0.43991973996162415
+    },
+    {
+      "sentence": "We train our skip-gram network on the ction corpus from Wattpad, lemmatizing all words through a preprocessing step.",
+      "label": "Method",
+      "prob": 0.5019764304161072
+    },
+    {
+      "sentence": "Over one trial, we dropped one seed term from each category.",
+      "label": "Result",
+      "prob": 0.5313065052032471
+    },
+    {
+      "sentence": "For positive sentiment, Empath and LIWC again replicate similarly with strong correlation between tools (r=0.87).",
+      "label": "Result",
+      "prob": 0.3820994794368744
+    },
+    {
+      "sentence": "We selected up to ve seed words that best approximated each LIWC category, and found that a minimum cosine similarity of 0.5 offered the best performance.",
+      "label": "Result",
+      "prob": 0.5994812846183777
+    },
+    {
+      "sentence": "We provide a sample of terms accepted and rejected by the crowd in Table 2.",
+      "label": "Result",
+      "prob": 0.573114275932312
+    },
+    {
+      "sentence": "Learning category terms from a text corpus",
+      "label": "Other",
+      "prob": 0.5901158452033997
+    },
+    {
+      "sentence": "In our nal example, we use Empath to investigate the relationship between mood on twitter and time of day, replicating the work of Golder and Macy [13].",
+      "label": "Other",
+      "prob": 0.5256419777870178
+    },
+    {
+      "sentence": "Following this section, we explain the techniques behind Empaths model in more detail.",
+      "label": "Method",
+      "prob": 0.3835938274860382
+    },
+    {
+      "sentence": "Here we evaluate Empaths crowd ltered and unsupervised predictions against similar gold standard categories in LIWC.",
+      "label": "Result",
+      "prob": 0.6749953031539917
+    },
+    {
+      "sentence": "(e.g., power, weakness), but fewer emotions [40].",
+      "label": "Other",
+      "prob": 0.7346460223197937
+    },
+    {
+      "sentence": "Similar models trained on neural embeddings, such as word2vec, are well known to enable powerful forms of analogous reasoning (e.g., the vector arithmetic for the terms King Man + Queen produces a vector close to Woman) [22].",
+      "label": "Other",
+      "prob": 0.7209591865539551
+    },
+    {
+      "sentence": "We created these categories in a data-driven manner.",
+      "label": "Result",
+      "prob": 0.4395468831062317
+    },
+    {
+      "sentence": "Using an embedding function v that maps a word to the vector space, we can nd the eight terms nearest to v ( depressed ) , by comparing its cosine similarity with all other terms in the space, and selecting the ones that are most similar:",
+      "label": "Result",
+      "prob": 0.3791716992855072
+    },
+    {
+      "sentence": "The original study found that liars tend to write more",
+      "label": "Result",
+      "prob": 0.5866645574569702
+    },
+    {
+      "sentence": "We have not evaluated Empath over these more qualitative aspects of usability.",
+      "label": "Result",
+      "prob": 0.6801165342330933
+    },
+    {
+      "sentence": "Contrary to this critique, we have found that ction is a useful training dataset for Empath given its abundance of concrete descriptors and emotional terms.",
+      "label": "Result",
+      "prob": 0.7498504519462585
+    },
+    {
+      "sentence": "LIWC, for example, is an extensively validated dictionary that offers a total of 62 syntactic (e.g., present tense verbs, pronouns), topical (e.g., home, work, family) and emotional (e.g., anger, sadness) categories [33].",
+      "label": "Other",
+      "prob": 0.697187066078186
+    },
+    {
+      "sentence": "We nd that ction offers a richer source of affective signal.",
+      "label": "Result",
+      "prob": 0.655065655708313
+    },
+    {
+      "sentence": "To train Empaths model, we adapt the deep learning skipgram architecture introduced by Mikolov et al.",
+      "label": "Other",
+      "prob": 0.625169038772583
+    },
+    {
+      "sentence": "Empath aims to combine modern NLP techniques with the transparency of dictionaries like LIWC.",
+      "label": "Objective",
+      "prob": 0.7238901853561401
+    },
+    {
+      "sentence": "We have validated Empaths 200 categories (with a vocabulary of more than 10,000 words) at a total cost of $840.",
+      "label": "Other",
+      "prob": 0.6002295017242432
+    },
+    {
+      "sentence": "We plot Empaths best and worst category correlations with LIWC in Figure 7.",
+      "label": "Result",
+      "prob": 0.6376111507415771
+    },
+    {
+      "sentence": "When we replaced the word embeddings learned by our model with alternative embeddings trained on Google News [23], we found its average unsupervised correlation with LIWC decreased to 0.84.",
+      "label": "Result",
+      "prob": 0.6699159145355225
+    },
+    {
+      "sentence": "We show how the open-ended nature of Empaths model can replicate and extend classic work in classifying deceptive language [31], identifying the patterns of language in movie reviews [32], and analyzing mood on twitter [13].",
+      "label": "Result",
+      "prob": 0.4994663894176483
+    },
+    {
+      "sentence": "Over GIs benchmark categories, Empath reports 0.893 (unsupervised) and 0.91 (crowd) correlations against LIWC, stronger performance than GI (0.876).",
+      "label": "Result",
+      "prob": 0.5234726667404175
+    },
+    {
+      "sentence": "While adding a crowd lter to Empath improves its overall correlations with LIWC, the improvement is not statistically signicant.",
+      "label": "Result",
+      "prob": 0.7904740571975708
+    },
+    {
+      "sentence": "For example, across the categories negative emotion , achievement , and work , the crowd lter slightly decreases Empaths agreement with LIWC.",
+      "label": "Result",
+      "prob": 0.5697031021118164
+    },
+    {
+      "sentence": "Contents and Efciency",
+      "label": "Other",
+      "prob": 0.714886486530304
+    },
+    {
+      "sentence": "Empath aims to make possible all of these analyses (and more) through its 200 human validated categories, which cover topics like violence , depression , or femininity .",
+      "label": "Objective",
+      "prob": 0.761212944984436
+    },
+    {
+      "sentence": "Prior work has adopted a similar question and scale [27].",
+      "label": "Other",
+      "prob": 0.7394949793815613
+    },
+    {
+      "sentence": "Training a neural vector space model",
+      "label": "Other",
+      "prob": 0.5814198851585388
+    },
+    {
+      "sentence": "Over the emotional categories, Empath and LIWC agree at correlations of 0.884 (unsupervised) and 0.90 (crowd), comparing favorably with EmoLexs correlation of 0.899.",
+      "label": "Result",
+      "prob": 0.43977439403533936
+    },
+    {
+      "sentence": "Finally, we demonstrate how we can lter these relationships through the crowd to efciently construct new, human validated dictionaries.",
+      "label": "Result",
+      "prob": 0.5916317105293274
+    },
+    {
+      "sentence": "We take this as evidence that gold standard lexicons can disagree: if Empath approximates their performance against LIWC, it agrees with LIWC as well as other carefully-validated dictionaries agree with LIWC.",
+      "label": "Result",
+      "prob": 0.7603351473808289
+    },
+    {
+      "sentence": "When we inspected the output of the crowd ltering step to determine what had caused this effect, we found in a small number of cases in which the crowd was overzealous.",
+      "label": "Result",
+      "prob": 0.7535073161125183
+    },
+    {
+      "sentence": "We ask three independent workers to complete each task at a cost of $0.14 per task, resulting in an hourly wage in line with Ethical Guidelines for AMT research [35].",
+      "label": "Other",
+      "prob": 0.6984879374504089
+    },
+    {
+      "sentence": "Our results provide new evidence in support of the Ott et al. study, suggesting that deceptive reviews convey stronger sentiment across both positively and negatively charged categories, and tend towards exaggerated language (Figure 4).",
+      "label": "Result",
+      "prob": 0.75883549451828
+    },
+    {
+      "sentence": "We then ran all tools over the documents in the test corpus, recorded their category word counts, then used these counts to compute Pearson correlations between all shared categories, as well as aggregate overall correlations.",
+      "label": "Result",
+      "prob": 0.4139809310436249
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.8195109367370605
+    },
+    {
+      "sentence": "tional categories.",
+      "label": "Other",
+      "prob": 0.7178972363471985
+    },
+    {
+      "sentence": "So, if we want to lter a category of 200 words, we would have 200 / 20 = 10 tasks, which must be completed by three workers, at a total cost of 10  3  0 .",
+      "label": "Other",
+      "prob": 0.6051153540611267
+    },
+    {
+      "sentence": "When we instead train Empath on the 100 billion word Google News corpus, its unsupervised model shows less agreement (0.84) with LIWC.",
+      "label": "Result",
+      "prob": 0.4720008671283722
+    },
+    {
+      "sentence": "The web service 3 allows users to analyze documents across Empaths built-in categories (Figure 1), generate new unsupervised categories, and request new categories be validated using our crowdsourcing pipeline.",
+      "label": "Result",
+      "prob": 0.41982078552246094
+    },
+    {
+      "sentence": "Why would ction be the right tool to train an externally-valid measure of topical and emotional categories?",
+      "label": "Other",
+      "prob": 0.8237074017524719
+    },
+    {
+      "sentence": "Social science aims to avoid Type I errors  false claims that statistically appear to be true.",
+      "label": "Objective",
+      "prob": 0.8424039483070374
+    },
+    {
+      "sentence": "Empath shares overall average Pearson correlations of 0.90 (unsupervised) and 0.906 (crowd) with LIWC (Table 3).",
+      "label": "Result",
+      "prob": 0.6010338664054871
+    },
+    {
+      "sentence": "We see potential for training Empath on other text beyond ction.",
+      "label": "Result",
+      "prob": 0.658129096031189
+    },
+    {
+      "sentence": "When we then add the new spatial category to our analysis, we nd it favors truthful reviews by 1.2 odds ( p < 0 . 001 ).",
+      "label": "Result",
+      "prob": 0.6876612901687622
+    },
+    {
+      "sentence": "Exploring the deception dataset",
+      "label": "Result",
+      "prob": 0.5851123929023743
+    },
+    {
+      "sentence": "We see a tendency towards more mundane activities among the truth-tellers through categories like eating (1.3 odds), cleaning (1.3 odds), or hygiene (1.2 odds).",
+      "label": "Result",
+      "prob": 0.5682154893875122
+    },
+    {
+      "sentence": "Prior work has shown that three workers are enough for reliable results in labeling tasks, given high quality contributors [37].",
+      "label": "Other",
+      "prob": 0.5239023566246033
+    },
+    {
+      "sentence": "Lying hotel reviewers, for example, may not have realized they give themselves away by xating on smell (1.4 odds), the room was pungent with what smelled like human excrement, or their systematic overuse of emotional terms, producing signicantly higher odds ratios for 13 of Empaths 32 emo-",
+      "label": "Other",
+      "prob": 0.48338064551353455
+    },
+    {
+      "sentence": "We nd a similar relationship on our data with both Empath and LIWC: a low in the morning (around 8am), peaking to a high around 11pm.",
+      "label": "Result",
+      "prob": 0.6742184162139893
+    },
+    {
+      "sentence": "Comparing Empath and LIWC",
+      "label": "Other",
+      "prob": 0.5573335289955139
+    },
+    {
+      "sentence": "Specically, we ask crowdworkers:",
+      "label": "Other",
+      "prob": 0.6496226191520691
+    },
+    {
+      "sentence": "query ( clothing , { shirt , hat } ) = v ( clothing ) + v ( shirt ) + v ( hat )",
+      "label": "Other",
+      "prob": 0.7575892806053162
+    },
+    {
+      "sentence": "We nd no signicant difference between tools ( p = 0 . 43 ).",
+      "label": "Result",
+      "prob": 0.7082540392875671
+    },
+    {
+      "sentence": "If we can demonstrate that Empath provides very similar results across these categories, this would suggest that Empaths predictions are close to achieving gold standard accuracy.",
+      "label": "Result",
+      "prob": 0.8723037838935852
+    },
+    {
+      "sentence": "In our rst example, we use Empath to analyze a dataset of deceptive hotel reviews reported previously by Ott el al.",
+      "label": "Other",
+      "prob": 0.7385841012001038
+    },
+    {
+      "sentence": "In our second example, we show how Empath can help us discover trends in a dataset of movie reviews collected by Pang et al.",
+      "label": "Other",
+      "prob": 0.786706268787384
+    },
+    {
+      "sentence": "While the corpus of tweets analyzed by the original paper is not publicly available, we reproduce the papers ndings on a smaller corpus of 591,520 tweets from the PST time-zone, running LIWC on our data as an additional benchmark (Figure 6).",
+      "label": "Result",
+      "prob": 0.748261034488678
+    },
+    {
+      "sentence": "We adopt a data-driven approach using the ConceptNet knowledge base [21].",
+      "label": "Other",
+      "prob": 0.424726665019989
+    },
+    {
+      "sentence": "CHI16, May 07-12, 2016, San Jose, CA, USA 2016 ACM.",
+      "label": "Other",
+      "prob": 0.8772494196891785
+    },
+    {
+      "sentence": "2 for this category.",
+      "label": "Other",
+      "prob": 0.6258561611175537
+    },
+    {
+      "sentence": "Pearsons r measures the linear correlation between two variables, and returns a value between (-1,1), where 1 is total positive correlation, 0 is no correlation, and 1 is total negative correlation.",
+      "label": "Result",
+      "prob": 0.7833228707313538
+    },
+    {
+      "sentence": "{ ethan.fast, msb } @cs.stanford.edu, bchen45@stanford.edu",
+      "label": "Other",
+      "prob": 0.9017820954322815
+    },
+    {
+      "sentence": "Can ction teach computers about the emotional and topical connotations of words?",
+      "label": "Other",
+      "prob": 0.8843230605125427
+    },
+    {
+      "sentence": "001 ), as does LIWC ( F = 6 . 8 , p < 0 . 001 ).",
+      "label": "Other",
+      "prob": 0.4540750980377197
+    },
+    {
+      "sentence": "Here we discuss our results and the limitations of our approach.",
+      "label": "Result",
+      "prob": 0.771224856376648
+    },
+    {
+      "sentence": "We found a benchmark correlation of 0.876 between GI and LIWC over positive emotion , negative emotion , religion , work , and achievement , and a correlation of 0.899 between EmoLex and LIWC over positive emotion , negative emotion , anger , and sadness .",
+      "label": "Result",
+      "prob": 0.8306524753570557
+    },
+    {
+      "sentence": "All the results we report are signicant after a Bonferroni correction (  = 2 . 5 e  5 ).",
+      "label": "Result",
+      "prob": 0.7660936117172241
+    },
+    {
+      "sentence": "Do they offer the right balance and breadth of topics?",
+      "label": "Other",
+      "prob": 0.9067010879516602
+    },
+    {
+      "sentence": "For example, are Empaths categories as good as LIWCs for classication?",
+      "label": "Other",
+      "prob": 0.8943880796432495
+    },
+    {
+      "sentence": "ACM Classication Keywords",
+      "label": "Other",
+      "prob": 0.9013307690620422
+    },
+    {
+      "sentence": "4 https://github.com/Ejhfast/empath",
+      "label": "Other",
+      "prob": 0.9138223528862
+    },
+    {
+      "sentence": "sad (0.75), heartbroken (0.74), suicidal (0.73), stressed (0.72), self-harming (0.71), mopey (0.70), sick (0.69), moody (0.68)",
+      "label": "Other",
+      "prob": 0.8335692882537842
+    },
+    {
+      "sentence": "To compare all tools, we created a mixed textual dataset evenly divided among tweets [28], StackExchange opinions [5], movie reviews [32], hotel reviews [31], and chapters sampled from four classic novels on Project Gutenberg (David Coppereld, Moby Dick, Anna Karenina, and The Count of Monte Cristo) [1].",
+      "label": "Other",
+      "prob": 0.648041307926178
+    },
+    {
+      "sentence": "Using ve shared emotional categories as features in a logistic regression to predict positive and negative movie reviews, we compare Empath and LIWC under a 10fold cross-validation t-test that exhibits low Type II error [8].",
+      "label": "Other",
+      "prob": 0.607725977897644
+    },
+    {
+      "sentence": "Request permissions from Permissions@acm.org.",
+      "label": "Other",
+      "prob": 0.9176304936408997
+    },
+    {
+      "sentence": "What words do reviewers use to praise or pan them?",
+      "label": "Other",
+      "prob": 0.9101126790046692
+    },
+    {
+      "sentence": "What kinds of words accompany our lies?",
+      "label": "Other",
+      "prob": 0.9198657274246216
+    },
+    {
+      "sentence": "Where do the names of these categories come from?",
+      "label": "Other",
+      "prob": 0.9202771782875061
+    },
+    {
+      "sentence": "Both tools once more report highly signicant ANOVAs by hour: Empath F = 5 .",
+      "label": "Other",
+      "prob": 0.8274416923522949
+    },
+    {
+      "sentence": "This papers contributions include:",
+      "label": "Other",
+      "prob": 0.8789931535720825
+    },
+    {
+      "sentence": "Data-driven: who is actually driving?",
+      "label": "Other",
+      "prob": 0.9223721027374268
+    },
+    {
+      "sentence": "How do we connect a term like rampage with the category violent ?",
+      "label": "Other",
+      "prob": 0.9219265580177307
+    },
+    {
+      "sentence": "What makes for a good set of seed terms?",
+      "label": "Other",
+      "prob": 0.9260544776916504
+    },
+    {
+      "sentence": "3 http://empath.stanford.edu",
+      "label": "Other",
+      "prob": 0.9389704465866089
+    },
+    {
+      "sentence": "What kinds of movies do reviewers enjoy?",
+      "label": "Other",
+      "prob": 0.933498203754425
+    },
+    {
+      "sentence": "But how accurate are these categorical associations?",
+      "label": "Other",
+      "prob": 0.9316667318344116
+    },
+    {
+      "sentence": "ISBN 978-1-4503-3362-7/16/05$15.00 DOI: http://dx.doi.org/10.1145/2858036.2858535",
+      "label": "Other",
+      "prob": 0.9460095167160034
+    },
+    {
+      "sentence": "How well do human workers agree with Empath?",
+      "label": "Other",
+      "prob": 0.9284288287162781
+    },
+    {
+      "sentence": "Could different datasets be targeted at specic categories?",
+      "label": "Other",
+      "prob": 0.924527108669281
+    },
+    {
+      "sentence": "new categories perform as well in practice?",
+      "label": "Other",
+      "prob": 0.9161008596420288
+    },
+    {
+      "sentence": "Where do category terms come from?",
+      "label": "Other",
+      "prob": 0.9386664032936096
+    },
+    {
+      "sentence": "Should semester be in a work category?",
+      "label": "Other",
+      "prob": 0.9414529800415039
+    },
+    {
+      "sentence": "ACKNOWLEDGMENTS",
+      "label": "Other",
+      "prob": 0.8630120158195496
+    },
+    {
+      "sentence": "Using a 1-way ANOVA to test for changes in mean negative affect by hour, Empath reports a highly signicant difference ( F (23 , 591520) = 17 .",
+      "label": "Other",
+      "prob": 0.7493258714675903
+    },
+    {
+      "sentence": "And how do we best discover them?",
+      "label": "Other",
+      "prob": 0.9326037764549255
+    },
+    {
+      "sentence": "001 ; LIWC F = 7 .",
+      "label": "Other",
+      "prob": 0.897426426410675
+    },
+    {
+      "sentence": "Author Keywords",
+      "label": "Other",
+      "prob": 0.9486260414123535
+    },
+    {
+      "sentence": "9 , p < 0 .",
+      "label": "Other",
+      "prob": 0.9358916878700256
+    },
+    {
+      "sentence": "3 , p < 0 .",
+      "label": "Other",
+      "prob": 0.9227217435836792
+    },
+    {
+      "sentence": "2 , p < 0 .",
+      "label": "Other",
+      "prob": 0.9272492527961731
+    }
+  ]
+}

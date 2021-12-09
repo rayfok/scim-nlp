@@ -1,0 +1,49 @@
+{
+  "uist-5": [
+    {
+      "sentence": "Navigating stairs is a dangerous mobility challenge for people with low vision, who have a visual impairment that falls short of blindness.",
+      "label": "Background",
+      "prob": 0.9330760836601257
+    },
+    {
+      "sentence": "Prior research contributed systems for stair navigation that provide audio or tactile feedback, but people with low vision have usable vision and dont typically use nonvisual aids.",
+      "label": "Background",
+      "prob": 0.8925529718399048
+    },
+    {
+      "sentence": "We designed visualizations for a projection-based AR platform and smartglasses, considering the different characteristics of these platforms.",
+      "label": "Background",
+      "prob": 0.4292498230934143
+    },
+    {
+      "sentence": "We conducted the first exploration of augmented reality (AR) visualizations to facilitate stair navigation for people with low vision.",
+      "label": "Background",
+      "prob": 0.37689483165740967
+    },
+    {
+      "sentence": "For projection-based AR, we designed visual highlights that are projected directly on the stairs.",
+      "label": "Method",
+      "prob": 0.38944220542907715
+    },
+    {
+      "sentence": "In contrast, for smartglasses that have a limited vertical field of view, we designed visualizations that indicate the users position on the stairs, without directly augmenting the stairs themselves.",
+      "label": "Method",
+      "prob": 0.3234885036945343
+    },
+    {
+      "sentence": "Our designs on both platforms largely increased participants self-reported psychological security.",
+      "label": "Result",
+      "prob": 0.6490868926048279
+    },
+    {
+      "sentence": "Accessibility; augmented reality; low vision; visualization.",
+      "label": "Other",
+      "prob": 0.6437925696372986
+    },
+    {
+      "sentence": "We evaluated our visualizations on each platform with 12 people with low vision, finding that the visualizations for projection-based AR increased participants walking speed.",
+      "label": "Result",
+      "prob": 0.6766931414604187
+    }
+  ]
+}

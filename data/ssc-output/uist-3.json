@@ -1,0 +1,1024 @@
+{
+  "uist-3": [
+    {
+      "sentence": "In consumer devices, tags are often placed out of sight (bottom or rear of devices), which precludes immediate use in AR applications.",
+      "label": "Background",
+      "prob": 0.9629496932029724
+    },
+    {
+      "sentence": "These printed tags are highly visible, and thus often obtrusive to the visual design of objects.",
+      "label": "Background",
+      "prob": 0.9608654379844666
+    },
+    {
+      "sentence": "However, these systems require some form of preregistration of the to-be-recognized object or scene, and the object itself cannot transfer information beyond its identify.",
+      "label": "Background",
+      "prob": 0.9414622187614441
+    },
+    {
+      "sentence": "For example, most electrical appliances now feature small (LED) status lights, and light bulbs are common in indoor and outdoor settings.",
+      "label": "Background",
+      "prob": 0.94132000207901
+    },
+    {
+      "sentence": "Fortunately, high-speed cameras are becoming increasingly commonplace in the market, and some Samsung devices can now capture video at 960 FPS.",
+      "label": "Background",
+      "prob": 0.9360225796699524
+    },
+    {
+      "sentence": "To mitigate malicious behavior, a token with a short time-to-live could also be transmitted to ensure that users have at least line-of-sight.",
+      "label": "Background",
+      "prob": 0.9286128282546997
+    },
+    {
+      "sentence": "Unlike prior approaches that synchronized light modulation with e.g., RF triggers [12], our lights and smartphones are totally unsynchronized.",
+      "label": "Background",
+      "prob": 0.9216174483299255
+    },
+    {
+      "sentence": "There are a wide variety of successful fiducial marking schemes.",
+      "label": "Background",
+      "prob": 0.9206033945083618
+    },
+    {
+      "sentence": "By utilizing geolocation in the lookup, it may be possible to use fairly small IDs (e.g., 16 bits).",
+      "label": "Background",
+      "prob": 0.920274555683136
+    },
+    {
+      "sentence": "Of course, many devices already contain microprocessors that can control status lights and could be LightAnchor-enabled with a firmware update.",
+      "label": "Background",
+      "prob": 0.9202327728271484
+    },
+    {
+      "sentence": "Another difference from conventional markers is that LightAnchors can transmit dynamic payloads, without the need for WiFi, Bluetooth or indeed, any connectivity.",
+      "label": "Background",
+      "prob": 0.9183691740036011
+    },
+    {
+      "sentence": "Smartphone processors also continue to improve, especially GPU performance, which should allow us to work with higher video resolutions, which would allow for LightAnchor detection at longer ranges.",
+      "label": "Background",
+      "prob": 0.9183148741722107
+    },
+    {
+      "sentence": "LightAnchors overlaps with several disparate literatures, including marker-based tracking approaches, marker-less computer vision techniques, and visible light communication.",
+      "label": "Background",
+      "prob": 0.9147231578826904
+    },
+    {
+      "sentence": "The data payload of LightAnchors can be used in three distinct ways: fixed payloads, dynamic payloads, and connection payloads.",
+      "label": "Background",
+      "prob": 0.903773307800293
+    },
+    {
+      "sentence": "There are several effects that can cause incorrect rejection of LightAnchors, including poor tracking, motion blur, suboptimal camera-light synchronization, camera sensor noise, and variations in ambient lighting.",
+      "label": "Background",
+      "prob": 0.8989068865776062
+    },
+    {
+      "sentence": "There are also challenges in controlling the exposure and focus of the camera to enable robust tracking.",
+      "label": "Background",
+      "prob": 0.8927026391029358
+    },
+    {
+      "sentence": "This blinking speed is right at humans flicker fusion threshold, and the flashing is generally imperceptible, but depends on the particular payload.",
+      "label": "Background",
+      "prob": 0.8911821842193604
+    },
+    {
+      "sentence": "However, a known geometry of at least three non-planar LightAnchors (e.g., status lights on a microwave or WiFi router) could allow for recovery of 6DOF position in the future.",
+      "label": "Background",
+      "prob": 0.8813415765762329
+    },
+    {
+      "sentence": "Although this could contain plain text, the limited bitrate of LightAnchors makes this impractical.",
+      "label": "Background",
+      "prob": 0.8809565901756287
+    },
+    {
+      "sentence": "The simplest use of LightAnchors is a fixed payload (similar to fiducial markers).",
+      "label": "Background",
+      "prob": 0.8790799379348755
+    },
+    {
+      "sentence": "However, as our user interface is a passthrough AR experience, settings that are ideal for LightAnchors are not always ideal for a human user.",
+      "label": "Background",
+      "prob": 0.8726813793182373
+    },
+    {
+      "sentence": "As camera FPS increases, LightAnchors can blink at higher rates, making the data imperceptible irrespective of the data payload and allow for much larger payloads.",
+      "label": "Background",
+      "prob": 0.8699142932891846
+    },
+    {
+      "sentence": "In order to provide tight registration of data onto objects in a scene, it is most common for markers to be employed.",
+      "label": "Background",
+      "prob": 0.8641710877418518
+    },
+    {
+      "sentence": "Today, there are many object-recognition computer vision libraries that can track objects without special tags or markings (e.g., [9]).",
+      "label": "Background",
+      "prob": 0.8535903692245483
+    },
+    {
+      "sentence": "Because there is no synchronization, detection of a LightAnchor is almost certainly going to start somewhere in the middle of a transmission, meaning the system will have to wait on average 92 ms for the start of a sequence.",
+      "label": "Background",
+      "prob": 0.8462976217269897
+    },
+    {
+      "sentence": "An internet connection could also allow devices to transmit a custom control interface, for example, a small HTML/CSS app.",
+      "label": "Background",
+      "prob": 0.8443903923034668
+    },
+    {
+      "sentence": "With specialized equipment, it is possible to transmit data at high speeds with visible light (VLC).",
+      "label": "Background",
+      "prob": 0.8419813513755798
+    },
+    {
+      "sentence": "Augmented reality (AR) allows for the overlay of digital information and interactive content onto scenes and objects.",
+      "label": "Background",
+      "prob": 0.8412836790084839
+    },
+    {
+      "sentence": "The likelihood of any random pixel in the environment matching our pre/postamble is fairly low.",
+      "label": "Background",
+      "prob": 0.8316494226455688
+    },
+    {
+      "sentence": "More interesting are dynamic payloads, which contain a fixed UID that denotes the object, along with a dynamic value.",
+      "label": "Background",
+      "prob": 0.825897216796875
+    },
+    {
+      "sentence": "However, this approach does not work as well for point light sources (which only cover a small portion of the image at typical distances), nor when many lights are active in a scene.",
+      "label": "Background",
+      "prob": 0.8254494071006775
+    },
+    {
+      "sentence": "We take advantage of point lights (e.g., LEDs) that already exist in a wide range of products (or could be added for a few dollars).",
+      "label": "Background",
+      "prob": 0.8136580586433411
+    },
+    {
+      "sentence": "All of these approaches require special hardware and do not demonstrate dynamic data payloads.",
+      "label": "Background",
+      "prob": 0.8112176060676575
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than ACM must be honored.",
+      "label": "Background",
+      "prob": 0.8063931465148926
+    },
+    {
+      "sentence": "For example, IRCube [11] studded a device with infrared LEDs and demonstrated position and orientation tracking.",
+      "label": "Background",
+      "prob": 0.7962610125541687
+    },
+    {
+      "sentence": "At a high level, for every incoming frame of video, our algorithm creates an image pyramid, such that lights  big or small, close or far  are guaranteed to be contained within a single pixel at least one level.",
+      "label": "Background",
+      "prob": 0.7955779433250427
+    },
+    {
+      "sentence": "For example, SideBySide [33] digitally projected infrared ARTags onto the environment, which could e.g., identify users in multiplayer projected AR games.",
+      "label": "Background",
+      "prob": 0.7952333688735962
+    },
+    {
+      "sentence": "for our system to completely miss a visible LightAnchor, but it is common for a LightAnchors to have to transmit several times before being recognized.",
+      "label": "Background",
+      "prob": 0.7901689410209656
+    },
+    {
+      "sentence": "To support tracking of many tags in a scene, [12] synchronized LEDs with RF communication.",
+      "label": "Background",
+      "prob": 0.7849608659744263
+    },
+    {
+      "sentence": "Bokodes [23] used tiny lenslet-covered illuminated tags that can be resolved when imaged by an out-of-focus camera.",
+      "label": "Background",
+      "prob": 0.7718186378479004
+    },
+    {
+      "sentence": "Although this algorithm is basic, it is computationally inexpensive and works well in practice due to our high frame rate.",
+      "label": "Background",
+      "prob": 0.7714053988456726
+    },
+    {
+      "sentence": "Many light-based schemes have been previously considered.",
+      "label": "Background",
+      "prob": 0.7693285942077637
+    },
+    {
+      "sentence": "The remaining 373 ms means that, on average, LightAnchors had to transmit twice before being recognized.",
+      "label": "Background",
+      "prob": 0.7685257196426392
+    },
+    {
+      "sentence": "An interesting corner case that must be handled are reflections from LightAnchors (e.g., glints off specular objects, which also appear as point lights).",
+      "label": "Background",
+      "prob": 0.7599731683731079
+    },
+    {
+      "sentence": "These two lights simultaneously emitted different (but known) 16-bit LightAnchors, driven by a single Arduino Mega.",
+      "label": "Background",
+      "prob": 0.7460001707077026
+    },
+    {
+      "sentence": "[8] used a 120Hz digital screen with a synchronized camera to capture fiducial tags that appeared on specific frames.",
+      "label": "Background",
+      "prob": 0.7426149249076843
+    },
+    {
+      "sentence": "This could allow dumb devices to become smarter through AR with minimal extra cost (much less than e.g., adding a screen to a device).",
+      "label": "Background",
+      "prob": 0.7420993447303772
+    },
+    {
+      "sentence": "To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee.",
+      "label": "Background",
+      "prob": 0.7399238348007202
+    },
+    {
+      "sentence": "However, if the pre/postamble is correct, the data payload is saved to the anchor.",
+      "label": "Background",
+      "prob": 0.7391408681869507
+    },
+    {
+      "sentence": "Like actual LightAnchors, these blink valid sequences and are decoded correctly by our pipeline.",
+      "label": "Background",
+      "prob": 0.7346105575561523
+    },
+    {
+      "sentence": "As noted above, our tracker keeps a history of candidate anchors over time, which provides a sequence of intensity values.",
+      "label": "Background",
+      "prob": 0.733403742313385
+    },
+    {
+      "sentence": "For devices that already contain a microprocessor, LightAnchors opens a new information outlet in AR, for example, the LED found in many security cameras could be used to share the devices privacy policy (Figure 1).",
+      "label": "Background",
+      "prob": 0.7326130270957947
+    },
+    {
+      "sentence": "For instance, the IEEE 802.15.7 standard [26] allows LEDs to transmit data at up to 96 Mbit/s using specialized photosensors to form line-ofsight wireless networks.",
+      "label": "Background",
+      "prob": 0.7284297347068787
+    },
+    {
+      "sentence": "smartphone to connect (securely) over the internet and enable payment.",
+      "label": "Background",
+      "prob": 0.7274848222732544
+    },
+    {
+      "sentence": "Rarer are systems that support dynamic payloads.",
+      "label": "Background",
+      "prob": 0.7267283201217651
+    },
+    {
+      "sentence": "LightAnchors is closer in spirit to approaches that use active point lights as markers.",
+      "label": "Background",
+      "prob": 0.7243967652320862
+    },
+    {
+      "sentence": "Devices need only an inexpensive microcontroller (e.g., [22], which costs less than $0.50 USD) with the ability to blink a LED.",
+      "label": "Background",
+      "prob": 0.7168756127357483
+    },
+    {
+      "sentence": "For example, ARTags [15] use black-and-white 2D patterns that allow conventional cameras to read a data payload and also estimate 3D position/orientation of the tag.",
+      "label": "Background",
+      "prob": 0.7049853801727295
+    },
+    {
+      "sentence": "However, they almost always have a lower range of intensities (as they are secondary sources of light) and we use this fact to filter them.",
+      "label": "Background",
+      "prob": 0.7049244046211243
+    },
+    {
+      "sentence": "To drop false positive detections, only candidates with the correct preamble are accepted, after which their data payloads can be decoded.",
+      "label": "Background",
+      "prob": 0.6865972876548767
+    },
+    {
+      "sentence": "We enqueue all video frames, which are consumed asynchronously by our detection-tracking-decoding thread (described in subsequent sections).",
+      "label": "Background",
+      "prob": 0.681900143623352
+    },
+    {
+      "sentence": "To make tags less obtrusive, researchers have explored embedding subtle patterns into existing surfaces, such as floors and walls [30].",
+      "label": "Background",
+      "prob": 0.6737252473831177
+    },
+    {
+      "sentence": "compensations for low-frequency changes in illumination (e.g., moving cloud cover, user motion, camera auto-exposure adjustment).",
+      "label": "Background",
+      "prob": 0.6731178760528564
+    },
+    {
+      "sentence": "We are also grateful to Anthony Rowe and his lab for early brainstorming on this effort.",
+      "label": "Background",
+      "prob": 0.6687825918197632
+    },
+    {
+      "sentence": "Since we repeatedly transmit the same message, the prefix appears at both the beginning and end of every transmission, which makes payload segmentation straightforward.",
+      "label": "Background",
+      "prob": 0.6666083335876465
+    },
+    {
+      "sentence": "Instead, we envision transmission of an ID, which permits lookup through a cloud service, after which larger payloads (e.g., restaurant name, opening hours, menu, coupons, etc.) could be fetched over a faster connection (e.g., cellular, WiFi).",
+      "label": "Background",
+      "prob": 0.6584137082099915
+    },
+    {
+      "sentence": "This native application requires no special hardware or operating system modifications, and simply takes advantage of high-speed cameras that have shipped on recent smartphone models (up to 240 frames per second on the iPhone 7 and later models).",
+      "label": "Background",
+      "prob": 0.6560556888580322
+    },
+    {
+      "sentence": "Prakash [28] inverted this approach, projecting a structured light pattern onto photosensors, which track themselves within a projected volume.",
+      "label": "Background",
+      "prob": 0.6546715497970581
+    },
+    {
+      "sentence": "For example, a glue gun (object identifier) and its live temperature (dynamic value), seen in Figure 1.",
+      "label": "Background",
+      "prob": 0.6536936163902283
+    },
+    {
+      "sentence": "Markers or patterns can also be projected onto the environment, such as dot patterns [32] and m-sequences [35].",
+      "label": "Background",
+      "prob": 0.6356403231620789
+    },
+    {
+      "sentence": "Augmented reality systems can also track objects using innate features.",
+      "label": "Background",
+      "prob": 0.6288528442382812
+    },
+    {
+      "sentence": "Unlike most prior tracking methods, which instrument objects with markers (often large and/or obtrusive), we take advantage of point lights already found in many objects and environments.",
+      "label": "Background",
+      "prob": 0.62873774766922
+    },
+    {
+      "sentence": "Our tracker also uses a timeto-live of five frames to compensate for momentary losses in tracking (e.g., image noise, momentary occlusion, loss of focus).",
+      "label": "Background",
+      "prob": 0.624337911605835
+    },
+    {
+      "sentence": "If this is missing, the candidate is not decoded (i.e., we might be too early or late, or the tracked point is a static light and not a modulated light anchor).",
+      "label": "Background",
+      "prob": 0.6232041716575623
+    },
+    {
+      "sentence": "This limits our practical payload size and makes our system prone to security issues found in schemes such as QR codes [16] .",
+      "label": "Background",
+      "prob": 0.6092482209205627
+    },
+    {
+      "sentence": "We note that these examples would require no a priori setup of devices and smartphones, and would allow anyone with the LightAnchors App on their phone to begin instantly interacting with objects in AR.",
+      "label": "Background",
+      "prob": 0.6078906059265137
+    },
+    {
+      "sentence": "Lastly, [4]describes a smartphone-based system that tracks LEDs using the camera and demonstrates transmission speeds of ~1 bit/sec for enhanced interactions with toys.",
+      "label": "Background",
+      "prob": 0.6026490330696106
+    },
+    {
+      "sentence": "For all conditions, the LightAnchors pipeline ran with a base pyramid size of 1280x720, with 6-bit pre/postambles and 10-bit payloads.",
+      "label": "Background",
+      "prob": 0.5956675410270691
+    },
+    {
+      "sentence": "Similar approaches have been used to track drones [2] and capture human motion [12].",
+      "label": "Background",
+      "prob": 0.5888468027114868
+    },
+    {
+      "sentence": "For example, a smart light switch could provide an IP address, allowing smartphones to open a socket and take control (Figure 7, left).",
+      "label": "Background",
+      "prob": 0.5788288116455078
+    },
+    {
+      "sentence": "information and interfaces to specific objects), we also coopt these lights for data transmission, blinking them rapidly to encode binary data.",
+      "label": "Background",
+      "prob": 0.5701428055763245
+    },
+    {
+      "sentence": "Human-centered computing  Human computer interaction (HCI)  Interaction paradigms  Mixed / augmented reality",
+      "label": "Background",
+      "prob": 0.5662134289741516
+    },
+    {
+      "sentence": "Either way, this would produce a more immersive AR effect.",
+      "label": "Background",
+      "prob": 0.5627378225326538
+    },
+    {
+      "sentence": "This means it is possible for the camera shutter to align with transitions in our blinked pattern, which at best reduces SNR, and at worse, means the pattern is unresolvable.",
+      "label": "Background",
+      "prob": 0.5626134276390076
+    },
+    {
+      "sentence": "If a match is found, the current point is linked to the previous candidate anchor, forming a historical linked list.",
+      "label": "Background",
+      "prob": 0.5621639490127563
+    },
+    {
+      "sentence": "Overall, this level of corruption is tolerable and can be mitigated with standard error correction techniques, such as Hamming codes [10].",
+      "label": "Background",
+      "prob": 0.5420059561729431
+    },
+    {
+      "sentence": "In addition to leveraging these point lights for in-view anchoring (i.e., attaching",
+      "label": "Background",
+      "prob": 0.5393455624580383
+    },
+    {
+      "sentence": "For instance, upon connecting to a smart thermostat, a simple temperature control widget could be downloaded and displayed in AR (Figure 7, center).",
+      "label": "Background",
+      "prob": 0.5370761752128601
+    },
+    {
+      "sentence": "In CapCam [36], smartphones were placed onto large interactive screens; small patches were used to encoded data as colored sequences that were read by phones rear-facing cameras.",
+      "label": "Background",
+      "prob": 0.5365461111068726
+    },
+    {
+      "sentence": "A similar effect might also be achieved using techniques such as structure from motion [20] and SLAM [17].",
+      "label": "Background",
+      "prob": 0.5359745025634766
+    },
+    {
+      "sentence": "As smartphones are the most pervasive AR platform at present, we created a proof-of-concept LightAnchors implementation for iOS.",
+      "label": "Background",
+      "prob": 0.52656090259552
+    },
+    {
+      "sentence": "These were placed 1.5m from the ground on a tripod and separated by 120cm.",
+      "label": "Background",
+      "prob": 0.524587869644165
+    },
+    {
+      "sentence": "We used basic binary transmission as a proof of concept, but LightAnchors could also be extended to use multiple illumination levels and colors.",
+      "label": "Background",
+      "prob": 0.5186934471130371
+    },
+    {
+      "sentence": "More relevant to LightAnchors are VLC-style techniques that use commodity cameras, for e.g., room-level localization [25].",
+      "label": "Background",
+      "prob": 0.5149366855621338
+    },
+    {
+      "sentence": "More specifically, if two candidate anchors are found to have valid, but identical sequences in the same frame, we only accept the one with higher signal variance.",
+      "label": "Background",
+      "prob": 0.512731671333313
+    },
+    {
+      "sentence": "Finally, at present, our LightAnchor widgets are flat with respect to the smartphone screen, as a single LightAnchor cannot provide 3D orientation.",
+      "label": "Background",
+      "prob": 0.501039981842041
+    },
+    {
+      "sentence": "This process allows us to robustly track and decode multiple LightAnchors simultaneously.",
+      "label": "Background",
+      "prob": 0.49925723671913147
+    },
+    {
+      "sentence": "As a final demo, we created a mock payment terminal (Figure 7, right) that could allow a",
+      "label": "Background",
+      "prob": 0.4980263113975525
+    },
+    {
+      "sentence": "We captured study data using an iPhone 7 (720p at 120 FPS) in three environments: workshop, classroom and office.",
+      "label": "Background",
+      "prob": 0.4975516200065613
+    },
+    {
+      "sentence": "Innumerable visual tagging strategies have been investigated in both academia and industry (e.g., retroreflective stickers, barcodes, ARToolKit markers [15], ARTags [7], AprilTag [31], QR Codes [14], and ArUco markers [29]).",
+      "label": "Background",
+      "prob": 0.4816785454750061
+    },
+    {
+      "sentence": "To do this, we started our detection pipeline at random offsets in our video data and recorded how long it took until LightAnchors were successfully decoded.",
+      "label": "Background",
+      "prob": 0.47849157452583313
+    },
+    {
+      "sentence": "These VLC systems most often use diffuse or ambient modulated light and the rolling shutter operation of cameras to receive data faster than the full-frame rate of the camera [5, 13].",
+      "label": "Background",
+      "prob": 0.469862163066864
+    },
+    {
+      "sentence": "Our detection process passes all candidate anchors to our tracker on every frame, which must be computationally inexpensive in order to maintain a high frame rate.",
+      "label": "Background",
+      "prob": 0.4695241153240204
+    },
+    {
+      "sentence": "Our software runs on the iPhone 7 and X, which can capture video frames at 240 FPS.",
+      "label": "Background",
+      "prob": 0.4667978286743164
+    },
+    {
+      "sentence": "We modulate lights with this pattern between high and low intensities at 120 FPS using a microcontroller (Teensy 3.6 or Arduino Mega) and its digital-to-analog converter (DAC).",
+      "label": "Background",
+      "prob": 0.46636292338371277
+    },
+    {
+      "sentence": "ID CAM [21] proposed using LEDs as beacons, blinking at 4 kHz and sensed with a speciallydesigned high-speed camera.",
+      "label": "Background",
+      "prob": 0.4416438341140747
+    },
+    {
+      "sentence": "Snap-To-It [6] uses such",
+      "label": "Background",
+      "prob": 0.44094210863113403
+    },
+    {
+      "sentence": "To recover from this type of failure, we phase shift our transmitted signal by 36 after each transmission.",
+      "label": "Background",
+      "prob": 0.4354862868785858
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page.",
+      "label": "Other",
+      "prob": 0.4592511057853699
+    },
+    {
+      "sentence": "We recorded approximately one second of video data at 2, 4, 6, 8, 10 and 12 meters.",
+      "label": "Background",
+      "prob": 0.42491504549980164
+    },
+    {
+      "sentence": "Even though we used the highly optimized iOS CoreGraphics API, we suspect that this bottleneck could be greatly mitigated with better GPU acceleration, which could allow LightAnchor detection to run at 240 FPS or more.",
+      "label": "Background",
+      "prob": 0.4233105778694153
+    },
+    {
+      "sentence": "As a demonstration of a fixed payload, we instrumented a street parking meter (Figure 5, left) with a light that transmits its enforcement zone ID (from which the rate schedule could",
+      "label": "Background",
+      "prob": 0.41581547260284424
+    },
+    {
+      "sentence": "Finally, LightAnchor payloads could be used to provide connection information.",
+      "label": "Background",
+      "prob": 0.40637850761413574
+    },
+    {
+      "sentence": "We captured data using a tripod (i.e., smartphone held still) and also while walking slowly (~1 m/s, to induce some motion blur).",
+      "label": "Background",
+      "prob": 0.39907512068748474
+    },
+    {
+      "sentence": "Upon closer analysis of the video data, it appears most of these were actually small reflections of our actual LightAnchors, and thus transmitting correct patterns (an effect discussed in our Decoding section above).",
+      "label": "Result",
+      "prob": 0.4090120494365692
+    },
+    {
+      "sentence": "In general, this is too much pixel data for our current implementation to process in real time at high video resolutions, and so we generally use 720p video.",
+      "label": "Result",
+      "prob": 0.41643813252449036
+    },
+    {
+      "sentence": "capability to recognize objects using a smartphone camera, after which interactivity can be offered (see also the commercial Vuforia augmented reality software toolkit [24]).",
+      "label": "Background",
+      "prob": 0.3856714963912964
+    },
+    {
+      "sentence": "First, we merge proximate candidate anchors  ones too close to be separate LightAnchors (this often happens when a LightAnchor is detected at multiple pyramid levels).",
+      "label": "Background",
+      "prob": 0.38165515661239624
+    },
+    {
+      "sentence": "Lastly, we modified a conference room phone demo that conveniently displays its call-in number (Figure 5, right).",
+      "label": "Background",
+      "prob": 0.3792378008365631
+    },
+    {
+      "sentence": "Rather than use only the center pixel value, we average over a small region, which we found to be less sensitive to camera noise and sub-pixel aliasing during motion.",
+      "label": "Result",
+      "prob": 0.4657265543937683
+    },
+    {
+      "sentence": "We encode all data as a binary sequence, prefixed with a known pattern.",
+      "label": "Background",
+      "prob": 0.3604363203048706
+    },
+    {
+      "sentence": "Data was processed at 120 FPS, except for 320x180, which was processed at 240 FPS.",
+      "label": "Result",
+      "prob": 0.47385287284851074
+    },
+    {
+      "sentence": "We model LightAnchors as bright spots surrounded by darker regions.",
+      "label": "Background",
+      "prob": 0.35456758737564087
+    },
+    {
+      "sentence": "We linearly interpolate between these two midpoints (Figure 2) to produce a binary string.",
+      "label": "Method",
+      "prob": 0.36674901843070984
+    },
+    {
+      "sentence": "We plan to release our LightAnchors app on the Apple App Store, as it can run on recent iOS devices.",
+      "label": "Background",
+      "prob": 0.34729984402656555
+    },
+    {
+      "sentence": "We then attempt to pair all current candidates with candidates from the previous frame using a greedy Euclidean distance matcher with a threshold to discard unlikely pairings.",
+      "label": "Method",
+      "prob": 0.48269563913345337
+    },
+    {
+      "sentence": "RELATED WORK Session 2A: Augmented and Mixed Reality",
+      "label": "Background",
+      "prob": 0.3401828110218048
+    },
+    {
+      "sentence": "We have presented our work on LightAnchors, a new approach for overlaying information and interfaces onto everyday objects in mobile AR.",
+      "label": "Objective",
+      "prob": 0.4837046265602112
+    },
+    {
+      "sentence": "In addition to describing our algorithm, we also report the findings of a transmission performance study, which tested accuracy at different distances, with two light sizes, and while held still and in motion.",
+      "label": "Result",
+      "prob": 0.3874584138393402
+    },
+    {
+      "sentence": "Marker-Less Strategies",
+      "label": "Other",
+      "prob": 0.47445595264434814
+    },
+    {
+      "sentence": "To illustrate these different options, as well as to highlight the potential utility of LightAnchors, we created eleven demo applications.",
+      "label": "Method",
+      "prob": 0.3793506324291229
+    },
+    {
+      "sentence": "We note that this latency varies across conditions, for example, mean recognition latency is 312 ms when the camera was held still (i.e., the first full transmission is often successful) vs. 615 ms when the user was walking (~3 transmissions before recognition).",
+      "label": "Result",
+      "prob": 0.532991886138916
+    },
+    {
+      "sentence": "Across all conditions, we found a mean recognition time of 464 ms. As our test LightAnchors were 22 bits long (6 bit preamble, 10 bit payload, 6 bit postamble), they take a minimum of 183ms to transmit at 120 FPS.",
+      "label": "Result",
+      "prob": 0.48227164149284363
+    },
+    {
+      "sentence": "We also created two other demo devices that generally lack compute: a fire alarm that reports its operating status and an electrical strip that reports its power draw (Figure 6, left and center).",
+      "label": "Result",
+      "prob": 0.32538002729415894
+    },
+    {
+      "sentence": "Within each setting, we used two exemplar point lights: a standard 3mm LED and a larger 100x100mm LED matrix.",
+      "label": "Method",
+      "prob": 0.3634554147720337
+    },
+    {
+      "sentence": "In our proof-of-concept iOS app, we use the AVCaptureSession API to grab video frames and OpenCV for image processing.",
+      "label": "Method",
+      "prob": 0.5099578499794006
+    },
+    {
+      "sentence": "To convert the analog light intensity signal into a binary sequence, we use a dynamic threshold.",
+      "label": "Method",
+      "prob": 0.5849134922027588
+    },
+    {
+      "sentence": "We found the automatic camera settings were not ideal for LightAnchors (i.e., clipping in dark scenes), and so we had to lock settings such as exposure.",
+      "label": "Result",
+      "prob": 0.5907381772994995
+    },
+    {
+      "sentence": "We now briefly review these research areas.",
+      "label": "Background",
+      "prob": 0.28944453597068787
+    },
+    {
+      "sentence": "For example, a networked security camera could be updated to use its recording light to share its privacy policy (Figure 1), and a router could shares its SSID and a randomly generated guest password via its status lights (Figure 6, right).",
+      "label": "Result",
+      "prob": 0.3459721803665161
+    },
+    {
+      "sentence": "We also tested accuracy while the device was still and held by a user while walking.",
+      "label": "Result",
+      "prob": 0.3792191445827484
+    },
+    {
+      "sentence": "With respect to light size, the small LED had 6.5% BER, while the larger LED had 3.8% (Figure 4, left).",
+      "label": "Result",
+      "prob": 0.5340806245803833
+    },
+    {
+      "sentence": "For example, we created a glue gun that transmits its live temperature (Figure 1).",
+      "label": "Method",
+      "prob": 0.31956085562705994
+    },
+    {
+      "sentence": "Frame Capture Session 2A: Augmented and Mixed Reality",
+      "label": "Other",
+      "prob": 0.4670753479003906
+    },
+    {
+      "sentence": "UIST '19, October 2023, 2019, New Orleans, LA, USA",
+      "label": "Other",
+      "prob": 0.6847819685935974
+    },
+    {
+      "sentence": "UIST '19, October 2023, 2019, New Orleans, LA, USA",
+      "label": "Other",
+      "prob": 0.684782087802887
+    },
+    {
+      "sentence": "In each of these settings, we varied the lighting condition: artificial light only (mean 321 lux), artificial light + diffuse sunlight (mean 428 lux) and lights off (mean 98 lux).",
+      "label": "Result",
+      "prob": 0.38555437326431274
+    },
+    {
+      "sentence": "We then threshold this result at every pixel and at every pyramid level, which produces an array of candidate anchors for each incoming frame of video.",
+      "label": "Result",
+      "prob": 0.4266928732395172
+    },
+    {
+      "sentence": "To quantity this, we used our collected data to compute the average time required to detect, track, and decode a LightAnchor.",
+      "label": "Method",
+      "prob": 0.3565177321434021
+    },
+    {
+      "sentence": "After each frame is tracked, we attempt to decode all candidate anchors.",
+      "label": "Method",
+      "prob": 0.4012656509876251
+    },
+    {
+      "sentence": "The biggest drawback of our method is limited bitrate, which is chiefly set by smartphone processors and camera FPS.",
+      "label": "Method",
+      "prob": 0.3601846992969513
+    },
+    {
+      "sentence": "Other popular schemes include QR Codes [14], April Tags [31] and ArUco markers [29].",
+      "label": "Other",
+      "prob": 0.6585255861282349
+    },
+    {
+      "sentence": "For our still condition, we used a surveyors rope to mark distances, and for our walking condition, we used a 50cm printed ArUco tag for continuous distance tracking (accepting frames within 0.5m).",
+      "label": "Method",
+      "prob": 0.4234379529953003
+    },
+    {
+      "sentence": "When frames are scaled, we use iOSs optimized CoreGraphics API.",
+      "label": "Method",
+      "prob": 0.3594832122325897
+    },
+    {
+      "sentence": "In this paper, we present LightAnchors, a new method to display spatially-anchored data in augmented reality applications.",
+      "label": "Method",
+      "prob": 0.370817631483078
+    },
+    {
+      "sentence": "Likewise, errors increased as ambient brightness increased (Figure 4, right).",
+      "label": "Result",
+      "prob": 0.5911533832550049
+    },
+    {
+      "sentence": "We purposely employ preambles that contain both 1s and 0s (i.e., high and low brightness), which allows us to find the midpoint of the min and max intensity values at both the beginning and end of a transmission.",
+      "label": "Method",
+      "prob": 0.3627162277698517
+    },
+    {
+      "sentence": "Connection Payloads",
+      "label": "Other",
+      "prob": 0.6006368398666382
+    },
+    {
+      "sentence": "This research was generously supported with funds from the CONIX Research Center, one of six centers in JUMP, a Semiconductor Research Corporation (SRC) program sponsored by DARPA.",
+      "label": "Other",
+      "prob": 0.654932975769043
+    },
+    {
+      "sentence": "Session 2A: Augmented and Mixed Reality",
+      "label": "Other",
+      "prob": 0.532569169998169
+    },
+    {
+      "sentence": "Session 2A: Augmented and Mixed Reality",
+      "label": "Other",
+      "prob": 0.532569169998169
+    },
+    {
+      "sentence": "Our algorithm then searches for candidate light anchors using a max-pooling template that finds bright pixels surrounded by darker pixels.",
+      "label": "Method",
+      "prob": 0.546614408493042
+    },
+    {
+      "sentence": "UIST 19 , October 20-23, 2019, New Orleans, LA, USA",
+      "label": "Other",
+      "prob": 0.7345111966133118
+    },
+    {
+      "sentence": "We then track candidate anchors over frames, decoding a blinked binary pattern using an adaptive threshold.",
+      "label": "Method",
+      "prob": 0.48194247484207153
+    },
+    {
+      "sentence": "We conclude by describing ten example applications we built to illustrate the potential of LightAnchors.",
+      "label": "Result",
+      "prob": 0.5038172006607056
+    },
+    {
+      "sentence": "Note that this figure includes the 0.4% of false positives that made it through our various filtering stages.",
+      "label": "Result",
+      "prob": 0.674641489982605
+    },
+    {
+      "sentence": "On average, our system found 50.8 candidate anchors (9.0 SD) in each frame.",
+      "label": "Result",
+      "prob": 0.642696738243103
+    },
+    {
+      "sentence": "Although reducing the image resolution greatly improves processing time, we found that scaling the image becomes a major bottleck (often making up 50% of the processing).",
+      "label": "Result",
+      "prob": 0.6905284523963928
+    },
+    {
+      "sentence": "Only at 320x180 can we process a 240 FPS image stream.",
+      "label": "Result",
+      "prob": 0.5732557773590088
+    },
+    {
+      "sentence": "Our LightAnchor detection algorithm is designed to have high recall.",
+      "label": "Result",
+      "prob": 0.42555275559425354
+    },
+    {
+      "sentence": "Across all conditions and distances, we found a mean bit error rate (BER) of 5.2%, or roughly 1 error in every 20 transmitted bits.",
+      "label": "Result",
+      "prob": 0.7456056475639343
+    },
+    {
+      "sentence": "To evaluate the robustness of our approach, we tested point lights of different size, across varying rooms, lighting conditions, and sensing distances.",
+      "label": "Result",
+      "prob": 0.4085894525051117
+    },
+    {
+      "sentence": "We then test for the presence of our known pre/postamble.",
+      "label": "Result",
+      "prob": 0.5100246667861938
+    },
+    {
+      "sentence": "If we apply our variance filter, accepting only the best signal, it reduces false positives to 0.4% and true positives to 99.6%.",
+      "label": "Result",
+      "prob": 0.6925808787345886
+    },
+    {
+      "sentence": "We also computed BER across the different base resolutions used in our performance analysis (Figure 3), and it is clear that high resolution (at least 720p) is needed to detect, track and decode LightAnchors accurately.",
+      "label": "Result",
+      "prob": 0.727155327796936
+    },
+    {
+      "sentence": "Given a raw camera image, we first convert to grayscale and build an image pyramid (five layers, scaling by half).",
+      "label": "Method",
+      "prob": 0.6738670468330383
+    },
+    {
+      "sentence": "As discussed above, it is rare",
+      "label": "Other",
+      "prob": 0.6696441769599915
+    },
+    {
+      "sentence": "Specifically, for each pixel, we compute the difference between the center pixel value and the maximum value of all pixels in a 7  7 diamond perimeter.",
+      "label": "Result",
+      "prob": 0.5377111434936523
+    },
+    {
+      "sentence": "our approach can be rapid and accurate.",
+      "label": "Result",
+      "prob": 0.5249853730201721
+    },
+    {
+      "sentence": "Our detection rate did not change substantially across study conditions, and so we combine detection results for brevity.",
+      "label": "Result",
+      "prob": 0.7215283513069153
+    },
+    {
+      "sentence": "Similarly, we modified an outdoor entrance light to output a fixed UID (Figure 5, center); the summoned LightAnchor displays the building name (Department of Motor Vehicles), its current status (open), and closing time (5pm).",
+      "label": "Result",
+      "prob": 0.5353716611862183
+    },
+    {
+      "sentence": "Light-Based Markers",
+      "label": "Other",
+      "prob": 0.6252591013908386
+    },
+    {
+      "sentence": "Fiducial Markers",
+      "label": "Other",
+      "prob": 0.7530832886695862
+    },
+    {
+      "sentence": "Abstracting with credit is permitted.",
+      "label": "Other",
+      "prob": 0.8195109367370605
+    },
+    {
+      "sentence": "A typical glue gun contains no digital components, and thus in practice, would require the addition of a microcontroller and thermistor, costing as little as $1 USD [22].",
+      "label": "Other",
+      "prob": 0.7972704768180847
+    },
+    {
+      "sentence": "Of course, only two of these were actual LightAnchors, and our system detected these in all cases (i.e., a true positive rate of 100%).",
+      "label": "Result",
+      "prob": 0.7762699723243713
+    },
+    {
+      "sentence": "Unsurprisingly, BER was higher while walking (mean 7.7%) than when the camera was still (2.7%), as seen in Figure 4 middle.",
+      "label": "Result",
+      "prob": 0.5448043942451477
+    },
+    {
+      "sentence": "After the pre/postamble filtering process, the true positive rate was still 100%, but our system found 3.1% false",
+      "label": "Result",
+      "prob": 0.7188700437545776
+    },
+    {
+      "sentence": "We profiled our implementation using Xcode on both a iPhone 7 and iPhone X. We tested different base resolutions (i.e., largest pyramid size), and for each, ran three trials of 500 frames each.",
+      "label": "Result",
+      "prob": 0.5479208827018738
+    },
+    {
+      "sentence": "We now describe this procedure and results in detail.",
+      "label": "Result",
+      "prob": 0.6684032082557678
+    },
+    {
+      "sentence": "Finally, we flatten results from all pyramid layers so that candidate anchors are in the coordinate space of the highest resolution pyramid.",
+      "label": "Result",
+      "prob": 0.7856106758117676
+    },
+    {
+      "sentence": "We described our implementation and results from an evaluation, which shows that",
+      "label": "Result",
+      "prob": 0.807327389717102
+    },
+    {
+      "sentence": "2019 Association of Computing Machinery.",
+      "label": "Other",
+      "prob": 0.8914348483085632
+    },
+    {
+      "sentence": "The combined results are shown in Figure 3.",
+      "label": "Result",
+      "prob": 0.8077055215835571
+    },
+    {
+      "sentence": "Mayank Goel",
+      "label": "Other",
+      "prob": 0.8267386555671692
+    },
+    {
+      "sentence": "https://doi.org/10.1145/3332165.3347884",
+      "label": "Other",
+      "prob": 0.9187561273574829
+    },
+    {
+      "sentence": "Request permissions from Permissions@acm.org.",
+      "label": "Other",
+      "prob": 0.9176304936408997
+    },
+    {
+      "sentence": "be retrieved).",
+      "label": "Other",
+      "prob": 0.7028259634971619
+    },
+    {
+      "sentence": "positives.",
+      "label": "Other",
+      "prob": 0.652788519859314
+    },
+    {
+      "sentence": "Chris Harrison",
+      "label": "Other",
+      "prob": 0.8895695805549622
+    },
+    {
+      "sentence": "Grundhfer et al.",
+      "label": "Other",
+      "prob": 0.9321490526199341
+    },
+    {
+      "sentence": "CCS Concepts",
+      "label": "Other",
+      "prob": 0.9145587086677551
+    },
+    {
+      "sentence": "ACKNOWLEDGMENTS",
+      "label": "Other",
+      "prob": 0.8630120158195496
+    },
+    {
+      "sentence": "Author Keywords",
+      "label": "Other",
+      "prob": 0.9486260414123535
+    }
+  ]
+}

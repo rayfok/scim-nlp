@@ -1,0 +1,2039 @@
+{
+  "uist-4": [
+    {
+      "sentence": "For current mainstream solutions, mid-air gestures suffer from limited size of the command set and arm fatigue, while voice input has the inherent issue about privacy and social norms.",
+      "label": "Background",
+      "prob": 0.9491486549377441
+    },
+    {
+      "sentence": "A false-positive error in mobile interaction can be annoying to users and requires heavy effort to undo.",
+      "label": "Background",
+      "prob": 0.9447049498558044
+    },
+    {
+      "sentence": "However, with larger sets, the design and the scalability of the gesture set, the effort required to learn and memorize it limit its widespread use.",
+      "label": "Background",
+      "prob": 0.9425575733184814
+    },
+    {
+      "sentence": "Given the limited screen size and hierarchical UI layouts, reaching a desired item often requires multiple steps of sliding and clicking.",
+      "label": "Background",
+      "prob": 0.9378135204315186
+    },
+    {
+      "sentence": "Smartwatch has an ultrasmall screen on which UI layouts and touch interaction are more limited.",
+      "label": "Background",
+      "prob": 0.9292100071907043
+    },
+    {
+      "sentence": "On the other hand, voice input is an alternative channel that offers rich expressivity and enables always-available interaction.",
+      "label": "Background",
+      "prob": 0.9255131483078003
+    },
+    {
+      "sentence": "First, several phonemes often look the same (from human eye or sensing signals) when produced in general speech.",
+      "label": "Background",
+      "prob": 0.921612560749054
+    },
+    {
+      "sentence": "Unfortunately, these gesture-based approaches suffer from one or more of the following issues: gesture designing, scalability of the gesture set, and gesture learning and memorizing.",
+      "label": "Background",
+      "prob": 0.9212957620620728
+    },
+    {
+      "sentence": "Lip-Interact only considers short and visually distinguishable commands rather than long sentences such as those in a conversational system.",
+      "label": "Background",
+      "prob": 0.9171507954597473
+    },
+    {
+      "sentence": "One of the main challenges when designing interfaces for touch-based mobile devices is the limited size of the display.",
+      "label": "Background",
+      "prob": 0.9160596132278442
+    },
+    {
+      "sentence": "Some commercial smartphones like the iPhone X are already equipped with special hardwares to ensure the robustness of face detection.",
+      "label": "Background",
+      "prob": 0.9121683835983276
+    },
+    {
+      "sentence": "Therefore, the interaction is immune to ambient noise and largely alleviates the issues surrounding personal privacy and social norms in public environment.",
+      "label": "Background",
+      "prob": 0.9110216498374939
+    },
+    {
+      "sentence": "Therefore, Lip-Interact is expected to be less noticeable and be able to largely increase users privacy.",
+      "label": "Background",
+      "prob": 0.9101086854934692
+    },
+    {
+      "sentence": "To access frequently-used features, users often need to tap and swipe multiple times or choose from a hierarchical menu (3.a).",
+      "label": "Background",
+      "prob": 0.9085226058959961
+    },
+    {
+      "sentence": "The use of Lip-Interact depends on the current task as well as users cognitive and motor skills.",
+      "label": "Background",
+      "prob": 0.9021540284156799
+    },
+    {
+      "sentence": "Second, in everyday conversation people do very little or even no mouth movement so that the amount of information presented is not sufcient for recognition.",
+      "label": "Background",
+      "prob": 0.9008910059928894
+    },
+    {
+      "sentence": "Unlike conventional lip-reading tasks [47, 4, 12] where the mouth position is relatively xed, for Lip-Interact in smartphone use, the orientation between the user and the camera may vary each time a command is issued, and may even change while the user issues a single command.",
+      "label": "Background",
+      "prob": 0.8978735208511353
+    },
+    {
+      "sentence": "Current smartphones use buttons, icons and menus to trigger functionality because they are easy to perceive and use.",
+      "label": "Background",
+      "prob": 0.895433783531189
+    },
+    {
+      "sentence": "However, these prior works all use an invasive setup, impeding the scalability of these solutions in real-world scenarios.",
+      "label": "Background",
+      "prob": 0.8911993503570557
+    },
+    {
+      "sentence": "For command recognition, the bottleneck lies in the expressivity of silent speech the information conveyed by the mouth movements.",
+      "label": "Background",
+      "prob": 0.890110969543457
+    },
+    {
+      "sentence": "In addition, interactions can be more inconvenient when the users hands are occupied (e.g. holding a cup of coffee, wearing gloves in winter, etc.).",
+      "label": "Background",
+      "prob": 0.8899093866348267
+    },
+    {
+      "sentence": "Although the size of the command set is still limited in our work, Lip-Interact can be easy to be generalized to support other applications.",
+      "label": "Background",
+      "prob": 0.887801468372345
+    },
+    {
+      "sentence": "These tasks generally require multiple steps of touch operations to complete.",
+      "label": "Background",
+      "prob": 0.8871220350265503
+    },
+    {
+      "sentence": "WeChat is a multi-purpose social media mobile app and the largest app by active users in China.",
+      "label": "Background",
+      "prob": 0.8766742944717407
+    },
+    {
+      "sentence": "The computer and the smartphone communicated over local network to share interface information and send commands in real time.",
+      "label": "Background",
+      "prob": 0.8750560283660889
+    },
+    {
+      "sentence": "For example, talking to other people while using the device will also result in mouth movement but should not be detected as issuing a Lip-Interact command.",
+      "label": "Background",
+      "prob": 0.8742784261703491
+    },
+    {
+      "sentence": "With the recent advance of computer vision technologies, lipreading from vision has achieved signicant improvement",
+      "label": "Background",
+      "prob": 0.8719645738601685
+    },
+    {
+      "sentence": "The commands silently spoken by the user must be recognized accurately and robustly.",
+      "label": "Background",
+      "prob": 0.8713488578796387
+    },
+    {
+      "sentence": "With Lip-Interact on a smartphone, the user should be clearly informed about commands that are currently available.",
+      "label": "Background",
+      "prob": 0.8691783547401428
+    },
+    {
+      "sentence": "When taking the subway, touch is usually limited (e.g. user is holding the handrail) and there are usually many people around.",
+      "label": "Background",
+      "prob": 0.8641611933708191
+    },
+    {
+      "sentence": "At present, most of the devices rely on touch as the primary input approach.",
+      "label": "Background",
+      "prob": 0.8635714054107666
+    },
+    {
+      "sentence": "But we do not rule out that the performance will be affected by more noise in real-life use cases.",
+      "label": "Background",
+      "prob": 0.8584287762641907
+    },
+    {
+      "sentence": "With the development of computer vision technology, the front camera on mobile devices has enabled a variety of new features, such as sele beautication, face-based AR animation and face unlock.",
+      "label": "Background",
+      "prob": 0.8559413552284241
+    },
+    {
+      "sentence": "Lip-Interact moves one step further by keeping the external form of voice interaction but not vocalizing any sound.",
+      "label": "Background",
+      "prob": 0.8557061553001404
+    },
+    {
+      "sentence": "(2) The model is expected to have a strong learning ability in real-world scenarios, since smartphones are usually used by only a single user.",
+      "label": "Background",
+      "prob": 0.848020076751709
+    },
+    {
+      "sentence": "But we think Lip-Interact can be easily applied to other languages as long as the mouth movements of commands are differentiable.",
+      "label": "Background",
+      "prob": 0.8475215435028076
+    },
+    {
+      "sentence": "For example, a user may prefer to type with ngers while using Lip-Interact for fast text editing (e.g. bold, highlight, undo, etc).",
+      "label": "Background",
+      "prob": 0.8435131907463074
+    },
+    {
+      "sentence": "The user silently issues commands by mouthing the verbal commands but not vocalizing the sound.",
+      "label": "Background",
+      "prob": 0.8423125147819519
+    },
+    {
+      "sentence": "(1) On a limited set of mobile interactions, the commands issued by users through silent speech can be distinguished accurately by vision-only methods.",
+      "label": "Background",
+      "prob": 0.8419046401977539
+    },
+    {
+      "sentence": "situation for a participant was that the recognition of a command was either almost entirely correct or almost entirely wrong.",
+      "label": "Background",
+      "prob": 0.8417473435401917
+    },
+    {
+      "sentence": "In addition, Lip-Interact can also work together with touch to enable a more efcient and uent user input experience.",
+      "label": "Background",
+      "prob": 0.8409053087234497
+    },
+    {
+      "sentence": "Head-worn devices (AR/VR glasses) separate the space of displaying and the interaction interface.",
+      "label": "Background",
+      "prob": 0.8394784331321716
+    },
+    {
+      "sentence": "However, silent speech recognition has intrinsic limitations.",
+      "label": "Background",
+      "prob": 0.8372811079025269
+    },
+    {
+      "sentence": "However, with full access to a cutting-edge devices camera and neural processing unit, it seems likely that Lip-Interact could be realized on a real product with no additional computing resources.",
+      "label": "Background",
+      "prob": 0.8305269479751587
+    },
+    {
+      "sentence": "However, simply tapping on the screen with a ngertip lacks expressivity.",
+      "label": "Background",
+      "prob": 0.8242768049240112
+    },
+    {
+      "sentence": "Meanwhile, because the \"gestures\" in Lip-Interact are based on the natural language, it also avoids many limitations of conventional gesture input, such as the goodness of gesture-command mapping, the scalability of gesture set and the learning cost.",
+      "label": "Background",
+      "prob": 0.8240004181861877
+    },
+    {
+      "sentence": "Lip-Interact repurposes the devices front camera to capture the users mouth, segment silently speaking sequences and recognize lip movements into",
+      "label": "Background",
+      "prob": 0.8230087757110596
+    },
+    {
+      "sentence": "Tocopyotherwise,orrepublish, to post on servers or to redistribute to lists, requires prior specic permission and/or a fee.",
+      "label": "Background",
+      "prob": 0.8209230303764343
+    },
+    {
+      "sentence": "Similar methods are often used in HCI research and commercial products.",
+      "label": "Background",
+      "prob": 0.8200483918190002
+    },
+    {
+      "sentence": "WeChat has a wide range of functionalities including messaging, moments (a social feed of friends updates), payment services, etc.",
+      "label": "Background",
+      "prob": 0.81891930103302
+    },
+    {
+      "sentence": "When watching videos on a smartphone, the users hands are not always available.",
+      "label": "Background",
+      "prob": 0.8184354305267334
+    },
+    {
+      "sentence": "The efciency of common touch interaction was strongly inuenced by the target location and user familiarity.",
+      "label": "Background",
+      "prob": 0.8142635226249695
+    },
+    {
+      "sentence": "Todays smartphones enable a wide range of functionalities.",
+      "label": "Background",
+      "prob": 0.8101469278335571
+    },
+    {
+      "sentence": "Such process and implementation can be easily generalized to other command sets.",
+      "label": "Background",
+      "prob": 0.8044837713241577
+    },
+    {
+      "sentence": "Lip-Interact is expected to allow hands-free interaction on smartwatches with a built-in camera sensor on the front panel.",
+      "label": "Background",
+      "prob": 0.8029145002365112
+    },
+    {
+      "sentence": "A silent speech interface (SSI) [16] is a system that allows speech communication without using the sound made when people vocalize their speech sounds.",
+      "label": "Background",
+      "prob": 0.8020908832550049
+    },
+    {
+      "sentence": "Lip-Interact offers users an opportunity to use the camera to \" actively \" interact with the device.",
+      "label": "Background",
+      "prob": 0.7983080148696899
+    },
+    {
+      "sentence": "Finally, in contrast to general audible voice input, the main difference is that Lip-Interact commands are silent and recognized by the camera.",
+      "label": "Background",
+      "prob": 0.7964606881141663
+    },
+    {
+      "sentence": "Users are instructed to issue commands in a more \"standard\" way than when they are casually talking by exaggerating their",
+      "label": "Background",
+      "prob": 0.7948961853981018
+    },
+    {
+      "sentence": "The key difference between AlterEgo and previous SSIs is that their system works even when the user does not open the mouth.",
+      "label": "Background",
+      "prob": 0.7883254885673523
+    },
+    {
+      "sentence": "When the user has posed for a sele with one hand holding the device, he or she can simply mouth \"capture\" rather than awkwardly adjusting the hand and reaching it with the thumb.",
+      "label": "Background",
+      "prob": 0.7804738879203796
+    },
+    {
+      "sentence": "Also, a user can issue commands such as: \" home \", \" back \", \" screenshot \", \" ashlight \" and so on to easily control the devices settings.",
+      "label": "Background",
+      "prob": 0.7780150175094604
+    },
+    {
+      "sentence": "Lip-Interact intersects with three key literatures: gesture interaction, voice input and silent speech interfaces.",
+      "label": "Background",
+      "prob": 0.7727674841880798
+    },
+    {
+      "sentence": "This also allows users to have quick access to functionalities since most of the functionalities on mobile devices are discrete.",
+      "label": "Background",
+      "prob": 0.7671331167221069
+    },
+    {
+      "sentence": "For example, holding the device with one hand while having meals, or waching the phone that is xed on a stand while lying down.",
+      "label": "Background",
+      "prob": 0.760373055934906
+    },
+    {
+      "sentence": "When the user is operating a smartphone, the front camera is a natural sensor to capture the motion of the mouth.",
+      "label": "Background",
+      "prob": 0.7596272826194763
+    },
+    {
+      "sentence": "Copyrights for components of this work owned by others than ACM mustbehonored.",
+      "label": "Background",
+      "prob": 0.7595855593681335
+    },
+    {
+      "sentence": "The algorithms need to be improved and tested in more various environments.",
+      "label": "Background",
+      "prob": 0.7591127157211304
+    },
+    {
+      "sentence": "Users only need to mouth the command by thinking that their lip movement can present each syllable clearly.",
+      "label": "Background",
+      "prob": 0.7546589970588684
+    },
+    {
+      "sentence": "[6] used an intracortical microelectrode brain computer interface (BCI) to predict users intended speech information.",
+      "label": "Background",
+      "prob": 0.7512015104293823
+    },
+    {
+      "sentence": "This is because touch-based input is still faster and more direct for many tasks (e.g. scrolling a list) and enables more complex interactions (e.g. typing).",
+      "label": "Background",
+      "prob": 0.7452132105827332
+    },
+    {
+      "sentence": "Users can instruct the assistant to open apps, tap buttons and access specic settings without touching the screen.",
+      "label": "Background",
+      "prob": 0.7379505038261414
+    },
+    {
+      "sentence": "During the experiment, the participant was asked to hold the phone as he or she normally would in everyday use.",
+      "label": "Background",
+      "prob": 0.7336262464523315
+    },
+    {
+      "sentence": "Please note that in this work, we cannot cover all the functionalities on smartphones in Lip-Interact because of their immense quantity, especially the built-in features of various apps.",
+      "label": "Background",
+      "prob": 0.7335493564605713
+    },
+    {
+      "sentence": "To our knowledge, none has studied to use the on-device front camera to combine silent speech with the smartphone as a command input approach.",
+      "label": "Background",
+      "prob": 0.7297763824462891
+    },
+    {
+      "sentence": "Longer image sequences are truncated and shorter sequences are padded with zeros at the end.",
+      "label": "Background",
+      "prob": 0.7257903814315796
+    },
+    {
+      "sentence": "Therefore, the robustness of the Lip-Interact system mainly relies on two factors: the robustness of recognizing the users intention to use silent speech and the robustness of recognizing the issued commands.",
+      "label": "Background",
+      "prob": 0.7239629030227661
+    },
+    {
+      "sentence": "For example, after entering Camera , the user is allowed to issue \" sele \" to reverse the camera, \" video \" to switch the shooting mode, and \" capture \" to trigger the shutter button, etc.",
+      "label": "Background",
+      "prob": 0.7203614115715027
+    },
+    {
+      "sentence": "We see this as a great opportunity to apply silent speech on mobile devices to expand the interaction channel and improve user experience.",
+      "label": "Background",
+      "prob": 0.7153757810592651
+    },
+    {
+      "sentence": "Multimodal interfaces can support more exible, efcient and expressive means of humancomputer interaction [14], especially in mobile interaction when mobility may cause temporary disability and the user is unable to use a particular input [37].",
+      "label": "Background",
+      "prob": 0.7146516442298889
+    },
+    {
+      "sentence": "During the whole data collection process, participants experienced varied lighting conditions: bright and cloudy daylight, natural indoor light and lamplight in the evening, etc.",
+      "label": "Background",
+      "prob": 0.7108374238014221
+    },
+    {
+      "sentence": "Compared with search-and-click-based touch interaction, Lip-Interact is essentially a kind of gesture (where the user performs one of a set of dened actions to express the input intention), thus enabling efcient one-step functionality access.",
+      "label": "Background",
+      "prob": 0.7041246294975281
+    },
+    {
+      "sentence": "We envision that a tiny camera is integrated into the microphone, capturing users mouth movement and enabling Lip-Interact.",
+      "label": "Background",
+      "prob": 0.6976807713508606
+    },
+    {
+      "sentence": "This exacerbates the problem of low recognition accuracy.",
+      "label": "Background",
+      "prob": 0.6919417381286621
+    },
+    {
+      "sentence": "Touch on GUIs is straightforward but may require a lot of search and multiple operations to reach the desired item [13].",
+      "label": "Background",
+      "prob": 0.6892127394676208
+    },
+    {
+      "sentence": "Within a specic app, the supported functions are determined by the app itself.",
+      "label": "Background",
+      "prob": 0.6860430836677551
+    },
+    {
+      "sentence": "This often happens within an app (e.g. from the current page, perform several \" back \" actions, then navigate to enter a new page, and nally access the desired functionality).",
+      "label": "Background",
+      "prob": 0.6812217235565186
+    },
+    {
+      "sentence": "Although voice interaction is accurate and efcient, in our pilot survey of 15 users, only one user occasionally uses voice assistant to set calendar and another two users use speech for text input.",
+      "label": "Background",
+      "prob": 0.6798679232597351
+    },
+    {
+      "sentence": "commands by a deep-learning-based image sequence recognition technology.",
+      "label": "Background",
+      "prob": 0.6732788681983948
+    },
+    {
+      "sentence": "For the \"exaggeration\" requirement, our participants understood the necessity, and did not report any discomfort during the studies.",
+      "label": "Background",
+      "prob": 0.6685568690299988
+    },
+    {
+      "sentence": "For example, to take a sele, a user can simply mouth the verbal command \" open camera \" to directly launch the app in one step instead of searching for it manually, and then mouth \" capture \" to trigger the shutter button rather than reaching it with the unstable thumb and causing the picture to blur.",
+      "label": "Background",
+      "prob": 0.6683555841445923
+    },
+    {
+      "sentence": "The Spatial Transformer (ST) is a learnable module which has the ability to spatially transform feature maps, allowing the model to learn invariance to rotation.",
+      "label": "Background",
+      "prob": 0.6664733290672302
+    },
+    {
+      "sentence": "In addition, Lip-Interact also has potential to be applied to other interaction platforms (e.g. accessibility, smartwatch, head-worn devices), which deserves to be further studied.",
+      "label": "Background",
+      "prob": 0.663810133934021
+    },
+    {
+      "sentence": "Each participant was asked to list his/her most frequently-used mobile apps, system settings, and actions to handle pop-up messages and dialogs.",
+      "label": "Background",
+      "prob": 0.6564750671386719
+    },
+    {
+      "sentence": "This leads to a low recognition accuracy in general sentence lip reading with only a 50.2% word error rate [11], which is unusable for an interactive input system.",
+      "label": "Background",
+      "prob": 0.6535298824310303
+    },
+    {
+      "sentence": "Upon hearing it, the participant was asked to complete the subtask as quickly as possible and then wait for the next sound.",
+      "label": "Background",
+      "prob": 0.6527824997901917
+    },
+    {
+      "sentence": "Besides the features specially supported by the current context, the user is allowed at any time to access universal system functionalities such as \" home \", \" back \", and \" screenshot \".",
+      "label": "Background",
+      "prob": 0.6482499837875366
+    },
+    {
+      "sentence": "The advantages of Lip-Interact can be summarized as: (1) allowing for access to functionality efciently in one step, (2) providing necessary interaction ability when hands are not available, and (3) assisting touch to make device use more efcient and uent.",
+      "label": "Background",
+      "prob": 0.6455185413360596
+    },
+    {
+      "sentence": "Each group of two participants (referred as P a and P b ) participated in the study together.",
+      "label": "Background",
+      "prob": 0.6448876261711121
+    },
+    {
+      "sentence": "For each functionality access, input time was dened as the time interval from the starting signal (or the end of the last operation) to the time when the device began to respond to the user input.",
+      "label": "Background",
+      "prob": 0.6434295177459717
+    },
+    {
+      "sentence": "tree in which each node gives information (e.g. content, size, position, possible actions) about a window element.",
+      "label": "Background",
+      "prob": 0.6433606743812561
+    },
+    {
+      "sentence": "Previous work has studied silent speech interfaces, but mainly focusing on sensing technologies.",
+      "label": "Background",
+      "prob": 0.621162474155426
+    },
+    {
+      "sentence": "In these cases, Lip-Interact should allow users to operate the interface by issuing \" play \", \" stop \", \" fast-forward \", \" rewind \", \" louder \" and \" softer \" commands.",
+      "label": "Background",
+      "prob": 0.6109832525253296
+    },
+    {
+      "sentence": "Theoretically, issuing audible commands can achieve similar results to Lip-Interact in Study 2 with a higher and more stable input speed than touch.",
+      "label": "Background",
+      "prob": 0.6097492575645447
+    },
+    {
+      "sentence": "In comparison with audible voice input, participants report signicantly higher levels of agreement for Lip-Interact on privacy and social acceptance.",
+      "label": "Background",
+      "prob": 0.608542263507843
+    },
+    {
+      "sentence": "If the result is incorrect, the user is allowed to tap it and assign it to the correct class to improve the recognition model in subsequent use.",
+      "label": "Background",
+      "prob": 0.6055223941802979
+    },
+    {
+      "sentence": "Researchers have used various sensors (e.g. magnetic [17], EEG [39], EMG [46, 26], ultrasound imaging [18, 22] and non-audible murmur (NAM) microphone [36, 21]) to detect tongue, facial, throat movements and recover the speech content.",
+      "label": "Background",
+      "prob": 0.6041590571403503
+    },
+    {
+      "sentence": "The learning rate is initially set to 10  3 and scheduled to decrease to 10  5 over time.",
+      "label": "Background",
+      "prob": 0.5895426869392395
+    },
+    {
+      "sentence": "We quantied the exaggeration of lip movements by comparing the Maximum Mouth Opening Degree ( MMOD ) of the \"exaggerated\" silent speech vs. normal audible speech when the participants were issuing the same commands.",
+      "label": "Background",
+      "prob": 0.5885686278343201
+    },
+    {
+      "sentence": "Lip-Interact is context aware: covering different aspects of functionality when using different applications.",
+      "label": "Background",
+      "prob": 0.5854803919792175
+    },
+    {
+      "sentence": "However, voice recognition can be easily affected by ambient noise and people do not use it in many circumstances due to the privacy concerns [40].",
+      "label": "Background",
+      "prob": 0.5812801718711853
+    },
+    {
+      "sentence": "When a message arrives or a dialog pops up, the user can easily process them by issuing \" reply \", \" mark as read \", \" cancel \", etc.",
+      "label": "Background",
+      "prob": 0.5770732760429382
+    },
+    {
+      "sentence": "P a was asked to operate the phone rst with Lip-Interact and then with voice input.",
+      "label": "Background",
+      "prob": 0.572400689125061
+    },
+    {
+      "sentence": "We also research on-line personalization, which conrms the potential and benet of adapting the machine learning model to end users.",
+      "label": "Background",
+      "prob": 0.5630855560302734
+    },
+    {
+      "sentence": "For each function the participant met, he or she was asked to issue the lip command once.",
+      "label": "Background",
+      "prob": 0.5575174689292908
+    },
+    {
+      "sentence": "and intended to rent a smart shared bike.",
+      "label": "Background",
+      "prob": 0.5532426238059998
+    },
+    {
+      "sentence": "If the number of the syllables does match the command words of the recognition result, it is decided that the user is not using Lip-Interact.",
+      "label": "Background",
+      "prob": 0.5519891381263733
+    },
+    {
+      "sentence": "Lip-Interact provides an alternative input method on smartphones with both simplicity and expressivity.",
+      "label": "Background",
+      "prob": 0.5503308773040771
+    },
+    {
+      "sentence": "In this study, we preliminarily investigate the user preference between Lip-Interact and voice input in public environment.",
+      "label": "Background",
+      "prob": 0.5487804412841797
+    },
+    {
+      "sentence": "For each input condition , the participant consecutively completed three times (blocks) of the interaction task.",
+      "label": "Background",
+      "prob": 0.5421631932258606
+    },
+    {
+      "sentence": "In particular, participants enjoyed input with two channels: touch + Lip-Interact together in the Notepad app.",
+      "label": "Background",
+      "prob": 0.5392987132072449
+    },
+    {
+      "sentence": "is a common mobile activity, and we hoped to learn how LipInteract can assist touch and improve the experience on some tasks where touch could be limited (e.g. undo/redo, adjust cursor position).",
+      "label": "Background",
+      "prob": 0.5345886945724487
+    },
+    {
+      "sentence": "At the beginning of each block, the participant tapped the START button on the devices screen to start the task.",
+      "label": "Background",
+      "prob": 0.5293617248535156
+    },
+    {
+      "sentence": "I had to take off my gloves, scroll several times to locate the app, then tap the unlock button to scan the QR code, and nally put on my gloves again.",
+      "label": "Background",
+      "prob": 0.5273908972740173
+    },
+    {
+      "sentence": "When a feature is exposed to a user for the rst time, a oating window is displayed around the icon with its command words on it (Figure 3.a).",
+      "label": "Background",
+      "prob": 0.5173915028572083
+    },
+    {
+      "sentence": "The service runs in the background and retrieves window content in real-time.",
+      "label": "Background",
+      "prob": 0.5160990953445435
+    },
+    {
+      "sentence": "In total, there were 48,335 command samples, with at least 1,092 samples for a single command.",
+      "label": "Background",
+      "prob": 0.5157622694969177
+    },
+    {
+      "sentence": "Properly Exaggerating Lip Movements",
+      "label": "Background",
+      "prob": 0.5134704113006592
+    },
+    {
+      "sentence": "In such cases, the input time of the second operation is calculated from the completion of the previous one.",
+      "label": "Background",
+      "prob": 0.5115048289299011
+    },
+    {
+      "sentence": "The concept of silent speech is not new.",
+      "label": "Background",
+      "prob": 0.5048608779907227
+    },
+    {
+      "sentence": "Lip interaction; silent speech; mobile interaction; touch-free; semantic gesture; vision-based recognition.",
+      "label": "Background",
+      "prob": 0.4964379072189331
+    },
+    {
+      "sentence": "When the system detects that the user is issuing commands, a real-time visual indicator appears at the top of the screen (Figure 3.b).",
+      "label": "Background",
+      "prob": 0.49293747544288635
+    },
+    {
+      "sentence": "As described previously, we also create system-level oating windows to guide novice to use Lip-Interact and provide real-time visual feedbacks.",
+      "label": "Background",
+      "prob": 0.4907694160938263
+    },
+    {
+      "sentence": "In order to raise the recognition accuracy of silent speech to a practically usable level in a mobile input system, we add two",
+      "label": "Background",
+      "prob": 0.4894663393497467
+    },
+    {
+      "sentence": "This example application comes from a real-life experience of one of our participants.",
+      "label": "Background",
+      "prob": 0.4891188144683838
+    },
+    {
+      "sentence": "This experiment is a predictor of the real-world performance when a user uses Lip-Interact for the rst time.",
+      "label": "Background",
+      "prob": 0.48810189962387085
+    },
+    {
+      "sentence": "[26] presented a wearable interface: AlterEgo, on which ve EMG sensors were carefully placed above the face to capture the neuromuscular signals.",
+      "label": "Background",
+      "prob": 0.4869922995567322
+    },
+    {
+      "sentence": "We nally implement a working Lip-Interact system that allows users to operate the smartphone in real time.",
+      "label": "Background",
+      "prob": 0.4850592613220215
+    },
+    {
+      "sentence": "The \"Di\" sound from the experimenter was used as the starting signal for the current subtask.",
+      "label": "Background",
+      "prob": 0.4848516285419464
+    },
+    {
+      "sentence": "The localization network inside the module is a two-layer CNN (32 and 64 lters respectively) + one fully connected layer (512 units).",
+      "label": "Background",
+      "prob": 0.4840613603591919
+    },
+    {
+      "sentence": "After \" open camera \", the use can quickly switch shooting mode and settings by issuing \" photo \", \" video \", \" panorama \", \" sele \", \" reverse camera \", \" ash on/off \" lip commands instead of recalling where the buttons are.",
+      "label": "Background",
+      "prob": 0.48040032386779785
+    },
+    {
+      "sentence": "If and only if all of these features satisfy certain thresholds (learned from training data with a C4.5 decision tree [41]), the algorithm decides whether or not to remain in the current state or move to the next state.",
+      "label": "Background",
+      "prob": 0.4786900281906128
+    },
+    {
+      "sentence": "Finally, both participants answered a 5-point Likert-style questionnaire to access their preference on three measures: Privacy , Comfort as user , and Comfort as others in the surrounding environment .",
+      "label": "Background",
+      "prob": 0.4784112870693207
+    },
+    {
+      "sentence": "We have described Lip-Interact, a novel interaction technique that repurposes the front camera of smartphones to detect lip movement and recognize it into commands.",
+      "label": "Background",
+      "prob": 0.47694408893585205
+    },
+    {
+      "sentence": "Type VI : Single tap out of the comfortable nger range (e.g. tap the back button in the upper left corner).",
+      "label": "Background",
+      "prob": 0.47248706221580505
+    },
+    {
+      "sentence": "Then P a and P b swapped roles and repeated the process above.",
+      "label": "Background",
+      "prob": 0.4706348478794098
+    },
+    {
+      "sentence": "The commands cover both system-level functions (launching apps, system quick settings, and handling pop-up windows) and applicationlevel ones ( Notepad and WeChat ).",
+      "label": "Background",
+      "prob": 0.4675354063510895
+    },
+    {
+      "sentence": "In order to augment the input ability on a mobile device, several approaches have been explored previously, such as onscreen gestures [35, 1], keyboard shortcuts [32, 2], and extending the input space to the edge [7], back [49, 5], and above area [20, 9] of the device.",
+      "label": "Background",
+      "prob": 0.4646564722061157
+    },
+    {
+      "sentence": "After the recognizer returns the result, a vocal check is applied to distinguish Lip-Interact from users normal speaking.",
+      "label": "Background",
+      "prob": 0.4636179208755493
+    },
+    {
+      "sentence": "To address this, we can also consider some explicit mode-switch methods, such as pressing a button or squeezing the phones edge.",
+      "label": "Background",
+      "prob": 0.4630972743034363
+    },
+    {
+      "sentence": "Future work should be done to try Lip-Interact on more applications.",
+      "label": "Background",
+      "prob": 0.4610254168510437
+    },
+    {
+      "sentence": "We recruited 10 right-handed participants (P1-P10, 5M/5F), aged between 22 and 30.",
+      "label": "Background",
+      "prob": 0.4560764729976654
+    },
+    {
+      "sentence": "constraints: (1) limited command set based on current context and (2) properly exaggerating the lip movements in the interaction designs as well as (3) incorporate Spatial Transformer Networks in the recognition model.",
+      "label": "Background",
+      "prob": 0.4527403712272644
+    },
+    {
+      "sentence": "We incorporate voice check and design visual feedback to offer an accurate, robust and friendly user experience.",
+      "label": "Background",
+      "prob": 0.4487546384334564
+    },
+    {
+      "sentence": "The denition of each input type was determined based on the participants actual operation, which was recorded on video and labelled manually later.",
+      "label": "Background",
+      "prob": 0.445218950510025
+    },
+    {
+      "sentence": "Type IV : Accessing a functionality on the Quick Settings Dropdown panel (e.g. ashlight).",
+      "label": "Background",
+      "prob": 0.44375744462013245
+    },
+    {
+      "sentence": "The main difference is that LipInteract does not require the vocalization.",
+      "label": "Background",
+      "prob": 0.44339919090270996
+    },
+    {
+      "sentence": "Type V : Single tap within the comfortable nger range (e.g. tap the home button).",
+      "label": "Background",
+      "prob": 0.4405549168586731
+    },
+    {
+      "sentence": "The system identies the current state and uses the corresponding model to recognize users input.",
+      "label": "Background",
+      "prob": 0.44040828943252563
+    },
+    {
+      "sentence": "We conducted the experiment in a laboratory space with participants sitting or standing comfortably (Figure 5.a) near a window.",
+      "label": "Background",
+      "prob": 0.4403810501098633
+    },
+    {
+      "sentence": "Please note that the required exaggeration is still within a normal speaking range.",
+      "label": "Background",
+      "prob": 0.43688637018203735
+    },
+    {
+      "sentence": "Our deep learning model has sufcient generalization ability for new users with a recognition accuracy of over 95%.",
+      "label": "Result",
+      "prob": 0.4739408493041992
+    },
+    {
+      "sentence": "Type VII : Precise pointing which is difcult for touch because of the \" fat nger \"problem [42] (e.g. adjust a cursor in text).",
+      "label": "Background",
+      "prob": 0.4314935803413391
+    },
+    {
+      "sentence": "In this paper, we introduce Lip-Interact, which enables users to access functionality on the smartphone by issuing silent speech commands (Figure 1).",
+      "label": "Background",
+      "prob": 0.42734360694885254
+    },
+    {
+      "sentence": "To enhance the smartphones input ability, researchers have explored access to functionalities through gestures [33, 2, 31, 8, 34, 1].",
+      "label": "Background",
+      "prob": 0.42699742317199707
+    },
+    {
+      "sentence": "We describe algorithms that automatically segment the mouth image sequences and recognize the commands with an end-to-end deep learning model.",
+      "label": "Background",
+      "prob": 0.42647212743759155
+    },
+    {
+      "sentence": "The length of the sliding window for segmenting image sequences is set to 7.",
+      "label": "Background",
+      "prob": 0.4220729172229767
+    },
+    {
+      "sentence": "Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for prot or commercial advantage and that copies bear this notice and the full citation on the rst page.",
+      "label": "Other",
+      "prob": 0.48021334409713745
+    },
+    {
+      "sentence": "This work focuses on the implementation and evaluation of Lip-Interact for smartphone, but we also foresee the potential of Lip-Interact on other platforms.",
+      "label": "Objective",
+      "prob": 0.49142447113990784
+    },
+    {
+      "sentence": "For Comfort as user , participants expressed two concerns about voice control.",
+      "label": "Background",
+      "prob": 0.4215087294578552
+    },
+    {
+      "sentence": "We discuss the design principles and present a set of interface mechanisms that support novice learning, visual feedback and online model personalization.",
+      "label": "Background",
+      "prob": 0.42031559348106384
+    },
+    {
+      "sentence": "Two of the participants (P2, P4) reported that they took advantage of the parallelism of the two channels to speed up interaction pairs.",
+      "label": "Result",
+      "prob": 0.46716415882110596
+    },
+    {
+      "sentence": "To segment the command issuing sequence, an online sliding window algorithm [28] is used to to detect and transfer between the following four states: begin speaking, continue speaking, stop speaking and other (Figure 5.c).",
+      "label": "Background",
+      "prob": 0.41927459836006165
+    },
+    {
+      "sentence": "A one-minute break was scheduled between blocks.",
+      "label": "Background",
+      "prob": 0.4167274534702301
+    },
+    {
+      "sentence": "The computer which powered the Lip-Interact system was put in the participants backpack.",
+      "label": "Background",
+      "prob": 0.41533395648002625
+    },
+    {
+      "sentence": "[22] adopted a customized helmet where an ultrasound transducer was locked at a xed position beneath the chin while an optical camera was xed in front of the mouth.",
+      "label": "Background",
+      "prob": 0.41528427600860596
+    },
+    {
+      "sentence": "Different device sizes and UI designs can lead to different performance.",
+      "label": "Result",
+      "prob": 0.48214924335479736
+    },
+    {
+      "sentence": "The RGB channels of the mouth images over the speaking interval T are normalized to have zero mean and unit variance, forming a T  H  W  3 input for the next step of command recognition.",
+      "label": "Background",
+      "prob": 0.40796980261802673
+    },
+    {
+      "sentence": "The Opening Degree ( OD ) of the mouth is measured by the distance h between the upper and lower lips divided by the distance w between the left and the right corners of the mouth.",
+      "label": "Background",
+      "prob": 0.3962618410587311
+    },
+    {
+      "sentence": "During this study, participants issued a total of 367 Lip-Interact commands.",
+      "label": "Result",
+      "prob": 0.46082279086112976
+    },
+    {
+      "sentence": "The participant was given two minutes to get familiar with the GUI and touch interactions on the device.",
+      "label": "Background",
+      "prob": 0.39213255047798157
+    },
+    {
+      "sentence": "We will describe the details of the commands and their elicitation process in the next section.",
+      "label": "Background",
+      "prob": 0.39199551939964294
+    },
+    {
+      "sentence": "For the intention recognition, at present we solve it by detecting the changes of the mouth opening degree and the audio signal.",
+      "label": "Background",
+      "prob": 0.3905113935470581
+    },
+    {
+      "sentence": "The camera was connected to a computer which ran the image processing and neural network classier.",
+      "label": "Background",
+      "prob": 0.38547012209892273
+    },
+    {
+      "sentence": "Our empirical experience indicates that as long as the mouth image sequence of the commands can be distinguished by human eyes, the model can accurately recognize them.",
+      "label": "Result",
+      "prob": 0.5133594274520874
+    },
+    {
+      "sentence": "Type I : Accessing between multiple pages at the same level of the hierarchy (e.g. on the home screen, scroll left and right to locate and then tap to launch an app).",
+      "label": "Background",
+      "prob": 0.37854254245758057
+    },
+    {
+      "sentence": "The system has an overall latency of 7/30s SEGMENTING + 0.0362s RECOGNIZING + 6ms NETWORK  0.275s.",
+      "label": "Background",
+      "prob": 0.3752009868621826
+    },
+    {
+      "sentence": "We are trying to integrate LipInteract into a self-contained smartphone, which will reduce the response time and improve the user experience further.",
+      "label": "Background",
+      "prob": 0.37022289633750916
+    },
+    {
+      "sentence": "Then the participant repeated the command 28 times: the rst three times in normal audible speaking manner and the last 25 times in the Lip-Interact manner.",
+      "label": "Result",
+      "prob": 0.3745324909687042
+    },
+    {
+      "sentence": "This experiment examines the interaction performance of LipInteract on a smartphone, with a focus on efciency in comparison with general touch.",
+      "label": "Result",
+      "prob": 0.37635594606399536
+    },
+    {
+      "sentence": "In each block, the experimenter advanced the task by controlling a sounder.",
+      "label": "Background",
+      "prob": 0.36418619751930237
+    },
+    {
+      "sentence": "Next, the participant was instructed to traverse all the functionality of Lip-Interact.",
+      "label": "Background",
+      "prob": 0.3624308407306671
+    },
+    {
+      "sentence": "As a counter-example, Figure 7 shows the analog audio signal from the devices microphone when a user speaks \" open WeChat \" in a dining room.",
+      "label": "Result",
+      "prob": 0.4280930757522583
+    },
+    {
+      "sentence": "8% faster than using Lip-Interact sequentially (3.06s).",
+      "label": "Background",
+      "prob": 0.359470397233963
+    },
+    {
+      "sentence": "\" Lip-Interact can greatly reduce such temporary disability with two simple commands: \" open Mobike \" and \" unlock \".",
+      "label": "Other",
+      "prob": 0.541467010974884
+    },
+    {
+      "sentence": "All were full-time undergraduate and graduate students on campus.",
+      "label": "Background",
+      "prob": 0.357635498046875
+    },
+    {
+      "sentence": "The task simulated daily smartphone usage, including 22 of the 44 functionalities supported by our Lip-Interact system.",
+      "label": "Result",
+      "prob": 0.4474480152130127
+    },
+    {
+      "sentence": "The order of using Lip-Interact and voice input was balanced across all participants.",
+      "label": "Result",
+      "prob": 0.4501585364341736
+    },
+    {
+      "sentence": "With two controlled experiments, we show that Lip-Interact provides a more efcient and stable way of accessing functionality on a smartphone than touch, especially for single-handed input.",
+      "label": "Result",
+      "prob": 0.4926871061325073
+    },
+    {
+      "sentence": "The models were updated with the batch size of 2  the number of classes and with the epoch of 30.",
+      "label": "Background",
+      "prob": 0.35113364458084106
+    },
+    {
+      "sentence": "Figure 6 illustrates our deep-learning architecture, combining the steps of spatial transformation, representation learning and dynamic modelling into a single end-to-end model.",
+      "label": "Background",
+      "prob": 0.34998568892478943
+    },
+    {
+      "sentence": "Type II : Accessing between pages across different levels of the hierarchy.",
+      "label": "Background",
+      "prob": 0.34851956367492676
+    },
+    {
+      "sentence": "To increase the data diversity, the participant was also instructed to randomly change the orientation between the face and the device within a certain range each time before issuing a command.",
+      "label": "Background",
+      "prob": 0.34742671251296997
+    },
+    {
+      "sentence": "In order to make silent speech truly usable on a smartphone, we add the following two design constraints:",
+      "label": "Background",
+      "prob": 0.34689971804618835
+    },
+    {
+      "sentence": "The number of frames T is set to 70 (  2.33s).",
+      "label": "Background",
+      "prob": 0.3427920341491699
+    },
+    {
+      "sentence": "The interaction task in Study 2 consists of 24 subtasks.",
+      "label": "Background",
+      "prob": 0.3426473140716553
+    },
+    {
+      "sentence": "All participants understood the \"exaggerating lip movements\" requirement after we explained the reason and felt comfortable throughout the experiment.",
+      "label": "Result",
+      "prob": 0.4312141537666321
+    },
+    {
+      "sentence": "We recorded participants mouth image sequences of issuing silent speech commands using the system described above.",
+      "label": "Result",
+      "prob": 0.34180110692977905
+    },
+    {
+      "sentence": "This section evaluates recognition accuracy across time to simulate real-world scenarios when the pre-trained model improves as the number of uses increases.",
+      "label": "Result",
+      "prob": 0.47308388352394104
+    },
+    {
+      "sentence": "The numbers in parentheses indicate the number of commands in the group.",
+      "label": "Other",
+      "prob": 0.3577863574028015
+    },
+    {
+      "sentence": "Most of the solutions attached additional sensors, for example on a helmet [22], facemask [26], or neckband [16].",
+      "label": "Other",
+      "prob": 0.5614196062088013
+    },
+    {
+      "sentence": "The camera recognizes the commands, and the system triggers corresponding functionalities.",
+      "label": "Method",
+      "prob": 0.32692277431488037
+    },
+    {
+      "sentence": "Lip-Interact in mobile interactions.",
+      "label": "Other",
+      "prob": 0.48166725039482117
+    },
+    {
+      "sentence": "Multimodal interfaces process two or more combined user inputs to create new interaction possibilities, such as Pen+Voice [15] and Gaze+Touch [38].",
+      "label": "Other",
+      "prob": 0.566321611404419
+    },
+    {
+      "sentence": "The output frames of each Spatial Transformer module are concatenated along the time dimension, forming a T  H  W  3input for the following 3  (3D Convolutions, 3D maxpooling, spatial dropout) layers.",
+      "label": "Method",
+      "prob": 0.43821272253990173
+    },
+    {
+      "sentence": "As for Comfort as people in the surrounding environment , most participants rated 3 (neutral) on voice input.",
+      "label": "Result",
+      "prob": 0.5429524779319763
+    },
+    {
+      "sentence": "Each block corresponded to one of the 44 commands listed in Figure 4.",
+      "label": "Result",
+      "prob": 0.43856626749038696
+    },
+    {
+      "sentence": "We use this service to monitor the state of the device, set the suitable recognition model and automatically perform input actions (e.g. tapping on a view).",
+      "label": "Method",
+      "prob": 0.42325374484062195
+    },
+    {
+      "sentence": "All participants expressed that Lip-Interact was easy to understand and learn.",
+      "label": "Result",
+      "prob": 0.4742874205112457
+    },
+    {
+      "sentence": "With Lip-Interact, however, \" it was much less noticeable \".",
+      "label": "Other",
+      "prob": 0.4973864257335663
+    },
+    {
+      "sentence": "Improve Recognition Accuracy of Silent Speech Commands",
+      "label": "Result",
+      "prob": 0.3409053087234497
+    },
+    {
+      "sentence": "A successful example is voice assistant, which is being integrated into modern smartphones, such as Googles Assistant [19] and Siri [3].",
+      "label": "Other",
+      "prob": 0.5866536498069763
+    },
+    {
+      "sentence": "Type III : Opening a menu and selecting a command.",
+      "label": "Other",
+      "prob": 0.4198465645313263
+    },
+    {
+      "sentence": "Within each sliding window, seven statistical features of OD are calculated: current value, sum, mean, max, standard deviation, number of frames between max and min, and absolute energy .",
+      "label": "Method",
+      "prob": 0.3664095401763916
+    },
+    {
+      "sentence": "The rst concern was that \" making sound may disturb people around me \" (P6).",
+      "label": "Other",
+      "prob": 0.5824229121208191
+    },
+    {
+      "sentence": "First, P a simulated the person using the phone, while P b simulated a stranger nearby.",
+      "label": "Result",
+      "prob": 0.4588835537433624
+    },
+    {
+      "sentence": "Participants were rst given a short introduction to our task.",
+      "label": "Result",
+      "prob": 0.37913891673088074
+    },
+    {
+      "sentence": "Each participant was asked to complete a series of interaction tasks on the smartphone under three input conditions : Lip-Interact, touch operation with two hands, and touch operation with one hand.",
+      "label": "Method",
+      "prob": 0.3567027151584625
+    },
+    {
+      "sentence": "We also improve the recognition model with Spatial Transformer Networks [24] to solve the variability of mouth orientation in the mobile context.",
+      "label": "Method",
+      "prob": 0.34067603945732117
+    },
+    {
+      "sentence": "Concise and Differentiable Commands",
+      "label": "Other",
+      "prob": 0.5755172967910767
+    },
+    {
+      "sentence": "Recognition results will be displayed at the indicators location for two seconds after the user nishes issuing a command.",
+      "label": "Result",
+      "prob": 0.540248453617096
+    },
+    {
+      "sentence": "On average, participants spent less time with Lip-Interact on all interaction types except for Type V .",
+      "label": "Result",
+      "prob": 0.40212109684944153
+    },
+    {
+      "sentence": "Each participant was rst exposed to a practice session.",
+      "label": "Result",
+      "prob": 0.33517348766326904
+    },
+    {
+      "sentence": "screen showed the progress: red indicated that the participant was issuing a lip command with signicant mouth movements, while green indicated the other states.",
+      "label": "Result",
+      "prob": 0.5114563703536987
+    },
+    {
+      "sentence": "Figure 4 shows the nal command set in Chinese and the corresponding English translation.",
+      "label": "Result",
+      "prob": 0.4366721510887146
+    },
+    {
+      "sentence": "464%, indicating that our system could accurately identify even a new users commands.",
+      "label": "Result",
+      "prob": 0.6123450398445129
+    },
+    {
+      "sentence": "All of them concerned about privacy issues (i.e. \"I dont want my interactions to be observed by others in my immediate surroundings\") and social norms (i.e. \"my voice may disturb the surrounding environment\"), especially in public environments [40].",
+      "label": "Other",
+      "prob": 0.6771925687789917
+    },
+    {
+      "sentence": "The models are trained end-to-end by the Adam optimizer [30] with the multinomial cross entropy loss and a batch size of 32.",
+      "label": "Method",
+      "prob": 0.36514943838119507
+    },
+    {
+      "sentence": "Please Note that some of the subtasks contain two steps of operation (e.g. #18: place the cursor & paste, #19: select a word & bold).",
+      "label": "Other",
+      "prob": 0.40376585721969604
+    },
+    {
+      "sentence": "We argue that this simple difference signicantly enhances the user experience.",
+      "label": "Result",
+      "prob": 0.5630009770393372
+    },
+    {
+      "sentence": "At the same time, we admit that this is an interaction limitation on users.",
+      "label": "Result",
+      "prob": 0.5779037475585938
+    },
+    {
+      "sentence": "The experiment was conducted in a laboratory space with participants sitting comfortably.",
+      "label": "Result",
+      "prob": 0.4720565974712372
+    },
+    {
+      "sentence": "We recruited 22 participants (12M/10F, P1-P22), aged between 20 and 28 years ( M = 24.5).",
+      "label": "Other",
+      "prob": 0.39432159066200256
+    },
+    {
+      "sentence": "Lastly, we discuss the main limitations of our work, which also points to the directions of future work.",
+      "label": "Result",
+      "prob": 0.3285699784755707
+    },
+    {
+      "sentence": "Gestures can be very useful on small command sets [48].",
+      "label": "Other",
+      "prob": 0.689944863319397
+    },
+    {
+      "sentence": "Before implementing the Lip-Interact system, we rst describe several key design principles of the technique.",
+      "label": "Method",
+      "prob": 0.425923615694046
+    },
+    {
+      "sentence": "\" Days ago, I came out of the lab",
+      "label": "Other",
+      "prob": 0.6774457097053528
+    },
+    {
+      "sentence": "The features extracted by the convolutional nets are then attened and passed into two bidirectional Gated Recurrent Units (GRU) [10] for the modelling of dynamics.",
+      "label": "Method",
+      "prob": 0.571015477180481
+    },
+    {
+      "sentence": "For per frame between begin speaking and stop speaking , an afne transformation is applied based on the lip landmarks to extract a mouth crop image of size H  W = 100  80 pixels (Figure 5.b).",
+      "label": "Result",
+      "prob": 0.34306755661964417
+    },
+    {
+      "sentence": "Finally, we encouraged participants to suggest more applications for Lip-Interact.",
+      "label": "Result",
+      "prob": 0.443377286195755
+    },
+    {
+      "sentence": "Since touch is straightforward and performs well in many contexts on mobile devices, the goal of Lip-Interact is to offer users an alternative based on their current cognitive and motor conditions when touch is inferior.",
+      "label": "Objective",
+      "prob": 0.704509973526001
+    },
+    {
+      "sentence": "Dropout [43] of 0.5 is applied after each max-pooling layer.",
+      "label": "Method",
+      "prob": 0.5210630297660828
+    },
+    {
+      "sentence": "Lip-Interact increased input speed the most for Type II , Type III and Type IV , with an improvement of 26 .",
+      "label": "Result",
+      "prob": 0.5605068802833557
+    },
+    {
+      "sentence": "In the experimental session, the prompt window was not displayed.",
+      "label": "Result",
+      "prob": 0.5634523630142212
+    },
+    {
+      "sentence": "We calculated the whole input time from the beginning of the word selection to the end of marking it.",
+      "label": "Result",
+      "prob": 0.4708682894706726
+    },
+    {
+      "sentence": "We measured input time in seconds to quantify the efciency.",
+      "label": "Result",
+      "prob": 0.4438991844654083
+    },
+    {
+      "sentence": "Lip-Interact also had the smallest standard deviation of input time on all interaction types, showing that Lip-Interact provided a more stable and dependable way to access functionality.",
+      "label": "Result",
+      "prob": 0.7078165411949158
+    },
+    {
+      "sentence": "This is also why we classied each input into different types and analyzed respectively.",
+      "label": "Result",
+      "prob": 0.5358352661132812
+    },
+    {
+      "sentence": "Figure 2 illustrates how Lip-Interact is integrated into smartphone usage.",
+      "label": "Result",
+      "prob": 0.34274935722351074
+    },
+    {
+      "sentence": "We demonstrate that the model of a [ spatial transformer network + CNN + RNN ] architecture can accurately recognize around 20 silent speech commands with training data collected from dozens of users.",
+      "label": "Result",
+      "prob": 0.5944797992706299
+    },
+    {
+      "sentence": "For the segmentation of the silent speech sequence, the recall was 99.18%, and the precision was 99.59%.",
+      "label": "Result",
+      "prob": 0.6178657412528992
+    },
+    {
+      "sentence": "This data was used later to update the pre-trained models for personalization.",
+      "label": "Result",
+      "prob": 0.4555278420448303
+    },
+    {
+      "sentence": "P5 commented \" The feeling of being a passerby was related to the current environment. It did not matter in most cases, but sometimes I could not help but wonder what he or she was doing \".",
+      "label": "Other",
+      "prob": 0.6642212271690369
+    },
+    {
+      "sentence": "We collected a total of 90 blocks of task (10 participants  3 input conditions  3 replications).",
+      "label": "Result",
+      "prob": 0.5650738477706909
+    },
+    {
+      "sentence": "3D convolutional networks are more suitable for spatiotemporal feature learning than 2D convolutional networks [44, 25].",
+      "label": "Other",
+      "prob": 0.665118396282196
+    },
+    {
+      "sentence": "The other settings were the same as those in the implementation section.",
+      "label": "Result",
+      "prob": 0.518979012966156
+    },
+    {
+      "sentence": "The prompt oating window was displayed for learning.",
+      "label": "Result",
+      "prob": 0.49277833104133606
+    },
+    {
+      "sentence": "Three expressed that the mapping from command words to a single function could be n to 1.",
+      "label": "Result",
+      "prob": 0.4477773904800415
+    },
+    {
+      "sentence": "Our implementation uses an additional mounted camera and host server for computing.",
+      "label": "Method",
+      "prob": 0.46119004487991333
+    },
+    {
+      "sentence": "Although in our study, Lip-Interact outperformed touch-based input on most of the investigated tasks with a shorter completion time and higher input easiness, our purpose is not to substitute touch with Lip-Interact but to provide an alternative input approach.",
+      "label": "Objective",
+      "prob": 0.6857429146766663
+    },
+    {
+      "sentence": "For each time t , a sample was randomly selected from each class in S t .",
+      "label": "Result",
+      "prob": 0.4707670211791992
+    },
+    {
+      "sentence": "The second concern was self-embarrassment.",
+      "label": "Result",
+      "prob": 0.5820407867431641
+    },
+    {
+      "sentence": "The four groups were SH (20), SW (19), SN (19), and SP (16), where S denotes systems global functions, H denotes homescreen app-launching, W / N denotes WeChat / Notepad s built-in features and P denotes actions to respond to pop-up messages and dialogs (see Figure 4).",
+      "label": "Result",
+      "prob": 0.48040008544921875
+    },
+    {
+      "sentence": "For training and evaluation, we divided the 44 commands into four groups based on the principle of [ system functionality + current context ].",
+      "label": "Method",
+      "prob": 0.42257755994796753
+    },
+    {
+      "sentence": "For both apps, we elicited the most frequently-used functionalities as above.",
+      "label": "Result",
+      "prob": 0.5903097987174988
+    },
+    {
+      "sentence": "We also chose two representative apps for evaluation: WeChat 1 and Notepad .",
+      "label": "Result",
+      "prob": 0.5783315896987915
+    },
+    {
+      "sentence": "We used Standard Chinese as the experiment language to facilitate data collection and user evaluation locally.",
+      "label": "Result",
+      "prob": 0.38570886850357056
+    },
+    {
+      "sentence": "The order of the three conditions were counter-balanced across participants.",
+      "label": "Result",
+      "prob": 0.6284870505332947
+    },
+    {
+      "sentence": "There are two main reasons for this.",
+      "label": "Other",
+      "prob": 0.5392380356788635
+    },
+    {
+      "sentence": "Our recognition method built on the latest research [4, 12] on lip reading in computer vision and was improved to adapt to",
+      "label": "Result",
+      "prob": 0.41245803236961365
+    },
+    {
+      "sentence": "However, participants also thought that there was room for improvement for Lip-Interact.",
+      "label": "Result",
+      "prob": 0.6842480897903442
+    },
+    {
+      "sentence": "We collect silent speech data of 44 commands from 22 participants.",
+      "label": "Result",
+      "prob": 0.5638100504875183
+    },
+    {
+      "sentence": "None had participated in the previous data-collection experiment.",
+      "label": "Result",
+      "prob": 0.38753581047058105
+    },
+    {
+      "sentence": "To evaluate the feasibility of Lip-Interact, we selected 44 popular commands (including those for two representative apps) to collect data, implement system and conduct user studies.",
+      "label": "Method",
+      "prob": 0.3801322877407074
+    },
+    {
+      "sentence": "We developed the Notepad app (3.b) by ourselves which supported basic text editing functionalities.",
+      "label": "Result",
+      "prob": 0.3774279057979584
+    },
+    {
+      "sentence": "The results showed that Lip-Interact could quickly learn and personalized the model as users made more use of it.",
+      "label": "Result",
+      "prob": 0.7179160714149475
+    },
+    {
+      "sentence": "But for the command \" Like \", 25 of the 47 samples were misclassied into \" Bluetooth \".",
+      "label": "Other",
+      "prob": 0.5939821004867554
+    },
+    {
+      "sentence": "Instead, the common",
+      "label": "Other",
+      "prob": 0.5050348043441772
+    },
+    {
+      "sentence": "Finally, the output at the last time-step of the second GRU is followed by a fully connected layer with a softmax function to predict the lip-command class.",
+      "label": "Method",
+      "prob": 0.47315123677253723
+    },
+    {
+      "sentence": "For the implementation of input control, we used the XunFei SDK 3 for command recognition.",
+      "label": "Result",
+      "prob": 0.4616568684577942
+    },
+    {
+      "sentence": "The computing is conducted on a host with CPU of Intel Core i7 4.20 GHz  8 and GPU of GeForce GTX 1080 Ti.",
+      "label": "Result",
+      "prob": 0.3614528179168701
+    },
+    {
+      "sentence": "On average, MMOD increased by only 7% when participants were issuing silent speech commands.",
+      "label": "Result",
+      "prob": 0.7484244108200073
+    },
+    {
+      "sentence": "Our spatial transformer module uses bilinear sampling and a 16-point thin plate spline transformation (TPS) with a regular grid of control points as the transformation function to solve relative mouth positioning towards the camera.",
+      "label": "Method",
+      "prob": 0.5813753008842468
+    },
+    {
+      "sentence": "Among the 19 commands, 18 could be accurately recognized.",
+      "label": "Result",
+      "prob": 0.5923198461532593
+    },
+    {
+      "sentence": "(1) Design and Implementation .",
+      "label": "Other",
+      "prob": 0.4522600471973419
+    },
+    {
+      "sentence": "The whole experiment took around 90 minutes.",
+      "label": "Result",
+      "prob": 0.5738669037818909
+    },
+    {
+      "sentence": "54% misclassied samples, we found that these errors were not evenly distributed in different classes.",
+      "label": "Result",
+      "prob": 0.7278003096580505
+    },
+    {
+      "sentence": "Human-centered computing  Interaction techniques;",
+      "label": "Other",
+      "prob": 0.7131762504577637
+    },
+    {
+      "sentence": "We use the ReLU activation function and batch-normalize [23] the outputs of each convolution layer.",
+      "label": "Method",
+      "prob": 0.4704661965370178
+    },
+    {
+      "sentence": "For analysis, we divided the tasks into six types based on their touch interaction properties.",
+      "label": "Method",
+      "prob": 0.4132451117038727
+    },
+    {
+      "sentence": "For example, the classication accuracy of SW of P4 was 96.625%.",
+      "label": "Result",
+      "prob": 0.7224953770637512
+    },
+    {
+      "sentence": "For P4, the classication accuracy of SW raised to 98.78% after the 1st update and nally reached 99.40%.",
+      "label": "Result",
+      "prob": 0.757082462310791
+    },
+    {
+      "sentence": "Before feeding the data to our model, we augmented the dataset by applying a horizontally mirrored transformation on the mouth crop images.",
+      "label": "Method",
+      "prob": 0.5919922590255737
+    },
+    {
+      "sentence": "We selected Notepad as the second app because text editing",
+      "label": "Other",
+      "prob": 0.42489221692085266
+    },
+    {
+      "sentence": "We compared Lip-Interact with touch input on only one device.",
+      "label": "Result",
+      "prob": 0.6149656176567078
+    },
+    {
+      "sentence": "We also for the rst time study the feasibility of Lip-Interact from three aspects:",
+      "label": "Result",
+      "prob": 0.6097500324249268
+    },
+    {
+      "sentence": "Although introducing some latency, this setup afforded us a exible framework for faster prototyping.",
+      "label": "Result",
+      "prob": 0.7326266765594482
+    },
+    {
+      "sentence": "Finally, the participant was asked to remember the task contents.",
+      "label": "Result",
+      "prob": 0.5308822989463806
+    },
+    {
+      "sentence": "To implement the Lip-Interact prototype, we equipped a smartphone (Huawei P9 Plus with a 5.5 inch screen running Android 7.0) with a 720p/30-fps camera at the top (see Figure 5.a).",
+      "label": "Result",
+      "prob": 0.4984140694141388
+    },
+    {
+      "sentence": "A circular view on the devices",
+      "label": "Other",
+      "prob": 0.4919775724411011
+    },
+    {
+      "sentence": "P2 said \" Every time I spoke out a command, I felt like someone else was watching me. It was strange and sometimes awkward \".",
+      "label": "Other",
+      "prob": 0.7735586762428284
+    },
+    {
+      "sentence": "The goal of Lip-Interact is to provide a simple, yet powerful approach to issuing commands on the smartphone.",
+      "label": "Objective",
+      "prob": 0.8155174255371094
+    },
+    {
+      "sentence": "For each task type, we ran a one-way repeated-measures ANOVA for input condition .",
+      "label": "Result",
+      "prob": 0.5193625688552856
+    },
+    {
+      "sentence": "Abstractingwithcreditispermitted.",
+      "label": "Other",
+      "prob": 0.7604396343231201
+    },
+    {
+      "sentence": "2.Whatisthe behavior of users using Lip-Interact, and how does it change over time?",
+      "label": "Other",
+      "prob": 0.8006821274757385
+    },
+    {
+      "sentence": "The participant was then exposed to the experimental session.",
+      "label": "Result",
+      "prob": 0.535926878452301
+    },
+    {
+      "sentence": "Recently, Kapur et al.",
+      "label": "Other",
+      "prob": 0.8025292754173279
+    },
+    {
+      "sentence": "For each category, we calculated the average ranking of every item across participants and selected the top results into the nal command set.",
+      "label": "Result",
+      "prob": 0.5457622408866882
+    },
+    {
+      "sentence": "This work is supported by the National Key Research and Development Plan under Grant No. 2016YFB1001200, the Natural Science Foundation of China under Grant No. 61672314 and No. 61572276, Tsinghua University Research Funding No. 20151080408, and also by Beijing Key Lab of Networked Multimedia.",
+      "label": "Other",
+      "prob": 0.5538385510444641
+    },
+    {
+      "sentence": "Features extracted from the two image sources were used for recognition.",
+      "label": "Result",
+      "prob": 0.5149408578872681
+    },
+    {
+      "sentence": "For the segmentation of the silent speaking se-",
+      "label": "Other",
+      "prob": 0.6560878753662109
+    },
+    {
+      "sentence": "Each participant completed 44 blocks.",
+      "label": "Result",
+      "prob": 0.5725075006484985
+    },
+    {
+      "sentence": "A total of 735 valid instances were collected.",
+      "label": "Result",
+      "prob": 0.6874421238899231
+    },
+    {
+      "sentence": "The performance outperformed prior research which handled even smaller command sets [26, 12].",
+      "label": "Other",
+      "prob": 0.6832788586616516
+    },
+    {
+      "sentence": "Participants rated their level of previous experience with speech interaction at 2.36 ( SD = 0 . 79) on a 1 to 5 scale (no experience to very experienced).",
+      "label": "Result",
+      "prob": 0.6462914943695068
+    },
+    {
+      "sentence": "Future work should be done to improve the algorithm and explore the theoretical upper bound.",
+      "label": "Result",
+      "prob": 0.3498084843158722
+    },
+    {
+      "sentence": "We verify the feasibility of LipInteract by implementing a real-working prototype and conducting three experiments.",
+      "label": "Result",
+      "prob": 0.6233242750167847
+    },
+    {
+      "sentence": "With each technique, P a was free to use the device for three minutes, accessing any of the functionalities that our system supported.",
+      "label": "Result",
+      "prob": 0.6732048988342285
+    },
+    {
+      "sentence": "The command set was determined through a user-elicitation study with 15 participants.",
+      "label": "Result",
+      "prob": 0.6688812375068665
+    },
+    {
+      "sentence": "For Privacy , P4 commented that \" If there are other people around me, there is no privacy when using the voice interaction. People will know what I am doing on my device. Using the silent speech can largely protect my interaction privacy, unless others are looking at me very carefully. \"",
+      "label": "Other",
+      "prob": 0.7021505236625671
+    },
+    {
+      "sentence": "It provides a layout",
+      "label": "Result",
+      "prob": 0.38006776571273804
+    },
+    {
+      "sentence": "The frames from the front camera are processed with the DLib face detector [29].",
+      "label": "Other",
+      "prob": 0.44096797704696655
+    },
+    {
+      "sentence": "Lip-Interact Voice Command",
+      "label": "Other",
+      "prob": 0.7777692675590515
+    },
+    {
+      "sentence": "On average, the accuracy of leave-one-subject-out was 95 .",
+      "label": "Result",
+      "prob": 0.5921623706817627
+    },
+    {
+      "sentence": "Table 3 shows the mean input time of accessing the seven types of functionality under three input conditions .",
+      "label": "Result",
+      "prob": 0.7321366667747498
+    },
+    {
+      "sentence": "quence, the recall was 97.8%, and the precision was 97.3%.",
+      "label": "Result",
+      "prob": 0.7291251420974731
+    },
+    {
+      "sentence": "The ten participants in Study 2 were recruited again.",
+      "label": "Result",
+      "prob": 0.6766785979270935
+    },
+    {
+      "sentence": "The classication accuracies of all four groups improved signicantly as the number of updates increased, reaching 99.22%, 99.21%, 98.37% and 99.11% respectively at the 6th update.",
+      "label": "Result",
+      "prob": 0.7936531901359558
+    },
+    {
+      "sentence": "But for Lip-Interact, \" I rarely detected a noticeable difference. \".",
+      "label": "Other",
+      "prob": 0.7259582877159119
+    },
+    {
+      "sentence": "For each participant, we denoted the pre-trained leave-her/him-out model as M 0 and all of her/his samples as S 0 .",
+      "label": "Other",
+      "prob": 0.39004477858543396
+    },
+    {
+      "sentence": "It worked well under our experimental conditions.",
+      "label": "Result",
+      "prob": 0.7035709619522095
+    },
+    {
+      "sentence": "compared to touch with one hand.",
+      "label": "Result",
+      "prob": 0.639270007610321
+    },
+    {
+      "sentence": "Table 1 summarizes the hyperparameters of the recognition model.",
+      "label": "Result",
+      "prob": 0.6480282545089722
+    },
+    {
+      "sentence": "Besides, we have only tested the Chinese language.",
+      "label": "Result",
+      "prob": 0.6647813320159912
+    },
+    {
+      "sentence": "Our research shows high accuracy for recognizing about 20 commands.",
+      "label": "Result",
+      "prob": 0.7426536083221436
+    },
+    {
+      "sentence": "Results show that for a context-based set of around 20 commands, the mean recognition accuracy is 95 .",
+      "label": "Result",
+      "prob": 0.7014800906181335
+    },
+    {
+      "sentence": "The architecture starts with a Spatial Transformer network [24] on each input frame whose dimension is H  W  3.",
+      "label": "Other",
+      "prob": 0.6565099954605103
+    },
+    {
+      "sentence": "Table 2 summarizes the overall classication accuracies of the four groups.",
+      "label": "Result",
+      "prob": 0.7375227212905884
+    },
+    {
+      "sentence": "The goal of our rst study was to verify the feasibility of using Lip-Interact on a mobile device.",
+      "label": "Objective",
+      "prob": 0.824285626411438
+    },
+    {
+      "sentence": "When on the homescreen or on the recent-applications interface, the user can open a desired app by issuing e.g., \" open camera \".",
+      "label": "Other",
+      "prob": 0.817072868347168
+    },
+    {
+      "sentence": "We chose the subway as our experimental environment.",
+      "label": "Result",
+      "prob": 0.618323564529419
+    },
+    {
+      "sentence": "I was wearing gloves.",
+      "label": "Other",
+      "prob": 0.6378608345985413
+    },
+    {
+      "sentence": "P9 said \" I had never thought these things could be identied. When I rst silently spoke the command and saw the correct response, It felt really good. \"",
+      "label": "Other",
+      "prob": 0.7938365936279297
+    },
+    {
+      "sentence": "The cross-validation process was repeated 22 times, and the accuracies were averaged to produce the nal result.",
+      "label": "Result",
+      "prob": 0.7149356603622437
+    },
+    {
+      "sentence": "P2 said \" It felt like reading incantations. I did not have to select the command from the menu every time so that I could concentrate on the text itself \".",
+      "label": "Other",
+      "prob": 0.7915260195732117
+    },
+    {
+      "sentence": "The accuracies increased the most at the 1st update with an average improvement of 1.74%.",
+      "label": "Result",
+      "prob": 0.8058245778083801
+    },
+    {
+      "sentence": "The cases using Lip-Interact in parallel (2.37s) were 22 .",
+      "label": "Other",
+      "prob": 0.4441474378108978
+    },
+    {
+      "sentence": "We deem this to be a promising setup for practical use.",
+      "label": "Result",
+      "prob": 0.7374449372291565
+    },
+    {
+      "sentence": "The ten participants were divided into ve groups.",
+      "label": "Result",
+      "prob": 0.653084397315979
+    },
+    {
+      "sentence": "Input Time",
+      "label": "Other",
+      "prob": 0.7182197570800781
+    },
+    {
+      "sentence": "P5 said \" There was a time when I wanted to say back to home instead of the required home. Although I ended up successfully issuing the correct command, a more exible mapping would further improve the experience of this technology. \"",
+      "label": "Other",
+      "prob": 0.7967179417610168
+    },
+    {
+      "sentence": "We rst apply a band-pass lter on the audio signal to remove part of the background noise, and then calculate the peaks (syllables) of the signal.",
+      "label": "Method",
+      "prob": 0.5721179842948914
+    },
+    {
+      "sentence": "3 http://www.xfyun.cn/services/commandWord",
+      "label": "Other",
+      "prob": 0.8765686750411987
+    },
+    {
+      "sentence": "lip movements.",
+      "label": "Other",
+      "prob": 0.7359194755554199
+    },
+    {
+      "sentence": "05% compared to touch with two hands and 46 .",
+      "label": "Other",
+      "prob": 0.46932467818260193
+    },
+    {
+      "sentence": "Of the 22 participants, the samples of one participant were retained as the validation data for evaluating the model, and the samples of the other 21 participants were used as the training data.",
+      "label": "Result",
+      "prob": 0.6993914842605591
+    },
+    {
+      "sentence": "The parameters of M t were updated with the selected samples, forming the new model M t + 1 , which was then evaluated by the remaining samples S t + 1 of the participant.",
+      "label": "Result",
+      "prob": 0.5986172556877136
+    },
+    {
+      "sentence": "Figure 9 shows the whole interaction task.",
+      "label": "Result",
+      "prob": 0.722954273223877
+    },
+    {
+      "sentence": "For the command recognition, the mean accuracy was 97.9%.",
+      "label": "Result",
+      "prob": 0.7888373732566833
+    },
+    {
+      "sentence": "UIST 18, October 1417, 2018, Berlin, Germany",
+      "label": "Other",
+      "prob": 0.8772584795951843
+    },
+    {
+      "sentence": "Looking into the  4 .",
+      "label": "Result",
+      "prob": 0.46411409974098206
+    },
+    {
+      "sentence": "Our experiment results reect the performance of Lip-Interact in a controlled setting.",
+      "label": "Result",
+      "prob": 0.8342774510383606
+    },
+    {
+      "sentence": "Different from previous lip-reading researches that use recorded video or news as the dataset, we validate the feasibility of Lip-Interact by collecting data and evaluating the system when users are actually using the smartphone.",
+      "label": "Result",
+      "prob": 0.5650471448898315
+    },
+    {
+      "sentence": "For command recognition, the mean accuracy was 97.5%.",
+      "label": "Result",
+      "prob": 0.7952869534492493
+    },
+    {
+      "sentence": "Our implementation on the smartphone uses Android Accessibility Service 2 .",
+      "label": "Other",
+      "prob": 0.6540928483009338
+    },
+    {
+      "sentence": "In each frame, the method of Kazemi and Sullivan [27] is used to identify the facial landmarks, 20 of which describe the feature points of the mouth (Figure 5.b).",
+      "label": "Method",
+      "prob": 0.7330785393714905
+    },
+    {
+      "sentence": "We were trying to make the data diverse and the result representative.",
+      "label": "Result",
+      "prob": 0.7567588686943054
+    },
+    {
+      "sentence": "Video Player",
+      "label": "Other",
+      "prob": 0.8305284380912781
+    },
+    {
+      "sentence": "We list several representative examples.",
+      "label": "Result",
+      "prob": 0.7663940787315369
+    },
+    {
+      "sentence": "We collected data and examined the recognition performance.",
+      "label": "Result",
+      "prob": 0.7565129399299622
+    },
+    {
+      "sentence": "9% for user-dependent setting.",
+      "label": "Other",
+      "prob": 0.6337441205978394
+    },
+    {
+      "sentence": "1. What is the advantage of Lip-Interact compared with touch interaction?",
+      "label": "Other",
+      "prob": 0.8794007301330566
+    },
+    {
+      "sentence": "P3 commented that \" I could remember all the commands right after the practice session. These commands are concise and intuitive. \" Six participants expressed surprise at the accuracy of the recognition.",
+      "label": "Result",
+      "prob": 0.8045495748519897
+    },
+    {
+      "sentence": "An analysis using the Friedman test showed that participants reported signicantly higher levels of satisfaction for LipInteract than for voice input on all three measures ( p = . 00157,  2 r = 10).",
+      "label": "Result",
+      "prob": 0.6984857320785522
+    },
+    {
+      "sentence": "ISBN 978-1-4503-5948-1/18/10..",
+      "label": "Other",
+      "prob": 0.9158070683479309
+    },
+    {
+      "sentence": "(3) Evaluation .",
+      "label": "Result",
+      "prob": 0.5612726211547852
+    },
+    {
+      "sentence": "2 https://developer.android.com/training/accessibility/service.html",
+      "label": "Other",
+      "prob": 0.9157240390777588
+    },
+    {
+      "sentence": "P4 commented: \" For the task of selecting a word and then highlight/bold it, I initially performed the two steps in sequence in the rst block. But since using Lip-Interact always took some time, in the next blocks, I tried to start issuing the command before I nished the selection. It is faster .\"",
+      "label": "Result",
+      "prob": 0.6250287890434265
+    },
+    {
+      "sentence": "through deep learning methods [45, 12, 11, 4].",
+      "label": "Other",
+      "prob": 0.7039594650268555
+    },
+    {
+      "sentence": "The above results verify the feasibility of Lip-Interact from two aspects.",
+      "label": "Result",
+      "prob": 0.8688287734985352
+    },
+    {
+      "sentence": "These types were:",
+      "label": "Other",
+      "prob": 0.7540981769561768
+    },
+    {
+      "sentence": "We performed model training and evaluation on each group.",
+      "label": "Result",
+      "prob": 0.7218480706214905
+    },
+    {
+      "sentence": "(2) Accuracy .",
+      "label": "Other",
+      "prob": 0.4759907126426697
+    },
+    {
+      "sentence": "Table 4 lists participants quantitative rating of overall input easiness for the three input conditions , from strongly disagree 1 to strongly agree 5.",
+      "label": "Other",
+      "prob": 0.5361359715461731
+    },
+    {
+      "sentence": "4% for user-independent setting and can reach 98 .",
+      "label": "Other",
+      "prob": 0.5922231078147888
+    },
+    {
+      "sentence": "Request permissions from permissions@acm.org.",
+      "label": "Other",
+      "prob": 0.9176303744316101
+    },
+    {
+      "sentence": "1 https://en.wikipedia.org/wiki/WeChat",
+      "label": "Other",
+      "prob": 0.9158123135566711
+    },
+    {
+      "sentence": "Brumberg et al.",
+      "label": "Other",
+      "prob": 0.9138294458389282
+    },
+    {
+      "sentence": "The results are listed in Table 5.",
+      "label": "Result",
+      "prob": 0.8252188563346863
+    },
+    {
+      "sentence": "DOI: https://doi.org/10.1145/3242587.3242599",
+      "label": "Other",
+      "prob": 0.9270443916320801
+    },
+    {
+      "sentence": "Research questions include:",
+      "label": "Other",
+      "prob": 0.8494648337364197
+    },
+    {
+      "sentence": "Figure 8 shows the results.",
+      "label": "Result",
+      "prob": 0.8511965274810791
+    },
+    {
+      "sentence": "CCS Concepts",
+      "label": "Other",
+      "prob": 0.9145587086677551
+    },
+    {
+      "sentence": "Hueber et al.",
+      "label": "Other",
+      "prob": 0.9317712783813477
+    },
+    {
+      "sentence": "For each interaction type, the input time was signicantly affected by input condition ( Type I: F 1 , 29 = 4 . 9 , p < . 05; Type II: F 1 , 29 = 41 . 9 , p < . 0001; Type III: F 1 , 29 = 85 . 6 , p < . 0001; Type IV: F 1 , 29 = 30 . 3 , p < . 0001; Type V: F 1 , 29 = 9 . 34 , p < . 01; Type VI: F 1 , 29 = 13 . 7 , p < . 001).",
+      "label": "Other",
+      "prob": 0.5096657276153564
+    },
+    {
+      "sentence": "An analysis using Friedman test showed that for our tasks participants reported signicantly stronger agreement for Lip-Interact than the two touch conditions on input easiness ( p = . 00015,  2 r = 17 . 64).",
+      "label": "Other",
+      "prob": 0.6752475500106812
+    },
+    {
+      "sentence": "Author Keywords",
+      "label": "Other",
+      "prob": 0.9486260414123535
+    }
+  ]
+}

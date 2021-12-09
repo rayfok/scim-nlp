@@ -1,0 +1,39 @@
+{
+  "uist-0": [
+    {
+      "sentence": "However in the moment, photographers have so many things to simultaneously consider, it can be hard to catch every detail.",
+      "label": "Background",
+      "prob": 0.9471307396888733
+    },
+    {
+      "sentence": "Designers have long known the benefts of abstraction for seeing a more holistic view of their design.",
+      "label": "Background",
+      "prob": 0.9264216423034668
+    },
+    {
+      "sentence": "Unwanted clutter in a photo can be incredibly distracting.",
+      "label": "Background",
+      "prob": 0.9043946862220764
+    },
+    {
+      "sentence": "Specifcally, we wondered if such abstraction might draw the photographers attention away from details in the subject to noticing objects in the background, such as unwanted clutter.",
+      "label": "Background",
+      "prob": 0.8328042030334473
+    },
+    {
+      "sentence": "We wondered if, similarly, some form of image abstraction might be helpful for photographers as an alternative perspective or lens with which to see their image.",
+      "label": "Background",
+      "prob": 0.8044585585594177
+    },
+    {
+      "sentence": "photography, camera interfaces, declutter, composition",
+      "label": "Other",
+      "prob": 0.6247957348823547
+    },
+    {
+      "sentence": "We present our process for designing such a camera overlay, based on the idea of using",
+      "label": "Method",
+      "prob": 0.34285447001457214
+    }
+  ]
+}

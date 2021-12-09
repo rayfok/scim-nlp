@@ -1,0 +1,59 @@
+{
+  "uist-7": [
+    {
+      "sentence": "that hand-tracking has the potential to enable rapid text entry in mobile environments.",
+      "label": "Background",
+      "prob": 0.8788800835609436
+    },
+    {
+      "sentence": "To enable touch typing without the haptic feedback of a physical keyboard, we had to address more erratic typing motion due to drift of the ngers.",
+      "label": "Background",
+      "prob": 0.7481642961502075
+    },
+    {
+      "sentence": "Thus, we incorporate a language model as a text prior and use beam search to efciently combine our motion and language models to decode text from erratic or ambiguous hand motion.",
+      "label": "Background",
+      "prob": 0.46929842233657837
+    },
+    {
+      "sentence": "We collected a dataset of 20 touch typists and evaluated our model on several baselines, including contactbased text decoding and typing on a physical keyboard.",
+      "label": "Background",
+      "prob": 0.3713776171207428
+    },
+    {
+      "sentence": "We use a temporal convolutional network to represent a motion model that maps the hand motion, represented as a sequence of hand pose features, into text characters.",
+      "label": "Method",
+      "prob": 0.4697747528553009
+    },
+    {
+      "sentence": "Human-centered computing  Text input; Virtual reality;  Computing methodologies  Natural language generation;",
+      "label": "Other",
+      "prob": 0.5272074937820435
+    },
+    {
+      "sentence": "text input; hand-tracking; augmented reality; virtual reality",
+      "label": "Other",
+      "prob": 0.5843514800071716
+    },
+    {
+      "sentence": "We propose a novel text decoding method that enables touch typing on an uninstrumented at surface.",
+      "label": "Method",
+      "prob": 0.6415295004844666
+    },
+    {
+      "sentence": "Our proposed method is able to leverage continuous hand pose information to decode text more accurately than contact-based methods and an ofine study shows parity (73 WPM, 2.38% UER) with typing on a physical keyboard.",
+      "label": "Result",
+      "prob": 0.7168692946434021
+    },
+    {
+      "sentence": "Rather than relying on physical keyboards or capacitive touch, our method takes as input hand motion of the typist, obtained through hand-tracking, and decodes this motion directly into text.",
+      "label": "Method",
+      "prob": 0.823117196559906
+    },
+    {
+      "sentence": "Our results show",
+      "label": "Result",
+      "prob": 0.7990118265151978
+    }
+  ]
+}

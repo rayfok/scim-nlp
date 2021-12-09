@@ -1,0 +1,39 @@
+{
+  "uist-3": [
+    {
+      "sentence": "Augmented reality requires precise and instant overlay of digital information onto everyday objects.",
+      "label": "Background",
+      "prob": 0.9238960146903992
+    },
+    {
+      "sentence": "We take advantage of pervasive point lights  such as LEDs and light bulbs  for both in-view anchoring and data transmission.",
+      "label": "Background",
+      "prob": 0.7427546977996826
+    },
+    {
+      "sentence": "These lights are blinked at high speed to encode data.",
+      "label": "Background",
+      "prob": 0.6841810345649719
+    },
+    {
+      "sentence": "Augmented Reality; Smartphones, Tags, Markers, Visible Light Communication; Mobile Interaction.",
+      "label": "Background",
+      "prob": 0.49970096349716187
+    },
+    {
+      "sentence": "We built a proof-of-concept application that runs on iOS without any hardware or software modifications.",
+      "label": "Background",
+      "prob": 0.48021939396858215
+    },
+    {
+      "sentence": "We also ran a study to characterize the performance of LightAnchors and built eleven example demos to highlight the potential of our approach.",
+      "label": "Result",
+      "prob": 0.45807626843452454
+    },
+    {
+      "sentence": "We present our work on LightAnchors, a new method for displaying spatially-anchored data.",
+      "label": "Method",
+      "prob": 0.734537661075592
+    }
+  ]
+}
