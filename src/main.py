@@ -26,14 +26,16 @@ def main(args):
     output_path = f"{OUTPUT_ROOT_DIR}/facets"
     sections_output_path = f"{OUTPUT_ROOT_DIR}/sections"
     captions_output_path = f"{OUTPUT_ROOT_DIR}/captions"
-    sentences_output_path = f"{OUTPUT_ROOT_DIR}/sentences"
+    first_sentence_output_path = f"{OUTPUT_ROOT_DIR}/first_sentences"
+    all_sentences_output_path = f"{OUTPUT_ROOT_DIR}/all_sentences"
     abstract_output_path = f"{OUTPUT_ROOT_DIR}/abstract"
 
     paths = [
         output_path,
         sections_output_path,
         captions_output_path,
-        sentences_output_path,
+        first_sentence_output_path,
+        all_sentences_output_path,
         abstract_output_path,
     ]
     if all(os.path.exists(f"{p}/{args.arxiv_id}.json") for p in paths):
@@ -51,7 +53,7 @@ def main(args):
         with open(spp_output_file, "w") as out:
             json.dump(layout, out, indent=2)
 
-    azc = AZClassifier(spp_output_file, dataset="spp")  # initialize classifier
+    azc = AZClassifier(spp_output_file, dataset="spp")
 
     # Convert scienceparseplus output into a data format for sequential-sentence-classification
     ssc_input_file = f"{SSC_INPUT_DIR}/{args.arxiv_id}.jsonl"
@@ -115,7 +117,7 @@ def main(args):
         serialized = [m.to_json() for m in media_units]
         json.dump(serialized, out, indent=2)
 
-    # Next, we get all sections and their bboxes.
+    # Get all sections and their bboxes.
     section_units = []
     for section_block in azc.paper.get_section_bboxes():
         section_units.append(
@@ -125,10 +127,25 @@ def main(args):
         serialized = [s.to_json() for s in section_units]
         json.dump(serialized, out, indent=2)
 
-    # Next, we get all first sentences and their bboxes.
-    with open(f"{sentences_output_path}/{args.arxiv_id}.json", "w") as out:
-        serialized = [s.to_json() for s in azc.paper.get_first_sentences()]
-        json.dump(serialized, out, indent=2)
+    # Get first sentences and their bboxes.
+    with open(f"{first_sentence_output_path}/{args.arxiv_id}.json", "w") as out:
+        first_sents = [s.to_json() for s in azc.paper.get_first_sentences()]
+        for first_sent in first_sents:
+            if first_sent["text"] in azc.paper.sent_sect_map:
+                first_sent["section"] = azc.paper.sent_sect_map[first_sent["text"]]
+            else:
+                print(f"No section found for sentence: {first_sent['text']}")
+        json.dump(first_sents, out, indent=2)
+
+    # Get all sentences and their bounding boxes
+    with open(f"{all_sentences_output_path}/{args.arxiv_id}.json", "w") as out:
+        all_sents = [s.to_json() for s in azc.paper.sentences]
+        for sent in all_sents:
+            if sent["text"] in azc.paper.sent_sect_map:
+                sent["section"] = azc.paper.sent_sect_map[sent["text"]]
+            else:
+                print(f"No section found for sentence: {sent['text']}")
+        json.dump(all_sents, out, indent=2)
 
     ## Next, we get author statements (i.e., clauses including "we", "our", "this paper")
     # author_statements = azc.get_short_author_statements()
@@ -200,23 +217,11 @@ def main(args):
         json.dump(serialized, out, indent=2)
 
 
-def test(args):
-    spp_output_file = f"{SPP_OUTPUT_DIR}/{args.arxiv_id}.json"
-    azc = AZClassifier(spp_output_file, dataset="spp")
-    for sent, sect in azc.paper.sent_sect_map.items():
-        print(sent[:50], sect)
-        print()
-
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--arxiv_id", type=str, required=True,
     )
-    parser.add_argument("--test", action="store_true")
     args = parser.parse_args()
 
-    if args.test:
-        test(args)
-    else:
-        main(args)
+    main(args)

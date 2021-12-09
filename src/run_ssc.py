@@ -41,7 +41,7 @@ def run_ssc(model_path: str, test_jsonl_file: str, output_json_file: str):
     }
 
     model_archive = load_archive(
-        model_path, overrides=json.dumps(overrides), cuda_device=0
+        model_path, overrides=json.dumps(overrides), cuda_device=2
     )
     predictor = Predictor.from_archive(model_archive, "SeqClassificationPredictor")
     dataset_reader = predictor._dataset_reader

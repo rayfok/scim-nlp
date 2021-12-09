@@ -249,19 +249,19 @@ class SPPPaper:
             match = re.search(r"[-+]?\d*\.\d+|\d+", sect)
             if match:
                 sect_number = match.group()
-            sect_number_parts = sect_number.split(".")
+                sect_number_parts = sect_number.split(".")
 
-            if len(sect_number_parts) == 3:
-                first_level_header = all_sections.get(sect_number_parts[0], "")
-                second_level_header = all_sections.get(
-                    ".".join(sect_number_parts[:2]), ""
-                )
-                sent_sect_map[
-                    sent
-                ] = f"{first_level_header} @@ {second_level_header} @@ {sect}"
-            elif len(sect_number_parts) == 2:
-                first_level_header = all_sections.get(sect_number_parts[0], "")
-                sent_sect_map[sent] = f"{first_level_header} @@ {sect}"
+                if len(sect_number_parts) == 3:
+                    first_level_header = all_sections.get(sect_number_parts[0], "")
+                    second_level_header = all_sections.get(
+                        ".".join(sect_number_parts[:2]), ""
+                    )
+                    sent_sect_map[
+                        sent
+                    ] = f"{first_level_header} @@ {second_level_header} @@ {sect}"
+                elif len(sect_number_parts) == 2:
+                    first_level_header = all_sections.get(sect_number_parts[0], "")
+                    sent_sect_map[sent] = f"{first_level_header} @@ {sect}"
 
         # Give "abstract" section for each sentence in the abstract
         for abstract_sent in self.abstract:
